@@ -1,0 +1,1151 @@
+{{CompactTOC10|sections={{CompactTOC10s|section=Mathematics categories|sub=}}
+{{CompactTOC10s|section=Mathematicians categories|sub=_2}}
+{{CompactTOC10s|section=Mathematics-related categories|sub=_3}}
+}}
+
+== Mathematics categories==
+:''The contents of these categories will be automatically added to the [[list of mathematics articles]]''.
+
+=== 0&ndash;9 ===
+
+[[:Category:3-manifolds|3-manifolds]] -- 
+[[:Category:4-dimensional geometry|4-dimensional geometry]] -- 
+[[:Category:4-manifolds|4-manifolds]] -- 
+
+=== A ===
+
+[[:Category:Abelian group theory|Abelian group theory]] --
+[[:Category:Abelian varieties|Abelian varieties]] --
+[[:Category:Abstract algebra|Abstract algebra]] --
+[[:Category:Additive categories|Additive categories]] -- 
+[[:Category:Adjoint functors|Adjoint functors]] -- 
+[[:Category:Affine geometry|Affine geometry]] --
+[[:Category:Algebra|Algebra]] --
+[[:Category:Algebra stubs|Algebra stubs]] -- 
+[[:Category:Algebraic curves|Algebraic curves]] --
+[[:Category:Algebraic geometry|Algebraic geometry]] --
+[[:Category:Algebraic graph theory|Algebraic graph theory]] --
+[[:Category:Algebraic groups|Algebraic groups]] --
+[[:Category:Algebraic homogeneous spaces|Algebraic homogeneous spaces]] -- 
+[[:Category:Algebraic logic|Algebraic logic]] -- 
+[[:Category:Algebraic number theory|Algebraic number theory]] --
+[[:Category:Algebraic numbers|Algebraic numbers]] --
+[[:Category:Algebraic surfaces|Algebraic surfaces]] --
+[[:Category:Algebraic topology|Algebraic topology]] --
+[[:Category:Algebraic varieties|Algebraic varieties]] --
+[[:Category:Analysis of variance|Analysis of variance]] -- 
+[[:Category:Analytic number theory|Analytic number theory]] --
+[[:Category:Applied mathematics|Applied mathematics]] -- 
+[[:Category:Applied mathematics stubs|Applied mathematics stubs]] -- 
+[[:Category:Approximation theory|Approximation theory]] -- 
+[[:Category:Arbitrary precision algorithms|Arbitrary precision algorithms]] --  
+[[:Category:Archimedean solids|Archimedean solids]] -- 
+[[:Category:Arithmetic|Arithmetic]] -- 
+[[:Category:Arithmetic functions|Arithmetic functions]] -- 
+[[:Category:Arithmetic problems of plane geometry|Arithmetic problems of plane geometry]] -- 
+[[:Category:Arithmetic problems of solid geometry|Arithmetic problems of solid geometry]] -- 
+[[:Category:Asymptotic analysis|Asymptotic analysis]] -- 
+[[:Category:Automated theorem proving|Automated theorem proving]] -- 
+[[:Category:Automorphic forms|Automorphic forms]] -- 
+[[:Category:Axiom of choice|Axiom of choice]] -- 
+[[:Category:Axiomatics of Euclidean geometry|Axiomatics of Euclidean geometry]] -- 
+[[:Category:Axioms of set theory|Axioms of set theory]] -- 
+
+=== B ===
+
+[[:Category:Babylonian mathematics|Babylonian mathematics]] -- 
+[[:Category:Banach algebras|Banach algebras]] -- 
+[[:Category:Banach spaces|Banach spaces]] -- 
+[[:Category:Base-dependent integer sequences|Base-dependent integer sequences]] -- 
+[[:Category:Basic concepts in infinite set theory|Basic concepts in infinite set theory]] -- 
+[[:Category:Basic concepts in set theory|Basic concepts in set theory]] -- 
+[[:Category:Bayesian statistics|Bayesian statistics]] --  
+[[:Category:Bifurcation theory|Bifurcation theory]] -- 
+[[:Category:Bilinear forms|Bilinear forms]] -- 
+[[:Category:Binary operations|Binary operations]] -- 
+[[:Category:Biographies and autobiographies of mathematicians|Biographies and autobiographies of mathematicians]] -- 
+[[:Category:Biorthogonal wavelets|Biorthogonal wavelets]] -- 
+[[:Category:Birational geometry|Birational geometry]] -- 
+[[:Category:Boolean algebra|Boolean algebra]] -- 
+[[:Category:Boundary conditions|Boundary conditions]] --  
+[[:Category:Bourbaki|Bourbaki]] --
+
+=== C ===
+
+[[:Category:C*-algebras|C*-algebras]] -- 
+[[:Category:Calculus|Calculus]] -- 
+[[:Category:Calculus of variations|Calculus of variations]] -- 
+[[:Category:Cardinal numbers|Cardinal numbers]] -- 
+[[:Category:Catalan solids|Catalan solids]] -- 
+[[:Category:Categorical logic|Categorical logic]] -- 
+[[:Category:Category theory|Category theory]] -- 
+[[:Category:Category theory stubs|Category theory stubs]] -- 
+[[:Category:Category-theoretic categories|Category-theoretic categories]] -- 
+[[:Category:Chaos theory|Chaos theory]] --
+[[:Category:Chaotic maps|Chaotic maps]] -- 
+[[:Category:Characteristic classes|Characteristic classes]] -- 
+[[:Category:Chiral polyhedra|Chiral polyhedra]] -- 
+[[:Category:Circles|Circles]] -- 
+[[:Category:Class field theory|Class field theory]] -- 
+[[:Category:Classical geometry|Classical geometry]] -- 
+[[:Category:Clifford algebras|Clifford algebras]] -- 
+[[:Category:Closed categories|Closed categories]] -- 
+[[:Category:Closure operators|Closure operators]] -- 
+[[:Category:Coalgebras|Coalgebras]] -- 
+[[:Category:Combinatorial algorithms|Combinatorial algorithms]] --
+[[:Category:Combinatorial game theory|Combinatorial game theory]] -- 
+[[:Category:Combinatorial group theory|Combinatorial group theory]] --
+[[:Category:Combinatorial optimization|Combinatorial optimization]] -- 
+[[:Category:Combinatorics|Combinatorics]] -- 
+[[:Category:Combinatorics stubs|Combinatorics stubs]] -- 
+[[:Category:Commutative algebra|Commutative algebra]] -- 
+[[:Category:Complex analysis|Complex analysis]] -- 
+[[:Category:Complex manifolds|Complex manifolds]] -- 
+[[:Category:Complex numbers|Complex numbers]] -- 
+[[:Category:Computational group theory|Computational group theory]] -- 
+[[:Category:Computational number theory|Computational number theory]] -- 
+[[:Category:Computer algebra|Computer algebra]] -- 
+[[:Category:Conformal geometry|Conformal geometry]] -- 
+[[:Category:Conformal mapping|Conformal mapping]] -- 
+[[:Category:Conic sections|Conic sections]] -- 
+[[:Category:Conjectures|Conjectures]] -- 
+[[:Category:Connection (mathematics)|Connection (mathematics)]] -- 
+[[:Category:Constructible universe|Constructible universe]] -- 
+[[:Category:Continued fractions|Continued fractions]] -- 
+[[:Category:Continuous distributions|Continuous distributions]] -- 
+[[:Category:Continuous mappings|Continuous mappings]] -- 
+[[:Category:Continuous wavelets|Continuous wavelets]] -- 
+[[:Category:Continuum theory|Continuum theory]] --  
+[[:Category:Convergence tests|Convergence tests]] -- 
+[[:Category:Convex analysis|Convex analysis]] -- 
+[[:Category:Convex geometry|Convex geometry]] -- 
+[[:Category:Coordinate systems|Coordinate systems]] -- 
+[[:Category:Covariance and correlation|Covariance and correlation]] -- 
+[[:Category:Curves|Curves]] --
+[[:Category:Cyclotomic fields|Cyclotomic fields]] -- 
+
+=== D ===
+
+[[:Category:Dagger categories|Dagger categories]] --  
+[[:Category:Definitions of mathematical integration|Definitions of mathematical integration]] -- 
+[[:Category:Deltahedra|Deltahedra]] -- 
+[[:Category:Descriptive set theory|Descriptive set theory]] --
+[[:Category:Determinacy|Determinacy]] -- 
+[[:Category:Determinants|Determinants]] -- 
+[[:Category:Diffeomorphisms|Diffeomorphisms]] -- 
+[[:Category:Differential algebra|Differential algebra]] -- 
+[[:Category:Differential calculus|Differential calculus]] -- 
+[[:Category:Differential equations|Differential equations]] -- 
+[[:Category:Differential forms|Differential forms]] -- 
+[[:Category:Differential geometry|Differential geometry]] -- 
+[[:Category:Differential operators|Differential operators]] -- 
+[[:Category:Differential structures|Differential structures]] -- 
+[[:Category:Differential topology|Differential topology]] -- 
+[[:Category:Dimension|Dimension]] -- 
+[[:Category:Dimension theory|Dimension theory]] -- 
+[[:Category:Diophantine approximation|Diophantine approximation]] -- 
+[[:Category:Diophantine equations|Diophantine equations]] -- 
+[[:Category:Diophantine geometry|Diophantine geometry]] -- 
+[[:Category:Discrete distributions|Discrete distributions]] -- 
+[[:Category:Discrete geometry|Discrete geometry]] -- 
+[[:Category:Discrete groups|Discrete groups]] -- 
+[[:Category:Discrete mathematics|Discrete mathematics]] -- 
+[[:Category:Disproven conjectures|Disproven conjectures]] -- 
+[[:Category:Dot patterns|Dot patterns]] -- 
+[[:Category:Duality theories|Duality theories]] -- 
+[[:Category:Dynamical systems|Dynamical systems]] --
+
+=== E ===
+
+[[:Category:Effective descriptive set theory|Effective descriptive set theory]] -- 
+[[:Category:Egyptian fractions|Egyptian fractions]] --  
+[[:Category:Elementary algebra|Elementary algebra]] -- 
+[[:Category:Elementary arithmetic|Elementary arithmetic]] -- 
+[[:Category:Elementary geometry|Elementary geometry]] -- 
+[[:Category:Elementary mathematics|Elementary mathematics]] -- 
+[[:Category:Elementary number theory|Elementary number theory]] --
+[[:Category:Elementary special functions|Elementary special functions]] -- 
+[[:Category:Elliptic curves|Elliptic curves]] -- 
+[[:Category:Elliptic functions|Elliptic functions]] -- 
+[[:Category:Elliptic partial differential equations|Elliptic partial differential equations]] --  
+[[:Category:Ergodic theory|Ergodic theory]] -- 
+[[:Category:Estimation theory|Estimation theory]] -- 
+[[:Category:Euclidean geometry|Euclidean geometry]] -- 
+[[:Category:Euclidean plane geometry|Euclidean plane geometry]] -- 
+[[:Category:Euclidean solid geometry|Euclidean solid geometry]] -- 
+[[:Category:Euclidean symmetries|Euclidean symmetries]] -- 
+[[:Category:Experimental mathematics|Experimental mathematics]] -- 
+[[:Category:Exponentials|Exponentials]]  --
+
+=== F ===
+
+[[:Category:FFT algorithms|FFT algorithms]] -- 
+[[:Category:Factorial and binomial topics|Factorial and binomial topics]] -- 
+[[:Category:Fiber bundles|Fiber bundles]] -- 
+[[:Category:Fibonacci numbers|Fibonacci numbers]] -- 
+[[:Category:Field theory|Field theory]] -- 
+[[:Category:Figurate numbers|Figurate numbers]] -- 
+[[:Category:Finite differences|Finite differences]] -- 
+[[:Category:Finite fields|Finite fields]] -- 
+[[:Category:Finite groups|Finite groups]] -- 
+[[:Category:Finite rings|Finite rings]] -- 
+[[:Category:Fixed points|Fixed points]] -- 
+[[:Category:Foliations|Foliations]] -- 
+[[:Category:Forcing|Forcing]] -- 
+[[:Category:Formally real field|Formally real field]] -- 
+[[:Category:Fourier analysis|Fourier analysis]] -- 
+[[:Category:Fourier series|Fourier series]] -- 
+[[:Category:Fractal curves|Fractal curves]] -- 
+[[:Category:Fractals|Fractals]] -- 
+[[:Category:Fractions|Fractions]] -- 
+[[:Category:Fredholm theory|Fredholm theory]] --   
+[[:Category:Free algebraic structures|Free algebraic structures]] -- 
+[[:Category:Functional analysis|Functional analysis]] --
+[[:Category:Functional calculus|Functional calculus]] -- 
+[[:Category:Functional subgroups|Functional subgroups]] --
+[[:Category:Functions and mappings|Functions and mappings]] -- 
+[[:Category:Functors|Functors]] -- 
+
+=== G ===
+
+[[:Category:Galois theory|Galois theory]] -- 
+[[:Category:Gamma and related functions|Gamma and related functions]] -- 
+[[:Category:General topology|General topology]] -- 
+[[:Category:Generalized functions|Generalized functions]] -- 
+[[:Category:Generalized manifolds|Generalized manifolds]] -- 
+[[:Category:Geometric algorithms|Geometric algorithms]] -- 
+[[:Category:Geometric graph theory|Geometric graph theory]] -- 
+[[:Category:Geometric group theory|Geometric group theory]] -- 
+[[:Category:Geometric shapes|Geometric shapes]] -- 
+[[:Category:Geometric topology|Geometric topology]] -- 
+[[:Category:Geometry|Geometry]] -- 
+[[:Category:Geometry of divisors|Geometry of divisors]] -- 
+[[:Category:Geometry of numbers|Geometry of numbers]] -- 
+[[:Category:Geometry stubs|Geometry stubs]] -- 
+[[:Category:Golden ratio|Golden ratio]] -- 
+[[:Category:Graph algorithms|Graph algorithms]] -- 
+[[:Category:Graph coloring|Graph coloring]] -- 
+[[:Category:Graph families|Graph families]] -- 
+[[:Category:Graph invariants|Graph invariants]] -- 
+[[:Category:Graph products|Graph products]] -- 
+[[:Category:Graph theory|Graph theory]] -- 
+[[:Category:Graphical concepts in set theory|Graphical concepts in set theory]] --  
+[[:Category:Graphs|Graphs]] -- 
+[[:Category:Group actions|Group actions]] -- 
+[[:Category:Group automorphisms|Group automorphisms]] -- 
+[[:Category:Group theory|Group theory]] -- 
+
+=== H ===
+
+[[:Category:Hardy spaces|Hardy spaces]] --  
+[[:Category:Harmonic analysis|Harmonic analysis]] -- 
+[[:Category:Harmonic functions|Harmonic functions]] --  
+[[:Category:Higher category theory|Higher category theory]] -- 
+[[:Category:Hilbert space|Hilbert space]] -- 
+[[:Category:Hilbert's problems|Hilbert's problems]] -- 
+[[:Category:History of logic|History of logic]]  --  
+[[:Category:History of mathematics|History of mathematics]] -- 
+[[:Category:Homeomorphisms|Homeomorphisms]] -- 
+[[:Category:Homogeneous polynomials|Homogeneous polynomials]] -- 
+[[:Category:Homogeneous spaces|Homogeneous spaces]] -- 
+[[:Category:Homological algebra|Homological algebra]] -- 
+[[:Category:Homology theory|Homology theory]] -- 
+[[:Category:Homotopy theory|Homotopy theory]] -- 
+[[:Category:Hopf algebras|Hopf algebras]] -- 
+[[:Category:Hyperbolic geometry|Hyperbolic geometry]] --
+[[:Category:Hyperbolic partial differential equations|Hyperbolic partial differential equations]] --  
+[[:Category:Hypercomplex numbers|Hypercomplex numbers]] -- 
+[[:Category:Hypergeometric functions|Hypergeometric functions]] --
+[[:Category:Hypothesis testing|Hypothesis testing]] --
+
+=== I ===
+
+[[:Category:Ideals|Ideals]] -- 
+[[:Category:Incidence geometry|Incidence geometry]] -- 
+[[:Category:Independence results|Independence results]] --  
+[[:Category:Inequalities|Inequalities]] -- 
+[[:Category:Infinity|Infinity]] -- 
+[[:Category:Inner model theory|Inner model theory]] -- 
+[[:Category:Institute for Advanced Study|Institute for Advanced Study]] -- 
+[[:Category:Integer factorization algorithms|Integer factorization algorithms]] -- 
+[[:Category:Integer sequences|Integer sequences]] -- 
+[[:Category:Integers|Integers]] -- 
+[[:Category:Integral calculus|Integral calculus]] -- 
+[[:Category:Integral equations|Integral equations]] --
+[[:Category:Integral geometry|Integral geometry]] -- 
+[[:Category:Integral transforms|Integral transforms]] -- 
+[[:Category:Integrals|Integrals]] -- 
+[[:Category:Interpolation|Interpolation]] -- 
+[[:Category:Intersection theory|Intersection theory]] -- 
+[[:Category:Invariant theory|Invariant theory]] -- 
+[[:Category:Inverse functions|Inverse functions]] --  
+[[:Category:Irrational numbers|Irrational numbers]] -- 
+[[:Category:Isometric operators|Isometric operators]] --
+
+=== J ===
+
+[[:Category:Johnson solids|Johnson solids]] -- 
+
+=== K ===
+
+[[:Category:K-theory|K-theory]] -- 
+[[:Category:Kepler-Poinsot solids|Kepler-Poinsot solids]] -- 
+[[:Category:Knot theory|Knot theory]] -- 
+
+=== L ===
+
+[[:Category:Lambda calculus|Lambda calculus]] -- 
+[[:Category:Large cardinals|Large cardinals]] -- 
+[[:Category:Large numbers|Large numbers]] -- 
+[[:Category:Latin squares|Latin squares]] -- 
+[[:Category:Lattice points|Lattice points]] -- 
+[[:Category:Lattice theory|Lattice theory]] -- 
+[[:Category:Lemmas|Lemmas]] --
+[[:Category:Lie algebras|Lie algebras]] -- 
+[[:Category:Lie groupoids|Lie groupoids]] -- 
+[[:Category:Lie groups|Lie groups]] -- 
+[[:Category:Limit sets|Limit sets]] -- 
+[[:Category:Limits in categories|Limits in categories]] --  
+[[:Category:Linear algebra|Linear algebra]] --
+[[:Category:Lipschitz maps|Lipschitz maps]] -- 
+[[:Category:Lists of mathematicians|Lists of mathematicians]] -- 
+[[:Category:Logarithms|Logarithms]] -- 
+[[:Category:Logic books|Logic books]] -- 
+[[:Category:Logical calculi|Logical calculi]] -- 
+
+=== M ===
+
+[[:Category:Magic squares|Magic squares]] -- 
+[[:Category:Manifolds|Manifolds]] -- 
+[[:Category:Mathematical analysis|Mathematical analysis]] -- 
+[[:Category:Mathematical analysis stubs|Mathematical analysis stubs]] -- 
+[[:Category:Mathematical analysts|Mathematical analysts]] -- 
+[[:Category:Mathematical axioms|Mathematical axioms]] --  
+[[:Category:Mathematical chairs|Mathematical chairs]] --
+[[:Category:Mathematical characters|Mathematical characters]] -- 
+[[:Category:Mathematical congresses|Mathematical congresses]] --
+[[:Category:Mathematical constants|Mathematical constants]] -- 
+[[:Category:Mathematical constructivism|Mathematical constructivism]] -- 
+[[:Category:Mathematical disambiguation|Mathematical disambiguation]] -- 
+[[:Category:Mathematical examples|Mathematical examples]] -- 
+[[:Category:Mathematical films|Mathematical films]] -- 
+[[:Category:Mathematical games|Mathematical games]] -- 
+[[:Category:Mathematical identities|Mathematical identities]] -- 
+[[:Category:Mathematical institutes|Mathematical institutes]] -- 
+[[:Category:Mathematical institutes and societies|Mathematical institutes and societies]] -- 
+[[:Category:Mathematical journals|Mathematical journals]] -- 
+[[:Category:Mathematical literature|Mathematical literature]] -- 
+[[:Category:Mathematical logic|Mathematical logic]] -- 
+[[:Category:Mathematical logic stubs|Mathematical logic stubs]] -- 
+[[:Category:Mathematical modeling|Mathematical modeling]] -- 
+[[:Category:Mathematical notation|Mathematical notation]] -- 
+[[:Category:Mathematical physics|Mathematical physics]] -- 
+[[:Category:Mathematical publication stubs|Mathematical publication stubs]] -- 
+[[:Category:Mathematical publications|Mathematical publications]] -- 
+[[:Category:Mathematical relations|Mathematical relations]] --  
+[[:Category:Mathematical science occupations|Mathematical science occupations]] -- 
+[[:Category:Mathematical series|Mathematical series]] -- 
+[[:Category:Mathematical societies|Mathematical societies]] -- 
+[[:Category:Mathematical symbols|Mathematical symbols]] -- 
+[[:Category:Mathematical terminology|Mathematical terminology]] -- 
+[[:Category:Mathematical theorems|Mathematical theorems]] -- 
+[[:Category:Mathematical tools|Mathematical tools]] --
+[[:Category:Mathematics|Mathematics]] -- 
+[[:Category:Mathematics and culture|Mathematics and culture]] -- 
+[[:Category:Mathematics awards|Mathematics awards]] -- 
+[[:Category:Mathematics books|Mathematics books]] -- 
+[[:Category:Mathematics competitions|Mathematics competitions]] -- 
+[[:Category:Mathematics education|Mathematics education]] -- 
+[[:Category:Mathematics education reform|Mathematics education reform]] -- 
+[[:Category:Mathematics fiction books|Mathematics fiction books]] -- 
+[[:Category:Mathematics navigational boxes|Mathematics navigational boxes]] -- 
+[[:Category:Mathematics of music|Mathematics of music]] --
+[[:Category:Mathematics paradoxes|Mathematics paradoxes]] -- 
+[[:Category:Mathematics stubs|Mathematics stubs]] -- 
+[[:Category:Mathematics timelines|Mathematics timelines]] -- 
+[[:Category:Mathematics websites|Mathematics websites]] -- 
+[[:Category:Mathematics-related lists|Mathematics-related lists]] -- 
+[[:Category:Matrices|Matrices]] -- 
+[[:Category:Matrix normal forms|Matrix normal forms]] -- 
+[[:Category:Matrix theory|Matrix theory]] -- 
+[[:Category:Matroid theory|Matroid theory]] -- 
+[[:Category:Means|Means]] -- 
+[[:Category:Measure theory|Measure theory]] -- 
+[[:Category:Measures (measure theory)|Measures (measure theory)]] -- 
+[[:Category:Measures (set theory)|Measures (set theory)]] -- 
+[[:Category:Metric geometry|Metric geometry]] -- 
+[[:Category:Metric spaces|Metric spaces]] -- 
+[[:Category:Millennium Prize Problems|Millennium Prize Problems]] -- 
+[[:Category:Minimal surfaces|Minimal surfaces]] -- 
+[[:Category:Misuse of statistics|Misuse of statistics]] --  
+[[:Category:Model theory|Model theory]] -- 
+[[:Category:Modular arithmetic|Modular arithmetic]] -- 
+[[:Category:Modular forms|Modular forms]] -- 
+[[:Category:Module theory|Module theory]] -- 
+[[:Category:Moduli theory|Moduli theory]] -- 
+[[:Category:Monoidal categories|Monoidal categories]] -- 
+[[:Category:Monte Carlo methods|Monte Carlo methods]] -- 
+[[:Category:Moonshine theory|Moonshine theory]] -- 
+[[:Category:Morphisms of schemes|Morphisms of schemes]] -- 
+[[:Category:Morse theory|Morse theory]] -- 
+[[:Category:Multi-dimensional geometry|Multi-dimensional geometry]] -- 
+[[:Category:Multilinear algebra|Multilinear algebra]] -- 
+[[:Category:Multiplicative functions|Multiplicative functions]] -- 
+[[:Category:Multivariate calculus|Multivariate calculus]] --
+[[:Category:Multivariate statistics|Multivariate statistics]] --
+
+=== N ===
+
+[[:Category:Network flow|Network flow]] -- 
+[[:Category:Nilpotent groups|Nilpotent groups]] -- 
+[[:Category:Non-Euclidean geometry|Non-Euclidean geometry]] -- 
+[[:Category:Non-linear systems|Non-linear systems]] -- 
+[[:Category:Non-standard positional numeral systems|Non-standard positional numeral systems]] -- 
+[[:Category:Nonassociative algebra|Nonassociative algebra]] -- 
+[[:Category:Nonlinear functional analysis|Nonlinear functional analysis]] -- 
+[[:Category:Normed spaces|Normed spaces]] --  
+[[:Category:Norms (mathematics)|Norms (mathematics)]] --  
+[[:Category:Number stubs|Number stubs]]  -- 
+[[:Category:Number theoretic algorithms|Number theoretic algorithms]] -- 
+[[:Category:Number theory|Number theory]] -- 
+[[:Category:Number theory stubs|Number theory stubs]] -- 
+[[:Category:Numbers|Numbers]] -- 
+[[:Category:Numeral systems|Numeral systems]] -- 
+[[:Category:Numeration|Numeration]] --
+[[:Category:Numerical analysis|Numerical analysis]] -- 
+[[:Category:Numerical differential equations|Numerical differential equations]] --  
+[[:Category:Numerical integration|Numerical integration]] -- 
+[[:Category:Numerical linear algebra|Numerical linear algebra]] --
+[[:Category:Numerical prefixes and suffixes|Numerical prefixes and suffixes]] -- 
+
+=== O ===
+
+[[:Category:Objects (category theory)|Objects (category theory)]] -- 
+[[:Category:Octonions|Octonions]] -- 
+[[:Category:Operator theory|Operator theory]] -- 
+[[:Category:Operator topologies|Operator topologies]] -- 
+[[:Category:Optimization|Optimization]] -- 
+[[:Category:Optimization algorithms|Optimization algorithms]] -- 
+[[:Category:Order theory|Order theory]] -- 
+[[:Category:Ordered groups|Ordered groups]] --  
+[[:Category:Ordinal numbers|Ordinal numbers]] -- 
+[[:Category:Ordinary differential equations|Ordinary differential equations]] --
+[[:Category:Orthogonal polynomials|Orthogonal polynomials]] --
+[[:Category:Orthogonal wavelets|Orthogonal wavelets]] -- 
+
+=== P ===
+
+[[:Category:Pandigital numbers|Pandigital numbers]] -- 
+[[:Category:Parabolic partial differential equations|Parabolic partial differential equations]] --  
+[[:Category:Paradoxes of naive set theory|Paradoxes of naive set theory]] --  
+[[:Category:Partial differential equations|Partial differential equations]] -- 
+[[:Category:Partial fractions|Partial fractions]] --  
+[[:Category:Particle statistics|Particle statistics]] -- 
+[[:Category:Permutation groups|Permutation groups]] -- 
+[[:Category:Permutations|Permutations]] -- 
+[[:Category:Perturbation theory|Perturbation theory]] -- 
+[[:Category:Philosophy of mathematics|Philosophy of mathematics]] -- 
+[[:Category:Pi|Pi]] -- 
+[[:Category:Pi algorithms|Pi algorithms]] -- 
+[[:Category:Platonic solids|Platonic solids]] -- 
+[[:Category:Polychora|Polychora]] -- 
+[[:Category:Polyforms|Polyforms]] -- 
+[[:Category:Polygons|Polygons]] -- 
+[[:Category:Polyhedra|Polyhedra]] -- 
+[[:Category:Polyhedra rest category|Polyhedra rest category]] -- 
+[[:Category:Polyhedral compounds|Polyhedral compounds]] -- 
+[[:Category:Polyhedral stellation|Polyhedral stellation]] -- 
+[[:Category:Polyhedron stubs|Polyhedron stubs]] -- 
+[[:Category:Polynomials|Polynomials]] -- 
+[[:Category:Polytopes|Polytopes]] -- 
+[[:Category:Positional numeral systems|Positional numeral systems]] --
+[[:Category:Potential theory|Potential theory]] -- 
+[[:Category:Primality tests|Primality tests]] -- 
+[[:Category:Prime numbers|Prime numbers]] -- 
+[[:Category:Prismatoid polyhedra|Prismatoid polyhedra]] -- 
+[[:Category:Probability and statistics|Probability and statistics]] -- 
+[[:Category:Probability distributions|Probability distributions]] -- 
+[[:Category:Probability stubs|Probability stubs]] -- 
+[[:Category:Probability theory|Probability theory]] -- 
+[[:Category:Probability theory paradoxes|Probability theory paradoxes]] -- 
+[[:Category:Projective geometry|Projective geometry]] -- 
+[[:Category:Proof theory|Proof theory]] -- 
+[[:Category:Proofs|Proofs]] --
+[[:Category:Properties of groups|Properties of groups]] -- 
+[[:Category:Properties of topological spaces|Properties of topological spaces]] -- 
+[[:Category:Pseudoprimes|Pseudoprimes]] -- 
+[[:Category:Pyramids and bipyramids|Pyramids and bipyramids]] --  
+[[:Category:Pythagorean symbols|Pythagorean symbols]] -- 
+
+=== Q ===
+
+[[:Category:Q-analogs|Q-analogs]] -- 
+[[:Category:Quadratic forms|Quadratic forms]] -- 
+[[:Category:Quadrics|Quadrics]] -- 
+[[:Category:Quadrilaterals|Quadrilaterals]] --
+[[:Category:Quasirandomness|Quasirandomness]] -- 
+[[:Category:Quasiregular polyhedra|Quasiregular polyhedra]] -- 
+[[:Category:Quaternions|Quaternions]] -- 
+
+=== R ===
+
+[[:Category:Ramsey theory|Ramsey theory]] -- 
+[[:Category:Random dynamical systems|Random dynamical systems]] --  
+[[:Category:Rational functions|Rational functions]] -- 
+[[:Category:Rational numbers|Rational numbers]] --
+[[:Category:Real algebraic geometry|Real algebraic geometry]] -- 
+[[:Category:Real analysis|Real analysis]] -- 
+[[:Category:Real closed field|Real closed field]] -- 
+[[:Category:Real numbers|Real numbers]] -- 
+[[:Category:Recreational mathematics|Recreational mathematics]] -- 
+[[:Category:Recurrence relations|Recurrence relations]] -- 
+[[:Category:Recursion theory|Recursion theory]] -- 
+[[:Category:Regression analysis|Regression analysis]] -- 
+[[:Category:Regular polyhedra|Regular polyhedra]] -- 
+[[:Category:Representation theory|Representation theory]] -- 
+[[:Category:Representation theory of Lie algebras|Representation theory of Lie algebras]] -- 
+[[:Category:Representation theory of Lie groups|Representation theory of Lie groups]] -- 
+[[:Category:Representation theory of algebraic groups|Representation theory of algebraic groups]] -- 
+[[:Category:Representation theory of finite groups|Representation theory of finite groups]] -- 
+[[:Category:Representation theory of groups|Representation theory of groups]] -- 
+[[:Category:Representation theory of topological groups|Representation theory of topological groups]] -- 
+[[:Category:Riemann surfaces|Riemann surfaces]] -- 
+[[:Category:Riemannian geometry|Riemannian geometry]] -- 
+[[:Category:Ring theory|Ring theory]] -- 
+[[:Category:Roman mathematics|Roman mathematics]] --  
+[[:Category:Root-finding algorithms|Root-finding algorithms]] --
+
+=== S ===
+
+[[:Category:Sampling (statistics)|Sampling (statistics)]] -- 
+[[:Category:Sampling techniques|Sampling techniques]] -- 
+[[:Category:Scheme theory|Scheme theory]] -- 
+[[:Category:Self-dual polyhedra|Self-dual polyhedra]] -- 
+[[:Category:Semigroup theory|Semigroup theory]] -- 
+[[:Category:Separation axioms|Separation axioms]] -- 
+[[:Category:Sequences|Sequences]] -- 
+[[:Category:Sequences and series|Sequences and series]] -- 
+[[:Category:Series of mathematics books|Series of mathematics books]] --  
+[[:Category:Set families|Set families]] -- 
+[[:Category:Set theory|Set theory]] -- 
+[[:Category:Set-theoretic universes|Set-theoretic universes]] -- 
+[[:Category:Sets of real numbers|Sets of real numbers]] -- 
+[[:Category:Several complex variables|Several complex variables]] -- 
+[[:Category:Sheaf theory|Sheaf theory]] -- 
+[[:Category:Simplicial sets|Simplicial sets]] --  
+[[:Category:Singular value decomposition|Singular value decomposition]] -- 
+[[:Category:Singularity theory|Singularity theory]] -- 
+[[:Category:Smooth functions|Smooth functions]] -- 
+[[:Category:Sobolev spaces|Sobolev spaces]] --  
+[[:Category:Solitons|Solitons]] -- 
+[[:Category:Solvable groups|Solvable groups]] --  
+[[:Category:Special functions|Special functions]] -- 
+[[:Category:Special hypergeometric functions|Special hypergeometric functions]] -- 
+[[:Category:Spectral sequences|Spectral sequences]] -- 
+[[:Category:Spectral theory|Spectral theory]] -- 
+[[:Category:Spherical trigonometry|Spherical trigonometry]] -- 
+[[:Category:Spirals|Spirals]] -- 
+[[:Category:Spiric sections|Spiric sections]] -- 
+[[:Category:Splines|Splines]] --
+[[:Category:Sporadic groups|Sporadic groups]] -- 
+[[:Category:Stability theory|Stability theory]] -- 
+[[:Category:Statistical algorithms|Statistical algorithms]] --  
+[[:Category:Statistical awards|Statistical awards]] -- 
+[[:Category:Statistical deviation and dispersion|Statistical deviation and dispersion]] --  
+[[:Category:Statistical distance measures|Statistical distance measures]] -- 
+[[:Category:Statistical inequalities|Statistical inequalities]] --  
+[[:Category:Statistical laws|Statistical laws]] -- 
+[[:Category:Statistical lemmas|Statistical lemmas]] --  
+[[:Category:Statistical methods|Statistical methods]] --  
+[[:Category:Statistical paradoxes|Statistical paradoxes]] -- 
+[[:Category:Statistical randomness|Statistical randomness]] -- 
+[[:Category:Statistical tests|Statistical tests]] -- 
+[[:Category:Statistical theorems|Statistical theorems]] --  
+[[:Category:Statistical theory|Statistical theory]] -- 
+[[:Category:Statistics|Statistics]] -- 
+[[:Category:Statistics journals|Statistics journals]] -- 
+[[:Category:Stochastic differential equations|Stochastic differential equations]] -- 
+[[:Category:Stochastic processes|Stochastic processes]] -- 
+[[:Category:Structures on manifolds|Structures on manifolds]] -- 
+[[:Category:Subgroup properties|Subgroup properties]] -- 
+[[:Category:Subharmonic functions|Subharmonic functions]] --  
+[[:Category:Substructural logic|Substructural logic]] -- 
+[[:Category:Summary statistics|Summary statistics]] --  
+[[:Category:Super linear algebra|Super linear algebra]] --  
+[[:Category:Surfaces|Surfaces]] -- 
+[[:Category:Symmetric functions|Symmetric functions]] -- 
+[[:Category:Symplectic topology|Symplectic topology]] --
+[[:Category:Systems of set theory|Systems of set theory]] --
+
+=== T ===
+
+[[:Category:Tensors|Tensors]] -- 
+[[:Category:Tensors in general relativity|Tensors in general relativity]] --  
+[[:Category:Ternary operations|Ternary operations]] -- 
+[[:Category:Theorems|Theorems]] -- 
+[[:Category:Theta functions|Theta functions]] -- 
+[[:Category:Tiling|Tiling]] -- 
+[[:Category:Topological algebra|Topological algebra]] -- 
+[[:Category:Topological graph theory|Topological graph theory]] -- 
+[[:Category:Topological groups|Topological groups]] -- 
+[[:Category:Topological methods of algebraic geometry|Topological methods of algebraic geometry]] -- 
+[[:Category:Topological rings|Topological rings]] -- 
+[[:Category:Topological spaces|Topological spaces]] -- 
+[[:Category:Topological vector spaces|Topological vector spaces]] -- 
+[[:Category:Topology|Topology]] -- 
+[[:Category:Topology of Lie groups|Topology of Lie groups]] --  
+[[:Category:Topology of function spaces|Topology of function spaces]] --
+[[:Category:Topology of homogeneous spaces|Topology of homogeneous spaces]] -- 
+[[:Category:Topology stubs|Topology stubs]] --  
+[[:Category:Topos theory|Topos theory]] -- 
+[[:Category:Toric sections|Toric sections]] --  
+[[:Category:Transcendental numbers|Transcendental numbers]] -- 
+[[:Category:Transforms|Transforms]] -- 
+[[:Category:Triangles|Triangles]] -- 
+[[:Category:Trigonometry|Trigonometry]] --
+
+=== U ===
+
+[[:Category:Uniform polyhedra|Uniform polyhedra]] -- 
+[[:Category:Uniform spaces|Uniform spaces]] -- 
+[[:Category:Unitary operators|Unitary operators]] -- 
+[[:Category:Units of angle|Units of angle]] -- 
+[[:Category:Universal algebra|Universal algebra]] -- 
+[[:Category:Unsolved problems in mathematics|Unsolved problems in mathematics]] --
+[[:Category:Urelements|Urelements]] --  
+
+=== V ===
+
+[[:Category:Vector bundles|Vector bundles]] -- 
+[[:Category:Vector calculus|Vector calculus]] --
+[[:Category:Von Neumann algebras|Von Neumann algebras]] --
+
+=== W ===
+
+[[:Category:Wavelets|Wavelets]] -- 
+[[:Category:Wellfoundedness|Wellfoundedness]] --  
+
+=== Z ===
+
+[[:Category:Zeta and L-functions|Zeta and L-functions]] --
+[[:Category:Zeta functions|Zeta functions]] --
+[[:Category:Zonohedra|Zonohedra]] --  
+<!-- separator --> <!-- please do not delete or modify this line -->
+== Mathematicians categories==
+:''The contents of these categories will be automatically added to the [[list of mathematicians]]''.
+
+=== 0&ndash;9 ===
+
+[[:Category:10th century mathematicians|10th century mathematicians]] --
+[[:Category:11th century mathematicians|11th century mathematicians]] --
+[[:Category:12th century mathematicians|12th century mathematicians]] --
+[[:Category:13th century mathematicians|13th century mathematicians]] --
+[[:Category:14th century mathematicians|14th century mathematicians]] --
+[[:Category:15th century mathematicians|15th century mathematicians]] --
+[[:Category:16th century mathematicians|16th century mathematicians]] --
+[[:Category:17th century mathematicians|17th century mathematicians]] --
+[[:Category:18th century mathematicians|18th century mathematicians]] --
+[[:Category:19th century mathematicians|19th century mathematicians]] --
+[[:Category:20th century mathematicians|20th century mathematicians]] --
+[[:Category:21st century mathematicians|21st century mathematicians]] --
+[[:Category:5th century mathematicians|5th century mathematicians]] --
+[[:Category:6th century mathematicians|6th century mathematicians]] --
+[[:Category:7th century mathematicians|7th century mathematicians]] --
+[[:Category:8th century mathematicians|8th century mathematicians]] --
+[[:Category:9th century mathematicians|9th century mathematicians]] --
+
+=== A ===
+
+[[:Category:Abel laureates|Abel laureates]] -- 
+[[:Category:Afghan mathematicians|Afghan mathematicians]] -- 
+[[:Category:African mathematicians|African mathematicians]] -- 
+[[:Category:Albanian mathematicians|Albanian mathematicians]] -- 
+[[:Category:Algebraic geometers|Algebraic geometers]] -- 
+[[:Category:Algebraists|Algebraists]] --  
+[[:Category:American logicians|American logicians]] --
+[[:Category:American mathematician stubs|American mathematician stubs]] -- 
+[[:Category:American mathematicians|American mathematicians]] --
+[[:Category:American statisticians|American statisticians]] -- 
+[[:Category:Ancient Greek mathematicians|Ancient Greek mathematicians]] --
+[[:Category:Ancient Indian mathematicians|Ancient Indian mathematicians]] -- 
+[[:Category:Ancient mathematicians|Ancient mathematicians]] --
+[[:Category:Arab mathematicians|Arab mathematicians]] --
+[[:Category:Argentine mathematicians|Argentine mathematicians]] --
+[[:Category:Armenian mathematicians|Armenian mathematicians]] -- 
+[[:Category:Atheist mathematicians|Atheist mathematicians]] -- 
+[[:Category:Australian mathematicians|Australian mathematicians]] --
+[[:Category:Austrian logicians|Austrian logicians]] --
+[[:Category:Austrian mathematicians|Austrian mathematicians]] --
+[[:Category:Azerbaijani mathematicians|Azerbaijani mathematicians]] -- 
+
+=== B ===
+
+[[:Category:Basque mathematicians|Basque mathematicians]] --
+[[:Category:Belarusian mathematicians|Belarusian mathematicians]] -- 
+[[:Category:Belgian mathematicians|Belgian mathematicians]] --
+[[:Category:Belgian statisticians|Belgian statisticians]] -- 
+[[:Category:Bengali mathematicians|Bengali mathematicians]] -- 
+[[:Category:Brazilian logicians|Brazilian logicians]] --
+[[:Category:Brazilian mathematicians|Brazilian mathematicians]] --
+[[:Category:British logicians|British logicians]] --
+[[:Category:British mathematicians|British mathematicians]] --
+[[:Category:British statisticians|British statisticians]] -- 
+[[:Category:Buddhist mathematicians|Buddhist mathematicians]] -- 
+[[:Category:Bulgarian mathematicians|Bulgarian mathematicians]] -- 
+
+=== C ===
+
+[[:Category:Canadian mathematicians|Canadian mathematicians]] --
+[[:Category:Canadian statisticians|Canadian statisticians]] -- 
+[[:Category:Category theorists|Category theorists]] -- 
+[[:Category:Chilean mathematicians|Chilean mathematicians]] --
+[[:Category:Chinese logicians|Chinese logicians]] --
+[[:Category:Chinese mathematicians|Chinese mathematicians]] --
+[[:Category:Christian mathematicians|Christian mathematicians]] -- 
+[[:Category:Combinatorists|Combinatorists]] --
+[[:Category:Croatian mathematicians|Croatian mathematicians]] --
+[[:Category:Czech logicians|Czech logicians]] -- 
+[[:Category:Czech mathematicians|Czech mathematicians]] --
+
+=== D ===
+
+[[:Category:Danish mathematicians|Danish mathematicians]] --
+[[:Category:David Crighton medalists|David Crighton medalists]] -- 
+[[:Category:Differential geometers|Differential geometers]] -- 
+[[:Category:Dutch mathematicians|Dutch mathematicians]] --
+
+=== E ===
+
+[[:Category:Egyptian mathematicians|Egyptian mathematicians]] --
+[[:Category:English logicians|English logicians]] -- 
+[[:Category:English mathematicians|English mathematicians]] --
+[[:Category:English statisticians|English statisticians]] -- 
+[[:Category:European mathematician stubs|European mathematician stubs]] -- 
+
+=== F ===
+
+[[:Category:Fields Medalists|Fields Medalists]] -- 
+[[:Category:Finnish mathematicians|Finnish mathematicians]] --
+[[:Category:French mathematician stubs|French mathematician stubs]] -- 
+[[:Category:French mathematicians|French mathematicians]] --
+
+=== G ===
+
+[[:Category:Geometers|Geometers]] -- 
+[[:Category:Georgian mathematicians|Georgian mathematicians]] --
+[[:Category:German logicians|German logicians]] --
+[[:Category:German mathematician stubs|German mathematician stubs]] -- 
+[[:Category:German mathematicians|German mathematicians]] --
+[[:Category:German statisticians|German statisticians]] -- 
+[[:Category:Graph theorists|Graph theorists]] --  
+[[:Category:Greek logicians|Greek logicians]] -- 
+[[:Category:Greek mathematicians|Greek mathematicians]] --
+[[:Category:Group theorists|Group theorists]] --
+
+=== H ===
+
+[[:Category:Hindu mathematicians|Hindu mathematicians]] --  
+[[:Category:Historians of mathematics|Historians of mathematics]] -- 
+[[:Category:Hong Kong mathematicians|Hong Kong mathematicians]] --
+[[:Category:Hungarian mathematicians|Hungarian mathematicians]] --
+[[:Category:Hungarian statisticians|Hungarian statisticians]] -- 
+
+=== I ===
+
+[[:Category:Indian logicians|Indian logicians]] --
+[[:Category:Indian mathematicians|Indian mathematicians]] --
+[[:Category:Iranian mathematicians|Iranian mathematicians]] --
+[[:Category:Irish mathematicians|Irish mathematicians]] --
+[[:Category:Israeli mathematicians|Israeli mathematicians]] --
+[[:Category:Italian mathematicians|Italian mathematicians]] --
+
+=== J ===
+
+[[:Category:Japanese logicians|Japanese logicians]] -- 
+[[:Category:Japanese mathematicians|Japanese mathematicians]] --
+[[:Category:Japanese statisticians|Japanese statisticians]] -- 
+[[:Category:Jewish mathematicians|Jewish mathematicians]] -- 
+
+=== L ===
+
+[[:Category:Latvian mathematicians|Latvian mathematicians]] --
+[[:Category:Logicians|Logicians]] --
+[[:Category:Logicians by nationality|Logicians by nationality]] --
+
+=== M ===
+
+[[:Category:Maldivian mathematicians|Maldivian mathematicians]] -- 
+[[:Category:Mathematical historians|Mathematical historians]] -- 
+[[:Category:Mathematician stubs|Mathematician stubs]] --
+[[:Category:Mathematicians|Mathematicians]] -- 
+[[:Category:Mathematicians by century|Mathematicians by century]] --
+[[:Category:Mathematicians by field|Mathematicians by field]] --
+[[:Category:Mathematicians by nationality|Mathematicians by nationality]] --
+[[:Category:Mathematicians by religion|Mathematicians by religion]] -- 
+[[:Category:Mathematicians who committed suicide|Mathematicians who committed suicide]] -- 
+[[:Category:Mathematics educators|Mathematics educators]] -- 
+[[:Category:Mexican mathematicians|Mexican mathematicians]] -- 
+[[:Category:Moroccan mathematicians|Moroccan mathematicians]] -- 
+[[:Category:Muslim mathematicians|Muslim mathematicians]] -- 
+
+=== N ===
+
+[[:Category:New Zealand mathematicians|New Zealand mathematicians]] --
+[[:Category:Nigerian mathematicians|Nigerian mathematicians]] -- 
+[[:Category:Northern Irish mathematicians|Northern Irish mathematicians]] -- 
+[[:Category:Norwegian mathematicians|Norwegian mathematicians]] --
+[[:Category:Norwegian statisticians|Norwegian statisticians]] -- 
+[[:Category:Number theorists|Number theorists]] --
+[[:Category:Numerical analysts|Numerical analysts]] --  
+
+=== P ===
+
+[[:Category:Palestinian mathematicians|Palestinian mathematicians]] -- 
+[[:Category:Persian mathematicians|Persian mathematicians]] --
+[[:Category:Polish logicians|Polish logicians]] --
+[[:Category:Polish mathematicians|Polish mathematicians]] --
+[[:Category:Polish statisticians|Polish statisticians]] --
+[[:Category:Portuguese mathematicians|Portuguese mathematicians]] --
+[[:Category:Probability theorists|Probability theorists]] --  
+
+=== R ===
+
+[[:Category:Romanian mathematicians|Romanian mathematicians]] --
+[[:Category:Russian logicians|Russian logicians]] --
+[[:Category:Russian mathematicians|Russian mathematicians]] --
+
+=== S ===
+
+[[:Category:Scottish mathematicians|Scottish mathematicians]] --
+[[:Category:Scottish statisticians|Scottish statisticians]] -- 
+[[:Category:Serbian mathematicians|Serbian mathematicians]] -- 
+[[:Category:Set theorists|Set theorists]] --  
+[[:Category:Sicilian mathematicians|Sicilian mathematicians]] -- 
+[[:Category:Slovak mathematicians|Slovak mathematicians]] -- 
+[[:Category:Slovenian mathematicians|Slovenian mathematicians]] --
+[[:Category:South African mathematicians|South African mathematicians]] --
+[[:Category:Spanish mathematicians|Spanish mathematicians]] --
+[[:Category:Statisticians|Statisticians]] --
+[[:Category:Statisticians by nationality|Statisticians by nationality]] -- 
+[[:Category:Swedish mathematicians|Swedish mathematicians]] --
+[[:Category:Swedish statisticians|Swedish statisticians]] -- 
+[[:Category:Swiss mathematicians|Swiss mathematicians]] --
+[[:Category:Swiss statisticians|Swiss statisticians]] -- 
+
+=== T ===
+
+[[:Category:Topologists|Topologists]] --
+[[:Category:Turkish mathematicians|Turkish mathematicians]] --
+
+=== U ===
+
+[[:Category:Ukrainian mathematicians|Ukrainian mathematicians]] --
+[[:Category:United Kingdom mathematician stubs|United Kingdom mathematician stubs]] -- 
+
+=== V ===
+
+[[:Category:Vietnamese mathematicians|Vietnamese mathematicians]] -- 
+
+=== W ===
+
+[[:Category:Welsh mathematicians|Welsh mathematicians]] --
+[[:Category:Wolf Prize recipients|Wolf Prize recipients]] -- 
+[[:Category:Women mathematicians|Women mathematicians]] --
+<!-- separator --> <!-- please do not delete or modify this line -->
+==Mathematics-related categories==
+:''These categories are somewhat mathematics-related, and may show up in   a "true" mathematics category, but they are not mathematical enough for their contents to be in either the [[list of mathematics articles]] or the [[list of mathematicians]]''.
+
+=== A ===
+
+[[:Category:Actuarial associations|Actuarial associations]] <!-- (people) --> -- 
+[[:Category:Actuarial science|Actuarial science]] <!-- (too remotely related to math) --> -- 
+[[:Category:Actuaries|Actuaries]] -- 
+[[:Category:Alan Turing|Alan Turing]] --
+[[:Category:Algorithms|Algorithms]] --
+[[:Category:American cryptographers|American cryptographers]]  <!-- (cryptography is not really math) --> --  
+[[:Category:Angle|Angle]] --
+[[:Category:Archimedes|Archimedes]] <!-- (person-specific) --> -- 
+[[:Category:Aristotle|Aristotle]] --  
+[[:Category:Article proofs|Article proofs]] <!-- (I don't think there is support for such a category) --> -- 
+[[:Category:Artificial life|Artificial life]] --
+[[:Category:Automata|Automata]] --
+[[:Category:Aviation statistics|Aviation statistics]] <!-- (more aviation than statistics) --> --
+
+=== B ===
+
+[[:Category:Baseball statistics|Baseball statistics]] <!-- (more baseball than statistics) --> -- 
+[[:Category:Basketball statistics|Basketball statistics]] <!-- (more basketball than statistics) --> -- 
+[[:Category:Bayesian networks|Bayesian networks]] -- 
+[[:Category:Bioinformaticists|Bioinformaticists]] -- 
+[[:Category:Bioinformatics|Bioinformatics]] <!-- (biology + comp sci) --> --
+[[:Category:Biological theorems|Biological theorems]] <!-- (biology) --> --  
+[[:Category:Biostatistics|Biostatistics]] -- 
+[[:Category:Books related to Flatland|Books related to Flatland]] -- 
+[[:Category:Braids|Braids]] <!-- (strange stuff) --> -- 
+[[:Category:British cryptographers|British cryptographers]]  <!-- (cryptography is not really math) --> --  
+
+=== C ===
+
+[[:Category:Calculating prodigies|Calculating prodigies]] --
+[[:Category:Calculators|Calculators]] -- 
+[[:Category:Cartographic projections|Cartographic projections]] <!-- (geography) --> -- 
+[[:Category:Celestial coordinate system|Celestial coordinate system]] <!-- (astronomy)  --> -- 
+[[:Category:Cellular automata|Cellular automata]] -- 
+[[:Category:Charts|Charts]] <!-- (what is this category is doing in this list?) --> -- 
+[[:Category:Cheminformatics|Cheminformatics]] -- 
+[[:Category:Cipher-machine cryptographers|Cipher-machine cryptographers]] --
+[[:Category:Claude Shannon|Claude Shannon]] <!-- (about the person, specifically mathematics articles will be in some other math category) --> -- 
+[[:Category:Coding theory|Coding theory]] <!-- (computer science) --> -- 
+[[:Category:Complex systems|Complex systems]] <!-- (too generic) --> -- 
+[[:Category:Computation|Computation]] <!-- (too generic) --> -- 
+[[:Category:Computational complexity theory|Computational complexity theory]] <!-- (computer science) --> -- 
+[[:Category:Computational models|Computational models]] -- 
+[[:Category:Computational physics|Computational physics]] -- 
+[[:Category:Computational science|Computational science]] <!-- (too generic) --> --
+[[:Category:Computer algebra systems|Computer algebra systems]] -- 
+[[:Category:Computer arithmetic|Computer arithmetic]] --
+[[:Category:Computer hardware tuning|Computer hardware tuning]] <!-- (comp sci) --> -- 
+[[:Category:Computer science|Computer science]] --
+[[:Category:Computing|Computing]] <!-- (too generic) --> --
+[[:Category:Conservation laws|Conservation laws]] <!-- (physics) --> -- 
+[[:Category:Constants|Constants]] <!-- (too generic, unlike [[:Category:Mathematical constants]]) --> --
+[[:Category:Control devices|Control devices]] <!-- (some kind of engineering) --> --  
+[[:Category:Control theory|Control theory]] <--- (engineering) --> --
+[[:Category:Cross-sectional analysis|Cross-sectional analysis]] -- 
+[[:Category:Cryptographers|Cryptographers]] --
+[[:Category:Cryptography|Cryptography]] <!-- (Q: can cryptography be considered math? A: It depends. Many of the articles in this category are highly mathematical ([[RSA]], [[Elliptic-curve cryptography]] etc), but a fair few are not. --> --
+[[:Category:Cryptography books|Cryptography books]] -- 
+[[:Category:Cryptography stubs|Cryptography stubs]] --
+[[:Category:Cyberneticists|Cyberneticists]] -- 
+[[:Category:Cybernetics|Cybernetics]] --
+
+=== D ===
+
+[[:Category:Data mining|Data mining]] -- 
+[[:Category:Demography|Demography]] -- 
+[[:Category:Descriptive complexity|Descriptive complexity]] <!-- (comp sci) --> --  
+[[:Category:Detection theory|Detection theory|Detection theory|Detection theory]] <!-- (too much into applications of statistics to be math) --> -- 
+[[:Category:Dice|Dice]] --
+[[:Category:Digital geometry|Digital geometry]] <!-- (computer vision) --> --
+[[:Category:Digital signal processing|Digital signal processing]] <!-- (that's engineering) --> --
+[[:Category:Digital systems|Digital systems]] -- 
+[[:Category:Dimensional analysis|Dimensional analysis]] <!-- (leans towards nonmathematical/physics/engineering) --> -- 
+[[:Category:Dimensionless numbers|Dimensionless numbers]] <!-- (more like physics) --> --
+[[:Category:Donald Knuth|Donald Knuth]] <!-- (about the person, not math articles) --> -- 
+
+=== E ===
+
+[[:Category:Econometrics|Econometrics]] --
+[[:Category:Econometrics stubs|Econometrics stubs]] <!-- (nonmath) --> -- 
+[[:Category:Economic data|Economic data]] -- 
+[[:Category:Economics|Economics]] -- 
+[[:Category:Economics theorems|Economics theorems]] -- 
+[[:Category:Egyptian cryptographers|Egyptian cryptographers]]  <!-- (cryptography is not really math) --> --  
+[[:Category:Entropy|Entropy]] <!-- (physics) --> --  
+[[:Category:Equations|Equations]] <!-- (too generic) --> -- 
+[[:Category:Error|Error]] -- 
+[[:Category:Error codes|Error codes]] <!-- (compyter science) --> -- 
+[[:Category:Evolutionary algorithms|Evolutionary algorithms]] -- 
+[[:Category:Exactly solvable models|Exactly solvable models]] <!-- (physisics )--> -- 
+[[:Category:Experimental design|Experimental design]] -- 
+
+=== F ===
+
+[[:Category:Fictional dimensions|Fictional dimensions]] <!-- (fiction) --> -- 
+[[:Category:Fictional mathematicians|Fictional mathematicians]] <!-- (frivolous category with lots of silly characters who may be numbers inclined but not authentic fictional mathematicians) --> -- 
+[[:Category:Filter theory|Filter theory]] <!-- (engineering) --> -- 
+[[:Category:Forensic statistics|Forensic statistics]] --
+[[:Category:Formal languages|Formal languages]] <!-- (computer science) --> -- 
+[[:Category:Formal methods|Formal methods]] <!-- (more like computer science) --> --
+[[:Category:Frames of reference|Frames of reference]] <!-- (physics) --> --  
+[[:Category:Free Bayesian statistics software|Free Bayesian statistics software]] <!-- (software) -->-- 
+[[:Category:Fundamental constants|Fundamental constants]] <!-- (physics) --> --
+
+=== G ===
+
+[[:Category:GCHQ cryptographers|GCHQ cryptographers]] --
+[[:Category:Game theorists|Game theorists]] <!-- (game theory is not really mathematics) --> -- 
+[[:Category:Game theory|Game theory]] <!-- (that's very much economics) --> --
+[[:Category:Genetic algorithms|Genetic algorithms]] -- 
+[[:Category:Geographic coordinate systems|Geographic coordinate systems]] -- 
+[[:Category:Geostatistics|Geostatistics]] <!-- (too remote from mathematics) --> -- 
+[[:Category:Gottfried Leibniz|Gottfried Leibniz]] <!-- (about the person, not math itself) --> -- 
+[[:Category:Graphs (images)|Graphs (images)]] --
+
+=== H ===
+
+[[:Category:Hamiltonian mechanics|Hamiltonian mechanics]] <!-- (physics) --> -- 
+[[:Category:Helices|Helices]] <!-- (too generic) --> -- 
+
+=== I ===
+
+[[:Category:Images of curves|Images of curves]] <!-- (pictures, not articles) --> -- 
+[[:Category:Images of fractals|Images of fractals]] <!-- (it has pictures, not articles) --> -- 
+[[:Category:Index numbers|Index numbers]] <!-- (economics) --> -- 
+[[:Category:Information theorists|Information theorists]] -- 
+[[:Category:Interactive evolutionary computation|Interactive evolutionary computation]]  --
+[[:Category:Interactive geometry software|Interactive geometry software]] --  
+[[:Category:Isaac Newton|Isaac Newton]] <!-- (Newton centered rather than math centered) --> -- 
+
+=== J ===
+
+[[:Category:Jorge Luis Borges|Jorge Luis Borges]] -- 
+
+=== K ===
+
+[[:Category:Kerala school|Kerala school]] <!-- (mixed mathematics/mathematician category) --> -- 
+[[:Category:Knot stubs|Knot stubs]] <!-- (about real knots, not [[knot theory]]) --> --
+[[:Category:Knots|Knots]] <!-- (about real knots, not [[knot theory]]) --> -- 
+
+=== L ===
+
+[[:Category:Leonardo da Vinci|Leonardo da Vinci]] -- 
+[[:Category:Lewis Carroll|Lewis Carroll]] <!-- (about the person, and he had plenty of other interests except math) --> -- 
+[[:Category:Lists of ambiguous numbers|Lists of ambiguous numbers]] <!-- (contains an unambiguous number of nonmath articles) -->  --  
+[[:Category:Logic|Logic]] <!-- (too generic &mdash; unlike [[:Category:Mathematical logic|Mathematical logic]]) --> --
+[[:Category:Logic puzzles|Logic puzzles]] -- 
+[[:Category:Lorentzian manifolds|Lorentzian manifolds]] <!-- (relativity theory) --> --
+
+=== M ===
+
+[[:Category:M. C. Escher|M. C. Escher]] <!-- (about the person) --> -- 
+[[:Category:Machine learning|Machine learning]] --
+[[:Category:Mathematical and quantitative methods (economics)|Mathematical and quantitative methods (economics)]] -- 
+[[:Category:Mathematical biology|Mathematical biology]] <!-- (more biology than mathematics) --> -- 
+[[:Category:Mathematical ecologists|Mathematical ecologists]] <!-- (more ecologists than mathematicians) --> -- 
+[[:Category:Mathematical economics|Mathematical economics]] <!-- (economics) --> -- 
+[[:Category:Mathematical finance|Mathematical finance]] <!-- (finance) --> -- 
+[[:Category:Mathematical quantization|Mathematical quantization]] <!-- (physics) -->--
+[[:Category:Mathematical software|Mathematical software]] <!-- (more software than mathematics) --> -- 
+[[:Category:Mathematics images|Mathematics images]] <!-- (pictures, not articles) --> -- 
+[[:Category:Mathematics templates|Mathematics templates]] <!-- (templates are not articles) --> -- 
+[[:Category:Mechanical calculators|Mechanical calculators]] -- 
+[[:Category:Mechanical puzzles|Mechanical puzzles]] -- 
+[[:Category:Model checkers|Model checkers]] <!-- (not math) --> -- 
+[[:Category:Modern cryptographers|Modern cryptographers]] --
+[[:Category:Monte Carlo software|Monte Carlo software]] -- 
+
+=== N ===
+
+[[:Category:National statistical services|National statistical services]] <!-- (too remotely related to statistics) --> --
+[[:Category:Network performance|Network performance]] <!-- (comp sci) --> -- 
+[[:Category:Network topology|Network topology]] <!-- (about computer networks) --> -- 
+[[:Category:Networks|Networks]] <!-- (too remotely related to graph theory) --> --
+[[:Category:Neural networks|Neural networks]] -- 
+[[:Category:Noise|Noise]] <!-- (more like physics and engineering) --> --
+[[:Category:Non-equilibrium thermodynamics|Non-equilibrium thermodynamics]] <!-- (physics) --> --
+[[:Category:Norbert Wiener|Norbert Wiener]] <!-- (person-specific) --> -- 
+[[:Category:Number-related lists|Number-related lists]] <!-- (a frivolious category) --> -- 
+[[:Category:Numbers in pop culture|Numbers in pop culture]] <!-- (frivolous) --> -- 
+[[:Category:Numerical software|Numerical software]] <!-- (software programs) --> --
+[[:Category:Numerology|Numerology]] <!-- (occult-related) --> --
+
+=== O ===
+
+[[:Category:Operations research|Operations research]] <!-- (goes off into nonmathematical things) --> -- 
+[[:Category:Optimization software|Optimization software]] <!-- (more software than optimization) -->-- 
+[[:Category:Orientation|Orientation]] <!-- (too generic) --> --
+
+=== P ===
+
+[[:Category:Paradoxes|Paradoxes]] <!-- (this is more logic and philosophy) --> --
+[[:Category:Perspective projection|Perspective projection]] <!-- (I am ambivalent about this one) --> --
+[[:Category:Pharmaceutical statistics|Pharmaceutical statistics]] -- 
+[[:Category:Physics theorems|Physics theorems]] <!-- (physics) --> -- 
+[[:Category:Placeholder variables|Placeholder variables]] --
+[[:Category:Polish cryptographers|Polish cryptographers]]  <!-- (cryptography is not really math) --> -- 
+[[:Category:Polychoral image|Polychoral image]] <!-- (has images, not articles) --> -- 
+[[:Category:Polyhedra templates|Polyhedra templates]] <!-- (contains templates, not articles) --> -- 
+[[:Category:Polyhedral image|Polyhedral image]] <!-- (images, not math articles) --> -- 
+[[:Category:Population statistics|Population statistics]] <!-- (more population than statistics) --> -- 
+[[:Category:Potential|Potential]] <!-- (physics) --> -- 
+[[:Category:Power laws|Power laws]] <!-- (looks more like physics) --> -- 
+[[:Category:Pre-19th century cryptographers|Pre-19th century cryptographers]] --
+[[:Category:Pre-computer cryptographers|Pre-computer cryptographers]] --
+[[:Category:Precession|Precession]] <!-- (not math) --> -- 
+[[:Category:Presidents of the Royal Statistical Society|Presidents of the Royal Statistical Society]] <!-- (does not make them automatically into mathematicians) --> -- 
+[[:Category:Probability distributions images|Probability distributions images]] <!-- (has images) --> -- 
+[[:Category:Pseudorandom number generators|Pseudorandom number generators]]  <!-- (computer science) --> -- 
+[[:Category:Psychometrics|Psychometrics]] --  
+[[:Category:Public-key cryptographers|Public-key cryptographers]] --
+[[:Category:Putnam Fellows|Putnam Fellows]] <!-- (people) --> -- 
+[[:Category:Pythagorean philosophy|Pythagorean philosophy]] <!-- (philosophy) --> --
+[[:Category:Pythagoreans|Pythagoreans]] <!-- (philosophers) --> -- 
+
+=== Q ===
+
+[[:Category:Quantum mechanics|Quantum mechanics]] <!-- (physics) --> --
+[[:Category:Queueing theory|Queueing theory]] <!-- (interdisciplinary) --> --  
+
+=== R ===
+
+[[:Category:Randomness|Randomness]] <!-- (too generic) --> -- 
+[[:Category:Relational algebra|Relational algebra]] <!-- (more like computer science and logic) --> --  
+[[:Category:Relativity|Relativity]] <!-- (physics) --> -- 
+[[:Category:Researchers in geometric algorithms|Researchers in geometric algorithms]] <!-- (computer scientists) --> -- 
+[[:Category:Rotational symmetry|Rotational symmetry]] <!-- (quantum mechanics) --> -- 
+[[:Category:Rubik's Cube|Rubik's Cube]] <!-- (somewhat remotely related to recreational mathematics) --> --
+
+=== S ===
+
+[[:Category:Scaling symmetries|Scaling symmetries]] <!-- (physics) --> -- 
+[[:Category:Self-organization|Self-organization]] <!-- (interdisciplinary, whatever that means) --> -- 
+[[:Category:Serialism|Serialism]] -- 
+[[:Category:Set theoretic programming languages|Set theoretic programming languages]] <!-- (more computer science) --> -- 
+[[:Category:Signal processing stubs|Signal processing stubs]] -- 
+[[:Category:Social statistics|Social statistics]] -- 
+[[:Category:Sociology theorems|Sociology theorems]] -- 
+[[:Category:Sort algorithms|Sort algorithms]] <!-- (tilting too much towards computer science) --> -- 
+[[:Category:South African cricket statisticians|South African cricket statisticians]] <!-- (not math) --> -- 
+[[:Category:Spanning tree|Spanning tree]] <!-- (computer science) --> -- 
+[[:Category:Specific models|Specific models]] <!-- (that's statistical mechanics, that is, physics) --> -- 
+[[:Category:Spinors|Spinors]] -- 
+[[:Category:Sports records and statistics|Sports records and statistics]] <!-- (more sports than statistics) --> -- 
+[[:Category:Statistical charts and diagrams|Statistical charts and diagrams]] <!-- (strays too far into nonmath) --> -- 
+[[:Category:Statistical data sets|Statistical data sets]]  <!-- (goes too far into nonmath) -->  -- 
+[[:Category:Statistical lists and tables|Statistical lists and tables]]  <!-- (goes too far into nonmath) -->  -- 
+[[:Category:Statistical mechanics|Statistical mechanics]] <!-- (physics) --> -- 
+[[:Category:Statistical organizations|Statistical organizations]] <!-- (too remotely removed from math) --> -- 
+[[:Category:Statistical software|Statistical software]] <!-- (more software than statistics) --> --
+[[:Category:Statistics stubs|Statistics stubs]] <!-- (goes too far into nonmath) --> -- 
+[[:Category:Stellation diagram|Stellation diagram]] <!-- (pictures, not articles) --> -- 
+[[:Category:Sudoku|Sudoku]] <!-- (a game; it is recreational mathematics, but the category goes into nonmathematical things) --> --
+[[:Category:Supersymmetry|Supersymmetry]] <!-- (physics) --> -- 
+[[:Category:Supertasks|Supertasks]] <!-- (philosophy) --> --
+[[:Category:Symmetry|Symmetry]] <!-- (too generic) --> -- 
+
+=== T ===
+
+[[:Category:TeX|TeX]] -- 
+[[:Category:Technical drawing|Technical drawing]]  --
+[[:Category:Theorem provers|Theorem provers]] <!-- (collection of software packages) --> -- 
+[[:Category:Theoretical biology|Theoretical biology]] <!-- (biology) --> -- 
+[[:Category:Theoretical computer science|Theoretical computer science]] <!-- (computer science) --> -- 
+[[:Category:Theoretical physics|Theoretical physics]] <!-- (very mathematical, but still physics) --> --
+[[:Category:Tiling puzzles|Tiling puzzles]] -- 
+[[:Category:Time series analysis|Time series analysis]] <!-- (interdisciplinary) --> -- 
+[[:Category:Trees (structure)|Trees (structure)]] <!-- (computer science) --> --
+[[:Category:Troff|Troff]] <!-- (softare) --> -- 
+
+=== U ===
+
+[[:Category:Unified Modeling Language|Unified Modeling Language]] -- 
+
+=== V ===
+
+[[:Category:Variational formalism of general relativity|Variational formalism of general relativity]] <!-- (physics) --> -- 
+[[:Category:Volume|Volume]] <!-- (too generic) --> -- 
+
+=== W ===
+
+[[:Category:Wave mechanics|Wave mechanics]] <!-- (physics) --> -- 
+[[:Category:Waves|Waves]] <!-- (too generic) --> -- 
+[[:Category:Wikipedia and mathematics|Wikipedia and mathematics]] <!-- (not math articles) --> -- 
+
+=== Z ===
+
+[[:Category:Z notation|Z notation]] -- 
+<!-- separator --> <!-- please do not delete or modify this line -->
+[[Category:Mathematics-related lists|Categories]]
+
+[[it:Indice KWIC delle categorie matematiche]]

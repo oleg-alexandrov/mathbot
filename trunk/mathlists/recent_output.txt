@@ -1,0 +1,478 @@
+Loging in as Mathbot
+Logging in as Mathbot to http://en.wikipedia.org ... <br><br>
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28A%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28B%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28C%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28D%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28E%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28F%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28G%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28H%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28I%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28J%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28K%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28L%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28M%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28N%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28O%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28P%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28Q%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28R%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28S%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28T%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28U%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28V%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28W%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28X%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_%28Y%29&hideminor=0&days=1&limit=5000
+sleep 2
+now: getting http://en.wikipedia.org/w/index.php?title=SpecParsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+ial:Recentchangeslinked&target=List_of_mathematicians_%28Z%29&hideminor=0&days=1&limit=5000
+sleep 2
+Fetching Al-Dinawari.wiki. <br>
+Sleep 2<br><br>
+
+Writing Al-Dinawari to /tmp/articles/A/Al-Dinawari.wiki
+Fetching Albert Einstein.wiki. <br>
+Sleep 2<br><br>
+
+Writing Albert Einstein to /tmp/articles/A/Albert_Einstein.wiki
+Fetching Albrecht Dürer.wiki. <br>
+Sleep 2<br><br>
+
+Writing Albrecht Dürer to /tmp/articles/A/Albrecht_D%c3%bcrer.wiki
+Fetching Alfred Clebsch.wiki. <br>
+Sleep 2<br><br>
+
+Writing Alfred Clebsch to /tmp/articles/A/Alfred_Clebsch.wiki
+Fetching Archimedes.wiki. <br>
+Sleep 2<br><br>
+
+Writing Archimedes to /tmp/articles/A/Archimedes.wiki
+Fetching Aristotle.wiki. <br>
+Sleep 2<br><br>
+
+Writing Aristotle to /tmp/articles/A/Aristotle.wiki
+Fetching Arnold Weinstock.wiki. <br>
+Sleep 2<br><br>
+
+Writing Arnold Weinstock to /tmp/articles/A/Arnold_Weinstock.wiki
+Fetching Asclepius of Tralles.wiki. <br>
+Sleep 2<br><br>
+
+Writing Asclepius of Tralles to /tmp/articles/A/Asclepius_of_Tralles.wiki
+Fetching August Ferdinand Möbius.wiki. <br>
+Sleep 2<br><br>
+
+Writing August Ferdinand Möbius to /tmp/articles/A/August_Ferdinand_M%c3%b6bius.wiki
+Fetching Bhāskara I.wiki. <br>
+Sleep 2<br><br>
+
+Writing Bhāskara I to /tmp/articles/B/Bh%c4%81skara_I.wiki
+Fetching Blaise Pascal.wiki. <br>
+Sleep 2<br><br>
+
+Writing Blaise Pascal to /tmp/articles/B/Blaise_Pascal.wiki
+Fetching Boris Berezovsky.wiki. <br>
+Sleep 2<br><br>
+
+Writing Boris Berezovsky to /tmp/articles/B/Boris_Berezovsky.wiki
+Fetching C.C. Li.wiki. <br>
+Sleep 2<br><br>
+
+Writing C.C. Li to /tmp/articles/C/C.C._Li.wiki
+Fetching Carl Friedrich Gauss.wiki. <br>
+Sleep 2<br><br>
+
+Writing Carl Friedrich Gauss to /tmp/articles/C/Carl_Friedrich_Gauss.wiki
+Fetching Carl Hewitt.wiki. <br>
+Sleep 2<br><br>
+
+Writing Carl Hewitt to /tmp/articles/C/Carl_Hewitt.wiki
+Fetching Carol Vorderman.wiki. <br>
+Sleep 2<br><br>
+
+Writing Carol Vorderman to /tmp/articles/C/Carol_Vorderman.wiki
+Fetching Christie Jayaratnam Eliezer.wiki. <br>
+Sleep 2<br><br>
+
+Writing Christie Jayaratnam Eliezer to /tmp/articles/C/Christie_Jayaratnam_Eliezer.wiki
+Fetching Colin Mackenzie.wiki. <br>
+Sleep 2<br><br>
+
+Writing Colin Mackenzie to /tmp/articles/C/Colin_Mackenzie.wiki
+Fetching David Brewster.wiki. <br>
+Sleep 2<br><br>
+
+Writing David Brewster to /tmp/articles/D/David_Brewster.wiki
+Fetching David Guest.wiki. <br>
+Sleep 2<br><br>
+
+Writing David Guest to /tmp/articles/D/David_Guest.wiki
+Fetching Democritus.wiki. <br>
+Sleep 2<br><br>
+
+Writing Democritus to /tmp/articles/D/Democritus.wiki
+Fetching E. H. Moore.wiki. <br>
+Sleep 2<br><br>
+
+Writing E. H. Moore to /tmp/articles/E/E._H._Moore.wiki
+Fetching Emanuel Lasker.wiki. <br>
+Sleep 2<br><br>
+
+Writing Emanuel Lasker to /tmp/articles/E/Emanuel_Lasker.wiki
+Fetching Eratosthenes.wiki. <br>
+Sleep 2<br><br>
+
+Writing Eratosthenes to /tmp/articles/E/Eratosthenes.wiki
+Fetching Erik Ivar Fredholm.wiki. <br>
+Sleep 2<br><br>
+
+Writing Erik Ivar Fredholm to /tmp/articles/E/Erik_Ivar_Fredholm.wiki
+Fetching Fan Chung.wiki. <br>
+Sleep 2<br><br>
+
+Writing Fan Chung to /tmp/articles/F/Fan_Chung.wiki
+Fetching Florence Nightingale.wiki. <br>
+Sleep 2<br><br>
+
+Writing Florence Nightingale to /tmp/articles/F/Florence_Nightingale.wiki
+Fetching Freeman Dyson.wiki. <br>
+Sleep 2<br><br>
+
+Writing Freeman Dyson to /tmp/articles/F/Freeman_Dyson.wiki
+Fetching Galileo Galilei.wiki. <br>
+Sleep 2<br><br>
+
+Writing Galileo Galilei to /tmp/articles/G/Galileo_Galilei.wiki
+Fetching Gene Ward Smith.wiki. <br>
+Sleep 2<br><br>
+
+Writing Gene Ward Smith to /tmp/articles/G/Gene_Ward_Smith.wiki
+Fetching Georg Cantor.wiki. <br>
+Sleep 2<br><br>
+
+Writing Georg Cantor to /tmp/articles/G/Georg_Cantor.wiki
+Fetching Gottfried Leibniz.wiki. <br>
+Sleep 2<br><br>
+
+Writing Gottfried Leibniz to /tmp/articles/G/Gottfried_Leibniz.wiki
+Fetching Gustav Fechner.wiki. <br>
+Sleep 2<br><br>
+
+Writing Gustav Fechner to /tmp/articles/G/Gustav_Fechner.wiki
+Fetching Harold Wilson.wiki. <br>
+Sleep 2<br><br>
+
+Writing Harold Wilson to /tmp/articles/H/Harold_Wilson.wiki
+Fetching Heinrich Brandt.wiki. <br>
+Sleep 2<br><br>
+
+Writing Heinrich BrandParsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+t to /tmp/articles/H/Heinrich_Brandt.wiki
+Fetching Ibn al-Haytham.wiki. <br>
+Sleep 2<br><br>
+
+Writing Ibn al-Haytham to /tmp/articles/I/Ibn_al-Haytham.wiki
+Fetching Ibrahim al-Fazari.wiki. <br>
+Sleep 2<br><br>
+
+Writing Ibrahim al-Fazari to /tmp/articles/I/Ibrahim_al-Fazari.wiki
+Fetching Isaac Newton.wiki. <br>
+Sleep 2<br><br>
+
+Writing Isaac Newton to /tmp/articles/I/Isaac_Newton.wiki
+Fetching J. J. Thomson.wiki. <br>
+Sleep 2<br><br>
+
+Writing J. J. Thomson to /tmp/articles/J/J._J._Thomson.wiki
+Fetching James Lepowsky.wiki. <br>
+Sleep 2<br><br>
+
+Writing James Lepowsky to /tmp/articles/J/James_Lepowsky.wiki
+Fetching James Watt.wiki. <br>
+Sleep 2<br><br>
+
+Writing James Watt to /tmp/articles/J/James_Watt.wiki
+Fetching Jan Jansz de Jonge Stampioen.wiki. <br>
+Sleep 2<br><br>
+
+Writing Jan Jansz de Jonge Stampioen to /tmp/articles/J/Jan_Jansz_de_Jonge_Stampioen.wiki
+Fetching Jean-Christophe Yoccoz.wiki. <br>
+Sleep 2<br><br>
+
+Writing Jean-Christophe Yoccoz to /tmp/articles/J/Jean-Christophe_Yoccoz.wiki
+Fetching Jean-Louis Calandrini.wiki. <br>
+Sleep 2<br><br>
+
+Writing Jean-Louis Calandrini to /tmp/articles/J/Jean-Louis_Calandrini.wiki
+Fetching Jean-Robert Argand.wiki. <br>
+Sleep 2<br><br>
+
+Writing Jean-Robert Argand to /tmp/articles/J/Jean-Robert_Argand.wiki
+Fetching Johan de Witt.wiki. <br>
+Sleep 2<br><br>
+
+Writing Johan de Witt to /tmp/articles/J/Johan_de_Witt.wiki
+Fetching John Couch Adams.wiki. <br>
+Sleep 2<br><br>
+
+Writing John Couch Adams to /tmp/articles/J/John_Couch_Adams.wiki
+Fetching John Lennard-Jones.wiki. <br>
+Sleep 2<br><br>
+
+Writing John Lennard-Jones to /tmp/articles/J/John_Lennard-Jones.wiki
+Fetching John Milnor.wiki. <br>
+Sleep 2<br><br>
+
+Writing John Milnor to /tmp/articles/J/John_Milnor.wiki
+Fetching Joseph Stefan.wiki. <br>
+Sleep 2<br><br>
+
+Writing Joseph Stefan to /tmp/articles/J/Joseph_Stefan.wiki
+Fetching Joshua King.wiki. <br>
+Sleep 2<br><br>
+
+Writing Joshua King to /tmp/articles/J/Joshua_King.wiki
+Fetching Jules Richard.wiki. <br>
+Sleep 2<br><br>
+
+Writing Jules Richard to /tmp/articles/J/Jules_Richard.wiki
+Fetching Kiiti Morita.wiki. <br>
+Sleep 2<br><br>
+
+Writing Kiiti Morita to /tmp/articles/K/Kiiti_Morita.wiki
+Fetching Kurt Gödel.wiki. <br>
+Sleep 2<br><br>
+
+Writing Kurt Gödel to /tmp/articles/K/Kurt_G%c3%b6del.wiki
+Fetching Leo Moser.wiki. <br>
+Sleep 2<br><br>
+
+Writing Leo Moser to /tmp/articles/L/Leo_Moser.wiki
+Fetching Leonhard Euler.wiki. <br>
+Sleep 2<br><br>
+
+Writing Leonhard Euler to /tmp/articles/L/Leonhard_Euler.wiki
+Fetching Lewis Carroll.wiki. <br>
+Sleep 2<br><br>
+
+Writing Lewis Carroll to /tmp/articles/L/Lewis_Carroll.wiki
+Fetching Liu Hui.wiki. <br>
+Sleep 2<br><br>
+
+Writing Liu Hui to /tmp/articles/L/Liu_Hui.wiki
+Fetching Lloyd Shapley.wiki. <br>
+Sleep 2<br><br>
+
+Writing Lloyd Shapley to /tmp/articles/L/Lloyd_Shapley.wiki
+Fetching László Lovász.wiki. <br>
+Sleep 2<br><br>
+
+Writing László Lovász to /tmp/articles/L/L%c3%a1szl%c3%b3_Lov%c3%a1sz.wiki
+Fetching Marc Thomas.wiki. <br>
+Sleep 2<br><br>
+
+Writing Marc Thomas to /tmp/articles/M/Marc_Thomas.wiki
+Fetching Mary Somerville.wiki. <br>
+Sleep 2<br><br>
+
+Writing Mary Somerville to /tmp/articles/M/Mary_Somerville.wiki
+Fetching Max Euwe.wiki. <br>
+Sleep 2<br><br>
+
+Writing Max Euwe to /tmp/articles/M/Max_Euwe.wiki
+Fetching Nathan Salmon.wiki. <br>
+Sleep 2<br><br>
+
+Writing Nathan Salmon to /tmp/articles/N/Nathan_Salmon.wiki
+Fetching Nicolaus Copernicus.wiki. <br>
+Sleep 2<br><br>
+
+Writing Nicolaus Copernicus to /tmp/articles/N/Nicolaus_Copernicus.wiki
+Fetching Nikoloz Muskhelishvili.wiki. <br>
+Sleep 2<br><br>
+
+Writing Nikoloz Muskhelishvili to /tmp/articles/N/Nikoloz_Muskhelishvili.wiki
+Fetching Noam Chomsky.wiki. <br>
+Sleep 2<br><br>
+
+Writing Noam Chomsky to /tmp/articles/N/Noam_Chomsky.wiki
+Fetching Omar Khayyám.wiki. <br>
+Sleep 2<br><br>
+
+Writing Omar Khayyám to /tmp/articles/O/Omar_Khayy%c3%a1m.wiki
+Fetching Pappus of Alexandria.wiki. <br>
+Sleep 2<br><br>
+
+Writing Pappus of Alexandria to /tmp/articles/P/Pappus_of_Alexandria.wiki
+Fetching Philippe Kahn.wiki. <br>
+Sleep 2<br><br>
+
+Writing Philippe Kahn to /tmp/articles/P/Philippe_Kahn.wikiParsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/vendor_perl/5.8.8/i586-linux-thread-multi/HTML/PullParser.pm line 83.
+
+Fetching Pythagoras.wiki. <br>
+Sleep 2<br><br>
+
+Writing Pythagoras to /tmp/articles/P/Pythagoras.wiki
+Fetching Reese Prosser.wiki. <br>
+Sleep 2<br><br>
+
+Writing Reese Prosser to /tmp/articles/R/Reese_Prosser.wiki
+Fetching Robert Aumann.wiki. <br>
+Sleep 2<br><br>
+
+Writing Robert Aumann to /tmp/articles/R/Robert_Aumann.wiki
+Fetching Robert Zimmer.wiki. <br>
+Sleep 2<br><br>
+
+Writing Robert Zimmer to /tmp/articles/R/Robert_Zimmer.wiki
+Fetching Ronald Rivlin.wiki. <br>
+Sleep 2<br><br>
+
+Writing Ronald Rivlin to /tmp/articles/R/Ronald_Rivlin.wiki
+Fetching Rudolf Kalman.wiki. <br>
+Sleep 2<br><br>
+
+Writing Rudolf Kalman to /tmp/articles/R/Rudolf_Kalman.wiki
+Fetching Ruth Barcan Marcus.wiki. <br>
+Sleep 2<br><br>
+
+Writing Ruth Barcan Marcus to /tmp/articles/R/Ruth_Barcan_Marcus.wiki
+Fetching Salaheddin Ali Nader Shah Angha.wiki. <br>
+Sleep 2<br><br>
+
+Writing Salaheddin Ali Nader Shah Angha to /tmp/articles/S/Salaheddin_Ali_Nader_Shah_Angha.wiki
+Fetching Samuel McLaren.wiki. <br>
+Sleep 2<br><br>
+
+Writing Samuel McLaren to /tmp/articles/S/Samuel_McLaren.wiki
+Fetching Satyendra Nath Bose.wiki. <br>
+Sleep 2<br><br>
+
+Writing Satyendra Nath Bose to /tmp/articles/S/Satyendra_Nath_Bose.wiki
+Fetching Shen Kuo.wiki. <br>
+Sleep 2<br><br>
+
+Writing Shen Kuo to /tmp/articles/S/Shen_Kuo.wiki
+Fetching Shing-Tung Yau.wiki. <br>
+Sleep 2<br><br>
+
+Writing Shing-Tung Yau to /tmp/articles/S/Shing-Tung_Yau.wiki
+Fetching Sophie Germain.wiki. <br>
+Sleep 2<br><br>
+
+Writing Sophie Germain to /tmp/articles/S/Sophie_Germain.wiki
+Fetching Theodore Kaczynski.wiki. <br>
+Sleep 2<br><br>
+
+Writing Theodore Kaczynski to /tmp/articles/T/Theodore_Kaczynski.wiki
+Fetching Theon of Smyrna.wiki. <br>
+Sleep 2<br><br>
+
+Writing Theon of Smyrna to /tmp/articles/T/Theon_of_Smyrna.wiki
+Fetching Thomas Malthus.wiki. <br>
+Sleep 2<br><br>
+
+Writing Thomas Malthus to /tmp/articles/T/Thomas_Malthus.wiki
+Fetching Timothy Gowers.wiki. <br>
+Sleep 2<br><br>
+
+Writing Timothy Gowers to /tmp/articles/T/Timothy_Gowers.wiki
+Fetching Tom Lehrer.wiki. <br>
+Sleep 2<br><br>
+
+Writing Tom Lehrer to /tmp/articles/T/Tom_Lehrer.wiki
+Fetching Verner Emil Hoggatt, Jr..wiki. <br>
+Sleep 2<br><br>
+
+Writing Verner Emil Hoggatt, Jr. to /tmp/articles/V/Verner_Emil_Hoggatt%2c_Jr..wiki
+Fetching Vladimir Batagelj.wiki. <br>
+Sleep 2<br><br>
+
+Writing Vladimir Batagelj to /tmp/articles/V/Vladimir_Batagelj.wiki
+Fetching Wang Hao.wiki. <br>
+Sleep 2<br><br>
+
+Writing Wang Hao to /tmp/articles/W/Wang_Hao.wiki
+Fetching William Hopkins.wiki. <br>
+Sleep 2<br><br>
+
+Writing William Hopkins to /tmp/articles/W/William_Hopkins.wiki
+Fetching William Playfair.wiki. <br>
+Sleep 2<br><br>
+
+Writing William Playfair to /tmp/articles/W/William_Playfair.wiki
+Fetching William Prager.wiki. <br>
+Sleep 2<br><br>
+
+Writing William Prager to /tmp/articles/W/William_Prager.wiki
+Fetching William Rowan Hamilton.wiki. <br>
+Sleep 2<br><br>
+
+Writing William Rowan Hamilton to /tmp/articles/W/William_Rowan_Hamilton.wiki
+Fetching William of Ockham.wiki. <br>
+Sleep 2<br><br>
+
+Writing William of Ockham to /tmp/articles/W/William_of_Ockham.wiki
+Fetching Yaqūb ibn Tāriq.wiki. <br>
+Sleep 2<br><br>
+
+Writing Yaqūb ibn Tāriq to /tmp/articles/Y/Yaq%c5%abb_ibn_T%c4%81riq.wiki
+Fetching Yehoshua Bar-Hillel.wiki. <br>
+Sleep 2<br><br>
+
+Writing Yehoshua Bar-Hillel to /tmp/articles/Y/Yehoshua_Bar-Hillel.wiki
+Fetching Yum-Tong Siu.wiki. <br>
+Sleep 2<br><br>
+
+Writing Yum-Tong Siu to /tmp/articles/Y/Yum-Tong_Siu.wiki
+Fetching Zhang Heng.wiki. <br>
+Sleep 2<br><br>
+
+Writing Zhang Heng to /tmp/articles/Z/Zhang_Heng.wiki
+Submitting User:Mathbot/Recent changes.wiki. <br>
+Sleep 2<br><br>
+
