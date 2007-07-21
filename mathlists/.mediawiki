@@ -1,0 +1,10 @@
+$VAR1 = {
+          'action_path' => 'w/wiki.phtml?action=submit&title=',
+          'space_substitute' => '+',
+          'username' => 'Mathbot',
+          'site_url' => 'http://en.wikipedia.org',
+          'password' => 'torent77',
+          'edit_path' => 'w/wiki.phtml?action=edit&title=',
+          'login_path' => 'w/wiki.phtml?action=submit&title=Special:Userlogin',
+          'output_level' => 1
+        };

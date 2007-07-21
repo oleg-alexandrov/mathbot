@@ -1,0 +1,36 @@
+[[Base32]] -- 
+[[Base64]] -- 
+[[Biased random walk (biochemistry)]] -- 
+[[Bore (wind instruments)]] -- 
+[[Detailed logarithmic timeline]] -- 
+[[Economic data]] -- 
+[[Eric Van]] -- 
+[[Exponential assembly]] -- 
+[[Exponential backoff]] -- 
+[[Exponential tree]] -- 
+[[Geographic coordinate system]] -- 
+[[ISO 31-1]] -- 
+[[Inflation rate]] -- 
+[[Interplanetary Transport Network]] -- 
+[[JPEG 2000]] -- 
+[[Languages on the Internet]] -- 
+[[Logarithmic timeline]] -- 
+[[Malthusian catastrophe]] -- 
+[[Manuel Moschopulus]] -- 
+[[Mechanism design]] -- 
+[[Moore's law]] -- 
+[[Per capita]] -- 
+[[Radioactive decay]] -- 
+[[Rock's law]] -- 
+[[Serial number]] -- 
+[[Serialism]] -- 
+[[Squad number]] -- 
+[[Steven Anson Coons]] -- 
+[[Stress (physics)]] -- 
+[[Tangled hierarchy]] -- 
+[[Unbeatable strategy]] -- 
+[[Leonardo da Vinci]] --
+[[Foreign Affiliate Trade Statistics]] --
+[[Moore's Law]] --
+[[AIMMS]] --
+[[Imperfect induction]] --

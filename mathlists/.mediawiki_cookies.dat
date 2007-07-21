@@ -1,0 +1,4 @@
+#LWP-Cookies-1.0
+Set-Cookie3: enwikiToken=b95aee51ff957c359d54fb1ff854a3db; path="/"; domain=en.wikipedia.org; path_spec; expires="2007-08-18 20:18:11Z"; version=0
+Set-Cookie3: enwikiUserID=234358; path="/"; domain=en.wikipedia.org; path_spec; expires="2007-08-18 20:18:11Z"; version=0
+Set-Cookie3: enwikiUserName=Mathbot; path="/"; domain=en.wikipedia.org; path_spec; expires="2007-08-18 20:18:11Z"; version=0
