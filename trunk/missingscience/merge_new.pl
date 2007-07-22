@@ -4,9 +4,8 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use Carp qw(croak carp confess);
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 use WWW::Mediawiki::Client;   # upload from Wikipedia
-use WWW::Mediawiki::fetch_submit; # my own packages, this and the one below
-use WWW::Mediawiki::fetch_submit_nosave; # my own packages, this and the one below
-use WWW::Mediawiki::wikipedia_login;
+require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
+require 'bin/wikipedia_login.pl';
 use Encode;
 use Unicode::Normalize;
 use utf8;
@@ -28,6 +27,8 @@ MAIN: {
 
   my ($spcount, $text, @red, %hash, @split, $prefix, $file, $maintext, @lines, @entries, $line, $key, $i, $letter);
   my ($subject, %red, %blue, $oldtext, $newtext, $fileno, $diffs, %blacklist, %case, $sep, %possib_links);
+
+  &wikipedia_login();
   
   @split = ("ant", "ber", "bru", "che", "con", "cur", "dio", "ell", "fab", "fro", "gra", "her", "imb", "jac", "lag",
 	    "lio", "mat", "muk", "nro", "par", "pol", "pyt", "reg", "sch", "sin", "sta", "tak", "tri", "vit", "zzzzzzzzzzz");
@@ -90,14 +91,15 @@ MAIN: {
     
     if ($spcount <= $fileno && $split[$spcount-1] lt $key){ # close the file, submit, open new one
 
-      &identify_red(\%red, \%blue, $maintext); # problem! This code WILL cause trouble if server is down!!!!!!!!!
-      $maintext=rm_blue (\%red, $maintext);
+      # This code WILL cause trouble if server is down!!!!!!!!!
+#       &identify_red(\%red, \%blue, $maintext); 
+#       $maintext=rm_blue (\%red, $maintext);
       $maintext = &sectioning($maintext);
       $maintext = "{{TOCright}}\n" . $maintext;
 
-#      $prefix='User:Mathbot/Page';
-      $prefix='Wikipedia:Missing_science_topics/Maths';
-      $subject='Rm bluelinks and some malformed/bad links.';
+      $prefix='User:Mathbot/Page';
+#      $prefix='Wikipedia:Missing_science_topics/Maths';
+      $subject='Rm bluelinks.';
       &submit_file_nosave("$prefix$spcount.wiki", $subject, $maintext, 10, 5);
       open (FILE, ">", "$prefix$spcount.wiki");    print FILE "$text\n";    close(FILE);
       $newtext = $newtext . $maintext; $maintext="";

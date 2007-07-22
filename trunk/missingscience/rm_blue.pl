@@ -2,8 +2,7 @@
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-use WWW::Mediawiki::fetch_submit_nosave; # my own packages, this and the one below
-use WWW::Mediawiki::wikipedia_login;
+require 'bin/wikipedia_login.pl';
 use Encode;
 undef $/;		      # undefines the separator. Can read one whole file in one scalar.
 
