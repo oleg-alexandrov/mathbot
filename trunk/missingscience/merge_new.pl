@@ -31,8 +31,7 @@ MAIN: {
   my ($subject, %red, %blue, $oldtext, $newtext, $fileno, $diffs, %blacklist, %case, $sep);
   &wikipedia_login();
   
-  @split = ("ant", "ber", "bru", "che", "con", "cur", "dio", "ell", "fab", "fro", "gra", "her", "imb", "jac", "lag",
-	    "lio", "mat", "muk", "nro", "par", "pol", "pyt", "reg", "sch", "sin", "sta", "tak", "tri", "vit", "zzzzzzzzzzz");
+  @split = ("ant", "ber", "bru", "che", "con", "cur", "dio", "ell", "fab", "fro", "gra", "her", "imb", "jac", "lag", "lio", "mat", "muk", "nro", "par", "pol", "pyt", "reg", "sch", "sin", "sta", "tak", "tri", "vit", "zzzzzzzzzzz");
   
   $prefix='Wikipedia:Missing_science_topics/Maths';
   $attempts = 5;
@@ -49,8 +48,6 @@ MAIN: {
   for ($i=1 ; $i <=$fileno; $i++){
     $file=$prefix . $i . ".wiki";
     $text=&fetch_file_nosave($file, 10, 2);
-    # open (FILE, "<", $file); $text = <FILE>; close (FILE);   
-    # &submit_file_nosave("User:Mathbot/Page$i.wiki", "A list, to test my bot.", $text, $attempts, $sleep); sleep 5;
     $oldtext = $oldtext . "\n" . $text;
   }
   @lines = split ("\n", $oldtext);
