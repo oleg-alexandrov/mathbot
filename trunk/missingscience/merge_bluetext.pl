@@ -24,6 +24,9 @@ sub merge_bluetext_to_existing_bluetext_subpages{
     next unless ($link =~ /^(.)/);
     $letter = $1; 
     $letter = "0" if ($letter !~ /[A-Z]/);
+
+    # need to treat below the case when $bighash->{$letter}->{$link} already exists in $bighash
+    # then that needs to be merged with the current line.
     $bighash->{$letter}->{$link} = $line;
   }
 
