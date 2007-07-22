@@ -29,6 +29,7 @@ MAIN: {
   my ($spcount, $text, @red, %hash, @split, $prefix, $file, $maintext, @lines, @entries, $line);
   my ($attempts, $sleep, $key, $i, $letter, %possib_links);
   my ($subject, %red, %blue, $oldtext, $newtext, $fileno, $diffs, %blacklist, %case, $sep);
+  my ($total_blues);
   &wikipedia_login();
   
   @split = ("ant", "ber", "bru", "che", "con", "cur", "dio", "ell", "fab", "fro", "gra", "her", "imb", "jac", "lag", "lio", "mat", "muk", "nro", "par", "pol", "pyt", "reg", "sch", "sin", "sta", "tak", "tri", "vit", "zzzzzzzzzzz");
@@ -113,7 +114,11 @@ MAIN: {
   &submit_file_nosave("User:Mathbot/Page11.wiki", "Changes to [[WP:MST]]", $diffs, $attempts, $sleep);
   print "Diff is:\n$diffs\n";
 
-  &print_bluelinks(\%hash, \%blue);
+  $total_blues = &print_bluelinks(\%hash, \%blue);
+
+  # $newtext has all the new redlinks. Count how many they are.
+  # Then call the routine update_stats below to calc the stats.
+  
 }
 
 sub do_merge {
@@ -364,5 +369,35 @@ sub print_bluelinks {
   $existing_prefix = $index . '/ExistingMath';
   
   $total_blues = &merge_bluetext_to_existing_bluetext_subpages ($existing_prefix, $bluetext);
+
+  return $total_blues;
 }
+
+sub update_stats {
+
+    my ($index, $total_reds, $total_blues, $big_total, $percentage, $beg_tag, $end_tag, $stats, $no1, $no2, $text, $file);
+    $index = shift; $total_reds = shift; $total_blues = shift; 
+    
+    $big_total = $total_reds + $total_blues; 
+    $percentage = 100 * $total_blues / $big_total; $percentage = sprintf("%.2f", $percentage);
+
+    $no1 = $percentage / 100; $no2 = 1 - $no1;
+    $beg_tag = '<!-- begin bottag -->'; $end_tag = '<!-- end bottag -->';
+
+    $stats ="
+Of the $big_total entries, there are $total_reds remaining. 
+{\| style=\"border: 1px solid black\" cellspacing=1 width=75% height=15x align=center
+ \|+ <big>'''$percentage%'''</big> completed <small>(estimate)</small>
+ \|align=center width=$no1% style=background:#7fff00\|
+ \|align=center width=$no2% style=background:#ff7f50\|
+ \|}
+";
+
+  $file = $index . '.wiki';
+  $text = &fetch_file_nosave($file, 100, 1);
+  $text =~ s/($beg_tag).*?($end_tag)/$1$stats$2/sg;
+
+  &submit_file_nosave($file, "Update the progress for the math lists", $text, 10, 5); 
+}
+
 
