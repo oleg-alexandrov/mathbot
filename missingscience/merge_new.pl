@@ -74,7 +74,7 @@ MAIN: {
     $line =~ s/^[\*\#]\s*/\# /g;
     
     if (exists $hash{$key}){
-      $hash{$key} = &do_merge ($hash{$key}, $line);
+      $hash{$key} = &merge_lines ($hash{$key}, $line);
     }else{
      $hash{$key} = $line; 
    }
@@ -110,7 +110,7 @@ MAIN: {
   }
 
   $diffs=&see_diffs ($oldtext, $newtext);
-  &submit_file_nosave("User:Mathbot/Page11.wiki", "Changes to [[WP:MST]]", $diffs, $attempts, $sleep);
+  &submit_file_nosave("User:Mathbot/Page41.wiki", "Changes to [[WP:MST]]", $diffs, $attempts, $sleep);
   print "Diff is:\n$diffs\n";
 
   $total_blues = &print_bluelinks(\%hash, \%blue);
@@ -120,7 +120,7 @@ MAIN: {
   
 }
 
-sub do_merge {
+sub merge_lines {
 
   my ($p, $q, %map, @entries, $entry, $counter);
   $p = shift; $q =shift;
