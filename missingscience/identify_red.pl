@@ -4,9 +4,8 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use Carp qw(croak carp confess);
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 use WWW::Mediawiki::Client;   # upload from Wikipedia
-use WWW::Mediawiki::fetch_submit; # my own packages, this and the one below
-use WWW::Mediawiki::fetch_submit_nosave; # my own packages, this and the one below
-use WWW::Mediawiki::wikipedia_login;
+require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
+require 'bin/wikipedia_login.pl';
 use Encode;
 undef $/;		      # undefines the separator. Can read one whole file in one scalar.
 
@@ -25,8 +24,8 @@ sub identify_red {
   # submit wikicode and get back html source with red and blue links
   &submit_file_nosave($log, "Add links.", $text, 10, 5); 
   $text = `$wget \"$link\"`;
-  `sleep 10`;  $text = $text . "\n" . `$wget \"$link\"`; # one more time, to make sure we don't fail
-  `sleep 10`;  $text = $text . "\n" . `$wget \"$link\"`; # one more time, to make sure we don't fail
+  sleep 10;  $text = $text . "\n" . `$wget \"$link\"`; # one more time, to make sure we don't fail
+  sleep 10;  $text = $text . "\n" . `$wget \"$link\"`; # one more time, to make sure we don't fail
   
   $text =~ s/\s+/ /g;
   @reds = ($text =~ /class\s*=\s*\"new\"\s+title\s*=\s*\"(.*?)\"\s*\>.*?\</ig);
