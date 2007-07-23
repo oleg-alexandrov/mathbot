@@ -8,6 +8,7 @@ use WWW::Mediawiki::fetch_submit; # my own packages, this and the one below
 use WWW::Mediawiki::fetch_submit_nosave; # my own packages, this and the one below
 use WWW::Mediawiki::wikipedia_login;
 use Encode;
+use utf8;
 
 #use open ':utf8';	      # input/output in unicode
 undef $/;		      # undefines the separator. Can read one whole file in one scalar.
@@ -15,40 +16,26 @@ undef $/;		      # undefines the separator. Can read one whole file in one scala
 
 # use main to avoid the curse of global variables
 MAIN: {
-
-  my (%blacks, @lines, $prefix, $link, $text, $line, $i, $file);
   
-  open (FILE, "<:utf8", "Wikipedia:Missing_science_topics/Blacklisted.wiki");
-  @lines = split ("\n", <FILE>);
-  close(FILE);
-  foreach (@lines){
-    next unless (/^\s*\*\s*\[\[(.*?)\]\]/);
-    $blacks{$1}=1;
-  }
-
+  my ($prefix, $file, $text, $i, $subject);
   $prefix='Wikipedia:Missing_science_topics/Maths';
 
-  for ($i=1 ; $i <=10  ; $i++){
+  for ($i=3 ; $i <=10  ; $i++){
     $file=$prefix . $i . ".wiki";
     
     $text=&fetch_file_nosave($file, 100, 2);
-    @lines = split ("\n", $text);
-    $text="";
-    foreach $line (@lines){
+    $subject="Test my bot.";	
+#    &submit_file_nosave("User:Mathbot/Page3.wiki", $subject, $text, 10, 1);
 
-      $line = "$line\n" unless ($line =~ /^\s*$/);
-      if ($line =~ /\[\[(.*?)\]\]/){
-	$link =$1;
-	if (exists $blacks{$link}){
-	  print "Will remove [[$link]]\n";
-	  $line = ""; # rm this line from our text
-	}
-      }
-      
-      $text = $text . $line;
-    }
+    $text=decode("utf8", $text); 
+    $text =~ s/\x{2212}/-/g; # make the Unicode minus into a hyphen
+    $text =~ s/\x{2013}/-/g; # make the Unicode ndash into a hyphen
+    $text =~ s/\x{2014}/-/g; # make the Unicode mdash into a hyphen
+    $text=encode("utf8", $text); 
     
-    &submit_file_nosave($file, "Move some nonstandard names to [[Wikipedia:Missing_science_topics/Blacklisted]]", $text, 10, 1);
+    $subject="Convert Unicode dashes to ASCII dash, as mostly done in Wikipedia articles/redirects."; 
+#    &submit_file_nosave("User:Mathbot/Page3.wiki", $subject, $text, 10, 1);
+    &submit_file_nosave($file, $subject, $text, 10, 1);
   }
 }
 
