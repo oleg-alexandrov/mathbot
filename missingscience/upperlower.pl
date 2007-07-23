@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use LWP::Simple;
