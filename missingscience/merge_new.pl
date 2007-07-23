@@ -28,12 +28,12 @@ MAIN: {
   my ($spcount, $text, @red, %hash, @split, $prefix, $file, $maintext, @lines, @entries, $line);
   my ($attempts, $sleep, $key, $i, $letter, %possib_links);
   my ($subject, %red, %blue, $oldtext, $newtext, $fileno, $diffs, %blacklist, %case, $sep);
-  my ($total_blues);
+  my ($total_blues, $total_reds, $index);
   &wikipedia_login();
   
   @split = ("ant", "ber", "bru", "che", "con", "cur", "dio", "ell", "fab", "fro", "gra", "her", "imb", "jac", "lag", "lio", "mat", "muk", "nro", "par", "pol", "pyt", "reg", "sch", "sin", "sta", "tak", "tri", "vit", "zzzzzzzzzzz");
   
-  $prefix='Wikipedia:Missing_science_topics/Maths';
+  $prefix='Wikipedia:Missing science topics/Maths';
   $attempts = 5;
   $sleep    = 5;
   
@@ -109,15 +109,15 @@ MAIN: {
     $maintext = $maintext . $hash{$key} . "\n";
   }
 
-  $diffs=&see_diffs ($oldtext, $newtext);
+  ($diffs, $total_reds) = &see_diffs ($oldtext, $newtext);
   &submit_file_nosave("User:Mathbot/Page41.wiki", "Changes to [[WP:MST]]", $diffs, $attempts, $sleep);
   print "Diff is:\n$diffs\n";
 
   $total_blues = &print_bluelinks(\%hash, \%blue);
 
-  # $newtext has all the new redlinks. Count how many they are.
-  # Then call the routine update_stats below to calc the stats.
-  
+  $index = 'Wikipedia:Missing_science_topics';
+  &update_stats ($index, $total_reds, $total_blues);
+    
 }
 
 sub merge_lines {
@@ -188,7 +188,7 @@ sub rm_blue {
 
 sub see_diffs {
   
-  my ($o, $n, @old, @new, %Old, %New, $result);
+  my ($o, $n, @old, @new, %Old, %New, $result, $total_new_red);
 
   $o = shift; $n = shift;
   $o =~ s/(\[\[.)/uc($1)/eg;
@@ -201,9 +201,11 @@ sub see_diffs {
     $Old{$1}=$_;
   }
 
+  $total_new_red = 0;
   foreach (@new){
     next unless (/\[\[(.*?)\]\]/);
     $New{$1}=$_;
+    $total_new_red++;
   }
   
   $result="==Removed==\n";
@@ -219,7 +221,7 @@ sub see_diffs {
       $result = $result . "$New{$_}\n";
     }
   }
-  return $result; 
+  return ($result, $total_new_red); 
 }  
   
 sub read_blacklist {
@@ -385,11 +387,7 @@ sub update_stats {
 
     $stats ="
 Of the $big_total entries, there are $total_reds remaining. 
-{\| style=\"border: 1px solid black\" cellspacing=1 width=75% height=15x align=center
- \|+ <big>'''$percentage%'''</big> completed <small>(estimate)</small>
- \|align=center width=$no1% style=background:#7fff00\|
- \|align=center width=$no2% style=background:#ff7f50\|
- \|}
+\{\{Progress bar\|$percentage\}\}
 ";
 
   $file = $index . '.wiki';
