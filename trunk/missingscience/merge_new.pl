@@ -95,10 +95,11 @@ MAIN: {
       &identify_red(\%red, \%blue, $maintext); 
       $maintext=rm_blue (\%red, $maintext);
       $maintext = &sectioning($maintext);
-      $maintext = "{{TOCright}}\n" . $maintext;
+      $maintext = "{{Wikipedia:Missing science topics/Maths}}\n\n{{TOCright}}\n"
+		 . $maintext;
 
-      $prefix='User:Mathbot/Page';
-#      $prefix='Wikipedia:Missing_science_topics/Maths';
+#      $prefix='User:Mathbot/Page';
+      $prefix='Wikipedia:Missing_science_topics/Maths';
       $subject='Rm bluelinks.';
       &submit_file_nosave("$prefix$spcount.wiki", $subject, $maintext, $attempts, $sleep);
       open (FILE, ">", "$prefix$spcount.wiki");    print FILE "$text\n";    close(FILE);
