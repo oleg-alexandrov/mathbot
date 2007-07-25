@@ -76,7 +76,7 @@ sub read_completed_dots {
   @lines = split ("\n", $text);
 
   foreach $line (@lines){
-    next unless ($line =~ /^(.*?) (.*?)$/);
+    next unless ($line =~ /^(\/.*?) (.*?)$/);
     $link =$1; $name=$2;
     next if ($name =~ /^\-+$/); # move over invalid entries
     $completed_dots->{$link}=$name;
@@ -102,6 +102,8 @@ sub read_mathworld {
   foreach (@lines) {
     next unless (/^(.*?) (.*?)$/);
     $link=$1; $name=$2;
+
+    $name =~ s/\<\/?[ib]\>//g; # strip html markup
     $mathworld->{$link}=$name;					
   }
 }

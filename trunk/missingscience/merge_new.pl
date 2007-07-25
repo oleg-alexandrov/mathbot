@@ -91,7 +91,7 @@ MAIN: {
     
     if ($spcount <= $fileno && $split[$spcount-1] lt $key){ # close the file, submit, open new one
 
-      # This code WILL cause trouble if server is down!!!!!!!!!
+      # identify_red WILL cause trouble if server is down!!!!!!!!!
       &identify_red(\%red, \%blue, $maintext); 
       $maintext=rm_blue (\%red, $maintext);
       $maintext = &sectioning($maintext);
@@ -99,7 +99,7 @@ MAIN: {
 		 . $maintext;
 
 #      $prefix='User:Mathbot/Page';
-      $prefix='Wikipedia:Missing_science_topics/Maths';
+      $prefix='Wikipedia:Missing science topics/Maths';
       $subject='Rm bluelinks.';
       &submit_file_nosave("$prefix$spcount.wiki", $subject, $maintext, $attempts, $sleep);
       open (FILE, ">", "$prefix$spcount.wiki");    print FILE "$text\n";    close(FILE);
@@ -116,7 +116,7 @@ MAIN: {
 
   $total_blues = &print_bluelinks(\%hash, \%blue);
 
-  $index = 'Wikipedia:Missing_science_topics';
+  $index = 'Wikipedia:Missing science topics';
   &update_stats ($index, $total_reds, $total_blues);
     
 }
@@ -229,7 +229,7 @@ sub read_blacklist {
   my ($blacklist, $file, @lines, $key);
   $blacklist=shift;
   
-  $file='Wikipedia:Missing_science_topics/Blacklisted.wiki';
+  $file='Wikipedia:Missing science topics/Blacklisted.wiki';
   open (FILE, "<$file");  @lines = (@lines, split ("\n", <FILE>));  close(FILE);
 
   foreach (@lines){
@@ -367,7 +367,7 @@ sub print_bluelinks {
     $bluetext = $bluetext . "* $line\n";
   }
 
-  $index = 'Wikipedia:Missing_science_topics';
+  $index = 'Wikipedia:Missing science topics';
   $existing_prefix = $index . '/ExistingMath';
   
   $total_blues = &merge_bluetext_to_existing_bluetext_subpages ($existing_prefix, $bluetext);
@@ -411,6 +411,9 @@ sub merge_bluetext_to_existing_bluetext_subpages{
     $file = $existing_prefix . $letter . ".wiki";
     $text = &fetch_file_nosave($file, 100, 1);
 
+    # write the data to disk, could be of use later
+    open(FILE, ">$file"); print FILE "$text\n";  close(FILE);
+    
     $all_bluetext = $all_bluetext . $text . "\n";
   }
 
@@ -443,7 +446,7 @@ sub merge_bluetext_to_existing_bluetext_subpages{
 
     $file = $existing_prefix . $letter . ".wiki";
     print "--------------------$file\n";
-    &submit_file_nosave($file, "Move bluelines from the math lists at [[Wikipedia:Missing_science_topics]]", $text, 10, 5);
+    &submit_file_nosave($file, "Move bluelines from the math lists at [[Wikipedia:Missing science topics]]", $text, 10, 5);
   }
   return $total_blues;
 }

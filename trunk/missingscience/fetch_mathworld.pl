@@ -17,7 +17,7 @@ foreach $letter (@letters){
   $text = get ($address);
 
   $text =~ s/.*?\<div\s+class\s*=\s*\"index\"\>//sg; $text =~ s/\s+/ /g;
-  @entries = ($text =~ /\<a\s+href=\"(.*?)\".*?\>(.*?)\</sig);
+  @entries = ($text =~ /\<a\s+href=\"(.*?)\".*?\>(.*?)\<\/a/sig);
 
   open (FILE, ">:utf8", "mathworld/Mathworld_$letter.txt");
   for ($counter=0 ; $counter <= ($#entries-1)/2  ; $counter++){
@@ -26,7 +26,7 @@ foreach $letter (@letters){
     print FILE "$link $name\n";
   }
   close(FILE);
-  `sleep 5`;
+  sleep 2;
   
 }
 
