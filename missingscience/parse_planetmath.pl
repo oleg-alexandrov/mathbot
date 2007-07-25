@@ -15,7 +15,7 @@ MAIN: {
 
   my ($file, @files, $text, @lines, $line, $link, %links, %blacklist, %red, %blue);
 
-  open (FILE, "<:utf8", 'Wikipedia:Missing_science_topics/Blacklisted.wiki');
+  open (FILE, "<:utf8", 'Wikipedia:Missing science topics/Blacklisted.wiki');
   @lines = split ("\n", <FILE>);
   close(FILE);
   foreach (@lines){
