@@ -23,9 +23,11 @@ sub identify_red {
 
   # submit wikicode and get back html source with red and blue links
   &submit_file_nosave($log, "Add links.", $text, 10, 5); 
+
+  # try a few times, to make sure we don't fail.
   $text = `$wget \"$link\"`;
-  sleep 10;  $text = $text . "\n" . `$wget \"$link\"`; # one more time, to make sure we don't fail
-  sleep 10;  $text = $text . "\n" . `$wget \"$link\"`; # one more time, to make sure we don't fail
+  sleep 10;  $text = $text . "\n" . `$wget \"$link\"`; 
+  sleep 10;  $text = $text . "\n" . `$wget \"$link\"`; 
   
   $text =~ s/\s+/ /g;
   @reds = ($text =~ /class\s*=\s*\"new\"\s+title\s*=\s*\"(.*?)\"\s*\>.*?\</ig);
