@@ -1,6 +1,6 @@
 #!/usr/bin/perl
-use strict;		      # 'strict' insists that all variables be declared
-use diagnostics;	      # 'diagnostics' expands the cryptic warnings
+use strict;                   # 'strict' insists that all variables be declared
+use diagnostics;              # 'diagnostics' expands the cryptic warnings
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 
 use Carp qw(croak carp confess);
@@ -17,7 +17,7 @@ require 'google_links.pl';
 require "identify_red.pl";
 require 'sectioning.pl';
 
-undef $/;		      # undefines the separator. Can read one whole file in one scalar.
+undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 ##########
 ### fix the rm_red to be robust!
@@ -44,13 +44,13 @@ MAIN: {
   
   # 0. Read data allowing us to create alternatives with different case for links
   &read_upper_lower(\%case);  
-  $sep = " X9ko4ApH60 "; # weird thing
+  $sep = " X9ko4ApH60 ";      # weird thing
   &read_all_possible_links("All_possib.txt", \%possib_links, $sep); 
 
   # 1. Read data
   &read_blacklist(\%blacklist);
   $fileno=30; $oldtext="";
-  for ($i=1 ; $i <=$fileno; $i++){
+  for ($i=1 ; $i <=$fileno; $i++) {
     $file=$prefix . $i . ".wiki";
     $text=&fetch_file_nosave($file, $attempts, $sleep);
     $oldtext = $oldtext . "\n" . $text;
@@ -62,12 +62,12 @@ MAIN: {
   close(FILE);
 
   # 2. Put all data in a hash
-  foreach $line (@lines){
+  foreach $line (@lines) {
     $line =~ s/\<img.*?\>/\?\?\?/ig;
     next if ($line =~ /\?\?\?/);
     next if ($line =~ /\.\.\.\s*\]\]/); # rm links which are not complete
     $line =~ s/\[\[\s*/\[\[/g; $line =~ s/\s*\]\]/\]\]/g; # strip extra spaces
-    $line =~ s/\"//g; # strip quotes
+    $line =~ s/\"//g;         # strip quotes
     $line =~ s/(\[\[.)/uc($1)/eg; # upcase
 
     next unless ($line =~ /^[\#\*]\s*\[\[(.*?)\]\]/);
@@ -78,11 +78,11 @@ MAIN: {
     $line =~ s/\s*\<\!--\s*bottag\s*--\>.*?$//g; # strip google links
     $line =~ s/^[\*\#]\s*/\# /g;
     
-    if (exists $hash{$key}){
+    if (exists $hash{$key}) {
       $hash{$key} = &merge_lines ($hash{$key}, $line);
-    }else{
-     $hash{$key} = $line; 
-   }
+    } else {
+      $hash{$key} = $line; 
+    }
     
     # add alternative capitalizations (complicated function)
     $hash{$key} = &add_alternatives($hash{$key}, \%case, \%possib_links, $sep); # this line is screwed
@@ -90,11 +90,11 @@ MAIN: {
   }
 
   # 3 Cut the hash in chunks and submit
-  $hash{"\x{2002}"}=1; # an artificial entry, with the key a character bigger than z
+  $hash{"\x{2002}"}=1;        # an artificial entry, with the key a character bigger than z
   $newtext=""; $maintext=""; $spcount=1; 
-  foreach $key (sort {$a cmp $b} keys %hash){
+  foreach $key (sort {$a cmp $b} keys %hash) {
     
-    if ($spcount <= $fileno && $split[$spcount-1] lt $key){
+    if ($spcount <= $fileno && $split[$spcount-1] lt $key) {
 	  # close the file, submit, open new one
 
       # identify_red WILL cause trouble if server is down!!!!!!!!!
@@ -103,7 +103,7 @@ MAIN: {
       $maintext = &sectioning($maintext);
       $maintext = "{{$index/Maths}}\n\n{{TOCright}}\n" . $maintext;
 
-#      $prefix='User:Mathbot/Page';
+      #      $prefix='User:Mathbot/Page';
       $prefix=$index. '/Maths';
       $subject='Add new entries. Rm some blue.';
       &submit_file_nosave("$prefix$spcount.wiki", $subject, $maintext, $attempts, $sleep);
@@ -134,18 +134,18 @@ sub merge_lines {
 
   $counter = 0;
   $p = "# ";
-  foreach $entry (@entries){
+  foreach $entry (@entries) {
     $counter++;
     next if (exists $map{$entry}); # did this before
-    if ($counter ==1){
+    if ($counter ==1) {
       $p = "$p" . "\[\[$entry\]\] possibly "; 
-    }else{
+    } else {
       $p = "$p" . "\[\[$entry\]\] or "; 
     }
     $map{$entry}=1;
   }
 
-  $p =~ s/\][^\]]*?$/\]/g; # strip all beyond last links
+  $p =~ s/\][^\]]*?$/\]/g;    # strip all beyond last links
   return $p;
 }
 
@@ -172,18 +172,18 @@ sub rm_blue {
   $reds=shift; $text=shift;
   @lines = split ("\n", $text);
   $text="";
-  foreach $line (@lines){
+  foreach $line (@lines) {
     
     $line = "$line\n" unless ($line =~ /^\s*$/);
-    if ($line =~ /\[\[.*?\]\]/){
+    if ($line =~ /\[\[.*?\]\]/) {
       @entries = ($line =~ /\[\[(.*?)\]\]/g);
-      foreach $entry (@entries){
-	$entry =~ s/^(.)/uc($1)/eg; #upper case
-	if (! exists $reds->{$entry}){  # on this line there is a link which is not red
-	  $blue=$entry;
-	  $line = ""; # rm this line from our text
-	  last; # done with this loop
-	}
+      foreach $entry (@entries) {
+        $entry =~ s/^(.)/uc($1)/eg; #upper case
+        if (! exists $reds->{$entry}) { # on this line there is a link which is not red
+          $blue=$entry;
+          $line = "";         # rm this line from our text
+          last;               # done with this loop
+        }
       }
     }
     $text = $text . $line;
@@ -201,28 +201,28 @@ sub see_diffs {
   @old=split("\n", $o);
   @new=split("\n", $n);
 
-  foreach (@old){
+  foreach (@old) {
     next unless (/\[\[(.*?)\]\]/); 
     $Old{$1}=$_;
   }
 
   $total_new_red = 0;
-  foreach (@new){
+  foreach (@new) {
     next unless (/\[\[(.*?)\]\]/);
     $New{$1}=$_;
     $total_new_red++;
   }
   
   $result="==Changes as of ~~~~~\n===Removed===\n";
-  foreach (sort {$a cmp $b} keys %Old){
-    if (! exists $New{$_}){
-      $result = $result . "$Old{$_}\n";
+  foreach (sort {$a cmp $b} keys %Old) {
+    if (! exists $New{$_}) {
+	  $result = $result . "$Old{$_}\n";
     }
   }
 
   $result = $result . "===Added===\n";
-  foreach (sort {$a cmp $b} keys %New){
-    if (! exists $Old{$_}){
+  foreach (sort {$a cmp $b} keys %New) {
+    if (! exists $Old{$_}) {
       $result = $result . "$New{$_}\n";
     }
   }
@@ -236,12 +236,12 @@ sub read_blacklist {
   $file=$index . '/Blacklisted.wiki';
   open (FILE, "<$file");  @lines = (@lines, split ("\n", <FILE>));  close(FILE);
 
-  foreach (@lines){
+  foreach (@lines) {
     next unless (/^\*\s*\[\[(.*?)\]\]/);
     $key = $1; $key = &strip_accents($key); $key =~ s/^[^\w]*//g; $key = lc ($key);
     next unless ($key =~ /^\w/);
     $blacklist->{$key}=1;
-#    print "$key\n";
+    #    print "$key\n";
   }
 }
 
@@ -249,7 +249,7 @@ sub fix_case {
   my $chunk=shift;
   my $hash=shift;
   my $chunklo = lc ($chunk);
-  if ( exists $hash->{$chunklo} ){
+  if ( exists $hash->{$chunklo} ) {
     $chunk = $hash->{$chunklo};
   }
   return $chunk;
@@ -260,15 +260,15 @@ sub fix_case {
 sub add_alternatives{
 
   my ($name, $case, @choices, %norepeat, $all_possib, $sep, $count, $line);
-   $name = shift; $case = shift; $all_possib = shift; $sep=shift;
+  $name = shift; $case = shift; $all_possib = shift; $sep=shift;
 
   # name has already a lot of links anyway, put them in choices, and let $name be also first choice, or second if possible
   $name =~ s/(\[\[.)/uc($1)/eg;
   $name =~ s/\s+/ /g;
   @choices= ($name =~ /\[\[(.*?)\]\]/g);
-  if ($#choices >= 1){
+  if ($#choices >= 1) {
     $name = $choices[1];
-  } elsif ($#choices >= 0 ){
+  } elsif ($#choices >= 0 ) {
     $name = $choices[0];
   }
   $name =~ s/^(.)/uc($1)/eg;
@@ -283,22 +283,22 @@ sub add_alternatives{
   @choices = (@choices, $name);
 
   $name = lc ($name);
-  if (exists $all_possib->{$name}){
+  if (exists $all_possib->{$name}) {
     @choices = (@choices, split ($sep, $all_possib->{$name}));
   }
 
   $count = 1; $line = "# ";
-  foreach (@choices){
+  foreach (@choices) {
     next if (exists $norepeat{$_});
-    if ($count == 1){
+    if ($count == 1) {
       $line = $line . "\[\[$_\]\] possibly ";
-    }else{
+    } else {
       $line = $line . "\[\[$_\]\] or ";
     }
     $norepeat{$_}=1; $count++;
   }
   $line =~ s/\s*\w+\s*$//g;
-#  print "$line\n" if ($count >4);
+  #  print "$line\n" if ($count >4);
   return $line;
 }
 
@@ -310,7 +310,7 @@ sub read_upper_lower {
 
   open (FILE, "<", "Lower.txt"); $text = <FILE>; close (FILE);
   @words = split ("\n", $text);
-  foreach $word (@words){
+  foreach $word (@words) {
     next unless ($word =~ /^(.*?)\s+(\d+)/);
     $word=$1; $freq=$2;
     $case->{$word}=$word;
@@ -318,7 +318,7 @@ sub read_upper_lower {
 
   open (FILE, "<", "Upper.txt"); $text = <FILE>; close (FILE);
   @words = split ("\n", $text);
-  foreach $word (@words){
+  foreach $word (@words) {
     next unless ($word =~ /^(.*?)\s+(\d+)/);
     $word=$1; $freq=$2;
     $low=lc($word);
@@ -333,20 +333,20 @@ sub read_all_possible_links {
   my $link;
 
   open (FILE, "<", $file);
-  foreach (split ("\n", <FILE>)){
+  foreach (split ("\n", <FILE>)) {
     next unless (/\[\[\s*(.*?)\s*\]\]/);
     $link = $1; $link =~ s/^(.)/uc($1)/eg;
 
-    if (! exists $hash->{lc($link)}){
+    if (! exists $hash->{lc($link)}) {
       $hash->{lc($link)} = "";
     }
     $hash->{lc($link)}= $hash->{lc($link)} . $link . $sep;
   }
   close(FILE);
 
-  foreach (keys %$hash){
+  foreach (keys %$hash) {
     $hash->{$_} =~ s/$sep$//g;
-#    print "$hash->{$_}\n";
+    #    print "$hash->{$_}\n";
   }
 }
 
@@ -355,13 +355,13 @@ sub print_bluelinks {
   
   $hash =shift; $blue = shift;
   $bluetext = ""; 
-  foreach $key ( sort {$a cmp $b} keys %$hash){
+  foreach $key ( sort {$a cmp $b} keys %$hash) {
 
     $line = $hash->{$key};
     next unless ($line =~ /\[\[.*?\]\]/);
     @entries = ($line =~ /\[\[(.*?)\]\]/g);
     $line = "";
-    foreach $link( @entries){
+    foreach $link( @entries) {
       next unless (exists $blue->{$link});
       $line = $line . "\[\[$link\]\] or ";
     }
@@ -409,7 +409,7 @@ sub merge_bluetext_to_existing_bluetext_subpages{
   @letters=(0, "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",  "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",  "X", "Y", "Z");
 
   # put all bluetext into one fat string
-  foreach $letter (@letters){
+  foreach $letter (@letters) {
 
     $file = $existing_prefix . $letter . ".wiki";
     $text = &fetch_file_nosave($file, $attempts, $sleep);
@@ -422,7 +422,7 @@ sub merge_bluetext_to_existing_bluetext_subpages{
 
   # group the lines in the bluetext by letter
   @lines = split ("\n", $all_bluetext);
-  foreach $line (@lines){
+  foreach $line (@lines) {
 
     next unless ($line =~ /\[\[(.*?)\]\]/);
     $link = lc($1);
@@ -432,9 +432,9 @@ sub merge_bluetext_to_existing_bluetext_subpages{
     $letter = "0" if ($letter !~ /[A-Z]/);
 
 	# if the entry already exists (perhaps in different case, then merge to it)
-	if ( exists $bighash->{$letter}->{$link} ){
+	if ( exists $bighash->{$letter}->{$link} ) {
 	  $bighash->{$letter}->{$link} = &merge_lines ($bighash->{$letter}->{$link}, $line);
-    }else{
+    } else {
 	  $bighash->{$letter}->{$link} = $line; 
 	}
 
@@ -445,10 +445,10 @@ sub merge_bluetext_to_existing_bluetext_subpages{
 
   # merge the lines into chunks of text and submit
   $total_blues=0;
-  foreach $letter (sort {$a cmp $b} keys %$bighash){
+  foreach $letter (sort {$a cmp $b} keys %$bighash) {
 
     $text = "";
-    foreach $link ( sort {$a cmp $b} keys %{$bighash->{$letter}} ){
+    foreach $link ( sort {$a cmp $b} keys %{$bighash->{$letter}} ) {
       $text = $text . $bighash->{$letter}->{$link} . "\n";
       $total_blues++;
     }
