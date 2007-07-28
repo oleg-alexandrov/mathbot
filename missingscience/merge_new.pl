@@ -1,16 +1,18 @@
 #!/usr/bin/perl
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
-use Carp qw(croak carp confess);
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
+
+use Carp qw(croak carp confess);
 use WWW::Mediawiki::Client;   # upload from Wikipedia
+use Unicode::Normalize;
+use utf8;
+use Encode;
+use Encode 'from_to';
+
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
 require 'bin/wikipedia_login.pl';
 require 'bin/strip_accents.pl';
-use Encode;
-use Unicode::Normalize;
-use utf8;
-use Encode 'from_to';
 require 'google_links.pl';
 require "identify_red.pl";
 require 'sectioning.pl';
@@ -23,19 +25,22 @@ undef $/;		      # undefines the separator. Can read one whole file in one scala
 ### Never run without preliminary tests on User:Mathbot/Pagex!
 ### Encodings at PlanetMath are screwed!
 
+# These need to be global variables.
+my $index = 'Wikipedia:Missing science topics';
+my $attempts = 5;
+my $sleep    = 5;
+
 MAIN: {
 
   my ($spcount, $text, @red, %hash, @split, $prefix, $file, $maintext, @lines, @entries, $line);
-  my ($attempts, $sleep, $key, $i, $letter, %possib_links);
+  my ($key, $i, $letter, %possib_links);
   my ($subject, %red, %blue, $oldtext, $newtext, $fileno, $diffs, %blacklist, %case, $sep);
-  my ($total_blues, $total_reds, $index);
+  my ($total_blues, $total_reds);
   &wikipedia_login();
   
   @split = ("ant", "ber", "bru", "che", "con", "cur", "dio", "ell", "fab", "fro", "gra", "her", "imb", "jac", "lag", "lio", "mat", "muk", "nro", "par", "pol", "pyt", "reg", "sch", "sin", "sta", "tak", "tri", "vit", "zzzzzzzzzzz");
-  
-  $prefix='Wikipedia:Missing science topics/Maths';
-  $attempts = 5;
-  $sleep    = 5;
+
+  $prefix= $index . '/Maths';
   
   # 0. Read data allowing us to create alternatives with different case for links
   &read_upper_lower(\%case);  
@@ -47,7 +52,7 @@ MAIN: {
   $fileno=30; $oldtext="";
   for ($i=1 ; $i <=$fileno; $i++){
     $file=$prefix . $i . ".wiki";
-    $text=&fetch_file_nosave($file, 10, 2);
+    $text=&fetch_file_nosave($file, $attempts, $sleep);
     $oldtext = $oldtext . "\n" . $text;
   }
   @lines = split ("\n", $oldtext);
@@ -89,18 +94,18 @@ MAIN: {
   $newtext=""; $maintext=""; $spcount=1; 
   foreach $key (sort {$a cmp $b} keys %hash){
     
-    if ($spcount <= $fileno && $split[$spcount-1] lt $key){ # close the file, submit, open new one
+    if ($spcount <= $fileno && $split[$spcount-1] lt $key){
+	  # close the file, submit, open new one
 
       # identify_red WILL cause trouble if server is down!!!!!!!!!
       &identify_red(\%red, \%blue, $maintext); 
       $maintext=rm_blue (\%red, $maintext);
       $maintext = &sectioning($maintext);
-      $maintext = "{{Wikipedia:Missing science topics/Maths}}\n\n{{TOCright}}\n"
-		 . $maintext;
+      $maintext = "{{$index/Maths}}\n\n{{TOCright}}\n" . $maintext;
 
 #      $prefix='User:Mathbot/Page';
-      $prefix='Wikipedia:Missing science topics/Maths';
-      $subject='Rm bluelinks.';
+      $prefix=$index. '/Maths';
+      $subject='Add new entries. Rm some blue.';
       &submit_file_nosave("$prefix$spcount.wiki", $subject, $maintext, $attempts, $sleep);
       open (FILE, ">", "$prefix$spcount.wiki");    print FILE "$text\n";    close(FILE);
       $newtext = $newtext . $maintext; $maintext="";
@@ -111,14 +116,13 @@ MAIN: {
   }
 
   ($diffs, $total_reds) = &see_diffs ($oldtext, $newtext);
-  &submit_file_nosave("User:Mathbot/Page41.wiki", "Changes to [[WP:MST]]", $diffs, $attempts, $sleep);
+  $subject = "Changes to [[WP:MST]]";
+  &submit_file_nosave($index . "/Log.wiki", $subject, $diffs, $attempts, $sleep);
   print "Diff is:\n$diffs\n";
 
   $total_blues = &print_bluelinks(\%hash, \%blue);
-
-  $index = 'Wikipedia:Missing science topics';
-  &update_stats ($index, $total_reds, $total_blues);
-    
+  
+  &update_stats ($total_reds, $total_blues);
 }
 
 sub merge_lines {
@@ -209,14 +213,14 @@ sub see_diffs {
     $total_new_red++;
   }
   
-  $result="==Removed==\n";
+  $result="==Changes as of ~~~~~\n===Removed===\n";
   foreach (sort {$a cmp $b} keys %Old){
     if (! exists $New{$_}){
       $result = $result . "$Old{$_}\n";
     }
   }
 
-  $result = $result . "==Added==\n";
+  $result = $result . "===Added===\n";
   foreach (sort {$a cmp $b} keys %New){
     if (! exists $Old{$_}){
       $result = $result . "$New{$_}\n";
@@ -229,7 +233,7 @@ sub read_blacklist {
   my ($blacklist, $file, @lines, $key);
   $blacklist=shift;
   
-  $file='Wikipedia:Missing science topics/Blacklisted.wiki';
+  $file=$index . '/Blacklisted.wiki';
   open (FILE, "<$file");  @lines = (@lines, split ("\n", <FILE>));  close(FILE);
 
   foreach (@lines){
@@ -348,7 +352,6 @@ sub read_all_possible_links {
 
 sub print_bluelinks {
   my ($hash, $blue, $text, $key, $line, $entry, @entries, $link, $bluetext, $total_blues, $existing_prefix);
-  my ($index);
   
   $hash =shift; $blue = shift;
   $bluetext = ""; 
@@ -367,7 +370,6 @@ sub print_bluelinks {
     $bluetext = $bluetext . "* $line\n";
   }
 
-  $index = 'Wikipedia:Missing science topics';
   $existing_prefix = $index . '/ExistingMath';
   
   $total_blues = &merge_bluetext_to_existing_bluetext_subpages ($existing_prefix, $bluetext);
@@ -377,30 +379,31 @@ sub print_bluelinks {
 
 sub update_stats {
 
-    my ($index, $total_reds, $total_blues, $big_total, $percentage, $beg_tag, $end_tag, $stats, $no1, $no2, $text, $file);
-    $index = shift; $total_reds = shift; $total_blues = shift; 
-    
-    $big_total = $total_reds + $total_blues; 
-    $percentage = 100 * $total_blues / $big_total; $percentage = sprintf("%.2f", $percentage);
-
-    $no1 = $percentage / 100; $no2 = 1 - $no1;
-    $beg_tag = '<!-- begin bottag -->'; $end_tag = '<!-- end bottag -->';
-
-    $stats ="
+  my ($total_reds, $total_blues, $big_total, $percentage, $beg_tag, $end_tag, $stats, $no1, $no2, $text, $file, $subject);
+  $total_reds = shift; $total_blues = shift; 
+  
+  $big_total = $total_reds + $total_blues; 
+  $percentage = 100 * $total_blues / $big_total; $percentage = sprintf("%.2f", $percentage);
+  
+  $no1 = $percentage / 100; $no2 = 1 - $no1;
+  $beg_tag = '<!-- begin bottag -->'; $end_tag = '<!-- end bottag -->';
+  
+  $stats ="
 Of the $big_total entries, there are $total_reds remaining. 
 \{\{Progress bar\|$percentage\}\}
 ";
 
   $file = $index . '.wiki';
-  $text = &fetch_file_nosave($file, 100, 1);
+  $text = &fetch_file_nosave($file, $attempts, $sleep);
   $text =~ s/($beg_tag).*?($end_tag)/$1$stats$2/sg;
-
-  &submit_file_nosave($file, "Update the progress for the math lists", $text, 10, 5); 
+  
+  $subject = "Update the progress for the math lists";
+  &submit_file_nosave($file, $subject, $text, $attempts, $sleep); 
 }
 
 
 sub merge_bluetext_to_existing_bluetext_subpages{
-  my ($existing_prefix, $all_bluetext, $letter, @letters, $file, $text, $bighash, $line, @lines, $link, $total_blues);
+  my ($existing_prefix, $all_bluetext, $letter, @letters, $file, $text, $bighash, $line, @lines, $link, $total_blues, $subject);
   $existing_prefix = shift; $all_bluetext = shift; 
 
   @letters=(0, "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",  "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",  "X", "Y", "Z");
@@ -409,7 +412,7 @@ sub merge_bluetext_to_existing_bluetext_subpages{
   foreach $letter (@letters){
 
     $file = $existing_prefix . $letter . ".wiki";
-    $text = &fetch_file_nosave($file, 100, 1);
+    $text = &fetch_file_nosave($file, $attempts, $sleep);
 
     # write the data to disk, could be of use later
     open(FILE, ">$file"); print FILE "$text\n";  close(FILE);
@@ -422,16 +425,22 @@ sub merge_bluetext_to_existing_bluetext_subpages{
   foreach $line (@lines){
 
     next unless ($line =~ /\[\[(.*?)\]\]/);
-    $link = $1;
-    $link =~ s/^(.)/uc($1)/eg;
+    $link = lc($1);
 
     next unless ($link =~ /^(.)/);
-    $letter = $1; 
+    $letter = uc($1); 
     $letter = "0" if ($letter !~ /[A-Z]/);
 
-    # need to treat below the case when $bighash->{$letter}->{$link} already exists in $bighash
-    # then that needs to be merged with the current line.
-    $bighash->{$letter}->{$link} = $line;
+	# if the entry already exists (perhaps in different case, then merge to it)
+	if ( exists $bighash->{$letter}->{$link} ){
+	  $bighash->{$letter}->{$link} = &merge_lines ($bighash->{$letter}->{$link}, $line);
+    }else{
+	  $bighash->{$letter}->{$link} = $line; 
+	}
+
+	# some line formatting
+	$bighash->{$letter}->{$link} =~ s/^\#/\*/g;
+	$bighash->{$letter}->{$link} =~ s/(\]\])\s*possibly\s*(\[\[)/$1 or $2/g;
   }
 
   # merge the lines into chunks of text and submit
@@ -445,8 +454,8 @@ sub merge_bluetext_to_existing_bluetext_subpages{
     }
 
     $file = $existing_prefix . $letter . ".wiki";
-    print "--------------------$file\n";
-    &submit_file_nosave($file, "Move bluelines from the math lists at [[Wikipedia:Missing science topics]]", $text, 10, 5);
+	$subject = "Move bluelines from the math lists at [[$index]].";
+    &submit_file_nosave($file, $subject, $text, $attempts, $sleep);
   }
   return $total_blues;
 }
