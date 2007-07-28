@@ -53,7 +53,7 @@ sub parse_to_hash {
   my $line;
   foreach $line (split ("\n", $text)){
     next unless ($line =~ /\[\[(.*?)\]\]/);
-    $hash->{lc($1)} = $1;
+    $hash->{lc($1)} = 1;
   }
   
 }
@@ -65,7 +65,7 @@ sub in_notin {
   my ($line);
 
   foreach $line (sort {$a cmp $b} keys %$h1){
-    print "* [[" . $h1->{$line} . "]]\n" if (! exists $h2->{$line}); 
+    print "$line\n" if (! exists $h2->{$line}); 
   }
   
 }
