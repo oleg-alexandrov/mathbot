@@ -6,7 +6,7 @@ use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/wikipedia_login.pl';
 require 'bin/wikipedia_fetch_submit.pl'; 
 
-require "utils/strip_accents_and_stuff.pl";
+require "strip_accents_and_stuff.pl";
 require "bin/fetch_articles.pl";
 require "bin/read_from_write_to_disk.pl";
 require "bin/get_last.pl";
@@ -169,8 +169,7 @@ sub strip_last {
   $last =~ s/^Le //g; # for some French mathematicians
   $last =~ s/^Al[\- ]//ig; # for some French mathematicians
   
-  $last = decode("utf8", $last);
-  $last = &strip_accents_and_stuff($last); # and strip accents
+  $last = decode("utf8", $last); $last = &strip_accents_and_stuff($last); # and strip accents
   
   return $last;
 }
