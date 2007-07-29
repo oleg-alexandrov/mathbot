@@ -8,7 +8,7 @@ require 'bin/wikipedia_fetch_submit.pl';
 
 require "strip_accents_and_stuff.pl";
 require "bin/fetch_articles.pl";
-require "bin/read_from_write_to_disk.pl";
+require "read_from_write_to_disk.pl";
 require "bin/get_last.pl";
 require 'lists_utils.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
@@ -144,7 +144,7 @@ sub parse_new {
     next if ($name =~ /^Association for Women in Mathematics/i); # this is not a person
 
     print "$name\n";
-    $text = &read_file_from_disk_or_wikipedia($name);
+    $text = &read_from_disk_or_wikipedia($name);
     
     # get DOB, country, etc
     ($country, $birth, $death) = &parse_get_data($text, $country2nationality);

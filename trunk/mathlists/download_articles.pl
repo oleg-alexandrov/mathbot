@@ -5,7 +5,7 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/wikipedia_login.pl';
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
-require 'bin/read_from_write_to_disk.pl';
+require 'read_from_write_to_disk.pl';
 
 $| = 1; # flush the buffer each line
 undef $/; # undefines the separator. Can read one whole file in one scalar.

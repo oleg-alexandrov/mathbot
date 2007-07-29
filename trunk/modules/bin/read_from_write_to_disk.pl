@@ -2,7 +2,7 @@ require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one bel
 require 'bin/html_encode_decode.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
-sub read_file_from_disk_or_wikipedia {
+sub read_from_disk_or_wikipedia {
   
   my ($article_name, $file, $attempts, $sleep, $text);
   

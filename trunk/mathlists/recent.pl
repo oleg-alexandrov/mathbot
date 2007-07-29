@@ -7,7 +7,7 @@ require 'bin/wikipedia_fetch_submit.pl';
 require 'bin/wikipedia_login.pl';
 require 'bin/get_html.pl';
 require 'bin/rm_extra_html.pl';
-require 'bin/read_from_write_to_disk.pl';
+require 'read_from_write_to_disk.pl';
 
 # Recent changes to the [[list of mathematicians]]
 MAIN:{ 

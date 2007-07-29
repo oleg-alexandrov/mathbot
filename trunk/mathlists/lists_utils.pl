@@ -1,4 +1,4 @@
-require 'bin/read_from_write_to_disk.pl';
+require 'read_from_write_to_disk.pl';
 require 'bin/get_html.pl';
 
 # given two hashes, return an array of elements in the first hash which are not in the second, and the other way aroun
