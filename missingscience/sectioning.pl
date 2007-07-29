@@ -1,3 +1,5 @@
+require 'bin/strip_accents.pl';
+
 sub sectioning {
 
   my ($text, $line, @lines, $seccount, $head);
