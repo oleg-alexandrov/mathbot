@@ -37,7 +37,7 @@ MAIN:{
     next if ($article =~ /^\s*$/);     # ignore empty lines
 
     $text = &fetch_file_nosave($article . '.wiki', $attempts, $sleep);
-    &write_article_to_disk ($article, $text);    
+    &write_to_disk ($article, $text);    
     print "\n\n";
     
     $hlist{$article}=1; # record this as downloaded

@@ -24,7 +24,7 @@ sub read_from_disk_or_wikipedia {
   return $text;
 }
 
-sub write_article_to_disk {
+sub write_to_disk {
 
   my ($article_name, $article_text, $dir, $file);
 
