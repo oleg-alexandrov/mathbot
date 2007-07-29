@@ -49,7 +49,7 @@ MAIN:{
     $list_of_changes = $list_of_changes . '#[[' . $article . ']]' . "\n";
     $text = &wikipedia_fetch($article . '.wiki', $attempts, $sleep);
 
-    &write_article_to_disk($article, $text);
+    &write_to_disk($article, $text);
   }
 
   $file = 'User:Mathbot/Recent changes.wiki';

@@ -105,7 +105,7 @@ sub put_redirects_on_blacklist {
 #      $blacklist->{$article} = '(is a disambiguation page)';
     }
 
-    &write_article_to_disk($article, $text); # store a copy of the aricle on disk, since it was downloaded anyway
+    &write_to_disk($article, $text); # store a copy of the aricle on disk, since it was downloaded anyway
   }
 
   # lastly, what is today's articles will become yesterday's articles tomorrow   
