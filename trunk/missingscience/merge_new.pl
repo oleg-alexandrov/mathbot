@@ -71,7 +71,9 @@ MAIN: {
     $line =~ s/(\[\[.)/uc($1)/eg; # upcase
 
     next unless ($line =~ /^[\#\*]\s*\[\[(.*?)\]\]/);
-    $key = $1; $key = &strip_accents($key); $key =~ s/^[^\w]*//g; $key = lc ($key);
+    $key = $1; 
+    $key = decode("utf8", $key); # must be there, don't ask why
+    $key = &strip_accents($key); $key =~ s/^[^\w]*//g; $key = lc ($key);
     next unless ($key =~ /^\w/);
     next if (exists $blacklist{$key});
        
@@ -238,7 +240,9 @@ sub read_blacklist {
 
   foreach (@lines) {
     next unless (/^\*\s*\[\[(.*?)\]\]/);
-    $key = $1; $key = &strip_accents($key); $key =~ s/^[^\w]*//g; $key = lc ($key);
+    $key = $1; 
+    $key = decode("utf8", $key); # must be there, don't ask why
+    $key = &strip_accents($key); $key =~ s/^[^\w]*//g; $key = lc ($key);
     next unless ($key =~ /^\w/);
     $blacklist->{$key}=1;
     #    print "$key\n";
