@@ -7,7 +7,6 @@ use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 use WWW::Mediawiki::Client;   # upload from Wikipedia
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
 require 'bin/wikipedia_login.pl';
-require 'bin/strip_accents.pl';
 require 'google_links.pl';
 use Encode;
 
