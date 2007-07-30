@@ -12,15 +12,13 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 # Collect the mathematics articles from the mathematics categories. Merge them into the [[list of mathematics articles]] on Wikipedia.
 # Remove redlinks, redirects, and disambig pages. Submit to Wikipedia the log of changes and newly detected categories. This runs daily.
 
-my $Editor=wikipedia_login();
-
 MAIN: {
 
   $| = 1; # flush the buffer each line
   
   my ($line, @lines, %articles, $letter, %blacklist, @articles_from_cats, $text, $file, $sleep, $attempts, $edit_summary, $todays_log);
   my ($list_of_categories, @letters, @mathematics_categories, @mathematician_categories, @other_categories, $log_file, $count);
-  my ($articles_from_cats_file, $all_math_arts_file, @new_categories, %current_categories, %all_articles, $mathematicians_logfile, $prefix);
+  my ($articles_from_cats_file, $all_math_arts_file, @new_categories, %current_categories, %all_articles, $mathematicians_logfile, $prefix, $Editor);
   @letters=("0-9", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
 
   # files involved (they are many)
@@ -32,6 +30,7 @@ MAIN: {
   $prefix = "List of mathematics articles";
   
   $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
+  $Editor=wikipedia_login();
 
   # Get today's articles found in categories
   &read_categories_from_list(\@mathematics_categories,\@mathematician_categories,\@other_categories,
@@ -139,7 +138,7 @@ sub merge_new_entries_from_categories{
 sub post_newly_detected_categories {
 
   my ($mathematics_categories, $mathematician_categories, $other_categories, $new_categories)=@_;
-  my (%current_categories, $text, $line, $mathematician_cat_list, $sleep, $attempts, $edit_summary, $file);
+  my (%current_categories, $text, $line, $mathematician_cat_list, $sleep, $attempts, $edit_summary, $file, $Editor);
 
   # add to the newly discovered mathematics categories the mathematician categories discovered when running that script
   $mathematician_cat_list = "New_mathematician_categories.txt";
@@ -160,6 +159,7 @@ sub post_newly_detected_categories {
   }
 
   $file              = "User:Mathbot/New_math_categories.wiki";
+  $Editor=wikipedia_login();
   $sleep = 5; $attempts=500;  $edit_summary="Today's new math categories.";
   wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 }
@@ -167,6 +167,7 @@ sub post_newly_detected_categories {
 sub merge_logs_and_submit{
 
   my ($log_file, $todays_log, $combined_log, @days, $sleep, $attempts, $edit_summary);
+  my ($Editor);
   ($todays_log, $log_file)=@_;
   
   # Read in the log from previous days (from the disk), append to it today's log
@@ -179,6 +180,7 @@ sub merge_logs_and_submit{
   $combined_log = join ("\n==", @days);
 
   # submit the log file, and write the logfile back to disk (away from wikipedia vandals)
+  $Editor=wikipedia_login();
   $sleep = 5; $attempts=500; $edit_summary="Today's changes to the [[list of mathematics articles]].";
   wikipedia_submit($Editor, $log_file, $edit_summary, $combined_log, $attempts, $sleep);
   open (FILE, ">$log_file"); print FILE "$combined_log\n"; close(FILE); # write new log to disk

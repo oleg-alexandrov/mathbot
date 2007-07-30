@@ -3,6 +3,8 @@ require 'bin/html_encode_decode_string.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 sub read_from_disk_or_wikipedia {
+
+  my $Editor=wikipedia_login();
   
   my ($article_name, $file, $attempts, $sleep, $text);
   
