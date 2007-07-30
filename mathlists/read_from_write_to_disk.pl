@@ -43,7 +43,7 @@ sub article_to_filename {
 #  $dir_path = '/m1/aoleg/wp/articles';
   $dir_path = '/tmp/articles';
 
-  $file = shift; $file = &html_encode ($file) . '.wiki';
+  $file = shift; $file = &html_encode_string ($file) . '.wiki';
 
   # encode the slash character, so that a subdirectory need not be created 
   $file =~ s/\//\%2F/g; 
