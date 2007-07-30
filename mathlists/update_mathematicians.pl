@@ -1,11 +1,10 @@
 #!/usr/bin/perl
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
-use Encode;
-use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-require 'bin/wikipedia_login.pl';
-require 'bin/wikipedia_fetch_submit.pl'; 
 
+use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
+
+require 'bin/perlwikipedia_utils.pl'; 
 require "strip_accents_and_stuff.pl";
 require "bin/fetch_articles.pl";
 require "read_from_write_to_disk.pl";
@@ -15,7 +14,7 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 MAIN:{
 
-  &wikipedia_login();
+  my $Editor=wikipedia_login();
 
   my (@names, $dir, $file, $text, $birth, $death, $country, %country2nationality, $last, $name, $name_stripped);
   my ($mathematician_prefix, $countries_file, $all_mathematicians, $mathematicians_logfile, $todays_log, $mathematician_cat_list);
@@ -48,7 +47,7 @@ MAIN:{
   # now, deal with the existing entries in the list of mathematicians
   $sleep = 5; $attempts=100; $text="";
   foreach $letter (@letters){
-    $text = $text . "\n" . &fetch_file_nosave("$mathematician_prefix ($letter).wiki", $attempts, $sleep);
+    $text = $text . "\n" . wikipedia_fetch($Editor, "$mathematician_prefix ($letter).wiki", $attempts, $sleep);
   }
   $text =~ s/\[\[Category:.*?\]\]//g; # rm any categories, those are not mathematicians
 
@@ -104,7 +103,7 @@ MAIN:{
     $text =~ s/(Martians.*?\(.*?),.*?\n/$1\)\n/g;
 
     $edit_summary='Daily update. See [[User:Mathbot/Changes to mathlists]] for changes.';
-    &submit_file_nosave("$mathematician_prefix ($letter).wiki", $edit_summary, $text, $attempts, $sleep);
+    wikipedia_submit($Editor, "$mathematician_prefix ($letter).wiki", $edit_summary, $text, $attempts, $sleep);
   }
 
   # create log and write to disk. Later will integrate with mathematics articles log and submit
@@ -169,7 +168,7 @@ sub strip_last {
   $last =~ s/^Le //g; # for some French mathematicians
   $last =~ s/^Al[\- ]//ig; # for some French mathematicians
   
-  $last = decode("utf8", $last); $last = &strip_accents_and_stuff($last); # and strip accents
+  $last = &strip_accents_and_stuff($last); # and strip accents
   
   return $last;
 }

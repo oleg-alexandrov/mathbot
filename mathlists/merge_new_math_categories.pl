@@ -3,8 +3,7 @@ use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 
-require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
-require 'bin/wikipedia_login.pl';
+require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
 require 'bin/identify_redlinks.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
@@ -13,7 +12,7 @@ MAIN: {
   my ($edit_summary, $list);
   my (%redlinks_hash);
   
-  &wikipedia_login();
+  my $Editor=wikipedia_login();
   $sleep = 1; $attempts=10;
   $separator = '<!-- separator --> <!-- please do not delete or modify this line -->';
 
@@ -23,11 +22,11 @@ MAIN: {
   $list = $cats_file; $list =~ s/\.wiki$//g;
   $edit_summary = "Add new categories. " . &make_redlinks_hash($list, \%redlinks_hash);
   
-  $text=&wikipedia_fetch($cats_file, $attempts, $sleep);
+  $text=wikipedia_fetch($Editor, $cats_file, $attempts, $sleep);
   @chunks=split($separator, $text);
   $bottom=splice(@chunks, -1, 1); $bottom =~ s/^\s*//g;
 
-  $text = &wikipedia_fetch($new_cats_file, $attempts, $sleep);
+  $text = wikipedia_fetch($Editor, $new_cats_file, $attempts, $sleep);
   foreach ( split ("\n", $text) ){
     s/(\[\[:Category:)([^\|]*?)(\]\])/$1$2\|$2$3/g; # pipe if not there yet
 
@@ -47,7 +46,7 @@ MAIN: {
     $text = $text .  &sort_categories_alphabetically_and_sectioning ($chunk, \%redlinks_hash) . $separator . "\n";
   }
   $text = $text .  $bottom;
-  &wikipedia_submit($cats_file, $edit_summary, $text, $attempts, $sleep);
+  wikipedia_submit($Editor, $cats_file, $edit_summary, $text, $attempts, $sleep);
   open (FILE, ">$cats_file"); print FILE "$text\n"; close(FILE); # some other programs use this data
 }
 

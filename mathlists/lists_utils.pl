@@ -95,7 +95,7 @@ sub put_redirects_on_blacklist {
 
     # so, try to investigate why an article would suddenly vanish from math categories
     $file = $article . '.wiki';
-    $text=&fetch_file_nosave($file, $attempts, $sleep);
+    $text=wikipedia_fetch($Editor, $file, $attempts, $sleep);
 
     if ($text =~ /^\s*$/){
 #      $blacklist->{$article} = '(redlink or blank article)';

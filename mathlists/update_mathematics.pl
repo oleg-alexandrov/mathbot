@@ -1,10 +1,9 @@
 #!/usr/bin/perl
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
-use Encode;
+
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-require 'bin/wikipedia_login.pl';
-require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
+require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
 require 'bin/fetch_articles.pl';
 require 'strip_accents_and_stuff.pl';
 require 'lists_utils.pl';
@@ -12,6 +11,8 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 # Collect the mathematics articles from the mathematics categories. Merge them into the [[list of mathematics articles]] on Wikipedia.
 # Remove redlinks, redirects, and disambig pages. Submit to Wikipedia the log of changes and newly detected categories. This runs daily.
+
+my $Editor=wikipedia_login();
 
 MAIN: {
 
@@ -30,7 +31,7 @@ MAIN: {
   $mathematicians_logfile='Mathematicians_log.txt';
   $prefix = "List of mathematics articles";
   
-  &wikipedia_login(); $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
+  $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
 
   # Get today's articles found in categories
   &read_categories_from_list(\@mathematics_categories,\@mathematician_categories,\@other_categories,
@@ -47,14 +48,14 @@ MAIN: {
   foreach $letter (@letters){
     $file = "$prefix ($letter).wiki"; 
   
-    $text=&fetch_file_nosave($file, $attempts, $sleep);  # fetch the lists from Wikipedia
+    $text=wikipedia_fetch($Editor, $file, $attempts, $sleep);  # fetch the lists from Wikipedia
     exit (0) if ($text =~ /^\s*$/);                      # quit if can't get any of the lists 
 
     # the heart of the code
     $text = &merge_new_entries_from_categories($letter, $text, \@articles_from_cats, \%blacklist, \%all_articles);
 
     $edit_summary="Daily update. See the log at [[User:Mathbot/Changes to mathlists]].";
-    &submit_file_nosave($file, $edit_summary, $text, $attempts, $sleep);
+    wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
   }
 
   &post_newly_detected_categories(\@mathematics_categories, \@mathematician_categories, \@other_categories, \@new_categories);
@@ -110,8 +111,9 @@ sub merge_new_entries_from_categories{
     next if ($link =~ /List of mathematics articles \(/i); # do not put links to lists themselves, that's stupid
     next if ($link =~ /^\s*$/); # ignore empty links
 
-    # Get a copy of the link stripped of accents and non-alphanumberic. Will use it for sorting.
-    $link_stripped=decode("utf8", $link); $link_stripped = &strip_accents_and_stuff ($link_stripped); 
+    # Get a copy of the link stripped of accents and non-alphanumberic.
+    # Will use it for sorting.
+    $link_stripped = &strip_accents_and_stuff ($link_stripped); 
     
     # now, do not deal with any articles except the current letter
     if ($letter eq "0-9"){
@@ -159,7 +161,7 @@ sub post_newly_detected_categories {
 
   $file              = "User:Mathbot/New_math_categories.wiki";
   $sleep = 5; $attempts=500;  $edit_summary="Today's new math categories.";
-  &submit_file_nosave($file, $edit_summary, $text, $attempts, $sleep);
+  wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 }
 
 sub merge_logs_and_submit{
@@ -178,7 +180,7 @@ sub merge_logs_and_submit{
 
   # submit the log file, and write the logfile back to disk (away from wikipedia vandals)
   $sleep = 5; $attempts=500; $edit_summary="Today's changes to the [[list of mathematics articles]].";
-  &submit_file_nosave($log_file, $edit_summary, $combined_log, $attempts, $sleep);
+  wikipedia_submit($Editor, $log_file, $edit_summary, $combined_log, $attempts, $sleep);
   open (FILE, ">$log_file"); print FILE "$combined_log\n"; close(FILE); # write new log to disk
 }
 

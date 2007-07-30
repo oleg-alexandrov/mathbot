@@ -5,10 +5,9 @@ use diagnostics;              # 'diagnostics' expands the cryptic warnings
 use Encode;
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
-require 'bin/wikipedia_login.pl';
-require 'bin/fetch_articles_cats_old.pl';
-require 'bin/html_encode_decode.pl';
+require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
+require 'bin/fetch_articles_cats.pl';
+require 'bin/html_encode_decode_string.pl';
 require 'bin/get_html.pl';
 undef $/;		      # undefines the separator. Can read one whole file in one scalar.
 
@@ -21,7 +20,7 @@ MAIN:{
   my ($file, @files, $text, $sleep, $attempts, @tmp, $article, $cat, @articles, @red, @archives, @base_cats, @cats);
   my ($blacklist_orig, $blacklist_file, $cats_file, $cats_orig);
      
-  &wikipedia_login();  $sleep = 5; $attempts=10;
+  my $Editor=wikipedia_login();  $sleep = 5; $attempts=10;
   
   @base_cats=('Category:Complexity classes');
 

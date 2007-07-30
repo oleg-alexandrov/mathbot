@@ -3,8 +3,7 @@ use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use lib $ENV{HOME} . '/public_html/wp/modules';
 
-require 'bin/wikipedia_fetch_submit.pl'; 
-require 'bin/wikipedia_login.pl';
+require 'bin/perlwikipedia_utils.pl'; 
 require 'bin/get_html.pl';
 require 'bin/rm_extra_html.pl';
 require 'read_from_write_to_disk.pl';
@@ -19,7 +18,7 @@ MAIN:{
   # go to the working directory
   $work_dir=$0; $work_dir =~ s/\/[^\/]*$/\//g; chdir $work_dir;
   
-  &wikipedia_login();
+  my $Editor=wikipedia_login();
   $attempts = 100; $sleep = 2;
   $days=1;  $limit=5000;
 
@@ -47,7 +46,7 @@ MAIN:{
   foreach $article (sort {$a cmp $b} keys %articles_hash){
     
     $list_of_changes = $list_of_changes . '#[[' . $article . ']]' . "\n";
-    $text = &wikipedia_fetch($article . '.wiki', $attempts, $sleep);
+    $text = wikipedia_fetch($Editor, $article . '.wiki', $attempts, $sleep);
 
     &write_to_disk($article, $text);
   }
@@ -55,5 +54,5 @@ MAIN:{
   $file = 'User:Mathbot/Recent changes.wiki';
   $edit_summary = "Recent changes to the [[list of mathematicians]]";
   
-  &wikipedia_submit($file, $edit_summary, $list_of_changes, $attempts, $sleep);
+  wikipedia_submit($Editor, $file, $edit_summary, $list_of_changes, $attempts, $sleep);
 }
