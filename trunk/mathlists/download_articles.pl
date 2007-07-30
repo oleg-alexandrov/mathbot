@@ -3,8 +3,7 @@ use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-require 'bin/wikipedia_login.pl';
-require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
+require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
 require 'read_from_write_to_disk.pl';
 
 $| = 1; # flush the buffer each line
@@ -29,14 +28,14 @@ MAIN:{
   }
   close(FILE);
 
-  &wikipedia_login(); $sleep = 1; $attempts=500; # necessary to fetch data from Wikipedia and submit
+  my $Editor=wikipedia_login(); $sleep = 1; $attempts=500; # necessary to fetch data from Wikipedia and submit
   
   foreach $article (@list){
     
     next if (exists $hlist{$article}); # don't download what was already downloaded
     next if ($article =~ /^\s*$/);     # ignore empty lines
 
-    $text = &fetch_file_nosave($article . '.wiki', $attempts, $sleep);
+    $text = wikipedia_fetch($Editor, $article . '.wiki', $attempts, $sleep);
     &write_to_disk ($article, $text);    
     print "\n\n";
     

@@ -5,10 +5,9 @@ use diagnostics;              # 'diagnostics' expands the cryptic warnings
 use Encode;
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
-require 'bin/wikipedia_login.pl';
-require 'bin/fetch_articles_cats_old.pl';
-require 'bin/html_encode_decode.pl';
+require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
+require 'bin/fetch_articles_cats.pl';
+require 'bin/html_encode_decode_string.pl';
 require 'bin/get_html.pl';
 require 'bin/rm_extra_html.pl';
 
@@ -54,7 +53,7 @@ MAIN:{
   }
 
   print "$text\n";
-  &wikipedia_login();  $sleep = 1; $attempts=10;
-#  $text = &wikipedia_fetch($link . ".wiki", $attempts, $sleep);
-  &wikipedia_submit("User:Mathbot/Page1.wiki", "Not in math categories", $text, $attempts, $sleep);
+  my $Editor=wikipedia_login();  $sleep = 1; $attempts=10;
+#  $text = wikipedia_fetch($Editor, $link . ".wiki", $attempts, $sleep);
+  wikipedia_submit($Editor, "User:Mathbot/Page1.wiki", "Not in math categories", $text, $attempts, $sleep);
 }

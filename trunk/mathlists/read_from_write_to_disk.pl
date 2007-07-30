@@ -1,5 +1,5 @@
-require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
-require 'bin/html_encode_decode.pl';
+require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
+require 'bin/html_encode_decode_string.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 sub read_from_disk_or_wikipedia {
@@ -15,7 +15,7 @@ sub read_from_disk_or_wikipedia {
     
     print "Fetching $article_name as $file does not exist on disk.\n";
     $sleep = 1; $attempts=10;
-    $text = &wikipedia_fetch ($article_name . '.wiki',  $attempts, $sleep);
+    $text = wikipedia_fetch($Editor, $article_name . '.wiki',  $attempts, $sleep);
 
     print "Writing $article_name to $file\n";
     open (FILE_RWD, ">", "$file"); print FILE_RWD "$text\n"; close(FILE_RWD);
