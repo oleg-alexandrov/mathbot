@@ -22,6 +22,7 @@ MAIN:{
   my (%entries, $line, @lines, %people, $letter, $articles_from_cats_file, $sleep, $attempts,  %blacklist, $ndash, $edit_summary);
   my  @letters=("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
 
+
   # files to be used
   $countries_file='Countries.txt';
   $mathematician_prefix='List of mathematicians'; # will add later (A), (B), ... 

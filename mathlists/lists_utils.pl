@@ -78,9 +78,12 @@ sub read_categories_from_list{
 
 sub put_redirects_on_blacklist {
   my ($blacklist, $articles_from_cats_file, $articles_from_cats)=@_;
-  my ($article, $file, @lines, %today_from_cats_hash, @yesterday_from_cats, $text, $sleep, $attempts);
+  my ($article, $file, @lines, %today_from_cats_hash, @yesterday_from_cats, $text);
+  my ($Editor, $sleep, $attempts);
 
   $sleep = 5; $attempts=10; # necessary to fetch data from Wikipedia and submit. Don't make many attempts to see if an article is a redlink or not
+  $Editor=wikipedia_login();
+  
   # put articles which are in categories today in a hash
   foreach $article (@$articles_from_cats){ $today_from_cats_hash{$article}=1;  }
 
