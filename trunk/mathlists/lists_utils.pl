@@ -90,7 +90,7 @@ sub put_redirects_on_blacklist {
   # put articles which were in a category yesterday in an array
   open(FILE, "<$articles_from_cats_file"); @yesterday_from_cats=split("\n", <FILE>); close(FILE);
 
-  # now the subtle part, articles which are no longer in categories could be redirects. If so, remove them. 
+  # now the subtle part, articles which are no longer in categories could be redirects. If so, remove them.
   foreach $article (@yesterday_from_cats){
 
     next if ($article =~ /^\s*$/);
@@ -119,8 +119,8 @@ sub put_redlinks_on_blacklist{
   my ($prefix, $text, $red, @reds, $base_url, $link, $letter, $letters, $blacklist, $error);
 
   $prefix=shift; $letters=shift; $blacklist=shift;
-
   $prefix =~ s/ /_/g;
+  
   $base_url="http://en.wikipedia.org/wiki/";
 
   # extract the redlinks (I have a function which already does that, will need to put it in here)

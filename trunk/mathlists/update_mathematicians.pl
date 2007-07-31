@@ -132,7 +132,7 @@ sub read_countries {
 sub parse_new {
   my ($name, $text, $country, $birth, $death, $last);
   my ($articles_from_cats, $country2nationality, $entries)=@_;
-  
+
   # go through the articles, read them in and get necessary data. 
   foreach $name (@$articles_from_cats){
     
@@ -143,13 +143,13 @@ sub parse_new {
     next if ($name =~ /^logician/i); # this is not a person
     next if ($name =~ /^Association for Women in Mathematics/i); # this is not a person
 
-    print "$name\n";
     $text = &read_from_disk_or_wikipedia($name);
     
     # get DOB, country, etc
     ($country, $birth, $death) = &parse_get_data($text, $country2nationality);
     $last = &get_last( $name ); # for a given name, try to guess the first name and the last name
     $entries->{$name}="* \[\[$name|$last\]\] \($country, $birth - $death\)"; # put in a hash
+
   }
 }
 
