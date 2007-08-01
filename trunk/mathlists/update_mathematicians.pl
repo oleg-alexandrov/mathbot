@@ -37,7 +37,7 @@ MAIN:{
   &fetch_articles(\@mathematician_categories, \@articles_from_cats, \@new_categories);
   open (FILE, ">", $mathematician_cat_list); print FILE join ("\n", @new_categories); close(FILE);
 
-  #&put_redirects_on_blacklist (\%blacklist, $articles_from_cats_file, \@articles_from_cats);
+  &put_redirects_on_blacklist (\%blacklist, $articles_from_cats_file, \@articles_from_cats);
   &put_redlinks_on_blacklist($mathematician_prefix, \@letters, \%blacklist); 
 
   @articles_from_cats=&randomize_array(@articles_from_cats); # this has a purpose, to identify entries differning only by capitals
@@ -143,7 +143,7 @@ sub parse_new {
     next if ($name =~ /^logician/i); # this is not a person
     next if ($name =~ /^Association for Women in Mathematics/i); # this is not a person
 
-    $text = &read_from_disk_or_wikipedia($name);
+    $text = &read_from_disk_or_wikipedia($Editor, $name);
     
     # get DOB, country, etc
     ($country, $birth, $death) = &parse_get_data($text, $country2nationality);
