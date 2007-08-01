@@ -1,18 +1,17 @@
+use Encode;
 use Unicode::Normalize;
-
-# Strip accents from a string. This is useful when sorting. 
-# This assumes the text is not in Unicode,
-# rather already decoded from Unicode. 
-# This routine will need further testing.
+use Encode 'from_to';
 
 sub strip_accents {
 
-  local $_ = shift;
+#  my ($text, @letters
+  local $_=shift;
 
-  # Replace several types of Unicode dashes with a plain hyphen
-  s/\x{2212}/-/g;
-  s/\x{2013}/-/g;
-  s/\x{2014}/-/g;
+  $_=decode("utf8", $_); # must be there, don't ask why
+
+  s/\x{2212}/-/g; # make the Unicode minus into a hyphen
+  s/\x{2013}/-/g; # make the Unicode ndash into a hyphen
+  s/\x{2014}/-/g; # make the Unicode mdash into a hyphen
 
   my @letters=split("", $_);
   foreach (@letters){
