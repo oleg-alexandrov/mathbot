@@ -13,7 +13,7 @@ sub fetch_articles_cats{
   $Category  = $Dictionary{'Category'};
   $wiki_http = 'http://' . $Lang . '.wikipedia.org';
 
-  $max_failures = 10;  $sleep = 5;
+  $max_failures = 10;  $sleep = 1;
 
   $max_no = 500; # Fetch $max_no articles at the same time (the query gives error for more than that)
   
