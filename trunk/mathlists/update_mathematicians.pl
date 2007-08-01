@@ -134,6 +134,8 @@ sub parse_new {
   my ($name, $text, $country, $birth, $death, $last);
   my ($articles_from_cats, $country2nationality, $entries)=@_;
 
+  my $Editor=wikipedia_login();
+
   # go through the articles, read them in and get necessary data. 
   foreach $name (@$articles_from_cats){
     

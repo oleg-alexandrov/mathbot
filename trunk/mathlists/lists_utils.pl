@@ -1,3 +1,5 @@
+use open 'utf8';
+
 require 'read_from_write_to_disk.pl';
 require 'bin/get_html.pl';
 
