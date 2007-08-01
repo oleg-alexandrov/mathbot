@@ -4,8 +4,6 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 sub read_from_disk_or_wikipedia {
 
-  my $Editor=wikipedia_login();
-  
   my ($article_name, $file, $attempts, $sleep, $text);
   
   $article_name=shift;
@@ -15,6 +13,8 @@ sub read_from_disk_or_wikipedia {
     open (FILE_RWD, "<", $file); $text = <FILE_RWD>; close(FILE_RWD);
   }else{
     
+    my $Editor=wikipedia_login();
+
     print "Fetching $article_name as $file does not exist on disk.\n";
     $sleep = 1; $attempts=10;
     $text = wikipedia_fetch($Editor, $article_name . '.wiki',  $attempts, $sleep);
