@@ -54,7 +54,6 @@ MAIN: {
     # the heart of the code
     $text = &merge_new_entries_from_categories($letter, $text, \@articles_from_cats, \%blacklist, \%all_articles);
 
-    print "New text is $text\n";
     $edit_summary="Daily update. See the log at [[User:Mathbot/Changes to mathlists]].";
     wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 
