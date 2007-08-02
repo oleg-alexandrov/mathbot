@@ -54,10 +54,11 @@ MAIN: {
     # the heart of the code
     $text = &merge_new_entries_from_categories($letter, $text, \@articles_from_cats, \%blacklist, \%all_articles);
 
+    print "New text is $text\n";
     $edit_summary="Daily update. See the log at [[User:Mathbot/Changes to mathlists]].";
     wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
-  }
 
+  }
   &post_newly_detected_categories(\@mathematics_categories, \@mathematician_categories, \@other_categories, \@new_categories);
 
   # create the log of changes to the math articles. Merge with the changes to mathematician articles. Submit.
@@ -113,7 +114,7 @@ sub merge_new_entries_from_categories{
 
     # Get a copy of the link stripped of accents and non-alphanumberic.
     # Will use it for sorting.
-    $link_stripped = &strip_accents_and_stuff ($link_stripped); 
+    $link_stripped = &strip_accents_and_stuff ($link); 
     
     # now, do not deal with any articles except the current letter
     if ($letter eq "0-9"){
