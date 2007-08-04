@@ -2,7 +2,6 @@
 
 # Set the path to the 'modules' directory. This can be alternatively
 # specified in each of the perl codes below.
-
 export PERL5LIB=$HOME/public_html/wp/modules:$PERL5LIB
 
 # go to the working directory
