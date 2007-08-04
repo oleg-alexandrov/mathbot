@@ -1,6 +1,7 @@
 use open 'utf8';
 
 require 'read_from_write_to_disk.pl';
+require 'bin/identify_redlinks.pl';
 require 'bin/get_html.pl';
 
 # given two hashes, return an array of elements in the first hash which are not in the second, and the other way aroun
@@ -118,29 +119,25 @@ sub put_redirects_on_blacklist {
 }
 
 sub put_redlinks_on_blacklist{ 
-  my ($prefix, $text, $red, @reds, $base_url, $link, $letter, $letters, $blacklist, $error);
-
-  $prefix=shift; $letters=shift; $blacklist=shift;
-  $prefix =~ s/ /_/g;
+  my ($prefix, $text, $red, @reds, $article, $link, $letter, $letters, $blacklist, $error);
+  my (@tmp_reds, @tmp_blues);
   
-  $base_url="http://en.wikipedia.org/wiki/";
+  $prefix=shift; $letters=shift; $blacklist=shift;
 
-  # extract the redlinks (I have a function which already does that, will need to put it in here)
+  # extract the redlinks
   foreach $letter (@$letters) {
-    $link = $base_url . $prefix . "_%28$letter%29";
-    print "$link\n";
-    ($text, $error) = &get_html($link);
-    $text =~ s/\n//g;
-    $text =~ s/\s*\"\s*/\"/g;
-    $text =~ s/_/ /g;
-    @reds = (@reds, $text =~ /class\s*=\s*\"new\"\s*title=[\'\"](.*?)[\'\"]/g );
 
-    print "Sleep 5 seconds\n"; sleep 5;
+    $article = $prefix . ' (' . $letter . ')';
+    &identify_redlinks ($article, \@tmp_reds, \@tmp_blues);
+    @reds = (@reds, @tmp_reds);
   }
 
-  foreach $red  (@reds ) {
-    next if ($red =~ /talk:/i); # important, this line must be in! Many articles have red talk pages!
-    $red =~ s/\&amp;/\&/g;
+  foreach $red (@reds){
+    
+    # Important, this line must be in! Many articles have red talk pages!
+    next if ($red =~ /talk:/i);
+
+    print "[[$red]] got blacklisted!\n";
     $blacklist->{$red}='(article deleted/does not exist)' unless exists ($blacklist->{$red});
   }
 }

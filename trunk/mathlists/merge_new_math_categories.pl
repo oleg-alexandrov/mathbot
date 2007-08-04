@@ -106,7 +106,8 @@ sub make_redlinks_hash {
     $red =~ s/^Category://ig;
     $redlinks_hash->{$red}=1;
 
-    last if (length ($concatenated_reds) > 100); # make sure this fits in the edit summary when submitted
+    # Make sure this fits in the edit summary when submitted.
+    last if (length ($concatenated_reds) > 100); 
   }
 
   $concatenated_reds =~ s/,\s*$/\./g;
