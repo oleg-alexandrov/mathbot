@@ -1,6 +1,6 @@
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
-require 'bin/html_encode_decode.pl';
+require 'bin/html_encode_decode_string.pl';
 require 'bin/get_html.pl';
 require 'bin/rm_extra_html.pl';
 
@@ -13,7 +13,7 @@ sub identify_redlinks {
   
   $wiki_http='http://en.wikipedia.org';
 
-  $link = $wiki_http . '/wiki/' . &html_encode ($article);
+  $link = $wiki_http . '/wiki/' . &html_encode_string ($article);
   print "Identify redlinks/bluelinks in $link\n";
   
   ($text, $error) = &get_html ($link);
