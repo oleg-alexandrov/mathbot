@@ -158,7 +158,7 @@ sub process_log_of_todays_changes  {
   &see_diffs (\%all_yesterday_articles, $all_today_articles, \@old_only, \@new_only);
 
   # Create today's log
-  $date=`date`; $date =~ s/^\w+\s+(\w+\s+\w+).*?\n/$1/g; # today's date
+  $date=&current_date();
   $todays_log = "== $date ==\n\n";
 
   # removed articles. Add an explanation if there is any
@@ -181,5 +181,15 @@ sub process_log_of_todays_changes  {
 
   return $todays_log;
 }
+
+sub current_date {
+
+  my ($year);
+  my ($second, $minute, $hour, $dayOfMonth, $month, $yearOffset, $dayOfWeek, $dayOfYear, $daylightSavings) = gmtime();
+  $year = 1900 + $yearOffset;
+  return "$Months[$month] $dayOfMonth, $year";
+
+}
+
 
 1;
