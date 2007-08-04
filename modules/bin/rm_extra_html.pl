@@ -1,5 +1,3 @@
-use Encode;
-
 sub rm_extra_html {
 
   $link = shift;

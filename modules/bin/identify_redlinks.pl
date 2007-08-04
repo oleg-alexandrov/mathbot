@@ -1,10 +1,7 @@
-undef $/; # undefines the separator. Can read one whole file in one scalar.
-
 require 'bin/html_encode_decode_string.pl';
 require 'bin/get_html.pl';
 require 'bin/rm_extra_html.pl';
 
-# use main to avoid the curse of global variables
 sub identify_redlinks {
 
   my ($article, $redlinks, $bluelinks, $wiki_http, $link, $error, $text, @matches);

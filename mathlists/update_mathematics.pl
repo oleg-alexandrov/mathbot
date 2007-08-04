@@ -22,12 +22,15 @@ MAIN: {
   my ($articles_from_cats_file, $all_math_arts_file, @new_categories, %current_categories, %all_articles, $mathematicians_logfile, $prefix, $Editor);
   @letters=("0-9", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
 
-  # files involved (they are many)
+  # Files involved (they are many).
   $list_of_categories='List_of_mathematics_categories.wiki';
   $log_file="User:Mathbot/Changes_to_mathlists.wiki";
-  $articles_from_cats_file='All_mathematics_from_cats.txt'; # (this and the one below never get submitted to Wikipedia, that's why .txt extension)
+
+  # The files with the .txt extension are local, they don't get submitted to Wikipedia.
+  $articles_from_cats_file='All_mathematics_from_cats.txt';
   $all_math_arts_file='All_mathematics.txt';
   $mathematicians_logfile='Mathematicians_log.txt';
+
   $prefix = "List of mathematics articles";
   
   $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
