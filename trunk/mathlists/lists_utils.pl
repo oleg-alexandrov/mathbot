@@ -185,10 +185,14 @@ sub process_log_of_todays_changes  {
 sub current_date {
 
   my ($year);
-  my ($second, $minute, $hour, $dayOfMonth, $month, $yearOffset, $dayOfWeek, $dayOfYear, $daylightSavings) = gmtime();
+  my  @Months=("January", "February", "March", "April", "May", "June",
+               "July", "August",  "September", "October", "November", "December");
+  
+  my ($second, $minute, $hour, $dayOfMonth, $month, $yearOffset, $dayOfWeek, $dayOfYear, $daylightSavings) = localtime();
+  
   $year = 1900 + $yearOffset;
-  return "$Months[$month] $dayOfMonth, $year";
 
+  return "$Months[$month] $dayOfMonth, $year";
 }
 
 
