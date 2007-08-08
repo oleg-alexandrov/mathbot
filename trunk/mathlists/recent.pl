@@ -2,6 +2,7 @@
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use lib $ENV{HOME} . '/public_html/wp/modules';
+use lib $ENV{HOME} . '/public_html/wp/mathlists';
 
 require 'bin/perlwikipedia_utils.pl'; 
 require 'bin/get_html.pl';
