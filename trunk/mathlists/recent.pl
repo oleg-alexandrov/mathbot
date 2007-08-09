@@ -9,6 +9,8 @@ require 'bin/get_html.pl';
 require 'bin/rm_extra_html.pl';
 require 'read_from_write_to_disk.pl';
 
+use open 'utf8';
+
 # Recent changes to the [[list of mathematicians]]
 MAIN:{ 
 
