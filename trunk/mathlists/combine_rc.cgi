@@ -2,7 +2,9 @@
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	  # 'diagnostics' expands the cryptic warnings
 
-use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
+use CGI::Carp qw(fatalsToBrowser);
+
+use lib '/u/cedar/h1/afa/aoleg/public_html/wp/modules'; # path to perl modules
 use Date::Parse;
 use LWP::Simple;
 use LWP::UserAgent;
@@ -21,7 +23,7 @@ $| = 1;   # flush the buffer each line
 MAIN: {
 
   # First output line in any CGI script
-  #print "Content-type: text/html\n\n";
+  print "Content-type: text/html\n\n";
 
   my ($text, $top, $body, $bottom, $Editor, $url, $res, %changes, $sep, $key, $bot_tag);
   my ($file_tb, @recent_changes_pages, $page_pt, $date_old, $date);
@@ -40,8 +42,8 @@ MAIN: {
   # (the top from the current run is not available yet).
   print "$top\n";
   
-  @recent_changes_pages=('0-9');
-  #  @recent_changes_pages=('0-9', 'A-C', 'D-F', 'G-I', 'J-L', 'M-O', 'P-R', 'S-U', 'V-Z');
+  #@recent_changes_pages=('0-9');
+  @recent_changes_pages=('0-9', 'A-C', 'D-F', 'G-I', 'J-L', 'M-O', 'P-R', 'S-U', 'V-Z');
      
   $Editor=wikipedia_login();
 
@@ -108,7 +110,7 @@ sub fetch_recent_changes{
   $url = 'http://en.wikipedia.org/wiki/Special:Recentchangeslinked/'
      . 'List_of_mathematics_articles_%28' . $page_pt . '%29';
 
-  print "Getting $url\n";
+  print "Getting <a href=\"$url\">$page_pt</a>\n";
   $res = $Editor->{mech}->get($url);
 
   if ($res->is_success ){
