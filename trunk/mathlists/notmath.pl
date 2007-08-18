@@ -11,12 +11,14 @@ require 'bin/html_encode_decode_string.pl';
 require 'bin/get_html.pl';
 require 'bin/rm_extra_html.pl';
 
+use open 'utf8';
 undef $/;		      # undefines the separator. Can read one whole file in one scalar.
 
 MAIN:{
 
-  my ($articles_from_cats_file, $all_articles_file, %articles_from_cats, %all_articles, $text, $line, $sleep, $attempts);
-  my ($old_letter, $letter);
+  my ($articles_from_cats_file, $all_articles_file, %articles_from_cats);
+  my (%all_articles, $text, $line, $sleep, $attempts);
+  my ($old_letter, $letter, $log_file, $Editor, $edit_summary, $count);
   
   $all_articles_file='All_mathematics.txt';
   $articles_from_cats_file='All_mathematics_from_cats.txt';
@@ -33,8 +35,9 @@ MAIN:{
     $articles_from_cats{$line} = 1;
   }
 
-  $text = "";
+  $text = "__NOTOC__";
   $old_letter = "";
+  $count = 0;
   
   foreach $line (sort {$a cmp $b} keys %all_articles){
 
@@ -49,11 +52,13 @@ MAIN:{
     }
 
     $text = $text . '* [[' . $line . ']]' . "\n";
-       
+    $count ++;
+    
   }
 
-  print "$text\n";
-  my $Editor=wikipedia_login();  $sleep = 1; $attempts=10;
-#  $text = wikipedia_fetch($Editor, $link . ".wiki", $attempts, $sleep);
-  wikipedia_submit($Editor, "User:Mathbot/Page1.wiki", "Not in math categories", $text, $attempts, $sleep);
+  print "$count articles not in math categories.\n";
+  $Editor=wikipedia_login();  $sleep = 1; $attempts=10;
+  $log_file = "User:Mathbot/Page1.wiki";
+  $edit_summary = "Not in math categories";
+  wikipedia_submit($Editor, $log_file, $edit_summary, $text, $attempts, $sleep);
 }
