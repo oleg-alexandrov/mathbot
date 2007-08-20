@@ -5,24 +5,24 @@ use diagnostics;                       # 'diagnostics' expands the cryptic warni
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
 require 'bin/fetch_articles.pl';
-require 'strip_accents_and_stuff.pl';
-require 'lists_utils.pl';
+
 undef $/; # undefines the separator. Can read one whole file in one scalar.
+use open 'utf8';             # input/output in unicode
 
-use open ':utf8';             # input/output in unicode
-
-# add new entries from planetmath
+# Merge new entries from PlanetMath
 MAIN: {
   
   my ($file, $full_file, %files_hash, %entries, $file_no, $key, %ids);
   my ($overwrite, @old_files, @new_files, $text, $sleep, $attempts, $Editor);
-  my ($edit_summary, $path);
+  my ($edit_summary, $path, $new_tag);
   
   $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
   $Editor=wikipedia_login();
 
   $path = 'Wikipedia:WikiProject_Mathematics/PlanetMath_Exchange/';
+  $new_tag = "\<sup\>\<font color=red\>new\!\<\/font\>\<\/sup\>";
   
+  # Go to the working directory
   chdir 'data';
   
   # list existing files
@@ -33,32 +33,42 @@ MAIN: {
   foreach $file ((@old_files, @new_files)){
     next unless ($file =~ /^(\d+)/);
     $key=$1;
+    
     $files_hash{$key}=$file;
-    $files_hash{$key}=~ s/\_new//g;
-  }
-  
-  $overwrite=1; #parse old files
-  foreach $file (@old_files){
-    open (FILE, "<", "$file"); $text = <FILE>; close(FILE);
-    &parse_file($file, $text, $overwrite, \%entries, \%ids);
-  }
-  
-  $overwrite=0; # merge with new info
-  foreach $file (@new_files){
-    open (FILE, "<", "$file"); $text= <FILE>; close(FILE);
-    &parse_file($file, $text, $overwrite, \%entries, \%ids);
+    $files_hash{$key}=~ s/\_new$//g;
   }
 
-  # fetch recent copy of the old files, merge again, with overwriting, and submit
+  #parse old files
+  $overwrite=1; 
+  foreach $file (@old_files){
+    open (FILE, "<$file"); $text = <FILE>; close(FILE);
+    $text =~ s/$new_tag//g; # no longer new
+    &parse_file($file, $text, $overwrite, $new_tag, \%entries, \%ids);
+  }
+
+  # merge with new files
+  $overwrite=0; 
+  foreach $file (@new_files){
+    open (FILE, "<$file"); $text= <FILE>; close(FILE);
+    &parse_file($file, $text, $overwrite, $new_tag, \%entries, \%ids);
+  }
+
+  # Fetch recent copy of the old files, fetch and merge again, with overwriting, and submit.
+  # This step is not absolutely necessary, but is better to take to avoid edit conflicts
+  # with the people who may have edited those files in the meantime. 
   $overwrite=1;
-  foreach $file_no (sort {$a cmp $b} keys %files_hash){
+  foreach $file_no (sort {$a <=> $b} keys %files_hash){
+
+    next if ($file_no le '08');
+    print "\n\n$file_no\n";
 
     $file = $files_hash{$file_no};
     $full_file= $path . $file;
     print "$file -- $full_file\n";
     
     $text=wikipedia_fetch($Editor, $full_file, $attempts, $sleep); 
-    &parse_file($file, $text, $overwrite, \%entries, \%ids);
+    $text =~ s/$new_tag//g; # no longer new
+    &parse_file($file, $text, $overwrite, $new_tag, \%entries, \%ids);
 
     $text = "";
     foreach $key ( sort {$a cmp $b} keys %entries){
@@ -72,7 +82,6 @@ MAIN: {
       wikipedia_submit($Editor, $full_file, $edit_summary, $text, $attempts, $sleep);
     }
 
-    last if ($file_no > 1000); # useful for debugging
   }
 }
 
@@ -82,7 +91,7 @@ MAIN: {
 # It is that thing which makes the code a bit harder to understand.
 
 sub parse_file{ 
-  my ($file, $text, $overwrite, $entries, $ids)=@_;
+  my ($file, $text, $overwrite, $new_tag, $entries, $ids)=@_;
   my ($file_no, $sec_no, $line, @lines, $id, $key, $count, $sep);
 
   $sep="___x_p_A___"; # separator
@@ -127,9 +136,9 @@ sub parse_file{
     }
     $key = "$file_no" . "$sep" . "$sec_no"  . "$sep" . "$count";
 
-    # mark new articles
+    # mark new articles 
     if ( (!exists $ids->{$id}) && (!$overwrite) ){
-      $line =~ s/(\s*-[-]+\s*WP)/\<sup\>\<font color=red\>new\!\<\/font\>\<\/sup\>$1/g;
+      $line =~ s/(\s*-[-]+\s*WP)/$new_tag$1/g;
     }
     
     # Crucial subtle point: if the current id was not yet encountered,
