@@ -1,13 +1,16 @@
 #!/usr/bin/perl
 use strict;                            # 'strict' insists that all variables be declared
 use diagnostics;                       # 'diagnostics' expands the cryptic warnings
+
+use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 use LWP::Simple;
 
 my $base='http://planetmath.org/';
 my ($level, $file);
 undef $/; #read the whole file in a line
 
-chdir "data";
+# Go to the working directory
+chdir 'data';
 
 my $text = get('http://planetmath.org/browse/objects/');
 open (FILE, ">ZZZ0.txt");
