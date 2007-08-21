@@ -24,8 +24,9 @@ MAIN: {
   }
   
   $text="";
-  #  @files=</u/cedar/h1/afa/aoleg/public_html/wp/pmstat/Wikipedia:WikiProject_Mathematics/PlanetMath_Exchange/[0-9]*.wiki>;
-  @files = ('Fetched_planetmath.txt');
+  @files=</u/cedar/h1/afa/aoleg/public_html/wp/pmstat/Wikipedia:WikiProject_Mathematics/PlanetMath_Exchange/[0-9]*.wiki>;
+  #@files = ('Fetched_planetmath.txt'); # this also has redirects, unlike the above file
+
   foreach $file (@files){
     open (FILE, "<:utf8", "$file");
     $text = $text . "\n" . <FILE>;
