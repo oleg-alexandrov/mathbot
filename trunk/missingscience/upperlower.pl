@@ -11,6 +11,12 @@ my ($low, $up);
 
 @letters=("0", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",  "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W",  "X", "Y", "Z");
 
+# Start with a file containing a large list of words and their frequency
+# (obtained say by parsing all the math articles)
+# Write all the words that show up more in lower case to one file 
+# and words that show up more in upper case to another file).
+# This is a simple way of distinguishing proper words.
+
 open (FILE, "<:utf8", "Word_frequency.txt"); $text = <FILE>; close (FILE);
 @words = split ("\n", $text);
 foreach $word (@words){
