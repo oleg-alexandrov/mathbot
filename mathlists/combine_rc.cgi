@@ -2,14 +2,14 @@
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	  # 'diagnostics' expands the cryptic warnings
 
-use CGI::Carp qw(fatalsToBrowser);
-
 use lib '/u/cedar/h1/afa/aoleg/public_html/wp/modules'; # path to perl modules
+use CGI::Carp qw(fatalsToBrowser);
 use Date::Parse;
 use LWP::Simple;
 use LWP::UserAgent;
+use Encode;
 
-require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
+require 'bin/perlwikipedia_utils.pl';
 require 'bin/fetch_articles.pl';
 require 'strip_accents_and_stuff.pl';
 require 'lists_utils.pl';
@@ -20,6 +20,7 @@ binmode STDOUT, ':utf8';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 $| = 1;   # flush the buffer each line
 
+# Merge the recent changes to mathematics articles into one list
 MAIN: {
 
   # First output line in any CGI script
@@ -28,25 +29,28 @@ MAIN: {
   my ($text, $top, $body, $bottom, $Editor, $url, $res, %changes, $sep, $key, $bot_tag);
   my ($file_tb, @recent_changes_pages, $page_pt, $date_old, $date);
   
-  my $file_in = 'changes.html';
-  my $file_out = 'changes_out.html';
-
   $file_tb = 'Top_bottom.html';
   $sep = '___';
   $bot_tag = '<!-- Just a bot tag -->';
 
-  ($top, $bottom) = &read_top_bottom_from_file($file_tb, $bot_tag);
-
-  # First thing to print as output of the CGI script is the
-  # top of the recent changes page as stored in the file from the prev. run.
+  # First thing to print as output of the CGI script is the top of the
+  # recent changes page as stored in the file from the previous run
   # (the top from the current run is not available yet).
+  ($top, $bottom) = &read_top_bottom_from_file($file_tb, $bot_tag);
   print "$top\n";
   
-  #@recent_changes_pages=('0-9');
-  @recent_changes_pages=('0-9', 'A-C', 'D-F', 'G-I', 'J-L', 'M-O', 'P-R', 'S-U', 'V-Z');
-     
-  $Editor=wikipedia_login();
+  print '<br><p>Fetching the changes to the <b><a href="http://en.wikipedia.org/wiki/List_of_mathematics_articles">'
+      . 'list of mathematics articles</a></b> in the last 24 hours...<br><p>' . "\n\n";
 
+  # do some STDOUT manipulation to hide messages from wikipedia_login()
+  open (SAVEOUT, ">&STDOUT");  open (STDOUT, ">/dev/null");
+  $Editor=wikipedia_login();
+  close(STDOUT); open (STDOUT, ">&SAVEOUT");
+
+  #@recent_changes_pages=('0-9'); # useful for debugging
+  @recent_changes_pages=('0-9', 'A-C', 'D-F', 'G-I', 'J-L', 'M-O', 'P-R', 'S-U', 'V-Z');
+
+  # The loop parsing the recent changes
   foreach $page_pt (@recent_changes_pages){
 
     $text = &fetch_recent_changes($Editor, $page_pt);
@@ -56,8 +60,8 @@ MAIN: {
     &parse_body ($body, \%changes, $sep);
   }
 
+  # Print the recent changes
   $date = "";
-  
   foreach $key (sort {$b cmp $a} keys %changes){
 
     next unless ($key =~ /^\d+$sep(.*?)$sep/);
@@ -71,7 +75,7 @@ MAIN: {
 
   print "$bottom\n";
   
-  # New top and bottom go to file, for future reference
+  # Write the new top and bottom go to file, for future reference
   open(FILE, ">$file_tb");
   print FILE $top . $bot_tag . $bottom;
   close(FILE);
@@ -107,19 +111,22 @@ sub fetch_recent_changes{
 
   $Editor = shift; $page_pt = shift;
 
-  $url = 'http://en.wikipedia.org/wiki/Special:Recentchangeslinked/'
-     . 'List_of_mathematics_articles_%28' . $page_pt . '%29';
-
-  print "Getting <a href=\"$url\">$page_pt</a>\n";
+  $url = 'http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematics_articles_('
+     . $page_pt . ')&hideminor=0&days=1&limit=5000';
+  
+  print "<a href=\"$url\">$page_pt</a>\&nbsp;";
   $res = $Editor->{mech}->get($url);
 
   if ($res->is_success ){
     
     $text = $res->decoded_content;
+
+    # Test must be in Unicode in order to print corectly
+    $text = Encode::encode('utf8', $text);
     
   }else{
     
-    print "Error! Could not get the text from the server!\n";
+    print "<font color='red'><b>Error! Could not get $url from the server!<b></font>\n";
     $text = "";
     
   }
@@ -152,9 +159,16 @@ sub extract_top_body_bottom {
 
   }
 
+  # Do some processing on the top. Strip irrelevant comments.
+  $top =~ s/Related changes/Recent changes/g;
+  $top =~ s/\<div id=\"\w+\"\>\(to pages linked from.*?$//sg;
+  
   # Make sure the Wiki logo shows up in the toolbar on the left
   $bottom =~ s/(url\()\/(images\/wiki-en\.png\))/$1$base_url$2/g;
 
+  # strip some links to mathbot from $bottom
+  $bottom =~ s/\<li id=\"pt-.*?mathbot.*?\<\/li\>//ig;
+  
   return ($top, $body, $bottom);
   
 }
@@ -173,13 +187,13 @@ sub parse_body {
   
   @lines = split("\n", $body);
 
-  $day = "";
+  $day = "<b><font color='red'>Unknown date!!!</font></b>";
   $text = "";
   
   foreach $line (@lines){
 
     # current day
-    if ($line =~ /\<h4\>(.*?)\<\/h4\>/){
+    if ($line =~ /\<h4\>(.*?)\<\/h4\>/i){
       $day = $1;
     }
 
