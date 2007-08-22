@@ -29,6 +29,7 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 my $index = 'Wikipedia:Missing science topics';
 my $attempts = 5;
 my $sleep    = 5;
+my $short_sleep = 1;
 
 MAIN: {
 
@@ -52,7 +53,7 @@ MAIN: {
   $fileno=30; $oldtext="";
   for ($i=1 ; $i <=$fileno; $i++) {
     $file=$prefix . $i . ".wiki";
-    $text=&fetch_file_nosave($file, $attempts, $sleep);
+    $text=&fetch_file_nosave($file, $attempts, $short_sleep);
     $oldtext = $oldtext . "\n" . $text;
   }
   @lines = split ("\n", $oldtext);
@@ -215,7 +216,7 @@ sub see_diffs {
     $total_new_red++;
   }
   
-  $result="==Changes as of ~~~~~\n===Removed===\n";
+  $result="==Changes==\n===Removed===\n";
   foreach (sort {$a cmp $b} keys %Old) {
     if (! exists $New{$_}) {
 	  $result = $result . "$Old{$_}\n";

@@ -87,13 +87,17 @@ MAIN: {
   print FILE "$text\n";
   close(FILE);
 
+  # Must encode to Unicode 
+  $text = Encode::encode('utf8', $text);
+
   exit(0); # stop here if we want both the blue and the red links
+    
   &identify_red(\%red, \%blue, $text); # problem! This code may cause trouble if server is down!!!!!!!!!
 
   $text="";
   foreach $link ( sort {$a cmp $b} keys %links){
     next unless (exists $red{$link});
-    $text = $text .  "\* \[\[$link\]\]\n";
+    $text = $text .  "\# \[\[$link\]\]\n";
   }
 
   &submit_file_nosave("User:Mathbot/Page3.wiki", "Planetmath redlinks.", $text, 10, 2);
