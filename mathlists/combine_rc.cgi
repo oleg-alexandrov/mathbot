@@ -160,7 +160,7 @@ sub extract_top_body_bottom {
   }
 
   # Do some processing on the top. Strip irrelevant comments.
-  $top =~ s/Related changes/Recent changes/g;
+  $top =~ s/(\<(?:h1|title).*?\>).*?(\<\/(:?h1|title)\>)/$1Recent changes to mathematics articles$2/ig;
   $top =~ s/\<div id=\"\w+\"\>\(to pages linked from.*?$//sg;
   
   # Make sure the Wiki logo shows up in the toolbar on the left
