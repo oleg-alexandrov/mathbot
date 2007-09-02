@@ -2,7 +2,7 @@
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	  # 'diagnostics' expands the cryptic warnings
 
-use lib '/u/cedar/h1/afa/aoleg/public_html/wp/modules'; # path to perl modules
+use lib '../modules'; # path to perl modules
 use CGI::Carp qw(fatalsToBrowser);
 use Date::Parse;
 use LWP::Simple;
@@ -11,8 +11,6 @@ use Encode;
 
 require 'bin/perlwikipedia_utils.pl';
 require 'bin/fetch_articles.pl';
-require 'strip_accents_and_stuff.pl';
-require 'lists_utils.pl';
 
 use open 'utf8';
 binmode STDOUT, ':utf8';
