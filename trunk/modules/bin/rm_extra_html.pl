@@ -1,6 +1,9 @@
+use strict;                   # 'strict' insists that all variables be declared
+use diagnostics;              # 'diagnostics' expands the cryptic warnings
+
 sub rm_extra_html {
 
-  $text = shift;
+  my $text = shift;
 
   $text =~ s/\&amp;/\&/g;
   $text =~ s/\&quot;/\"/g;
