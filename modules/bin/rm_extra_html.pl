@@ -1,11 +1,13 @@
 sub rm_extra_html {
 
-  $link = shift;
+  $text = shift;
 
-  $link =~ s/\&amp;/\&/g;
-  $link =~ s/\&quot;/\"/g;
+  $text =~ s/\&amp;/\&/g;
+  $text =~ s/\&quot;/\"/g;
+  $text =~ s/\&lt;/\</g;
+  $text =~ s/\&gt;/\>/g;
   
-  return $link;
+  return $text;
 }
 
 1;

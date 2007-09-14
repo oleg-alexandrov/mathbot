@@ -1,6 +1,7 @@
 require 'bin/get_html.pl';
 require 'bin/language_definitions.pl';
 require 'bin/escape_things.pl';
+require 'bin/rm_extra_html.pl';
 use Encode;
 
 sub fetch_articles_cats{
@@ -34,10 +35,7 @@ sub fetch_articles_cats{
 
      ($text, $error) = &get_html($link);
      $text =~ s/\<\/?b\>//ig; # rm strange bold markup in the query format
-     $text =~ s/\&gt;/\>/g;
-
-#     print "$text\n";
-
+     $text = &rm_extra_html($text);
 
      # a kind of convoluted code. Try harder to get the continuation of current category than the first page
      if ($link =~ /cpfrom=/){
