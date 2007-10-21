@@ -6,6 +6,7 @@ use open 'utf8';
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
 require 'bin/fetch_articles.pl';
+require 'bin/rm_extra_html.pl';
 require 'strip_accents_and_stuff.pl';
 require 'lists_utils.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
@@ -96,6 +97,9 @@ sub merge_new_entries_from_categories{
 
   my ($link, $link_stripped, @links, %articles);
   my ($letter, $text, $articles_from_cats, $blacklist, $all_articles)=@_;
+
+  $text = &rm_extra_html($text); # replace &amp; with &, etc. This was needed for one run only I think.
+
   @links=split("\n", $text); 
   foreach $link (@links){
     if ($link =~ /^\[\[(.*?)(\||\]\])/){ # extract the link
