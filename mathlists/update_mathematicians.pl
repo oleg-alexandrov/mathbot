@@ -32,7 +32,7 @@ MAIN:{
   $mathematicians_logfile='Mathematicians_log.txt';
   $mathematician_cat_list = "New_mathematician_categories.txt";
   
-  $list_of_categories='List_of_mathematics_categories.wiki';
+  $list_of_categories='Wikipedia:WikiProject_Mathematics/List_of_mathematics_categories.wiki';
   # Get today's articles found in categories
   &read_categories_from_list(\@mathematics_categories,\@mathematician_categories,\@other_categories, $list_of_categories);
   &fetch_articles(\@mathematician_categories, \@articles_from_cats, \@new_categories);
