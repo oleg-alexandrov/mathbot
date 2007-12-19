@@ -27,7 +27,7 @@ sub strip_accents_and_stuff {
   s/^[^\w]+/0/g; 
 
   # make all upper case, to help with sorting.
-  $_=uc($_); 
+  #$_=uc($_); 
 
   return $_; 
 }
