@@ -145,6 +145,7 @@ sub parse_new {
     next if ($name =~ /^Chief statistician/i); # this is not a person, rather a list
     next if ($name =~ /^logician/i); # this is not a person
     next if ($name =~ /^Association for Women in Mathematics/i); # this is not a person
+    next if ($name =~ /^Abel Prize/i); # this is not a person
 
     $text = &read_from_disk_or_wikipedia($Editor, $name);
     
