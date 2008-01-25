@@ -155,16 +155,17 @@ sub see_open_afd_discussions (){
   my $expanded_file = shift;
 
   my $result = "";
-  
+
   $text =~ s/\n//g;	      # rm newlines
 
   # strip the top part, as otherwise it confuses the parser below
   $text =~ s/^.*?\<div id=\"toctitle\"\>//sg;
   
   # some processing to deal with Vfd/afd ambiguity recently
-  $text =~ s/\"boilerplate[_\s]+metadata[_\s+][avp]fd.*?\"/\"boilerplate metadata vfd\"/g;
+  $text =~ s/\"boilerplate[_\s]+metadata[_\s+][avp]fd.*?\"/\"boilerplate metadata vfd\"/ig;
   
   $text =~   s/(\<div\s+class\s*=\s*\"boilerplate metadata vfd\".*?\<span\s+class\s*=\s*\"editsectio)(n)(.*?\>)/$1p$3/sgi;
+
 
   my @all =    ($text =~ /\<span\s+class\s*=\s*\"editsectio\w\".*?\>\[\<a href\s*=\s*\"\/w\/index.php\?title\s*=\s*(Wikipedia:\w+[_\s]for[_\s]deletion.*?)\"/g );
 
@@ -174,8 +175,9 @@ sub see_open_afd_discussions (){
 
   my $openc=0;
    foreach (@open) {
+
     next if (/Wikipedia:\w+[_\s]for[_\s]deletion\/Log/i);
-    next unless (/\&amp;section=1/);
+    next unless (/\&amp;section=(T-|)1/);
     s/\&.*?$//g;
     $openc++;
 
@@ -187,7 +189,7 @@ sub see_open_afd_discussions (){
   my $closedc=0;
    foreach (@closed) {
     next if (/Wikipedia:\w+[_\s]for[_\s]deletion\/Log/i);
-    next unless (/\&amp;section=1/);
+    next unless (/\&amp;section=(T-|)1/);
     s/\&.*?$//g;
     $closedc++;
 
@@ -198,7 +200,7 @@ sub see_open_afd_discussions (){
   my $allc=0;
   foreach (@all) {
     next if (/Wikipedia:\w+[_\s]for[_\s]deletion\/Log/i);
-    next unless (/\&amp;section=1/);
+    next unless (/\&amp;section=(T-|)1/);
     s/\&.*?$//g;
     $allc++;
 #    print "$allc: $_\n";
@@ -218,10 +220,12 @@ sub see_open_afd_discussions (){
     $result = "($openc open / $closedc closed / $allc total discussions; open: $result)";
   }
 
- 
+  my $http_link = $link; $http_link =~ s/ /_/g; 
+  $http_link = '([http://en.wikipedia.org/w/index.php?title=' . $http_link . '&action=edit edit this day\'s list])'; 
+
   # text to add to a subpage listing all open discussions
   $expanded_list =~ s/\s*\[\[(.*?)\|\d+\]\]/\* \[\[$1\]\]\n/g;
-  $expanded_list = "==[[$link\|$short_link]]==\n" . $expanded_list;
+  $expanded_list = "==[[$link\|$short_link]]==\n" . $http_link . "\n" . $expanded_list;
  
   return ($result, $expanded_list);  
 }
