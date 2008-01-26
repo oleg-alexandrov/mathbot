@@ -15,7 +15,7 @@ MAIN: {
 
   $| = 1; # flush the buffer each line
 
-  print "Please be patient, this can take a minute or two if Wikipedia is slow ...<br><br>\n";
+  print "Please be patient, this script can take a minute or two if Wikipedia is slow ...<br><br>\n";
   
   chdir '/u/cedar/h1/afa/aoleg/public_html/wp/afd/'; # needed when running this from crontab
   &wikipedia_login();
@@ -214,7 +214,9 @@ sub see_open_afd_discussions (){
   $expanded_file =~ s/\.wiki$//g;
 
   # if there are too many open afds, link to the file listing them. Otherwise, list them right here. 
-  if ($openc== 0 || $openc > 20 ){
+  if ($openc == 0 ){
+    $result = "($openc open / $closedc closed / $allc total discussions)";
+  }elsif ( $openc > 20 ){
     $result = "($openc open / $closedc closed / $allc total discussions; [[$expanded_file\#$short_link\|see open]])";
   }else{
     $result = "($openc open / $closedc closed / $allc total discussions; open: $result)";
@@ -225,6 +227,7 @@ sub see_open_afd_discussions (){
 
   # text to add to a subpage listing all open discussions
   $expanded_list =~ s/\s*\[\[(.*?)\|\d+\]\]/\* \[\[$1\]\]\n/g;
+  $expanded_list =~ s/_/ /g; 
   $expanded_list = "==[[$link\|$short_link]]==\n" . $http_link . "\n" . $expanded_list;
  
   return ($result, $expanded_list);  
