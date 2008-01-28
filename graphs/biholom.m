@@ -2,7 +2,7 @@
 
 function main()
 
-   N = 15; % num of grid points
+   N = 11; % num of grid points
    epsilon = 0.1; % displacement for each small diffeomorphism
    num_comp = 10; % number of times the diffeomorphism is composed with itself
  
@@ -25,9 +25,10 @@ function main()
    % start plotting
    figno=1; figure(figno); clf;
 
-   A=-1.1; B=1.2; C=-0.1; D=1.8;
-   do_plot(X, Y, lw, figno, mycolor, A, B, C, D)
+   mode = 1;
+   do_plot(X, Y, lw, figno, mycolor, mode)
    saveas(gcf, 'Biholom1.eps', 'psc2');
+   plot2svg('Biholom1.svg');
    
    I=sqrt(-1);
    Z = X+I*Y;
@@ -37,17 +38,28 @@ function main()
    XF = real(F); YF=imag(F);
 
    figno = 2;
-   A=-0.1; B=3.0; C=A; D=B;
-   do_plot(XF, YF, lw, figno, mycolor, A, B, C, D)
+   mode = 2;
+   do_plot(XF, YF, lw, figno, mycolor, mode)
 
    saveas(gcf, 'Biholom2.eps', 'psc2');
+   plot2svg('Biholom2.svg');
    
    
-function do_plot(X, Y, lw, figno, mycolor, A, B, C, D)
+function do_plot(X, Y, lw, figno, mycolor, mode)
    figure(figno); clf; hold on;
    axis equal; axis off;
 
+   minX = min(min(X)); maxX = max(max(X));
+   minY = min(min(Y)); maxY = max(max(Y));
    
+   small = 0.2;
+   if mode == 1
+
+   else
+      small = 0.5*exp(1)*small;
+   end
+   A=minX-small/2; B=maxX+small;
+   C=minY-small/2; D=maxY+small;
 %   plot([A B], [0, 0], 'linewidth', lw, 'color', black);
 %   plot([0, 0], [C, D], 'linewidth', lw, 'color', black);
 
@@ -61,25 +73,22 @@ function do_plot(X, Y, lw, figno, mycolor, A, B, C, D)
    red    = [0.867 0.06 0.14];
    gray = 0.2*[1, 1, 1];
 
-   arrow_size = 0.07*max(B, D);
+   arrow_size = 0.07*max(maxX, maxY);
    sharpness = 20;
    arrow_type = 1; 
-   arrlen = 0.3; % arrow length
    tiny = 0.01;
-   scale = 0.8;
+   scale_lw = 0.8;
    
-   arrow([A, 0], [B, 0], scale*lw, arrow_size, sharpness, arrow_type, gray);
-   arrow([0, C], [0, D], scale*lw, arrow_size, sharpness, arrow_type, gray);
+   arrow([A, 0], [B, 0], scale_lw*lw, arrow_size, sharpness, arrow_type, gray);
+   arrow([0, C], [0, D], scale_lw*lw, arrow_size, sharpness, arrow_type, gray);
 
 
-   fs = 10*max(B, D);
-   myrad = 0.009*max(B, D);
+   fs = 10*max(maxX, maxY);
+   myrad = 0.009*max(maxX, maxY);
       
-   minX = min(min(X)); 
-   maxX = max(max(X));
 
    % in the two pictures, the text to be displayed is different
-   if maxX ~= exp(1)
+   if mode == 1
 
       smallx = -0.03*max(B, D);
       smally = -0.12*max(B, D);
@@ -89,7 +98,7 @@ function do_plot(X, Y, lw, figno, mycolor, A, B, C, D)
 
 %      ball(minX, 0, myrad, mycolor);
 %      ball(maxX, 0, myrad, mycolor);
-%      ball(0, 0, myrad, mycolor);
+%      ball(0, maxY, myrad, mycolor);
 
    else
       smallx = -0.01*max(B, D);
@@ -98,9 +107,8 @@ function do_plot(X, Y, lw, figno, mycolor, A, B, C, D)
       text (minX+smallx, smally, 'e^{-1}', 'fontsize', fs, 'color', gray);
       text (maxX+smallx, smally, 'e', 'fontsize', fs, 'color', gray);
 
-      
-%      ball(exp(-1), 0, myrad, mycolor);
-%      ball(maxX, 0, myrad, mycolor);
+%      ball(exp(-1), 0, myrad, mycolor); ball(exp(1), 0, myrad, mycolor);
+%      ball(0, exp(-1), myrad, mycolor); ball(0, exp(1), myrad, mycolor);
 
    end
    
