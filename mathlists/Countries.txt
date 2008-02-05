@@ -178,3 +178,6 @@ Moldovan - Moldova
 Iraqi - Iraq
 
 Syrian - Syria
+uruguayan - Uruguay
+sri lankan - Sri Lanka
+
