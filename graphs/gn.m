@@ -1,5 +1,5 @@
 function main()
-   r1 = inline('2.*x+4.*y-x.^3-1.2',    'x', 'y');
+   r1 = inline('2.*x+4.*y-x.^3-1.3',    'x', 'y');
    r2 = inline('3.*x-2.*y+2.*x.*y+0.1', 'x', 'y');
    r3 = inline('5.*x+y+x.*y.^2-0.9',    'x', 'y');
 
@@ -23,8 +23,8 @@ function main()
 
    plot_contours (r1, r2, r3, Box, lw, red);
 
-   a = 0.1116;
-   b = 0.2444;
+   a = 0.1248;
+   b = 0.2639;
    r1(a, b)
    r2(a, b)
    r3(a, b)
