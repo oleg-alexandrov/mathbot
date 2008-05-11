@@ -1,0 +1,45 @@
+<html>
+<!-- Created with XEmacs -->
+<head>
+  <title>Wikipedia Perl bot framework</title>
+</head>
+<body>
+
+<center><h1>Wikipedia Perl bot framework</h1></center>
+
+This page describes the <code>wikipedia_perl_bot</code> package necessary to run the <a href="../wp10/codes.html">Wikipedia 1.0 script</a>.
+At its heart is the <a href="http://en.wikipedia.org/wiki/User:Shadow1/perlwikipedia">Perlwikipedia</a>
+module for downloading and uploading the text of Wikipedia pages, together with its several dependencies.  <code>wikipedia_perl_bot</code> also contains
+wrappers around the Perlwikipedia login, download, and upload routines for more robustness, as well as a few other codes. 
+
+<h2>Download and installation</h2>
+
+You must have a reasonably up-to-date Perl distribution. Usually Perl is installed by default on Linux systems; on Windows one can use the free <a href="http://www.activestate.com/">Active Perl</a> distribution (it needs around 80MB of disk space).
+
+<ul><li>
+Download the <a href="wikipedia_perl_bot.zip">wikipedia_perl_bot</a> archive, and unzip it in a directory of your choice. (<b>Note:</b> On Windows you may be prompted to unzip this package in a sub-directory called <code>wikipedia_perl_bot</code>. Unzip it rather in the directory you meant to originally, the files in the archive already are in a directory called <code>wikipedia_perl_bot</code>).</li>
+
+<p><li>Enter the directory <code>wikipedia_perl_bot</code> and its subdirectory <code>bin</code>. Modify there the file <code>perlwikipedia_utils.pl</code> to specify a Wikipedia login and password. <i>You must make sure that other people cannot read that file.</i> </li>
+
+<p><li>Users of this package on <i>non-English</i> Wikipedias should  translate the keywords in the file <code>language_definitions.pl</code> in the same directory.
+
+<p><li><b>Test</b> the software. Create a working directory, preferably outside the <code>wikipedia_perl_bot</code> directory, and save there the file <a href="testbot.pl">testbot.pl </a>. Edit that file, and specify the correct path to the <code>wikipedia_perl_bot</code> directory on your system on the line "use lib ...". <i>Run</i> the code with the command <code>perl testbot.pl</code>. If everything goes well, it should add a line to the Wikipedia:Sandbox.
+</ul>
+
+<h2>Caveats</h2>
+The routine <code>wikipedia_submit</code> illustrated in the <code>testbot.pl</code> code does not notify of edit conflicts, it simply overwrites any changes which happened in the time between the wikicode was downloaded with <code>wikipedia_fetch</code> and the time it was submitted with <code>wikipedia_submit</code>. <code>wikipedia_submit</code> is also robust, in the sense that it tries to submit the text multiple times until it succeeds or reaches the specified number of attempts. Such behavior is typically desirable in a bot; to have the bot edit more like a human (fail, rather than overwrite, in case of edit conflicts), use the plain <code>edit</code> routine provided by Perlwikipedia. 
+
+
+</ul>
+
+<hr />
+<table width="100%">
+  <tr><td>
+<a href="http://www.math.ucla.edu/~aoleg">Oleg Alexandrov</a>
+    </td>
+    <td align="right" width="50%">
+      Updated: July 12, 2007</td>
+  </tr>
+</table>
+</body>
+</html>

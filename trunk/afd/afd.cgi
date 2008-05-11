@@ -21,7 +21,7 @@ MAIN: {
   &wikipedia_login();
   
   my ($info, $expanded_info, $tmp);
-  $expanded_info = "{{shortcut|[[WP:OAFD]]|WP:OLDAFD}}\n";
+  $expanded_info = "{{shortcut|WP:OAFD|WP:OLDAFD}}\n";
  
   if (@ARGV){  $test=1;  }else{  $test=0;  } # see if we are in testing mode
   if (! $test){
