@@ -3,7 +3,7 @@
 use strict;                   # 'strict' insists that all variables be declared
 use diagnostics;              # 'diagnostics' expands the cryptic warnings
 
-use lib '/u/cedar/h1/afa/aoleg' . '/public_html/wp/modules'; # path to perl modules
+use lib '/home/mathbot/' . '/public_html/cgi-bin/wp/modules'; # path to perl modules
 use Unicode::Normalize;
 use LWP::Simple;
 use CGI::Carp qw(fatalsToBrowser);

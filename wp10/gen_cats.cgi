@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use POSIX;                     # the strftime function
 use CGI::Carp qw(fatalsToBrowser);
-use lib '/u/cedar/h1/afa/aoleg/public_html/wp/modules'; # path to perl modules
+use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # path to perl modules
 use IO::Handle;
 
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
