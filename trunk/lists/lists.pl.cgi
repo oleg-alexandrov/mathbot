@@ -1,9 +1,9 @@
-#!/usr/local/bin/perl 
+#!/usr/bin/perl 
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use CGI::Carp qw(fatalsToBrowser);
 
-use lib '/u/cedar/h1/afa/aoleg/public_html/wp/modules'; # path to perl modules
+use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # path to perl modules
 use WWW::Mediawiki::Client;   # upload from Wikipedia
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
 require 'bin/wikipedia_login.pl';
