@@ -83,6 +83,10 @@ MAIN: {
   $read=0;		      # write 
   ($talk, $p1, $p2, $p3, $p4, $p5) = &printout ($talk, $list, $read, $p1, $p2, $p3, $p4, $p5);
 
+  my $old_addr='http://www.math.ucla.edu/~aoleg/wp';
+  my $new_addr='http://tools.wikimedia.de/~mathbot/cgi-bin/wp';
+  $talk =~ s/$old_addr/$new_addr/g;
+
   print "Modifying the talk page of \"$liststrip\"<br>\n";
   $talk = encode('utf8', $talk);
   &submit_file_nosave($list_talk, "List articles missing from the \[\[$liststrip\]\].", $talk, $attempts, $sleep);
