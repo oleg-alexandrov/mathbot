@@ -17,7 +17,7 @@ MAIN: {
 
   print "Please be patient, this script can take a minute or two if Wikipedia is slow ...<br><br>\n";
   
-  chdir '/u/cedar/h1/afa/aoleg/public_html/wp/afd/'; # needed when running this from crontab
+  chdir '/home/mathbot/public_html/wp/afd/'; # needed when running this from crontab
   &wikipedia_login();
   
   my ($info, $expanded_info, $tmp);
@@ -86,7 +86,7 @@ MAIN: {
   }
 
   $utc_time=strftime("%H:%M, %B %d, %Y (UTC)", gmtime(time));
-  $text =~ s/(\~aoleg\/wp\/afd\/afd\.cgi.*?\]).*?\n/$1 \(last update at $utc_time\)\n/;
+  $text =~ s/(\/afd\/afd\.cgi.*?\]).*?\n/$1 \(last update at $utc_time\)\n/;
 
   $edit_summary="There are $num_disc open discusions in $num_days days." . $message;
   if ($num_disc > 200){
