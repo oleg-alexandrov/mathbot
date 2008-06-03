@@ -3,6 +3,7 @@ use POSIX;                     # the strftime function
 use CGI::Carp qw(fatalsToBrowser);
 
 use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # path to perl modules
+
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
 require 'bin/wikipedia_login.pl';
 require 'bin/get_html.pl';
@@ -18,6 +19,7 @@ MAIN: {
   print "Please be patient, this script can take a minute or two if Wikipedia is slow ...<br><br>\n";
   
   chdir '/home/mathbot/public_html/wp/afd/'; # needed when running this from crontab
+
   &wikipedia_login();
   
   my ($info, $expanded_info, $tmp);
