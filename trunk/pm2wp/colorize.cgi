@@ -4,7 +4,7 @@ use diagnostics;              # 'diagnostics' expands the cryptic warnings
 use LWP::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 
-use lib '/u/cedar/h1/afa/aoleg' . '/public_html/wp/modules'; # path to perl modules
+use lib '/u/cedar/h2/afa/aoleg' . '/public_html/wp/modules'; # path to perl modules
 require 'cgi-lib.pl';
 require 'do_colorize.pl';
 
