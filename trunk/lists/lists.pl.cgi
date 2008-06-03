@@ -9,7 +9,7 @@ require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one bel
 require 'bin/wikipedia_login.pl';
 require "bin/fetch_articles.pl";
 
-undef $/;		      # undefines the separator. Can read one whole file in one scalar.
+undef $/;	   	      # undefines the separator. Can read one whole file in one scalar.
 
 MAIN: { 
 
