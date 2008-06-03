@@ -2,7 +2,7 @@
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 
-my $wp_path='/u/cedar/h1/afa/aoleg/public_html/cgi-bin/wp';
+my $wp_path='/u/cedar/h2/afa/aoleg/public_html/cgi-bin/wp';
 @INC=($wp_path . '/modules', $wp_path . '/rfa', @INC); 
 
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
