@@ -1,0 +1,25 @@
+<pre>
+
+# some pages on Wikipedia are named differently than on PM, so links need to be changed
+# (it does not matter how much space is there below on both sides of --)
+
+# PM link     -- Wikipedia link
+image         -- image (mathematics)
+image2        -- function (mathematics)
+union         -- union (set theory)
+intersection  -- intersection (set theory)
+mathbbr       -- real number
+mathbbq       -- rational number
+mathbbz       -- integer
+inclusion2    -- subset
+ring          -- ring (mathematics)
+real          -- real number
+positive      -- negative and non-negative numbers
+negative      -- negative and non-negative numbers
+compact       -- compact set
+boundary      -- boundary (topology)
+range         -- range (mathematics)
+continuous    -- continuous function
+domain        -- domain (mathematics)
+
+</pre>
