@@ -365,7 +365,6 @@
 [[:Category:Manifolds|Manifolds]] -- 
 [[:Category:Mathematical analysis|Mathematical analysis]] -- 
 [[:Category:Mathematical analysis stubs|Mathematical analysis stubs]] -- 
-[[:Category:Mathematical analysts|Mathematical analysts]] -- 
 [[:Category:Mathematical axioms|Mathematical axioms]] --  
 [[:Category:Mathematical chairs|Mathematical chairs]] --
 [[:Category:Mathematical components|Mathematical components]] -- 
@@ -836,6 +835,7 @@
 === M ===
 
 [[:Category:Maldivian mathematicians|Maldivian mathematicians]] -- 
+[[:Category:Mathematical analysts|Mathematical analysts]] -- 
 [[:Category:Mathematical logicians|Mathematical logicians]] --
 [[:Category:Mathematician stubs|Mathematician stubs]] --
 [[:Category:Mathematicians|Mathematicians]] -- 
@@ -946,6 +946,7 @@
 [[:Category:Biological theorems|Biological theorems]] <!-- (biology) --> --  
 [[:Category:Biostatisticians|Biostatisticians]] -- 
 [[:Category:Biostatistics|Biostatistics]] -- 
+[[:Category:Blaise Pascal|Blaise Pascal]] -- 
 [[:Category:Braids|Braids]] <!-- (strange stuff) --> -- 
 [[:Category:Brazilian logicians|Brazilian logicians]]<!-- (All mathematical logicians are in [[Category:Mathematical logicians]]) --> -- 
 [[:Category:British cryptographers|British cryptographers]]  <!-- (cryptography is not really math) --> --  
@@ -1172,7 +1173,6 @@
 
 [[:Category:Paradoxes|Paradoxes]] <!-- (this is more logic and philosophy) --> --
 [[:Category:Parity|Parity]] <!-- (not math specific) --> --  
-[[:Category:Pascal, Blaise|Pascal, Blaise]] -- 
 [[:Category:Perspective projection|Perspective projection]] <!-- (I am ambivalent about this one) --> --
 [[:Category:Pharmaceutical statistics|Pharmaceutical statistics]] -- 
 [[:Category:Philosophers of mathematics|Philosophers of mathematics]] <!-- (a philosopher of math is not necessarily a mathematician) --> -- 
