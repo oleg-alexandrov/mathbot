@@ -2,6 +2,48 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== June 7, 2008 ==
+
+:Removed [[-illion]] 
+:Removed [[A-infinity operad]] (is a redirect to [[A∞-operad]])
+:Removed [[Brouwer-Heyting-Kolmogorov interpretation]] (is a redirect to [[Brouwer–Heyting–Kolmogorov interpretation]])
+:Removed [[Characteristic equation]] (is a redirect to [[Characteristic polynomial]])
+:Removed [[Chernoff bounds]] (is a redirect to [[Chernoff bound]])
+:Removed [[E-infinity operad]] (is a redirect to [[E∞-operad]])
+:Removed [[Euler-Rodrigues parameters]] (is a redirect to [[Euler–Rodrigues parameters]])
+:Removed [[F-sigma set]] (is a redirect to [[Fσ set]])
+:Removed [[Faustmann's Formula]] (is a redirect to [[Faustmann's formula]])
+:Removed [[G-delta set]] (is a redirect to [[Gδ set]])
+:Removed [[Gilbert-Johnson-Keerthi distance algorithm]] (is a redirect to [[Gilbert–Johnson–Keerthi distance algorithm]])
+:Removed [[Hardy-Littlewood circle method]] (is a redirect to [[Hardy–Littlewood circle method]])
+:Removed [[Johnson-Lindenstrauss lemma]] (is a redirect to [[Johnson–Lindenstrauss lemma]])
+:Removed [[Secular equation]] (is a redirect to [[Characteristic polynomial]])
+:Removed [[Secular function]] (is a redirect to [[Characteristic polynomial]])
+:Removed [[Sequence transformations]] (is a redirect to [[Sequence transformation]])
+:Added   [[ARGUS distribution]]
+:Added   [[A∞-operad]]
+:Added   [[Borel-Weil theorem]]
+:Added   [[Brouwer–Heyting–Kolmogorov interpretation]]
+:Added   [[Business statistics]]
+:Added   [[Combinatorial data analysis]]
+:Added   [[Correlation immunity]]
+:Added   [[Euler–Rodrigues parameters]]
+:Added   [[Extended negative binomial distribution]]
+:Added   [[E∞-operad]]
+:Added   [[Faustmann's formula]]
+:Added   [[Fσ set]]
+:Added   [[Gaussian free field]]
+:Added   [[Geometric data analysis]]
+:Added   [[Gilbert–Johnson–Keerthi distance algorithm]]
+:Added   [[Gδ set]]
+:Added   [[Hardy–Littlewood circle method]]
+:Added   [[Hosoya's triangle]]
+:Added   [[Johnson–Lindenstrauss lemma]]
+:Added   [[Order of integration (calculus)]]
+:Added   [[Sequence transformation]]
+:Added   [[Symbolic music]]
+----
+
 == June 5, 2008 ==
 
 :Removed [[Adleman-Pomerance-Rumely primality test]] (is a redirect to [[Adleman–Pomerance–Rumely primality test]])
@@ -813,22 +855,4 @@
 :Added   [[Single-entry matrix]]
 ----
 : Mathematicians:added   [[Orazio Grassi]]
-
-== April 23, 2008 ==
-
-:Removed [[Closure operator on a set]] (is a redirect to [[closure operator]])
-:Removed [[Doléans exponential]] (is a redirect to [[Doléans-Dade exponential]])
-:Removed [[Grubbs' Test for Outliers]] (is a redirect to [[Grubbs' test for outliers]])
-:Removed [[Lexicon (mathematics)]] (is a redirect to [[Normal number]])
-:Removed [[Operationalisation]] (is a redirect to [[Operationalization]])
-:Added   [[1289 (number)]]
-:Added   [[Affine Grassmannian (manifold)]]
-:Added   [[Coefficient of dispersion]]
-:Added   [[Conway notation (knot theory)]]
-:Added   [[D function]]
-:Added   [[Doléans-Dade exponential]]
-:Added   [[Grubbs' test for outliers]]
-:Added   [[X Plus-Minus (or X±)]]
-----
-: Mathematicians:added   [[Richard Meyer (mathematician)]]
 

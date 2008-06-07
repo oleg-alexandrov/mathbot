@@ -608,6 +608,7 @@ Arne Beurling
 Arne Meurman
 Arnold Ross
 Arnold Schönhage
+Arthur Byron Coble
 Arthur Erdélyi
 Arthur Herbert Copeland
 Arthur Jaffe
@@ -1749,7 +1750,6 @@ Charles F. Van Loan
 Chris Hall (cryptographer)
 Clarence Abiathar Waldo
 Claudia Zaslavsky
-Constance Reid
 Dave Bayer
 David B. Hertz
 David Blackwell
@@ -2338,6 +2338,7 @@ Richard von Mises
 Walther Mayer
 Wilhelm Blaschke
 Lotfi Asker Zadeh
+Vagif Guliyev
 Adolphe Quetelet
 Edouard Zeckendorf
 Jean-Charles de la Faille
@@ -3322,6 +3323,9 @@ Bruno Abakanowicz
 Marcin Odlanicki Poczobutt
 Viktoras Biržiška
 Hassan Ugail
+Nachman Aronszajn
+Robert G. Bartle
+Yaroslav Lopatynsky
 Charles Parsons (philosopher)
 Evert Willem Beth
 George Boolos
@@ -3431,7 +3435,6 @@ Matt Visser
 Michael D. Morley
 Michio Kuga
 Milan Kolibiar
-Nachman Aronszajn
 Naum Z. Shor
 Nigel Weiss
 Nikola Obreshkov
@@ -3456,7 +3459,6 @@ Rick Norwood
 Rob Eastaway
 Robert Charles Vaughan (mathematician)
 Robert Feys
-Robert G. Bartle
 Ruth Aaronson Bari
 S. L. Woronowicz
 Samuel Yates
@@ -3495,6 +3497,7 @@ Bjorn Poonen
 Christian Pommerenke
 Danica McKellar
 Eugene Salamin
+Hans Samelson
 Herman March
 John Oommen
 John William Colenso
@@ -3638,7 +3641,6 @@ Vladimir Andreevich Markov
 Vladimir Levenshtein
 Vladimir Petryshin
 Vladimir Steklov
-Yaroslav Lopatynsky
 Yevgraf Fyodorov
 Yuri Valentinovich Nesterenko
 Yury Osipov
@@ -3738,6 +3740,7 @@ Viggo Stoltenberg-Hansen
 Åke Pleijel
 Carl Charlier
 Carl O. Nordling
+Charles Labelye
 Johann Baptist Cysat
 Joseph Ludwig Raabe
 Julius Richard Büchi

@@ -5,7 +5,6 @@
 (p,q) shuffle
 *-algebra
 *-autonomous category
--illion
 -yllion
 /dev/zero
 0 (number)
@@ -415,7 +414,6 @@ A priori probability
 A* search algorithm
 A-equivalence
 A-group
-A-infinity operad
 A-paracompact space
 AA postulate
 ABC@Home
@@ -431,6 +429,7 @@ ANOVA-simultaneous component analysis
 AP Calculus
 AP Statistics
 APMonitor
+ARGUS distribution
 ASSA AIDS model
 AUSM
 AUTODYN
@@ -1201,6 +1200,7 @@ Ax–Kochen theorem
 Azuma's inequality
 Azumaya algebra
 A¹ homotopy theory
+A∞-operad
 B* search algorithm
 B*-algebra
 B,C,K,W system
@@ -1750,6 +1750,7 @@ Borel's lemma
 Borel's paradox
 Borel-Cantelli lemma
 Borel-Moore homology
+Borel-Weil theorem
 Borell-Brascamp-Lieb inequality
 Borel–Bott–Weil theorem
 Borel–Carathéodory theorem
@@ -1874,7 +1875,7 @@ Broken diagonal
 Broken space diagonal
 Broken symmetry
 Brouwer fixed point theorem
-Brouwer-Heyting-Kolmogorov interpretation
+Brouwer–Heyting–Kolmogorov interpretation
 Browder-Minty theorem
 Brown's representability theorem
 Brown-Forsythe test
@@ -1927,6 +1928,7 @@ Burrows-Wheeler transform
 Bus bunching
 Busemann's theorem
 Business mathematics
+Business statistics
 Busy beaver
 Butson-type Hadamard matrix
 Butterfly curve
@@ -2332,7 +2334,6 @@ Character theory
 Character variety
 Characteristic (algebra)
 Characteristic class
-Characteristic equation
 Characteristic function
 Characteristic function (convex analysis)
 Characteristic function (probability theory)
@@ -2380,7 +2381,6 @@ Chern-Simons form
 Chern-Weil homomorphism
 Chern-Weil theory
 Chernoff bound
-Chernoff bounds
 Chernoff faces
 Chernoff's distribution
 Chernoff's inequality
@@ -2666,6 +2666,7 @@ Combinadic
 Combination
 Combinatorial class
 Combinatorial commutative algebra
+Combinatorial data analysis
 Combinatorial design
 Combinatorial enumeration
 Combinatorial explosion
@@ -3259,6 +3260,7 @@ Correlation function
 Correlation function (astronomy)
 Correlation function (quantum field theory)
 Correlation function (statistical mechanics)
+Correlation immunity
 Correlation integral
 Correlation ratio
 Correlation sum
@@ -4251,7 +4253,6 @@ Dynkin's lemma
 Dyscalculia
 E (mathematical constant)
 E-function
-E-infinity operad
 E6 (mathematics)
 E6 polytope
 E7 (mathematics)
@@ -4675,7 +4676,6 @@ Euler's theorem in geometry
 Euler's totient function
 Euler-Jacobi pseudoprime
 Euler-Maruyama method
-Euler-Rodrigues parameters
 Euler-Tricomi equation
 Eulerian number
 Eulerian path
@@ -4683,6 +4683,7 @@ Euler–Lagrange equation
 Euler–Maclaurin formula
 Euler–Mascheroni constant
 Euler–Poisson–Darboux equation
+Euler–Rodrigues parameters
 Eureka (magazine)
 European Congress of Mathematics
 European Journal of Combinatorics
@@ -4800,6 +4801,7 @@ Exsecant
 Ext functor
 Extended Euclidean algorithm
 Extended Newsvendor models
+Extended negative binomial distribution
 Extended real number line
 Extendible cardinal
 Extensible automorphism
@@ -4839,11 +4841,11 @@ Extreme value theorem
 Extreme value theory
 Eye of Horus
 Eötvös effect
+E∞-operad
 F-algebra
 F-coalgebra
 F-distribution
 F-divergence
-F-sigma set
 F-space
 F-test
 F-theory
@@ -4927,7 +4929,7 @@ Fatou-Bieberbach domain
 Fatou–Lebesgue theorem
 Faugère F4 algorithm
 Faulhaber's formula
-Faustmann's Formula
+Faustmann's formula
 Favard constant
 Favard operator
 Faà di Bruno's formula
@@ -5444,7 +5446,7 @@ Fuzzy transportation
 Fáry's theorem
 Følner sequence
 Fürer's algorithm
-G-delta set
+Fσ set
 G-networks
 G-structure
 G-test
@@ -5526,6 +5528,7 @@ Gauss-Manin connection
 Gaussian binomial
 Gaussian curvature
 Gaussian elimination
+Gaussian free field
 Gaussian function
 Gaussian integer
 Gaussian integral
@@ -5662,6 +5665,7 @@ Geometric Brownian motion
 Geometric algebra
 Geometric analysis
 Geometric continuity
+Geometric data analysis
 Geometric distribution
 Geometric flow
 Geometric function theory
@@ -5717,8 +5721,8 @@ Gibbs' phase rule
 Gibbs-Helmholtz equation
 Gift wrapping algorithm
 Gigantic prime
-Gilbert-Johnson-Keerthi distance algorithm
 Gilbert-Varshamov bound
+Gilbert–Johnson–Keerthi distance algorithm
 Gilbreath's conjecture
 Gillespie algorithm
 Gimel function
@@ -6063,6 +6067,7 @@ Gödel's incompleteness theorems
 Gödel, Escher, Bach
 Gödel–Gentzen negative translation
 Gömböc
+Gδ set
 H relation
 H tree
 H-cobordism
@@ -6167,9 +6172,9 @@ Hardy notation
 Hardy space
 Hardy's inequality
 Hardy's theorem
-Hardy-Littlewood circle method
 Hardy-Littlewood maximal function
 Hardy-Weinberg principle
+Hardy–Littlewood circle method
 Hardy–Ramanujan theorem
 Harish-Chandra Research Institute
 Harish-Chandra character
@@ -6646,6 +6651,7 @@ Horseshoe lemma
 Horseshoe map
 Hosohedron
 Hosoya index
+Hosoya's triangle
 Hotelling's T-square distribution
 Hotelling's lemma
 Hough function
@@ -7388,7 +7394,7 @@ Johnson bound
 Johnson circles
 Johnson solid
 Johnson's algorithm
-Johnson-Lindenstrauss lemma
+Johnson–Lindenstrauss lemma
 Johnston diagram
 Join (mathematics)
 Join (topology)
@@ -10150,6 +10156,7 @@ Order (ring theory)
 Order dimension
 Order isomorphism
 Order of a kernel
+Order of integration (calculus)
 Order of magnitude
 Order of operations
 Order statistic
@@ -12591,8 +12598,6 @@ Section (group theory)
 Section (mathematics)
 Section modulus
 Sectional curvature
-Secular equation
-Secular function
 Secular variation
 Sedenion
 Sedleian Professor of Natural Philosophy
@@ -12714,7 +12719,7 @@ Septemvigesimal
 Septenary
 Sequence
 Sequence space
-Sequence transformations
+Sequence transformation
 Sequent
 Sequent calculus
 Sequential analysis
@@ -13869,6 +13874,7 @@ Symbolic dynamics
 Symbolic integration
 Symbolic logic
 Symbolic method
+Symbolic music
 Symmedian
 Symmetric algebra
 Symmetric bilinear form
