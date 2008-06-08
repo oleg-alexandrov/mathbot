@@ -188,7 +188,7 @@ sub format_link {
   $link = lc($link);
 
   # some pages on Wikipedia are named differently than on PM, so links need to be changed
-  open (FILE, "<Mapped_links.txt");
+  open (FILE, "<User:mathbot/Mapped_links.txt");
   foreach (split ("\n", <FILE>)){
     next if (/^\s*$/ || /^\#/); # ignore comments and empty lines
     if (/^\s*($link)\s*--\s*(.*?)\s*$/i){
