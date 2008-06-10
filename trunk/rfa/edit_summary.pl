@@ -170,9 +170,11 @@ sub post_edit_summary_on_talk_page{
   # fetch the edit count, and extract only the necessary info from there
   print "Getting $tool_url\n";
   #($edit_count_text, $error) = get_html ($tool_url);
-  $edit_count_text = `/usr/bin/w3m -dump \"$tool_url\"`;
+  #$edit_count_text = `/usr/bin/w3m -dump \"$tool_url\"`;
+  $edit_count_text = `/usr/bin/lynx -dump \"$tool_url\"`;
 
   # strip extra newlines
+  $edit_count_text =~ s/Based directly on these URLs.*?$//sg;
   $edit_count_text =~ s/[\t\r ]*\n/\n/g;
   $edit_count_text =~ s/\n\n\n+/\n\n/g;
 
