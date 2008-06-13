@@ -2,6 +2,96 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== June 12, 2008 ==
+
+:Removed [[Camassa-Holm equation]] (is a redirect to [[Camassa–Holm equation]])
+:Removed [[Induced homomorphism]] (is a redirect to [[Induced homomorphism (Category theory)]])
+:Removed [[Levy's conjecture]] (is a redirect to [[Lemoine's conjecture]])
+:Removed [[Toom-Cook multiplication]] (is a redirect to [[Toom–Cook multiplication]])
+:Added   [[Bethe lattice]]
+:Added   [[Camassa–Holm equation]]
+:Added   [[Grothendieck space]]
+:Added   [[History of quaternions]]
+:Added   [[Induced homomorphism (Category theory)]]
+:Added   [[Left inverse]]
+:Added   [[Lemoine's conjecture]]
+:Added   [[Rational dependence]]
+:Added   [[Recursive trees]]
+:Added   [[Right inverse]]
+:Added   [[Toom–Cook multiplication]]
+:Added   [[Unrooted tree path lengths]]
+:Added   [[Weakly compact]]
+----
+: Mathematicians:added   [[Joseph J. Kohn]]
+
+== June 11, 2008 ==
+
+:Removed [[Orthogonal array]] (is a redirect to [[Orthogonal array testing]])
+:Removed [[Point-free (disambiguation)]] (is a redirect to [[Point-free]])
+:Removed [[Spectrum analyzer]] 
+:Removed [[Yoshio Mikami]] (is in the [[list of mathematicians]])
+:Added   [[Center of curvature]]
+:Added   [[Complex differential equation]]
+:Added   [[Ehlers group]]
+:Added   [[Ergodic Ramsey theory]]
+:Added   [[Euler–Worpitzky–Chen polynomials]]
+:Added   [[GEH]]
+:Added   [[Information source]]
+:Added   [[Kinki University Mathematics Contest]]
+:Added   [[Markov information source]]
+:Added   [[Point-free]]
+:Added   [[Predictor-corrector method]]
+:Added   [[Spherical function]]
+:Added   [[Suzhou numerals]]
+:Added   [[Wieferich@Home]]
+----
+: Mathematicians:removed [[Harold A Linstone]] (is a redirect to [[Harold A. Linstone]])
+: Mathematicians:added   [[Harold A. Linstone]]
+: Mathematicians:added   [[Niels Erik Nörlund]]
+: Mathematicians:added   [[Yoshio Mikami]]
+
+== June 10, 2008 ==
+
+:Removed [[203 (number)]] (is a redirect to [[200 (number)]])
+:Removed [[679 (number)]] (is a redirect to [[600 (number)]])
+:Added   [[Hausman test]]
+:Added   [[James' theorem]]
+:Added   [[Pure type system]]
+:Added   [[Spectrum analyzer]]
+:Added   [[Yoshio Mikami]]
+----
+: Mathematicians:added   [[Karl Weissenberg]]
+: Mathematicians:added   [[Roger Evans Howe]]
+
+== June 9, 2008 ==
+
+:Removed [[Cross multiply]] (is a redirect to [[Cross-multiplication]])
+:Removed [[India at the IMO]] (is a redirect to [[India at the International Mathematical Olympiad]])
+:Added   [[Cross-multiplication]]
+:Added   [[India at the International Mathematical Olympiad]]
+----
+: Mathematicians:added   [[Harold A Linstone]]
+: Mathematicians:added   [[Mary W. Gray]]
+
+== June 8, 2008 ==
+
+:Removed [[Borel-Weil theorem]] (is a redirect to [[Borel–Weil theorem]])
+:Removed [[Liu Hui's Pi algorithm]] (is a redirect to [[Liu Hui's π algorithm]])
+:Added   [[Borel–Weil theorem]]
+:Added   [[Liu Hui's π algorithm]]
+----
+: Mathematicians:added   [[E. C. Rhodes]]
+
+== June 8, 2008 ==
+
+:Added   [[Liu Hui's Pi algorithm]]
+----
+: Mathematicians:removed [[Eiiris, K. Kagami]] 
+: Mathematicians:added   [[Arthur Byron Coble]]
+: Mathematicians:added   [[Charles Labelye]]
+: Mathematicians:added   [[Hans Samelson]]
+: Mathematicians:added   [[Vagif Guliyev]]
+
 == June 7, 2008 ==
 
 :Removed [[-illion]] 
@@ -756,103 +846,4 @@
 :Added   [[Steiner inellipse]]
 :Added   [[Supercompact space]]
 ----
-
-== April 29, 2008 ==
-
-:Removed [[Biquinary]] (is a redirect to [[Bi-quinary coded decimal]])
-:Removed [[Supercompact space]] (is a redirect to [[Compact Spaces *]])
-:Removed [[Weighted covariance matrix]] (is a redirect to [[Sample mean and sample covariance]])
-:Removed [[Weighted sample]] (is a redirect to [[Sample mean and sample covariance]])
-:Added   [[ABC@Home]]
-:Added   [[Beltrami identity]]
-:Added   [[Breusch–Godfrey test]]
-:Added   [[Compact Spaces *]]
-:Added   [[Engineering Mathematics through applications]]
-:Added   [[Hunter–Saxton equation]]
-:Added   [[Interpretation (model theory)]]
-:Added   [[Mathi (numerical system)]]
-----
-: Mathematicians:removed [[Haizhong Zhou]] (is a redirect to [[Hai-Zhong Zhou]])
-
-== April 28, 2008 ==
-
-:Removed [[∫]] (is a redirect to [[Integral symbol]])
-:Added   [[Integral symbol]]
-:Added   [[Overlap-save method]]
-----
-: Mathematicians:added   [[Hai-Zhong Zhou]]
-: Mathematicians:added   [[Klaus Wagner (mathematician)]]
-: Mathematicians:added   [[Ludwig Maurer]]
-
-== April 27, 2008 ==
-
-:Removed [[Generic antecedent]] 
-:Added   [[Calculus Made Easy]]
-:Added   [[Configuration (geometry)]]
-:Added   [[Displacement (vector)]]
-:Added   [[Eccentricity vector]]
-:Added   [[Hyper-Graeco-Latin square design]]
-:Added   [[India at the IMO]]
-:Added   [[Indian National Mathematics Olympiad]]
-:Added   [[International Mathematical Olympiad Training Camp]]
-:Added   [[Invariant factorization of LPDOs]]
-:Added   [[Langford pairing]]
-:Added   [[Laplace invariant]]
-:Added   [[Motion vector]]
-:Added   [[Orbital state vectors]]
-:Added   [[Poynting vector]]
-:Added   [[Regional Mathematical Olympiad]]
-:Added   [[Variable rules analysis]]
-:Added   [[Wave vector]]
-:Added   [[Weyl-Berry conjecture]]
-----
-: Mathematicians:removed [[Hugh Everett]] (is a redirect to [[Hugh Everett III]])
-: Mathematicians:added   [[Charles Méray]]
-: Mathematicians:added   [[Haizhong Zhou]]
-: Mathematicians:added   [[Hugh Everett III]]
-: Mathematicians:added   [[Jules Hoüel]]
-: Mathematicians:added   [[Sy Friedman]]
-: Mathematicians:added   [[William Mitchinson Hicks]]
-
-== April 26, 2008 ==
-
-:Removed [[Dead beat]] (is a redirect to [[Deadbeat]])
-:Removed [[Generic antecedents]] (is a redirect to [[Generic antecedent]])
-:Removed [[Magic hypercubes]] (is a redirect to [[Magic hypercube]])
-:Removed [[Substitution principle (mathematics)]] (is a redirect to [[Substitution of variables]])
-:Removed [[Weyl-Berry conjecture]] (is a redirect to [[Weyl-Berry_conjecture]])
-:Added   [[Dead beat control]]
-:Added   [[Generic antecedent]]
-----
-: Mathematicians:added   [[Aron Simis]]
-: Mathematicians:added   [[Eiiris, K. Kagami]]
-
-== April 25, 2008 ==
-
-:Removed [[FitzHugh-Nagumo model]] (is a redirect to [[FitzHugh–Nagumo model]])
-:Removed [[Hodgkin-Huxley model]] (is a redirect to [[Hodgkin–Huxley model]])
-:Removed [[Permille]] (is a redirect to [[Per mil]])
-:Added   [[Clique cover]]
-:Added   [[FitzHugh–Nagumo model]]
-:Added   [[Generic antecedents]]
-:Added   [[Hodgkin–Huxley model]]
-:Added   [[Per mil]]
-:Added   [[Quantum random walk]]
-:Added   [[Ridders' method]]
-----
-: Mathematicians:added   [[Menachem Magidor]]
-
-== April 24, 2008 ==
-
-:Removed [[Fuzzy math]] (is a redirect to [[Fuzzy mathematics]])
-:Removed [[Go complexity]] (is a redirect to [[Go and mathematics]])
-:Removed [[Quantifier variability effect]] (is a redirect to [[Quantificational variability effect]])
-:Removed [[X Plus-Minus (or X±)]] (is a redirect to [[X Plus-Minus]])
-:Added   [[Go and mathematics]]
-:Added   [[Incommensurable magnitudes]]
-:Added   [[Polar sine]]
-:Added   [[Quantificational variability effect]]
-:Added   [[Single-entry matrix]]
-----
-: Mathematicians:added   [[Orazio Grassi]]
 

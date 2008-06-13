@@ -48,6 +48,7 @@
 [[:Category:Applied mathematics stubs|Applied mathematics stubs]] -- 
 [[:Category:Applied probability|Applied probability]] -- 
 [[:Category:Approximation theory|Approximation theory]] -- 
+[[:Category:Arbelos|Arbelos]] -- 
 [[:Category:Arbitrary precision algorithms|Arbitrary precision algorithms]] --  
 [[:Category:Archimedean solids|Archimedean solids]] -- 
 [[:Category:Arithmetic|Arithmetic]] -- 
@@ -88,6 +89,7 @@
 [[:Category:Calculus of variations|Calculus of variations]] -- 
 [[:Category:Cardinal numbers|Cardinal numbers]] -- 
 [[:Category:Catalan solids|Catalan solids]] -- 
+[[:Category:Categorical data|Categorical data]] -- 
 [[:Category:Categorical logic|Categorical logic]] -- 
 [[:Category:Category theory|Category theory]] -- 
 [[:Category:Category theory stubs|Category theory stubs]] -- 
@@ -115,6 +117,7 @@
 [[:Category:Combinatory logic|Combinatory logic]] --  
 [[:Category:Commutative algebra|Commutative algebra]] -- 
 [[:Category:Compactness (mathematics)|Compactness (mathematics)]] -- 
+[[:Category:Compactness theorems|Compactness theorems]] -- 
 [[:Category:Complex analysis|Complex analysis]] -- 
 [[:Category:Complex manifolds|Complex manifolds]] -- 
 [[:Category:Complex numbers|Complex numbers]] -- 
@@ -141,6 +144,7 @@
 [[:Category:Coordinate systems|Coordinate systems]] -- 
 [[:Category:Coordinate systems in differential geometry|Coordinate systems in differential geometry]] -- 
 [[:Category:Covariance and correlation|Covariance and correlation]] -- 
+[[:Category:Covering lemmas|Covering lemmas]] --  
 [[:Category:Curvature (mathematics)|Curvature (mathematics)]] -- 
 [[:Category:Curves|Curves]] --
 [[:Category:Cyclotomic fields|Cyclotomic fields]] -- 
@@ -240,6 +244,7 @@
 === G ===
 
 [[:Category:Galois theory|Galois theory]] -- 
+[[:Category:Games (probability)|Games (probability)]] -- 
 [[:Category:Gamma and related functions|Gamma and related functions]] -- 
 [[:Category:General topology|General topology]] -- 
 [[:Category:Generalized functions|Generalized functions]] -- 
@@ -504,6 +509,7 @@
 [[:Category:Pi|Pi]] -- 
 [[:Category:Pi algorithms|Pi algorithms]] -- 
 [[:Category:Platonic solids|Platonic solids]] -- 
+[[:Category:Point processes|Point processes]] -- 
 [[:Category:Poker probability|Poker probability]] -- 
 [[:Category:Polish mathematics|Polish mathematics]] -- 
 [[:Category:Polychora|Polychora]] -- 
@@ -574,6 +580,7 @@
 [[:Category:Ring theory|Ring theory]] -- 
 [[:Category:Roman mathematics|Roman mathematics]] --  
 [[:Category:Root-finding algorithms|Root-finding algorithms]] --
+[[:Category:Runge–Kutta methods|Runge–Kutta methods]] -- 
 
 === S ===
 
@@ -638,6 +645,7 @@
 [[:Category:Symplectic geometry|Symplectic geometry]] -- 
 [[:Category:Symplectic topology|Symplectic topology]] --
 [[:Category:Systems of formal logic|Systems of formal logic]] -- 
+[[:Category:Systems of probability distributions|Systems of probability distributions]] -- 
 [[:Category:Systems of set theory|Systems of set theory]] --
 
 === T ===
@@ -666,6 +674,8 @@
 [[:Category:Traditional mathematics|Traditional mathematics]] -- 
 [[:Category:Transcendental numbers|Transcendental numbers]] -- 
 [[:Category:Transforms|Transforms]] -- 
+[[:Category:Trees (graph theory)|Trees (graph theory)]] -- 
+[[:Category:Trees (set theory)|Trees (set theory)]] --  
 [[:Category:Triangle geometry|Triangle geometry]] -- 
 [[:Category:Triangles|Triangles]] -- 
 [[:Category:Triangles of numbers|Triangles of numbers]] -- 
