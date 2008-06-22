@@ -6,4 +6,4 @@ from ~/public_html/wp/modules/WWW/Mediawiki
 
 point to here.
 
-Some of the actively runnin bots, like pmstat, edit_summary, etc., count on that.
+Some of the actively running bots, like pmstat, edit_summary, etc., count on that.
