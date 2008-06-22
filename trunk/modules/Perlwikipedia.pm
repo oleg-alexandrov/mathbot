@@ -311,8 +311,6 @@ sub get_text {
 	my $recurse  = shift || 0;
 	my $dontescape=shift || 0;
 
-       print "Now in get_text!!!\n";
-
 	my $wikitext = '';
 	my $res;
 
