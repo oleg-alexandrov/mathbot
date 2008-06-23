@@ -8,7 +8,7 @@ Shift = 7;
 
 L = max(S, 2*r+R+Shift);
 
-N = 40;
+N = 30;
 
 L = max(Shift + 2*r+R, S);
 X = linspace(-L, L, N);
@@ -76,11 +76,13 @@ set(H, 'SpecularExponent', 108);
 daspect([1 1 1]);
 axis tight;
 colormap(prism(28))
-view(-58, -36);
+view(-63, -46);
 %view(130, 46);
 
 camlight headlight;
 lighting phong
+
+print('-dpng',  '-zbuffer',  '-r100', 'Sphere_with_three_handles.png');
 
 %print('-dpng', '-r100',  ...
 %      sprintf('Sphere_one_handle.png'));
