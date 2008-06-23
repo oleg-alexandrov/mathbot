@@ -1,5 +1,4 @@
-   N = 60;
-   disp(sprintf('Doing %d', N));
+   N = 40; % make 100 or so for good picture
 
    S = 6.0; % sphere radius
 
