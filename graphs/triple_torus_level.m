@@ -1,14 +1,16 @@
 function main()
 
+  % illustration of a triple torus
+   
    % torus radii 
-   r = 1.1;
+   r = 1;
    R = 3;
    
    Kb = R+r;
    Ks = R-r;
 
    % Km controls the smoothness of the transition from one ring to the others
-   Km = 0.49*Kb;
+   Km = 0.5125*Kb;
 
    L = 2.5*(r+R);
 
@@ -49,10 +51,10 @@ function main()
    daspect([1 1 1]);
    axis tight;
    colormap(prism(28))
-   view(71, 38);
-   
-   camlight headlight;
-   lighting phong
+   view(-12, 40);
+
+   % add in a source of light
+   camlight (-50, 54); lighting phong;
 
    print('-dpng', '-r400',  ...
          sprintf('Triple_torus_illustration.png'));
