@@ -9,7 +9,7 @@ function main()
    
    Kb = R+r;
   
-   h = 0.2; % h is the grid size. Smaller h means prettier picture.
+   h = 0.1; % h is the grid size. Smaller h means prettier picture.
    
    X = (-Kb-h):h:(3*Kb+h); m = length(X);
    Y = (-Kb-h):h:(Kb+h);   n = length(Y);
@@ -49,7 +49,7 @@ function main()
    camlight (-50, 54); lighting phong;
 
 % save as png
-%  print('-dpng', '-r300', sprintf('Double_torus_illustration_N%d.png', N));
+  print('-dpng', '-r500', sprintf('Double_torus_illustration.png'));
    
 % This function constructs the second ring in the double torus
 % by mapping from the first one.
