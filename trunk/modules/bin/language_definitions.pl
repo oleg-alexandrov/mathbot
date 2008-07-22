@@ -18,6 +18,7 @@ sub language_definitions {
     $Dictionary{'Category'}    = 'Category';
     $Dictionary{'WikiProject'} = 'WikiProject';
     $Dictionary{'WP'}          = 'WP';  # abbreviations of the word 'Wikipedia' and 'WikiProject'
+    $Dictionary{'Credentials'} = '/home/oleg/api.credentials';
   }
 
   return %Dictionary;
