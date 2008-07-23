@@ -48,7 +48,7 @@ sub fetch_articles_cats {
   my ($cat, $cats, $articles, $results, $result, $catNS);
   my ($cont_tag, $old_cont_tag, $max_failures, $count_attempts, $sleep, $max_no);
 
-  &check_watchdog_file();
+  #&check_watchdog_file();
   &prepare_api(); 
 
   my $delay = time();
@@ -119,7 +119,7 @@ sub fetch_content {
   my $data = {};
   my $delay = time();
 
-  &check_watchdog_file();
+  #&check_watchdog_file();
 
   foreach $page ( @$list ) {
     push @$tmp, encode("utf8",$page);
