@@ -1,4 +1,4 @@
-# $Id: Simple.pm,v 1.34 2006/10/30 08:28:13 grantm Exp $
+# $Id: Simple.pm,v 1.40 2007/08/15 10:36:48 grantm Exp $
 
 package XML::Simple;
 
@@ -53,7 +53,7 @@ use vars qw($VERSION @ISA @EXPORT @EXPORT_OK $PREFERRED_PARSER);
 @ISA               = qw(Exporter);
 @EXPORT            = qw(XMLin XMLout);
 @EXPORT_OK         = qw(xml_in xml_out);
-$VERSION           = '2.16';
+$VERSION           = '2.18';
 $PREFERRED_PARSER  = undef;
 
 my $StrictMode     = 0;
@@ -90,14 +90,14 @@ my %MemCopyCache   = ();
 #
 
 sub import {
-
   # Handle the :strict tag
   
   $StrictMode = 1 if grep(/^:strict$/, @_);
 
   # Pass everything else to Exporter.pm
 
-  __PACKAGE__->export_to_level(1, grep(!/^:strict$/, @_));
+  @_ = grep(!/^:strict$/, @_);
+  goto &Exporter::import;
 }
 
 
@@ -148,6 +148,7 @@ sub _get_object {
   return $self;
 }
 
+
 ##############################################################################
 # Sub/Method: XMLin()
 #
@@ -162,88 +163,158 @@ sub _get_object {
 sub XMLin {
   my $self = &_get_object;      # note, @_ is passed implicitly
 
-  my $string = shift;
+  my $target = shift;
+
+
+  # Work out whether to parse a string, a file or a filehandle
+
+  if(not defined $target) {
+    return $self->parse_file(undef, @_);
+  }
+
+  elsif($target eq '-') {
+    local($/) = undef;
+    $target = <STDIN>;
+    return $self->parse_string(\$target, @_);
+  }
+
+  elsif(my $type = ref($target)) {
+    if($type eq 'SCALAR') {
+      return $self->parse_string($target, @_);
+    }
+    else {
+      return $self->parse_fh($target, @_);
+    }
+  }
+
+  elsif($target =~ m{<.*?>}s) {
+    return $self->parse_string(\$target, @_);
+  }
+
+  else {
+    return $self->parse_file($target, @_);
+  }
+}
+
+
+##############################################################################
+# Sub/Method: parse_file()
+#
+# Same as XMLin, but only parses from a named file.
+#
+
+sub parse_file {
+  my $self = &_get_object;      # note, @_ is passed implicitly
+
+  my $filename = shift;
 
   $self->handle_options('in', @_);
 
+  $filename = $self->default_config_file if not defined $filename;
 
-  # If no XML or filename supplied, look for scriptname.xml in script directory
+  $filename = $self->find_xml_file($filename, @{$self->{opt}->{searchpath}});
 
-  unless(defined($string))  {
-    
-    # Translate scriptname[.suffix] to scriptname.xml
+  # Check cache for previous parse
 
-    require File::Basename;
-
-    my($ScriptName, $ScriptDir, $Extension) =
-      File::Basename::fileparse($0, '\.[^\.]+');
-
-    $string = $ScriptName . '.xml';
-
-
-    # Add script directory to searchpath
-    
-    if($ScriptDir) {
-      unshift(@{$self->{opt}->{searchpath}}, $ScriptDir);
-    }
-  }
-  
-
-  # Are we parsing from a file?  If so, is there a valid cache available?
-
-  my($filename, $scheme);
-  unless($string =~ m{<.*?>}s  or  ref($string)  or  $string eq '-') {
-
-    require File::Basename;
-    require File::Spec;
-
-    $filename = $self->find_xml_file($string, @{$self->{opt}->{searchpath}});
-
-    if($self->{opt}->{cache}) {
-      foreach $scheme (@{$self->{opt}->{cache}}) {
-        my $method = 'cache_read_' . $scheme;
-        my $opt = $self->$method($filename);
-        return($opt) if($opt);
-      }
-    }
-  }
-  else {
-    delete($self->{opt}->{cache});
-    if($string eq '-') {
-      # Read from standard input
-
-      local($/) = undef;
-      $string = <STDIN>;
+  if($self->{opt}->{cache}) {
+    foreach my $scheme (@{$self->{opt}->{cache}}) {
+      my $method = 'cache_read_' . $scheme;
+      my $opt = $self->$method($filename);
+      return($opt) if($opt);
     }
   }
 
-
-  # Parsing is required, so let's get on with it
-
-  my $tree =  $self->build_tree($filename, ref($string) ? $string : \$string);
-  undef($string);
-
-  # Now work some magic on the resulting parse tree
-
-  my($ref);
-  if($self->{opt}->{keeproot}) {
-    $ref = $self->collapse({}, @$tree);
-  }
-  else {
-    $ref = $self->collapse(@{$tree->[1]});
-  }
+  my $ref = $self->build_simple_tree($filename, undef);
 
   if($self->{opt}->{cache}) {
     my $method = 'cache_write_' . $self->{opt}->{cache}->[0];
     $self->$method($ref, $filename);
   }
 
-  return($ref);
+  return $ref;
 }
 
 
 ##############################################################################
-#Method: build_tree()
+# Sub/Method: parse_fh()
+#
+# Same as XMLin, but only parses from a filehandle.
+#
+
+sub parse_fh {
+  my $self = &_get_object;      # note, @_ is passed implicitly
+
+  my $fh = shift;
+  croak "Can't use " . (defined $fh ? qq{string ("$fh")} : 'undef') .
+        " as a filehandle" unless ref $fh;
+
+  $self->handle_options('in', @_);
+
+  return $self->build_simple_tree(undef, $fh);
+}
+
+
+##############################################################################
+# Sub/Method: parse_string()
+#
+# Same as XMLin, but only parses from a string or a reference to a string.
+#
+
+sub parse_string {
+  my $self = &_get_object;      # note, @_ is passed implicitly
+
+  my $string = shift;
+
+  $self->handle_options('in', @_);
+
+  return $self->build_simple_tree(undef, ref $string ? $string : \$string);
+}
+
+
+##############################################################################
+# Method: default_config_file()
+#
+# Returns the name of the XML file to parse if no filename (or XML string) 
+# was provided.
+#
+
+sub default_config_file {
+  my $self = shift;
+
+  require File::Basename;
+
+  my($basename, $script_dir, $ext) = File::Basename::fileparse($0, '\.[^\.]+');
+
+  # Add script directory to searchpath
+  
+  if($script_dir) {
+    unshift(@{$self->{opt}->{searchpath}}, $script_dir);
+  }
+
+  return $basename . '.xml';
+}
+
+
+##############################################################################
+# Method: build_simple_tree()
+#
+# Builds a 'tree' data structure as provided by XML::Parser and then 
+# 'simplifies' it as specified by the various options in effect.
+#
+
+sub build_simple_tree {
+  my $self = shift;
+
+  my $tree = $self->build_tree(@_);
+
+  return $self->{opt}->{keeproot}
+         ? $self->collapse({}, @$tree)
+         : $self->collapse(@{$tree->[1]});
+}
+
+
+##############################################################################
+# Method: build_tree()
 #
 # This routine will be called if there is no suitable pre-parsed tree in a
 # cache.  It parses the XML and returns an XML::Parser 'Tree' style data
@@ -253,7 +324,7 @@ sub XMLin {
 # XML.  If XML::SAX is installed, the default SAX parser will be used,
 # otherwise XML::Parser will be used.
 #
-# This routine expects to be passed a 'string' as argument 1 or a filename as
+# This routine expects to be passed a filename as argument 1 or a 'string' as
 # argument 2.  The 'string' might be a string of XML (passed by reference to
 # save memory) or it might be a reference to an IO::Handle.  (This
 # non-intuitive mess results in part from the way XML::Parser works but that's
@@ -846,8 +917,10 @@ sub find_xml_file  {
   my @search_path = @_;
 
 
-  my($filename, $filedir) =
-    File::Basename::fileparse($file);
+  require File::Basename;
+  require File::Spec;
+
+  my($filename, $filedir) = File::Basename::fileparse($file);
 
   if($filename ne $file) {        # Ignore searchpath if dir component
     return($file) if(-e $file);
@@ -1160,23 +1233,19 @@ sub array_to_hash {
       ) {
         $val = $arrayref->[$i]->{$key};
         if(ref($val)) {
-          if($StrictMode) {
-            croak "<$name> element has non-scalar '$key' key attribute";
-          }
-          if($^W) {
-            carp "Warning: <$name> element has non-scalar '$key' key attribute";
-          }
+          $self->die_or_warn("<$name> element has non-scalar '$key' key attribute");
           return($arrayref);
         }
         $val = $self->normalise_space($val)
           if($self->{opt}->{normalisespace} == 1);
+        $self->die_or_warn("<$name> element has non-unique value in '$key' key attribute: $val")
+          if(exists($hashref->{$val}));
         $hashref->{$val} = { %{$arrayref->[$i]} };
         $hashref->{$val}->{"-$key"} = $hashref->{$val}->{$key} if($flag eq '-');
         delete $hashref->{$val}->{$key} unless($flag eq '+');
       }
       else {
-        croak "<$name> element has no '$key' key attribute" if($StrictMode);
-        carp "Warning: <$name> element has no '$key' key attribute" if($^W);
+        $self->die_or_warn("<$name> element has no '$key' key attribute");
         return($arrayref);
       }
     }
@@ -1186,15 +1255,24 @@ sub array_to_hash {
   # Or assume keyattr => [ .... ]
 
   else {
+    my $default_keys =
+      join(',', @DefKeyAttr) eq join(',', @{$self->{opt}->{keyattr}});
+
     ELEMENT: for($i = 0; $i < @$arrayref; $i++)  {
       return($arrayref) unless(UNIVERSAL::isa($arrayref->[$i], 'HASH'));
 
       foreach $key (@{$self->{opt}->{keyattr}}) {
         if(defined($arrayref->[$i]->{$key}))  {
           $val = $arrayref->[$i]->{$key};
-          return($arrayref) if(ref($val));
+          if(ref($val)) {
+            $self->die_or_warn("<$name> element has non-scalar '$key' key attribute")
+              if not $default_keys;
+            return($arrayref);
+          }
           $val = $self->normalise_space($val)
             if($self->{opt}->{normalisespace} == 1);
+          $self->die_or_warn("<$name> element has non-unique value in '$key' key attribute: $val")
+            if(exists($hashref->{$val}));
           $hashref->{$val} = { %{$arrayref->[$i]} };
           delete $hashref->{$val}->{$key};
           next ELEMENT;
@@ -1212,6 +1290,25 @@ sub array_to_hash {
   }
  
   return($hashref);
+}
+
+
+##############################################################################
+# Method: die_or_warn()
+#
+# Takes a diagnostic message and does one of three things:
+# 1. dies if strict mode is enabled
+# 2. warns if warnings are enabled but strict mode is not
+# 3. ignores message and resturns silently if neither strict mode nor warnings
+#    are enabled
+# 
+
+sub die_or_warn {
+  my $self = shift;
+  my $msg  = shift;
+
+  croak $msg if($StrictMode);
+  carp "Warning: $msg" if($^W);
 }
 
 
@@ -2662,14 +2759,108 @@ You can also specify options when you make the method calls and these values
 will be merged with the values specified when the object was created.  Values
 specified in a method call take precedence.
 
-Overriding methods is a more advanced topic but might be useful if for example
-you wished to provide an alternative routine for escaping character data (the
-escape_value method) or for building the initial parse tree (the build_tree
-method).
-
 Note: when called as methods, the C<XMLin()> and C<XMLout()> routines may be
 called as C<xml_in()> or C<xml_out()>.  The method names are aliased so the
 only difference is the aesthetics.
+
+=head2 Parsing Methods
+
+You can explicitly call one of the following methods rather than rely on the
+C<xml_in()> method automatically determining whether the target to be parsed is
+a string, a file or a filehandle:
+
+=over 4
+
+=item parse_string(text)
+
+Works exactly like the C<xml_in()> method but assumes the first argument is
+a string of XML (or a reference to a scalar containing a string of XML).
+
+=item parse_file(filename)
+
+Works exactly like the C<xml_in()> method but assumes the first argument is
+the name of a file containing XML.
+
+=item parse_fh(file_handle)
+
+Works exactly like the C<xml_in()> method but assumes the first argument is
+a filehandle which can be read to get XML.
+
+=back
+
+=head2 Hook Methods
+
+You can make your own class which inherits from XML::Simple and overrides
+certain behaviours.  The following methods may provide useful 'hooks' upon
+which to hang your modified behaviour.  You may find other undocumented methods
+by examining the source, but those may be subject to change in future releases.
+
+=over 4
+
+=item handle_options(direction, name => value ...)
+
+This method will be called when one of the parsing methods or the C<XMLout()>
+method is called.  The initial argument will be a string (either 'in' or 'out')
+and the remaining arguments will be name value pairs.
+
+=item default_config_file()
+
+Calculates and returns the name of the file which should be parsed if no
+filename is passed to C<XMLin()> (default: C<$0.xml>).
+
+=item build_simple_tree(filename, string)
+
+Called from C<XMLin()> or any of the parsing methods.  Takes either a file name
+as the first argument or C<undef> followed by a 'string' as the second
+argument.  Returns a simple tree data structure.  You could override this
+method to apply your own transformations before the data structure is returned
+to the caller.
+
+=item new_hashref()
+
+When the 'simple tree' data structure is being built, this method will be
+called to create any required anonymous hashrefs.
+
+=item sorted_keys(name, hashref)
+
+Called when C<XMLout()> is translating a hashref to XML.  This routine returns
+a list of hash keys in the order that the corresponding attributes/elements
+should appear in the output.
+
+=item escape_value(string)
+
+Called from C<XMLout()>, takes a string and returns a copy of the string with
+XML character escaping rules applied.
+
+=item numeric_escape(string)
+
+Called from C<escape_value()>, to handle non-ASCII characters (depending on the
+value of the NumericEscape option).
+
+=item copy_hash(hashref, extra_key => value, ...)
+
+Called from C<XMLout()>, when 'unfolding' a hash of hashes into an array of
+hashes.  You might wish to override this method if you're using tied hashes and
+don't want them to get untied.
+
+=back
+
+=head2 Cache Methods
+
+XML::Simple implements three caching schemes ('storable', 'memshare' and
+'memcopy').  You can implement a custom caching scheme by implementing
+two methods - one for reading from the cache and one for writing to it.
+
+For example, you might implement a new 'dbm' scheme that stores cached data
+structures using the L<MLDBM> module.  First, you would add a
+C<cache_read_dbm()> method which accepted a filename for use as a lookup key
+and returned a data structure on success, or undef on failure.  Then, you would
+implement a C<cache_read_dbm()> method which accepted a data structure and a
+filename.
+
+You would use this caching scheme by specifying the option:
+
+  Cache => [ 'dbm' ]
 
 =head1 STRICT MODE
 
@@ -2702,6 +2893,12 @@ Data error - KeyAttr is set to say { part => 'partnum' } but the XML contains
 one or more E<lt>partE<gt> elements without a 'partnum' attribute (or nested
 element).  Note: if strict mode is not set but -w is, this condition triggers a
 warning.
+
+=item * 
+
+Data error - as above, but non-unique values are present in the key attribute
+(eg: more than one E<lt>partE<gt> element with the same partnum).  This will
+also trigger a warning if strict mode is not enabled.
 
 =item * 
 
