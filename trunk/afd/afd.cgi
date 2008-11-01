@@ -90,7 +90,7 @@ MAIN: {
   $utc_time=strftime("%H:%M, %B %d, %Y (UTC)", gmtime(time));
   $text =~ s/(\/afd\/afd\.cgi.*?\]).*?\n/$1 \(last update at $utc_time\)\n/;
 
-  $edit_summary="There are $num_disc open discusions in $num_days days." . $message;
+  $edit_summary="There are $num_disc open discusion(s) in $num_days day(s)." . $message;
   if ($num_disc > 200){
     $edit_summary = "Big Backlog: " . $edit_summary;
   }
