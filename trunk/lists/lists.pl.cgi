@@ -131,7 +131,7 @@ sub printout {
     
     
   } else {
-    $qA="== List updater == \nIn subsection A below, listed are articles which are missing from the [[$list]]. They were found by looking in the categories in subsection C. One can add more categories to be searched to subsection C, see some suggestions in subsection D. \n\nAll this process can be restarted by clicking on the link at the bottom of subsection D.\n\nPlease note that anything around here is editable, but please don't modify the lines of the form\n:<nowiki><!-- bottag:X:begin --></nowiki>\nor their order.\n\n=== A: Articles missing from the [[$list]] ===\n$AStart";
+    $qA="== List updater == \nIn subsection A below, listed are articles which are missing from the [[$list]]. They were found by looking in the categories in subsection C. One can add more categories to be searched to subsection C, see some suggestions in subsection D. \n\nAll this process can be restarted by clicking on the link at the bottom of subsection E.\n\nPlease note that anything around here is editable, but please don't modify the lines of the form\n:<nowiki><!-- bottag:X:begin --></nowiki>\nor their order.\n\n=== A: Articles missing from the [[$list]] ===\n$AStart";
     
 
     $qB = "$AEnd\n===B: Place here articles not wanted either in the [[$list]] or in subsection A. ===\n\n$BStart"; 
