@@ -27,10 +27,10 @@ MAIN: {
   my $cur_dir = $0; # $0 stands for the executable, with or without full path
   if ($cur_dir =~ /^\//){
     $cur_dir =~ s/^(.*)\/.*?$/$1/g;
-    print "Will go to $cur_dir\n";
+    #print "Will go to $cur_dir\n";
     chdir $cur_dir;
   }else{
-   print "Will stay in " . `pwd` . "\n"; 
+   #print "Will stay in " . `pwd` . "\n"; 
   }
   
   &wikipedia_login();
