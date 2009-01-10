@@ -17,8 +17,10 @@ sub identify_redlinks {
 
   @$bluelinks = ($text =~ /\<a\s+href=\"\/wiki\/[^\>\"]*?\"\s*title=\"([^\>\"]*?)\"/g);
 
+  # Careful here. The redlinks regexp should be pretty strict, otherwise it will have
+  # a huge number of false positives.
   @$redlinks =
-     ($text =~ /\<a\s+href=\"\/w\/index\.php\?title=[^\>\"]*?\&amp;action=edit\"\s*class=\"new\"\s*title=\"([^\>\"]*?)\"/g);
+     ($text =~ /\<a\s+href=\"\/w\/index\.php\?title=([^\<\>\"]*?)\&amp;action=edit\&amp;redlink=1\"/ig);
 
   foreach $link (@$bluelinks){
     $link = &rm_extra_html ($link);
@@ -26,6 +28,7 @@ sub identify_redlinks {
 
   foreach $link (@$redlinks){
     $link = &rm_extra_html ($link);
+    $link = &html_decode_string($link); # this is not necessary for bluelinks
   }
 
   print "Sleep 1\n"; sleep 1;
