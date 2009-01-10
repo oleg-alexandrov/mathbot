@@ -4,7 +4,8 @@ use CGI::Carp qw(fatalsToBrowser);
 use strict;
 undef $/; 
 
-use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # path to perl modules
+use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
+use lib '../wp/modules'; # relative path to perl modules
 require 'bin/wikipedia_fetch_submit.pl'; 
 require 'bin/wikipedia_login.pl';
 require 'bin/get_html.pl';
@@ -12,15 +13,6 @@ require 'bin/get_html.pl';
 # Summarize and list the recent Wikipedia articles for deletion
 
 MAIN: {
-
-#   my $archive_file = "Wikipedia:Archived deletion discussions.wiki";
-#   my $archive_text = &wikipedia_fetch($archive_file, 1, 1);
-#   my $successx;
-#   my $x;
-#   my $afd_text = &wikipedia_fetch("Wikipedia:Articles_for_deletion/Old.wiki", 1, 1);
-#   ($archive_text, $x, $successx) = &update_archived_discussions($archive_text,
-#                                                                        $afd_text);
-#   exit(0);
   
   # This line must be the first to print in a cgi script
   print "Content-type: text/html\n\n"; 
@@ -29,9 +21,18 @@ MAIN: {
 
   print "Please be patient, this script can take a minute or two "
      .  "if Wikipedia is slow ...<br><br>\n";
-  
-  chdir '/home/mathbot/public_html/wp/afd/'; # needed when running this from crontab
 
+  # If the full path to the script is known (such as when running this
+  # script from crontab), go to that directory first
+  my $cur_dir = $0;
+  if ($cur_dir =~ /^\//){
+    $cur_dir =~ s/^(.*)\/.*?$/$1/g;
+    print "Will go to $cur_dir\n";
+    chdir $cur_dir;
+  }else{
+   print "Will stay in " . `pwd` . "\n"; 
+  }
+  
   &wikipedia_login();
   
   my ($stats, $detailed_stats, $detailed_combined_stats);
