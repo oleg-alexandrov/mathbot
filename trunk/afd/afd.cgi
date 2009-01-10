@@ -13,7 +13,14 @@ require 'bin/get_html.pl';
 
 MAIN: {
 
-  #&add_archived_discussions();
+#   my $archive_file = "Wikipedia:Archived deletion discussions.wiki";
+#   my $archive_text = &wikipedia_fetch($archive_file, 1, 1);
+#   my $successx;
+#   my $x;
+#   my $afd_text = &wikipedia_fetch("Wikipedia:Articles_for_deletion/Old.wiki", 1, 1);
+#   ($archive_text, $x, $successx) = &update_archived_discussions($archive_text,
+#                                                                        $afd_text);
+#   exit(0);
   
   # This line must be the first to print in a cgi script
   print "Content-type: text/html\n\n"; 
@@ -44,7 +51,7 @@ MAIN: {
   my ($text, $edit_summary, $error);
   $text = &wikipedia_fetch($summary_file, $attempts, $sleep);
 
-  # add the discussion five days ago, if it is not already in $text
+  # add the discussion from five days ago, if it is not already in $text
   ($text, $edit_summary) = &add_another_day ($text);
 
   my @lines = split("\n", $text);
@@ -112,6 +119,17 @@ MAIN: {
   &wikipedia_submit($summary_file, $edit_summary, $combined_stats, $attempts, $sleep);
   &wikipedia_submit($detailed_file, $edit_summary, $detailed_combined_stats, $attempts, $sleep);
 
+  # Update the list of archived disucssions, the ones that are no longer at AfD/Old,
+  # which is the text in $combined_stats
+  my $archive_file = "Wikipedia:Archived deletion discussions.wiki";
+  my $archive_text = &wikipedia_fetch($archive_file, $attempts, $sleep);
+  my $success;
+  ($archive_text, $edit_summary, $success) = &update_archived_discussions($archive_text,
+                                                                       $combined_stats);
+  if ($success){
+    &wikipedia_submit($archive_file, $edit_summary, $archive_text, $attempts, $sleep);
+  }
+  
   print "<br>Finished! One may now go back to "
      . "<a href=\"http://en.wikipedia.org/w/index.php?title=Wikipedia:Articles_for_deletion/Old&action=purge\">" 
 	. "Wikipedia:Articles for deletion/Old</a>. <br>\n";
@@ -177,41 +195,64 @@ sub fmt_date {
   
 }
 
-sub add_archived_discussions {
+sub extract_links{
 
-  # Discussions older than five days that are no longer at Afd/Old are considered
-  # archived, and should be added to the page of archived discussions
-
-  my ($text, $curr_year, $prev_year);
+  # Extract links to afd discussions and put them into a hash
   
-  # Temporary
-  my $file = "archive.txt";
-  
-  open(FILE, "<$file"); $text = <FILE>; close(FILE);
+  my $text = shift;
+  my @links_arr
+     = ($text =~ /\[\[(Wikipedia:Articles for deletion\/Log\/\d+.*?)(?:\||\]\])/g);
 
+  my ($link, %links_hash);
+  foreach $link(@links_arr){
+    $links_hash{$link} = 1;
+  }
+
+  return %links_hash;
+}
+
+sub update_archived_discussions {
+
+  # Daily Afd pages that are at least six days old and that are no longer
+  # at Afd/Old (where they are closed) are considered archived, and
+  # should be added to the list of archived Afd pages.
+
+  my ($archived_text, $afd_text, $success, $curr_year, $prev_year);
+
+  $success = 0; # Not successful yet
+  
+  $archived_text = shift; # What is currently on the archived discussions page
+  $afd_text      = shift; # What is at AfD/Old, those things should not yet be archived
+
+  # Identify the discussions in AfD/Old, which won't be added to the archive
+  my %skip_archive = &extract_links($afd_text);
+  
   $curr_year = strftime("%Y", gmtime(time));
   $prev_year = $curr_year - 1;
   
-  if ($text !~ /==+\s*$curr_year\s*==+/){
+  if ($archived_text !~ /==+\s*$curr_year\s*==+/){
 
     # Add section for current year if missing
-    if ($text !~ /^(.*?)(==+\s*)$prev_year(\s*==+)(.*?)$/s){
-      return; # Prev year section is missing, don't know what to do
+    if ($archived_text !~ /^(.*?)(==+\s*)$prev_year(\s*==+)(.*?)$/s){
+      $success = 0; # failed
+      return ("", "", $success); # Prev year section is missing, don't know what to do
     }
 
     # Add current year above previous year
-    $text = $1 . $2 . $curr_year . $3 . "\n" . $2 . $prev_year . $3 . $4;
+    $archived_text = $1 . $2 . $curr_year . $3 . "\n" . $2 . $prev_year . $3 . $4;
   }
 
   # Any day in the current year up to six days ago is a candidate to be in the archive
-  my $start = 34;
-#  my $start = -6;
+  # (unless, again, that page is still at AfD/Old)
+  my $start = -6;
   my $stop  = -366;
   my $day;
 
-  my ($all_links, $afd_link, $prev_afd_link, $link_sans_day, $prev_link_sans_day);
+  my ($new_links, $afd_link, $prev_afd_link, $link_sans_day, $prev_link_sans_day);
+  my (@new_links_array);
 
-  $all_links     = "";
+  @new_links_array = ();
+  $new_links     = "";
   $prev_afd_link = "";
   
   # Add only the days from the current year to the archive.
@@ -221,6 +262,11 @@ sub add_archived_discussions {
 
     my ($afd_link, $brief_afd_link) = &get_afd_link($day);
 
+    # Pages which are still at Afd/Old should not be archived yet.
+    # Eventually after all discussions in such page are closed, the users will
+    # remove the page from AfD/Old, and then the bot will get its hand on it.
+    next if (exists $skip_archive{$afd_link});
+    
     next unless ($afd_link =~ /\/$curr_year/); # deal only with the current year
 
     # See if to add a section separating two months
@@ -235,21 +281,57 @@ sub add_archived_discussions {
        ){
 
       $link_sans_day =~ s/^(.*)\/(.*?)$/Deletion discussions\/$2/g;
-      $all_links = $all_links . "\n===$link_sans_day===\n\n";
+      $new_links = $new_links . "\n===$link_sans_day===\n\n";
 
       $first_day = 0; # First day passed
     }
     
-    $all_links = $all_links .  "* [[$afd_link]]\n";
-
+    $new_links = $new_links .  "* [[$afd_link]]\n";
+    push(@new_links_array, $afd_link);
+    
     # Prepare for the next loop
     $prev_afd_link = $afd_link;
   }
 
-  $text =~ s/(==+\s*$curr_year\s*==+\s*).*?(==+\s*$prev_year\s*==)/$1$all_links\n$2/g;
-  print "$text\n";
-  
-  exit(0);
+  # Before updating $archived_text, see what is there currently, so that
+  # we can see what changed and put that in the edit summary.
+  if ($archived_text !~
+      /^(.*?==+\s*$curr_year\s*==+)(.*?)(==+\s*$prev_year\s*==.*?)$/s) {
+    $success = 0; # failed
+    return ("", "", $success); # Prev year section is missing, don't know what to do
+  }
+
+  my $p1 = $1;
+  my $existing_text = $2;
+  my $p3 = $3;
+
+  # See what links are in @new_links_array and are not in %existing_links.
+  # Put those in the edit summary.
+  my %existing_links = &extract_links($existing_text);
+
+  my $edit_summary = "";
+  foreach $afd_link (@new_links_array){
+    if (!exists $existing_links{$afd_link}){
+      # This is a link which will be added to the archive now and which was
+      # not there before
+      $edit_summary = $edit_summary . "[[$afd_link]] ";
+    }
+  }
+
+  if ($edit_summary eq ""){
+    # Now new links were added now
+    $success = 0; # failed
+    return ("", "", $success);
+  }
+
+  # Replace in $archived_text the portion corresponding to the links for this year
+  # with $new_links which contains the newly archived links 
+  $archived_text = $p1 . "\n" . $new_links . "\n" . $p3;
+
+  $success = 1; # succeeded
+  $edit_summary = "Archiving " . $edit_summary;
+
+  return ($archived_text, $edit_summary, $success);
 }
 
 sub see_open_afd_discussions (){
