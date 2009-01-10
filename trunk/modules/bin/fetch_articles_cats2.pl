@@ -1,4 +1,3 @@
-use lib '/home/oleg/public_html/wp/modules';
 require Mediawiki::API;
 use HTML::Entities;
 
