@@ -1,0 +1,798 @@
+B* search algorithm
+B*-algebra
+B,C,K,W system
+B-spline
+BA model
+BBGKY hierarchy
+BCH code
+BCJR algorithm
+BCK algebra
+BCMP network
+BDDC
+BFGS method
+BIBO stability
+BK-space
+BKM algorithm
+BLOSUM
+BRST algorithm
+Ba space
+Babenko–Beckner inequality
+Babuška-Lax-Milgram theorem
+Baby Monster group
+Baby-step giant-step
+Babylonian mathematics
+Babylonian numerals
+Bach tensor
+Bach's algorithm
+Bachmann–Howard ordinal
+Back-and-forth method
+Back-stepping
+Backcasting
+Background and genesis of topos theory
+Backhouse's constant
+Backstepping
+Backtracking line search
+Backward differentiation formula
+Backward induction
+Baer ring
+Baer–Specker group
+Bailey pair
+Bailey–Borwein–Plouffe formula
+Baillie-PSW primality test
+Baily–Borel compactification
+Baire category theorem
+Baire function
+Baire measure
+Baire one star function
+Baire set
+Baire space
+Baire space (set theory)
+Bairstow's method
+Bak-Sneppen model
+Baker's dozen
+Baker's map
+Baker-Campbell-Hausdorff formula
+Bakhshali manuscript
+Bak–Tang–Wiesenfeld sandpile
+Balanced prime
+Balanced repeated replication
+Balanced set
+Balanced ternary
+Balancing domain decomposition
+Baldwin-Lomax model
+Balian-Low theorem
+Balkan Mathematical Olympiad
+Ball (mathematics)
+Ballpark estimate
+Balls and vase problem
+Baltic Way (mathematical contest)
+Ban number
+Banach algebra
+Banach bundle
+Banach fixed point theorem
+Banach function algebra
+Banach limit
+Banach manifold
+Banach measure
+Banach space
+Banach's matchbox problem
+Banach–Alaoglu theorem
+Banach–Mazur compactum
+Banach–Mazur game
+Banach–Mazur theorem
+Banach–Stone theorem
+Banach–Tarski paradox
+Banburismus
+Band (algebra)
+Band matrix
+Band sum
+Bandelet (computer science)
+Bank condition
+Bankoff circle
+Bankruptcy problem
+Banks-Zaks fixed point
+Banū Mūsā
+Bapat–Beg theorem
+Bar induction
+Bar product (coding theory)
+Baralipton
+Barber paradox
+Barber-Johnson diagram
+Barbier's theorem
+Bareiss algorithm
+Barnardisation
+Barnes G-function
+Barnes integral
+Barnes–Wall lattice
+Baroclinity
+Baroco
+Barometric formula
+Barotropic vorticity equation
+Barrelled space
+Barrier function
+Barrow's inequality
+Barth surface
+Bartlett's test
+Barwise compactness theorem
+Barycentric coordinates
+Barycentric coordinates (mathematics)
+Barycentric subdivision
+Barycentric-sum problem
+Base (geometry)
+Base (group theory)
+Base (mathematics)
+Base (topology)
+Base 13
+Base 24
+Base 30
+Base 32
+Base 36
+Base 62
+Base 64
+Base conversion divisibility test
+Base cylinder
+Base diameter
+Base flow (random dynamical systems)
+Base locus
+Base rate
+Basel problem
+Basic Linear Algebra Subprograms
+Basic hypergeometric series
+Basic skills
+Basis (linear algebra)
+Basis (universal algebra)
+Basis function
+Baskakov operator
+Basketball statistician
+Bass diffusion model
+Bass–Serre theory
+Basu's theorem
+Bateman Manuscript Project
+Bateman transform
+Bateman-Horn conjecture
+Bathtub curve
+Bauer-Fike theorem
+Baum-Welch algorithm
+Baumslag–Solitar group
+Baum–Connes conjecture
+Baum–Sweet sequence
+Bayes estimator
+Bayes factor
+Bayes linear
+Bayes' theorem
+Bayesian
+Bayesian additive regression kernels
+Bayesian average
+Bayesian efficiency
+Bayesian experimental design
+Bayesian game
+Bayesian inference
+Bayesian information criterion
+Bayesian linear regression
+Bayesian model comparison
+Bayesian multivariate linear regression
+Bayesian network
+Bayesian probability
+Bayesian search theory
+Bayesian spam filtering
+Beal's conjecture
+Bean curve
+Bean machine
+Beatty sequence
+Beautiful Young Minds
+Beauville–Laszlo theorem
+Beaver Bit-vector Decision Procedure
+Beck's monadicity theorem
+Beck's theorem
+Beck's theorem (geometry)
+Bedlam cube
+Bee colony optimization
+Beeman's algorithm
+Beer's theorem
+Beer–Lambert law
+Bees algorithm
+Begriffsschrift
+Behavioral modeling
+Behrens–Fisher problem
+Bel decomposition
+Belief propagation
+Bell curve
+Bell number
+Bell polynomials
+Bell series
+Bell's theorem
+Bellman equation
+Bellman-Ford algorithm
+Belt problem
+Beltrami identity
+Beltrami's theorem
+Belyi's theorem
+Bendixson-Dulac theorem
+Benford's law
+Benjamin Graham formula
+Benjamin–Bona–Mahony equation
+Benjamin–Ono equation
+Bentley-Ottmann algorithm
+Benz plane
+Beremiz Samir
+Berezin transform
+Berezinian
+Berge conjecture
+Berge knot
+Berger code
+Berger inequality
+Berger's inequality for Einstein manifolds
+Berger's sphere
+Berger–Kazdan comparison theorem
+Bergman metric
+Berkson error model
+Berkson's paradox
+Berlekamp's algorithm
+Berlekamp–Massey algorithm
+Berlin Mathematical School
+Berlin Papyrus
+Bernard Frénicle de Bessy
+Bernays–Schönfinkel class
+Bernoulli Society for Mathematical Statistics and Probability
+Bernoulli differential equation
+Bernoulli distribution
+Bernoulli family
+Bernoulli number
+Bernoulli polynomials
+Bernoulli process
+Bernoulli sampling
+Bernoulli scheme
+Bernoulli trial
+Bernoulli's inequality
+Bernoulli's principle
+Bernstein inequalities (probability theory)
+Bernstein inequality
+Bernstein polynomial
+Bernstein's constant
+Bernstein's inequality (mathematical analysis)
+Bernstein's theorem
+Bernstein–Sato polynomial
+Berry paradox
+Berry–Esséen theorem
+Bertrand's ballot theorem
+Bertrand's box paradox
+Bertrand's paradox (probability)
+Bertrand's postulate
+Bertrand–Diquet–Puiseux theorem
+Berwick Prizes
+Besicovitch covering theorem
+Besov space
+Bessel function
+Bessel polynomials
+Bessel process
+Bessel's inequality
+Bessel-Clifford function
+Best linear unbiased prediction
+Best response
+Beta distribution
+Beta function
+Beta integral
+Beta normal form
+Beta prime distribution
+Beta wavelet
+Beta-binomial model
+Beta-dual space
+Beth definability
+Beth number
+Bethe ansatz
+Bethe lattice
+Betti number
+Betti's theorem
+Beurling algebra
+Beurling–Lax theorem
+Beyer Chair of Applied Mathematics
+Beziergon
+Bhaskara's lemma
+Bhattacharya coefficient
+Bhattacharyya distance
+Bhāskara I
+Bhāskara II
+Bi-directional delay line
+Bi-quinary coded decimal
+Biadjacency matrix
+Bialgebra
+Bianchi classification
+Bianchi group
+Biangular coordinates
+Biarc
+Bias (statistics)
+Bias of an estimator
+Biased graph
+Biased sample
+Biaugmented pentagonal prism
+Biaugmented triangular prism
+Biaugmented truncated cube
+Bicategory
+Bicentric polygon
+Bicircular matroid
+Bicoherence
+Bicommutant
+Bicomplex number
+Biconditional elimination
+Biconditional introduction
+Bicone
+Biconjugate gradient method
+Biconnected component
+Biconnected graph
+Bicorn
+Bicubic interpolation
+Bicupola (geometry)
+Bicuspid curve
+Bicycle and motorcycle dynamics
+Bicyclic semigroup
+Bidiagonal matrix
+Bidiagonalization
+Bidirected graph
+Bidirectional search
+Bieberbach conjecture
+Bifolium
+Bifrustum
+Bifundamental representation
+Bifurcation diagram
+Bifurcation locus
+Bifurcation theory
+Big Numbers
+Big O notation
+Big Omega function
+Bigyrate diminished rhombicosidodecahedron
+Biharmonic Bézier surface
+Biharmonic equation
+Biholomorphism
+Bijection
+Bijection, injection and surjection
+Bijective numeration
+Bijective proof
+Bilateral hypergeometric series
+Bilinear form
+Bilinear interpolation
+Bilinear map
+Bilinear program
+Bilinear transform
+Billionth
+Bilunabirotunda
+Bimagic cube
+Bimagic square
+Bimodal distribution
+Bimodule
+Bimonster
+Bin (computational geometry)
+Bin packing problem
+Binary GCD algorithm
+Binary Golay code
+Binary and
+Binary classification
+Binary combinatory logic
+Binary constraint
+Binary cyclic group
+Binary entropy function
+Binary erasure channel
+Binary function
+Binary icosahedral group
+Binary logarithm
+Binary matrix
+Binary numeral system
+Binary octahedral group
+Binary operation
+Binary prefix
+Binary relation
+Binary search tree
+Binary set
+Binary space partitioning
+Binary splitting
+Binary symmetric channel
+Binary tetrahedral group
+Binary tree
+Binary-coded decimal
+Binet–Cauchy identity
+Bing metrization theorem
+Bing's example
+Bing's theorem
+Bingham distribution
+Bingham plastic
+Binomial
+Binomial (disambiguation)
+Binomial approximation
+Binomial coefficient
+Binomial differential equation
+Binomial distribution
+Binomial heap
+Binomial inverse theorem
+Binomial probability
+Binomial proportion confidence interval
+Binomial regression
+Binomial series
+Binomial test
+Binomial theorem
+Binomial transform
+Binomial type
+Biologically inspired algorithms
+Biometrics (journal)
+Biometrika
+Biorthogonal system
+Biorthogonal wavelet
+Biostatistics
+Bipartite dimension
+Bipartite graph
+Biplot
+Bipolar coordinates
+Bipolar cylindrical coordinates
+Biproduct
+Bipyramid
+Biquadratic field
+Biquandle
+Biquaternion
+Birational geometry
+Birational invariant
+Birch and Swinnerton-Dyer conjecture
+Birch's theorem
+Birch–Tate conjecture
+Birectified hexateron
+Birkhoff interpolation
+Birkhoff polytope
+Birkhoff's axioms
+Birkhoff's representation theorem
+Birkhoff's theorem (electromagnetism)
+Birkhoff's theorem (relativity)
+Birkhoff-Grothendieck theorem
+Birnbaum-Saunders distribution
+Birnbaum–Orlicz space
+Birotunda
+Birth-death process
+Birthday attack
+Birthday problem
+Bisected hexagonal tiling
+Bisection
+Bisection method
+Bishop-Cannings theorem
+Bishop–Gromov inequality
+Bismut connection
+Bispectrum
+Bispherical coordinates
+Bisymmetric matrix
+Bit-string physics
+Bitangent
+Bitonic tour
+Bitopological space
+Bitruncated 120-cell
+Bitruncated 24-cell
+Bitruncated 5-cell
+Bitruncated cubic honeycomb
+Bitruncated tesseract
+Bitruncation
+Bitwise operation
+Bivariegated graph
+Black Path Game
+Black box theory
+Black model
+Black swan theory
+Blackboard bold
+Blackwell channel
+Blade element theory
+Blancmange curve
+Blancmange function
+Bland's rule
+Blaschke product
+Blaschke selection theorem
+Blattner's conjecture
+Blau space
+Blind deconvolution
+Blind signal separation
+Bloch space
+Bloch sphere
+Bloch's theorem
+Bloch's theorem (complex variables)
+Block (group theory)
+Block LU decomposition
+Block Lanczos algorithm for nullspace of a matrix over a finite field
+Block Wiedemann algorithm
+Block cellular automaton
+Block code
+Block design
+Block matrix
+Block matrix pseudoinverse
+Block reflector
+Block stacking problem
+Block walking
+Blocking (statistics)
+Blossom (functional)
+Blowing down
+Blowing up
+Blue sky catastrophe
+Bluestein's FFT algorithm
+Blum axioms
+Blum integer
+Bochner identity
+Bochner integral
+Bochner space
+Bochner's formula
+Bochner's theorem
+Bochner-Riesz mean
+Bockstein homomorphism
+Bode plot
+Boerdijk–Coxeter helix
+Bogacki–Shampine method
+Bogdanov-Takens bifurcation
+Bogomol'nyi-Prasad-Sommerfield bound
+Bogomolov conjecture
+Bohr compactification
+Bohr–Mollerup theorem
+Bol loop
+Boltzmann distribution
+Bolyai Prize
+Bolyai–Gerwien theorem
+Bolza surface
+Bolzano–Weierstrass theorem
+Bombieri norm
+Bombieri-Lang conjecture
+Bombieri–Friedlander–Iwaniec theorem
+Bombieri–Vinogradov theorem
+Bondy's theorem
+Bonferroni correction
+Bonnesen's inequality
+Bonnet theorem
+Book (graph theory)
+Book embedding
+Book of Lemmas
+Book of Optics
+Book on Numbers and Computation
+Boole's inequality
+Boole's syllogistic
+Boolean algebra
+Boolean algebra (introduction)
+Boolean algebra (logic)
+Boolean algebra (structure)
+Boolean algebras canonically defined
+Boolean analysis
+Boolean circuit
+Boolean conjunctive query
+Boolean datatype
+Boolean delay equation
+Boolean domain
+Boolean expression
+Boolean function
+Boolean grammar
+Boolean logic
+Boolean operations on polygons
+Boolean prime ideal theorem
+Boolean ring
+Boolean satisfiability problem
+Boolean-valued function
+Boolean-valued model
+Booth's multiplication algorithm
+Bootstrap aggregating
+Bootstrapping (statistics)
+Bootstrapping populations
+Borel algebra
+Borel conjecture
+Borel determinacy theorem
+Borel equivalence relation
+Borel fixed-point theorem
+Borel functional calculus
+Borel hierarchy
+Borel measure
+Borel regular measure
+Borel right process
+Borel subgroup
+Borel summation
+Borel's law of large numbers
+Borel's lemma
+Borel's paradox
+Borel-Cantelli lemma
+Borel-Moore homology
+Borell-Brascamp-Lieb inequality
+Borel–Bott–Weil theorem
+Borel–Carathéodory theorem
+Borel–Weil theorem
+Boris Kordemsky
+Born-von Karman boundary condition
+Bornological space
+Borromean rings
+Borsuk's conjecture
+Borsuk–Ulam theorem
+Borwein's algorithm
+Borůvka's algorithm
+Bose–Einstein statistics
+Bott periodicity theorem
+Bottleneck traveling salesman problem
+Bottom type
+Boubaker polynomials
+Bound graph
+Boundary (topology)
+Boundary element method
+Boundary parallel
+Boundary value problem
+Bounded (set theory)
+Bounded complete poset
+Bounded deformation
+Bounded function
+Bounded inverse theorem
+Bounded mean oscillation
+Bounded operator
+Bounded quantifier
+Bounded set
+Bounded set (topological vector space)
+Bounded variation
+Boundedly generated group
+Boundedness
+Bounding interval hierarchy
+Bounding sphere
+Bounding volume
+Bourbaki dangerous bend symbol
+Bourbaki–Witt theorem
+Boustrophedon transform
+Bow curve
+Bowyer-Watson algorithm
+Box plot
+Box topology
+Box-Jenkins
+Box-Muller transform
+Box-Pierce test
+Boxcar function
+Boxicity
+Boxing the compass
+Boxology
+Box–Cox distribution
+Boy or Girl paradox
+Boy's surface
+Boy's surface/Proofs
+Bra-ket notation
+Bracelet (combinatorics)
+Brachistochrone curve
+Bracket
+Bracket (mathematics)
+Bracket algebra
+Bracket polynomial
+Braess's paradox
+Brahmagupta interpolation formula
+Brahmagupta matrix
+Brahmagupta theorem
+Brahmagupta's formula
+Brahmagupta's problem
+Brahmagupta–Fibonacci identity
+Brahmasphutasiddhanta
+Brahmi numeral
+Braid group
+Braid theory
+Braided Hopf algebra
+Braided monoidal category
+Bramble-Hilbert lemma
+Branch (graph theory)
+Branch and bound
+Branch and cut
+Branch point
+Branch-decomposition
+Branched covering
+Branched surface
+Branching factor
+Branching process
+Branching quantifier
+Branching theorem
+Brane
+Brascamp-Lieb inequality
+Brauer group
+Brauer's theorem
+Brauer's theorem on induced characters
+Brauer's three main theorems
+Brauer-Siegel theorem
+Brauer–Nesbitt theorem
+Brauer–Suzuki theorem
+Bravais lattice
+Brazilian Journal of Probability and Statistics
+Breadth-first search
+Breather
+Breather surface
+Bred vectors
+Bregman divergence
+Brent's method
+Bresenham's line algorithm
+Bretschneider's formula
+Breusch-Pagan test
+Breusch–Godfrey test
+Brewster's angle
+Brianchon's theorem
+Bridge (graph theory)
+Bridge and torch problem
+Bridge number
+Bridge probabilities
+Brier score
+Bring radical
+British Mathematical Olympiad
+British Society for Research into Learning Mathematics
+British Society for the History of Mathematics
+British flag theorem
+Brocard circle
+Brocard points
+Brocard triangle
+Brocard's conjecture
+Brocard's problem
+Broken diagonal
+Broken space diagonal
+Broken symmetry
+Brouwer fixed point theorem
+Brouwer-Hilbert controversy
+Brouwer–Heyting–Kolmogorov interpretation
+Browder-Minty theorem
+Brown's representability theorem
+Brown-Forsythe test
+Brownian bridge
+Brownian dynamics
+Brownian motion
+Brownian tree
+Brown–Peterson cohomology
+Broyden's method
+Bruck–Chowla–Ryser theorem
+Bruhat decomposition
+Brumer–Stark conjecture
+Brun sieve
+Brun's constant
+Brun's theorem
+Brunn-Minkowski theorem
+Brunnian link
+Brun–Titchmarsh theorem
+Brute force attack
+Bruun's FFT algorithm
+Bryant surface
+Bs space
+Bubble Babble
+Buchberger's algorithm
+Buckingham π theorem
+Buckley–Leverett equation
+Buddhabrot
+Buffon's needle
+Buffon's noodle
+Building (mathematics)
+Building automation
+Bulgarian solitaire
+Bullet-nose curve
+Bulletin of Mathematical Analysis and Applications
+Bulletin of the American Mathematical Society
+Bump function
+Bunched logic
+Bunching parameter
+Bundle (mathematics)
+Bundle gerbe
+Bundle map
+Bunyakovsky conjecture
+Burali-Forti paradox
+Burau representation
+Burgers vector
+Burgers' equation
+Burning Ship fractal
+Burnside ring
+Burnside theorem
+Burnside's lemma
+Burnside's problem
+Burr distribution
+Burrows-Abadi-Needham logic
+Burrows-Wheeler transform
+Bus bunching
+Busemann's theorem
+Business mathematics
+Business statistics
+Busy beaver
+Butson-type Hadamard matrix
+Butterfly curve
+Butterfly curve (algebraic)
+Butterfly curve (transcendental)
+Butterfly diagram
+Butterfly effect
+Butterfly theorem
+By inspection
+Bäcklund transform
+Bézier curve
+Bézier spline
+Bézier surface
+Bézier triangle
+Bézout domain
+Bézout matrix
+Bézout's identity
+Bézout's theorem
+Bôcher Memorial Prize
+Bôcher's theorem
+Büchi automaton
+Bühlmann model
