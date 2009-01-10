@@ -24,7 +24,7 @@ MAIN: {
 
   # If the full path to the script is known (such as when running this
   # script from crontab), go to that directory first
-  my $cur_dir = $0;
+  my $cur_dir = $0; # $0 stands for the executable, with or without full path
   if ($cur_dir =~ /^\//){
     $cur_dir =~ s/^(.*)\/.*?$/$1/g;
     print "Will go to $cur_dir\n";
