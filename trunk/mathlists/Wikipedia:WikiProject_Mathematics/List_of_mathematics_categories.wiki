@@ -638,6 +638,7 @@
 [[:Category:Subgroup properties|Subgroup properties]] -- 
 [[:Category:Subharmonic functions|Subharmonic functions]] --  
 [[:Category:Substructural logic|Substructural logic]] -- 
+[[:Category:Summability methods|Summability methods]] -- 
 [[:Category:Summary statistics|Summary statistics]] --  
 [[:Category:Super linear algebra|Super linear algebra]] --  
 [[:Category:Surfaces|Surfaces]] -- 
