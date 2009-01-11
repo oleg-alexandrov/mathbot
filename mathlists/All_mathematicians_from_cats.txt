@@ -642,6 +642,7 @@ Arthur Byron Coble
 Arthur Erdélyi
 Arthur Herbert Copeland
 Arthur Jaffe
+Arthur Milgram
 Arthur P. Dempster
 Arthur Rubin
 Arthur T. Benjamin
@@ -2773,7 +2774,6 @@ Alexander Dewdney
 André Joyal
 Arthur Stanley Mackenzie
 Boris Levit
-Caribou (musician)
 Cecilia Krieger
 Charles Castonguay
 Charles Dunnett
@@ -3548,6 +3548,7 @@ Federico Commandino
 Federico Luigi, Conte Menabrea
 Francesco Barozzi
 Galileo Galilei
+Gaspare Mainardi
 Germano D'Abramo
 Giacinto Morera
 Gian Francesco Malfatti
