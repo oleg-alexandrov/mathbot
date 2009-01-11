@@ -17,6 +17,7 @@ sub read_from_disk_or_wikipedia {
   }else{
     
     print "Fetching $article_name as $file does not exist on disk.\n";
+    
     $sleep = 1; $attempts=10;
     $article_text = wikipedia_fetch($Editor, $article_name . '.wiki',  $attempts, $sleep);
 

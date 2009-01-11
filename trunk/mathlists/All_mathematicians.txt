@@ -797,6 +797,7 @@ Darij Grinberg
 Darrell Huff
 Dave Bayer
 Dave Thomas (physicist)
+David A. Freedman (statistician)
 David Abrahams (mathematician)
 David Aldous
 David Avis
@@ -820,7 +821,6 @@ David Eppstein
 David Epstein
 David Evans (mathematician)
 David Fowler (mathematician)
-David Freedman (statistician)
 David G. Whiting
 David Gabai
 David Gale
@@ -1211,6 +1211,7 @@ Francesco Maria Grimaldi
 Francesco Maurolico
 Francesco Paolo Cantelli
 Francesco Severi
+Francesco Tricomi
 Francine Faure
 Francis Amasa Walker
 Francis Anscombe
@@ -1931,6 +1932,7 @@ Jagannatha Samrat
 Jagdish Chandra Bose
 Jakob Amsler-Laffon
 Jakob Hermann
+Jakob II Bernoulli
 Jakob Nielsen (mathematician)
 Jakob Rosanes
 Jakob Steiner
@@ -2123,6 +2125,8 @@ Johann Gottlieb Friedrich von Bohnenberger
 Johann Gustav Hermes
 Johann Heinrich Lambert
 Johann Hommel
+Johann II Bernoulli
+Johann III Bernoulli
 Johann Jacob Zimmermann
 Johann Jakob Balmer
 Johann Karl Burckhardt
@@ -4258,8 +4262,6 @@ Zvi Hermann Schapira
 Zvonimir Janko
 Zygmunt Janiszewski
 Zygmunt Zawirski
-al-Marrakushi ibn al-Banna
-john dale the dunce bucket
 Åke Pleijel
 Éamon de Valera
 Édouard Lucas

@@ -1,6 +1,7 @@
 use open 'utf8';
 
 require 'read_from_write_to_disk.pl';
+require 'bin/html_encode_decode_string.pl';
 require 'bin/identify_redlinks.pl';
 require 'bin/get_html.pl';
 
@@ -66,8 +67,10 @@ sub read_categories_from_list{
   
   my ($separator, $count, $line, $list_of_categories, @lines);
   my @arrays=splice(@_, 0, 3);  # contains pointers to three arrays, for mathematics, mathematicians and other categories
-  $list_of_categories=shift; 
-  $separator='<!-- separator -->';   # separates the three kinds of categories contained in the list
+  $list_of_categories=shift;
+
+  # Separate the three kinds of categories contained in the list using $separator
+  $separator='<!-- separator -->';  
 
   open(FILE, "<$list_of_categories"); @lines = split ("\n", <FILE>); close(FILE);
   $count=0;
@@ -84,22 +87,36 @@ sub put_redirects_on_blacklist {
   my ($article, $file, @lines, %today_from_cats_hash, @yesterday_from_cats, $text);
   my ($Editor, $sleep, $attempts);
 
-  $sleep = 5; $attempts=10; # necessary to fetch data from Wikipedia and submit. Don't make many attempts to see if an article is a redlink or not
+  # Necessary to fetch data from Wikipedia and submit. Don't make too many attempts.
+  $sleep = 5; $attempts=10; 
   $Editor=wikipedia_login();
   
   # put articles which are in categories today in a hash
   foreach $article (@$articles_from_cats){ $today_from_cats_hash{$article}=1;  }
 
   # put articles which were in a category yesterday in an array
-  open(FILE, "<$articles_from_cats_file"); @yesterday_from_cats=split("\n", <FILE>); close(FILE);
+  open(FILE, "<$articles_from_cats_file");
+  @yesterday_from_cats = split("\n", <FILE>);
+  close(FILE);
 
-  # now the subtle part, articles which are no longer in categories could be redirects. If so, remove them.
+  # Data was written to disk encoded in html (see later in this function).
+  # Here decode it back.
+  foreach $article (@yesterday_from_cats){
+    $article = &html_decode_string ($article);  
+  }
+
+  # Sort yesterday's articles in categories
+  @yesterday_from_cats = sort {$a cmp $b} @yesterday_from_cats;
+  
+  # Now the subtle part, articles which were in categories yesterday
+  # but which are not there today, could be redirects. If if they so,
+  # remove them.
   foreach $article (@yesterday_from_cats){
 
     next if ($article =~ /^\s*$/);
     next if (exists $today_from_cats_hash{$article});
 
-    # so, try to investigate why an article would suddenly vanish from math categories
+    # Try to investigate why an article would suddenly vanish from math categories
     $file = $article . '.wiki';
     $text=wikipedia_fetch($Editor, $file, $attempts, $sleep);
 
@@ -111,11 +128,21 @@ sub put_redirects_on_blacklist {
 #      $blacklist->{$article} = '(is a disambiguation page)';
     }
 
-    &write_to_disk($article, $text); # store a copy of the aricle on disk, since it was downloaded anyway
+    # Store a copy of the aricle on disk, since it was downloaded anyway
+    &write_to_disk($article, $text); 
   }
 
+  # Sort before writing to disk
+  @$articles_from_cats = sort {$a cmp $b} @$articles_from_cats;
+     
   # lastly, what is today's articles will become yesterday's articles tomorrow   
-  open (FILE, '>', $articles_from_cats_file);  foreach $article (@$articles_from_cats){ print FILE "$article\n"; } close(FILE);
+  open (FILE, '>', $articles_from_cats_file);
+  foreach $article (@$articles_from_cats){
+    # Write html-encoded to disk, since it is hard to get it right reading/writing
+    # Unicode data on disk.
+    print FILE &html_encode_string ($article) . "\n";
+  }
+  close(FILE);
 }
 
 sub put_redlinks_on_blacklist{ 
