@@ -2,6 +2,16 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== January 11, 2009 ==
+
+:Removed [[Fractional Quantum Mechanics]] (is a redirect to [[Fractional quantum mechanics]])
+:Added   [[ATS theorem]]
+:Added   [[Brooks’ theorem]]
+:Added   [[Fractional quantum mechanics]]
+:Added   [[Haefliger structure]]
+:Added   [[Twisting properties]]
+----
+
 == January 10, 2009 ==
 
 :Removed [[Borel–Bott–Weil theorem]] (is a redirect to [[Borel–Weil–Bott theorem]])
@@ -589,5 +599,6 @@
 : Mathematicians:added   [[Jens Erik Fenstad]]
 : Mathematicians:added   [[Mircea Puta]]
 : Mathematicians:added   [[Yuri Petrovich Ofman]]
+
 
 

@@ -438,6 +438,7 @@ AP Statistics
 APMonitor
 ARGUS distribution
 ASSA AIDS model
+ATS theorem
 AUSM
 AUTODYN
 AWM/MAA Falconer Lecturer
@@ -1981,6 +1982,7 @@ Brocard's problem
 Broken diagonal
 Broken space diagonal
 Broken symmetry
+Brooks’ theorem
 Brouwer fixed point theorem
 Brouwer-Hilbert controversy
 Brouwer–Heyting–Kolmogorov interpretation
@@ -5569,7 +5571,6 @@ Fraction (mathematics)
 Fraction of variance unexplained
 Fractional Brownian motion
 Fractional Fourier transform
-Fractional Quantum Mechanics
 Fractional calculus
 Fractional cascading
 Fractional coloring
@@ -5577,6 +5578,7 @@ Fractional differential equation
 Fractional ideal
 Fractional order control
 Fractional order integrator
+Fractional quantum mechanics
 Fracton
 Frame bundle
 Frame of a vector space
@@ -6474,6 +6476,7 @@ Hadwiger conjecture (graph theory)
 Hadwiger's theorem
 Hadwiger–Finsler inequality
 Hadwiger–Nelson problem
+Haefliger structure
 Hafner-Sarnak-McCurley constant
 Hahn decomposition theorem
 Hahn embedding theorem
@@ -15628,6 +15631,7 @@ Twin prime conjecture
 Twisted K-theory
 Twisted cubic
 Twisted, The Distorted Mathematics of Greenhouse Denial
+Twisting properties
 Twistor correspondence
 Twistor space
 Twistor theory
