@@ -4,6 +4,7 @@
 
 == January 10, 2009 ==
 
+:Removed [[Borel–Bott–Weil theorem]] (is a redirect to [[Borel–Weil–Bott theorem]])
 : Mathematicians:added   [[Caribou (musician)]]
 : Mathematicians:added   [[Derrick Niederman]]
 : Mathematicians:added   [[John Robert Kline]]
@@ -588,4 +589,5 @@
 : Mathematicians:added   [[Jens Erik Fenstad]]
 : Mathematicians:added   [[Mircea Puta]]
 : Mathematicians:added   [[Yuri Petrovich Ofman]]
+
 
