@@ -5,7 +5,7 @@ sub html_encode_string {
 
   local $_=$_[0];
 
-  # encode to Unicode first
+  # Encode to Unicode first from raw bytes used throughout the codes
   $_ = Encode::encode('utf8', $_);
   
   s/ /_/g;
@@ -19,7 +19,7 @@ sub html_decode_string {
   tr/+/ /;
   s/%(..)/pack('C', hex($1))/eg;
 
-  # decode from Unicode
+  # Decode from Unicode to raw bytes used throughout the codes
   $_ = Encode::decode('utf8', $_);
 
   return($_);
