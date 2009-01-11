@@ -59,6 +59,9 @@ MAIN:{
     
     next unless ($line =~ /^\s*\*\s*\[\[(.*?)\]\]/);
     $name=$1; 
+
+    # Upcase. Something more robust will need to be put in here.
+    $name =~ s/^(.)/uc($1)/eg;
     
     # add last, first if not there yet
     if ($name !~ /\|/ ) { 
