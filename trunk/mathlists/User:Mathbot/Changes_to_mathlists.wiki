@@ -2,6 +2,50 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== January 13, 2009 ==
+
+:Removed [[Picard–Lindelöf theorem]] (is a redirect to [[Picard-Lindelöf theorem]])
+:Added   [[Carathéodory's existence theorem]]
+:Added   [[Cliodynamics]]
+:Added   [[Closure problem]]
+:Added   [[Ménage problem]]
+:Added   [[Picard-Lindelöf theorem]]
+:Added   [[Poisson hidden Markov model]]
+----
+: Mathematicians:removed [[R. I. Bogdanov]] (is a redirect to [[Rifkat Bogdanov]])
+: Mathematicians:added   [[Charles-Ange Laisant]]
+: Mathematicians:added   [[Jekuthiel Ginsburg]]
+: Mathematicians:added   [[Oscar Lanford]]
+: Mathematicians:added   [[Rifkat Bogdanov]]
+
+== January 12, 2009 ==
+
+:Removed [[Barber-Johnson diagram]] 
+:Removed [[Mann-Whitney U]] (is a redirect to [[Mann–Whitney U]])
+:Removed [[Radon-Riesz property]] (is a redirect to [[Radon–Riesz property]])
+:Removed [[Well behaving statistics]] (is a redirect to [[Well behaving statistic]])
+:Added   [[Barber–Johnson diagram]]
+:Added   [[Brian's Brain]]
+:Added   [[Cartan–Eilenberg resolution]]
+:Added   [[Hyperbolic trigonometry]]
+:Added   [[Manifold (magazine)]]
+:Added   [[Mann–Whitney U]]
+:Added   [[Radon–Riesz property]]
+:Added   [[Wyatt Earp effect]]
+----
+: Mathematicians:added   [[Thomas Blundeville]]
+
+== January 11, 2009 ==
+
+:Removed [[Archimedes' use of infinitesimals]] (is a redirect to [[The Method of Mechanical Theorems]])
+:Removed [[Curry-Howard correspondence]] 
+:Added   [[Curry–Howard correspondence]]
+:Added   [[Greedy coloring]]
+:Added   [[List of free electronic journals in mathematics]]
+:Added   [[Principal indecomposable module]]
+:Added   [[The Method of Mechanical Theorems]]
+----
+
 == January 11, 2009 ==
 
 :Removed [[Fractional Quantum Mechanics]] (is a redirect to [[Fractional quantum mechanics]])
@@ -569,36 +613,4 @@
 :Added   [[Train track map]]
 ----
 : Mathematicians:added   [[Pan Chengdong]]
-
-== November 19, 2008 ==
-
-:Added   [[Aztec diamond]]
-:Added   [[Conditioning (probability)]]
-:Added   [[Cornu Spiral]]
-:Added   [[Correlation inequality]]
-:Added   [[FKG inequality]]
-:Added   [[Multiview orthographic projection]]
-----
-: Mathematicians:removed [[Ibn al-Haytham]] (is a redirect to [[Alhazen]])
-: Mathematicians:added   [[Alhazen]]
-: Mathematicians:added   [[André Haefliger]]
-: Mathematicians:added   [[Christophe Breuil]]
-
-== November 18, 2008 ==
-
-:Removed [[Baum-Sweet sequence]] (is a redirect to [[Baum–Sweet sequence]])
-:Removed [[Connect game]] (is a redirect to [[Connect (game)]])
-:Removed [[Turnstile]] 
-:Added   [[836 (number)]]
-:Added   [[Baum–Sweet sequence]]
-:Added   [[Connect (game)]]
-:Added   [[List of optimization algorithms]]
-:Added   [[Rudin–Shapiro sequence]]
-:Added   [[Union of Czech mathematicians and physicists]]
-----
-: Mathematicians:added   [[Jens Erik Fenstad]]
-: Mathematicians:added   [[Mircea Puta]]
-: Mathematicians:added   [[Yuri Petrovich Ofman]]
-
-
 

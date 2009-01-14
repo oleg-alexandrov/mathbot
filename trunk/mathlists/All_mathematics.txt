@@ -1012,7 +1012,6 @@ Archimedes number
 Archimedes' cattle problem
 Archimedes' quadruplets
 Archimedes' twin circles
-Archimedes' use of infinitesimals
 Archimedes-lab.org
 Archive for Rational Mechanics and Analysis
 Area
@@ -1366,7 +1365,7 @@ Bar induction
 Bar product (coding theory)
 Baralipton
 Barber paradox
-Barber-Johnson diagram
+Barber–Johnson diagram
 Barbier's theorem
 Bareiss algorithm
 Barnardisation
@@ -1963,6 +1962,7 @@ Bretschneider's formula
 Breusch-Pagan test
 Breusch–Godfrey test
 Brewster's angle
+Brian's Brain
 Brianchon's theorem
 Bridge (graph theory)
 Bridge and torch problem
@@ -2203,6 +2203,7 @@ Capillary routing
 Carathéodory conjecture
 Carathéodory metric
 Carathéodory's criterion
+Carathéodory's existence theorem
 Carathéodory's extension theorem
 Carathéodory's theorem
 Carathéodory's theorem (conformal mapping)
@@ -2249,6 +2250,7 @@ Cartan's theorems A and B
 Cartan-Karlhede algorithm
 Cartan-Kuranishi prolongation theorem
 Cartan–Dieudonné theorem
+Cartan–Eilenberg resolution
 Cartan–Hadamard theorem
 Cartan–Kähler theorem
 Carter subgroup
@@ -2660,6 +2662,7 @@ Clifford's circle theorems
 Clifford's theorem
 Clifford-Klein form
 Climate ensemble
+Cliodynamics
 Clique (graph theory)
 Clique complex
 Clique cover
@@ -2695,6 +2698,7 @@ Closing (morphology)
 Closure (mathematics)
 Closure (topology)
 Closure operator
+Closure problem
 Closure with a twist
 Clothoid
 Club filter
@@ -3651,8 +3655,8 @@ Current (mathematics)
 Current Index to Statistics
 Current algebra
 Curry's paradox
-Curry-Howard correspondence
 Currying
+Curry–Howard correspondence
 Curse of dimensionality
 Curta calculator
 Curtis–Hedlund–Lyndon theorem
@@ -6308,6 +6312,7 @@ Greatest fixed point
 Greedoid
 Greedy algorithm
 Greedy algorithm for Egyptian fractions
+Greedy coloring
 Greedy randomized adaptive search procedure
 Greek letters used in mathematics, science, and engineering
 Greek mathematics
@@ -7150,6 +7155,7 @@ Hyperbolic space
 Hyperbolic spiral
 Hyperbolic tree
 Hyperbolic triangle
+Hyperbolic trigonometry
 Hyperbolic volume (knot)
 Hyperbolic-orthogonal
 Hyperboloid
@@ -8812,6 +8818,7 @@ List of formulae involving π
 List of formulas in Riemannian geometry
 List of fractal topics
 List of fractals by Hausdorff dimension
+List of free electronic journals in mathematics
 List of functional analysis topics
 List of general topology topics
 List of geometers
@@ -9313,11 +9320,12 @@ Mandart inellipse
 Mandelbrot Competition
 Mandelbrot set
 Manifold
+Manifold (magazine)
 Manifold Destiny
 Manifold decomposition
 Manin obstruction
 Manin-Mumford conjecture
-Mann-Whitney U
+Mann–Whitney U
 Mantel test
 Mantissa
 Many-one reduction
@@ -10229,6 +10237,7 @@ Myriad
 Myriagonal number
 Mysterious duality
 Mythical number
+Ménage problem
 Möbius configuration
 Möbius energy
 Möbius function
@@ -11413,7 +11422,7 @@ Picard group
 Picard horn
 Picard theorem
 Picard-Fuchs equation
-Picard–Lindelöf theorem
+Picard-Lindelöf theorem
 Pick matrix
 Pick's theorem
 Pickover stalk
@@ -11552,6 +11561,7 @@ Pointwise product
 Poisson algebra
 Poisson bracket
 Poisson distribution
+Poisson hidden Markov model
 Poisson integral formula
 Poisson kernel
 Poisson limit theorem
@@ -11875,6 +11885,7 @@ Principal ideal
 Principal ideal domain
 Principal ideal ring
 Principal ideal theorem
+Principal indecomposable module
 Principal part
 Principal series representation
 Principal value
@@ -12484,9 +12495,9 @@ Radon measure
 Radon space
 Radon transform
 Radon's theorem
-Radon-Riesz property
 Radonifying function
 Radon–Nikodym theorem
+Radon–Riesz property
 Ragsdale conjecture
 Raised cosine distribution
 Raising and lowering indices
@@ -15069,6 +15080,7 @@ The Mathematical Experience
 The Mathematical Institute, University of Oxford
 The Mathematical Intelligencer
 The Mathematics Educator
+The Method of Mechanical Theorems
 The Music of the Primes
 The New York Journal of Mathematics
 The Nine Chapters on the Mathematical Art
@@ -16204,7 +16216,6 @@ Weitzenböck identity
 Weitzenböck's inequality
 Welch's t test
 Welch-Satterthwaite equation
-Well behaving statistics
 Well-behaved
 Well-defined
 Well-formed formula
@@ -16365,6 +16376,7 @@ Writer invariant
 Writhe
 Wronskian
 Wu's method
+Wyatt Earp effect
 Wyckoff positions
 Wythoff construction
 Wythoff symbol
