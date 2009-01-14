@@ -654,6 +654,7 @@ Charles Walmesley
 Charles de Bovelles
 Charles Émile Picard
 Charles Étienne Louis Camus
+Charles-Ange Laisant
 Charles-Eugène Delaunay
 Charlotte Froese Fischer
 Charlotte Scott
@@ -2065,6 +2066,7 @@ Jeffrey Lagarias
 Jeffrey Lang
 Jeffrey Weeks (mathematician)
 Jehan Adam
+Jekuthiel Ginsburg
 Jenifer Haselgrove
 Jennifer Seberry
 Jenny Harrison
@@ -3085,6 +3087,7 @@ Orazio Grassi
 Oronce Finé
 Orson Pratt
 Oscar Chisini
+Oscar Lanford
 Oscar Phelps Austin
 Oscar Schlömilch
 Oscar Zariski
@@ -3329,7 +3332,6 @@ R. A. Schwaller de Lubicz
 R. E. Powers
 R. E. Siday
 R. G. D. Allen
-R. I. Bogdanov
 R. L. Griess
 R. Stanton Hales
 RH Bing
@@ -3441,6 +3443,7 @@ Richard of Wallingford
 Richard von Mises
 Rick Durrett
 Rick Norwood
+Rifkat Bogdanov
 Rob Eastaway
 Robert Adrain
 Robert Alexander Rankin
@@ -3819,6 +3822,7 @@ Thomas Archer Hirst
 Thomas Banchoff
 Thomas Bartholin
 Thomas Bayes
+Thomas Blundeville
 Thomas Bradwardine
 Thomas Callister Hales
 Thomas Carlyle

@@ -624,6 +624,7 @@ Charles_W._Hellaby
 Charles_de_Bovelles
 Charles_%c3%89mile_Picard
 Charles_%c3%89tienne_Louis_Camus
+Charles-Ange_Laisant
 Charlotte_Froese_Fischer
 Charlotte_Scott
 Chauncey_Wright
@@ -1974,6 +1975,7 @@ Jeffrey_Lagarias
 Jeffrey_Lang
 Jeffrey_Weeks_%28mathematician%29
 Jehan_Adam
+Jekuthiel_Ginsburg
 Jenifer_Haselgrove
 Jennifer_Seberry
 Jenny_Harrison
@@ -2969,6 +2971,7 @@ Orazio_Grassi
 Oronce_Fin%c3%a9
 Orson_Pratt
 Oscar_Chisini
+Oscar_Lanford
 Oscar_Phelps_Austin
 Oscar_Schl%c3%b6milch
 Oscar_Zariski
@@ -3197,7 +3200,6 @@ Quirico_Filopanti
 Q%c4%81%e1%b8%8d%c4%ab_Z%c4%81da_al-R%c5%abm%c4%ab
 R._E._Powers
 R._E._Siday
-R._I._Bogdanov
 R._L._Griess
 R._Stanton_Hales
 RH_Bing
@@ -3305,6 +3307,7 @@ Richard_of_Wallingford
 Richard_von_Mises
 Rick_Durrett
 Rick_Norwood
+Rifkat_Bogdanov
 Rob_Eastaway
 Robert_Adrain
 Robert_Alexander_Rankin
@@ -3670,6 +3673,7 @@ Thomas_Archer_Hirst
 Thomas_Banchoff
 Thomas_Bartholin
 Thomas_Bayes
+Thomas_Blundeville
 Thomas_Bradwardine
 Thomas_Callister_Hales
 Thomas_Carlyle
