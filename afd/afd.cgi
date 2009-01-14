@@ -5,7 +5,9 @@ use strict;
 undef $/; 
 
 use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
-use lib '../wp/modules'; # relative path to perl modules
+use lib '/home/mathbot/public_html/wp/modules'; # relative path to perl modules
+#use lib '../wp/modules'; # relative path to perl modules
+
 require 'bin/wikipedia_fetch_submit.pl'; 
 require 'bin/wikipedia_login.pl';
 require 'bin/get_html.pl';
