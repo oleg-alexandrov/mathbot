@@ -1,0 +1,12 @@
+# m h  dom mon dow   command
+
+#00 06 * * * nohup nice -19 ~/bin/reminder.pl > ~/bin/reminder_output.txt 2>&1&
+#00 03 */2 * * ~/public_html/cgi-bin/wp/wp10/run_wp10.pl > ~/public_html/cgi-bin/wp/wp10/cron_log.txt 2>&1 &
+#00 18 * * * nohup nice -19 ~/public_html/wp/pmstat/update_stats.pl > ~/public_html/wp/pmstat/output.txt 2>&1&
+#18 15 * * * ~/public_html/wp/mathlists/redlinks/most_linked_not_rated.pl > ~/public_html/wp/mathlists/red_out.txt  2>&1&
+#05,20,35,50 * * * * nohup nice -19 ~/public_html/wp/rfa/edit_summary.pl > ~/public_html/wp/rfa/Log.txt 2>&1&
+
+01 16 * * * nohup nice -19 ~/public_html/wp/afd/afd.cgi > ~/public_html/wp/afd/Log.txt 2>&1&
+20 11 * * * nohup nice -19 ~/public_html/wp/mathlists/batch_update_lists.sh > ~/public_html/wp/mathlists/output.txt 2>&1 &
+59 21 * * * nohup nice -19 ~/public_html/wp/mathlists/recent.pl > ~/public_html/wp/mathlists/recent_output.txt 2>&1 &
+
