@@ -120,6 +120,7 @@ Albrecht_Fr%c3%b6hlich
 Aleksandar_Juri%c5%a1i%c4%8d
 Aleksandr_Danilovich_Aleksandrov
 Aleksandr_Gennadievich_Kurosh
+Aleksandr_Gurevich
 Aleksandr_Khinchin
 Aleksandr_Korkin
 Aleksandr_Lyapunov
@@ -144,6 +145,7 @@ Alexander_Gelfond
 Alexander_Givental
 Alexander_Grothendieck
 Alexander_Hurwitz
+Alexander_Ilyin
 Alexander_Kronrod
 Alexander_MacAulay
 Alexander_Macfarlane_%28mathematician%29
@@ -214,6 +216,7 @@ Amiya_Charan_Banerjee
 Am%c3%a9d%c3%a9e_Mannheim
 Anania_Shirakatsi
 Anatoli_Georgievich_Vitushkin
+Anatolii_Alexeevitch_Karatsuba
 Anatoliy_Skorokhod
 Anatoly_Fomenko
 Anatoly_Maltsev
@@ -2469,6 +2472,7 @@ Leonid_Kantorovich
 Leonid_Khachiyan
 Leonid_Levin
 Leonid_Plyushch
+Leonid_Vaser%c5%a1te%c4%adn
 Leonida_Tonelli
 Leonidas_Alaoglu
 Leonty_Magnitsky
@@ -2914,6 +2918,7 @@ Nikolay_Bogolyubov
 Nikolay_Govorun
 Nikolay_Mitrofanovich_Krylov
 Nikolay_Nekhoroshev
+Nikolay_Sergeyevich_Krylov
 Nikolay_Umov
 Nikolay_Yakovlevich_Sonin
 Nikoloz_Muskhelishvili

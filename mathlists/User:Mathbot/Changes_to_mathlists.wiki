@@ -2,6 +2,53 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== January 14, 2009 ==
+
+:Removed [['Abd al-Hamīd ibn Turk]] (is in the [[list of mathematicians]])
+:Removed [[Abū Ishāq Ibrāhīm al-Zarqālī]] (is in the [[list of mathematicians]])
+:Removed [[Abū Ja'far al-Khāzin]] (is in the [[list of mathematicians]])
+:Removed [[Abū Kāmil Shujā ibn Aslam]] (is in the [[list of mathematicians]])
+:Removed [[Abū Sahl al-Qūhī]] (is in the [[list of mathematicians]])
+:Removed [[Abū al-Hasan ibn Alī al-Qalasādī]] (is in the [[list of mathematicians]])
+:Removed [[Abūl Wafā' Būzjānī]] (is in the [[list of mathematicians]])
+:Removed [[Al-Abbās ibn Said al-Jawharī]] (is in the [[list of mathematicians]])
+:Removed [[Al-Khwārizmī]] (is in the [[list of mathematicians]])
+:Removed [[Al-Ḥajjāj ibn Yūsuf ibn Maṭar]] (is in the [[list of mathematicians]])
+:Removed [[Alī ibn Ahmad al-Nasawī]] (is in the [[list of mathematicians]])
+:Removed [[André Weil]] (is in the [[list of mathematicians]])
+:Removed [[Athīr al-Dīn al-Abharī]] (is in the [[list of mathematicians]])
+:Removed [[Banū Mūsā]] (is in the [[list of mathematicians]])
+:Removed [[Bernard Frénicle de Bessy]] (is in the [[list of mathematicians]])
+:Removed [[Bhāskara I]] (is in the [[list of mathematicians]])
+:Removed [[Bhāskara II]] (is in the [[list of mathematicians]])
+:Removed [[Claude Gaspard Bachet de Méziriac]] (is in the [[list of mathematicians]])
+:Removed [[François Bruhat]] (is in the [[list of mathematicians]])
+:Removed [[Govindasvāmi]] (is in the [[list of mathematicians]])
+:Removed [[Ibn Yahyā al-Maghribī al-Samaw'al]] (is in the [[list of mathematicians]])
+:Removed [[Jamshīd al-Kāshī]] (is in the [[list of mathematicians]])
+:Removed [[Jean Dieudonné]] (is in the [[list of mathematicians]])
+:Removed [[Johann Samuel König]] (is in the [[list of mathematicians]])
+:Removed [[Kamāl al-Dīn al-Fārisī]] (is in the [[list of mathematicians]])
+:Removed [[Kātyāyana]] (is in the [[list of mathematicians]])
+:Removed [[Muhammad ibn Jābir al-Harrānī al-Battānī]] (is in the [[list of mathematicians]])
+:Removed [[Omar Khayyám]] (is in the [[list of mathematicians]])
+:Removed [[Picard-Lindelöf theorem]] (is a redirect to [[Picard–Lindelöf theorem]])
+:Removed [[Pierre Frédéric Sarrus]] (is in the [[list of mathematicians]])
+:Removed [[Pierre Hérigone]] (is in the [[list of mathematicians]])
+:Removed [[Przemysław Prusinkiewicz]] (is in the [[list of mathematicians]])
+:Removed [[Qāḍī Zāda al-Rūmī]] (is in the [[list of mathematicians]])
+:Removed [[René de Possel]] (is in the [[list of mathematicians]])
+:Removed [[Seki Kōwa]] (is in the [[list of mathematicians]])
+:Removed [[Sharaf al-Dīn al-Tūsī]] (is in the [[list of mathematicians]])
+:Removed [[Simon de la Loubère]] (is in the [[list of mathematicians]])
+:Removed [[Thābit ibn Qurra]] (is in the [[list of mathematicians]])
+:Removed [[Yaqūb ibn Tāriq]] (is in the [[list of mathematicians]])
+:Removed [[Édouard Lucas]] (is in the [[list of mathematicians]])
+:Added   [[Linear programming decoding]]
+:Added   [[Offset binary]]
+:Added   [[Picard–Lindelöf theorem]]
+----
+
 == January 13, 2009 ==
 
 :Removed [[Picard–Lindelöf theorem]] (is a redirect to [[Picard-Lindelöf theorem]])
@@ -598,19 +645,4 @@
 :Added   [[Modularity (networks)]]
 :Added   [[Regular paperfolding sequence]]
 ----
-
-== November 20, 2008 ==
-
-:Removed [[Map germ]] (is a redirect to [[germ (mathematics)]])
-:Added   [[Ahlswede–Daykin inequality]]
-:Added   [[Diffusion MRI]]
-:Added   [[Fishburn–Shepp inequality]]
-:Added   [[Gyrovector space]]
-:Added   [[Holley inequality]]
-:Added   [[Lambert's problem]]
-:Added   [[Population balance equation]]
-:Added   [[Thue equation]]
-:Added   [[Train track map]]
-----
-: Mathematicians:added   [[Pan Chengdong]]
 
