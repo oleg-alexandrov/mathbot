@@ -146,21 +146,20 @@ sub add_another_day{
   $text = shift;  
 
   # If beyond certain hour of the day (midnight GMT time),
-  # add a link for the Afd/VfD discussion 5 days ago if not here yet
+  # add a link for the Afd/VfD discussion six days ago if not here yet
   $hour_now=strftime("%H", localtime(time));
-  $thresh=16;
+  $thresh = 0;  # midnight on gmt
 
   if ($hour_now < $thresh){
     return ($text, "");
   }
 
-  # Get the afd link for five days ago
-  ($afd_link, $brief_afd_link) = &get_afd_link(-5);
+  ($afd_link, $brief_afd_link) = &get_afd_link(-6);
   
-  my $tag='<!-- Place latest vote day above - Do not remove this line -->';
+  my $tag='<!-- Place latest vote day below this line. Do not move or modify this line -->';
   $edit_summary="";
   if ($text !~ /\n\*\s*\[\[\Q$afd_link\E/){
-    $text =~ s/$tag/\* \[\[$afd_link\|$brief_afd_link\]\]\n$tag/g;
+    $text =~ s/$tag/$tag\n\* \[\[$afd_link\|$brief_afd_link\]\]/g;
     $edit_summary=" Link to \[\[$afd_link\]\].";
   }
 
@@ -245,9 +244,10 @@ sub update_archived_discussions {
     $archived_text = $1 . $2 . $curr_year . $3 . "\n" . $2 . $prev_year . $3 . $4;
   }
 
-  # Any day in the current year up to six days ago is a candidate to be in the archive
-  # (unless, again, that page is still at AfD/Old)
-  my $start = -6;
+  # Any day in the current year up to seven days ago is a candidate to be in the archive
+  # (unless, again, that page is still at AfD/Old). Days 0, -1, -2, -3, -4, -5 
+  # are still open, while day -6 is now in the process of being closed.
+  my $start = -7;
   my $stop  = -366;
   my $day;
 
