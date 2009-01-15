@@ -1,4 +1,3 @@
-'Abd al-Hamīd ibn Turk
 (-2, 3, 7) pretzel knot
 (2,3,7) triangle group
 (B, N) pair
@@ -517,12 +516,6 @@ Abstraction model checking
 Abu-Mahmud al-Khujandi
 Abundant number
 Abuse of notation
-Abū Ishāq Ibrāhīm al-Zarqālī
-Abū Ja'far al-Khāzin
-Abū Kāmil Shujā ibn Aslam
-Abū Sahl al-Qūhī
-Abū al-Hasan ibn Alī al-Qalasādī
-Abūl Wafā' Būzjānī
 Academic Games
 Acceleration
 Acceptable quality limit
@@ -656,10 +649,7 @@ Akbulut cork
 Akhmim wooden tablet
 Akira Haraguchi
 Akra-Bazzi method
-Al-Abbās ibn Said al-Jawharī
-Al-Khwārizmī
 Al-Marrakushi
-Al-Ḥajjāj ibn Yūsuf ibn Maṭar
 Alan Turing Building
 Albanese variety
 Albert algebra
@@ -803,7 +793,6 @@ Alternative set theory
 Alternativity
 Alternatization
 Altitude (triangle)
-Alī ibn Ahmad al-Nasawī
 Amalgamation property
 Ambient construction
 Ambient isotopy
@@ -874,7 +863,6 @@ Andreotti–Frankel theorem
 Andrews–Curtis conjecture
 Andrica's conjecture
 Andronov-Pontryagin criterion
-André Weil
 Angel problem
 Anger function
 Angle
@@ -1145,7 +1133,6 @@ Asymptotic theory
 Asymptotically flat spacetime
 Asymptotology
 Atan2
-Athīr al-Dīn al-Abharī
 Atiyah–Bott fixed-point theorem
 Atiyah–Hirzebruch spectral sequence
 Atiyah–Segal completion theorem
@@ -1359,7 +1346,6 @@ Bank condition
 Bankoff circle
 Bankruptcy problem
 Banks-Zaks fixed point
-Banū Mūsā
 Bapat–Beg theorem
 Bar induction
 Bar product (coding theory)
@@ -1499,7 +1485,6 @@ Berlekamp's algorithm
 Berlekamp–Massey algorithm
 Berlin Mathematical School
 Berlin Papyrus
-Bernard Frénicle de Bessy
 Bernays–Schönfinkel class
 Bernoulli Society for Mathematical Statistics and Probability
 Bernoulli differential equation
@@ -1558,8 +1543,6 @@ Beziergon
 Bhaskara's lemma
 Bhattacharya coefficient
 Bhattacharyya distance
-Bhāskara I
-Bhāskara II
 Bi-directional delay line
 Bi-quinary coded decimal
 Biadjacency matrix
@@ -2641,7 +2624,6 @@ Classifier (mathematics)
 Classifying space
 Classifying space for O(n)
 Classifying space for U(n)
-Claude Gaspard Bachet de Méziriac
 Clausal normal form
 Clausen function
 Clausen's formula
@@ -5590,7 +5572,6 @@ Framed knot
 Frank and Brennie Morgan Prize for Outstanding Research in Mathematics by an Undergraduate Student
 Frank–Wolfe algorithm
 Fransén-Robinson constant
-François Bruhat
 Frattini subgroup
 Frattini's argument
 Fraysseix–Rosenstiehl's planarity criterion
@@ -6188,7 +6169,6 @@ Gosset 3 21 polytope
 Gosset 3 31 honeycomb
 Gosset 4 21 polytope
 Goursat's lemma
-Govindasvāmi
 Graceful labeling
 Grad (angle)
 Grad-Shafranov equation
@@ -7224,7 +7204,6 @@ IP (complexity)
 IP set
 ISO 31-11
 ITest
-Ibn Yahyā al-Maghribī al-Samaw'al
 Icosagon
 Icosahedral 120-cell
 Icosahedral prism
@@ -7836,7 +7815,6 @@ Jacquet–Langlands correspondence
 Jaffard ring
 James' theorem
 James-Stein estimator
-Jamshīd al-Kāshī
 Janko group
 Janko group J1
 Janko group J3
@@ -7849,7 +7827,6 @@ Japanese theorem for concyclic quadrilaterals
 Jarque-Bera test
 Jay Hambidge
 Jayanta Bhatta
-Jean Dieudonné
 Jeep problem
 Jeffery–Williams Prize
 Jeffreys prior
@@ -7865,7 +7842,6 @@ Jet group
 Jeton
 Jeu de taquin
 Job-shop problem
-Johann Samuel König
 John J. O'Connor (mathematician)
 John L. Synge Award
 John Lucas (philosopher)
@@ -7977,7 +7953,6 @@ Kalman filter
 Kalman-Yakubovich-Popov lemma
 Kalmanson combinatorial conditions
 Kampyle of Eudoxus
-Kamāl al-Dīn al-Fārisī
 Kan extension
 Kan fibration
 Kantorovich inequality
@@ -8232,7 +8207,6 @@ König's theorem (set theory)
 Köthe conjecture
 Középiskolai Matematikai és Fizikai Lapok
 Künneth theorem
-Kātyāyana
 Kōmura's theorem
 L (complexity)
 L game
@@ -8701,6 +8675,7 @@ Linear predictive analysis
 Linear predictive coding
 Linear probability model
 Linear programming
+Linear programming decoding
 Linear programming relaxation
 Linear regression
 Linear response function
@@ -10113,7 +10088,6 @@ Mu Alpha Theta National Log 1 Contest
 Mu calculus
 Muckenhoupt weights
 Mueller calculus
-Muhammad ibn Jābir al-Harrānī al-Battānī
 Muhyi al-Dīn al-Maghribī
 Muirhead's inequality
 Mukai-Fourier transform
@@ -10767,6 +10741,7 @@ Odds ratio
 Odlyzko-Schönhage algorithm
 Of the form
 Official statistics
+Offset binary
 Ogden's lemma
 Ogive
 Olami-Feder-Christensen model
@@ -10774,7 +10749,6 @@ Olbers' paradox
 Olimpíada Brasileira de Matemática
 Oloid
 Olympiade Mathématique Belge
-Omar Khayyám
 Omega constant
 Omega equation
 Omega-logic
@@ -11422,7 +11396,7 @@ Picard group
 Picard horn
 Picard theorem
 Picard-Fuchs equation
-Picard-Lindelöf theorem
+Picard–Lindelöf theorem
 Pick matrix
 Pick's theorem
 Pickover stalk
@@ -11437,8 +11411,6 @@ Piecewise linear function
 Piecewise linear manifold
 Piecewise syndetic set
 Pierpont prime
-Pierre Frédéric Sarrus
-Pierre Hérigone
 Pigeonhole principle
 Pignistic probability
 Piling-up lemma
@@ -12103,7 +12075,6 @@ Proximity space
 Proxy (statistics)
 Pruning (algorithm)
 Prym variety
-Przemysław Prusinkiewicz
 Prékopa-Leindler inequality
 Prüfer domain
 Prüfer group
@@ -12389,7 +12360,6 @@ Quotient space
 Quotient space (linear algebra)
 Quotientable automorphism
 Quotition
-Qāḍī Zāda al-Rūmī
 R. A. Fisher Lectureship
 RANSAC
 REVSTAT
@@ -12827,7 +12797,6 @@ Rencontres numbers
 Rendezvous problem
 Renewal theory
 Renormalization group
-René de Possel
 Repdigit
 Repeating decimal
 Replication (statistics)
@@ -13447,7 +13416,6 @@ Seifert surface
 Seifert-Weber space
 Seifert–van Kampen theorem
 Seismic tomography
-Seki Kōwa
 Selberg class
 Selberg integral
 Selberg sieve
@@ -13642,7 +13610,6 @@ Shapiro inequality
 Shapiro polynomials
 Shapiro's lemma
 Shapiro-Wilk test
-Sharaf al-Dīn al-Tūsī
 Sharkovskii's theorem
 Sharp map
 Shaw Prize
@@ -13755,7 +13722,6 @@ Similarity invariance
 Similarity matrix
 Similarity transformation
 Similarly sorted
-Simon de la Loubère
 Simple (abstract algebra)
 Simple Lie group
 Simple algebra
@@ -15163,7 +15129,6 @@ Thurston elliptization conjecture
 Thurston-Bennequin number
 Thâbit ibn Kurrah rule
 Thébault's theorem
-Thābit ibn Qurra
 Tidal tensor
 Tietze extension theorem
 Tietze transformations
@@ -16395,7 +16360,6 @@ Yangian
 Yang–Baxter equation
 Yang–Mills existence and mass gap
 Yang–Mills theory
-Yaqūb ibn Tāriq
 Yarrow algorithm
 Yates' correction for continuity
 Yavanajataka
@@ -16503,7 +16467,6 @@ Zsigmondy's theorem
 Zubov's method
 Zuckerman functor
 Zuckerman number
-Édouard Lucas
 Éléments de géométrie algébrique
 Étale cohomology
 Étale fundamental group

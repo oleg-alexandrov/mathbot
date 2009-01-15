@@ -1,3 +1,7 @@
+belgian - Belgium
+cameroonian - Cameroon
+irish - Ireland
+
 cuban - Cuba
 Afghan - Afghanistan
 Mexican - Mexico
