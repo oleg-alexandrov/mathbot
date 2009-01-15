@@ -16,7 +16,7 @@ MAIN: {
   
   my $Editor=wikipedia_login();
   $sleep = 1; $attempts=10;
-  $separator = '<!-- separator --> <!-- please do not delete or modify this line -->';
+  $separator = '<!-- separator --> <!-- Please do not delete or modify this line, as that will confuse the bot. -->';
 
   $cats_file="Wikipedia:WikiProject_Mathematics/List_of_mathematics_categories.wiki";
   $new_cats_file="User:Mathbot/New math categories.wiki";
@@ -24,9 +24,9 @@ MAIN: {
   $list = $cats_file; $list =~ s/\.wiki$//g;
   $edit_summary = "Add new categories. " . &make_redlinks_hash($list, \%redlinks_hash);
   
-  $text=wikipedia_fetch($Editor, $cats_file, $attempts, $sleep);
-  @chunks=split($separator, $text);
-  $bottom=splice(@chunks, -1, 1); $bottom =~ s/^\s*//g;
+  $text = wikipedia_fetch($Editor, $cats_file, $attempts, $sleep);
+  @chunks = split($separator, $text);
+  $bottom = splice(@chunks, -1, 1); $bottom =~ s/^\s*//g;
 
   $text = wikipedia_fetch($Editor, $new_cats_file, $attempts, $sleep);
   foreach ( split ("\n", $text) ){
@@ -43,12 +43,19 @@ MAIN: {
     }
   }
   
-  $text="";
+  $text = "";
   foreach $chunk (@chunks){
     $text = $text .  &sort_categories_alphabetically_and_sectioning ($chunk, \%redlinks_hash) . $separator . "\n";
   }
   $text = $text .  $bottom;
+  
+  # Minor formatting fix. Make sure that each line that has a category
+  # ends in &mdash; if the next line is also a category
+  $text =~ s/(\[\[:Category:.*?\]\].*?)[ \t]*\&mdash;[ \t]*\n/$1\n/ig;
+  $text =~ s/(\[\[:Category:.*?\]\].*?)[ \t]*[-]*[ \t]*\n(?=.*?\[\[:Category)/$1 \&mdash;\n/ig;
+
   wikipedia_submit($Editor, $cats_file, $edit_summary, $text, $attempts, $sleep);
+  
   open (FILE, ">$cats_file"); print FILE "$text\n"; close(FILE); # some other programs use this data
 }
 
@@ -76,7 +83,7 @@ sub sort_categories_alphabetically_and_sectioning {
   $letter=""; $prev_letter="";
   foreach ( sort { $a cmp $b } keys %categories ) {
 
-    /^(.)/;
+    next unless (/^(.)/);
     $letter=$1;
     if ($letter ne $prev_letter && $letter !~ /\d/ ){ 
       $output = $output . "\n=== $letter ===\n\n";
