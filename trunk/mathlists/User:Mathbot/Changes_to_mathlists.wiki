@@ -2,6 +2,36 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== January 15, 2009 ==
+
+:Removed [[Finite projective geometry]] (is a redirect to [[Projective geometry axioms]])
+:Removed [[Krull-Schmidt theorem]] (is a redirect to [[Krull–Schmidt theorem]])
+:Added   [[Algorithmic inference]]
+:Added   [[BRST formalism]]
+:Added   [[Bulirsch-Stoer Algorithm]]
+:Added   [[Gauss-Jacobi Mechanical Quadrature]]
+:Added   [[Hazard function]]
+:Added   [[Idempotent function]]
+:Added   [[Kaplansky's theorem on quadratic forms]]
+:Added   [[King Wen sequence]]
+:Added   [[Krull–Schmidt category]]
+:Added   [[Krull–Schmidt theorem]]
+:Added   [[Lebedev quadrature]]
+:Added   [[Moufang plane]]
+:Added   [[Non-Desarguesian plane]]
+:Added   [[Polyhedral combinatorics]]
+:Added   [[Polyhedral graph]]
+:Added   [[Projective geometry axioms]]
+:Added   [[Rota-Baxter algebra]]
+:Added   [[Stable module category]]
+:Added   [[Superiority and Inferiority Ranking Method]]
+:Added   [[Tammes problem]]
+:Added   [[Thomson problem]]
+:Added   [[Top (mathematics)]]
+:Added   [[Truncation (statistics)]]
+:Added   [[Univariate distribution]]
+----
+
 == January 14, 2009 ==
 
 :Removed [['Abd al-Hamīd ibn Turk]] (is in the [[list of mathematicians]])
@@ -633,16 +663,4 @@
 :Added   [[True (Unix)]]
 ----
 : Mathematicians:added   [[Burchard de Volder]]
-
-== November 21, 2008 ==
-
-:Removed [[List of integrals of arc hyperbolic functions]] (is a redirect to [[List of integrals of area hyperbolic functions]])
-:Removed [[Mathematical manipulatives]] (is a redirect to [[Mathematical manipulative]])
-:Removed [[Proposed solutions to Zeno's paradoxes]] (is a redirect to [[Zeno's paradoxes]])
-:Added   [[Final value theorem]]
-:Added   [[List of integrals of area hyperbolic functions]]
-:Added   [[Mathematical manipulative]]
-:Added   [[Modularity (networks)]]
-:Added   [[Regular paperfolding sequence]]
-----
 

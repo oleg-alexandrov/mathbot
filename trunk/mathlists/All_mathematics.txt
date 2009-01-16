@@ -737,6 +737,7 @@ Algorithm characterizations
 Algorithm design
 Algorithm examples
 Algorithmic Number Theory Symposium
+Algorithmic inference
 Algorithms for calculating variance
 Alignments of random points
 Aliquot
@@ -1270,6 +1271,7 @@ BK-space
 BKM algorithm
 BLOSUM
 BRST algorithm
+BRST formalism
 Ba space
 Babenko–Beckner inequality
 Babuška-Lax-Milgram theorem
@@ -2001,6 +2003,7 @@ Buffon's noodle
 Building (mathematics)
 Building automation
 Bulgarian solitaire
+Bulirsch-Stoer Algorithm
 Bullet-nose curve
 Bulletin of Mathematical Analysis and Applications
 Bulletin of the American Mathematical Society
@@ -5339,7 +5342,6 @@ Finite intersection property
 Finite mathematics
 Finite model theory
 Finite morphism
-Finite projective geometry
 Finite rank operator
 Finite set
 Finite state machine
@@ -5832,6 +5834,7 @@ Gauss's lemma (Riemannian geometry)
 Gauss's lemma (number theory)
 Gauss's lemma (polynomial)
 Gauss-Codazzi equations (relativity)
+Gauss-Jacobi Mechanical Quadrature
 Gaussian binomial
 Gaussian curvature
 Gaussian elimination
@@ -6613,6 +6616,7 @@ Hausman test
 Haven (graph theory)
 Haversine formula
 Hawaiian earring
+Hazard function
 Hazard ratio
 Heap (mathematics)
 Heaps' law
@@ -7227,6 +7231,7 @@ Ideal theory
 Ideal triangle
 Idealised population
 Idempotence
+Idempotent function
 Idempotent measure
 Identical particles
 Identically zero
@@ -7961,6 +7966,7 @@ Kaplan-Meier estimator
 Kaplan-Yorke map
 Kaplansky density theorem
 Kaplansky's conjecture
+Kaplansky's theorem on quadratic forms
 Kappa Mu Epsilon
 Kappa curve
 Kappa statistic
@@ -8041,6 +8047,7 @@ Kinematics
 Kinetic Monte Carlo
 Kinetic energy
 Kinetic logic
+King Wen sequence
 King's graph
 Kinki University Mathematics Contest
 Kirby calculus
@@ -8165,7 +8172,8 @@ Krull dimension
 Krull ring
 Krull's principal ideal theorem
 Krull's theorem
-Krull-Schmidt theorem
+Krull–Schmidt category
+Krull–Schmidt theorem
 Kruskal's algorithm
 Kruskal's tree theorem
 Kruskal-Wallis one-way analysis of variance
@@ -8426,6 +8434,7 @@ Least upper bound axiom
 Least-squares estimation of linear regression coefficients
 Least-squares spectral analysis
 Lebedev grid
+Lebedev quadrature
 Lebedev–Milin inequality
 Lebesgue constant
 Lebesgue constant (interpolation)
@@ -10070,6 +10079,7 @@ Motor variable
 Motzkin number
 Motzkin prime
 Moufang loop
+Moufang plane
 Moufang polygon
 Moulton plane
 Mountain climbing problem
@@ -10470,6 +10480,7 @@ Nominal number
 Nomogram
 Nomological network
 Non-Borel set
+Non-Desarguesian plane
 Non-Euclidean crystallographic group
 Non-Euclidean geometry
 Non-Hausdorff manifold
@@ -11600,7 +11611,9 @@ Polygonal chain
 Polygonal number
 Polygonizer
 Polyharmonic spline
+Polyhedral combinatorics
 Polyhedral compound
+Polyhedral graph
 Polyhedral space
 Polyhedron
 Polyhedron model
@@ -11978,6 +11991,7 @@ Projective cover
 Projective differential geometry
 Projective frame
 Projective geometry
+Projective geometry axioms
 Projective harmonic conjugates
 Projective hierarchy
 Projective line
@@ -13063,6 +13077,7 @@ Rosenbrock function
 Rosenbrock methods
 Rosser's theorem
 Rosser's trick
+Rota-Baxter algebra
 Rotary reciprocation
 Rotating calipers
 Rotation
@@ -14208,6 +14223,7 @@ Stable manifold
 Stable manifold theorem
 Stable map
 Stable marriage problem
+Stable module category
 Stable normal bundle
 Stable polynomial
 Stable roommates problem
@@ -14652,6 +14668,7 @@ Superellipsoid
 Superformula
 Supergroup (physics)
 Superior highly composite number
+Superiority and Inferiority Ranking Method
 Supermanifold
 Supermathematics
 Supermatrix
@@ -14873,6 +14890,7 @@ Talyrond
 Tamari lattice
 Tame group
 Tameness conjecture
+Tammes problem
 Tanaka equation
 Tanaka's formula
 Tangent
@@ -15114,6 +15132,7 @@ Thomas A. Scott Professorship of Mathematics
 Thompson group (finite)
 Thompson groups
 Thomson cubic
+Thomson problem
 Thomson's lamp
 Thread angle
 Three Prisoners problem
@@ -15200,6 +15219,7 @@ Tonelli's theorem (functional analysis)
 Tonelli–Hobson test
 Tonnetz
 Toom–Cook multiplication
+Top (mathematics)
 Top-dimensional form
 Topic outline of algebra
 Topic outline of arithmetic
@@ -15549,6 +15569,7 @@ Truncated trapezohedron
 Truncated triakis tetrahedron
 Truncation
 Truncation (geometry)
+Truncation (statistics)
 Truncation error
 Truncus
 Trust region
@@ -15788,6 +15809,7 @@ Units conversion by factor-label
 Unity amplitude
 Univalent function
 Univariate
+Univariate distribution
 Universal C*-algebra
 Universal algebra
 Universal algebraic geometry
