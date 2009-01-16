@@ -18,7 +18,7 @@ MAIN: {
   $sleep = 1; $attempts=10;
   $separator = '<!-- separator --> <!-- Please do not delete or modify this line, as that will confuse the bot. -->';
 
-  $cats_file="Wikipedia:WikiProject_Mathematics/List_of_mathematics_categories.wiki";
+  $cats_file="List_of_mathematics_categories.wiki";
   $new_cats_file="User:Mathbot/New math categories.wiki";
 
   $list = $cats_file; $list =~ s/\.wiki$//g;
