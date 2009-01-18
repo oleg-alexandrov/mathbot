@@ -83,9 +83,13 @@ MAIN: {
   $read=0;		      # write 
   ($talk, $p1, $p2, $p3, $p4, $p5) = &printout ($talk, $list, $read, $p1, $p2, $p3, $p4, $p5);
 
+  # Convert to the new url
   my $old_addr='http://www.math.ucla.edu/~aoleg/wp';
   my $new_addr='http://tools.wikimedia.de/~mathbot/cgi-bin/wp';
   $talk =~ s/$old_addr/$new_addr/g;
+
+  # retroactively fix a typo
+  $talk =~ s/clicking on the link at the bottom of subsection D/clicking on the link at the bottom of subsection E/g;
 
   print "Modifying the talk page of \"$liststrip\"<br>\n";
   $talk = encode('utf8', $talk);
