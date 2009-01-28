@@ -44,9 +44,10 @@ MAIN: {
   my $summary_file  = "Wikipedia:Articles_for_deletion/Old.wiki";
   my $detailed_file = "Wikipedia:Articles_for_deletion/Old/Open AfDs.wiki";
 
-  my $attempts=10;
-  my $sleep=1;
+  my $attempts = 10;
+  my $sleep    = 1;
   my ($text, $edit_summary, $error);
+
   $text = &wikipedia_fetch($summary_file, $attempts, $sleep);
 
   # add the discussion from five days ago, if it is not already in $text
@@ -128,6 +129,9 @@ MAIN: {
   if ($success){
     &wikipedia_submit($archive_file, $edit_summary, $archive_text, $attempts, $sleep);
   }
+  
+  # Initialize afd pages for the next several days
+  &initialize_new_afd_days($attempts, $sleep);
   
   print "<br>Finished! One may now go back to "
      . "<a href=\"http://en.wikipedia.org/w/index.php?title=Wikipedia:Articles_for_deletion/Old&action=purge\">" 
@@ -415,5 +419,77 @@ sub see_open_afd_discussions (){
   $detailed_stats = "==[[$link\|$short_link]]==\n" . $http_link . "\n" . $detailed_stats;
  
   return ($stats, $detailed_stats);  
+}
+
+sub initialize_new_afd_days {
+
+  # Initialize afd pages for the next several days by putting in a
+  # preamble for each day. When such a future day becomes today, the
+  # users will edit that afd page page and will add afd listings below
+  # the preamble.
+
+  print "\n\n<br><br><b>Initializing AfD pages for the next several days</b><br>\n";
+  
+  # Parameters related to fetching/submitting data to Wikipedia
+  my $attempts = shift;
+  my $sleep    = shift;
+  
+  my ($day);
+  
+  for ($day = 1 ; $day < 5 ; $day++){
+    
+    my ($prev_afd_link, $prev_afd_name) = &get_afd_link($day - 1);
+    my ($curr_afd_link, $curr_afd_name) = &get_afd_link($day + 0);
+    my ($next_afd_link, $next_afd_name) = &get_afd_link($day + 1);
+
+    my $days_page = $curr_afd_link . ".wiki";
+    my $days_text = &wikipedia_fetch($days_page, $attempts, $sleep);
+
+    if ($days_text !~ /^\s*$/){
+      # This day's page is not empty, so it was already initialized. Skip it.
+      print "Page exists<br><br>\n\n";
+      next;
+    }
+    
+    # Form the page for the current day
+    $days_text = &get_page_text($prev_afd_link, $prev_afd_name,
+                                $next_afd_link, $next_afd_name);
+
+    # Initialize the page for the day
+    print "\n<br>Initializing $curr_afd_link<br>\n";
+    my $edit_summary = "Initializing a new AfD day";
+    &wikipedia_submit($days_page, $edit_summary, $days_text, $attempts, $sleep);
+
+  }
+  
+}
+
+sub get_page_text {
+
+  my ($prev_afd_link, $prev_afd_name, $next_afd_link, $next_afd_name) = @_;
+
+  # Strip the text in parentheses from the text "1 February (Sunday)"
+  $prev_afd_name =~ s/\s*\(.*?\)\s*//g;
+  $next_afd_name =~ s/\s*\(.*?\)\s*//g;
+  
+return '<div class="boilerplate metadata vfd" style="background-color: #F3F9FF; margin: 0 auto; padding: 0 1px 0 0; border: 1px solid #AAAAAA; font-size:10px">
+{| width = "100%"
+|-
+! width="50%" align="left"  | <font color="gray">&lt;</font> [['
+. $prev_afd_link . '|' . $prev_afd_name
+. ']]
+! width="50%" align="right" |  [['
+. $next_afd_link . '|' . $next_afd_name
+. ']] <font color="gray">&gt;</font>
+|}
+</div>
+<div align = "center">\'\'\'[[Wikipedia:Guide to deletion|Guide to deletion]]\'\'\'</div>
+{{Cent}}
+<small>{{purge|Purge server cache}}</small>
+__TOC__
+<!-- Add new entries to the TOP of the following list -->
+
+';
+   
 }
 
