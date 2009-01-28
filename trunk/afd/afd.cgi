@@ -5,8 +5,8 @@ use strict;
 undef $/; 
 
 use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
-use lib '/home/mathbot/public_html/wp/modules'; # relative path to perl modules
-#use lib '../wp/modules'; # relative path to perl modules
+use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
+use lib '../wp/modules'; # relative path to perl modules
 
 require 'bin/wikipedia_fetch_submit.pl'; 
 require 'bin/wikipedia_login.pl';
@@ -34,19 +34,14 @@ MAIN: {
   }else{
    #print "Will stay in " . `pwd` . "\n"; 
   }
-  
+
+  # The log in process must happen after we switched to the right directory as done above
   &wikipedia_login();
   
   my ($stats, $detailed_stats, $detailed_combined_stats);
   $detailed_combined_stats = "{{shortcut|WP:OAFD|WP:OLDAFD}}\n";
 
-  my ($test_mode, $summary_file);
-  if (@ARGV){  $test_mode=1;  }else{  $test_mode=0;  } # see if we are in testing mode
-  if (! $test_mode){
-    $summary_file="Wikipedia:Articles_for_deletion/Old.wiki";
-  }else{
-    $summary_file="User:Mathbot/Page3.wiki";  
-  }
+  my $summary_file  = "Wikipedia:Articles_for_deletion/Old.wiki";
   my $detailed_file = "Wikipedia:Articles_for_deletion/Old/Open AfDs.wiki";
 
   my $attempts=10;
@@ -57,6 +52,7 @@ MAIN: {
   # add the discussion from five days ago, if it is not already in $text
   ($text, $edit_summary) = &add_another_day ($text);
 
+  # Find the number of open discussions for each listed day
   my @lines = split("\n", $text);
   my $line;
   my ($brief_afd_link, $link, %stats_hash);
