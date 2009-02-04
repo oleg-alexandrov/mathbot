@@ -12,7 +12,9 @@ require 'bin/wikipedia_fetch_submit.pl';
 require 'bin/wikipedia_login.pl';
 require 'bin/get_html.pl';
 
-# Summarize and list the recent Wikipedia articles for deletion
+# Count and list the pages containing Wikipedia articles for deletion discussions (AfD).
+# Archive the pages on which all deletion discussions are closed.
+# Initialize pages for the upcoming days.
 
 MAIN: {
   
@@ -29,25 +31,56 @@ MAIN: {
   my $cur_dir = $0; # $0 stands for the executable, with or without full path
   if ($cur_dir =~ /^\//){
     $cur_dir =~ s/^(.*)\/.*?$/$1/g;
-    #print "Will go to $cur_dir\n";
     chdir $cur_dir;
   }else{
-   #print "Will stay in " . `pwd` . "\n"; 
   }
 
   # The log in process must happen after we switched to the right directory as done above
   &wikipedia_login();
-  
-  my ($stats, $detailed_stats, $detailed_combined_stats);
-  $detailed_combined_stats = "{{shortcut|WP:OAFD|WP:OLDAFD}}\n";
+
+  my $attempts = 10;
+  my $sleep    = 1;
 
   my $summary_file  = "Wikipedia:Articles_for_deletion/Old.wiki";
   my $detailed_file = "Wikipedia:Articles_for_deletion/Old/Open AfDs.wiki";
 
-  my $attempts = 10;
-  my $sleep    = 1;
+  # Display the number of open afd discussions in the pages listed in
+  # in $summary_file and put links to those those discussions in $detailed_file.
+  # Return the list of pages in $combined_stats, we'll need that to decide which
+  # pages to archive.
+  my $combined_stats = &count_and_list_open_AfDs($summary_file, $detailed_file,
+                                                 $attempts, $sleep);
+
+  # Update the list of archived disucssions, the ones that are no longer at AfD/Old,
+  # which is the text in $combined_stats
+  my $archive_file = "Wikipedia:Archived deletion discussions.wiki";
+  &update_archived_discussions($archive_file, $combined_stats, $attempts, $sleep);
+  
+  # Initialize afd pages for the next several days
+  &initialize_new_afd_days($attempts, $sleep);
+  
+  print  "<br>Finished! One may now go back to "
+       . "<a href=\"http://en.wikipedia.org/w/index.php?title="
+       . "Wikipedia:Articles_for_deletion/Old&action=purge\">" 
+       . "Wikipedia:Articles for deletion/Old</a>. <br>\n";
+}
+
+
+sub count_and_list_open_AfDs {
+
+  # Display the number of open afd discussions in $summary_file and list them in $detailed_file.
+  
+  my $summary_file  = shift;
+  my $detailed_file = shift;
+  my $attempts      = shift;
+  my $sleep         = shift;
+      
+  my ($stats, $detailed_stats, $detailed_combined_stats);
+  $detailed_combined_stats = "{{shortcut|WP:OAFD|WP:OLDAFD}}\n";
+
   my ($text, $edit_summary, $error);
 
+  # Fetch the summary file
   $text = &wikipedia_fetch($summary_file, $attempts, $sleep);
 
   # add the discussion from five days ago, if it is not already in $text
@@ -74,7 +107,7 @@ MAIN: {
 
     ($text, $error) = &get_html ($full_link);
 
-    # see which AfD/VfD debates are not closed yet, and put that info in the link. 
+    # see which AfD debates are not closed yet, and put that info in the link. 
     # Get both a brief and a complete list, to put in different places.
     ($stats, $detailed_stats) = &see_open_afd_discussions ($link, $text, $detailed_file);
     $detailed_combined_stats = $detailed_combined_stats . $detailed_stats;
@@ -119,25 +152,8 @@ MAIN: {
   &wikipedia_submit($summary_file, $edit_summary, $combined_stats, $attempts, $sleep);
   &wikipedia_submit($detailed_file, $edit_summary, $detailed_combined_stats, $attempts, $sleep);
 
-  # Update the list of archived disucssions, the ones that are no longer at AfD/Old,
-  # which is the text in $combined_stats
-  my $archive_file = "Wikipedia:Archived deletion discussions.wiki";
-  my $archive_text = &wikipedia_fetch($archive_file, $attempts, $sleep);
-  my $success;
-  ($archive_text, $edit_summary, $success) = &update_archived_discussions($archive_text,
-                                                                       $combined_stats);
-  if ($success){
-    &wikipedia_submit($archive_file, $edit_summary, $archive_text, $attempts, $sleep);
-  }
-  
-  # Initialize afd pages for the next several days
-  &initialize_new_afd_days($attempts, $sleep);
-  
-  print "<br>Finished! One may now go back to "
-     . "<a href=\"http://en.wikipedia.org/w/index.php?title=Wikipedia:Articles_for_deletion/Old&action=purge\">" 
-	. "Wikipedia:Articles for deletion/Old</a>. <br>\n";
+  return $combined_stats;
 }
-
 
 sub add_another_day{
 
@@ -146,7 +162,7 @@ sub add_another_day{
   $text = shift;  
 
   # If beyond certain hour of the day (midnight GMT time),
-  # add a link for the Afd/VfD discussion six days ago if not here yet
+  # add a link for the Afd discussion six days ago if not here yet
   $hour_now=strftime("%H", localtime(time));
   $thresh = 0;  # midnight on gmt
 
@@ -219,12 +235,15 @@ sub update_archived_discussions {
   # at Afd/Old (where they are closed) are considered archived, and
   # should be added to the list of archived Afd pages.
 
-  my ($archived_text, $afd_text, $success, $curr_year, $prev_year);
+  my $archive_file = shift; # The name of the file containing the archives
+  my $afd_text     = shift; # What is at AfD/Old, those things should not yet be archived
+  my $attempts     = shift;
+  my $sleep        = shift;
 
-  $success = 0; # Not successful yet
-  
-  $archived_text = shift; # What is currently on the archived discussions page
-  $afd_text      = shift; # What is at AfD/Old, those things should not yet be archived
+  # The current text on the archive. We'll add to it.
+  my $archived_text = &wikipedia_fetch($archive_file, $attempts, $sleep);
+
+  my ($curr_year, $prev_year);
 
   # Identify the discussions in AfD/Old, which won't be added to the archive
   my %skip_archive = &extract_links($afd_text);
@@ -236,8 +255,8 @@ sub update_archived_discussions {
 
     # Add section for current year if missing
     if ($archived_text !~ /^(.*?)(==+\s*)$prev_year(\s*==+)(.*?)$/s){
-      $success = 0; # failed
-      return ("", "", $success); # Prev year section is missing, don't know what to do
+      print "Previous year section is missing, don't know what to do<br><br>\n";
+      return;      
     }
 
     # Add current year above previous year
@@ -300,13 +319,13 @@ sub update_archived_discussions {
   # we can see what changed and put that in the edit summary.
   if ($archived_text !~
       /^(.*?==+\s*$curr_year\s*==+)(.*?)(==+\s*$prev_year\s*==.*?)$/s) {
-    $success = 0; # failed
-    return ("", "", $success); # Prev year section is missing, don't know what to do
+    print "Previous year section is missing, don't know what to do<br><br>\n";
+    return;
   }
 
-  my $p1 = $1;
+  my $p1            = $1;
   my $existing_text = $2;
-  my $p3 = $3;
+  my $p3            = $3;
 
   # See what links are in @new_links_array and are not in %existing_links.
   # Put those in the edit summary.
@@ -322,19 +341,17 @@ sub update_archived_discussions {
   }
 
   if ($edit_summary eq ""){
-    # Now new links were added now
-    $success = 0; # failed
-    return ("", "", $success);
+    print "No new pages to archive<br><br>\n";
+    return;
   }
 
   # Replace in $archived_text the portion corresponding to the links for this year
   # with $new_links which contains the newly archived links 
   $archived_text = $p1 . "\n" . $new_links . "\n" . $p3;
 
-  $success = 1; # succeeded
   $edit_summary = "Archiving " . $edit_summary;
-
-  return ($archived_text, $edit_summary, $success);
+  
+  &wikipedia_submit($archive_file, $edit_summary, $archived_text, $attempts, $sleep);
 }
 
 sub see_open_afd_discussions (){
@@ -349,7 +366,7 @@ sub see_open_afd_discussions (){
   # strip the top part, as otherwise it confuses the parser below
   $text =~ s/^.*?\<div id=\"toctitle\"\>//sg;
   
-  # some processing to deal with Vfd/afd ambiguity recently
+  # some processing to deal with AfD ambiguity recently
   $text =~ s/\"boilerplate[_\s]+metadata[_\s+][avp]fd.*?\"/\"boilerplate metadata vfd\"/ig;
   
   $text =~   s/(\<div\s+class\s*=\s*\"boilerplate metadata vfd\".*?\<span\s+class\s*=\s*\"editsectio)(n)(.*?\>)/$1p$3/sgi;
