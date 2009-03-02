@@ -122,7 +122,7 @@ sub parse_current_contributions_page {
   @lines = split ("\n", $text);
 
   foreach $line (@lines) {
-    next unless ($line =~ /^\<li\>.*?title=[\"\'](.*?)[\"\'](.*?)$/);
+    next unless ($line =~ /^\<li.*?title=[\"\'](.*?)[\"\'](.*?)$/);
     $title=$1; $comment=$2; # page name is in $title, the comment is in $comment
     $title =~ s/_/ /g;
     
