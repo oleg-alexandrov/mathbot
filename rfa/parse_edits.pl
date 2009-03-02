@@ -19,7 +19,7 @@ sub parse_edits {
     print "Error in parse_edits.pl. No user given. Exiting.\n";
     exit(0);
   }
-  
+
   $lang="en" if (!$lang || $lang =~ /^\s*$/);
 
   $user =~ s/^\s*(.*?)\s*$/$1/g; 
@@ -118,11 +118,12 @@ sub parse_current_contributions_page {
   
   $text =~ s/\n//g; 
   $text =~ s/\<div class=[\"\']printfooter[\"\']\>.*?$//sg; #strip bottom
-  $text =~ s/(\<li\>)/\n$1/ig;                              #care only about items
+  $text =~ s/(\<li\b)/\n$1/ig;                              #care only about items
   @lines = split ("\n", $text);
 
   foreach $line (@lines) {
-    next unless ($line =~ /^\<li.*?title=[\"\'](.*?)[\"\'](.*?)$/);
+   
+    next unless ($line =~ /^\s*\<li\b.*?title=[\"\'](.*?)[\"\'](.*?)$/i);
     $title=$1; $comment=$2; # page name is in $title, the comment is in $comment
     $title =~ s/_/ /g;
     
