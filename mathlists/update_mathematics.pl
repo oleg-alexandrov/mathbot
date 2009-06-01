@@ -139,7 +139,7 @@ sub merge_new_entries_from_categories{
   foreach (sort { $a cmp $b } keys %articles) {
     $text = $text . $articles{$_} . "\n";
   }
-  $text = $text . "\n[[Category:Mathematics-related lists|Mathematics $letter]]\n[[Category:Topical indexes|Mathematics $letter]]\n";
+  $text = $text . "\n[[Category:Mathematics-related lists|Mathematics $letter]]\n[[Category:Indexes of articles|Mathematics $letter]]\n";
   return $text;
 }
 
