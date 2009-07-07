@@ -1,6 +1,6 @@
 #!/usr/bin/perl
-use strict;		          # 'strict' insists that all variables be declared
-use diagnostics;	      # 'diagnostics' expands the cryptic warnings
+use strict;          # 'strict' insists that all variables be declared
+use diagnostics;     # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
