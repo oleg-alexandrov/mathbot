@@ -40,12 +40,29 @@ MAIN: {
   # Count how things were disposed
   my @disp       = find_column_by_name($table, "Disp");
   @disp          = strip_links(@disp);
-  my %disp_stats = ("accepted" => 0, "declined" => 0, "motion" => 0, "withdrawn" => 0);
-  #%disp_stats = count_values(\@disp, \%disp_stats); # function to be written
-  
-  print "Number of requests is $num_req\n";
-  print "Average is $average\n";
-  
+
+  my @disp_names  = ("accepted", "declined", "motion",             "withdrawn");
+  my @disp_legend = ("accepted", "declined", "disposed by motion", "withdrawn");
+  my %disp_count;
+  my $total = count_values(\@disp, \@disp_names, # inputs
+                           \%disp_count          # output
+                          );
+  if ($total != $num_req){
+    print "Size mis-match\n";
+    exit(0);
+  }
+
+  my $summary = "Requests: $num_req; average duration: $average days; ";
+  for (my $count = 0; $count < scalar(@disp_names); $count++){
+
+    my $val = $disp_count{$disp_names[$count]};
+    my $pct = round_to_n_digits(100.0*$val/$total, 0);
+    $summary .= $disp_legend[$count] . ": " . $val . " (" . $pct . "%); ";
+  }
+  $summary =~ s/\;\s*$//g;
+
+  $beg_tag = "<!-- begin case requests table 2009 only -->";
+  $end_tag = "<!-- end case requests table 2009 only -->";
 
   # Code to submit things back to Wikipedia
   # $edit_summary = "A test";
@@ -246,4 +263,41 @@ sub strip_links {
 
   return @_;
 }
-   
+
+sub count_values{
+
+  # Given an array $vals having as values elements in $names,
+  # see how many times each element in $names occurs in $vals
+  
+  my $vals  = shift; # input
+  my $names = shift; # input
+  
+  my $count = shift; # output
+  my $total = 0;     # output 
+  %$count = ();
+  
+  foreach my $val (@$vals){
+
+    my $val_lc = lc($val); # lowercase
+    if (exists $count->{$val_lc}){
+      $count->{$val_lc}++;
+    }else{
+
+      $count->{$val_lc} = 1;
+    }
+
+  }
+  
+  foreach my $name (@$names){
+
+    my $name_lc = lc($name);
+    if (!exists $count->{$name_lc} ){
+      $count->{$name_lc} = 0;
+    }
+
+    $total += $count->{$name_lc};     # output
+  }
+
+  return $total;
+}
+
