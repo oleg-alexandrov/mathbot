@@ -4,7 +4,7 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
+require 'bin/perlwikipedia_utils.pl'; # Needed to get things to and from Wikipedia.
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 MAIN: {
