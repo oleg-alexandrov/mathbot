@@ -12,19 +12,19 @@ MAIN: {
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
   my ($edit_summary, $Editor);
 
-  # Get the text from the server
-  $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
-  $Editor=wikipedia_login("mathbot");
-  $file = "Wikipedia:Requests for arbitration/Statistics 2009";
-  $text=wikipedia_fetch($Editor, $file, $attempts, $sleep);  # fetch from Wikipedia
+#  # Get the text from the server
+#   $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
+#   $Editor=wikipedia_login("mathbot");
+#   $file = "Wikipedia:Requests for arbitration/Statistics 2009";
+#   $text=wikipedia_fetch($Editor, $file, $attempts, $sleep);  # fetch from Wikipedia
 
   $local_file1 = "Statistics_2009.txt";
-  open(FILE, ">$local_file1");
-  print FILE $text;
-  close(FILE);
+#   open(FILE, ">$local_file1");
+#   print FILE $text;
+#   close(FILE);
   
-#   # Use local copy instead
-#   open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
+  # Use local copy instead
+  open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
 
   my $beg_tag = "<!-- begin case requests table 2009 only -->";
   my $end_tag = "<!-- end case requests table 2009 only -->";
@@ -35,36 +35,7 @@ MAIN: {
   
   my $table      = parse_wiki_table($table_text);
 
-  my @requests   = find_column_by_name($table, "Request");
-  my $num_req    = scalar ( @requests );
-
-  my @days       = find_column_by_name($table, "Days");
-  my $average    = find_array_average(@days);
-  $average       = round_to_n_digits($average, 1);
-
-  # Count how things were disposed
-  my @disp       = find_column_by_name($table, "Disp");
-  @disp          = strip_links(@disp);
-
-  my @disp_names  = ("accepted", "declined", "motion",             "withdrawn");
-  my @disp_legend = ("accepted", "declined", "disposed by motion", "withdrawn");
-  my %disp_count;
-  my $total = count_values(\@disp, \@disp_names, # inputs
-                           \%disp_count          # output
-                          );
-  if ($total != $num_req){
-    print "Size mis-match\n";
-    exit(0);
-  }
-
-  my $summary = "Requests: $num_req; average duration: $average days; ";
-  for (my $count = 0; $count < scalar(@disp_names); $count++){
-
-    my $val = $disp_count{$disp_names[$count]};
-    my $pct = round_to_n_digits(100.0*$val/$total, 0);
-    $summary .= $disp_legend[$count] . ": " . $val . " (" . $pct . "%); ";
-  }
-  $summary =~ s/\;\s*$//g;
+  my $summary    = compute_summary($table);
   $summary = "\n" . $summary . "\n";
   
   $beg_tag = "<!-- begin case requests summary 2009 only -->";
@@ -330,3 +301,57 @@ sub count_values{
   return $total;
 }
 
+sub compute_summary {
+
+  my $table      = shift;
+  
+  my @requests   = find_column_by_name($table, "Request");
+  my $num_req    = scalar ( @requests );
+
+  my @days       = find_column_by_name($table, "Days");
+  my $average    = find_array_average(@days);
+  $average       = round_to_n_digits($average, 1);
+
+  # Count how things were disposed
+  my @disp       = find_column_by_name($table, "Disp");
+  @disp          = strip_links(@disp);
+
+  my @disp_names  = ("accepted", "declined", "motion",             "withdrawn");
+  my @disp_legend = ("accepted", "declined", "disposed by motion", "withdrawn");
+  my %disp_count;
+  my $total = count_values(\@disp, \@disp_names, # inputs
+                           \%disp_count          # output
+                          );
+  if ($total != $num_req){
+    print "Size mis-match\n";
+    exit(0);
+  }
+
+  my $summary = form_summary($num_req, $average, $total,
+                             \@disp_names, \@disp_legend, \%disp_count);
+
+  return $summary;
+}
+
+sub form_summary {
+
+  my $num_req     = shift;
+  my $average     = shift;
+  my $total       = shift;
+  my $disp_names  = shift;
+  my $disp_legend = shift;
+  my $disp_count  = shift;
+  
+  my $summary = "Requests: $num_req; average duration: $average days; ";
+  for (my $count = 0; $count < scalar(@$disp_names); $count++){
+
+    my $val = $disp_count->{$disp_names->[$count]};
+    my $pct = round_to_n_digits(100.0*$val/$total, 0);
+    $summary .= $disp_legend->[$count] . ": " . $val . " (" . $pct . "%); ";
+    
+  }
+  
+  $summary =~ s/\;\s*$//g;
+
+  return $summary;
+}
