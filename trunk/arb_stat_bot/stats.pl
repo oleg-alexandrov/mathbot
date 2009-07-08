@@ -9,17 +9,22 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 MAIN: {
 
-  my ($sleep, $attempts, $text, $file, $edit_summary, $Editor);
+  my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
+  my ($edit_summary, $Editor);
 
   # Get the text from the server
-  #$sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
-  #$Editor=wikipedia_login("Arb stat bot");
-  #$file = "Wikipedia:Requests for arbitration/Statistics 2009";
-  #$text=wikipedia_fetch($Editor, $file, $attempts, $sleep);  # fetch from Wikipedia
+  $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
+  $Editor=wikipedia_login("mathbot");
+  $file = "Wikipedia:Requests for arbitration/Statistics 2009";
+  $text=wikipedia_fetch($Editor, $file, $attempts, $sleep);  # fetch from Wikipedia
 
-  # Use local copy instead
-  $file = "Statistics_2009.txt";
-  open(FILE, "<$file"); $text = <FILE>; close(FILE);
+  $local_file1 = "Statistics_2009.txt";
+  open(FILE, ">$local_file1");
+  print FILE $text;
+  close(FILE);
+  
+#   # Use local copy instead
+#   open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
 
   my $beg_tag = "<!-- begin case requests table 2009 only -->";
   my $end_tag = "<!-- end case requests table 2009 only -->";
@@ -60,9 +65,17 @@ MAIN: {
     $summary .= $disp_legend[$count] . ": " . $val . " (" . $pct . "%); ";
   }
   $summary =~ s/\;\s*$//g;
+  $summary = "\n" . $summary . "\n";
+  
+  $beg_tag = "<!-- begin case requests summary 2009 only -->";
+  $end_tag = "<!-- end case requests summary 2009 only -->";
 
-  $beg_tag = "<!-- begin case requests table 2009 only -->";
-  $end_tag = "<!-- end case requests table 2009 only -->";
+  $text = put_text_between_tags($text, $summary, $beg_tag, $end_tag);
+
+  $local_file2 = "Statistics_2009_proc.txt";
+  open(FILE, ">$local_file2");
+  print FILE $text . "\n";
+  close(FILE);
 
   # Code to submit things back to Wikipedia
   # $edit_summary = "A test";
@@ -82,6 +95,22 @@ sub get_text_between_tags {
     return "";
   }
     
+}
+
+sub put_text_between_tags {
+
+  my $text    = shift;
+  my $to_put  = shift;
+  my $beg_tag = shift;
+  my $end_tag = shift;
+
+  if ($text =~ /^(.*?\Q$beg_tag\E).*?(\Q$end_tag\E.*?)$/s){
+    return $text = $1 . $to_put . $2;
+  }else{
+    print "Could not match text between $beg_tag and $end_tag\n";
+  }
+
+  return $text;
 }
 
 sub parse_wiki_table {
