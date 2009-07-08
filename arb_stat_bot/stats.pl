@@ -7,12 +7,14 @@ use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/perlwikipedia_utils.pl'; # Needed to get things to and from Wikipedia.
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
+my @g_types = ("2009 only", "2009 2008", "all");
+
 MAIN: {
 
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
-  my ($edit_summary, $Editor);
+  my ($edit_summary, $Editor, $type);
 
-#  # Get the text from the server
+ #  # Get the text from the server
 #   $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
 #   $Editor=wikipedia_login("mathbot");
 #   $file = "Wikipedia:Requests for arbitration/Statistics 2009";
@@ -26,23 +28,35 @@ MAIN: {
   # Use local copy instead
   open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
 
-  my $beg_tag = "<!-- begin case requests table 2009 only -->";
-  my $end_tag = "<!-- end case requests table 2009 only -->";
-
   $text =~ s/\r//g; # Get rid of Windows carriage return
+  my (@beg_table_tags, @end_table_tags, @beg_summary_tags, @end_summary_tags);
 
-  my $table_text = get_text_between_tags($text, $beg_tag, $end_tag);
+  foreach $type (@g_types){
+    push (@beg_table_tags,   "<!-- begin case requests table $type -->");
+    push (@end_table_tags,   "<!-- end case requests table $type -->");
+
+    push (@beg_summary_tags, "<!-- begin case requests summary $type -->");
+    push (@end_summary_tags, "<!-- end case requests summary $type -->");
+  }
+
+  for (my $count = 0; $count < 1; $count++){
+
+    my $beg_table_tag = $beg_table_tags[$count];
+    my $end_table_tag = $end_table_tags[$count];
+
+    my $table_text = get_text_between_tags($text, $beg_table_tag, $end_table_tag);
   
-  my $table      = parse_wiki_table($table_text);
+    my $table      = parse_wiki_table($table_text);
 
-  my $summary    = compute_summary($table);
-  $summary = "\n" . $summary . "\n";
+    my $summary    = compute_summary($table);
+    $summary = "\n" . $summary . "\n";
+    
+    my $beg_summary_tag = $beg_summary_tags[$count];
+    my $end_summary_tag = $end_summary_tags[$count];
+
+    $text = put_text_between_tags($text, $summary, $beg_summary_tag, $end_summary_tag);
+  }
   
-  $beg_tag = "<!-- begin case requests summary 2009 only -->";
-  $end_tag = "<!-- end case requests summary 2009 only -->";
-
-  $text = put_text_between_tags($text, $summary, $beg_tag, $end_tag);
-
   $local_file2 = "Statistics_2009_proc.txt";
   open(FILE, ">$local_file2");
   print FILE $text . "\n";
