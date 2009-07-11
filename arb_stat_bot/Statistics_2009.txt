@@ -7,7 +7,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 
 ===Case requests===
 <!-- begin case requests summary all -->
-* Requests: 59; average duration: 4.9 days; accepted: 17 (29%); declined: 37 (63%); disposed by motion: 4 (7%); withdrawn: 1 (2%).
+ * Requests: 59; average duration: 4.9 days; accepted: 17 (29%); declined: 37 (63%); disposed by motion: 4 (7%); withdrawn: 1 (2%).
 <!-- end case requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -124,7 +124,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 <!-- end case requests table 2009 only -->
 | align="center" colspan=27  |
 <!-- begin case requests summary 2009 only -->
-Requests: 52; average duration: 4.7 days; accepted: 15 (29%); declined: 33 (63%); disposed by motion: 3 (6%); withdrawn: 1 (2%)
+ Requests: 52; average duration: 4.7 days; accepted: 15 (29%); declined: 33 (63%); disposed by motion: 3 (6%); withdrawn: 1 (2%)
 <!-- end case requests summary 2009 only -->
 |}
 
@@ -152,13 +152,13 @@ Requests: 52; average duration: 4.7 days; accepted: 15 (29%); declined: 33 (63%)
 <!-- end case requests table 2009 2008 -->
 |  align="center" colspan=33 |
 <!-- begin case requests summary 2009 2008 -->
-Requests: 7; average duration: 6.6 days; accepted: 2 (29%); declined: 4 (57%); disposed by motion: 1 (14%)
+ Requests: 7; average duration: 6.6 days; accepted: 2 (29%); declined: 4 (57%); disposed by motion: 1 (14%)
 <!-- end case requests summary 2009 2008 -->
 |}
 
 ===Clarifications and other requests===
 <!-- begin clarification requests summary all -->
-*Requests: 57; average duration: 11.0 days; declined: 15 (26%); disposed by clarification: 28 (49%); disposed by motion: 13 (23%); withdrawn: 1 (2%).
+ *Requests: 57; average duration: 11.0 days; declined: 15 (26%); disposed by clarification: 28 (49%); disposed by motion: 13 (23%); withdrawn: 1 (2%).
 <!-- end clarification requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -275,7 +275,7 @@ Requests: 7; average duration: 6.6 days; accepted: 2 (29%); declined: 4 (57%); d
 <!-- end clarification requests table 2009 only -->
 | align="center" colspan=25 |
 <!-- begin clarification requests summary 2009 only -->
-Requests: 52; average duration: 11.3 days; declined: 13 (25%); disposed by clarification: 27 (52%); disposed by motion: 11 (21%); withdrawn: 1 (2%)
+ Requests: 52; average duration: 11.3 days; declined: 13 (25%); disposed by clarification: 27 (52%); disposed by motion: 11 (21%); withdrawn: 1 (2%)
 <!-- end clarification requests summary 2009 only -->
 |}
 
@@ -299,7 +299,7 @@ Requests: 52; average duration: 11.3 days; declined: 13 (25%); disposed by clari
 <!-- end clarification requests table 2009 2008 -->
 | align="center" colspan=31 | 
 <!-- begin clarification requests summary 2009 2008 -->
-Requests: 5; average duration: 8.1 days; declined: 2 (40%); disposed by clarification: 1 (20%); disposed by motion: 2 (40%)
+ Requests: 5; average duration: 8.1 days; declined: 2 (40%); disposed by clarification: 1 (20%); disposed by motion: 2 (40%)
 <!-- end clarification requests summary 2009 2008 -->
 |}
 

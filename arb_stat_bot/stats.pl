@@ -4,21 +4,19 @@ use diagnostics;     # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-require 'bin/perlwikipedia_utils.pl'; # Needed to get things to and from Wikipedia.
+require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
 undef $/; # undefines the separator. Can read one whole file in one scalar.
-
-my @g_types = ("2009 only", "2009 2008", "all");
 
 MAIN: {
 
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
-  my ($edit_summary, $Editor, $type);
+  my ($edit_summary, $Editor);
 
  #  # Get the text from the server
-#   $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
+#   $sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
 #   $Editor=wikipedia_login("mathbot");
 #   $file = "Wikipedia:Requests for arbitration/Statistics 2009";
-#   $text=wikipedia_fetch($Editor, $file, $attempts, $sleep);  # fetch from Wikipedia
+#   $text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
 
   $local_file1 = "Statistics_2009.txt";
 #   open(FILE, ">$local_file1");
@@ -29,32 +27,56 @@ MAIN: {
   open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
 
   $text =~ s/\r//g; # Get rid of Windows carriage return
-  my (@beg_table_tags, @end_table_tags, @beg_summary_tags, @end_summary_tags);
 
-  foreach $type (@g_types){
-    push (@beg_table_tags,   "<!-- begin case requests table $type -->");
-    push (@end_table_tags,   "<!-- end case requests table $type -->");
-
-    push (@beg_summary_tags, "<!-- begin case requests summary $type -->");
-    push (@end_summary_tags, "<!-- end case requests summary $type -->");
-  }
-
-  for (my $count = 0; $count < 1; $count++){
-
-    my $beg_table_tag = $beg_table_tags[$count];
-    my $end_table_tag = $end_table_tags[$count];
-
-    my $table_text = get_text_between_tags($text, $beg_table_tag, $end_table_tag);
+  my $years = ["2009 only", "2009 2008", "all"];
+  my $types = ["case", "clarification"];
   
-    my $table      = parse_wiki_table($table_text);
+  # For each year and each type of table we need to produce a summary
 
-    my $summary    = compute_summary($table);
-    $summary = "\n" . $summary . "\n";
+  foreach my $type (@$types){
+
+    my ($beg_table_tags,   $end_table_tags);   # where to read data from 
+    my ($beg_summary_tags, $end_summary_tags); # where to write data to
+
+    # Find the tags which mark which table to summarize
+    foreach my $year (@$years){
+      push (@$beg_table_tags,   "<!-- begin $type requests table $year -->");
+      push (@$end_table_tags,   "<!-- end $type requests table $year -->");
+      
+      push (@$beg_summary_tags, "<!-- begin $type requests summary $year -->");
+      push (@$end_summary_tags, "<!-- end $type requests summary $year -->");
+    }
+
+    # Things to summarize and their explanation
+    my ($disp_names, $disp_legend);
     
-    my $beg_summary_tag = $beg_summary_tags[$count];
-    my $end_summary_tag = $end_summary_tags[$count];
-
-    $text = put_text_between_tags($text, $summary, $beg_summary_tag, $end_summary_tag);
+    if ($type eq "case"){
+      
+      $disp_names  = ["accepted", "declined",
+                      "motion",   "withdrawn"];
+      $disp_legend = ["accepted", "declined",
+                      "disposed by motion", "withdrawn"];
+      
+    }elsif ($type eq "clarification"){
+      
+      $disp_names  = ["declined", "clarification",
+                      "motion",   "withdrawn"];
+      $disp_legend = ["declined", "disposed by clarification",
+                      "disposed by motion", "withdrawn"];
+      
+    }else{
+      print "Unknown request type\n";
+      exit(0);
+    }
+    
+    # text to read data from and write summary to
+    $text = 
+       complete_table_summaries($text,
+                                $beg_table_tags, $end_table_tags,    
+                                $beg_summary_tags, $end_summary_tags,
+                                $disp_names, $disp_legend    
+                               );
+    
   }
   
   $local_file2 = "Statistics_2009_proc.txt";
@@ -65,6 +87,54 @@ MAIN: {
   # Code to submit things back to Wikipedia
   # $edit_summary = "A test";
   # wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
+}
+
+sub complete_table_summaries {
+  
+  my $text             = shift; # the big text containing all the tables 
+  my $beg_table_tags   = shift; # marks where each table to parse starts
+  my $end_table_tags   = shift; # marks where each table to parse ends
+  my $beg_summary_tags = shift; # marks where the summary will start
+  my $end_summary_tags = shift; # marks where the summary will end
+  my $disp_names       = shift; # the types of values to summarize
+  my $disp_legend      = shift; # the explanation of each value to summarize
+
+  my $table_text;   # an individual table from the big text
+
+  # There are three summaries to complete: 2009 only ($count == 0),
+  # 2009 and 2008 ($count == 1), and the combined one.
+  
+  for (my $count = 0; $count < 3; $count++){ 
+
+    # Extract the table to summarize
+    if ($count != 2){
+      $table_text = get_text_between_tags($text,
+                                          $beg_table_tags->[$count], $end_table_tags->[$count]);
+    }else{
+      # for $count == 2 we combine the two individual tables 0 and 1
+      $table_text = get_text_between_tags($text, $beg_table_tags->[0], $end_table_tags->[0])
+                  . "\n"
+                  . get_text_between_tags($text, $beg_table_tags->[1], $end_table_tags->[1]);
+    }
+    my $table      = parse_wiki_table($table_text);
+
+    # Summarize the table
+    my $summary    = compute_summary($table, $disp_names, $disp_legend);
+    $summary = "\n" . $summary . "\n";
+
+    if ($count == 2){
+      # The combined summary is formatted a bit different than the individual summmaries
+      $summary =~ s/^\s*/\n\* /g;
+      $summary =~ s/\s*$/\.\n/g;
+    }
+
+    # Insert the computed summary in the right place
+    $text = put_text_between_tags($text, $summary,
+                                  $beg_summary_tags->[$count], $end_summary_tags->[$count]);
+  }
+
+  return $text;
+  
 }
 
 sub get_text_between_tags {
@@ -317,8 +387,10 @@ sub count_values{
 
 sub compute_summary {
 
-  my $table      = shift;
-  
+  my $table       = shift;
+  my $disp_names  = shift;
+  my $disp_legend = shift;
+
   my @requests   = find_column_by_name($table, "Request");
   my $num_req    = scalar ( @requests );
 
@@ -330,10 +402,8 @@ sub compute_summary {
   my @disp       = find_column_by_name($table, "Disp");
   @disp          = strip_links(@disp);
 
-  my @disp_names  = ("accepted", "declined", "motion",             "withdrawn");
-  my @disp_legend = ("accepted", "declined", "disposed by motion", "withdrawn");
   my %disp_count;
-  my $total = count_values(\@disp, \@disp_names, # inputs
+  my $total = count_values(\@disp, $disp_names,  # inputs
                            \%disp_count          # output
                           );
   if ($total != $num_req){
@@ -342,7 +412,7 @@ sub compute_summary {
   }
 
   my $summary = form_summary($num_req, $average, $total,
-                             \@disp_names, \@disp_legend, \%disp_count);
+                             $disp_names, $disp_legend, \%disp_count);
 
   return $summary;
 }
