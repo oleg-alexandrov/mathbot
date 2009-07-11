@@ -12,16 +12,14 @@ MAIN: {
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
   my ($edit_summary, $Editor);
 
- #  # Get the text from the server
+#   # Get the text from the server
 #   $sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
 #   $Editor=wikipedia_login("mathbot");
 #   $file = "Wikipedia:Requests for arbitration/Statistics 2009";
 #   $text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
 
   $local_file1 = "Statistics_2009.txt";
-#   open(FILE, ">$local_file1");
-#   print FILE $text;
-#   close(FILE);
+#   open(FILE, ">$local_file1"); print FILE $text; close(FILE);
   
   # Use local copy instead
   open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
