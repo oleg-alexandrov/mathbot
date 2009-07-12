@@ -193,35 +193,41 @@ sub form_summary {
   return $summary;
 }
 
-sub get_text_between_tags {
+sub count_values{
 
-  my $text    = shift;
-  my $beg_tag = shift;
-  my $end_tag = shift;
+  # Given an array $vals having as values elements in $names,
+  # see how many times each element in $names occurs in $vals.
+  
+  my $vals  = shift; # input
+  my $names = shift; # input
+  
+  my $count = shift; # output
+  my $total = 0;     # output 
+  %$count = ();
+  
+  foreach my $val (@$vals){
 
-  if ($text =~ /\Q$beg_tag\E(.*?)\Q$end_tag\E/s){
-    return $1;
-  }else{
-    print "Could not match text between $beg_tag and $end_tag\n";
-    return "";
+    my $val_lc = lc($val); # lowercase
+    if (exists $count->{$val_lc}){
+      $count->{$val_lc}++;
+    }else{
+
+      $count->{$val_lc} = 1;
+    }
+
   }
-    
-}
+  
+  foreach my $name (@$names){
 
-sub put_text_between_tags {
+    my $name_lc = lc($name);
+    if (!exists $count->{$name_lc} ){
+      $count->{$name_lc} = 0;
+    }
 
-  my $text    = shift;
-  my $to_put  = shift;
-  my $beg_tag = shift;
-  my $end_tag = shift;
-
-  if ($text =~ /^(.*?\Q$beg_tag\E).*?(\Q$end_tag\E.*?)$/s){
-    return $text = $1 . $to_put . $2;
-  }else{
-    print "Could not match text between $beg_tag and $end_tag\n";
+    $total += $count->{$name_lc};     # output
   }
 
-  return $text;
+  return $total;
 }
 
 sub parse_wiki_table {
@@ -359,6 +365,37 @@ sub find_column_by_name{
   return @output_column;
 }
 
+sub get_text_between_tags {
+
+  my $text    = shift;
+  my $beg_tag = shift;
+  my $end_tag = shift;
+
+  if ($text =~ /\Q$beg_tag\E(.*?)\Q$end_tag\E/s){
+    return $1;
+  }else{
+    print "Could not match text between $beg_tag and $end_tag\n";
+    return "";
+  }
+    
+}
+
+sub put_text_between_tags {
+
+  my $text    = shift;
+  my $to_put  = shift;
+  my $beg_tag = shift;
+  my $end_tag = shift;
+
+  if ($text =~ /^(.*?\Q$beg_tag\E).*?(\Q$end_tag\E.*?)$/s){
+    return $text = $1 . $to_put . $2;
+  }else{
+    print "Could not match text between $beg_tag and $end_tag\n";
+  }
+
+  return $text;
+}
+
 sub find_array_average{
 
   my $sum   = 0;
@@ -404,42 +441,5 @@ sub strip_links {
   }
 
   return @_;
-}
-
-sub count_values{
-
-  # Given an array $vals having as values elements in $names,
-  # see how many times each element in $names occurs in $vals.
-  
-  my $vals  = shift; # input
-  my $names = shift; # input
-  
-  my $count = shift; # output
-  my $total = 0;     # output 
-  %$count = ();
-  
-  foreach my $val (@$vals){
-
-    my $val_lc = lc($val); # lowercase
-    if (exists $count->{$val_lc}){
-      $count->{$val_lc}++;
-    }else{
-
-      $count->{$val_lc} = 1;
-    }
-
-  }
-  
-  foreach my $name (@$names){
-
-    my $name_lc = lc($name);
-    if (!exists $count->{$name_lc} ){
-      $count->{$name_lc} = 0;
-    }
-
-    $total += $count->{$name_lc};     # output
-  }
-
-  return $total;
 }
 
