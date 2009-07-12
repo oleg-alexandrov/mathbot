@@ -106,13 +106,15 @@ sub complete_table_summaries {
 
     # Extract the table to summarize
     if ($count != 2){
-      $table_text = get_text_between_tags($text,
-                                          $beg_table_tags->[$count], $end_table_tags->[$count]);
+      $table_text = get_text_between_tags($text, $beg_table_tags->[$count],
+                                          $end_table_tags->[$count]);
     }else{
       # for $count == 2 we combine the two individual tables 0 and 1
-      $table_text = get_text_between_tags($text, $beg_table_tags->[0], $end_table_tags->[0])
+      $table_text = get_text_between_tags($text, $beg_table_tags->[0],
+                                          $end_table_tags->[0])
                   . "\n"
-                  . get_text_between_tags($text, $beg_table_tags->[1], $end_table_tags->[1]);
+                  . get_text_between_tags($text, $beg_table_tags->[1],
+                                             $end_table_tags->[1]);
     }
     my $table      = parse_wiki_table($table_text);
 
@@ -121,14 +123,15 @@ sub complete_table_summaries {
     $summary = "\n" . $summary . "\n";
 
     if ($count == 2){
-      # The combined summary is formatted a bit different than the individual summmaries
+      # The combined summary is formatted a bit different than
+      # the individual summmaries
       $summary =~ s/^\s*/\n\* /g;
       $summary =~ s/\s*$/\.\n/g;
     }
 
     # Insert the computed summary in the right place
-    $text = put_text_between_tags($text, $summary,
-                                  $beg_summary_tags->[$count], $end_summary_tags->[$count]);
+    $text = put_text_between_tags($text, $summary, $beg_summary_tags->[$count],
+                                  $end_summary_tags->[$count]);
   }
 
   return $text;
@@ -168,8 +171,9 @@ sub put_text_between_tags {
 
 sub parse_wiki_table {
 
-  # Parse a wikipedia table, store the result in a 2D array, with $table->{$i}->{$j}
-  # storing table element (i, j). Indices start from 0. 
+  # Parse a wikipedia table, store the result in a 2D array,
+  # with $table->{$i}->{$j} storing table element (i, j).
+  # Indices start from 0. 
 
   # We assume that the topmost row has the format
   # ! x !! y !! z   
@@ -236,7 +240,8 @@ sub parse_zeroth_table_row{
    
 sub parse_other_table_rows{
 
-  # Rows are separated by ||. First row may have alignment info which we will strip. 
+  # Rows are separated by ||. First row may have alignment info
+  # which we will strip. 
   my $row = shift;
 
   if ($row !~ /^\|/){
