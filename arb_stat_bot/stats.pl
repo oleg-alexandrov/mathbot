@@ -138,6 +138,61 @@ sub complete_table_summaries {
   
 }
 
+sub compute_summary {
+
+  my $table       = shift;
+  my $disp_names  = shift;
+  my $disp_legend = shift;
+
+  my @requests   = find_column_by_name($table, "Request");
+  my $num_req    = scalar ( @requests );
+
+  my @days       = find_column_by_name($table, "Days");
+  my $average    = find_array_average(@days);
+  $average       = round_to_n_digits($average, 1);
+
+  # Count how things were disposed
+  my @disp       = find_column_by_name($table, "Disp");
+  @disp          = strip_links(@disp);
+
+  my %disp_count;
+  my $total = count_values(\@disp, $disp_names,  # inputs
+                           \%disp_count          # output
+                          );
+  if ($total != $num_req){
+    print "Size mis-match\n";
+    exit(0);
+  }
+
+  my $summary = form_summary($num_req, $average, $total,
+                             $disp_names, $disp_legend, \%disp_count);
+
+  return $summary;
+}
+
+sub form_summary {
+
+  my $num_req     = shift;
+  my $average     = shift;
+  my $total       = shift;
+  my $disp_names  = shift;
+  my $disp_legend = shift;
+  my $disp_count  = shift;
+  
+  my $summary = "Requests: $num_req; average duration: $average days; ";
+  for (my $count = 0; $count < scalar(@$disp_names); $count++){
+
+    my $val = $disp_count->{$disp_names->[$count]};
+    my $pct = round_to_n_digits(100.0*$val/$total, 0);
+    $summary .= $disp_legend->[$count] . ": " . $val . " (" . $pct . "%); ";
+    
+  }
+  
+  $summary =~ s/\;\s*$//g;
+
+  return $summary;
+}
+
 sub get_text_between_tags {
 
   my $text    = shift;
@@ -354,7 +409,7 @@ sub strip_links {
 sub count_values{
 
   # Given an array $vals having as values elements in $names,
-  # see how many times each element in $names occurs in $vals
+  # see how many times each element in $names occurs in $vals.
   
   my $vals  = shift; # input
   my $names = shift; # input
@@ -388,57 +443,3 @@ sub count_values{
   return $total;
 }
 
-sub compute_summary {
-
-  my $table       = shift;
-  my $disp_names  = shift;
-  my $disp_legend = shift;
-
-  my @requests   = find_column_by_name($table, "Request");
-  my $num_req    = scalar ( @requests );
-
-  my @days       = find_column_by_name($table, "Days");
-  my $average    = find_array_average(@days);
-  $average       = round_to_n_digits($average, 1);
-
-  # Count how things were disposed
-  my @disp       = find_column_by_name($table, "Disp");
-  @disp          = strip_links(@disp);
-
-  my %disp_count;
-  my $total = count_values(\@disp, $disp_names,  # inputs
-                           \%disp_count          # output
-                          );
-  if ($total != $num_req){
-    print "Size mis-match\n";
-    exit(0);
-  }
-
-  my $summary = form_summary($num_req, $average, $total,
-                             $disp_names, $disp_legend, \%disp_count);
-
-  return $summary;
-}
-
-sub form_summary {
-
-  my $num_req     = shift;
-  my $average     = shift;
-  my $total       = shift;
-  my $disp_names  = shift;
-  my $disp_legend = shift;
-  my $disp_count  = shift;
-  
-  my $summary = "Requests: $num_req; average duration: $average days; ";
-  for (my $count = 0; $count < scalar(@$disp_names); $count++){
-
-    my $val = $disp_count->{$disp_names->[$count]};
-    my $pct = round_to_n_digits(100.0*$val/$total, 0);
-    $summary .= $disp_legend->[$count] . ": " . $val . " (" . $pct . "%); ";
-    
-  }
-  
-  $summary =~ s/\;\s*$//g;
-
-  return $summary;
-}
