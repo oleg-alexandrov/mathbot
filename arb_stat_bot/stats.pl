@@ -294,8 +294,13 @@ sub parse_zeroth_table_row{
 
   $row =~ s/^\!\s*//g; # strip first exclamation mark
 
-  return split(/\s*\!\!\s*/, $row);
-
+  my @cells = split(/\!\!/, $row);
+  foreach my $cell (@cells){
+    $cell =~ s/^\s*//g;
+    $cell =~ s/\s*$//g;
+  }
+  
+  return @cells;
 }
 
    
@@ -312,8 +317,13 @@ sub parse_other_table_rows{
 
   $row =~ s/^\|.*?\|\s*//g; # strip alignment info
 
-  return split(/\s*\|\|\s*/, $row);
+  my @cells = split(/\|\|/, $row);
+  foreach my $cell (@cells){
+    $cell =~ s/^\s*//g;
+    $cell =~ s/\s*$//g;
+  }
   
+  return @cells;
 }
 
 sub find_column_by_name{
