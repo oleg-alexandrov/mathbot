@@ -315,6 +315,36 @@ The following two tables each contain three sections, the first covering ''case'
 *'''A''' (accept): The total number of ''case'' requests this arb voted to accept (count of "A"s); as a percentage of '''V'''.
 *'''D''' (decline): The total number of ''case'' requests this arb voted to decline (count of "D"s); as a percentage of '''V'''.
 *'''C''' (comment): The total number of ''other'' requests this arb commented on (count of "C"s); as a percentage of ('''ER''' &minus; ('''I''' + '''R''')).
+<!-- begin list of arbitrators -->
+<!--
+2009 only
+Carcharoth                  Car
+Casliber                    Cas
+Cool Hand Luke              Chl
+Coren                       Cor 
+FayssalF                    Fay 
+FloNight                    Flo
+FT2                         FT2  
+John Vandenberg             Joh 
+Kirill Lokshin              Kir
+Newyorkbrad                 New
+Risker                      Ris
+Rlevse                      Rle
+Roger Davies                Rog
+Sam Blacketer               Sam
+Stephen Bain                Ste
+Vassyana                    Vas
+Wizardman                   Wiz
+
+2009 2008
+Charles Matthews            Cha  
+Deskana                     Des
+Jdforrester                 Jdf
+Jpgordon                    Jpg
+Morven                      Mor
+YellowMonkey                Yel 
+-->
+<!-- end list of arbitrators -->
 
 ==== Arb activity (2009)====
 {| class="wikitable sortable" style="text-align:center"

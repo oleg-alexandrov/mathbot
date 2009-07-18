@@ -12,14 +12,14 @@ MAIN: {
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
   my ($edit_summary, $Editor);
 
-#   # Get the text from the server
-#   $sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
-#   $Editor=wikipedia_login("mathbot");
-#   $file = "Wikipedia:Requests for arbitration/Statistics 2009";
-#   $text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
-
+  # Get the text from the server
+  #$sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
+  #$Editor=wikipedia_login("mathbot");
+  #$file = "Wikipedia:Requests for arbitration/Statistics 2009";
+  #$text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
+  
   $local_file1 = "Statistics_2009.txt";
-#   open(FILE, ">$local_file1"); print FILE $text; close(FILE);
+  #open(FILE, ">$local_file1"); print FILE $text; close(FILE);
   
   # Use local copy instead
   open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
@@ -28,6 +28,9 @@ MAIN: {
 
   my $years = ["2009 only", "2009 2008", "all"];
   my $types = ["case", "clarification"];
+
+  # For every year, return a hash containing the arbitrators for that year
+  my @arbs_list = get_arbs_list($text, $years);
   
   # For each year and each type of table we need to produce a summary
 
@@ -97,27 +100,34 @@ sub complete_table_summaries {
   my $disp_names       = shift; # the types of values to summarize
   my $disp_legend      = shift; # the explanation of each value to summarize
 
-  my $table_text;   # an individual table from the big text
-
   # There are three summaries to complete: 2009 only ($count == 0),
   # 2009 and 2008 ($count == 1), and the combined one.
   
   for (my $count = 0; $count < 3; $count++){ 
 
+    my $table;
+    
     # Extract the table to summarize
     if ($count != 2){
-      $table_text = get_text_between_tags($text, $beg_table_tags->[$count],
-                                          $end_table_tags->[$count]);
+      
+      my $table_text = get_text_between_tags($text, $beg_table_tags->[$count],
+                                             $end_table_tags->[$count]);
+      $table = parse_wiki_table($table_text);
+      
     }else{
       # for $count == 2 we combine the two individual tables 0 and 1
-      $table_text = get_text_between_tags($text, $beg_table_tags->[0],
-                                          $end_table_tags->[0])
-                  . "\n"
-                  . get_text_between_tags($text, $beg_table_tags->[1],
-                                             $end_table_tags->[1]);
-    }
-    my $table      = parse_wiki_table($table_text);
+      
+      my $table_text0 = get_text_between_tags($text, $beg_table_tags->[0],
+                                              $end_table_tags->[0]);
+      my $table0      = parse_wiki_table($table_text0);
+      
+      my $table_text1 = get_text_between_tags($text, $beg_table_tags->[1],
+                                              $end_table_tags->[1]);
+      my $table1      = parse_wiki_table($table_text1);
 
+      $table          = merge_tables($table0, $table1);
+    }
+    
     # Summarize the table
     my $summary    = compute_summary($table, $disp_names, $disp_legend);
     $summary = "\n" . $summary . "\n";
@@ -144,19 +154,19 @@ sub compute_summary {
   my $disp_names  = shift;
   my $disp_legend = shift;
 
-  my @requests   = find_column_by_name($table, "Request");
-  my $num_req    = scalar ( @requests );
+  my $requests   = $table->{"Request"};
+  my $num_req    = scalar ( @$requests );
 
-  my @days       = find_column_by_name($table, "Days");
-  my $average    = find_array_average(@days);
+  my $days       = $table->{"Days"};
+  my $average    = find_array_average(@$days);
   $average       = round_to_n_digits($average, 1);
 
   # Count how things were disposed
-  my @disp       = find_column_by_name($table, "Disp");
-  @disp          = strip_links(@disp);
+  my $disp       = $table->{"Disp"};
+  @$disp         = strip_links(@$disp);
 
   my %disp_count;
-  my $total = count_values(\@disp, $disp_names,  # inputs
+  my $total = count_values($disp, $disp_names,  # inputs
                            \%disp_count          # output
                           );
   if ($total != $num_req){
@@ -191,6 +201,57 @@ sub form_summary {
   $summary =~ s/\;\s*$//g;
 
   return $summary;
+}
+
+sub get_arbs_list {
+
+  # Get arbitrators for every year involved
+  
+  my $text  = shift;
+  my $years = shift;
+  
+  my $beg_tag = '<!-- begin list of arbitrators -->';
+  my $end_tag = '<!-- end list of arbitrators -->';
+
+  $text = get_text_between_tags($text, $beg_tag,  $end_tag);
+
+  $text =~ s/\s*\<!\-\-+\s*//g;
+  $text =~ s/\s*\-\-+\>\s*//g;
+
+  my @chunks = split (/\n[ \t]*\n/, $text);
+
+  my @arbs_in_year;
+
+  foreach my $year (@$years){
+
+    foreach my $chunk (@chunks){
+      next unless ($chunk =~ /^\s*$year\s*(.*?)$/s);
+      my $arbs = $1;
+
+      push(@arbs_in_year, parse_legend($arbs));
+    }
+    
+  }
+
+  return @arbs_in_year;
+}
+
+sub parse_legend {
+
+  my $text = shift;
+
+  my $vals;
+  foreach my $line (split("\n", $text)){
+
+    $line =~ s/\s*$//g;
+    $line =~ s/^\s*//g;
+
+    next unless ($line =~ /^(.*)\s+(.*?)$/);
+    $vals->{$2} = $1;
+
+  }
+
+  return $vals;
 }
 
 sub count_values{
@@ -230,12 +291,45 @@ sub count_values{
   return $total;
 }
 
+sub merge_tables {
+
+  # Given two tables indexed by column, merge them into one table.
+  # If the two tables have columns with the same index key,
+  # merge those columns into one column in the combined table.
+  
+  my $merged_table;
+
+  foreach my $table (@_){
+    
+    foreach my $key (keys %$table){
+      
+      my $ptr_in  = $table->{$key};
+      
+      my $ptr_out;
+      if (exists $merged_table->{$key}){
+        $ptr_out = $merged_table->{$key};
+      }else{
+        $ptr_out = []; 
+      }
+      
+      push(@$ptr_out, @$ptr_in);
+      $merged_table->{$key} = $ptr_out;
+      
+    }
+  }
+  
+  return $merged_table;
+}
+
 sub parse_wiki_table {
 
-  # Parse a wikipedia table, store the result in a 2D array,
-  # with $table->{$i}->{$j} storing table element (i, j).
-  # Indices start from 0. 
-
+  # Parse a wikipedia table. Return a hash of arrays cotaining the
+  # table elements. More precisely, return a hash, with the keys of
+  # the hash the elements in the topmost row of the table (each such
+  # element serves as the name for the column under it). Each value in
+  # the hash is an array containing the elements in the correspoinding
+  # column in the table.
+  
   # We assume that the topmost row has the format
   # ! x !! y !! z   
 
@@ -249,40 +343,50 @@ sub parse_wiki_table {
   $text =~ s/(^|\n)\s*\|\+//ig;
   $text =~ s/\|\}.*?$//sg;
 
-  my ($zeroth_row, $other_rows);
+  my ($topmost_row, $other_rows);
   if ($text =~ /(^|\n)(\!.*?)\n(.*?)$/s){
-    $zeroth_row = $2; $other_rows = $3;
+    $topmost_row = $2; $other_rows = $3;
   }else{
     print "Could not match table row starting with \"\!\"\n";
     exit(0);
   }
 
-  # Zero-th row
-  my ($cell, @cells);
-  @cells = parse_zeroth_table_row($zeroth_row);
+  # Topmost row, its elements serve as key for the table columns
+  my ($key, @keys);
+  @keys = parse_topmost_table_row($topmost_row);
 
-  # Put zero-th row in the table
-  my $table = [
-               [ @cells ]
-              ];
-
+  # Initialize the table structure as a hash of empty arrays
+  my $table;
+  foreach $key (@keys){
+    $table->{$key} = [];
+  }
+  
   # Other rows. Rows are separated by "|-".
   my $row;
   my @rows = split("\\|\\-", $other_rows);
-  
+
   foreach $row (@rows){
 
     $row =~ s/\n//g; # strip newlines
     next unless ($row =~ /^\|/); # rows start with |
 
-    push (@$table, [ parse_other_table_rows($row)] );
+    my @row_elems = parse_other_table_rows($row);
+    
+    my $count = 0;
+    foreach $key (@keys){
+
+      my $ptr = $table->{$key};
+      push( @$ptr, $row_elems[$count] );
+      $count++;
+      
+    }
   }
   
   return $table;
 
 }
 
-sub parse_zeroth_table_row{
+sub parse_topmost_table_row{
 
   # Row starts with !. Cells are separated by !!
   my $row = shift;
@@ -324,55 +428,6 @@ sub parse_other_table_rows{
   }
   
   return @cells;
-}
-
-sub find_column_by_name{
-
-  # Return the column in the table with given name. Skip the top-most
-  # cell in the column, that cell's purpose is to name the column.
-  
-  my $table = shift;
-  my $name  = shift;
-
-  my @output_column = ();
-  
-  if (scalar(@$table) <= 0){
-    return @output_column; # empty column
-  }
-
-  my $top_row = $table->[0];
-
-  my $cell;
-  my $col_count = 0;
-  my $success   = 0;
-  foreach $cell ( @$top_row ){
-
-    if ($cell eq $name){
-      $success = 1;
-      last; # found what we needed
-    }
-
-    $col_count++;
-    
-  }
-
-  if (! $success){
-    return @output_column; # Failed to find the requested column
-  }
-
-  my $row;
-  my $row_count = 0;
-  foreach $row (@$table){
-
-    if ($row_count != 0){
-      # Skip the top-most cell having the name of the column
-      push(@output_column, $row->[$col_count]);
-    }
-    
-    $row_count++;
-  }
-  
-  return @output_column;
 }
 
 sub get_text_between_tags {
