@@ -27,14 +27,15 @@ MAIN: {
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
   my $years = ["2009 only", "2009 2008", "all"];
-  my $types = ["case"];#, "clarification"];
+  my $types = ["case", "clarification"];
 
-  # For every year, return a hash containing the arbitrators for that year
-  my $arbs_list  = [ get_arbs_list($text, $years) ];
-  my $arbs_votes = ["A", "D", "R", "C", , "I", "N", ""];
-  
+  my @tables; # parsed tables
+  my $table;
+
   # For each year and each type of table we need to produce a summary
-
+  # Also store the parsed tables, so that later we can use them
+  # to form the arb activity tables.
+  
   foreach my $type (@$types){
 
     my ($beg_table_tags,   $end_table_tags);   # where to read data from 
@@ -71,17 +72,72 @@ MAIN: {
       exit(0);
     }
     
-    # text to read data from and write summary to
-    $text = 
-       complete_table_summaries($text,
-                                $beg_table_tags, $end_table_tags,    
-                                $beg_summary_tags, $end_summary_tags,
-                                $disp_names, $disp_legend,
-                                $arbs_list, $arbs_votes
-                               );
-    
+    # Parse the tables, complete the summary lines,
+    # return the text with the updated summary lines,
+    # and return as well the parsed table, we need it
+    # to complete the arbitrator activity tables.
+    ($text, $table) = 
+       parse_complete_table_summaries($text,
+                                      $beg_table_tags, $end_table_tags,    
+                                      $beg_summary_tags, $end_summary_tags,
+                                      $disp_names, $disp_legend,
+                                     );
+
+    push(@tables, $table);
   }
+
+  # Now deal with the arb activity tables
   
+  # For every year, return a hash containing the arbitrators for that year
+  my $arbs_list  = [ get_arbs_list($text, $years) ];
+  my $arbs_votes = ["A", "D", "R", "C", , "I", "N", ""];
+
+  # Create the arb activity table and put it in the wiki text
+  for (my $year_count = 0; $year_count < 2; $year_count++){
+
+    my $output_table = "\n";
+    
+    # $year_count == 0 deals with arbs in current year, $year_count == 1
+    # deals with arbs departing in current year.
+    my $arbs = $arbs_list->[$year_count];
+
+    foreach my $arb (sort { lc($arbs->{$a}) cmp lc($arbs->{$b}) } keys %$arbs){
+
+      my $arb_full = $arbs->{$arb}; # expansion of the abbrev
+
+      # There exist three types of data in the arb activity table
+      my $row = "| align=\"left\" | $arb_full \|\| ";
+      for (my $type = 0; $type < 3; $type++){
+        
+        if ($type == 0 || $type == 1){
+          $table = $tables[$type];
+        }else{
+          $table = merge_tables($tables[0], $tables[1]); # grand summary  
+        }
+        $row .= count_format_arb_activity_data($arb, $arbs_votes,
+                                               $table, $type);
+      }
+
+      $row =~ s/\|\|\s*$//g; # strip last separator
+      $row .= "\n|-\n";     # prepare for new row
+
+      $output_table .= $row;
+
+    } # end dealing with current arbitrator
+
+    $output_table =~ s/\|\-\s*$//g; # strip last "|-"
+    
+    # Update the appropriate table in the wiki text
+    my $beg_tag = '<!-- begin requests activity table '
+       . $years->[$year_count] . ' -->';
+
+    my $end_tag = '<!-- end requests activity table '
+       . $years->[$year_count] . ' -->';
+
+    $text = put_text_between_tags($text, $output_table, $beg_tag, $end_tag);
+    
+  } # end going over the years
+
   $local_file2 = "Statistics_2009_proc.txt";
   open(FILE, ">$local_file2");
   print FILE $text . "\n";
@@ -92,7 +148,7 @@ MAIN: {
   # wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 }
 
-sub complete_table_summaries {
+sub parse_complete_table_summaries {
   
   my $text             = shift; # the big text containing all the tables 
   my $beg_table_tags   = shift; # marks where each table to parse starts
@@ -101,8 +157,6 @@ sub complete_table_summaries {
   my $end_summary_tags = shift; # marks where the summary will end
   my $disp_names       = shift; # the types of values to summarize
   my $disp_legend      = shift; # the explanation of each value to summarize
-  my $arbs_list        = shift; # list of arbitrators by year
-  my $arbs_votes       = shift; # how an arbitrator can vote
   
   # There are three summaries to complete: 2009 only ($count == 0),
   # 2009 and 2008 ($count == 1), and the combined one ($count == 2).
@@ -132,7 +186,7 @@ sub complete_table_summaries {
       # The combined summary is formatted a bit different than
       # the individual summmaries
       $summary =~ s/^\s*/\n\* /g;
-      $summary =~ s/\s*$/\.\n/g;
+      $summary =~ s/\s*$/\n/g;
     }
 
     # Insert the computed summary in the right place
@@ -140,28 +194,8 @@ sub complete_table_summaries {
                                   $end_summary_tags->[$count]);
 
   }
-  
-  my $arb = "Cor";
-  my %count;
-  my $total = count_values($table->{$arb}, $arbs_votes,    # inputs
-                           \%count                         # output
-                          );
 
-  my ($er, $i, $ip, $r, $rp, $v, $vp, $dn, $dnp, $a, $ap, $d, $dp);
-  
-  $er = $total - $count{"N"};
-  $i  = $count{"I"};             $ip   = percentage( $i/$er           );
-  $r  = $count{"R"};             $rp   = percentage( $r/($er-$i)      );
-  $v  = $count{"A"}+$count{"D"}; $vp   = percentage( $v/($er-$i-$r)   );
-  $dn = $count{""};              $dnp  = percentage( $dn/($er-$i-$r)  );
-  $a  = $count{"A"};             $ap   = percentage( $a/$v            );
-  $d  = $count{"D"};             $dp   = percentage( $d/$v            );
-  
-  print "$arb $er || $i || $ip || $r || $rp || $v || $vp || $dn || $dnp " .
-     "|| $a || $ap || $d || $dp";
-  
-  return $text;
-  
+  return ($text, $table);
 }
 
 sub compute_summary {
@@ -214,9 +248,55 @@ sub form_summary {
     
   }
   
-  $summary =~ s/\;\s*$//g;
+  $summary =~ s/\;\s*$//g; # strip trailing ";"
 
   return $summary;
+}
+
+sub count_format_arb_activity_data {
+
+  my $arb        = shift; # person whose votes to count
+  my $arbs_votes = shift; # types of votes to count
+  my $table      = shift; # table of votes to count
+  my $data_type  = shift; # which data to count
+  
+  my %count;
+  my $total = count_values($table->{$arb}, $arbs_votes,    # inputs
+                           \%count                         # output
+                          );
+
+  my ($er, $i, $ip, $r, $rp, $v, $vp, $dn, $dnp, $a, $ap, $d, $dp, $c, $cp);
+  
+  $er = $total - $count{"N"};
+  $i  = $count{"I"};             $ip   = percentage( $i,  $er       );
+  $r  = $count{"R"};             $rp   = percentage( $r,  $er-$i    );
+  $v  = $count{"A"}+$count{"D"}; $vp   = percentage( $v,  $er-$i-$r );
+  $dn = $count{""};              $dnp  = percentage( $dn, $er-$i-$r );
+  $a  = $count{"A"};             $ap   = percentage( $a,  $v        );
+  $d  = $count{"D"};             $dp   = percentage( $d,  $v        );
+  $c  = $count{"C"};             $cp   = percentage( $c,  $er-$i-$r );
+
+  my $s = '';
+  if ($data_type == 0){
+    
+    return "$er || $i || $ip || $r || $rp || $v || $vp || $dn || $dnp "
+       . "|| $a || $ap || $d || $dp || ";
+    
+  }elsif ($data_type == 1){
+    
+    return "$er || $i || $ip || $r || $rp || $c || $cp || $dn || $dnp || ";
+
+  }elsif ($data_type == 2){
+    
+    return "$er || $i || $ip || $r || $rp || $dn || $dnp || ";
+
+  }else{
+    
+    print "Unsupported data type\n";
+    exit(0);
+    
+  }
+  
 }
 
 sub get_arbs_list {
@@ -262,9 +342,14 @@ sub parse_legend {
     $line =~ s/\s*$//g;
     $line =~ s/^\s*//g;
 
-    next unless ($line =~ /^(.*)\s+(.*?)$/);
-    $vals->{$2} = $1;
+    next unless ($line =~ /^\s*(.*)\s+([^\s]*?)$/);
 
+    my $long_name  = $1; 
+    my $short_name = $2;
+
+    $long_name =~ s/\s*$//g;
+    
+    $vals->{$short_name} = $long_name;
   }
 
   return $vals;
@@ -501,8 +586,11 @@ sub find_array_average{
 sub percentage {
 
   my $val   = shift;
-  return (round_ndigits(100*$val, 0)) . "%";
+  my $outOf = shift;
+
+  $outOf = 1 if ($outOf == 0);
   
+  return (round_ndigits(100*$val/$outOf, 0)) . "%";
 }
 
 sub round_ndigits {
