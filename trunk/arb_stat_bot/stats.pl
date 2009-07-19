@@ -14,7 +14,7 @@ MAIN: {
 
   # Get the text from the server
   #$sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
-  #$Editor=wikipedia_login("mathbot");
+  #$Editor=wikipedia_login("Mathbot");
   #$file = "Wikipedia:Requests for arbitration/Statistics 2009";
   #$text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
   
@@ -27,10 +27,11 @@ MAIN: {
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
   my $years = ["2009 only", "2009 2008", "all"];
-  my $types = ["case", "clarification"];
+  my $types = ["case"];#, "clarification"];
 
   # For every year, return a hash containing the arbitrators for that year
-  my @arbs_list = get_arbs_list($text, $years);
+  my $arbs_list  = [ get_arbs_list($text, $years) ];
+  my $arbs_votes = ["A", "D", "R", "C", , "I", "N", ""];
   
   # For each year and each type of table we need to produce a summary
 
@@ -53,15 +54,15 @@ MAIN: {
     
     if ($type eq "case"){
       
-      $disp_names  = ["accepted", "declined",
-                      "motion",   "withdrawn"];
+      $disp_names  = ["Accepted", "Declined",
+                      "Motion",   "Withdrawn"];
       $disp_legend = ["accepted", "declined",
                       "disposed by motion", "withdrawn"];
       
     }elsif ($type eq "clarification"){
       
-      $disp_names  = ["declined", "clarification",
-                      "motion",   "withdrawn"];
+      $disp_names  = ["Declined", "Clarification",
+                      "Motion",   "Withdrawn"];
       $disp_legend = ["declined", "disposed by clarification",
                       "disposed by motion", "withdrawn"];
       
@@ -75,7 +76,8 @@ MAIN: {
        complete_table_summaries($text,
                                 $beg_table_tags, $end_table_tags,    
                                 $beg_summary_tags, $end_summary_tags,
-                                $disp_names, $disp_legend    
+                                $disp_names, $disp_legend,
+                                $arbs_list, $arbs_votes
                                );
     
   }
@@ -99,33 +101,27 @@ sub complete_table_summaries {
   my $end_summary_tags = shift; # marks where the summary will end
   my $disp_names       = shift; # the types of values to summarize
   my $disp_legend      = shift; # the explanation of each value to summarize
-
+  my $arbs_list        = shift; # list of arbitrators by year
+  my $arbs_votes       = shift; # how an arbitrator can vote
+  
   # There are three summaries to complete: 2009 only ($count == 0),
-  # 2009 and 2008 ($count == 1), and the combined one.
+  # 2009 and 2008 ($count == 1), and the combined one ($count == 2).
+  
+  my ($table, @tables);
   
   for (my $count = 0; $count < 3; $count++){ 
 
-    my $table;
-    
     # Extract the table to summarize
     if ($count != 2){
-      
+
       my $table_text = get_text_between_tags($text, $beg_table_tags->[$count],
                                              $end_table_tags->[$count]);
       $table = parse_wiki_table($table_text);
+      push(@tables, $table); # we'll need it for $count == 2
       
     }else{
       # for $count == 2 we combine the two individual tables 0 and 1
-      
-      my $table_text0 = get_text_between_tags($text, $beg_table_tags->[0],
-                                              $end_table_tags->[0]);
-      my $table0      = parse_wiki_table($table_text0);
-      
-      my $table_text1 = get_text_between_tags($text, $beg_table_tags->[1],
-                                              $end_table_tags->[1]);
-      my $table1      = parse_wiki_table($table_text1);
-
-      $table          = merge_tables($table0, $table1);
+      $table = merge_tables($tables[0], $tables[1]);
     }
     
     # Summarize the table
@@ -142,8 +138,28 @@ sub complete_table_summaries {
     # Insert the computed summary in the right place
     $text = put_text_between_tags($text, $summary, $beg_summary_tags->[$count],
                                   $end_summary_tags->[$count]);
-  }
 
+  }
+  
+  my $arb = "Cor";
+  my %count;
+  my $total = count_values($table->{$arb}, $arbs_votes,    # inputs
+                           \%count                         # output
+                          );
+
+  my ($er, $i, $ip, $r, $rp, $v, $vp, $dn, $dnp, $a, $ap, $d, $dp);
+  
+  $er = $total - $count{"N"};
+  $i  = $count{"I"};             $ip   = percentage( $i/$er           );
+  $r  = $count{"R"};             $rp   = percentage( $r/($er-$i)      );
+  $v  = $count{"A"}+$count{"D"}; $vp   = percentage( $v/($er-$i-$r)   );
+  $dn = $count{""};              $dnp  = percentage( $dn/($er-$i-$r)  );
+  $a  = $count{"A"};             $ap   = percentage( $a/$v            );
+  $d  = $count{"D"};             $dp   = percentage( $d/$v            );
+  
+  print "$arb $er || $i || $ip || $r || $rp || $v || $vp || $dn || $dnp " .
+     "|| $a || $ap || $d || $dp";
+  
   return $text;
   
 }
@@ -159,7 +175,7 @@ sub compute_summary {
 
   my $days       = $table->{"Days"};
   my $average    = find_array_average(@$days);
-  $average       = round_to_n_digits($average, 1);
+  $average       = round_ndigits($average, 1);
 
   # Count how things were disposed
   my $disp       = $table->{"Disp"};
@@ -193,7 +209,7 @@ sub form_summary {
   for (my $count = 0; $count < scalar(@$disp_names); $count++){
 
     my $val = $disp_count->{$disp_names->[$count]};
-    my $pct = round_to_n_digits(100.0*$val/$total, 0);
+    my $pct = round_ndigits(100.0*$val/$total, 0);
     $summary .= $disp_legend->[$count] . ": " . $val . " (" . $pct . "%); ";
     
   }
@@ -258,6 +274,8 @@ sub count_values{
 
   # Given an array $vals having as values elements in $names,
   # see how many times each element in $names occurs in $vals.
+  # Also return the total number of elements in $vals that have values
+  # from $names.
   
   my $vals  = shift; # input
   my $names = shift; # input
@@ -268,24 +286,22 @@ sub count_values{
   
   foreach my $val (@$vals){
 
-    my $val_lc = lc($val); # lowercase
-    if (exists $count->{$val_lc}){
-      $count->{$val_lc}++;
+    if (exists $count->{$val}){
+      $count->{$val}++;
     }else{
 
-      $count->{$val_lc} = 1;
+      $count->{$val} = 1;
     }
 
   }
   
   foreach my $name (@$names){
 
-    my $name_lc = lc($name);
-    if (!exists $count->{$name_lc} ){
-      $count->{$name_lc} = 0;
+    if (!exists $count->{$name} ){
+      $count->{$name} = 0;
     }
 
-    $total += $count->{$name_lc};     # output
+    $total += $count->{$name};     # output
   }
 
   return $total;
@@ -388,7 +404,7 @@ sub parse_wiki_table {
 
 sub parse_topmost_table_row{
 
-  # Row starts with !. Cells are separated by !!
+  # Row starts with !. Cells are separated by !! or by ||
   my $row = shift;
 
   if ($row !~ /^\!/){
@@ -398,6 +414,8 @@ sub parse_topmost_table_row{
 
   $row =~ s/^\!\s*//g; # strip first exclamation mark
 
+  $row =~ s/\|\|/\!\!/g; # deal with alternative separator
+  
   my @cells = split(/\!\!/, $row);
   foreach my $cell (@cells){
     $cell =~ s/^\s*//g;
@@ -480,7 +498,14 @@ sub find_array_average{
   return $sum/$count;
 }
 
-sub round_to_n_digits {
+sub percentage {
+
+  my $val   = shift;
+  return (round_ndigits(100*$val, 0)) . "%";
+  
+}
+
+sub round_ndigits {
 
   my $val = shift;
   my $n   = shift;
