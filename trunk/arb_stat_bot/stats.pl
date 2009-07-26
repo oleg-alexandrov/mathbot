@@ -7,45 +7,81 @@ use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
-# <!-- begin motions table 2009 only -->
-# <!-- begin motions summary 2009 only -->
-
 MAIN: {
 
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
   my ($edit_summary, $Editor);
 
   # Get the text from the server
-  $sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
-  $Editor=wikipedia_login("Mathbot");
-  $file = "Wikipedia:Requests for arbitration/Statistics 2009";
-  $text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
+  #$sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
+  #$Editor=wikipedia_login("Mathbot");
+  #$file = "Wikipedia:Requests for arbitration/Statistics 2009";
+  #$text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
   
   $local_file1 = "Statistics_2009.txt";
-  open(FILE, ">$local_file1"); print FILE $text; close(FILE);
-  #open(FILE, "<$local_file1"); $text = <FILE>; close(FILE); # use local copy
+  #open(FILE, ">$local_file1"); print FILE $text; close(FILE);
+  open(FILE, "<$local_file1"); $text = <FILE>; close(FILE); # use local copy
 
-  $text = summarize_all_tables($text);
+  $text = gen_all_stats($text);
   
   $local_file2 = "Statistics_2009_proc.txt";
   open(FILE, ">$local_file2"); print FILE $text . "\n"; close(FILE);
 
   # Code to submit things back to Wikipedia
-  $edit_summary = "Bot update of the first section";
-  wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
+  #$edit_summary = "Bot update of the first section";
+  #wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 }
 
-sub summarize_all_tables{
+sub gen_all_stats{
 
   my $text = shift;
   
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
-  my $years = ["2009 only", "2009 2008", "all"];
+  my $years      = ["2009 only", "2009 2008", "all"];
+  my $arbs_list  = [ get_arbs_list($text, $years) ];
+
+  # Section 1: the requests stats
+  $text = gen_requests_stats($text, $years, $arbs_list);
+
+  # Section 2: the motions stats
+  $text = gen_motions_stats($text, $years, $arbs_list);
+  
+  return $text;
+}
+
+sub gen_motions_stats{
+
+  my $text      = shift; # text to parse and put the summary into
+  my $years     = shift; # years to parse
+  my $arbs_list = shift; # list of arbitrators
+
+  my $year = $years->[0]; # do it only for the most recent year
+
+  # Get the data from here
+  my $beg_table_tag = '<!-- begin motions table $year -->';
+  my $end_table_tag = '<!-- begin motions table $year -->';
+  
+  my $beg_summary_tag = '<!-- begin motions summary $year -->';
+  my $end_summary_tag = '<!-- begin motions summary $year -->';
+
+  return $text;
+}
+
+sub gen_requests_stats{
+
+  my $text      = shift; # text to parse and put the summary into
+  my $years     = shift; # years to parse
+  my $arbs_list = shift; # list of arbitrators
+  
+  # types of requests
   my $types = ["case", "clarification"];
 
+  # how the arbs can vote for these requests
+  my $arbs_votes = ["A", "D", "R", "C", "I", "N", ""];
+
   my @tables; # parsed tables
-  my $table;
+  my $table;  # one of the tables
 
   # For each year and each type of table we need to produce a summary
   # Also store the parsed tables, so that later we can use them
@@ -92,11 +128,12 @@ sub summarize_all_tables{
     # and return as well the parsed table, we need it
     # to complete the arbitrator activity tables.
     ($text, $table) = 
-       parse_complete_table_summaries($text,
-                                      $beg_table_tags, $end_table_tags,    
-                                      $beg_summary_tags, $end_summary_tags,
-                                      $disp_names, $disp_legend,
-                                     );
+       parse_complete_requests_table_summaries
+          ($text,
+           $beg_table_tags, $end_table_tags,    
+           $beg_summary_tags, $end_summary_tags,
+           $disp_names, $disp_legend,
+          );
 
     push(@tables, $table);
   }
@@ -104,8 +141,6 @@ sub summarize_all_tables{
   # Now deal with the arb activity tables
   
   # For every year, return a hash containing the arbitrators for that year
-  my $arbs_list  = [ get_arbs_list($text, $years) ];
-  my $arbs_votes = ["A", "D", "R", "C", "I", "N", ""];
 
   # Create the arb activity table and put it in the wiki text
   for (my $year_count = 0; $year_count < 2; $year_count++){
@@ -156,7 +191,7 @@ sub summarize_all_tables{
   return $text;
 }
 
-sub parse_complete_table_summaries {
+sub parse_complete_requests_table_summaries {
   
   my $text             = shift; # the big text containing all the tables 
   my $beg_table_tags   = shift; # marks where each table to parse starts
