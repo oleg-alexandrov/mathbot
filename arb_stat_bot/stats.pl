@@ -147,8 +147,8 @@ MAIN: {
   close(FILE);
 
   # Code to submit things back to Wikipedia
-  # $edit_summary = "A test";
-  # wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
+  $edit_summary = "Bot update of the first section";
+  wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 }
 
 sub parse_complete_table_summaries {
