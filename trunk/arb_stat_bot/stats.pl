@@ -23,10 +23,22 @@ MAIN: {
   
   $local_file1 = "Statistics_2009.txt";
   open(FILE, ">$local_file1"); print FILE $text; close(FILE);
-  
-  # Use local copy instead
-  #open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
+  #open(FILE, "<$local_file1"); $text = <FILE>; close(FILE); # use local copy
 
+  $text = summarize_all_tables($text);
+  
+  $local_file2 = "Statistics_2009_proc.txt";
+  open(FILE, ">$local_file2"); print FILE $text . "\n"; close(FILE);
+
+  # Code to submit things back to Wikipedia
+  $edit_summary = "Bot update of the first section";
+  wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
+}
+
+sub summarize_all_tables{
+
+  my $text = shift;
+  
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
   my $years = ["2009 only", "2009 2008", "all"];
@@ -141,14 +153,7 @@ MAIN: {
     
   } # end going over the years
 
-  $local_file2 = "Statistics_2009_proc.txt";
-  open(FILE, ">$local_file2");
-  print FILE $text . "\n";
-  close(FILE);
-
-  # Code to submit things back to Wikipedia
-  $edit_summary = "Bot update of the first section";
-  wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
+  return $text;
 }
 
 sub parse_complete_table_summaries {
