@@ -7,6 +7,9 @@ use open 'utf8';
 #require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
+# <!-- begin motions table 2009 only -->
+# <!-- begin motions summary 2009 only -->
+
 MAIN: {
 
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
@@ -22,7 +25,8 @@ MAIN: {
   #open(FILE, ">$local_file1"); print FILE $text; close(FILE);
   
   # Use local copy instead
-  open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
+  open(FILE, "<$local_file1");
+  $text = <FILE>; close(FILE);
 
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
@@ -90,17 +94,17 @@ MAIN: {
   
   # For every year, return a hash containing the arbitrators for that year
   my $arbs_list  = [ get_arbs_list($text, $years) ];
-  my $arbs_votes = ["A", "D", "R", "C", , "I", "N", ""];
+  my $arbs_votes = ["A", "D", "R", "C", "I", "N", ""];
 
   # Create the arb activity table and put it in the wiki text
   for (my $year_count = 0; $year_count < 2; $year_count++){
 
-    my $output_table = "\n";
-    
     # $year_count == 0 deals with arbs in current year, $year_count == 1
     # deals with arbs departing in current year.
     my $arbs = $arbs_list->[$year_count];
 
+    my $output_table = "\n";
+    
     foreach my $arb (sort { lc($arbs->{$a}) cmp lc($arbs->{$b}) } keys %$arbs){
 
       my $arb_full = $arbs->{$arb}; # expansion of the abbrev
