@@ -3,8 +3,8 @@ use strict;          # 'strict' insists that all variables be declared
 use diagnostics;     # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 
-#use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-#require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
+use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
+require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 # <!-- begin motions table 2009 only -->
@@ -16,17 +16,16 @@ MAIN: {
   my ($edit_summary, $Editor);
 
   # Get the text from the server
-  #$sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
-  #$Editor=wikipedia_login("Mathbot");
-  #$file = "Wikipedia:Requests for arbitration/Statistics 2009";
-  #$text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
+  $sleep = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
+  $Editor=wikipedia_login("Mathbot");
+  $file = "Wikipedia:Requests for arbitration/Statistics 2009";
+  $text=wikipedia_fetch($Editor, $file, $attempts, $sleep); 
   
   $local_file1 = "Statistics_2009.txt";
-  #open(FILE, ">$local_file1"); print FILE $text; close(FILE);
+  open(FILE, ">$local_file1"); print FILE $text; close(FILE);
   
   # Use local copy instead
-  open(FILE, "<$local_file1");
-  $text = <FILE>; close(FILE);
+  #open(FILE, "<$local_file1"); $text = <FILE>; close(FILE);
 
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
