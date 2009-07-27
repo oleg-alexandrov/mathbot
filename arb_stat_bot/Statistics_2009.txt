@@ -7,8 +7,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 
 ===Case requests===
 <!-- begin case requests summary all -->
-* Requests: 65; average duration: 5.2 days; accepted: 18 (28%); declined: 40 (62%); disposed by motion: 5 (8%); withdrawn: 2 (3%)
-
+*Requests: 66; average duration: 5.2 days; accepted: 18 (27%); declined: 41 (62%); disposed by motion: 5 (8%); withdrawn: 2 (3%).
 <!-- end case requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -18,7 +17,9 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 <!-- begin case requests table 2009 only -->
 ! Request !! Opened !! Closed !! Days !! Disp !! A !! D !! R !! C !! I !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Use_of_.22disputed_territories.22.2C_.22occupied_territories.22_and_related_terminology_in_the_context_of_the_Arab-Israeli_dispute Use of "disputed territories" and "occupied territories" …] || 12:33, 1-Jul-2009 || 17:19, 16-Jul-2009 || 15 || Motion || 0 || 5 || 1 || 3 || 0 || C || C ||  ||  ||  || D || N || D || N || R || D || D ||  || N ||  || C || D
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=304173154#Stephen_Bain Stephen Bain] || 14:13, 23-Jul-2009 || 04:54, 26-Jul-2009 || 3 || Declined || 0 || 7 || 1 || 0 || 2 || D || D || I ||  ||  || D || N ||  || N || D || D || D ||  || N || R || I || D
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Use_of_.22disputed_territories.22.2C_.22occupied_territories.22_and_related_terminology_in_the_context_of_the_Arab-Israeli_dispute Use of "disputed territories" and "occupied territories" ~] || 12:33, 1-Jul-2009 || 17:19, 16-Jul-2009 || 15 || Motion || 0 || 5 || 1 || 3 || 0 || C || C ||  ||  ||  || D || N || D || N || R || D || D ||  || N ||  || C || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302259118#Velela Velela] || 12:35, 13-Jul-2009 || 22:09, 15-Jul-2009 || 2 || Declined || 0 || 7 || 0 || 0 || 2 || D || D ||  ||  || D || D || N || D || N || D || D || N ||  || N ||  || I || I
 |-
@@ -124,7 +125,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=265487223#Bishzilla Bishzilla] || 22:25, 13-Jan-2009 || 14:33, 21-Jan-2009 || 8 || Motion || 2 || 10 || 0 || 2 || 0 || D || D || D || A || A || C || N || D || D || D || D ||  || D || C ||  || D || D
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=264958462#user:Dicklyon.2C_user:Jokestress.2C_and_user:James_Cantor_at_The_Man_Who_Would_Be_Queen_and_related_pages user:Dicklyon, user:Jokestress, and user:James Cantor …] || 02:03, 14-Jan-2009 || 22:56, 18-Jan-2009 || 5 || Declined || 0 || 10 || 0 || 1 || 0 || D || D || D || D || D || C || N || D ||  ||  || D ||  ||  || D ||  || D || D
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=264958462#user:Dicklyon.2C_user:Jokestress.2C_and_user:James_Cantor_at_The_Man_Who_Would_Be_Queen_and_related_pages user:Dicklyon, user:Jokestress, and user:James Cantor ~] || 02:03, 14-Jan-2009 || 22:56, 18-Jan-2009 || 5 || Declined || 0 || 10 || 0 || 1 || 0 || D || D || D || D || D || C || N || D ||  ||  || D ||  ||  || D ||  || D || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests&oldid=264357613#Giano Giano] || 22:42, 15-Jan-2009 || 00:02, 16-Jan-2009 || 0 || Withdrawn || 0 || 4 || 1 || 0 || 0 || D || D ||  ||  ||  || R || N || D ||  ||  ||  ||  || D ||  ||  ||  || 
 |-
@@ -137,7 +138,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 <!-- end case requests table 2009 only -->
 | align="center" colspan=27  |
 <!-- begin case requests summary 2009 only -->
-Requests: 58; average duration: 5.1 days; accepted: 16 (28%); declined: 36 (62%); disposed by motion: 4 (7%); withdrawn: 2 (3%)
+Requests: 59; average duration: 5.1 days; accepted: 16 (27%); declined: 37 (63%); disposed by motion: 4 (7%); withdrawn: 2 (3%)
 <!-- end case requests summary 2009 only -->
 |}
 
@@ -383,39 +384,39 @@ YellowMonkey                Yel
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
 <!-- begin requests activity table 2009 only -->
-| align="left" | Carcharoth || 65 || 10 || 15% || 7 || 13% || 40 || 83% || 4 || 8% || 10 || 25% || 30 || 75% || 65 || 19 || 29% || 1 || 2% || 28 || 62% || 17 || 38% || 130 || 29 || 22% || 8 || 8% || 21 || 23% 
+| align="left" | Carcharoth || 66 || 10 || 15% || 7 || 13% || 41 || 84% || 4 || 8% || 10 || 24% || 31 || 76% || 65 || 19 || 29% || 1 || 2% || 28 || 62% || 17 || 38% || 131 || 29 || 22% || 8 || 8% || 21 || 22%
 |-
-| align="left" | Casliber || 65 || 0 || 0% || 5 || 8% || 51 || 85% || 7 || 12% || 16 || 31% || 35 || 69% || 65 || 0 || 0% || 2 || 3% || 17 || 27% || 46 || 73% || 130 || 0 || 0% || 7 || 5% || 53 || 43% 
+| align="left" | Casliber || 66 || 0 || 0% || 5 || 8% || 52 || 85% || 7 || 11% || 16 || 31% || 36 || 69% || 65 || 0 || 0% || 2 || 3% || 17 || 27% || 46 || 73% || 131 || 0 || 0% || 7 || 5% || 53 || 43%
 |-
-| align="left" | Cool Hand Luke || 65 || 0 || 0% || 5 || 8% || 17 || 28% || 43 || 72% || 7 || 41% || 10 || 59% || 65 || 4 || 6% || 1 || 2% || 12 || 20% || 48 || 80% || 130 || 4 || 3% || 6 || 5% || 91 || 76% 
+| align="left" | Cool Hand Luke || 66 || 1 || 2% || 5 || 8% || 17 || 28% || 43 || 72% || 7 || 41% || 10 || 59% || 65 || 4 || 6% || 1 || 2% || 12 || 20% || 48 || 80% || 131 || 5 || 4% || 6 || 5% || 91 || 76%
 |-
-| align="left" | Coren || 64 || 0 || 0% || 2 || 3% || 39 || 63% || 20 || 32% || 21 || 54% || 18 || 46% || 63 || 0 || 0% || 0 || 0% || 33 || 52% || 30 || 48% || 127 || 0 || 0% || 2 || 2% || 50 || 40% 
+| align="left" | Coren || 65 || 0 || 0% || 2 || 3% || 39 || 62% || 21 || 33% || 21 || 54% || 18 || 46% || 63 || 0 || 0% || 0 || 0% || 33 || 52% || 30 || 48% || 128 || 0 || 0% || 2 || 2% || 51 || 40%
 |-
-| align="left" | FayssalF || 65 || 1 || 2% || 4 || 6% || 27 || 45% || 29 || 48% || 10 || 37% || 17 || 63% || 65 || 0 || 0% || 0 || 0% || 5 || 8% || 60 || 92% || 130 || 1 || 1% || 4 || 3% || 89 || 71% 
+| align="left" | FayssalF || 66 || 1 || 2% || 4 || 6% || 27 || 44% || 30 || 49% || 10 || 37% || 17 || 63% || 65 || 0 || 0% || 0 || 0% || 5 || 8% || 60 || 92% || 131 || 1 || 1% || 4 || 3% || 90 || 71%
 |-
-| align="left" | FloNight || 65 || 0 || 0% || 2 || 3% || 53 || 84% || 7 || 11% || 19 || 36% || 34 || 64% || 65 || 0 || 0% || 1 || 2% || 31 || 48% || 33 || 52% || 130 || 0 || 0% || 3 || 2% || 40 || 31% 
+| align="left" | FloNight || 66 || 0 || 0% || 2 || 3% || 54 || 84% || 7 || 11% || 19 || 35% || 35 || 65% || 65 || 0 || 0% || 1 || 2% || 31 || 48% || 33 || 52% || 131 || 0 || 0% || 3 || 2% || 40 || 31%
 |-
-| align="left" | FT2 || 10 || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 || 0% || 0 || 0% || 12 || 0 || 0% || 0 || 0% || 3 || 25% || 9 || 75% || 22 || 0 || 0% || 0 || 0% || 19 || 86% 
+| align="left" | FT2 || 10 || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||  || 0 ||  || 12 || 0 || 0% || 0 || 0% || 3 || 25% || 9 || 75% || 22 || 0 || 0% || 0 || 0% || 19 || 86%
 |-
-| align="left" | John Vandenberg || 65 || 0 || 0% || 5 || 8% || 51 || 85% || 4 || 7% || 14 || 27% || 37 || 73% || 65 || 0 || 0% || 3 || 5% || 24 || 39% || 38 || 61% || 130 || 0 || 0% || 8 || 6% || 42 || 34% 
+| align="left" | John Vandenberg || 66 || 0 || 0% || 5 || 8% || 51 || 84% || 5 || 8% || 14 || 27% || 37 || 73% || 65 || 0 || 0% || 3 || 5% || 24 || 39% || 38 || 61% || 131 || 0 || 0% || 8 || 6% || 43 || 35%
 |-
-| align="left" | Kirill Lokshin || 61 || 0 || 0% || 2 || 3% || 19 || 32% || 40 || 68% || 9 || 47% || 10 || 53% || 58 || 0 || 0% || 0 || 0% || 10 || 17% || 48 || 83% || 119 || 0 || 0% || 2 || 2% || 88 || 75% 
+| align="left" | Kirill Lokshin || 61 || 0 || 0% || 2 || 3% || 19 || 32% || 40 || 68% || 9 || 47% || 10 || 53% || 58 || 0 || 0% || 0 || 0% || 10 || 17% || 48 || 83% || 119 || 0 || 0% || 2 || 2% || 88 || 75%
 |-
-| align="left" | Newyorkbrad || 65 || 0 || 0% || 2 || 3% || 39 || 62% || 13 || 21% || 9 || 23% || 30 || 77% || 65 || 0 || 0% || 5 || 8% || 33 || 55% || 27 || 45% || 130 || 0 || 0% || 7 || 5% || 40 || 33% 
+| align="left" | Newyorkbrad || 66 || 0 || 0% || 2 || 3% || 40 || 63% || 13 || 20% || 9 || 23% || 31 || 78% || 65 || 0 || 0% || 5 || 8% || 33 || 55% || 27 || 45% || 131 || 0 || 0% || 7 || 5% || 40 || 32%
 |-
-| align="left" | Risker || 65 || 2 || 3% || 4 || 6% || 35 || 59% || 20 || 34% || 8 || 23% || 27 || 77% || 65 || 0 || 0% || 1 || 2% || 24 || 38% || 40 || 63% || 130 || 2 || 2% || 5 || 4% || 60 || 49% 
+| align="left" | Risker || 66 || 2 || 3% || 4 || 6% || 36 || 60% || 20 || 33% || 8 || 22% || 28 || 78% || 65 || 0 || 0% || 1 || 2% || 24 || 38% || 40 || 63% || 131 || 2 || 2% || 5 || 4% || 60 || 48%
 |-
-| align="left" | Rlevse || 63 || 0 || 0% || 2 || 3% || 46 || 75% || 15 || 25% || 20 || 43% || 26 || 57% || 63 || 0 || 0% || 1 || 2% || 21 || 34% || 41 || 66% || 126 || 0 || 0% || 3 || 2% || 56 || 46% 
+| align="left" | Rlevse || 64 || 0 || 0% || 2 || 3% || 47 || 76% || 15 || 24% || 20 || 43% || 27 || 57% || 63 || 0 || 0% || 1 || 2% || 21 || 34% || 41 || 66% || 127 || 0 || 0% || 3 || 2% || 56 || 45%
 |-
-| align="left" | Roger Davies || 65 || 0 || 0% || 0 || 0% || 46 || 71% || 17 || 26% || 18 || 39% || 28 || 61% || 65 || 0 || 0% || 0 || 0% || 22 || 34% || 43 || 66% || 130 || 0 || 0% || 0 || 0% || 60 || 46% 
+| align="left" | Roger Davies || 66 || 0 || 0% || 0 || 0% || 46 || 70% || 18 || 27% || 18 || 39% || 28 || 61% || 65 || 0 || 0% || 0 || 0% || 22 || 34% || 43 || 66% || 131 || 0 || 0% || 0 || 0% || 61 || 47%
 |-
-| align="left" | Sam Blacketer || 48 || 0 || 0% || 2 || 4% || 35 || 76% || 7 || 15% || 10 || 29% || 25 || 71% || 29 || 0 || 0% || 0 || 0% || 11 || 38% || 18 || 62% || 77 || 0 || 0% || 2 || 3% || 25 || 33% 
+| align="left" | Sam Blacketer || 48 || 0 || 0% || 2 || 4% || 35 || 76% || 7 || 15% || 10 || 29% || 25 || 71% || 29 || 0 || 0% || 0 || 0% || 11 || 38% || 18 || 62% || 77 || 0 || 0% || 2 || 3% || 25 || 33%
 |-
-| align="left" | Stephen Bain || 65 || 0 || 0% || 0 || 0% || 16 || 25% || 48 || 74% || 8 || 50% || 8 || 50% || 65 || 0 || 0% || 0 || 0% || 13 || 20% || 52 || 80% || 130 || 0 || 0% || 0 || 0% || 100 || 77% 
+| align="left" | Stephen Bain || 66 || 0 || 0% || 1 || 2% || 16 || 25% || 48 || 74% || 8 || 50% || 8 || 50% || 65 || 0 || 0% || 0 || 0% || 13 || 20% || 52 || 80% || 131 || 0 || 0% || 1 || 1% || 100 || 77%
 |-
-| align="left" | Vassyana || 65 || 2 || 3% || 6 || 10% || 43 || 75% || 10 || 18% || 8 || 19% || 35 || 81% || 65 || 2 || 3% || 7 || 11% || 42 || 75% || 14 || 25% || 130 || 4 || 3% || 13 || 10% || 24 || 21% 
+| align="left" | Vassyana || 66 || 3 || 5% || 6 || 10% || 43 || 75% || 10 || 18% || 8 || 19% || 35 || 81% || 65 || 2 || 3% || 7 || 11% || 42 || 75% || 14 || 25% || 131 || 5 || 4% || 13 || 10% || 24 || 21%
 |-
-| align="left" | Wizardman || 65 || 1 || 2% || 0 || 0% || 60 || 94% || 2 || 3% || 22 || 37% || 38 || 63% || 65 || 5 || 8% || 1 || 2% || 22 || 37% || 37 || 63% || 130 || 6 || 5% || 1 || 1% || 39 || 32% 
+| align="left" | Wizardman || 66 || 1 || 2% || 0 || 0% || 61 || 94% || 2 || 3% || 22 || 36% || 39 || 64% || 65 || 5 || 8% || 1 || 2% || 22 || 37% || 37 || 63% || 131 || 6 || 5% || 1 || 1% || 39 || 31%
 <!-- end requests activity table 2009 only -->
 |-class="sortbottom"
 !
@@ -588,7 +589,7 @@ The column headings, in table below, have the following meanings:
 |-
 | align="left" | John Vandenberg || 46 || 0 || 0% || 3 || 7% || 35 || 81% || 4 || 9% || 4 || 9% || 27 || 77% || 8 || 23% || 5 || 11%
 |-
-| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 4%
+| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 5%
 |-
 | align="left" | Newyorkbrad || 46 || 0 || 0% || 9 || 20% || 19 || 51% || 8 || 22% || 10 || 27% || 14 || 74% || 5 || 26% || 4 || 9%
 |-
@@ -598,7 +599,7 @@ The column headings, in table below, have the following meanings:
 |-
 | align="left" | Roger Davies || 46 || 0 || 0% || 0 || 0% || 31 || 67% || 1 || 2% || 14 || 30% || 27 || 87% || 4 || 13% || 4 || 9%
 |-
-| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 2%
+| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 3%
 |-
 | align="left" | Stephen Bain || 46 || 0 || 0% || 0 || 0% || 13 || 28% || 1 || 2% || 32 || 70% || 9 || 69% || 4 || 31% || 3 || 7%
 |-
@@ -616,6 +617,7 @@ The column headings, in table below, have the following meanings:
 {| class="wikitable" style="text-align:center"
 |+ Cases involving 2009 arbs only
 |-
+<!-- begin cases table 2009 only -->
 ! Case !! Opened !! Closed !! Days Open !! Ac !! R !! I !! M !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz || Drafter
 |-
 | align="left" | ''[[Wikipedia:Arbitration/Requests/Case/ADHD|ADHD]]'' || 21-May-2009 || 14-Jul-2009 || 53 || 12 || 2 || 1 || 7 ||  || R ||  || I ||  ||  || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || Ste
@@ -655,6 +657,7 @@ The column headings, in table below, have the following meanings:
 | align="left" | ''[[Wikipedia:Requests for arbitration/Fringe science|Fringe science]]'' || 29-Dec-2008 || 25-Feb-2009 || 58 || 12 || 4 || 0 || 7 ||  ||  || R ||  ||  ||  || N || R ||  ||  ||  || R ||  ||  ||  || R ||  || Cor
 |-
 | align="left" | ''[[Wikipedia:Requests for arbitration/G.-M. Cupertino|G.-M. Cupertino]]'' || 2-Jan-2009 || 16-Jan-2009 || 14 || 16 || 0 || 0 || 9 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Wiz
+<!-- end cases table 2009 only -->
 |}
 
 ===Involving 2009 and departing 2008 arbs===
@@ -662,11 +665,13 @@ The column headings, in table below, have the following meanings:
 {| class="wikitable" style="text-align:center"
 |+ Cases Involving 2009 and departing 2008 arbs
 |-
+<!-- begin cases table 2009 2008 -->
 ! Case !! Opened !! Closed !! Days Open !! Ac !! R !! I !! M !! Car || Cas || Cha || Chl || Cor || Des || Fay || Flo || FT2 || Joh|| Jdf || Jpg || Kir || Mor || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz || Yel || Drafter
 |-
 | align="left" |    ''[[Wikipedia:Requests for arbitration/PHG|PHG]]'' || 3-Dec-2008 || 2-Feb-2009 || 62 || 16 || 0 || 5 || 9 ||  ||  || I ||  ||  ||  ||  ||  || N ||  || I || I ||  || N ||  || I ||  ||  ||  ||  ||  ||  || I || Chl
 |-
 | align="left" |    ''[[Wikipedia:Requests for arbitration/Ireland article names|Ireland article names]]'' || 9-Dec-2008 || 4-Jan-2009 || 26 || 12 || 2 || 0 || 7 || N || N ||  || N ||  ||  ||  ||  ||  || N ||  || R ||  || N ||  || N || N || N || R ||  || N ||  || || Kir
+<!-- end cases table 2009 2008 -->
 |}
 
 ===Arb activity===
@@ -683,6 +688,7 @@ The column headings, in the two tables below, have the following meanings:
 |-
 ! Arb || EC || Inactive || % || Recused || % || Drafted || %
 |-
+<!-- begin cases summary 2009 only -->
 | align="left" | Carcharoth || 20 || 4 || 20% || 2 || 13% || 0 || 0%
 |-
 | align="left" | Casliber || 20 || 0 || 0% || 4 || 20% || 0 || 0%
@@ -716,6 +722,7 @@ The column headings, in the two tables below, have the following meanings:
 | align="left" | Vassyana || 20 || 0 || 0% || 3 || 15% || 1 || 5%
 |-
 | align="left" | Wizardman || 21 || 0 || 0% || 0 || 0% || 5 || 24%
+<!-- end cases summary 2009 only -->
 |}
 
 ====Arb activity (departing 2008)====
@@ -724,6 +731,7 @@ The column headings, in the two tables below, have the following meanings:
 |-
 ! Arb || EC || Inactive || % || Recused || % || Drafted || %
 |-
+<!-- begin cases summary 2009 2008 -->
 | align="left" | Charles Matthews || 2 || 1 || 50% || 0 || 0% || 0 || 0%
 |-
 | align="left" | Deskana || 2 || 0 || 0% || 0 || 0% || 0 || 0%
@@ -735,6 +743,7 @@ The column headings, in the two tables below, have the following meanings:
 | align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 || 0%
 |-
 | align="left" | YellowMonkey || 2 || 1 || 50% || 0 || 0% || 0 || 0%
+<!-- end cases summary 2009 2008 -->
 |}
 
 ==Proposals==
@@ -849,15 +858,15 @@ The column headings, in the two tables below, have the following meanings:
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#Arbitration in dispute resolution|Arbitration in dispute resolution]] || align=left | P10 || align=left | Passed || 5 || 2 || 3 || 5 ||  || R || R || A || A ||  || S || N || S || R || A || R || S || S || N || O || O || S1 ||  ||  ||  || 4 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 9 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black’s edit-warring and block log|A Man In Black’s edit-warring and block log]] || align=left | F1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R || S || S || N || S || S || S1 ||  ||  ||  || 8 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black~s edit-warring and block log|A Man In Black~s edit-warring and block log]] || align=left | F1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R || S || S || N || S || S || S1 ||  ||  ||  || 8 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black-Ikip involvement|A Man In Black-Ikip involvement]] || align=left | F2 || align=left | Failed* || 7 || 1 || 1 || 6 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || O || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#Disputes between A Man In Black and Ikip|Disputes between A Man In Black and Ikip]] || align=left | F2.1 || align=left | Passed || 8 || 0 || 1 || 6 ||  || R || R || A || S ||  ||  || N || S || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  ||  ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black’s block of Ikip|A Man In Black’s block of Ikip]] || align=left | F3 || align=left | Failed* || 7 || 0 || 2 || 5 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || A || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black~s block of Ikip|A Man In Black~s block of Ikip]] || align=left | F3 || align=left | Failed* || 7 || 0 || 2 || 5 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || A || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black’s block of Ikip|A Man In Black’s block of Ikip]] || align=left | F3.1 || align=left | Passed || 8 || 1 || 1 || 6 ||  || R || R || A || S ||  || S || N || O || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  || 0 ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black~s block of Ikip|A Man In Black~s block of Ikip]] || align=left | F3.1 || align=left | Passed || 8 || 1 || 1 || 6 ||  || R || R || A || S ||  || S || N || O || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  || 0 ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man in Black's blocks of Jtrainor and MalikCarr|A Man in Black's blocks of Jtrainor and MalikCarr]] || align=left | F3A || align=left | Passed || 8 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R ||  ||  || N || S1 || S || S ||  ||  ||  || 4 || 0 ||  || 0 ||  || 0 ||  || 4 ||  ||  ||  ||  || 0 || 2 || 1
 |-
