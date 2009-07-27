@@ -20,8 +20,8 @@ MAIN: {
     # Get the text from the server
     $sleep  = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
     $Editor = wikipedia_login("Mathbot");
-    $text   = wikipedia_fetch($Editor, $file, $attempts, $sleep); 
     $file   = "Wikipedia:Requests for arbitration/Statistics 2009";
+    $text   = wikipedia_fetch($Editor, $file, $attempts, $sleep); 
     open(FILE, ">$local_file1"); print FILE $text; close(FILE);
 
   }else{
