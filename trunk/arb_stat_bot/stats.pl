@@ -32,7 +32,7 @@ MAIN: {
 
   if (!$use_local){
     
-    $edit_summary = "Bot update of the second section (motions)";
+    $edit_summary = "Bot update of the third section (cases)";
     wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
     
   }else{
