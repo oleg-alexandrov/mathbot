@@ -12,7 +12,7 @@ MAIN: {
   my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
   my ($edit_summary, $Editor, $use_local);
 
-  $use_local = 1; # if non-zero, read from and write to local disk
+  $use_local = 0; # if non-zero, read/write on disk, else submit to wikipedia
   $local_file1 = "Statistics_2009.txt";
 
   if (!$use_local){
