@@ -1,3 +1,4 @@
+
 #!/usr/bin/perl
 use strict;          # 'strict' insists that all variables be declared
 use diagnostics;     # 'diagnostics' expands the cryptic warnings
@@ -9,36 +10,39 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 MAIN: {
 
-  my ($sleep, $attempts, $text, $file, $local_file1, $local_file2);
+  my ($sleep, $attempts, $text, $file, $local_file_in, $local_file_out);
   my ($edit_summary, $Editor, $use_local);
 
-  $use_local = 0; # if non-zero, read/write on disk, else submit to wikipedia
-  $local_file1 = "Statistics_2009.txt";
+  print "Content-type: text/html\n\n"; # first line to print in a cgi script
+  $| = 1; # flush the buffer each line
+
+  $use_local = 0; # if non-zero, read/write on disk, else submit to Wikipedia
+  $local_file_in = "Statistics_2009.txt";
 
   if (!$use_local){
     
-    # Get the text from the server
+    # Get the text from the Wikipedia server
     $sleep  = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
     $Editor = wikipedia_login("Mathbot");
     $file   = "Wikipedia:Requests for arbitration/Statistics 2009";
     $text   = wikipedia_fetch($Editor, $file, $attempts, $sleep); 
-    open(FILE, ">$local_file1"); print FILE $text; close(FILE);
+    open(FILE, ">$local_file_in"); print FILE $text; close(FILE);
 
   }else{
-    open(FILE, "<$local_file1"); $text = <FILE>; close(FILE); # use local copy
+    open(FILE, "<$local_file_in"); $text = <FILE>; close(FILE); # local copy
   }
   
   $text = gen_all_stats($text);
 
   if (!$use_local){
     
-    $edit_summary = "Bot update of the third section (cases)";
+    $edit_summary = "Bot update";
     wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
     
   }else{
     
-    $local_file2 = "Statistics_2009_proc.txt";
-    open(FILE, ">$local_file2"); print FILE $text . "\n"; close(FILE);
+    $local_file_out = "Statistics_2009_proc.txt";
+    open(FILE, ">$local_file_out"); print FILE $text . "\n"; close(FILE);
 
   }
   
