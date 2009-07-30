@@ -824,7 +824,7 @@ sub percentage {
   my $val   = shift;
   my $outOf = shift;
 
-  $outOf = 1 if ($outOf == 0);
+  return "" if ($outOf == 0);
   
   return (round_ndigits(100*$val/$outOf, 0)) . "%";
 }
