@@ -487,9 +487,9 @@ sub compute_motions_activity {
   if (exists $Offered->{$arb}){
     $offered  = $Offered->{$arb};
   }else{
-    $offered   = 0; 
+    $offered  = 0; 
   }
-  $offeredp = percentage( $offered,  $em );
+  $offeredp = percentage( $offered,  $total );
   
   my $row = "$em $i $ip $r $rp $v $vp $a $ap $dn $dnp $s $sp $o $op ";
   $row .=   "$offered $offeredp\n";
