@@ -175,7 +175,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 
 ===Clarifications and other requests===
 <!-- begin clarification requests summary all -->
-* Requests: 68; average duration: 12.0 days; declined: 21 (31%); disposed by clarification: 32 (47%); disposed by motion: 14 (21%); withdrawn: 1 (1%).
+* Requests: 68; average duration: 12 days; declined: 21 (31%); disposed by clarification: 32 (47%); disposed by motion: 14 (21%); withdrawn: 1 (1%).
 <!-- end clarification requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -314,7 +314,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 <!-- end clarification requests table 2009 only -->
 | align="center" colspan=25 |
 <!-- begin clarification requests summary 2009 only -->
-Requests: 63; average duration: 12.4 days; declined: 19 (30%); disposed by clarification: 31 (49%); disposed by motion: 12 (19%); withdrawn: 1 (2%)
+Requests: 63; average duration: 12.3 days; declined: 19 (30%); disposed by clarification: 31 (49%); disposed by motion: 12 (19%); withdrawn: 1 (2%)
 <!-- end clarification requests summary 2009 only -->
 |}
 
@@ -438,17 +438,17 @@ YellowMonkey                Yel
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
 <!-- begin requests activity table 2009 2008 -->
-| align="left" | Charles Matthews || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 || 0% || 0 || 0% || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
+| align="left" | Charles Matthews || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 ||  || 0 ||  || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
 |-
 | align="left" | Deskana || 7 || 0 || 0% || 0 || 0% || 3 || 43% || 4 || 57% || 0 || 0% || 3 || 100% || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 9 || 75%
 |-
 | align="left" | Jdforrester || 7 || 0 || 0% || 1 || 14% || 1 || 17% || 5 || 83% || 0 || 0% || 1 || 100% || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 1 || 8% || 10 || 91%
 |-
-| align="left" | Jpgordon || 7 || 6 || 86% || 1 || 100% || 0 || 0% || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 5 || 100% || 0 || 0% || 0 || 0% || 0 || 0% || 12 || 11 || 92% || 1 || 100% || 0 || 0%
+| align="left" | Jpgordon || 7 || 6 || 86% || 1 || 100% || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 5 || 5 || 100% || 0 ||  || 0 ||  || 0 ||  || 12 || 11 || 92% || 1 || 100% || 0 ||
 |-
-| align="left" | Morven || 4 || 0 || 0% || 0 || 0% || 0 || 0% || 4 || 100% || 0 || 0% || 0 || 0% || 1 || 0 || 0% || 0 || 0% || 0 || 0% || 1 || 100% || 5 || 0 || 0% || 0 || 0% || 5 || 100%
+| align="left" | Morven || 4 || 0 || 0% || 0 || 0% || 0 || 0% || 4 || 100% || 0 ||  || 0 ||  || 1 || 0 || 0% || 0 || 0% || 0 || 0% || 1 || 100% || 5 || 0 || 0% || 0 || 0% || 5 || 100%
 |-
-| align="left" | YellowMonkey || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 || 0% || 0 || 0% || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
+| align="left" | YellowMonkey || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 ||  || 0 ||  || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
 <!-- end requests activity table 2009 2008 -->
 |-class="sortbottom"
 !
@@ -603,7 +603,7 @@ The column headings, in table below, have the following meanings:
 |-
 | align="left" | John Vandenberg || 49 || 0 || 0% || 6 || 12% || 35 || 81% || 4 || 9% || 4 || 9% || 27 || 77% || 8 || 23% || 5 || 10%
 |-
-| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 4%
+| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 5%
 |-
 | align="left" | Newyorkbrad || 49 || 0 || 0% || 9 || 18% || 21 || 53% || 9 || 23% || 10 || 25% || 15 || 71% || 6 || 29% || 4 || 8%
 |-
@@ -613,7 +613,7 @@ The column headings, in table below, have the following meanings:
 |-
 | align="left" | Roger Davies || 49 || 0 || 0% || 0 || 0% || 34 || 69% || 1 || 2% || 14 || 29% || 30 || 88% || 4 || 12% || 5 || 10%
 |-
-| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 2%
+| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 3%
 |-
 | align="left" | Stephen Bain || 49 || 0 || 0% || 0 || 0% || 15 || 31% || 1 || 2% || 33 || 67% || 11 || 73% || 4 || 27% || 4 || 8%
 |-
@@ -754,7 +754,7 @@ The column headings, in the two tables below, have the following meanings:
 |-
 | align="left" | Jpgordon || 2 || 1 || 50% || 1 || 100% || 0 || 0%
 |-
-| align="left" | Morven || 0 || 0 || 0% || 0 || 0% || 0 || 0%
+| align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 || 
 |-
 | align="left" | YellowMonkey || 2 || 1 || 50% || 0 || 0% || 0 || 0%
 <!-- end cases summary 2009 2008 -->
