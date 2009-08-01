@@ -603,7 +603,7 @@ The column headings, in table below, have the following meanings:
 |-
 | align="left" | John Vandenberg || 49 || 0 || 0% || 6 || 12% || 35 || 81% || 4 || 9% || 4 || 9% || 27 || 77% || 8 || 23% || 5 || 10%
 |-
-| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 5%
+| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 4%
 |-
 | align="left" | Newyorkbrad || 49 || 0 || 0% || 9 || 18% || 21 || 53% || 9 || 23% || 10 || 25% || 15 || 71% || 6 || 29% || 4 || 8%
 |-
@@ -613,7 +613,7 @@ The column headings, in table below, have the following meanings:
 |-
 | align="left" | Roger Davies || 49 || 0 || 0% || 0 || 0% || 34 || 69% || 1 || 2% || 14 || 29% || 30 || 88% || 4 || 12% || 5 || 10%
 |-
-| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 3%
+| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 2%
 |-
 | align="left" | Stephen Bain || 49 || 0 || 0% || 0 || 0% || 15 || 31% || 1 || 2% || 33 || 67% || 11 || 73% || 4 || 27% || 4 || 8%
 |-
@@ -768,6 +768,7 @@ The column headings, in the two tables below, have the following meanings:
 {| class="wikitable" style="text-align:center"
 |+ Case proposals for cases involving 2009 arbs only
 |-
+<!-- begin proposals table 2009 only -->
 ! colspan=2 | ''[[Wikipedia:Arbitration/Requests/Case/ADHD|ADHD]]'' - [[Wikipedia:Arbitration/Requests/Case/ADHD/Proposed decision|Proposals]] (AC=12, R=2, I=1) || Disp || S || O || A || M ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Jay || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Jay || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/ADHD/Proposed_decision#Neutral point of view|Neutral point of view]] || align=left | P1 || align=left | Passed || 11 || 0 || 0 || 7 ||  || S || R || S || I ||  || S || N || S || S || S || R || S || S || N || S1 || S || S ||  || 7 ||  || 0 ||  ||  || 1 ||  || 7 || 1 || 1 ||  || 1 || 7 ||  || 0 || 2 || 1
@@ -2689,6 +2690,7 @@ The column headings, in the two tables below, have the following meanings:
 {| class="wikitable" style="text-align:center"
 |+ Proposals for cases involving 2009 and departing 2008 arbs
 |-
+<!-- begin proposals table 2009 2008 -->
 ! colspan=2 | ''[[Wikipedia:Requests for arbitration/PHG|PHG]]'' - [[Wikipedia:Requests for arbitration/PHG/Proposed decision|Proposals]] (AC=16, R=0, I=5) || Disp || S || O || A || M ||  || Car || Cas || Cha || Chl || Cor || Des || Fay || Flo || FT2 || Joh || Jdf || Jpg || Kir || Mor || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz || Yel ||  || Car || Cas || Cha || Chl || Cor || Des || Fay || Flo || FT2 || Joh || Jdf || Jpg || Kir || Mor || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz || Yel
 |-
 | align="left" | [[Wikipedia:Requests for arbitration/PHG/Proposed_decision#Purpose of Wikipedia|Purpose of Wikipedia]] || align=left | P1 || align=left | Passed || 15 || 0 || 0 || 9 ||  || S || S || I || S1 || S || S || S || S || N || S || I || I || S || N || S || I || S || S || S ||  || S || S || I ||  || 8 || 8 ||  || 0 || 5 || 5 || 8 || 0 ||  || 9 ||  ||  || 0 ||  || 5 ||  || 0 || 10 || 8 ||  || 1 || 0 || 
@@ -2748,6 +2750,7 @@ The column headings, in the two tables below, have the following meanings:
 | align="left" | [[Wikipedia:Requests for arbitration/Ireland article names/Proposed_decision#No moves pending discussion|No moves pending discussion]] || align=left | R3 || align=left | Passed || 8 || 0 || 0 || 7 ||  || N || N ||  || N || S || S || S || S ||  || N ||  || R || S1 || N || S || N || N || N || R || S || N || S ||  ||  ||  ||  ||  ||  || 3 || 1 || 3 || 1 ||  ||  ||  ||  || 0 ||  || 0 ||  ||  ||  ||  || 0 ||  || 3 || 
 |-
 | align="left" | [[Wikipedia:Requests for arbitration/Ireland article names/Proposed_decision#Binding resolution|Binding resolution]] || align=left | R4 || align=left | Passed || 7 || 0 || 1 || 6 ||  || N || N ||  || N || A || S || S || S ||  || N ||  || R || S1 || N || S || N || N || N || R || S || N || S ||  ||  ||  ||  ||  ||  || 3 || 1 || 3 || 1 ||  ||  ||  ||  || 0 ||  || 0 ||  ||  ||  ||  || 0 ||  || 3 || 
+<!-- end proposals table 2009 2008 -->
 |-
 | colspan=55 | Proposals: 28; passed 25 (89%); failed 3 (11%) 
 |}
@@ -2774,6 +2777,7 @@ In the two tables below, the column headings have the following meanings:
 |-
 ! Arb || EP || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || FS || % || ATV || MTV
 |-
+<!-- begin proposals activity 2009 only -->
 | align="left" | Carcharoth || 956 || 195 || 20% || 217 || 29% || 516 || 95% || 23 || 4% || 5 || 1% || 412 || 80% || 104 || 20% || 17 || 2% || 7.1 || 6.0
 |-
 | align="left" | Casliber || 956 || 0 || 0% || 255 || 27% || 613 || 87% || 50 || 7% || 38 || 5% || 585 || 95% || 28 || 5% || 7 || 1% || 3.3 || 1.0
@@ -2807,6 +2811,7 @@ In the two tables below, the column headings have the following meanings:
 | align="left" | Vassyana || 956 || 0 || 0% || 174 || 18% || 644 || 82% || 125 || 16% || 13 || 2% || 523 || 81% || 121 || 19% || 52 || 5% || 4.1 || 2.0
 |-
 | align="left" | Wizardman || 966 || 0 || 0% || 0 || 0% || 900 || 93% || 52 || 5% || 14 || 1% || 812 || 90% || 88 || 10% || 120 || 12% || 3.9 || 2.0
+<!-- end proposals activity 2009 only -->
 |}
 
 ====Arb activity (departing 2008) ====
@@ -2815,6 +2820,7 @@ In the two tables below, the column headings have the following meanings:
 |-
 ! Arb || EP || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || FS || % || ATV || MTV
 |-
+<!-- begin proposals activity 2009 2008 -->
 | align="left" | Charles Matthews || 28 || 18 || 64% || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||   || 0 ||   || 0 || 0% ||  || 
 |-
 | align="left" | Deskana || 28 || 0 || 0% || 0 || 0% || 28 || 100% || 0 || 0% || 0 || 0% || 27 || 96% || 1 || 4% || 0 || 0% || 4.3 || 5.0
@@ -2826,4 +2832,5 @@ In the two tables below, the column headings have the following meanings:
 | align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 || 0% ||  || 
 |-
 | align="left" | YellowMonkey || 28 || 18 || 64% || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||   || 0 ||  || 0 || 0% ||  || 
+<!-- end proposals activity 2009 2008 -->
 |}
