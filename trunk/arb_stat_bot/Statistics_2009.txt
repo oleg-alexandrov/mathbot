@@ -391,7 +391,7 @@ YellowMonkey                Yel
 |-
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
-<!-- begin requests stats table 2009 only -->
+<!-- begin requests stats 2009 only -->
 | align="left" | Carcharoth || 66 || 10 || 15% || 7 || 13% || 41 || 84% || 4 || 8% || 10 || 24% || 31 || 76% || 68 || 19 || 28% || 1 || 2% || 31 || 65% || 17 || 35% || 134 || 29 || 22% || 8 || 8% || 21 || 22%
 |-
 | align="left" | Casliber || 66 || 0 || 0% || 5 || 8% || 52 || 85% || 7 || 11% || 16 || 31% || 36 || 69% || 68 || 0 || 0% || 2 || 3% || 17 || 26% || 49 || 74% || 134 || 0 || 0% || 7 || 5% || 56 || 44%
@@ -425,7 +425,7 @@ YellowMonkey                Yel
 | align="left" | Vassyana || 66 || 3 || 5% || 6 || 10% || 43 || 75% || 10 || 18% || 8 || 19% || 35 || 81% || 68 || 5 || 7% || 7 || 11% || 42 || 75% || 14 || 25% || 134 || 8 || 6% || 13 || 10% || 24 || 21%
 |-
 | align="left" | Wizardman || 66 || 1 || 2% || 0 || 0% || 61 || 94% || 2 || 3% || 22 || 36% || 39 || 64% || 68 || 5 || 7% || 1 || 2% || 23 || 37% || 39 || 63% || 134 || 6 || 4% || 1 || 1% || 41 || 32%
-<!-- end requests stats table 2009 only -->
+<!-- end requests stats 2009 only -->
 |-class="sortbottom"
 !
 ! colspan=13 | Case requests !! colspan=9 | Clarifications and other requests !! colspan=7 | All requests
@@ -437,7 +437,7 @@ YellowMonkey                Yel
 |-
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
-<!-- begin requests stats table 2009 2008 -->
+<!-- begin requests stats 2009 2008 -->
 | align="left" | Charles Matthews || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 ||  || 0 ||  || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
 |-
 | align="left" | Deskana || 7 || 0 || 0% || 0 || 0% || 3 || 43% || 4 || 57% || 0 || 0% || 3 || 100% || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 9 || 75%
@@ -449,7 +449,7 @@ YellowMonkey                Yel
 | align="left" | Morven || 4 || 0 || 0% || 0 || 0% || 0 || 0% || 4 || 100% || 0 ||  || 0 ||  || 1 || 0 || 0% || 0 || 0% || 0 || 0% || 1 || 100% || 5 || 0 || 0% || 0 || 0% || 5 || 100%
 |-
 | align="left" | YellowMonkey || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 ||  || 0 ||  || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
-<!-- end requests stats table 2009 2008 -->
+<!-- end requests stats 2009 2008 -->
 |-class="sortbottom"
 !
 ! colspan=13 | Case requests !! colspan=9 | Clarifications and other requests !! colspan=7 | All requests

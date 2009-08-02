@@ -189,10 +189,10 @@ sub gen_requests_stats{
     $output_table =~ s/\|\-\s*$//g; # strip last "|-"
     
     # Update the appropriate table in the wiki text
-    my $beg_tag = '<!-- begin requests stats table '
+    my $beg_tag = '<!-- begin requests stats '
        . $years->[$year_count] . ' -->';
 
-    my $end_tag = '<!-- end requests stats table '
+    my $end_tag = '<!-- end requests stats '
        . $years->[$year_count] . ' -->';
 
     $text = put_text_between_tags($text, $output_table, $beg_tag, $end_tag);
