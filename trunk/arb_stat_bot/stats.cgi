@@ -4,9 +4,9 @@ use diagnostics;     # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
-use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
-use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
-use lib '../wp/modules'; # relative path to perl modules
+use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; 
+use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; 
+use lib '../wp/modules'; 
 require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
 
 MAIN: {
@@ -17,7 +17,7 @@ MAIN: {
   print "Content-type: text/html\n\n"; # first line to print in a cgi script
   $| = 1; # flush the buffer each line
 
-  $use_local = 0; # if non-zero, read/write on disk, else submit to Wikipedia
+  $use_local = 1; # if non-zero, read/write on disk, else submit to Wikipedia
   $local_file_in = "Statistics_2009.txt";
 
   if (!$use_local){
@@ -63,16 +63,25 @@ sub gen_all_stats{
 
   # Section 2: the motions stats
   $text = gen_motions_stats($text, $years, $arbs_list);
+
+  my ($arbs_votes, $type);
   
   # Section 3: the cases stats
-  $text = gen_cases_stats($text, $years, $arbs_list);
+  $type = "cases";
+  $arbs_votes = ["R", "I", "N", ""];   # How arbitrators can vote
+  $text = gen_other_stats($text, $years, $arbs_list, $arbs_votes, $type);
+
+#   # Section 4: the proposals stats
+#   $type = "proposals";
+#   $arbs_votes = ["R", "I", "N", ""];   # How arbitrators can vote
+#   $text = gen_other_stats($text, $years, $arbs_list, $arbs_votes, $type);
 
   return $text;
 }
 
 sub gen_requests_stats{
 
-  my $text      = shift; # text to parse and put the summary into
+  my $text      = shift; # text to parse and put the stats into
   my $years     = shift; # years to parse
   my $arbs_list = shift; # list of arbitrators
   
@@ -87,7 +96,7 @@ sub gen_requests_stats{
 
   # For each year and each type of table we need to produce a summary
   # Also store the parsed tables, so that later we can use them
-  # to form the arb activity tables.
+  # to form the arb stats tables.
   
   foreach my $type (@$types){
 
@@ -128,7 +137,7 @@ sub gen_requests_stats{
     # Parse the tables, complete the summary lines,
     # return the text with the updated summary lines,
     # and return as well the parsed table, we need it
-    # to complete the arbitrator activity tables.
+    # to complete the arbitrator stats tables.
     ($text, $table) = 
        parse_complete_requests_table_summaries
           ($text,
@@ -140,11 +149,11 @@ sub gen_requests_stats{
     push(@tables, $table);
   }
 
-  # Now deal with the arb activity tables
+  # Now deal with the arb stats tables
   
   # For every year, return a hash containing the arbitrators for that year
 
-  # Create the arb activity table and put it in the wiki text
+  # Create the arb stats table and put it in the wiki text
   for (my $year_count = 0; $year_count < 2; $year_count++){
 
     # $year_count == 0 deals with arbs in current year, $year_count == 1
@@ -158,7 +167,7 @@ sub gen_requests_stats{
 
       my $arb_full = $arbs->{$arb}; # expansion of the abbrev
 
-      # There exist three types of data in the arb activity table
+      # There exist three types of data in the arb stats table
       my $row = "| align=\"left\" | $arb_full \|\| ";
       for (my $type = 0; $type < 3; $type++){
         
@@ -167,7 +176,7 @@ sub gen_requests_stats{
         }else{
           $table = merge_tables($tables[0], $tables[1]); # grand summary  
         }
-        $row .= compute_requests_activity($arb, $arbs_votes, $table, $type);
+        $row .= compute_requests_stats($arb, $arbs_votes, $table, $type);
       }
 
       $row =~ s/\s*\|\|\s*$//g; # strip last separator
@@ -180,10 +189,10 @@ sub gen_requests_stats{
     $output_table =~ s/\|\-\s*$//g; # strip last "|-"
     
     # Update the appropriate table in the wiki text
-    my $beg_tag = '<!-- begin requests activity table '
+    my $beg_tag = '<!-- begin requests stats table '
        . $years->[$year_count] . ' -->';
 
-    my $end_tag = '<!-- end requests activity table '
+    my $end_tag = '<!-- end requests stats table '
        . $years->[$year_count] . ' -->';
 
     $text = put_text_between_tags($text, $output_table, $beg_tag, $end_tag);
@@ -195,7 +204,7 @@ sub gen_requests_stats{
 
 sub gen_motions_stats{
 
-  my $text      = shift; # text to parse and put the summary into
+  my $text      = shift; # text to parse and put the stats into
   my $years     = shift; # years to parse
   my $arbs_list = shift; # list of arbitrators
 
@@ -227,31 +236,30 @@ sub gen_motions_stats{
     my $arb_full = $arbs->{$arb}; # expansion of the abbrev
 
     my $row  = "| align=\"left\" | $arb_full \|\| ";
-    $row    .= compute_motions_activity($arb, $arbs_votes, $table, $Offered);
+    $row    .= compute_motions_stats($arb, $arbs_votes, $table, $Offered);
     $output_table .= $row;
   }
   
   $output_table =~ s/\|\-\s*$//g; # strip last "|-"
 
   # put the data between these tags
-  my $beg_summary_tag = "<!-- begin motions summary $year -->";
-  my $end_summary_tag = "<!-- end motions summary $year -->";
+  my $beg_stats_tag = "<!-- begin motions stats $year -->";
+  my $end_stats_tag = "<!-- end motions stats $year -->";
   
   $text = put_text_between_tags($text, $output_table,
-                                $beg_summary_tag, $end_summary_tag);
+                                $beg_stats_tag, $end_stats_tag);
   
   return $text;
 }
 
-sub gen_cases_stats{
+sub gen_other_stats{
 
-  my $text      = shift; # text to parse and put the summary into
-  my $years     = shift; # years to parse
-  my $arbs_list = shift; # list of arbitrators
-
-  # How arbitrators can vote 
-  my $arbs_votes = ["R", "I", "N", ""];
-
+  my $text       = shift; # text to parse and put the stats into
+  my $years      = shift; # years to parse
+  my $arbs_list  = shift; # list of arbitrators
+  my $arbs_votes = shift;
+  my $type       = shift;
+  
   my $table   = {};
   my $Drafted = {}; # how many times an arbitrator drafted a case
 
@@ -259,8 +267,8 @@ sub gen_cases_stats{
   for (my $year_count = 0; $year_count < 2; $year_count++){
 
     my $year          = $years->[$year_count];
-    my $beg_table_tag = "<!-- begin cases table $year -->";
-    my $end_table_tag = "<!-- end cases table $year -->";
+    my $beg_table_tag = "<!-- begin $type table $year -->";
+    my $end_table_tag = "<!-- end $type table $year -->";
 
     my $table_text = get_text_between_tags($text, $beg_table_tag,
                                            $end_table_tag);
@@ -269,10 +277,12 @@ sub gen_cases_stats{
                            parse_wiki_table($table_text) # current table
                          );
   }
-  
-  my $draftedCol = $table->{"Drafter"};
-  foreach my $arb (@$draftedCol){
-    $Drafted->{$arb}++;
+
+  if ($type eq "cases"){
+    my $draftedCol = $table->{"Drafter"};
+    foreach my $arb (@$draftedCol){
+      $Drafted->{$arb}++;
+    }
   }
   
   for (my $year_count = 0; $year_count < 2; $year_count++){
@@ -288,18 +298,18 @@ sub gen_cases_stats{
       my $arb_full = $arbs->{$arb}; # expansion of the abbrev
 
       my $row = "| align=\"left\" | $arb_full \|\| ";
-      $row   .= compute_cases_activity($arb, $arbs_votes, $table, $Drafted);
+      $row   .= compute_cases_stats($arb, $arbs_votes, $table, $Drafted);
       $output_table .= $row;
       
     } # End iterating over arbitrators
 
     $output_table =~ s/\|\-\s*$//g; # strip last "|-"
     
-    my $beg_summary_tag = "<!-- begin cases summary $year -->";
-    my $end_summary_tag = "<!-- end cases summary $year -->";
+    my $beg_stats_tag = "<!-- begin $type stats $year -->";
+    my $end_stats_tag = "<!-- end $type stats $year -->";
   
     $text = put_text_between_tags($text, $output_table,
-                                  $beg_summary_tag, $end_summary_tag);
+                                  $beg_stats_tag, $end_stats_tag);
   
   } # End iterating over years
   return $text;
@@ -412,7 +422,7 @@ sub form_summary {
   return $summary;
 }
 
-sub compute_requests_activity {
+sub compute_requests_stats {
 
   my $arb        = shift; # person whose votes to count
   my $arbs_votes = shift; # types of votes to count
@@ -458,7 +468,7 @@ sub compute_requests_activity {
   
 }
 
-sub compute_motions_activity {
+sub compute_motions_stats {
   
   my $arb        = shift; # person whose votes to count
   my $arbs_votes = shift; # types of votes to count
@@ -499,7 +509,7 @@ sub compute_motions_activity {
   return $row;
 }
 
-sub compute_cases_activity {
+sub compute_cases_stats {
   
   my $arb        = shift; # person whose votes to count
   my $arbs_votes = shift; # types of votes to count
