@@ -391,7 +391,7 @@ YellowMonkey                Yel
 |-
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
-<!-- begin requests activity table 2009 only -->
+<!-- begin requests stats table 2009 only -->
 | align="left" | Carcharoth || 66 || 10 || 15% || 7 || 13% || 41 || 84% || 4 || 8% || 10 || 24% || 31 || 76% || 68 || 19 || 28% || 1 || 2% || 31 || 65% || 17 || 35% || 134 || 29 || 22% || 8 || 8% || 21 || 22%
 |-
 | align="left" | Casliber || 66 || 0 || 0% || 5 || 8% || 52 || 85% || 7 || 11% || 16 || 31% || 36 || 69% || 68 || 0 || 0% || 2 || 3% || 17 || 26% || 49 || 74% || 134 || 0 || 0% || 7 || 5% || 56 || 44%
@@ -425,7 +425,7 @@ YellowMonkey                Yel
 | align="left" | Vassyana || 66 || 3 || 5% || 6 || 10% || 43 || 75% || 10 || 18% || 8 || 19% || 35 || 81% || 68 || 5 || 7% || 7 || 11% || 42 || 75% || 14 || 25% || 134 || 8 || 6% || 13 || 10% || 24 || 21%
 |-
 | align="left" | Wizardman || 66 || 1 || 2% || 0 || 0% || 61 || 94% || 2 || 3% || 22 || 36% || 39 || 64% || 68 || 5 || 7% || 1 || 2% || 23 || 37% || 39 || 63% || 134 || 6 || 4% || 1 || 1% || 41 || 32%
-<!-- end requests activity table 2009 only -->
+<!-- end requests stats table 2009 only -->
 |-class="sortbottom"
 !
 ! colspan=13 | Case requests !! colspan=9 | Clarifications and other requests !! colspan=7 | All requests
@@ -437,7 +437,7 @@ YellowMonkey                Yel
 |-
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
-<!-- begin requests activity table 2009 2008 -->
+<!-- begin requests stats table 2009 2008 -->
 | align="left" | Charles Matthews || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 ||  || 0 ||  || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
 |-
 | align="left" | Deskana || 7 || 0 || 0% || 0 || 0% || 3 || 43% || 4 || 57% || 0 || 0% || 3 || 100% || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 9 || 75%
@@ -449,7 +449,7 @@ YellowMonkey                Yel
 | align="left" | Morven || 4 || 0 || 0% || 0 || 0% || 0 || 0% || 4 || 100% || 0 ||  || 0 ||  || 1 || 0 || 0% || 0 || 0% || 0 || 0% || 1 || 100% || 5 || 0 || 0% || 0 || 0% || 5 || 100%
 |-
 | align="left" | YellowMonkey || 7 || 0 || 0% || 0 || 0% || 0 || 0% || 7 || 100% || 0 ||  || 0 ||  || 5 || 0 || 0% || 0 || 0% || 0 || 0% || 5 || 100% || 12 || 0 || 0% || 0 || 0% || 12 || 100%
-<!-- end requests activity table 2009 2008 -->
+<!-- end requests stats table 2009 2008 -->
 |-class="sortbottom"
 !
 ! colspan=13 | Case requests !! colspan=9 | Clarifications and other requests !! colspan=7 | All requests
@@ -586,7 +586,7 @@ The column headings, in table below, have the following meanings:
 |-
 ! Arb || EM || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || Offered || %
 |-
-<!-- begin motions summary 2009 only -->
+<!-- begin motions stats 2009 only -->
 | align="left" | Carcharoth || 49 || 3 || 6% || 5 || 11% || 29 || 71% || 1 || 2% || 11 || 27% || 24 || 83% || 5 || 17% || 0 || 0%
 |-
 | align="left" | Casliber || 49 || 0 || 0% || 0 || 0% || 35 || 71% || 0 || 0% || 14 || 29% || 32 || 91% || 3 || 9% || 1 || 2%
@@ -620,7 +620,7 @@ The column headings, in table below, have the following meanings:
 | align="left" | Vassyana || 49 || 3 || 6% || 5 || 11% || 29 || 71% || 1 || 2% || 11 || 27% || 24 || 83% || 5 || 17% || 7 || 14%
 |-
 | align="left" | Wizardman || 49 || 2 || 4% || 0 || 0% || 35 || 74% || 0 || 0% || 12 || 26% || 29 || 83% || 6 || 17% || 1 || 2%
-<!-- end motions summary 2009 only -->
+<!-- end motions stats 2009 only -->
 |}
 
 ==Cases==
@@ -702,7 +702,7 @@ The column headings, in the two tables below, have the following meanings:
 |-
 ! Arb || EC || Inactive || % || Recused || % || Drafted || %
 |-
-<!-- begin cases summary 2009 only -->
+<!-- begin cases stats 2009 only -->
 | align="left" | Carcharoth || 20 || 4 || 20% || 2 || 13% || 0 || 0%
 |-
 | align="left" | Casliber || 20 || 0 || 0% || 4 || 20% || 0 || 0%
@@ -736,7 +736,7 @@ The column headings, in the two tables below, have the following meanings:
 | align="left" | Vassyana || 20 || 0 || 0% || 3 || 15% || 1 || 5%
 |-
 | align="left" | Wizardman || 21 || 0 || 0% || 0 || 0% || 5 || 24%
-<!-- end cases summary 2009 only -->
+<!-- end cases stats 2009 only -->
 |}
 
 ====Arb activity (departing 2008)====
@@ -745,7 +745,7 @@ The column headings, in the two tables below, have the following meanings:
 |-
 ! Arb || EC || Inactive || % || Recused || % || Drafted || %
 |-
-<!-- begin cases summary 2009 2008 -->
+<!-- begin cases stats 2009 2008 -->
 | align="left" | Charles Matthews || 2 || 1 || 50% || 0 || 0% || 0 || 0%
 |-
 | align="left" | Deskana || 2 || 0 || 0% || 0 || 0% || 0 || 0%
@@ -757,7 +757,7 @@ The column headings, in the two tables below, have the following meanings:
 | align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 || 
 |-
 | align="left" | YellowMonkey || 2 || 1 || 50% || 0 || 0% || 0 || 0%
-<!-- end cases summary 2009 2008 -->
+<!-- end cases stats 2009 2008 -->
 |}
 
 ==Proposals==
@@ -2682,6 +2682,7 @@ The column headings, in the two tables below, have the following meanings:
 | align="left" | [[Wikipedia:Requests for arbitration/G.-M. Cupertino/Proposed_decision#G.-M. Cupertino restricted to one user account|G.-M. Cupertino restricted to one user account]] || align=left | R2 || align=left | Passed || 11 || 0 || 0 || 9 ||  || S || S ||  ||  || S || S || N || S || S || S ||  || S ||  || S ||  || S || S1 ||  || 2 || 0 ||  ||  || 0 || 0 ||  || 3 || 0 || 0 ||  || 2 ||  || 0 ||  || 2 || 0
 |-
 | align="left" | [[Wikipedia:Requests for arbitration/G.-M. Cupertino/Proposed_decision#Enforcement by block|Enforcement by block]] || align=left | E1 || align=left | Passed || 11 || 0 || 0 || 9 ||  || S || S ||  ||  || S || S || N || S || S || S ||  || S ||  || S ||  || S || S1 ||  || 2 || 1 ||  ||  || 0 || 0 ||  || 3 || 0 || 0 ||  || 2 ||  || 0 ||  || 2 || 0
+<!-- end proposals table 2009 only -->
 |-
 | colspan=44 | Proposals: 938; passed: 689 (73%); failed: 249 (27%)
 |}
@@ -2777,7 +2778,7 @@ In the two tables below, the column headings have the following meanings:
 |-
 ! Arb || EP || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || FS || % || ATV || MTV
 |-
-<!-- begin proposals activity 2009 only -->
+<!-- begin proposals stats 2009 only -->
 | align="left" | Carcharoth || 956 || 195 || 20% || 217 || 29% || 516 || 95% || 23 || 4% || 5 || 1% || 412 || 80% || 104 || 20% || 17 || 2% || 7.1 || 6.0
 |-
 | align="left" | Casliber || 956 || 0 || 0% || 255 || 27% || 613 || 87% || 50 || 7% || 38 || 5% || 585 || 95% || 28 || 5% || 7 || 1% || 3.3 || 1.0
@@ -2811,7 +2812,7 @@ In the two tables below, the column headings have the following meanings:
 | align="left" | Vassyana || 956 || 0 || 0% || 174 || 18% || 644 || 82% || 125 || 16% || 13 || 2% || 523 || 81% || 121 || 19% || 52 || 5% || 4.1 || 2.0
 |-
 | align="left" | Wizardman || 966 || 0 || 0% || 0 || 0% || 900 || 93% || 52 || 5% || 14 || 1% || 812 || 90% || 88 || 10% || 120 || 12% || 3.9 || 2.0
-<!-- end proposals activity 2009 only -->
+<!-- end proposals stats 2009 only -->
 |}
 
 ====Arb activity (departing 2008) ====
@@ -2820,7 +2821,7 @@ In the two tables below, the column headings have the following meanings:
 |-
 ! Arb || EP || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || FS || % || ATV || MTV
 |-
-<!-- begin proposals activity 2009 2008 -->
+<!-- begin proposals stats 2009 2008 -->
 | align="left" | Charles Matthews || 28 || 18 || 64% || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||   || 0 ||   || 0 || 0% ||  || 
 |-
 | align="left" | Deskana || 28 || 0 || 0% || 0 || 0% || 28 || 100% || 0 || 0% || 0 || 0% || 27 || 96% || 1 || 4% || 0 || 0% || 4.3 || 5.0
@@ -2832,5 +2833,5 @@ In the two tables below, the column headings have the following meanings:
 | align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 || 0% ||  || 
 |-
 | align="left" | YellowMonkey || 28 || 18 || 64% || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||   || 0 ||  || 0 || 0% ||  || 
-<!-- end proposals activity 2009 2008 -->
+<!-- end proposals stats 2009 2008 -->
 |}
