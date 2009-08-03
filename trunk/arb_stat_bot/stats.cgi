@@ -73,7 +73,7 @@ sub gen_all_stats{
 
 #   # Section 4: the proposals stats
 #   $type = "proposals";
-#   $arbs_votes = ["R", "I", "N", ""];   # How arbitrators can vote
+#   $arbs_votes = ["R", "I", "N", "S", "S1", ""]; # How arbitrators can vote
 #   $text = gen_other_stats($text, $years, $arbs_list, $arbs_votes, $type);
 
   return $text;
@@ -298,7 +298,7 @@ sub gen_other_stats{
       my $arb_full = $arbs->{$arb}; # expansion of the abbrev
 
       my $row = "| align=\"left\" | $arb_full \|\| ";
-      $row   .= compute_cases_stats($arb, $arbs_votes, $table, $Drafted);
+      $row   .= compute_other_stats($arb, $arbs_votes, $table, $Drafted, $type);
       $output_table .= $row;
       
     } # End iterating over arbitrators
@@ -509,39 +509,52 @@ sub compute_motions_stats {
   return $row;
 }
 
-sub compute_cases_stats {
+sub compute_other_stats {
   
   my $arb        = shift; # person whose votes to count
   my $arbs_votes = shift; # types of votes to count
   my $table      = shift; # table of votes to count
   my $Drafted    = shift; # how many times an arb offered a motion
-
-  my %count;
-  my $total =
-     count_values($table->{$arb},
-                  $arbs_votes,    # inputs
-                  \%count                         # output
-                 );
+  my $type       = shift;
   
-  my ($ec, $i, $ip, $r, $rp, $v, $vp, $dn, $dnp, $a, $ap, $s, $sp,
+  my %count;
+  my $total = count_values($table->{$arb}, $arbs_votes,  # inputs
+                           \%count                       # output
+                          );
+  
+  my ($e, $i, $ip, $r, $rp, $v, $vp, $dn, $dnp, $a, $ap, $s, $sp,
       $o, $op, $drafted, $draftedp);
   
-  $ec = $total - $count{"N"};
-  $i  = $count{"I"};             $ip   = percentage( $i,  $ec       );
-  $r  = $count{"R"};             $rp   = percentage( $r,  $ec-$i    );
-  
-  if (exists $Drafted->{$arb}){
-    $drafted  = $Drafted->{$arb};
-  }else{
-    $drafted   = 0; 
-  }
-  $draftedp = percentage( $drafted,  $ec );
+  my $row = "";
+  if ($type eq "cases"){
 
-  my $row;
-  $row  =  "$ec $i $ip $r $rp $drafted $draftedp\n";
+    $e = $total - $count{"N"};
+    $i  = $count{"I"};             $ip   = percentage( $i,  $e       );
+    $r  = $count{"R"};             $rp   = percentage( $r,  $e-$i    );
+    
+    if (exists $Drafted->{$arb}){
+      $drafted  = $Drafted->{$arb};
+    }else{
+      $drafted   = 0; 
+    }
+    $draftedp = percentage( $drafted,  $e );
+    
+    $row  =  "$e $i $ip $r $rp $drafted $draftedp\n";
+
+  }elsif ($type eq "proposals"){
+
+    $e = $total - $count{"N"};
+    $s = $count{"S"};
+    $row  =  "$e $s\n";
+    
+  }else{
+    print "Unknown option in compute_other_stats\n";
+    exit(0);
+  }
+  
   $row  =~ s/ / \|\| /g;
   $row .=  "|-\n";     # prepare for new row
-
+  
   return $row;
 }
 
