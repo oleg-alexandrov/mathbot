@@ -17,7 +17,7 @@ MAIN: {
   print "Content-type: text/html\n\n"; # first line to print in a cgi script
   $| = 1; # flush the buffer each line
 
-  $use_local = 1; # if non-zero, read/write on disk, else submit to Wikipedia
+  $use_local = 0; # if non-zero, read/write on disk, else submit to Wikipedia
   $local_file_in = "Statistics_2009.txt";
 
   if (!$use_local){
