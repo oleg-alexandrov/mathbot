@@ -67,14 +67,12 @@ sub gen_all_stats{
   my ($arbs_votes, $type);
   
   # Section 3: the cases stats
-  $type = "cases";
   $arbs_votes = ["R", "I", "N", ""];   # How arbitrators can vote
-  $text = gen_other_stats($text, $years, $arbs_list, $arbs_votes, $type);
+  $text = gen_cases_stats($text, $years, $arbs_list, $arbs_votes);
 
 #   # Section 4: the proposals stats
-#   $type = "proposals";
 #   $arbs_votes = ["R", "I", "N", "S", "S1", ""]; # How arbitrators can vote
-#   $text = gen_other_stats($text, $years, $arbs_list, $arbs_votes, $type);
+#   $text = gen_proposals_stats($text, $years, $arbs_list, $arbs_votes);
 
   return $text;
 }
@@ -248,17 +246,21 @@ sub gen_motions_stats{
   
   $text = put_text_between_tags($text, $output_table,
                                 $beg_stats_tag, $end_stats_tag);
+
+  # Compute the summary as well
+  $text = compute_motions_summary($table, $text);
   
   return $text;
 }
 
-sub gen_other_stats{
+sub gen_cases_stats{
 
   my $text       = shift; # text to parse and put the stats into
   my $years      = shift; # years to parse
   my $arbs_list  = shift; # list of arbitrators
   my $arbs_votes = shift;
-  my $type       = shift;
+
+  my $type       = "cases";
   
   my $table   = {};
   my $Drafted = {}; # how many times an arbitrator drafted a case
@@ -278,11 +280,9 @@ sub gen_other_stats{
                          );
   }
 
-  if ($type eq "cases"){
-    my $draftedCol = $table->{"Drafter"};
-    foreach my $arb (@$draftedCol){
-      $Drafted->{$arb}++;
-    }
+  my $draftedCol = $table->{"Drafter"};
+  foreach my $arb (@$draftedCol){
+    $Drafted->{$arb}++;
   }
   
   for (my $year_count = 0; $year_count < 2; $year_count++){
@@ -298,7 +298,7 @@ sub gen_other_stats{
       my $arb_full = $arbs->{$arb}; # expansion of the abbrev
 
       my $row = "| align=\"left\" | $arb_full \|\| ";
-      $row   .= compute_other_stats($arb, $arbs_votes, $table, $Drafted, $type);
+      $row   .= compute_cases_stats($arb, $arbs_votes, $table, $Drafted, $type);
       $output_table .= $row;
       
     } # End iterating over arbitrators
@@ -312,8 +312,11 @@ sub gen_other_stats{
                                   $beg_stats_tag, $end_stats_tag);
   
   } # End iterating over years
-  return $text;
+
+  # Compute the summary as well
+  $text = compute_cases_summary($table, $text);
   
+  return $text;
 }
 
 sub parse_complete_requests_table_summaries {
@@ -347,7 +350,7 @@ sub parse_complete_requests_table_summaries {
     }
     
     # Summarize the table
-    my $summary = compute_summary($table, $disp_names, $disp_legend);
+    my $summary = compute_requests_summary($table, $disp_names, $disp_legend);
     $summary    = "\n" . $summary . "\n";
 
     if ($count == 2){
@@ -367,7 +370,7 @@ sub parse_complete_requests_table_summaries {
   return ($text, $table);
 }
 
-sub compute_summary {
+sub compute_requests_summary {
 
   my $table       = shift;
   my $disp_names  = shift;
@@ -392,14 +395,14 @@ sub compute_summary {
     print "Size mis-match\n";
     exit(0);
   }
-
-  my $summary = form_summary($num_req, $average, $total,
-                             $disp_names, $disp_legend, \%disp_count);
+  
+  my $summary = form_requests_summary($num_req, $average, $total,
+                                      $disp_names, $disp_legend, \%disp_count);
 
   return $summary;
 }
 
-sub form_summary {
+sub form_requests_summary {
 
   my $num_req     = shift;
   my $average     = shift;
@@ -509,7 +512,7 @@ sub compute_motions_stats {
   return $row;
 }
 
-sub compute_other_stats {
+sub compute_cases_stats {
   
   my $arb        = shift; # person whose votes to count
   my $arbs_votes = shift; # types of votes to count
@@ -548,7 +551,7 @@ sub compute_other_stats {
     $row  =  "$e $s\n";
     
   }else{
-    print "Unknown option in compute_other_stats\n";
+    print "Unknown option in compute_cases_stats\n";
     exit(0);
   }
   
@@ -556,6 +559,67 @@ sub compute_other_stats {
   $row .=  "|-\n";     # prepare for new row
   
   return $row;
+}
+
+sub compute_motions_summary{
+
+  my $table = shift;
+  my $text  = shift;
+  
+  my $beg_sum_tag = "<!-- begin motions summary all -->";
+  my $end_sum_tag = "<!-- end motions summary all -->";
+
+  my $motions     = $table->{"Motion"};
+  my $nMotions    = scalar(@$motions);
+
+  my $days        = $table->{"Days"};
+  my $average     = find_array_average(@$days);
+  $average        = round_ndigits($average, 1);
+
+  my %disp_count;
+  my $disp        = $table->{"Disp"};
+  my $disp_names  = ["Passed", "Failed"];
+  my $total       = count_values($disp, $disp_names,   # inputs
+                                \%disp_count          # output
+                                );
+  
+  my $p  = $disp_count{"Passed"}; my $pp = percentage( $p,  $nMotions);
+  my $f  = $disp_count{"Failed"}; my $fp = percentage( $f,  $nMotions);
+  
+  my $summary =
+     "\n* Publicly offered motions: $nMotions; " 
+        . "average duration: $average days; " 
+           . "passed: $p ($pp); failed: $f ($fp).\n"; 
+
+  $text = put_text_between_tags($text, $summary,
+                                $beg_sum_tag, $end_sum_tag);
+  
+  return $text;
+}
+
+sub compute_cases_summary{
+
+  my $table = shift;
+  my $text  = shift;
+  
+  my $beg_sum_tag = "<!-- begin cases summary all -->";
+  my $end_sum_tag = "<!-- end cases summary all -->";
+
+  my $cases     = $table->{"Case"};
+  my $nCases    = scalar(@$cases);
+
+  my $days        = $table->{"Days Open"};
+  my $average     = find_array_average(@$days);
+  $average        = round_ndigits($average, 1);
+
+  my $summary =
+     "\n* Publicly offered cases: $nCases; " 
+        . "average duration: $average days.\n"; 
+
+  $text = put_text_between_tags($text, $summary,
+                                $beg_sum_tag, $end_sum_tag);
+
+  return $text;
 }
 
 sub get_arbs_list {

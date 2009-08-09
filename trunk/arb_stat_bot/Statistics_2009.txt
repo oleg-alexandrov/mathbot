@@ -457,7 +457,9 @@ YellowMonkey                Yel
 
 ==Motions==
 *Legend: S=Support, O=Oppose, A=Abstain, Ac=Active arbs, R=Recuse, I=Inactive/away, M=Majority, N=Not eligible, Offered = the arb who posted the motion.
-* Publicly offered motions: 49; average duration: 3.9 days; passed: 31 (63%); failed: 17 (35%).
+<!-- begin motions summary all -->
+ * Publicly offered motions: 49; average duration: 3.9 days; passed: 31 (63%); failed: 17 (35%).
+<!-- end motions summary all -->
 
 {| class="wikitable" style="text-align:center"
 |+ Motions involving 2009 arbs only
@@ -625,7 +627,9 @@ The column headings, in table below, have the following meanings:
 
 ==Cases==
 *Legend: Ac=Active, R=Recused, I=Inactive/away, M=Majority, N=Not eligible, Drafter = the poster of the first draft on the case's "Proposed decision" page.
+<!-- begin cases summary all -->
 * Publicly heard cases: 21; average duration: 59 days.
+<!-- end cases summary all -->
 
 === Involving 2009 arbs only ===
 {| class="wikitable" style="text-align:center"
