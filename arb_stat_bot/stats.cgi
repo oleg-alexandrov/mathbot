@@ -613,7 +613,7 @@ sub compute_cases_summary{
   $average        = round_ndigits($average, 1);
 
   my $summary =
-     "\n* Publicly offered cases: $nCases; " 
+     "\n* Publicly heard cases: $nCases; " 
         . "average duration: $average days.\n"; 
 
   $text = put_text_between_tags($text, $summary,
