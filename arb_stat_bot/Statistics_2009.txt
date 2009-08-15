@@ -10,7 +10,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 
 ===Case requests===
 <!-- begin case requests summary all -->
-* Requests: 66; average duration: 5.2 days; accepted: 18 (27%); declined: 41 (62%); disposed by motion: 5 (8%); withdrawn: 2 (3%).
+* Requests: 73; average duration: 5.2 days; accepted: 19 (26%); declined: 44 (60%); disposed by motion: 6 (8%); withdrawn: 4 (5%).
 <!-- end case requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -19,6 +19,20 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 |-
 <!-- begin case requests table 2009 only -->
 ! Request !! Opened !! Closed !! Days !! Disp !! A !! D !! R !! C !! I !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=307626059#194x144x90x118 194x144x90x118] || 05:18, 8-Aug-2009 || 16:47, 14-Aug-2009 || 6 || [[Wikipedia:Arbitration/Requests/Case/194x144x90x118|Accepted]] || 7 || 0 || 0 || 0 || 1 || A || A ||  ||  || A || A || N ||  || N || A ||  || A ||  || N ||  || I || A
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=306674743#Allstarecho Allstarecho] || 12:11, 5-Aug-2009 || 21:34, 7-Aug-2009 || 2 || Declined || 0 || 7 || 1 || 1 || 1 ||  || D || D ||  || C ||  || N || R || N || D || D || D || D || N ||  || I || D
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=306113495#Jimbo_Wales.27_block_of_Bishonen Jimbo Wales' block of Bishonen] || 17:00, 20-Jul-2009 || 04:48, 5-Aug-2009 || 15 || Motion || 6 || 4 || 0 || 2 || 1 || A || D || D || A || A || D || N || A || N || C || C || A || D || N ||  || I || A
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=305740175#Carabinieri_Dispute Carabinieri Dispute] || 21:30, 29-Jul-2009 || 14:20, 3-Aug-2009 || 5 || Declined || 0 || 9 || 1 || 0 || 2 || D || D || I || D || D ||  || N || D || N || D || D || D || R || N ||  || I || D
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=305472930#Category_naming_and_review.2C_Jewish_supra-nationality Category naming and review, Jewish supra-nationality] || 13:31, 30-Jul-2009 || 15:55, 1-Aug-2009 || 2 || Withdrawn || 0 || 0 || 0 || 2 || 2 || C ||  || I ||  ||  ||  || N ||  || N ||  || C ||  ||  || N ||  || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=305472155#Category_naming_policy_and_discussion Category naming policy and discussion] || 11:56, 30-Jul-2009 || 15:55, 1-Aug-2009 || 2 || Withdrawn || 0 || 0 || 0 || 2 || 2 || C ||  || I ||  ||  ||  || N ||  || N ||  || C ||  ||  || N ||  || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=305341969#Geogre_and_Risker Geogre and Risker] || 02:02, 25-Jul-2009 || 23:33, 31-Jul-2009 || 7 || Declined || 1 || 8 || 2 || 1 || 2 || D || D || I || C || A || D || N || R || N || D || R || D || D || N || D || I || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=304173154#Stephen_Bain Stephen Bain] || 14:13, 23-Jul-2009 || 04:54, 26-Jul-2009 || 3 || Declined || 0 || 7 || 1 || 0 || 2 || D || D || I ||  ||  || D || N ||  || N || D || D || D ||  || N || R || I || D
 |-
@@ -141,7 +155,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 <!-- end case requests table 2009 only -->
 | align="center" colspan=27  |
 <!-- begin case requests summary 2009 only -->
-Requests: 59; average duration: 5.1 days; accepted: 16 (27%); declined: 37 (63%); disposed by motion: 4 (7%); withdrawn: 2 (3%)
+Requests: 66; average duration: 5.1 days; accepted: 17 (26%); declined: 40 (61%); disposed by motion: 5 (8%); withdrawn: 4 (6%)
 <!-- end case requests summary 2009 only -->
 |}
 
@@ -175,7 +189,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 
 ===Clarifications and other requests===
 <!-- begin clarification requests summary all -->
-* Requests: 68; average duration: 12 days; declined: 21 (31%); disposed by clarification: 32 (47%); disposed by motion: 14 (21%); withdrawn: 1 (1%).
+* Requests: 79; average duration: 13 days; declined: 24 (31%); disposed by clarification: 36 (46%); disposed by motion: 17 (22%); withdrawn: 1 (1%).
 <!-- end clarification requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -184,6 +198,28 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 |-
 <!-- begin clarification requests table 2009 only -->
 ! Request !! Opened !! Closed !! Days !! Disp !! R !! C !! I !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308038953#Request_for_lifting_of_EK3_restrictions Amend] : ''[[Wikipedia:Requests for arbitration/Everyking 3|Everyking 3]]'' || 19:01, 22-Jul-2009 || 00:20, 15-Aug-2009 || 23 ||  || 1 || 7 || 1 || C || C ||  || C || C || R || N ||  || N || C ||  || C || C || N ||  || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=307803596#Request_to_amend_prior_case:_Ryulong_.282.29 Amend] : ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 13:44, 4-Aug-2009 || 00:34, 14-Aug-2009 || 9 || Declined || 2 || 6 || 1 || C || C ||  || C || C ||  || N || C || N || R || R ||  ||  || N ||  || I || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=307432157#Request_for_clarification:_Bluemarine Clarify ] : ''[[Wikipedia:Requests for arbitration/Bluemarine|Bluemarine]]'' || 05:10, 25-Jul-2009 || 21:22, 11-Aug-2009 || 18 || Clarification || 1 || 7 || 1 || C ||  ||  ||  || C || C || N || R || N || C || C || C ||  || N || C || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=307082843#Request_for_clarification:_Date_delinking Clarify ] : ''[[Wikipedia:Requests for arbitration/Date delinking|Date delinking]]'' || 03:08, 14-Jul-2009 || 01:46, 10-Aug-2009 || 27 || Clarification || 0 || 9 || 1 || C ||  ||  || C ||  || C || N || C || N || C || C || C || C || N ||  || I || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=306968196#Request_for_clarification:_Date_delinking Clarify ] : ''[[Wikipedia:Arbitration/Requests/Case/ADHD|ADHD]]'' || 13:41, 24-Jul-2009 || 01:46, 10-Aug-2009 || 17 || Clarification || 0 || 9 || 1 || C ||  ||  || C ||  || C || N || C || N || C || C || C || C || N ||  || I || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=307082637#Request_to_amend_prior_case:_Wikipedia:Requests_for_arbitration.2FRyulong Amend] : ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 01:46, 21-Jul-2009 || 01:45, 10-Aug-2009 || 20 || Declined || 2 || 6 || 1 || C || C ||  ||  ||  || C || N || C || N || R || R || C ||  || N ||  || I || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=307081701#Request_for_amendment:_Wikipedia:Requests_for_arbitration.2FHomeopathy.2FEvidence Amend] : ''[[Wikipedia:Requests for arbitration/Homeopathy|Homeopathy]]'' || 06:38, 21-Jul-2009 || 01:44, 10-Aug-2009 || 20 || Declined || 1 || 3 || 1 || C ||  ||  ||  ||  ||  || N ||  || N || C || R ||  ||  || N || C || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=306648327#Request_for_clarification:_User:The_Wurdalak_and_User:Manhattan_Samurai Clarify User:The Wurdalak and User:Manhattan Samurai] || 16:29, 13-Jul-2009 || 19:21, 7-Aug-2009 || 25 || Clarification || 0 || 7 || 1 || C ||  ||  ||  || C || C || N || C || N ||  || C || C || C || N ||  || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=305826441#Request_for_clarification:_Wikipedia:Requests_for_arbitration.2FRyulong_.283.29 Clarify ] : ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 00:45, 27-Jul-2009 || 05:28, 4-Aug-2009 || 8 || Motion || 2 || 5 || 2 ||  || C || I || C || C ||  || N || C || N || R || R || C ||  || N ||  || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=305587257#Request_to_amend_prior_case:_Wikipedia:Requests_for_arbitration.2FDate_delinking_.285.29 Amend] : ''[[Wikipedia:Requests for arbitration/Date delinking|Date delinking]]'' || 21:20, 13-Jul-2009 || 10:57, 2-Aug-2009 || 20 || Motion || 2 || 3 || 2 || R ||  || I ||  ||  || C || N || R || N || C ||  || C ||  || N ||  || I || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=305563951#Request_to_amend_prior_case:_Obama_articles Amend] : ''[[Wikipedia:Requests for arbitration/Obama articles|Obama articles]]'' || 13:56, 9-Jul-2009 || 03:21, 2-Aug-2009 || 24 || Motion || 1 || 3 || 1 || R ||  || I ||  ||  ||  || N ||  || N || C ||  ||  ||  || N ||  || C || C
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=304376509#Request_by_Grundle2600_to_end_topic_ban Amend Grundle2600 topic ban] || 17:10, 24-Jul-2009 || 23:37, 26-Jul-2009 || 2 || Declined || 0 || 4 || 2 || C ||  || I ||  ||  || C || N ||  || N ||  ||  || C ||  || N ||  || I || C
 |-
@@ -314,7 +350,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 <!-- end clarification requests table 2009 only -->
 | align="center" colspan=25 |
 <!-- begin clarification requests summary 2009 only -->
-Requests: 63; average duration: 12.3 days; declined: 19 (30%); disposed by clarification: 31 (49%); disposed by motion: 12 (19%); withdrawn: 1 (2%)
+Requests: 74; average duration: 13.3 days; declined: 22 (30%); disposed by clarification: 35 (48%); disposed by motion: 15 (21%); withdrawn: 1 (1%)
 <!-- end clarification requests summary 2009 only -->
 |}
 
@@ -392,39 +428,39 @@ YellowMonkey                Yel
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
 <!-- begin requests stats 2009 only -->
-| align="left" | Carcharoth || 66 || 10 || 15% || 7 || 13% || 41 || 84% || 4 || 8% || 10 || 24% || 31 || 76% || 68 || 19 || 28% || 1 || 2% || 31 || 65% || 17 || 35% || 134 || 29 || 22% || 8 || 8% || 21 || 22%
+| align="left" | Carcharoth || 73 || 10 || 14% || 7 || 11% || 45 || 80% || 5 || 9% || 12 || 27% || 33 || 73% || 79 || 19 || 24% || 3 || 5% || 39 || 68% || 18 || 32% || 152 || 29 || 19% || 10 || 8% || 23 || 20%
 |-
-| align="left" | Casliber || 66 || 0 || 0% || 5 || 8% || 52 || 85% || 7 || 11% || 16 || 31% || 36 || 69% || 68 || 0 || 0% || 2 || 3% || 17 || 26% || 49 || 74% || 134 || 0 || 0% || 7 || 5% || 56 || 44%
+| align="left" | Casliber || 73 || 0 || 0% || 5 || 7% || 57 || 84% || 9 || 13% || 17 || 30% || 40 || 70% || 79 || 0 || 0% || 2 || 3% || 21 || 27% || 56 || 73% || 152 || 0 || 0% || 7 || 5% || 65 || 45%
 |-
-| align="left" | Cool Hand Luke || 66 || 1 || 2% || 5 || 8% || 17 || 28% || 43 || 72% || 7 || 41% || 10 || 59% || 68 || 7 || 10% || 1 || 2% || 12 || 20% || 48 || 80% || 134 || 8 || 6% || 6 || 5% || 91 || 76%
+| align="left" | Cool Hand Luke || 73 || 5 || 7% || 5 || 7% || 19 || 30% || 44 || 70% || 7 || 37% || 12 || 63% || 79 || 10 || 13% || 1 || 1% || 12 || 18% || 56 || 82% || 152 || 15 || 10% || 6 || 4% || 100 || 76%
 |-
-| align="left" | Coren || 65 || 0 || 0% || 2 || 3% || 39 || 62% || 21 || 33% || 21 || 54% || 18 || 46% || 66 || 0 || 0% || 0 || 0% || 34 || 52% || 32 || 48% || 131 || 0 || 0% || 2 || 2% || 53 || 41%
+| align="left" | Coren || 72 || 0 || 0% || 2 || 3% || 41 || 59% || 25 || 36% || 22 || 54% || 19 || 46% || 77 || 0 || 0% || 0 || 0% || 39 || 51% || 38 || 49% || 149 || 0 || 0% || 2 || 1% || 63 || 43%
 |-
-| align="left" | FayssalF || 66 || 1 || 2% || 4 || 6% || 27 || 44% || 30 || 49% || 10 || 37% || 17 || 63% || 68 || 0 || 0% || 0 || 0% || 5 || 7% || 63 || 93% || 134 || 1 || 1% || 4 || 3% || 93 || 72%
+| align="left" | FayssalF || 73 || 1 || 1% || 4 || 6% || 31 || 46% || 32 || 47% || 13 || 42% || 18 || 58% || 79 || 0 || 0% || 0 || 0% || 10 || 13% || 69 || 87% || 152 || 1 || 1% || 4 || 3% || 101 || 69%
 |-
-| align="left" | FloNight || 66 || 0 || 0% || 2 || 3% || 54 || 84% || 7 || 11% || 19 || 35% || 35 || 65% || 68 || 0 || 0% || 1 || 1% || 33 || 49% || 34 || 51% || 134 || 0 || 0% || 3 || 2% || 41 || 31%
+| align="left" | FloNight || 73 || 0 || 0% || 2 || 3% || 57 || 80% || 11 || 15% || 20 || 35% || 37 || 65% || 79 || 0 || 0% || 2 || 3% || 39 || 51% || 38 || 49% || 152 || 0 || 0% || 4 || 3% || 49 || 33%
 |-
 | align="left" | FT2 || 10 || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||  || 0 ||  || 12 || 0 || 0% || 0 || 0% || 3 || 25% || 9 || 75% || 22 || 0 || 0% || 0 || 0% || 19 || 86%
 |-
-| align="left" | John Vandenberg || 66 || 0 || 0% || 5 || 8% || 51 || 84% || 5 || 8% || 14 || 27% || 37 || 73% || 68 || 0 || 0% || 4 || 6% || 24 || 38% || 40 || 63% || 134 || 0 || 0% || 9 || 7% || 45 || 36%
+| align="left" | John Vandenberg || 73 || 0 || 0% || 7 || 10% || 53 || 80% || 8 || 12% || 15 || 28% || 38 || 72% || 79 || 0 || 0% || 6 || 8% || 30 || 41% || 43 || 59% || 152 || 0 || 0% || 13 || 9% || 51 || 37%
 |-
 | align="left" | Kirill Lokshin || 61 || 0 || 0% || 2 || 3% || 19 || 32% || 40 || 68% || 9 || 47% || 10 || 53% || 58 || 0 || 0% || 0 || 0% || 10 || 17% || 48 || 83% || 119 || 0 || 0% || 2 || 2% || 88 || 75%
 |-
-| align="left" | Newyorkbrad || 66 || 0 || 0% || 2 || 3% || 40 || 63% || 13 || 20% || 9 || 23% || 31 || 78% || 68 || 0 || 0% || 5 || 7% || 35 || 56% || 28 || 44% || 134 || 0 || 0% || 7 || 5% || 41 || 32%
+| align="left" | Newyorkbrad || 73 || 0 || 0% || 2 || 3% || 44 || 62% || 15 || 21% || 10 || 23% || 34 || 77% || 79 || 0 || 0% || 8 || 10% || 42 || 59% || 29 || 41% || 152 || 0 || 0% || 10 || 7% || 44 || 31%
 |-
-| align="left" | Risker || 66 || 2 || 3% || 4 || 6% || 36 || 60% || 20 || 33% || 8 || 22% || 28 || 78% || 68 || 0 || 0% || 1 || 1% || 24 || 36% || 43 || 64% || 134 || 2 || 1% || 5 || 4% || 63 || 50%
+| align="left" | Risker || 73 || 2 || 3% || 5 || 7% || 38 || 58% || 21 || 32% || 8 || 21% || 30 || 79% || 79 || 0 || 0% || 5 || 6% || 28 || 38% || 46 || 62% || 152 || 2 || 1% || 10 || 7% || 67 || 48%
 |-
-| align="left" | Rlevse || 64 || 0 || 0% || 2 || 3% || 47 || 76% || 15 || 24% || 20 || 43% || 27 || 57% || 66 || 0 || 0% || 1 || 2% || 23 || 35% || 42 || 65% || 130 || 0 || 0% || 3 || 2% || 57 || 45%
+| align="left" | Rlevse || 71 || 0 || 0% || 2 || 3% || 52 || 75% || 17 || 25% || 22 || 42% || 30 || 58% || 77 || 0 || 0% || 1 || 1% || 31 || 41% || 45 || 59% || 148 || 0 || 0% || 3 || 2% || 62 || 43%
 |-
-| align="left" | Roger Davies || 66 || 0 || 0% || 0 || 0% || 46 || 70% || 18 || 27% || 18 || 39% || 28 || 61% || 68 || 0 || 0% || 0 || 0% || 23 || 34% || 45 || 66% || 134 || 0 || 0% || 0 || 0% || 63 || 47%
+| align="left" | Roger Davies || 73 || 0 || 0% || 1 || 1% || 49 || 68% || 21 || 29% || 18 || 37% || 31 || 63% || 79 || 0 || 0% || 0 || 0% || 27 || 34% || 52 || 66% || 152 || 0 || 0% || 1 || 1% || 73 || 48%
 |-
 | align="left" | Sam Blacketer || 48 || 0 || 0% || 2 || 4% || 35 || 76% || 7 || 15% || 10 || 29% || 25 || 71% || 29 || 0 || 0% || 0 || 0% || 11 || 38% || 18 || 62% || 77 || 0 || 0% || 2 || 3% || 25 || 33%
 |-
-| align="left" | Stephen Bain || 66 || 0 || 0% || 1 || 2% || 16 || 25% || 48 || 74% || 8 || 50% || 8 || 50% || 68 || 0 || 0% || 0 || 0% || 13 || 19% || 55 || 81% || 134 || 0 || 0% || 1 || 1% || 103 || 77%
+| align="left" | Stephen Bain || 73 || 0 || 0% || 1 || 1% || 17 || 24% || 54 || 75% || 8 || 47% || 9 || 53% || 79 || 0 || 0% || 0 || 0% || 15 || 19% || 64 || 81% || 152 || 0 || 0% || 1 || 1% || 118 || 78%
 |-
-| align="left" | Vassyana || 66 || 3 || 5% || 6 || 10% || 43 || 75% || 10 || 18% || 8 || 19% || 35 || 81% || 68 || 5 || 7% || 7 || 11% || 42 || 75% || 14 || 25% || 134 || 8 || 6% || 13 || 10% || 24 || 21%
+| align="left" | Vassyana || 73 || 10 || 14% || 6 || 10% || 43 || 75% || 10 || 18% || 8 || 19% || 35 || 81% || 79 || 15 || 19% || 7 || 11% || 43 || 75% || 14 || 25% || 152 || 25 || 16% || 13 || 10% || 24 || 21%
 |-
-| align="left" | Wizardman || 66 || 1 || 2% || 0 || 0% || 61 || 94% || 2 || 3% || 22 || 36% || 39 || 64% || 68 || 5 || 7% || 1 || 2% || 23 || 37% || 39 || 63% || 134 || 6 || 4% || 1 || 1% || 41 || 32%
+| align="left" | Wizardman || 73 || 1 || 1% || 0 || 0% || 66 || 92% || 4 || 6% || 24 || 36% || 42 || 64% || 79 || 5 || 6% || 1 || 1% || 28 || 38% || 45 || 62% || 152 || 6 || 4% || 1 || 1% || 49 || 34%
 <!-- end requests stats 2009 only -->
 |-class="sortbottom"
 !
@@ -458,7 +494,7 @@ YellowMonkey                Yel
 ==Motions==
 *Legend: S=Support, O=Oppose, A=Abstain, Ac=Active arbs, R=Recuse, I=Inactive/away, M=Majority, N=Not eligible, Offered = the arb who posted the motion.
 <!-- begin motions summary all -->
- * Publicly offered motions: 49; average duration: 3.9 days; passed: 31 (63%); failed: 17 (35%).
+* Publicly offered motions: 64; average duration: 4.3 days; passed: 41 (64%); failed: 22 (34%).
 <!-- end motions summary all -->
 
 {| class="wikitable" style="text-align:center"
@@ -467,21 +503,51 @@ YellowMonkey                Yel
 <!-- begin motions table 2009 only -->
 ! Motion !! Per Request !! Opened !! Closed !! Days !! Disp !! S !! O !! A !! Ac !! R !! I !! M !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz !! Offered
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=304969560#Motion_1 Geogre 1] ||  || 13:12, 23-Jul-2009 || 00:13, 30-Jul-2009 || 6 || Passed || 8 || 0 || 1 || 10 || 2 || 2 || 5 || S || S || I || S ||  || S || N || R || N || A || R || S || S || N || S || I || S || Ste
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=307971641#Motion The Rambling Man RFB not required] ||  || 01:14, 13-Aug-2009 || 17:48, 14-Aug-2009 || 2 || Passed || 9 || 0 || 0 || 10 || 3 || 1 || 6 || R || R || S || S || S || S || N || R || N || S || S || S || S || N ||  || I || S || New
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=304969560#Motion_2 Geogre 2] ||  || 22:15, 23-Jul-2009 || 00:13, 30-Jul-2009 || 6 || Passed || 8 || 0 || 0 || 10 || 2 || 2 || 6 || S || S || I || S ||  || S || N || R || N || S || R || S || S || N ||  || I || S || Rle
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308038953#Motion_1 Remedy lifted (1)] || Amend : ''Everyking 3'' || 02:02, 8-Aug-2009 || 00:20, 15-Aug-2009 || 7 || Failed || 3 || 6 || 0 || 11 || 2 || 1 || 6 || O || O || R || O || S || R || N ||  || N ||  || S || O || O || N || O || I || S || Car
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=304969560#Motion_3 Geogre 3] ||  || 07:10, 26-Jul-2009 || 00:13, 30-Jul-2009 || 4 || Passed || 9 || 1 || 0 || 10 || 2 || 2 || 6 || S || S || I || S || S || S || N || R || N || O || R || S || S || N || S || I || S || Rog
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308038953#Motion_2 Remedy continued appeal limited (2)] || Amend : ''Everyking 3'' || 02:02, 8-Aug-2009 || 00:20, 15-Aug-2009 || 7 || Failed || 2 || 5 || 2 || 11 || 2 || 1 || 5 || S || A || R || A || O || R || N ||  || N ||  || O || O || S || N || O || I || O || Car
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=303186628#Motion_1 1 Mythdon is] || Clarify : ''Ryulong'' || 16:21, 16-Jul-2009 || 19:29, 20-Jul-2009 || 4 || Failed* || 6 || 0 || 1 || 11 || 1 || 2 || 6 || S || S || I ||  || A ||  || N || S || N || R ||  || S || S || N ||  || S || I || Vas
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308038953#Motion_3 Remedy continued for two years (3)] || Amend : ''Everyking 3'' || 02:02, 8-Aug-2009 || 00:20, 15-Aug-2009 || 7 || Failed || 5 || 4 || 0 || 11 || 2 || 1 || 6 || S || S || R || S || O || R || N ||  || N ||  || O || S || S || N || O || I || O || Car
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=303186628#Motion_2 2 Mythdon is] || Clarify : ''Ryulong'' || 17:12, 17-Jul-2009 || 19:29, 20-Jul-2009 || 3 || Passed || 6 || 0 || 0 || 11 || 1 || 2 || 6 ||  || S || I ||  || S ||  || N || S || N || R ||  || S || S || N ||  || S || I || Fay
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308038953#Motion_4 Remedy continued for one year (4)] || Amend : ''Everyking 3'' || 21:41, 8-Aug-2009 || 00:20, 15-Aug-2009 || 6 || Passed || 7 || 2 || 0 || 11 || 2 || 1 || 6 || S || S || R || S || O || R || N ||  || N ||  || S || S || S || N || O || I || S || Wiz
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Motion The arbitration committee advises] || Use of "disputed territories" and "occupied territories" in the context of the Arab-Israeli dispute || 22:29, 11-Jul-2009 || 17:19, 16-Jul-2009 || 5 || Passed || 10 || 0 || 0 || 12 || 1 || 0 || 7 || S || S || S || S ||  || S || N || S || N || R || S || N || S || N ||  || S || S || Cas
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=306113495#Proposed_motion Jimbo and Bishonen findings] || Jimbo Wales' block of Bishonen || 00:47, 1-Aug-2009 || 04:48, 5-Aug-2009 || 4 || Passed || 6 || 3 || 2 || 12 || 0 || 2 || 6 || S || S || I || S || A || S || N || O || N ||  || S || O || S || N || A || I || O || Rog
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=300064220#Motion_One Motion One] || Request for resysopping: User:Coffee || 14:05, 2-Jul-2009 || 15:47, 3-Jul-2009 || 1 || Passed || 10 || 0 || 1 || 15 || 0 || 0 || 8 ||  || S || A || S ||  || S || N || S || S || S || S ||  || S || N || S || S ||  || New
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=305952674#Motion_1 Aitias desysopped] ||  || 23:21, 1-Aug-2009 || 04:47, 4-Aug-2009 || 2 || Passed || 11 || 1 || 0 || 12 || 0 || 2 || 7 || S || S || I || S || S || S || N || S || N || S || S || S || S || N || O || I || S || Rle
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=300064220#Motion_Two Motion Two] || Request for resysopping: User:Coffee || 14:05, 2-Jul-2009 || 15:47, 3-Jul-2009 || 1 || Failed || 3 || 5 || 1 || 15 || 0 || 0 || 8 ||  || S || S ||  ||  || O || N || O || O || S || O ||  || O || N ||  || A ||  || New
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=305952674#Motion_2 Aitias adminship, account change restrictions] ||  || 07:34, 2-Aug-2009 || 04:47, 4-Aug-2009 || 2 || Failed || 2 || 7 || 0 || 12 || 0 || 2 || 7 || O ||  || I ||  || O || O || N || S || N || O || O || S ||  || N || O || I || O || Joh
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=305952674#Motion_3 Aitias adminship reapplication] ||  || 13:43, 2-Aug-2009 || 04:47, 4-Aug-2009 || 2 || Passed || 11 || 1 || 0 || 12 || 0 || 2 || 7 || S || S || I || S || S || S || N || S || N || S || S || O || S || N || S || I || S || Rog
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=305952674#Motion_3A Aitias resignation] ||  || 00:46, 4-Aug-2009 || 04:47, 4-Aug-2009 || 0 || Failed || 1 || 0 || 0 || 12 || 0 || 2 || 7 ||  ||  || I ||  ||  ||  || N ||  || N ||  ||  ||  ||  || N || S || I ||  || Ste
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=305952674#Motion_4 Aitias one account, rename restrictions] ||  || 13:43, 2-Aug-2009 || 04:47, 4-Aug-2009 || 2 || Passed || 8 || 2 || 1 || 12 || 0 || 2 || 6 || S || S || I ||  || S || S || N || S || N || O || A || S || S || N || O || I || S || Rog
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=305826441#Motion Mythdon restrictions extended] || Clarify  : ''Ryulong'' || 13:17, 1-Aug-2009 || 05:28, 4-Aug-2009 || 3 || Passed || 8 || 1 || 0 || 10 || 2 || 2 || 6 || O || S || I || S || S || S || N || S || N || R || R || S || S || N ||  || I || S || Fay
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=305587257#Motion_1 John editing restriction ended] || Amend : ''Date delinking'' || 01:19, 18-Jul-2009 || 10:57, 2-Aug-2009 || 15 || Passed || 7 || 0 || 0 || 10 || 2 || 2 || 6 || R ||  || I || S ||  || S || N || R || N || S || S || S || S || N ||  || I || S || Rle
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=305563951#Motion Remedies 4, 5, 9.2, 10.2, 13 modified] || Amend : ''Obama articles'' || 16:35, 12-Jul-2009 || 03:21, 2-Aug-2009 || 20 || Passed || 6 || 1 || 3 || 13 || 0 || 1 || 6 || A || S || I || S ||  || A || N ||  || N || S || S || O || S || N ||  || A || S || Wiz
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=305234096#Geogre Utgard Loki account unblocked] ||  || 19:57, 29-Jul-2009 || 01:37, 1-Aug-2009 || 2 || Passed || 7 || 0 || 0 || 10 || 2 || 2 || 6 || S || S || I || S ||  || S || N || R || N || S || R ||  || S || N ||  || I || S || Cor
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=304969560#Motion_1 Utgard Loki indefinitely blocked] ||  || 13:12, 23-Jul-2009 || 00:13, 30-Jul-2009 || 6 || Passed || 8 || 0 || 1 || 10 || 2 || 2 || 5 || S || S || I || S ||  || S || N || R || N || A || R || S || S || N || S || I || S || Ste
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=304969560#Motion_2 Geogre admonished] ||  || 22:15, 23-Jul-2009 || 00:13, 30-Jul-2009 || 6 || Passed || 8 || 0 || 0 || 10 || 2 || 2 || 6 || S || S || I || S ||  || S || N || R || N || S || R || S || S || N ||  || I || S || Rle
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=304969560#Motion_3 Geogre desysopped] ||  || 07:10, 26-Jul-2009 || 00:13, 30-Jul-2009 || 4 || Passed || 9 || 1 || 0 || 10 || 2 || 2 || 6 || S || S || I || S || S || S || N || R || N || O || R || S || S || N || S || I || S || Rog
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=303186628#Motion_1 Mythdon conduct probabtion (1)] || Clarify : ''Ryulong'' || 16:21, 16-Jul-2009 || 19:29, 20-Jul-2009 || 4 || Failed* || 6 || 0 || 1 || 11 || 1 || 2 || 6 || S || S || I ||  || A ||  || N || S || N || R ||  || S || S || N ||  || S || I || Vas
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=303186628#Motion_2 Mythdon conduct probabtion (2)] || Clarify : ''Ryulong'' || 17:12, 17-Jul-2009 || 19:29, 20-Jul-2009 || 3 || Passed || 6 || 0 || 0 || 11 || 1 || 2 || 6 ||  || S || I ||  || S ||  || N || S || N || R ||  || S || S || N ||  || S || I || Fay
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Motion Arbitration committee advises] || Use of "disputed territories" and "occupied territories" in the context of the Arab-Israeli dispute || 22:29, 11-Jul-2009 || 17:19, 16-Jul-2009 || 5 || Passed || 10 || 0 || 0 || 12 || 1 || 0 || 7 || S || S || S || S ||  || S || N || S || N || R || S || N || S || N ||  || S || S || Cas
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=300064220#Motion_One Coffee's administrator privileges restored] || Request for resysopping: User:Coffee || 14:05, 2-Jul-2009 || 15:47, 3-Jul-2009 || 1 || Passed || 10 || 0 || 1 || 15 || 0 || 0 || 8 ||  || S || A || S ||  || S || N || S || S || S || S ||  || S || N || S || S ||  || New
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=300064220#Motion_Two Coffee's administrator privileges not restored] || Request for resysopping: User:Coffee || 14:05, 2-Jul-2009 || 15:47, 3-Jul-2009 || 1 || Failed || 3 || 5 || 1 || 15 || 0 || 0 || 8 ||  || S || S ||  ||  || O || N || O || O || S || O ||  || O || N ||  || A ||  || New
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=296047880#Forum_for_discussion Forum for discussion] || Amend : ''Ireland article names'' || 10:34, 7-Jun-2009 || 21:12, 12-Jun-2009 || 5 || Passed || 9 || 0 || 0 || 13 || 1 || 1 || 7 || I || S ||  || S ||  || S || N || S || S ||  || R || S || S || N ||  || S || S || Joh
 |-
@@ -489,81 +555,81 @@ YellowMonkey                Yel
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=295832071#Motions Topic ban rescinded] || Amend : ''Bluemarine'' || 17:13, 7-Jun-2009 || 19:01, 11-Jun-2009 || 4 || Passed || 9 || 0 || 0 || 13 || 1 || 1 || 7 || I ||  || S || S ||  || S || N || R || S ||  || S || S || S || N ||  || S || S || Ris
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=292982752#Motions In remedy 1.1] || Amend : ''West Bank - Judea and Samaria'' || 23:49, 25-May-2009 || 23:15, 28-May-2009 || 3 || Passed || 7 || 0 || 0 || 13 || 2 || 0 || 7 || S ||  ||  || S || R ||  || N || S || S || R || S ||  ||  || N || S || S ||  || Ste
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=292982752#Motions Remedy 1.1 modified] || Amend : ''West Bank - Judea and Samaria'' || 23:49, 25-May-2009 || 23:15, 28-May-2009 || 3 || Passed || 7 || 0 || 0 || 13 || 2 || 0 || 7 || S ||  ||  || S || R ||  || N || S || S || R || S ||  ||  || N || S || S ||  || Ste
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=292981735#Motions_2 The topic ban] || Amend : ''Ayn Rand'' || 06:23, 20-May-2009 || 23:05, 28-May-2009 || 9 || Passed || 10 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  ||  ||  ||  || N || S || S || S ||  || S ||  || S || S || S || S || Vas
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=292981735#Motions_2 TallNapoleon topic ban] || Amend : ''Ayn Rand'' || 06:23, 20-May-2009 || 23:05, 28-May-2009 || 9 || Passed || 10 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  ||  ||  ||  || N || S || S || S ||  || S ||  || S || S || S || S || Vas
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=292701860#Motion The remedies] || Clarify : ''Midnight Syndicate'' || 02:30, 21-May-2009 || 18:38, 27-May-2009 || 7 || Passed || 9 || 0 || 0 || 15 || 0 || 0 || 8 || S || S ||  ||  ||  || S || N ||  || S || S ||  || S ||  || N || S || S || S || New
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=292701860#Motion Remedies suspended] || Clarify : ''Midnight Syndicate'' || 02:30, 21-May-2009 || 18:38, 27-May-2009 || 7 || Passed || 9 || 0 || 0 || 15 || 0 || 0 || 8 || S || S ||  ||  ||  || S || N ||  || S || S ||  || S ||  || N || S || S || S || New
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=292222578#Motions Kaldari, Sceptre, and Durova] || Amend : ''Fringe science'' || 00:04, 19-May-2009 || 14:11, 25-May-2009 || 7 || Passed || 9 || 0 || 1 || 14 || 2 || 0 || 7 || S || S ||  || S ||  || S || N || S || S || R ||  || A || S || S ||  || R || S || Kir
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=292222578#Motions ScienceApologist "Optics" article proxies] || Amend : ''Fringe science'' || 00:04, 19-May-2009 || 14:11, 25-May-2009 || 7 || Passed || 9 || 0 || 1 || 14 || 2 || 0 || 7 || S || S ||  || S ||  || S || N || S || S || R ||  || A || S || S ||  || R || S || Kir
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#Vintagekits_and_Kittybrewster_topic_banned Vintagekits and Kittybrewster topic banned] || Baronets naming dispute || 01:41, 9-May-2009 || 13:21, 18-May-2009 || 9 || Failed || 5 || 3 || 0 || 13 || 3 || 0 || 7 || R ||  ||  ||  || O || S || N || S ||  || O || R || S ||  || R || S || O || S || Joh
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#BrownHairedGirl BrownHairedGirl 1)] || Baronets naming dispute || 12:59, 9-May-2009 || 13:21, 18-May-2009 || 9 || Failed || 2 || 3 || 1 || 13 || 3 || 0 || 7 || R ||  ||  ||  || O || S || N || A ||  || O || R ||  ||  || R || S || O ||  || Ste
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#BrownHairedGirl BrownHairedGirl admonished] || Baronets naming dispute || 12:59, 9-May-2009 || 13:21, 18-May-2009 || 9 || Failed || 2 || 3 || 1 || 13 || 3 || 0 || 7 || R ||  ||  ||  || O || S || N || A ||  || O || R ||  ||  || R || S || O ||  || Ste
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#BrownHairedGirl BrownHairedGirl 2)] || Baronets naming dispute || 12:59, 9-May-2009 || 13:21, 18-May-2009 || 9 || Failed || 2 || 3 || 1 || 13 || 3 || 0 || 7 || R ||  ||  ||  || O || S || N || A ||  || O || R ||  ||  || R || S || O ||  || Ste
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#BrownHairedGirl BrownHairedGirl desysopped] || Baronets naming dispute || 12:59, 9-May-2009 || 13:21, 18-May-2009 || 9 || Failed || 2 || 3 || 1 || 13 || 3 || 0 || 7 || R ||  ||  ||  || O || S || N || A ||  || O || R ||  ||  || R || S || O ||  || Ste
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#Alternative Alternate] || Baronets naming dispute || 18:45, 9-May-2009 || 13:21, 18-May-2009 || 9 || Failed || 4 || 1 || 1 || 13 || 3 || 0 || 7 || R ||  ||  ||  || S || A || N || S ||  ||  || R || S ||  || R ||  || S || O || Fay
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#Alternative Alternative] || Baronets naming dispute || 18:45, 9-May-2009 || 13:21, 18-May-2009 || 9 || Failed || 4 || 1 || 1 || 13 || 3 || 0 || 7 || R ||  ||  ||  || S || A || N || S ||  ||  || R || S ||  || R ||  || S || O || Fay
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#Alternative_.282.29 Alternate (2)] || Baronets naming dispute || 16:13, 12-May-2009 || 13:21, 18-May-2009 || 6 || Passed || 9 || 0 || 0 || 13 || 3 || 0 || 7 || R || S || S ||  || S || S || N || S ||  ||  || R || S || S || R ||  || S || S || Vas
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=290705360#Alternative_.282.29 Alternative (2)] || Baronets naming dispute || 16:13, 12-May-2009 || 13:21, 18-May-2009 || 6 || Passed || 9 || 0 || 0 || 13 || 3 || 0 || 7 || R || S || S ||  || S || S || N || S ||  ||  || R || S || S || R ||  || S || S || Vas
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=285373657#Motions 1) No Macedonia-related article] || Macedonia naming dispute || 11:28, 18-Apr-2009 || 03:08, 22-Apr-2009 || 4 || Passed || 10 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  ||  || S || S || N || S ||  ||  || S || S || S || S ||  ||  || S || Rle
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=285373657#Motions Macedonia-related article move restrictions (1)] || Macedonia naming dispute || 11:28, 18-Apr-2009 || 03:08, 22-Apr-2009 || 4 || Passed || 10 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  ||  || S || S || N || S ||  ||  || S || S || S || S ||  ||  || S || Rle
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=285373657#Motions 2) Motion 1 above amended] || Macedonia naming dispute || 00:22, 20-Apr-2009 || 03:08, 22-Apr-2009 || 2 || Failed || 3 || 0 || 0 || 16 || 0 || 0 || 9 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  || S ||  ||  ||  || S || S || Rle
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=285373657#Motions Macedonia-related article move restrictions (2)] || Macedonia naming dispute || 00:22, 20-Apr-2009 || 03:08, 22-Apr-2009 || 2 || Failed || 3 || 0 || 0 || 16 || 0 || 0 || 9 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  || S ||  ||  ||  || S || S || Rle
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=282845887#Motion_to_open_the_Aitias_case Open the Aitias case] || Aitias || 15:40, 8-Apr-2009 || 21:45, 9-Apr-2009 || 1 || Passed || 15 || 0 || 0 || 16 || 0 || 0 || 9 || S || S || S || S || S || S || N || S || S ||  || S || S || S || S || S || S || S || Flo
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=282845887#Motion_to_open_the_Aitias_case Open Aitias case] || Aitias || 15:40, 8-Apr-2009 || 21:45, 9-Apr-2009 || 1 || Passed || 15 || 0 || 0 || 16 || 0 || 0 || 9 || S || S || S || S || S || S || N || S || S ||  || S || S || S || S || S || S || S || Flo
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=282579390#Mitchazenia_adminship_restoration Mitchazenia adminship restoration 1)] || Removal of admin access: Mitchazenia || 20:28, 5-Apr-2009 || 18:38, 8-Apr-2009 || 3 || Passed || 9 || 1 || 0 || 15 || 0 || 1 || 8 ||  || S || S || S || S ||  || N || S || O ||  || I || S || S ||  || S ||  || S || Rle
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=282579390#Mitchazenia_adminship_restoration Mitchazenia adminship restoration (1)] || Removal of admin access: Mitchazenia || 20:28, 5-Apr-2009 || 18:38, 8-Apr-2009 || 3 || Passed || 9 || 1 || 0 || 15 || 0 || 1 || 8 ||  || S || S || S || S ||  || N || S || O ||  || I || S || S ||  || S ||  || S || Rle
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=282579390#Mitchazenia_adminship_restoration Mitchazenia adminship restoration 1.1)] || Removal of admin access: Mitchazenia || 02:45, 6-Apr-2009 || 18:38, 8-Apr-2009 || 3 || Failed || 1 || 4 || 0 || 15 || 0 || 1 || 8 ||  || O || O ||  ||  ||  || N ||  || S ||  || I || O ||  ||  ||  ||  || O || Kir
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=282579390#Mitchazenia_adminship_restoration Mitchazenia adminship restoration (1.1)] || Removal of admin access: Mitchazenia || 02:45, 6-Apr-2009 || 18:38, 8-Apr-2009 || 3 || Failed || 1 || 4 || 0 || 15 || 0 || 1 || 8 ||  || O || O ||  ||  ||  || N ||  || S ||  || I || O ||  ||  ||  ||  || O || Kir
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_2 2) In order to avoid] || Aitias || 17:06, 21-Mar-2009 || 13:57, 22-Mar-2009 || 1 || Passed || 13 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  || S || S || S || N || S ||  || S || S || S || S || S ||  || S || S || Flo
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_2 Aitias temporary desysop] || Aitias || 17:06, 21-Mar-2009 || 13:57, 22-Mar-2009 || 1 || Passed || 13 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  || S || S || S || N || S ||  || S || S || S || S || S ||  || S || S || Flo
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_3 3) The suspension of] || Aitias || 17:06, 21-Mar-2009 || 13:57, 22-Mar-2009 || 1 || Passed || 13 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  || S || S || S || N || S ||  || S || S || S || S || S ||  || S || S || Flo
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_3 Aitias desysop may become permanent] || Aitias || 17:06, 21-Mar-2009 || 13:57, 22-Mar-2009 || 1 || Passed || 13 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  || S || S || S || N || S ||  || S || S || S || S || S ||  || S || S || Flo
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_4 4) User:Aitias instructed] || Aitias || 17:34, 21-Mar-2009 || 13:57, 22-Mar-2009 || 1 || Passed || 12 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  || S || S || S || N || S ||  || S || S || S || S ||  ||  || S || S || Flo
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_4 Aitias restricted to one account] || Aitias || 17:34, 21-Mar-2009 || 13:57, 22-Mar-2009 || 1 || Passed || 12 || 0 || 0 || 16 || 0 || 0 || 9 || S || S ||  || S || S || S || N || S ||  || S || S || S || S ||  ||  || S || S || Flo
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_1 1) This request for arbitration] || Aitias || 01:29, 18-Mar-2009 || 16:00, 18-Mar-2009 || 1 || Passed || 13 || 0 || 0 || 16 || 0 || 0 || 9 || S || S || S || S || S ||  || N || S ||  || S || S || S || S || S ||  || S || S || New
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=278938366#Motion_1 Request for arbitration suspended] || Aitias || 01:29, 18-Mar-2009 || 16:00, 18-Mar-2009 || 1 || Passed || 13 || 0 || 0 || 16 || 0 || 0 || 9 || S || S || S || S || S ||  || N || S ||  || S || S || S || S || S ||  || S || S || New
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_to_sanction_ScienceApologist Sanction ScienceApologist 1)] || Clarify : ''Fringe Science'' || 17:00, 10-Mar-2009 || 12:55, 12-Mar-2009 || 2 || Passed || 8 || 1 || 2 || 13 || 2 || 1 || 6 || S || O || I || S || S ||  || N || A || S || R || S || A || S || S ||  || R || S || Rog
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_to_sanction_ScienceApologist ScienceApologist banned] || Clarify : ''Fringe Science'' || 17:00, 10-Mar-2009 || 12:55, 12-Mar-2009 || 2 || Passed || 8 || 1 || 2 || 13 || 2 || 1 || 6 || S || O || I || S || S ||  || N || A || S || R || S || A || S || S ||  || R || S || Rog
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_to_sanction_ScienceApologist Sanction ScienceApologist 1.1)] || Clarify : ''Fringe Science'' || 03:51, 11-Mar-2009 || 12:55, 12-Mar-2009 || 1 || Failed || 2 || 6 || 1 || 13 || 2 || 1 || 7 || O || S || I || O || O ||  || N || S || O || R ||  || A || O ||  ||  || R || O || Joh
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_to_sanction_ScienceApologist ScienceApologist restricted] || Clarify : ''Fringe Science'' || 03:51, 11-Mar-2009 || 12:55, 12-Mar-2009 || 1 || Failed || 2 || 6 || 1 || 13 || 2 || 1 || 7 || O || S || I || O || O ||  || N || S || O || R ||  || A || O ||  ||  || R || O || Joh
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_to_clarify_the_interpretative_role_of_administrators Clarify the interpretative] || Clarify : ''Fringe Science'' || 17:00, 10-Mar-2009 || 12:55, 12-Mar-2009 || 2 || Passed || 10 || 0 || 0 || 13 || 2 || 1 || 7 || S || S || I || S || S ||  || N || S || S || R || S ||  || S || S ||  || R || S || Rog
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_to_clarify_the_interpretative_role_of_administrators Interpretative role of administrators] || Clarify : ''Fringe Science'' || 17:00, 10-Mar-2009 || 12:55, 12-Mar-2009 || 2 || Passed || 10 || 0 || 0 || 13 || 2 || 1 || 7 || S || S || I || S || S ||  || N || S || S || R || S ||  || S || S ||  || R || S || Rog
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_regarding_SirFozzie Regarding SirFozzie] || Clarify : ''Fringe Science'' || 17:00, 10-Mar-2009 || 12:55, 12-Mar-2009 || 2 || Passed || 10 || 0 || 1 || 13 || 2 || 1 || 7 || S || S || I || S || S ||  || N || S || S || R || S || A || S || S ||  || R || S || Rog
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=276721308#Motion_regarding_SirFozzie SirFozzie commended] || Clarify : ''Fringe Science'' || 17:00, 10-Mar-2009 || 12:55, 12-Mar-2009 || 2 || Passed || 10 || 0 || 1 || 13 || 2 || 1 || 7 || S || S || I || S || S ||  || N || S || S || R || S || A || S || S ||  || R || S || Rog
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=267105431#Restriction_on_arbitration_enforcement_activity_clarification Restriction on] || Clarify : ''Martinphi-ScienceApologist'' || 21:33, 25-Jan-2009 || 02:23, 29-Jan-2009 || 3 || Passed || 8 || 0 || 2 || 14 || 2 || 0 || 7 || S || S ||  ||  || S || S || N || R || S || A || S || R || S || A ||  || S ||  || Vas
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=267105431#Restriction_on_arbitration_enforcement_activity_clarification Restriction on arbitration enforcement] || Clarify : ''Martinphi-ScienceApologist'' || 21:33, 25-Jan-2009 || 02:23, 29-Jan-2009 || 3 || Passed || 8 || 0 || 2 || 14 || 2 || 0 || 7 || S || S ||  ||  || S || S || N || R || S || A || S || R || S || A ||  || S ||  || Vas
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=267105431#Discussion_of_administrator_actions Discussion of] || Clarify : ''Martinphi-ScienceApologist'' || 21:33, 25-Jan-2009 || 02:23, 29-Jan-2009 || 3 || Passed || 11 || 0 || 0 || 14 || 2 || 0 || 8 || S || S ||  || S || S || S || N || R || S || S || S || R || S || S ||  || S ||  || Vas
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=267105431#Discussion_of_administrator_actions Discussion of administrator actions] || Clarify : ''Martinphi-ScienceApologist'' || 21:33, 25-Jan-2009 || 02:23, 29-Jan-2009 || 3 || Passed || 11 || 0 || 0 || 14 || 2 || 0 || 8 || S || S ||  || S || S || S || N || R || S || S || S || R || S || S ||  || S ||  || Vas
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=265487223#Bishzilla_temporarily_desysoped Bishzilla temporarily] || Biszilla || 02:27, 14-Jan-2009 || 14:33, 21-Jan-2009 || 8 || Failed || 1 || 12 || 0 || 16 || 0 || 0 || 9 || O || O ||  || O ||  || O || N || S || O || O || O ||  || O || O || O || O || O || Joh
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=265487223#Bishzilla_temporarily_desysoped Bishzilla temporarily desysoped] || Biszilla || 02:27, 14-Jan-2009 || 14:33, 21-Jan-2009 || 8 || Failed || 1 || 12 || 0 || 16 || 0 || 0 || 9 || O || O ||  || O ||  || O || N || S || O || O || O ||  || O || O || O || O || O || Joh
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=265487223#Bishzilla_admonished Bishzilla admonished] || Biszilla || 21:44, 16-Jan-2009 || 14:33, 21-Jan-2009 || 5 || Passed || 14 || 0 || 2 || 16 || 0 || 0 || 8 || S || S || S || S || S || S || N || S || S || S || A || S || S || S || A || S || S || Vas
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=265487223#Editors_warned Editors warned] || Biszilla || 21:50, 16-Jan-2009 || 14:33, 21-Jan-2009 || 5 || Failed || 7 || 8 || 1 || 16 || 0 || 0 || 8 || O || S || S || A || S || O || N || O || O || S || O || S || S || O || O || S || O || Vas
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=262183572#Motion 1) In the finding] || Amend : ''Barrett v. Rosenthal'' || 14:08, 3-Jan-2009 || 22:57, 5-Jan-2009 || 2 || Failed || 5 || 4 || 2 || 16 || 1 || 0 || 8 || O || S || R || O ||  || S ||  || O ||  || A ||  || S || A || S ||  || O || S || Sam
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=262183572#Motion Finding 3.2 added to] || Amend : ''Barrett v. Rosenthal'' || 14:08, 3-Jan-2009 || 22:57, 5-Jan-2009 || 2 || Failed || 5 || 4 || 2 || 16 || 1 || 0 || 8 || O || S || R || O ||  || S ||  || O ||  || A ||  || S || A || S ||  || O || S || Sam
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=262183572#Motion 1.1) That the header] || Amend : ''Barrett v. Rosenthal'' || 16:57, 3-Jan-2009 || 22:57, 5-Jan-2009 || 2 || Passed || 12 || 0 || 0 || 16 || 1 || 0 || 9 || S || S || R || S ||  || S ||  || S ||  || S || S || S || S || S ||  || S || S || Rog
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=262183572#Motion Finding 3.2 title modified] || Amend : ''Barrett v. Rosenthal'' || 16:57, 3-Jan-2009 || 22:57, 5-Jan-2009 || 2 || Passed || 12 || 0 || 0 || 16 || 1 || 0 || 9 || S || S || R || S ||  || S ||  || S ||  || S || S || S || S || S ||  || S || S || Rog
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=262099829#Motion With the exception of] || Amend : ''Everyking 3'' || 17:27, 4-Jan-2009 || 15:15, 5-Jan-2009 || 1 || Passed || 9 || 0 || 0 || 17 || 0 || 0 || 9 || S || S ||  || S || S ||  ||  ||  ||  || S || S || S || S ||  ||  ||  || S || Wiz
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=262099829#Motion All but one Everyking sanction lifted] || Amend : ''Everyking 3'' || 17:27, 4-Jan-2009 || 15:15, 5-Jan-2009 || 1 || Passed || 9 || 0 || 0 || 17 || 0 || 0 || 9 || S || S ||  || S || S ||  ||  ||  ||  || S || S || S || S ||  ||  ||  || S || Wiz
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261771958#Motion_to_desysop_Hemanshu Motion to desysop] || Hemanshu || 20:05, 1-Jan-2009 || 22:53, 3-Jan-2009 || 2 || Passed || 11 || 1 || 2 || 17 || 0 || 0 || 8 || A || S ||  || S ||  || S ||  || S || S || A || S || S || S || S || O || S || S || Rle
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261771958#Motion_to_desysop_Hemanshu Hemanshu desysopped] || Hemanshu || 20:05, 1-Jan-2009 || 22:53, 3-Jan-2009 || 2 || Passed || 11 || 1 || 2 || 17 || 0 || 0 || 8 || A || S ||  || S ||  || S ||  || S || S || A || S || S || S || S || O || S || S || Rle
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions 1) Because of] || Amend : ''Episodes and characters 2'' || 19:30, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 0 || 4 || 17 || 0 || 0 || 7 ||  ||  ||  || S ||  || A ||  || A ||  || A || A || S ||  || S ||  ||  ||  || Cor
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions Edits taken as a whole may be distruptive] || Amend : ''Episodes and characters 2'' || 19:30, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 0 || 4 || 17 || 0 || 0 || 7 ||  ||  ||  || S ||  || A ||  || A ||  || A || A || S ||  || S ||  ||  ||  || Cor
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions 2) TTN has not] || Amend : ''Episodes and characters 2'' || 19:30, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 1 || 3 || 17 || 0 || 0 || 8 ||  ||  ||  || S ||  || A ||  || O ||  || A || A || S ||  || S ||  ||  ||  || Cor
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions TTN has not resumed sanctioned behavior] || Amend : ''Episodes and characters 2'' || 19:30, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 1 || 3 || 17 || 0 || 0 || 8 ||  ||  ||  || S ||  || A ||  || O ||  || A || A || S ||  || S ||  ||  ||  || Cor
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions 3) TTN is reminded] || Amend : ''Episodes and characters 2'' || 19:30, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 4 || 1 || 17 || 0 || 0 || 9 ||  ||  ||  || S ||  || O ||  || O ||  || A || O || S ||  || S || O ||  ||  || Cor
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions TTN reminded] || Amend : ''Episodes and characters 2'' || 19:30, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 4 || 1 || 17 || 0 || 0 || 9 ||  ||  ||  || S ||  || O ||  || O ||  || A || O || S ||  || S || O ||  ||  || Cor
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions 4) All editors are] || Amend : ''Episodes and characters 2'' || 22:38, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 2 || 1 || 17 || 0 || 0 || 9 ||  ||  ||  || S ||  ||  ||  || O ||  || A || O || S ||  || S ||  ||  ||  || Cor
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions Editors reminded re AFD process] || Amend : ''Episodes and characters 2'' || 22:38, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 2 || 1 || 17 || 0 || 0 || 9 ||  ||  ||  || S ||  ||  ||  || O ||  || A || O || S ||  || S ||  ||  ||  || Cor
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions 5) All editors are] || Amend : ''Episodes and characters 2'' || 22:38, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 2 || 1 || 17 || 0 || 0 || 9 ||  ||  ||  || S ||  ||  ||  || O ||  || A || O || S ||  || S ||  ||  ||  || Cor
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261711703#Motions Editors reminded re dispute resolution] || Amend : ''Episodes and characters 2'' || 22:38, 30-Dec-2008 || 17:54, 3-Jan-2009 || 4 || Failed || 3 || 2 || 1 || 17 || 0 || 0 || 9 ||  ||  ||  || S ||  ||  ||  || O ||  || A || O || S ||  || S ||  ||  ||  || Cor
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261428576#Motions 1) The case] || Rename : ''Piotrus 2'' || 05:52, 30-Dec-2008 || 10:25, 2-Jan-2009 || 3 || Passed || 12 || 0 || 0 || 17 || 0 || 0 || 9 || S ||  ||  || S || S || S || S || S ||  || S ||  || S || S || S ||  || S || S || Cor
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261428576#Motions ''Piotrus 2'' renamed] || Rename : ''Piotrus 2'' || 05:52, 30-Dec-2008 || 10:25, 2-Jan-2009 || 3 || Passed || 12 || 0 || 0 || 17 || 0 || 0 || 9 || S ||  ||  || S || S || S || S || S ||  || S ||  || S || S || S ||  || S || S || Cor
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261428576#Motions 2) Any post-closure] || Rename : ''Piotrus 2'' || 19:37, 30-Dec-2008 || 10:25, 2-Jan-2009 || 3 || Failed || 1 || 9 || 0 || 17 || 0 || 0 || 9 || O ||  ||  || O || S ||  || O || O ||  || O || O ||  || O || O ||  ||  || O || Fay
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=261428576#Motions Rename requests restricted] || Rename : ''Piotrus 2'' || 19:37, 30-Dec-2008 || 10:25, 2-Jan-2009 || 3 || Failed || 1 || 9 || 0 || 17 || 0 || 0 || 9 || O ||  ||  || O || S ||  || O || O ||  || O || O ||  || O || O ||  ||  || O || Fay
 <!-- end motions table 2009 only -->
 |}
 
@@ -589,46 +655,46 @@ The column headings, in table below, have the following meanings:
 ! Arb || EM || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || Offered || %
 |-
 <!-- begin motions stats 2009 only -->
-| align="left" | Carcharoth || 49 || 3 || 6% || 5 || 11% || 29 || 71% || 1 || 2% || 11 || 27% || 24 || 83% || 5 || 17% || 0 || 0%
+| align="left" | Carcharoth || 64 || 3 || 5% || 7 || 11% || 40 || 74% || 2 || 4% || 12 || 22% || 32 || 80% || 8 || 20% || 3 || 5%
 |-
-| align="left" | Casliber || 49 || 0 || 0% || 0 || 0% || 35 || 71% || 0 || 0% || 14 || 29% || 32 || 91% || 3 || 9% || 1 || 2%
+| align="left" | Casliber || 64 || 0 || 0% || 1 || 2% || 45 || 71% || 1 || 2% || 17 || 27% || 41 || 91% || 4 || 9% || 1 || 2%
 |-
-| align="left" | Cool Hand Luke || 49 || 9 || 18% || 2 || 5% || 10 || 26% || 1 || 3% || 27 || 71% || 9 || 90% || 1 || 10% || 0 || 0%
+| align="left" | Cool Hand Luke || 64 || 19 || 30% || 6 || 13% || 11 || 28% || 1 || 3% || 27 || 69% || 10 || 91% || 1 || 9% || 0 || 0%
 |-
-| align="left" | Coren || 49 || 0 || 0% || 0 || 0% || 34 || 69% || 1 || 2% || 14 || 29% || 30 || 88% || 4 || 12% || 6 || 12%
+| align="left" | Coren || 64 || 0 || 0% || 0 || 0% || 45 || 70% || 2 || 3% || 17 || 27% || 40 || 89% || 5 || 11% || 7 || 11%
 |-
-| align="left" | FayssalF || 49 || 0 || 0% || 1 || 2% || 25 || 52% || 1 || 2% || 22 || 46% || 21 || 84% || 4 || 16% || 3 || 6%
+| align="left" | FayssalF || 64 || 0 || 0% || 1 || 2% || 35 || 56% || 2 || 3% || 26 || 41% || 27 || 77% || 8 || 23% || 4 || 6%
 |-
-| align="left" | FloNight || 49 || 0 || 0% || 0 || 0% || 29 || 59% || 4 || 8% || 16 || 33% || 25 || 86% || 4 || 14% || 4 || 8%
+| align="left" | FloNight || 64 || 0 || 0% || 4 || 6% || 38 || 63% || 5 || 8% || 17 || 28% || 33 || 87% || 5 || 13% || 4 || 6%
 |-
 | align="left" | FT2 || 11 || 0 || 0% || 0 || 0% || 2 || 18% || 0 || 0% || 9 || 82% || 1 || 50% || 1 || 50% || 0 || 0%
 |-
-| align="left" | John Vandenberg || 49 || 0 || 0% || 6 || 12% || 35 || 81% || 4 || 9% || 4 || 9% || 27 || 77% || 8 || 23% || 5 || 10%
+| align="left" | John Vandenberg || 64 || 0 || 0% || 9 || 14% || 41 || 75% || 4 || 7% || 10 || 18% || 32 || 78% || 9 || 22% || 6 || 9%
 |-
-| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 4%
+| align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 3%
 |-
-| align="left" | Newyorkbrad || 49 || 0 || 0% || 9 || 18% || 21 || 53% || 9 || 23% || 10 || 25% || 15 || 71% || 6 || 29% || 4 || 8%
+| align="left" | Newyorkbrad || 64 || 0 || 0% || 10 || 16% || 29 || 54% || 9 || 17% || 16 || 30% || 21 || 72% || 8 || 28% || 5 || 8%
 |-
-| align="left" | Risker || 49 || 2 || 4% || 10 || 21% || 25 || 68% || 3 || 8% || 9 || 24% || 18 || 72% || 7 || 28% || 1 || 2%
+| align="left" | Risker || 64 || 2 || 3% || 12 || 19% || 36 || 72% || 4 || 8% || 10 || 20% || 26 || 72% || 10 || 28% || 1 || 2%
 |-
-| align="left" | Rlevse || 48 || 0 || 0% || 2 || 4% || 34 || 74% || 4 || 9% || 8 || 17% || 33 || 97% || 1 || 3% || 5 || 10%
+| align="left" | Rlevse || 63 || 0 || 0% || 2 || 3% || 47 || 77% || 4 || 7% || 10 || 16% || 41 || 87% || 6 || 13% || 7 || 11%
 |-
-| align="left" | Roger Davies || 49 || 0 || 0% || 0 || 0% || 34 || 69% || 1 || 2% || 14 || 29% || 30 || 88% || 4 || 12% || 5 || 10%
+| align="left" | Roger Davies || 64 || 0 || 0% || 0 || 0% || 47 || 73% || 1 || 2% || 16 || 25% || 42 || 89% || 5 || 11% || 8 || 13%
 |-
 | align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 2%
 |-
-| align="left" | Stephen Bain || 49 || 0 || 0% || 0 || 0% || 15 || 31% || 1 || 2% || 33 || 67% || 11 || 73% || 4 || 27% || 4 || 8%
+| align="left" | Stephen Bain || 64 || 0 || 0% || 0 || 0% || 24 || 38% || 2 || 3% || 38 || 59% || 13 || 54% || 11 || 46% || 5 || 8%
 |-
-| align="left" | Vassyana || 49 || 3 || 6% || 5 || 11% || 29 || 71% || 1 || 2% || 11 || 27% || 24 || 83% || 5 || 17% || 7 || 14%
+| align="left" | Vassyana || 64 || 17 || 27% || 5 || 11% || 29 || 69% || 2 || 5% || 11 || 26% || 24 || 83% || 5 || 17% || 7 || 11%
 |-
-| align="left" | Wizardman || 49 || 2 || 4% || 0 || 0% || 35 || 74% || 0 || 0% || 12 || 26% || 29 || 83% || 6 || 17% || 1 || 2%
+| align="left" | Wizardman || 64 || 2 || 3% || 0 || 0% || 49 || 79% || 0 || 0% || 13 || 21% || 39 || 80% || 10 || 20% || 3 || 5%
 <!-- end motions stats 2009 only -->
 |}
 
 ==Cases==
 *Legend: Ac=Active, R=Recused, I=Inactive/away, M=Majority, N=Not eligible, Drafter = the poster of the first draft on the case's "Proposed decision" page.
 <!-- begin cases summary all -->
-* Publicly heard cases: 21; average duration: 59 days.
+* Publicly heard cases: 21; average duration: 58.9 days.
 <!-- end cases summary all -->
 
 === Involving 2009 arbs only ===
