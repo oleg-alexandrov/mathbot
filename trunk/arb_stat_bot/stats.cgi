@@ -391,12 +391,8 @@ sub compute_requests_summary {
   my $total = count_values($disp, $disp_names,  # inputs
                            \%disp_count          # output
                           );
-  if ($total != $num_req){
-    print "Size mis-match\n";
-    exit(0);
-  }
-  
-  my $summary = form_requests_summary($num_req, $average, $total,
+ 
+  my $summary = form_requests_summary($total, $average, $total,
                                       $disp_names, $disp_legend, \%disp_count);
 
   return $summary;
