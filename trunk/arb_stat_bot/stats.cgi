@@ -70,9 +70,10 @@ sub gen_all_stats{
   $arbs_votes = ["R", "I", "N", ""];   # How arbitrators can vote
   $text = gen_cases_stats($text, $years, $arbs_list, $arbs_votes);
 
-#   # Section 4: the proposals stats
-#   $arbs_votes = ["R", "I", "N", "S", "S1", ""]; # How arbitrators can vote
-#   $text = gen_proposals_stats($text, $years, $arbs_list, $arbs_votes);
+  # Section 4: the proposals stats
+  # Tag1
+  #$arbs_votes = ["A", "R", "I", "N", "O", "S", "S1", ""]; # How arbitrators can vote
+  #$text = gen_proposals_stats($text, $years, $arbs_list, $arbs_votes);
 
   return $text;
 }
@@ -298,7 +299,7 @@ sub gen_cases_stats{
       my $arb_full = $arbs->{$arb}; # expansion of the abbrev
 
       my $row = "| align=\"left\" | $arb_full \|\| ";
-      $row   .= compute_cases_stats($arb, $arbs_votes, $table, $Drafted, $type);
+      $row   .= compute_cases_stats($arb, $arbs_votes, $table, $Drafted);
       $output_table .= $row;
       
     } # End iterating over arbitrators
@@ -315,6 +316,86 @@ sub gen_cases_stats{
 
   # Compute the summary as well
   $text = compute_cases_summary($table, $text);
+  
+  return $text;
+}
+
+sub gen_proposals_stats{
+
+  my $text       = shift; # text to parse and put the stats into
+  my $years      = shift; # years to parse
+  my $arbs_list  = shift; # list of arbitrators
+  my $arbs_votes = shift;
+
+  my $type       = "proposals";
+  
+  my $table   = {};
+
+  # Iterate over the years and combine the tables for those years
+  for (my $year_count = 0; $year_count < 2; $year_count++){
+
+    my $year          = $years->[$year_count];
+    my $beg_table_tag = "<!-- begin $type table $year -->";
+    my $end_table_tag = "<!-- end $type table $year -->";
+
+    my $table_text = get_text_between_tags($text, $beg_table_tag,
+                                           $end_table_tag);
+
+    # Fix odd stuff in this table before proceeding
+    $table_text =~
+       s/(\!\s*colspan\s*=\s*2.*?)(\n)/proc_proposals_description($1) . $2/eg;
+
+    $table = merge_tables( $table,                       # tables so far
+                           parse_wiki_table($table_text) # current table
+                         );
+  }
+
+  for (my $year_count = 0; $year_count < 2; $year_count++){
+
+    my $year = $years->[$year_count];
+    my $arbs = $arbs_list->[$year_count];
+
+    my $output_table = "\n";
+  
+    foreach my $arb (sort { lc($arbs->{$a}) cmp lc($arbs->{$b}) }
+                     keys %$arbs){
+      
+      my $arb_full = $arbs->{$arb}; # expansion of the abbrev
+
+      my $row = "| align=\"left\" | $arb_full \|\| ";
+      $row   .= compute_proposals_stats($arb, $arbs_votes, $table);
+      $output_table .= $row;
+      
+    } # End iterating over arbitrators
+
+    $output_table =~ s/\|\-\s*$//g; # strip last "|-"
+    
+    my $beg_stats_tag = "<!-- begin $type stats $year -->";
+    my $end_stats_tag = "<!-- end $type stats $year -->";
+  
+    $text = put_text_between_tags($text, $output_table,
+                                  $beg_stats_tag, $end_stats_tag);
+  
+  } # End iterating over years
+
+  # Compute the summary as well
+  #$text = compute_proposals_summary($table, $text);
+  
+  return $text;
+}
+
+sub proc_proposals_description {
+
+  # This table has artifacts which choke the code. Deal with them.
+
+  my $text = shift;
+
+  # colspan artifact, break a cell with colspan into two sells
+  $text =~ s/\!\s*colspan\s*=\s*2\s*\|\s*/\! alignInfoDummy \| DummyCell \|\| /g;
+
+  # The same entry shows up twice, append 'x' to the second one to
+  # make all entries unique.
+  while ($text =~ s/\b(\w+)\b(.*?)\b(\1)\b/$1 . $2 . $3 . "x"/eg) {}
   
   return $text;
 }
@@ -525,34 +606,51 @@ sub compute_cases_stats {
       $o, $op, $drafted, $draftedp);
   
   my $row = "";
-  if ($type eq "cases"){
 
-    $e = $total - $count{"N"};
-    $i  = $count{"I"};             $ip   = percentage( $i,  $e       );
-    $r  = $count{"R"};             $rp   = percentage( $r,  $e-$i    );
-    
-    if (exists $Drafted->{$arb}){
-      $drafted  = $Drafted->{$arb};
-    }else{
-      $drafted   = 0; 
-    }
-    $draftedp = percentage( $drafted,  $e );
-    
-    $row  =  "$e $i $ip $r $rp $drafted $draftedp\n";
-
-  }elsif ($type eq "proposals"){
-
-    $e = $total - $count{"N"};
-    $s = $count{"S"};
-    $row  =  "$e $s\n";
-    
+  $e = $total - $count{"N"};
+  $i  = $count{"I"};             $ip   = percentage( $i,  $e       );
+  $r  = $count{"R"};             $rp   = percentage( $r,  $e-$i    );
+  
+  if (exists $Drafted->{$arb}){
+    $drafted  = $Drafted->{$arb};
   }else{
-    print "Unknown option in compute_cases_stats\n";
-    exit(0);
+    $drafted   = 0; 
   }
+  $draftedp = percentage( $drafted,  $e );
+  
+  $row  =  "$e $i $ip $r $rp $drafted $draftedp\n";
   
   $row  =~ s/ / \|\| /g;
   $row .=  "|-\n";     # prepare for new row
+  
+  return $row;
+}
+
+sub compute_proposals_stats {
+
+  # Tag2
+  my $arb        = shift; # person whose votes to count
+  my $arbs_votes = shift; # types of votes to count
+  my $table      = shift; # table of votes to count
+
+  my %count;
+  my $total = count_values($table->{$arb}, $arbs_votes,  # inputs
+                           \%count                       # output
+                          );
+  
+  my ($e, $i, $ip, $r, $rp, $v, $vp, $dn, $dnp, $a, $ap, $s, $sp,
+      $o, $op);
+  
+  my $row = "";
+  $e = $total - $count{"N"};
+  $i = $count{"I"};
+  $s = $count{"S"};
+  $row  =  "$e $i $s\n";
+  
+  $row  =~ s/ / \|\| /g;
+  $row .=  "|-\n";     # prepare for new row
+
+  print "$arb $total $row\n";
   
   return $row;
 }

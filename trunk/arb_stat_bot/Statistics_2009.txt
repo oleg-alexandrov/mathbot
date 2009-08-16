@@ -36,7 +36,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=304173154#Stephen_Bain Stephen Bain] || 14:13, 23-Jul-2009 || 04:54, 26-Jul-2009 || 3 || Declined || 0 || 7 || 1 || 0 || 2 || D || D || I ||  ||  || D || N ||  || N || D || D || D ||  || N || R || I || D
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Use_of_.22disputed_territories.22.2C_.22occupied_territories.22_and_related_terminology_in_the_context_of_the_Arab-Israeli_dispute Use of "disputed territories" and "occupied territories" …] || 12:33, 1-Jul-2009 || 17:19, 16-Jul-2009 || 15 || Motion || 0 || 5 || 1 || 3 || 0 || C || C ||  ||  ||  || D || N || D || N || R || D || D ||  || N ||  || C || D
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Use_of_.22disputed_territories.22.2C_.22occupied_territories.22_and_related_terminology_in_the_context_of_the_Arab-Israeli_dispute Use of "disputed territories" and "occupied territories" ~] || 12:33, 1-Jul-2009 || 17:19, 16-Jul-2009 || 15 || Motion || 0 || 5 || 1 || 3 || 0 || C || C ||  ||  ||  || D || N || D || N || R || D || D ||  || N ||  || C || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302259118#Velela Velela] || 12:35, 13-Jul-2009 || 22:09, 15-Jul-2009 || 2 || Declined || 0 || 7 || 0 || 0 || 2 || D || D ||  ||  || D || D || N || D || N || D || D || N ||  || N ||  || I || I
 |-
@@ -142,7 +142,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=265487223#Bishzilla Bishzilla] || 22:25, 13-Jan-2009 || 14:33, 21-Jan-2009 || 8 || Motion || 2 || 10 || 0 || 2 || 0 || D || D || D || A || A || C || N || D || D || D || D ||  || D || C ||  || D || D
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=264958462#user:Dicklyon.2C_user:Jokestress.2C_and_user:James_Cantor_at_The_Man_Who_Would_Be_Queen_and_related_pages user:Dicklyon, user:Jokestress, and user:James Cantor …] || 02:03, 14-Jan-2009 || 22:56, 18-Jan-2009 || 5 || Declined || 0 || 10 || 0 || 1 || 0 || D || D || D || D || D || C || N || D ||  ||  || D ||  ||  || D ||  || D || D
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=264958462#user:Dicklyon.2C_user:Jokestress.2C_and_user:James_Cantor_at_The_Man_Who_Would_Be_Queen_and_related_pages user:Dicklyon, user:Jokestress, and user:James Cantor ~] || 02:03, 14-Jan-2009 || 22:56, 18-Jan-2009 || 5 || Declined || 0 || 10 || 0 || 1 || 0 || D || D || D || D || D || C || N || D ||  ||  || D ||  ||  || D ||  || D || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests&oldid=264357613#Giano Giano] || 22:42, 15-Jan-2009 || 00:02, 16-Jan-2009 || 0 || Withdrawn || 0 || 4 || 1 || 0 || 0 || D || D ||  ||  ||  || R || N || D ||  ||  ||  ||  || D ||  ||  ||  || 
 |-
@@ -189,7 +189,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 
 ===Clarifications and other requests===
 <!-- begin clarification requests summary all -->
-* Requests: 79; average duration: 13 days; declined: 24 (31%); disposed by clarification: 36 (46%); disposed by motion: 17 (22%); withdrawn: 1 (1%).
+* Requests: 79; average duration: 13 days; declined: 25 (32%); disposed by clarification: 36 (46%); disposed by motion: 17 (22%); withdrawn: 1 (1%).
 <!-- end clarification requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -199,7 +199,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 <!-- begin clarification requests table 2009 only -->
 ! Request !! Opened !! Closed !! Days !! Disp !! R !! C !! I !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308038953#Request_for_lifting_of_EK3_restrictions Amend] : ''[[Wikipedia:Requests for arbitration/Everyking 3|Everyking 3]]'' || 19:01, 22-Jul-2009 || 00:20, 15-Aug-2009 || 23 ||  || 1 || 7 || 1 || C || C ||  || C || C || R || N ||  || N || C ||  || C || C || N ||  || I || 
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308038953#Request_for_lifting_of_EK3_restrictions Amend] : ''[[Wikipedia:Requests for arbitration/Everyking 3|Everyking 3]]'' || 19:01, 22-Jul-2009 || 00:20, 15-Aug-2009 || 23 || Declined || 1 || 7 || 1 || C || C ||  || C || C || R || N ||  || N || C ||  || C || C || N ||  || I || 
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=307803596#Request_to_amend_prior_case:_Ryulong_.282.29 Amend] : ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 13:44, 4-Aug-2009 || 00:34, 14-Aug-2009 || 9 || Declined || 2 || 6 || 1 || C || C ||  || C || C ||  || N || C || N || R || R ||  ||  || N ||  || I || C
 |-
@@ -350,7 +350,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 <!-- end clarification requests table 2009 only -->
 | align="center" colspan=25 |
 <!-- begin clarification requests summary 2009 only -->
-Requests: 74; average duration: 13.3 days; declined: 22 (30%); disposed by clarification: 35 (48%); disposed by motion: 15 (21%); withdrawn: 1 (1%)
+Requests: 74; average duration: 13.3 days; declined: 23 (31%); disposed by clarification: 35 (47%); disposed by motion: 15 (20%); withdrawn: 1 (1%)
 <!-- end clarification requests summary 2009 only -->
 |}
 
@@ -943,15 +943,15 @@ The column headings, in the two tables below, have the following meanings:
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#Arbitration in dispute resolution|Arbitration in dispute resolution]] || align=left | P10 || align=left | Passed || 5 || 2 || 3 || 5 ||  || R || R || A || A ||  || S || N || S || R || A || R || S || S || N || O || O || S1 ||  ||  ||  || 4 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 9 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black’s edit-warring and block log|A Man In Black’s edit-warring and block log]] || align=left | F1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R || S || S || N || S || S || S1 ||  ||  ||  || 8 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black~s edit-warring and block log|A Man In Black~s edit-warring and block log]] || align=left | F1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R || S || S || N || S || S || S1 ||  ||  ||  || 8 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black-Ikip involvement|A Man In Black-Ikip involvement]] || align=left | F2 || align=left | Failed* || 7 || 1 || 1 || 6 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || O || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#Disputes between A Man In Black and Ikip|Disputes between A Man In Black and Ikip]] || align=left | F2.1 || align=left | Passed || 8 || 0 || 1 || 6 ||  || R || R || A || S ||  ||  || N || S || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  ||  ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black’s block of Ikip|A Man In Black’s block of Ikip]] || align=left | F3 || align=left | Failed* || 7 || 0 || 2 || 5 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || A || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black~s block of Ikip|A Man In Black~s block of Ikip]] || align=left | F3 || align=left | Failed* || 7 || 0 || 2 || 5 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || A || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black’s block of Ikip|A Man In Black’s block of Ikip]] || align=left | F3.1 || align=left | Passed || 8 || 1 || 1 || 6 ||  || R || R || A || S ||  || S || N || O || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  || 0 ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black~s block of Ikip|A Man In Black~s block of Ikip]] || align=left | F3.1 || align=left | Passed || 8 || 1 || 1 || 6 ||  || R || R || A || S ||  || S || N || O || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  || 0 ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man in Black's blocks of Jtrainor and MalikCarr|A Man in Black's blocks of Jtrainor and MalikCarr]] || align=left | F3A || align=left | Passed || 8 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R ||  ||  || N || S1 || S || S ||  ||  ||  || 4 || 0 ||  || 0 ||  || 0 ||  || 4 ||  ||  ||  ||  || 0 || 2 || 1
 |-
