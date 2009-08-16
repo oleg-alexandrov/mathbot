@@ -390,6 +390,10 @@ sub proc_proposals_description {
 
   my $text = shift;
 
+  # Tag
+  print "Fix temp hack!!!\n";
+  $text =~ s/Jay/Joh/g;
+  
   # colspan artifact, break a cell with colspan into two sells
   $text =~ s/\!\s*colspan\s*=\s*2\s*\|\s*/\! alignInfoDummy \| DummyCell \|\| /g;
 
@@ -643,14 +647,18 @@ sub compute_proposals_stats {
   
   my $row = "";
   $e = $total - $count{"N"};
-  $i = $count{"I"};
-  $s = $count{"S"};
-  $row  =  "$e $i $s\n";
+  $i = $count{"I"};              $ip   = percentage( $i,  $e       ); 
+  $r = $count{"R"};              $rp   = percentage( $r,  $e-$i    );
+  $v = $count{"S"}+$count{"O"};  $vp   = percentage( $v,  $e-$i-$r );
+  $s = $count{"S"}+$count{"S1"}; $sp   = percentage( $s,  $v        );
+  $o = $count{"O"};              $op   = percentage( $o,  $v        );
+
+  $row  =  "$e $i $ip $r $rp $v $vp $s $sp $o $op\n";
   
   $row  =~ s/ / \|\| /g;
   $row .=  "|-\n";     # prepare for new row
 
-  print "$arb $total $row\n";
+  print "$arb $total $row";
   
   return $row;
 }
