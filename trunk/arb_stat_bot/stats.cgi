@@ -9,6 +9,8 @@ use lib '/home/mathbot/public_html/cgi-bin/wp/modules';
 use lib '../wp/modules'; 
 require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
 
+my $uniqueTag = "_2nd"; # Make a row with "Z", "Z", into "Z", "Z_2nd", for unqueness.
+
 MAIN: {
 
   my ($sleep, $attempts, $text, $file, $local_file_in, $local_file_out);
@@ -17,7 +19,10 @@ MAIN: {
   print "Content-type: text/html\n\n"; # first line to print in a cgi script
   $| = 1; # flush the buffer each line
 
-  $use_local = 0; # if non-zero, read/write on disk, else submit to Wikipedia
+  # If this function called with no arguments, read from and submit to
+  # Wikipedia. Else, read from/write to write on disk. The second
+  # option is useful for debugging purposes.
+  $use_local = scalar(@ARGV); 
   $local_file_in = "Statistics_2009.txt";
 
   if (!$use_local){
@@ -71,9 +76,8 @@ sub gen_all_stats{
   $text = gen_cases_stats($text, $years, $arbs_list, $arbs_votes);
 
   # Section 4: the proposals stats
-  # Tag1
-  #$arbs_votes = ["A", "R", "I", "N", "O", "S", "S1", ""]; # How arbitrators can vote
-  #$text = gen_proposals_stats($text, $years, $arbs_list, $arbs_votes);
+  $arbs_votes = ["A", "R", "I", "N", "O", "S", "S1", ""]; # How arbitrators can vote
+  $text = gen_proposals_stats($text, $years, $arbs_list, $arbs_votes);
 
   return $text;
 }
@@ -390,16 +394,15 @@ sub proc_proposals_description {
 
   my $text = shift;
 
-  # Tag
-  print "Fix temp hack!!!\n";
-  $text =~ s/Jay/Joh/g;
-  
   # colspan artifact, break a cell with colspan into two sells
   $text =~ s/\!\s*colspan\s*=\s*2\s*\|\s*/\! alignInfoDummy \| DummyCell \|\| /g;
 
-  # The same entry shows up twice, append 'x' to the second one to
-  # make all entries unique.
-  while ($text =~ s/\b(\w+)\b(.*?)\b(\1)\b/$1 . $2 . $3 . "x"/eg) {}
+  # The tag shows twice in a column. This makes it impossible to
+  # identify the column by the tag. To fix that, append a suffix to
+  # the second occurence of a tag, to make each tag unque. Later, wen
+  # doing statistics, we'll need the information in the second
+  # occurence of the tag.
+  while ($text =~ s/\b(\w+)\b(.*?)\b(\1)\b/$1 . $2 . $3 . $uniqueTag/eg) {}
   
   return $text;
 }
@@ -465,7 +468,7 @@ sub compute_requests_summary {
   my $num_req    = scalar ( @$requests );
 
   my $days       = $table->{"Days"};
-  my $average    = find_array_average(@$days);
+  my $average    = find_average(@$days);
   $average       = round_ndigits($average, 1);
 
   # Count how things were disposed
@@ -632,7 +635,6 @@ sub compute_cases_stats {
 
 sub compute_proposals_stats {
 
-  # Tag2
   my $arb        = shift; # person whose votes to count
   my $arbs_votes = shift; # types of votes to count
   my $table      = shift; # table of votes to count
@@ -643,24 +645,41 @@ sub compute_proposals_stats {
                           );
   
   my ($e, $i, $ip, $r, $rp, $v, $vp, $dn, $dnp, $a, $ap, $s, $sp,
-      $o, $op);
+      $fs, $fsp, $o, $op, $at, $mt);
   
   my $row = "";
-  $e = $total - $count{"N"};
-  $i = $count{"I"};              $ip   = percentage( $i,  $e       ); 
-  $r = $count{"R"};              $rp   = percentage( $r,  $e-$i    );
-  $v = $count{"S"}+$count{"O"};  $vp   = percentage( $v,  $e-$i-$r );
-  $s = $count{"S"}+$count{"S1"}; $sp   = percentage( $s,  $v        );
-  $o = $count{"O"};              $op   = percentage( $o,  $v        );
+  $e  = $total - $count{"N"};
+  $i  = $count{"I"};                           $ip   = percentage( $i,  $e       ); 
+  $r  = $count{"R"};                           $rp   = percentage( $r,  $e-$i    );
+  $v  = $count{"S"}+$count{"S1"}+$count{"O"};  $vp   = percentage( $v,  $e-$i-$r );
+  $a  = $count{"A"};                           $ap   = percentage( $a,  $e-$i-$r );
+  $dn = $count{""};                            $dnp  = percentage( $dn, $e-$i-$r );
+  $s  = $count{"S"}+$count{"S1"};              $sp   = percentage( $s,  $v       );
+  $fs = $count{"S1"};                          $fsp  = percentage( $fs, $e       );
+  $o  = $count{"O"};                           $op   = percentage( $o,  $v       );
 
-  $row  =  "$e $i $ip $r $rp $v $vp $s $sp $o $op\n";
+  my $arb2 = $arb . $uniqueTag; # access some other stats for this arb
+  my $col = $table->{$arb2};
+
+  $at = avg_of_nonempty_entries($col);
+  $at = round_ndigits($at, 1);
+  $at = add_dot0($at);
   
-  $row  =~ s/ / \|\| /g;
+  $mt = median_of_nonempty_vals($col);
+  $mt = round_ndigits($mt, 1);
+  $mt = add_dot0($mt);
+  
+  my @vals = ($e, $i, $ip, $r, $rp, $v, $vp, $a, $ap, $dn, $dnp,
+              $s, $sp, $o, $op, $fs, $fsp, $at, $mt); 
+
+  $row  =  join (' || ', @vals) . "\n";
   $row .=  "|-\n";     # prepare for new row
 
-  print "$arb $total $row";
-  
+  # Tag2
+  #print "$arb $row";
+
   return $row;
+
 }
 
 sub compute_motions_summary{
@@ -675,7 +694,7 @@ sub compute_motions_summary{
   my $nMotions    = scalar(@$motions);
 
   my $days        = $table->{"Days"};
-  my $average     = find_array_average(@$days);
+  my $average     = find_average(@$days);
   $average        = round_ndigits($average, 1);
 
   my %disp_count;
@@ -711,7 +730,7 @@ sub compute_cases_summary{
   my $nCases    = scalar(@$cases);
 
   my $days        = $table->{"Days Open"};
-  my $average     = find_array_average(@$days);
+  my $average     = find_average(@$days);
   $average        = round_ndigits($average, 1);
 
   my $summary =
@@ -989,7 +1008,7 @@ sub put_text_between_tags {
   return $text;
 }
 
-sub find_array_average{
+sub find_average{
 
   my $sum   = 0;
   my $count = 0;
@@ -1008,12 +1027,34 @@ sub find_array_average{
   return $sum/$count;
 }
 
+sub find_median{
+
+  my $array = shift;
+  my $len = scalar(@$array);
+
+  if ($len <= 0){
+    print "Cannot find the median of an empty set of values\n";;
+    return 0;
+  }
+
+  my $sorted = [ sort {$a <=> $b} @$array ];
+
+  my ($l, $r);
+  
+  $l = int( ($len-1)/2.0 );
+  $l = 0 if ($l <= 0);
+  
+  $r = int( ($len-0)/2.0 );
+
+  return ($sorted->[$l] + $sorted->[$r] )/2.0;
+}
+
 sub percentage {
 
   my $val   = shift;
   my $outOf = shift;
 
-  return "" if ($outOf == 0);
+  return "" if ( $val =~ /^\s*$/ || $outOf == 0 );
   
   return (round_ndigits(100*$val/$outOf, 0)) . "%";
 }
@@ -1023,6 +1064,10 @@ sub round_ndigits {
   my $val = shift;
   my $n   = shift;
 
+  if ($val =~ /^\s*$/){
+    return "";
+  }
+  
   my $power = 1;
   my $i;
   for ($i = 0 ; $i < $n ; $i++){
@@ -1030,6 +1075,66 @@ sub round_ndigits {
   }
 
   $val = int($val*$power + 0.5)/$power;
+
+  return $val;
+}
+
+sub find_nonempty_vals{
+
+  my $array = shift;
+
+  my $valid = [];
+
+  foreach my $val (@$array){
+    
+    my $copy = $val; # to avoid modifying the original array
+    $copy =~ s/^\s*//g;
+    $copy =~ s/\s*$//g;
+    next if ($copy =~ /^\s*$/);
+    push (@$valid, $copy);
+    
+  }
+  
+  return $valid;
+}
+
+sub avg_of_nonempty_entries{
+
+  # Given a set of values, ignore those which are empty spaces
+  # and find the average of the remaining ones.
+  
+  my $array = shift;
+
+  my $valid = find_nonempty_vals($array);
+  
+  if (scalar(@$valid) == 0){
+    return "";
+  }
+
+  return find_average(@$valid);
+}
+
+sub median_of_nonempty_vals {
+
+  my $array = shift;
+
+  my $valid = find_nonempty_vals($array);
+  
+  if ( scalar(@$valid) == 0 ){
+    return "";
+  }
+
+  return find_median ($valid);
+}
+
+sub add_dot0{
+
+  # Make 6 into 6.0
+  
+  my $val = shift;
+  if ($val =~ /^\d+$/){
+    $val = $val . ".0";
+  }
 
   return $val;
 }
