@@ -224,6 +224,11 @@ sub gen_motions_stats{
 
   my $table_text = get_text_between_tags($text, $beg_table_tag,
                                          $end_table_tag);
+
+  # This table has a funny entry of "Failed*" where it should be "Failed".
+  # That confuses the bot.
+  $table_text =~ s/Failed\*/Failed/g;
+  
   my $table = parse_wiki_table($table_text);
 
   my $offeredCol = $table->{"Offered"};
@@ -810,10 +815,25 @@ sub count_values{
   my $names = shift; # input
   
   my $count = shift; # output
-  my $total = 0;     # output 
   %$count = ();
+
+  my %names_hash;
+  my $all_names = "";
+  foreach my $name (@$names){
+    $names_hash{$name} = 1;
+    $all_names .= ' \'' . $name . '\'';
+  }
+
+  # We expect all the elements to be from @$names
+  my $err_flag = 0;
   
   foreach my $val (@$vals){
+
+    if (!exists $names_hash{$val}){
+      print "<br><font color=red>Error: found element '$val' "
+         .  "where we expected values from among $all_names</font><br>\n";
+      $err_flag = 1;
+    }
 
     if (exists $count->{$val}){
       $count->{$val}++;
@@ -824,6 +844,7 @@ sub count_values{
 
   }
   
+  my $total = 0;     # output 
   foreach my $name (@$names){
 
     if (!exists $count->{$name} ){
@@ -833,7 +854,20 @@ sub count_values{
     $total += $count->{$name};     # output
   }
 
+  # A sanity check: unless there was an error
+  # the total number of counted elements must
+  # equal the total number of elements
+  if (!$err_flag && $total != scalar(@$vals)){
+    print "<font color=red>Error: Could not count some elements properly.\n";
+    exit(0);
+  }
+  
+  if ($err_flag){
+    return 0; # Mark that we encountered unexpected elements
+  }
+  
   return $total;
+
 }
 
 sub merge_tables {
