@@ -44,7 +44,11 @@ MAIN: {
     
     $edit_summary = "Bot update";
     wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
-    
+
+    print '<br>Done updating ' .
+       '<a href=\"http://en.wikipedia.org/wiki/' .
+          'Wikipedia:Requests_for_arbitration/Statistics_2009\">' .
+             'Wikipedia:Requests for arbitration/Statistics 2009</a>\n"';
   }else{
     
     $local_file_out = "Statistics_2009_proc.txt";
