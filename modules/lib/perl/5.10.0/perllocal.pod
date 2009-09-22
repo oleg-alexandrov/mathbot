@@ -1,0 +1,66 @@
+=head2 Tue Sep 22 03:43:43 2009: C<Module> L<JSON|JSON>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mathbot/public_html/wp/modules/share/perl/5.10.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.15>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Sep 22 03:43:53 2009: C<Module> L<HTML::Parser|HTML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mathbot/public_html/wp/modules/share/perl/5.10.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.62>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Sep 22 04:04:34 2009: C<Module> L<MediaWiki::API|MediaWiki::API>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mathbot/public_html/wp/modules/share/perl/5.10.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.28>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
