@@ -6,7 +6,8 @@
 #18 15 * * * ~/public_html/wp/mathlists/redlinks/most_linked_not_rated.pl > ~/public_html/wp/mathlists/red_out.txt  2>&1&
 #05,20,35,50 * * * * nohup nice -19 ~/public_html/wp/rfa/edit_summary.pl > ~/public_html/wp/rfa/Log.txt 2>&1&
 
-01 16 * * * nohup nice -19 ~/public_html/wp/afd/afd.cgi > ~/public_html/wp/afd/Log.txt 2>&1&
+01 00 * * * nohup nice -19 ~/public_html/wp/afd/afd.cgi > ~/public_html/wp/afd/Log.txt 2>&1&
 20 11 * * * nohup nice -19 ~/public_html/wp/mathlists/batch_update_lists.sh > ~/public_html/wp/mathlists/output.txt 2>&1 &
 59 21 * * * nohup nice -19 ~/public_html/wp/mathlists/recent.pl > ~/public_html/wp/mathlists/recent_output.txt 2>&1 &
+
 

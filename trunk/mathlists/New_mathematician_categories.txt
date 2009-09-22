@@ -1,21 +1,31 @@
 Category:American cryptographers
 Category:American logicians
+Category:Euclid
 Category:Pythagoreans
 Category:Brahmagupta
+Category:5th-century mathematicians
+Category:Australian cryptographers
 Category:Australian logicians
+Category:Mathematicians from Melbourne
+Category:Austrian cryptographers
 Category:Austrian logicians
 Category:Belgian logicians
 Category:Brazilian logicians
 Category:Presidents of the Associação Brasileira de Estatística
 Category:British cryptographers
 Category:British logicians
+Category:Members of HM Government Statistical Service
 Category:Presidents of the Royal Statistical Society
 Category:Presidents of the Statistical Society of Canada
 Category:Chinese logicians
 Category:Combinatorial game theorists
 Category:Czech logicians
+Category:Dutch cryptographers
+Category:Dutch statisticians
 Category:Egyptian cryptographers
+Category:Cambridge mathematicians
 Category:English logicians
+Category:French cryptographers
 Category:French statisticians
 Category:Researchers in geometric algorithms
 Category:Carl Friedrich Gauss
@@ -24,15 +34,35 @@ Category:Greek logicians
 Category:Indian statisticians
 Category:Kerala school
 Category:Irish logicians
+Category:Israeli cryptographers
+Category:Italian cryptographers
 Category:Japanese logicians
+Category:Model theorists
+Category:Statistician stubs
 Category:Bourbaki
 Category:Calculating prodigies
 Category:Fictional mathematicians
 Category:Lists of mathematicians
 Category:Mathematical chairs
-Category:Second wranglers
+Category:Medieval mathematicians
+Category:Second Wranglers
 Category:Senior Wranglers
-Category:Senior wranglers
+Category:10th-century mathematicians
+Category:11th-century mathematicians
+Category:12th-century mathematicians
+Category:13th-century mathematicians
+Category:14th-century mathematicians
+Category:15th-century mathematicians
+Category:16th-century mathematicians
+Category:17th-century mathematicians
+Category:18th-century mathematicians
+Category:19th-century mathematicians
+Category:20th-century mathematicians
+Category:21st-century mathematicians
+Category:6th-century mathematicians
+Category:7th-century mathematicians
+Category:8th-century mathematicians
+Category:9th-century mathematicians
 Category:Actuaries
 Category:Bioinformaticists
 Category:Biostatisticians
@@ -44,18 +74,25 @@ Category:Logicians
 Category:Mathematical ecologists
 Category:Mathematical physicists
 Category:Queueing theorists
-Category:Bosnia and Herzegovina mathematicians
-Category:Cameroonian mathematicians
+Category:Colombian mathematicians
 Category:Cryptographers by nationality
+Category:Cuban mathematicians
+Category:Icelandic mathematicians
 Category:Logicians by nationality
+Category:Pakistani mathematicians
+Category:Soviet mathematicians
 Category:Geometry educators
-Category:New Zealand statisticians
 Category:Niels Henrik Abel
+Category:Norwegian demographers
 Category:People associated with the finite element method
 Category:Polish cryptographers
 Category:Polish logicians
+Category:Polish mathematicians of Jewish descent
+Category:Russian cryptographers
 Category:Russian logicians
 Category:Demographers
 Category:Fellows of the American Statistical Association
 Category:Presidents of statistical organizations
+Category:Brazilian statisticians
 Category:Irish statisticians
+Category:Pakistani statisticians
