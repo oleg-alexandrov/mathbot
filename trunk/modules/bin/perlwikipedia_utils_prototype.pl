@@ -4,21 +4,23 @@
 use strict;                   # 'strict' insists that all variables be declared
 use diagnostics;              # 'diagnostics' expands the cryptic warnings
 use Carp qw(croak carp confess);
-use Perlwikipedia; #Note that the 'p' is capitalized, due to Perl style
+use MediaWiki::Bot;
+#use Perlwikipedia; #Note that the 'p' is capitalized, due to Perl style
 require  'bin/language_definitions.pl';
 
 sub wikipedia_login {
 
-  my $bot_name = shift || 'DefaultBot'; # User DefaultBot is no bot name is given
-  my $pass = 'DefaultPassword';
+  my $bot_name = shift || 'Mathbot'; # User Mathbot is no bot name is given
+  my $pass = 'botx';
   
   my %Dictionary = &language_definitions(); # see the language_definitions.pl module
   my $Lang = $Dictionary{'Lang'};
   my $wiki_http='http://' . $Lang . '.wikipedia.org';
   
   # Initiate agent
-  my $editor=Perlwikipedia->new($bot_name);
-  
+  #my $editor=Perlwikipedia->new($bot_name);
+  my $editor=MediaWiki::Bot->new($bot_name); 
+
   # turn debugging on, to see what is going on
   $editor->{debug} = 1;
 
