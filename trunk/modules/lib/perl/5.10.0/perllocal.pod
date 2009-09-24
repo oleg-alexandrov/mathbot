@@ -64,3 +64,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Thu Sep 24 18:53:54 2009: C<Module> L<MediaWiki::Bot|MediaWiki::Bot>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mathbot/public_html/wp/modules/share/perl/5.10.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.3.1>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
