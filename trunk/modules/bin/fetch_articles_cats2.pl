@@ -1,4 +1,4 @@
-require Mediawiki::API;
+require MediaWiki::API;
 use HTML::Entities;
 
 require 'bin/language_definitions.pl';
