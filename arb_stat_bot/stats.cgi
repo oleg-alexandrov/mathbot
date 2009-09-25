@@ -35,6 +35,7 @@ MAIN: {
     open(FILE, ">$local_file_in"); print FILE $text; close(FILE);
 
   }else{
+    print "Reading from $local_file_in\n";
     open(FILE, "<$local_file_in"); $text = <FILE>; close(FILE); # local copy
   }
   
@@ -52,6 +53,7 @@ MAIN: {
   }else{
     
     $local_file_out = "Statistics_2009_proc.txt";
+    print "Writing to $local_file_out\n";
     open(FILE, ">$local_file_out"); print FILE $text . "\n"; close(FILE);
 
   }
