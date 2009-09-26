@@ -10,7 +10,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 
 ===Case requests===
 <!-- begin case requests summary all -->
-* Requests: 76; average duration: 5.2 days; accepted: 21 (28%); declined: 44 (58%); disposed by motion: 6 (8%); withdrawn: 5 (7%).
+* Requests: 85; average duration: 5.3 days; accepted: 23 (27%); declined: 50 (59%); disposed by motion: 6 (7%); withdrawn: 6 (7%).
 <!-- end case requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -19,6 +19,24 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 |-
 <!-- begin case requests table 2009 only -->
 ! Request !! Opened !! Closed !! Days !! Disp !! A !! D !! R !! C !! I !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=315607400#Dr90s_BLP-POV_violations.2C_incivility.2C_sockpuppetry Dr90s BLP-POV violations, incivility, sockpuppetry] || 20:30, 17-Sep-2009 || 11:56, 23-Sep-2009 || 6 || Declined || 0 || 7 || 0 || 0 || 3 || D || D ||  ||  ||  || D || N || I || N || D || I || D || D || N ||  || D || I
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=314135823#Asmahan Asmahan] || 19:13, 8-Sep-2009 || 18:29, 16-Sep-2009 || 8 || [[Wikipedia:Arbitration/Requests/Case/Asmahan|Accepted]] || 7 || 0 || 0 || 0 || 3 || A || A ||  ||  || A || I || N || I || N || A || I || A ||  || N ||  || A || A
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=313721249#Scope_of_NLT Scope of NLT] || 11:08, 1-Sep-2009 || 02:58, 14-Sep-2009 || 13 || Declined || 0 || 5 || 0 || 3 || 3 || C || D ||  || C || C || I || N || I || N || D || I || D ||  || N ||  || D || D
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=313721197#Pigsonthewing_3 Pigsonthewing 3] || 05:05, 6-Sep-2009 || 02:57, 14-Sep-2009 || 8 || Declined || 0 || 6 || 0 || 2 || 3 || C || D ||  || D || D || I || N || I || N || D || I || C ||  || N ||  || D || D
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=313714588#Discussion_page_protocols Discussion page protocols] || 15:54, 4-Sep-2009 || 02:57, 14-Sep-2009 || 9 || Declined || 0 || 5 || 0 || 1 || 3 || D || C ||  ||  ||  || I || N || I || N || D || I || D ||  || N ||  || D || D
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=312701083#Speed_of_light Speed of light] || 14:27, 6-Sep-2009 || 02:54, 9-Sep-2009 || 3 || [[Wikipedia:Arbitration/Requests/Case/Speed of light|Accepted]] || 9 || 0 || 0 || 0 || 3 || A || A || A ||  || A || I || N || I || N || A || I || A || A || N ||  || A || A
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=311718754#Catholic_Church_and_Renaming Catholic Church and Renaming] || 01:01, 31-Aug-2009 || 22:10, 3-Sep-2009 || 4 || Withdrawn || 0 || 2 || 1 || 2 || 3 || C ||  ||  ||  || D || I || N || I || N || C || I || D ||  || N ||  || R || 
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=311175405#Arbitration_Request_by_Logos5557 Arbitration Request by Logos5557] || 09:32, 27-Aug-2009 || 01:41, 1-Sep-2009 || 5 || Declined || 0 || 9 || 1 || 0 || 2 || D || D || D || D ||  || I || N || I || N || D || D || D || D || N ||  || R || D
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=310205825#Seha Seha] || 09:32, 23-Aug-2009 || 18:35, 26-Aug-2009 || 3 || Declined || 0 || 5 || 0 || 0 || 5 || D || D || I || I ||  || I || N || I || N || D || D ||  ||  || N ||  || I || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=309634174#User:Noloop User:Noloop] || 18:57, 14-Aug-2009 || 18:18, 23-Aug-2009 || 9 || [[Wikipedia:Arbitration/Requests/Case/Noloop|Accepted]] || 7 || 2 || 0 || 0 || 1 || A || A ||  || A ||  || D || N ||  || N || A || A || D || A || N ||  || I || A
 |-
@@ -161,7 +179,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 <!-- end case requests table 2009 only -->
 | align="center" colspan=27  |
 <!-- begin case requests summary 2009 only -->
-Requests: 69; average duration: 5 days; accepted: 19 (28%); declined: 40 (58%); disposed by motion: 5 (7%); withdrawn: 5 (7%)
+Requests: 78; average duration: 5.2 days; accepted: 21 (27%); declined: 46 (59%); disposed by motion: 5 (6%); withdrawn: 6 (8%)
 <!-- end case requests summary 2009 only -->
 |}
 
@@ -195,7 +213,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 
 ===Clarifications and other requests===
 <!-- begin clarification requests summary all -->
-* Requests: 82; average duration: 13.3 days; declined: 26 (32%); disposed by clarification: 37 (45%); disposed by motion: 18 (22%); withdrawn: 1 (1%).
+* Requests: 89; average duration: 13.6 days; declined: 28 (31%); disposed by clarification: 41 (46%); disposed by motion: 19 (21%); withdrawn: 1 (1%).
 <!-- end clarification requests summary all -->
 
 ====Involving 2009 arbs only====
@@ -204,6 +222,20 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 |-
 <!-- begin clarification requests table 2009 only -->
 ! Request !! Opened !! Closed !! Days !! Disp !! R !! C !! I !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=312596142#Request_to_amend_prior_case:_Wikipedia:Requests_for_arbitration.2FRyulong_.283.29 Amend] : ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 02:00, 7-Sep-2009 || 00:42, 9-Sep-2009 || 2 || Declined || 0 || 0 || 4 ||  ||  ||  ||  ||  || I || N || I || N ||  || I ||  ||  || N ||  ||  || I
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=311389139#Request_for_clarification:_Wikipedia:Requests_for_arbitration.2FFalun_Gong.23Article_probation Clarify "Article probation"] : ''[[Wikipedia:Requests for arbitration/Falun Gong|Falun Gong]]'' || 16:54, 24-Aug-2009 || 01:31, 8-Sep-2009 || 14 || Clarification || 0 || 2 || 4 || C ||  ||  ||  ||  || I || N || I || N || C || I ||  ||  || N ||  ||  || I
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=311217023#Request_for_clarification:_Wikipedia:Requests_for_arbitration.2FObama_articles_.282.29 Clarify] : ''[[Wikipedia:Requests for arbitration/Obama articles|Obama articles]]'' || 20:07, 5-Aug-2009 || 01:42, 2-Sep-2009 || 27 || Clarification || 0 || 6 || 1 || C ||  ||  ||  || C || C || N || I || N || C || C ||  ||  || N ||  ||  || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=309695106#Request_to_amend_prior_case:_Falun_Gong Amend] : ''[[Wikipedia:Requests for arbitration/Falun Gong|Falun Gong]]'' || 18:32, 10-Aug-2009 || 01:31, 2-Sep-2009 || 22 || Declined || 0 || 6 || 1 || C || C ||  || C ||  || C || N || I || N ||  || C ||  ||  || N ||  ||  || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=310649307#Request_for_clarification:_Wikipedia:Requests_for_arbitration.2FObama_articles_.283.29 Clarify] : ''[[Wikipedia:Requests for arbitration/Obama articles|Obama articles]]'' || 05:00, 7-Aug-2009 || 12:40, 29-Aug-2009 || 22 || Motion || 0 || 3 || 3 || C || C ||  || I ||  || I || N || I || N ||  ||  ||  ||  || N ||  ||  || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=310647544#Request_for_clarification:_Ryulong_.284.29 Clarify] : ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 03:55, 6-Aug-2009 || 02:28, 29-Aug-2009 || 23 || Clarification || 2 || 4 || 3 || C || C ||  || I || C || I || N || I || N || R || R ||  ||  || N ||  ||  || C
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=310585615#Request_for_clarification:_Wikipedia:Requests_for_arbitration.2FRyulong_.285.29 Clarify] : ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 19:27, 18-Aug-2009 || 02:13, 29-Aug-2009 || 10 || Clarification || 1 || 7 || 2 || C || C ||  || I || C || C || N || I || N || R || C || C ||  || N ||  ||  || C
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=308584789#Request_for_clarification:_Wikipedia:Requests_for_arbitration.2FScientology Clarify ] : ''[[Wikipedia:Requests for arbitration/Scientology|Scientology]]'' || 13:39, 25-Jul-2009 || 00:46, 18-Aug-2009 || 23 || Clarification || 0 || 10 || 1 || C || C || C || C || C || C || N || C || N || C || C || C ||  || N ||  || I || 
 |-
@@ -362,7 +394,7 @@ Requests: 7; average duration: 6.4 days; accepted: 2 (29%); declined: 4 (57%); d
 <!-- end clarification requests table 2009 only -->
 | align="center" colspan=25 |
 <!-- begin clarification requests summary 2009 only -->
-Requests: 77; average duration: 13.7 days; declined: 24 (31%); disposed by clarification: 36 (47%); disposed by motion: 16 (21%); withdrawn: 1 (1%)
+Requests: 84; average duration: 14 days; declined: 26 (31%); disposed by clarification: 40 (48%); disposed by motion: 17 (20%); withdrawn: 1 (1%)
 <!-- end clarification requests summary 2009 only -->
 |}
 
@@ -440,39 +472,39 @@ YellowMonkey                Yel
 ! Arb || ER || I || % || R || % || V || % || DNA || % || A || % || D || % || ER || I || % || R || % || C || % || DNA || % || ER || I || % || R || % || DNA || %
 |-
 <!-- begin requests stats 2009 only -->
-| align="left" | Carcharoth || 76 || 10 || 13% || 7 || 11% || 47 || 80% || 6 || 10% || 14 || 30% || 33 || 70% || 82 || 19 || 23% || 3 || 5% || 42 || 70% || 18 || 30% || 158 || 29 || 18% || 10 || 8% || 24 || 20%
+| align="left" | Carcharoth || 85 || 10 || 12% || 7 || 9% || 53 || 78% || 6 || 9% || 16 || 30% || 37 || 70% || 89 || 19 || 21% || 3 || 4% || 48 || 72% || 19 || 28% || 174 || 29 || 17% || 10 || 7% || 25 || 19%
 |-
-| align="left" | Casliber || 76 || 0 || 0% || 5 || 7% || 58 || 82% || 10 || 14% || 18 || 31% || 40 || 69% || 82 || 0 || 0% || 2 || 2% || 23 || 29% || 57 || 71% || 158 || 0 || 0% || 7 || 4% || 67 || 44%
+| align="left" | Casliber || 85 || 0 || 0% || 5 || 6% || 65 || 81% || 11 || 14% || 20 || 31% || 45 || 69% || 89 || 0 || 0% || 2 || 2% || 27 || 31% || 60 || 69% || 174 || 0 || 0% || 7 || 4% || 71 || 43%
 |-
-| align="left" | Cool Hand Luke || 76 || 5 || 7% || 5 || 7% || 19 || 29% || 47 || 71% || 7 || 37% || 12 || 63% || 82 || 10 || 12% || 1 || 1% || 13 || 18% || 58 || 82% || 158 || 15 || 9% || 6 || 4% || 105 || 77%
+| align="left" | Cool Hand Luke || 85 || 6 || 7% || 5 || 6% || 21 || 28% || 53 || 72% || 8 || 38% || 13 || 62% || 89 || 10 || 11% || 1 || 1% || 13 || 17% || 65 || 83% || 174 || 16 || 9% || 6 || 4% || 118 || 78%
 |-
-| align="left" | Coren || 75 || 0 || 0% || 2 || 3% || 43 || 59% || 26 || 36% || 24 || 56% || 19 || 44% || 80 || 0 || 0% || 0 || 0% || 41 || 51% || 39 || 49% || 155 || 0 || 0% || 2 || 1% || 65 || 42%
+| align="left" | Coren || 84 || 1 || 1% || 2 || 2% || 45 || 56% || 31 || 38% || 24 || 53% || 21 || 47% || 87 || 3 || 3% || 0 || 0% || 42 || 50% || 42 || 50% || 171 || 4 || 2% || 2 || 1% || 73 || 44%
 |-
-| align="left" | FayssalF || 76 || 1 || 1% || 4 || 5% || 32 || 45% || 34 || 48% || 13 || 41% || 19 || 59% || 82 || 0 || 0% || 0 || 0% || 11 || 13% || 71 || 87% || 158 || 1 || 1% || 4 || 3% || 105 || 69%
+| align="left" | FayssalF || 85 || 1 || 1% || 4 || 5% || 36 || 45% || 38 || 48% || 15 || 42% || 21 || 58% || 89 || 0 || 0% || 0 || 0% || 14 || 16% || 75 || 84% || 174 || 1 || 1% || 4 || 2% || 113 || 67%
 |-
-| align="left" | FloNight || 76 || 0 || 0% || 2 || 3% || 58 || 78% || 13 || 18% || 20 || 34% || 38 || 66% || 82 || 0 || 0% || 2 || 2% || 41 || 51% || 39 || 49% || 158 || 0 || 0% || 4 || 3% || 52 || 34%
+| align="left" | FloNight || 85 || 8 || 9% || 2 || 3% || 59 || 79% || 13 || 17% || 20 || 34% || 39 || 66% || 89 || 4 || 4% || 2 || 2% || 44 || 53% || 39 || 47% || 174 || 12 || 7% || 4 || 2% || 52 || 33%
 |-
 | align="left" | FT2 || 10 || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||  || 0 ||  || 12 || 0 || 0% || 0 || 0% || 3 || 25% || 9 || 75% || 22 || 0 || 0% || 0 || 0% || 19 || 86%
 |-
-| align="left" | John Vandenberg || 76 || 0 || 0% || 7 || 9% || 53 || 77% || 11 || 16% || 15 || 28% || 38 || 72% || 82 || 0 || 0% || 7 || 9% || 31 || 41% || 44 || 59% || 158 || 0 || 0% || 14 || 9% || 55 || 38%
+| align="left" | John Vandenberg || 85 || 9 || 11% || 7 || 9% || 53 || 77% || 11 || 16% || 15 || 28% || 38 || 72% || 89 || 7 || 8% || 7 || 9% || 31 || 41% || 44 || 59% || 174 || 16 || 9% || 14 || 9% || 55 || 38%
 |-
 | align="left" | Kirill Lokshin || 61 || 0 || 0% || 2 || 3% || 19 || 32% || 40 || 68% || 9 || 47% || 10 || 53% || 58 || 0 || 0% || 0 || 0% || 10 || 17% || 48 || 83% || 119 || 0 || 0% || 2 || 2% || 88 || 75%
 |-
-| align="left" | Newyorkbrad || 76 || 0 || 0% || 2 || 3% || 46 || 62% || 16 || 22% || 12 || 26% || 34 || 74% || 82 || 0 || 0% || 8 || 10% || 45 || 61% || 29 || 39% || 158 || 0 || 0% || 10 || 6% || 45 || 30%
+| align="left" | Newyorkbrad || 85 || 0 || 0% || 2 || 2% || 54 || 65% || 16 || 19% || 14 || 26% || 40 || 74% || 89 || 0 || 0% || 10 || 11% || 47 || 59% || 32 || 41% || 174 || 0 || 0% || 12 || 7% || 48 || 30%
 |-
-| align="left" | Risker || 76 || 2 || 3% || 5 || 7% || 40 || 58% || 22 || 32% || 10 || 25% || 30 || 75% || 82 || 0 || 0% || 6 || 7% || 29 || 38% || 47 || 62% || 158 || 2 || 1% || 11 || 7% || 69 || 48%
+| align="left" | Risker || 85 || 9 || 11% || 5 || 7% || 42 || 59% || 22 || 31% || 10 || 24% || 32 || 76% || 89 || 2 || 2% || 7 || 8% || 32 || 40% || 48 || 60% || 174 || 11 || 6% || 12 || 7% || 70 || 46%
 |-
-| align="left" | Rlevse || 74 || 0 || 0% || 2 || 3% || 54 || 75% || 18 || 25% || 23 || 43% || 31 || 57% || 80 || 0 || 0% || 1 || 1% || 34 || 43% || 45 || 57% || 154 || 0 || 0% || 3 || 2% || 63 || 42%
+| align="left" | Rlevse || 83 || 0 || 0% || 2 || 2% || 61 || 75% || 19 || 23% || 25 || 41% || 36 || 59% || 87 || 0 || 0% || 1 || 1% || 35 || 41% || 51 || 59% || 170 || 0 || 0% || 3 || 2% || 70 || 42%
 |-
-| align="left" | Roger Davies || 76 || 0 || 0% || 1 || 1% || 50 || 67% || 23 || 31% || 19 || 38% || 31 || 62% || 82 || 0 || 0% || 0 || 0% || 27 || 33% || 55 || 67% || 158 || 0 || 0% || 1 || 1% || 78 || 50%
+| align="left" | Roger Davies || 85 || 0 || 0% || 1 || 1% || 53 || 63% || 29 || 35% || 20 || 38% || 33 || 62% || 89 || 0 || 0% || 0 || 0% || 27 || 30% || 62 || 70% || 174 || 0 || 0% || 1 || 1% || 91 || 53%
 |-
 | align="left" | Sam Blacketer || 48 || 0 || 0% || 2 || 4% || 35 || 76% || 7 || 15% || 10 || 29% || 25 || 71% || 29 || 0 || 0% || 0 || 0% || 11 || 38% || 18 || 62% || 77 || 0 || 0% || 2 || 3% || 25 || 33%
 |-
-| align="left" | Stephen Bain || 76 || 0 || 0% || 1 || 1% || 17 || 23% || 57 || 76% || 8 || 47% || 9 || 53% || 82 || 0 || 0% || 0 || 0% || 15 || 18% || 67 || 82% || 158 || 0 || 0% || 1 || 1% || 124 || 79%
+| align="left" | Stephen Bain || 85 || 0 || 0% || 1 || 1% || 17 || 20% || 66 || 79% || 8 || 47% || 9 || 53% || 89 || 0 || 0% || 0 || 0% || 15 || 17% || 74 || 83% || 174 || 0 || 0% || 1 || 1% || 140 || 81%
 |-
-| align="left" | Vassyana || 76 || 13 || 17% || 6 || 10% || 43 || 75% || 10 || 18% || 8 || 19% || 35 || 81% || 82 || 18 || 22% || 7 || 11% || 43 || 75% || 14 || 25% || 158 || 31 || 20% || 13 || 10% || 24 || 21%
+| align="left" | Vassyana || 85 || 14 || 16% || 8 || 11% || 49 || 78% || 10 || 16% || 10 || 20% || 39 || 80% || 89 || 18 || 20% || 7 || 10% || 43 || 67% || 21 || 33% || 174 || 32 || 18% || 15 || 11% || 31 || 24%
 |-
-| align="left" | Wizardman || 76 || 1 || 1% || 0 || 0% || 68 || 91% || 5 || 7% || 26 || 38% || 42 || 62% || 82 || 5 || 6% || 1 || 1% || 29 || 38% || 47 || 62% || 158 || 6 || 4% || 1 || 1% || 52 || 34%
+| align="left" | Wizardman || 85 || 2 || 2% || 0 || 0% || 75 || 90% || 6 || 7% || 28 || 37% || 47 || 63% || 89 || 7 || 8% || 1 || 1% || 34 || 42% || 47 || 58% || 174 || 9 || 5% || 1 || 1% || 53 || 32%
 <!-- end requests stats 2009 only -->
 |-class="sortbottom"
 !
@@ -506,7 +538,7 @@ YellowMonkey                Yel
 ==Motions==
 *Legend: S=Support, O=Oppose, A=Abstain, Ac=Active arbs, R=Recuse, I=Inactive/away, M=Majority, N=Not eligible, Offered = the arb who posted the motion.
 <!-- begin motions summary all -->
-* Publicly offered motions: 65; average duration: 4.4 days; passed: 42 (65%); failed: 23 (35%).
+* Publicly offered motions: 69; average duration: 4.7 days; passed: 46 (67%); failed: 23 (33%).
 <!-- end motions summary all -->
 
 {| class="wikitable" style="text-align:center"
@@ -514,6 +546,14 @@ YellowMonkey                Yel
 |-
 <!-- begin motions table 2009 only -->
 ! Motion !! Per Request !! Opened !! Closed !! Days !! Disp !! S !! O !! A !! Ac !! R !! I !! M !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz !! Offered
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Motions&oldid=311736897#Motion_re_Locke_Cole Locke Cole remedy amended] ||  || 22:32, 20-Aug-2009 || 03:53, 8-Sep-2009 || 18 || Passed || 6 || 1 || 0 || 10 || 2 || 2 || 6 || R || R || S || S || S || I || N || I || N || S || S || O ||  || N ||  ||  || S || Ris
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=314622633#Eastern_European_mailing_list Eastern European mailing list] ||  || 22:03, 17-Sep-2009 || 23:59, 17-Sep-2009 || 0 || Passed || 7 || 0 || 0 || 12 || 0 || 2 || 7 ||  || S || S || S ||  || S || N || I || N || S ||  || S ||  || N ||  || S || I || New
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=312596142#Motion_1 Mythydon banned for six months] || Amend : ''Ryulong'' (3) || 04:07, 7-Sep-2009 || 00:42, 9-Sep-2009 || 2 || Passed || 7 || 0 || 0 || 11 || 0 || 3 || 6 || S || S ||  ||  || S || I || N || I || N ||  || I || S || S || N ||  || S || S || Wiz
+|-
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Clarification&oldid=310649307#Motion_1 ChildofMidnight topic ban modified] || Clarify : ''Obama articles'' (3) || 00:40, 14-Aug-2009 || 12:40, 29-Aug-2009 || 16 || Passed || 7 || 0 || 0 || 12 || 1 || 1 || 7 || S || S ||  || S ||  || S || N || I || N ||  || S || S || S || N ||  ||  || R || Car
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Amendment&oldid=308415042#Motion Remedies modified] || Amend : ''Date delinking'' || 15:15, 2-Aug-2009 || 03:51, 17-Aug-2009 || 15 || Passed || 6 || 1 || 1 || 11 || 2 || 1 || 6 || R || R ||  || S ||  || S || N || A || N || S || S || O || S || N ||  || I || S || New
 |-
@@ -669,46 +709,46 @@ The column headings, in table below, have the following meanings:
 ! Arb || EM || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || Offered || %
 |-
 <!-- begin motions stats 2009 only -->
-| align="left" | Carcharoth || 65 || 3 || 5% || 8 || 13% || 40 || 74% || 2 || 4% || 12 || 22% || 32 || 80% || 8 || 20% || 3 || 5%
+| align="left" | Carcharoth || 69 || 3 || 4% || 9 || 14% || 42 || 74% || 2 || 4% || 13 || 23% || 34 || 81% || 8 || 19% || 4 || 6%
 |-
-| align="left" | Casliber || 65 || 0 || 0% || 2 || 3% || 45 || 71% || 1 || 2% || 17 || 27% || 41 || 91% || 4 || 9% || 1 || 2%
+| align="left" | Casliber || 69 || 0 || 0% || 3 || 4% || 48 || 73% || 1 || 2% || 17 || 26% || 44 || 92% || 4 || 8% || 1 || 1%
 |-
-| align="left" | Cool Hand Luke || 65 || 19 || 29% || 6 || 13% || 11 || 28% || 1 || 3% || 28 || 70% || 10 || 91% || 1 || 9% || 0 || 0%
+| align="left" | Cool Hand Luke || 69 || 19 || 28% || 6 || 12% || 13 || 30% || 1 || 2% || 30 || 68% || 12 || 92% || 1 || 8% || 0 || 0%
 |-
-| align="left" | Coren || 65 || 0 || 0% || 0 || 0% || 46 || 71% || 2 || 3% || 17 || 26% || 41 || 89% || 5 || 11% || 7 || 11%
+| align="left" | Coren || 69 || 0 || 0% || 0 || 0% || 49 || 71% || 2 || 3% || 18 || 26% || 44 || 90% || 5 || 10% || 7 || 10%
 |-
-| align="left" | FayssalF || 65 || 0 || 0% || 1 || 2% || 35 || 55% || 2 || 3% || 27 || 42% || 27 || 77% || 8 || 23% || 4 || 6%
+| align="left" | FayssalF || 69 || 0 || 0% || 1 || 1% || 37 || 54% || 2 || 3% || 29 || 43% || 29 || 78% || 8 || 22% || 4 || 6%
 |-
-| align="left" | FloNight || 65 || 0 || 0% || 4 || 6% || 39 || 64% || 5 || 8% || 17 || 28% || 34 || 87% || 5 || 13% || 4 || 6%
+| align="left" | FloNight || 69 || 2 || 3% || 4 || 6% || 41 || 65% || 5 || 8% || 17 || 27% || 36 || 88% || 5 || 12% || 4 || 6%
 |-
 | align="left" | FT2 || 11 || 0 || 0% || 0 || 0% || 2 || 18% || 0 || 0% || 9 || 82% || 1 || 50% || 1 || 50% || 0 || 0%
 |-
-| align="left" | John Vandenberg || 65 || 0 || 0% || 9 || 14% || 41 || 73% || 5 || 9% || 10 || 18% || 32 || 78% || 9 || 22% || 6 || 9%
+| align="left" | John Vandenberg || 69 || 4 || 6% || 9 || 14% || 41 || 73% || 5 || 9% || 10 || 18% || 32 || 78% || 9 || 22% || 6 || 9%
 |-
 | align="left" | Kirill Lokshin || 43 || 0 || 0% || 0 || 0% || 22 || 51% || 0 || 0% || 21 || 49% || 17 || 77% || 5 || 23% || 2 || 3%
 |-
-| align="left" | Newyorkbrad || 65 || 0 || 0% || 10 || 15% || 30 || 55% || 9 || 16% || 16 || 29% || 22 || 73% || 8 || 27% || 6 || 9%
+| align="left" | Newyorkbrad || 69 || 0 || 0% || 10 || 14% || 32 || 54% || 9 || 15% || 18 || 31% || 24 || 75% || 8 || 25% || 7 || 10%
 |-
-| align="left" | Risker || 65 || 2 || 3% || 12 || 19% || 37 || 73% || 4 || 8% || 10 || 20% || 27 || 73% || 10 || 27% || 1 || 2%
+| align="left" | Risker || 69 || 3 || 4% || 12 || 18% || 39 || 72% || 4 || 7% || 11 || 20% || 29 || 74% || 10 || 26% || 2 || 3%
 |-
-| align="left" | Rlevse || 64 || 0 || 0% || 2 || 3% || 48 || 77% || 4 || 6% || 10 || 16% || 41 || 85% || 7 || 15% || 7 || 11%
+| align="left" | Rlevse || 68 || 0 || 0% || 2 || 3% || 52 || 79% || 4 || 6% || 10 || 15% || 44 || 85% || 8 || 15% || 7 || 10%
 |-
-| align="left" | Roger Davies || 65 || 0 || 0% || 0 || 0% || 48 || 74% || 1 || 2% || 16 || 25% || 43 || 90% || 5 || 10% || 8 || 12%
+| align="left" | Roger Davies || 69 || 0 || 0% || 0 || 0% || 50 || 72% || 1 || 1% || 18 || 26% || 45 || 90% || 5 || 10% || 8 || 12%
 |-
-| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 2%
+| align="left" | Sam Blacketer || 36 || 0 || 0% || 5 || 14% || 24 || 77% || 1 || 3% || 6 || 19% || 21 || 88% || 3 || 13% || 1 || 1%
 |-
-| align="left" | Stephen Bain || 65 || 0 || 0% || 0 || 0% || 24 || 37% || 2 || 3% || 39 || 60% || 13 || 54% || 11 || 46% || 5 || 8%
+| align="left" | Stephen Bain || 69 || 0 || 0% || 0 || 0% || 24 || 35% || 2 || 3% || 43 || 62% || 13 || 54% || 11 || 46% || 5 || 7%
 |-
-| align="left" | Vassyana || 65 || 18 || 28% || 5 || 11% || 29 || 69% || 2 || 5% || 11 || 26% || 24 || 83% || 5 || 17% || 7 || 11%
+| align="left" | Vassyana || 69 || 18 || 26% || 5 || 10% || 31 || 67% || 2 || 4% || 13 || 28% || 26 || 84% || 5 || 16% || 7 || 10%
 |-
-| align="left" | Wizardman || 65 || 2 || 3% || 0 || 0% || 50 || 79% || 0 || 0% || 13 || 21% || 40 || 80% || 10 || 20% || 3 || 5%
+| align="left" | Wizardman || 69 || 3 || 4% || 1 || 2% || 52 || 80% || 0 || 0% || 13 || 20% || 42 || 81% || 10 || 19% || 4 || 6%
 <!-- end motions stats 2009 only -->
 |}
 
 ==Cases==
 *Legend: Ac=Active, R=Recused, I=Inactive/away, M=Majority, N=Not eligible, Drafter = the poster of the first draft on the case's "Proposed decision" page.
 <!-- begin cases summary all -->
-* Publicly heard cases: 21; average duration: 58.9 days.
+* Publicly heard cases: 23; average duration: 57.5 days.
 <!-- end cases summary all -->
 
 === Involving 2009 arbs only ===
@@ -717,6 +757,10 @@ The column headings, in table below, have the following meanings:
 |-
 <!-- begin cases table 2009 only -->
 ! Case !! Opened !! Closed !! Days Open !! Ac !! R !! I !! M !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz || Drafter
+|-
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley|Abd-William M. Connolley]]'' || 15-Jul-2009 || 13-Sep-2009 || 60 || 10 || 2 || 2 || 6 ||  ||  || R ||  || R || I || N || I || N ||  ||  ||  ||  || N ||  ||  ||  || Ste
+|-
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/194x144x90x118|194x144x90x118]]'' || 14-Aug-2009 || 10-Sep-2009 || 26 || 12 || 0 || 2 || 7 ||  ||  ||  ||  ||  || I || N || I || N ||  ||  ||  ||  || N ||  ||  ||  || Wiz
 |-
 | align="left" | ''[[Wikipedia:Arbitration/Requests/Case/ADHD|ADHD]]'' || 21-May-2009 || 14-Jul-2009 || 53 || 12 || 2 || 1 || 7 ||  || R ||  || I ||  ||  || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || Ste
 |-
@@ -787,39 +831,39 @@ The column headings, in the two tables below, have the following meanings:
 ! Arb || EC || Inactive || % || Recused || % || Drafted || %
 |-
 <!-- begin cases stats 2009 only -->
-| align="left" | Carcharoth || 20 || 4 || 20% || 2 || 13% || 0 || 0%
+| align="left" | Carcharoth || 22 || 4 || 18% || 2 || 11% || 0 || 0%
 |-
-| align="left" | Casliber || 20 || 0 || 0% || 4 || 20% || 0 || 0%
+| align="left" | Casliber || 22 || 0 || 0% || 4 || 18% || 0 || 0%
 |-
-| align="left" | Cool Hand Luke || 20 || 0 || 0% || 3 || 15% || 1 || 5%
+| align="left" | Cool Hand Luke || 22 || 0 || 0% || 4 || 18% || 1 || 4%
 |-
-| align="left" | Coren || 21 || 4 || 19% || 1 || 6% || 1 || 5%
+| align="left" | Coren || 23 || 4 || 17% || 1 || 5% || 1 || 4%
 |-
-| align="left" | FayssalF || 21 || 0 || 0% || 3 || 14% || 1 || 5%
+| align="left" | FayssalF || 23 || 0 || 0% || 4 || 17% || 1 || 4%
 |-
-| align="left" | FloNight || 21 || 2 || 10% || 1 || 5% || 0 || 0%
+| align="left" | FloNight || 23 || 4 || 17% || 1 || 5% || 0 || 0%
 |-
 | align="left" | FT2 || 1 || 0 || 0% || 0 || 0% || 0 || 0%
 |-
-| align="left" | John Vandenberg || 20 || 0 || 0% || 1 || 5% || 1 || 5%
+| align="left" | John Vandenberg || 22 || 2 || 9% || 1 || 5% || 1 || 4%
 |-
-| align="left" | Kirill Lokshin || 21 || 0 || 0% || 2 || 10% || 2 || 10%
+| align="left" | Kirill Lokshin || 21 || 0 || 0% || 2 || 10% || 2 || 9%
 |-
-| align="left" | Newyorkbrad || 21 || 0 || 0% || 2 || 10% || 4 || 19%
+| align="left" | Newyorkbrad || 23 || 0 || 0% || 2 || 9% || 4 || 17%
 |-
-| align="left" | Risker || 20 || 4 || 20% || 5 || 31% || 0 || 0%
+| align="left" | Risker || 22 || 4 || 18% || 5 || 28% || 0 || 0%
 |-
-| align="left" | Rlevse || 20 || 0 || 0% || 1 || 5% || 1 || 5%
+| align="left" | Rlevse || 22 || 0 || 0% || 1 || 5% || 1 || 4%
 |-
-| align="left" | Roger Davies || 20 || 0 || 0% || 0 || 0% || 1 || 5%
+| align="left" | Roger Davies || 22 || 0 || 0% || 0 || 0% || 1 || 4%
 |-
 | align="left" | Sam Blacketer || 12 || 0 || 0% || 2 || 17% || 0 || 0%
 |-
-| align="left" | Stephen Bain || 21 || 0 || 0% || 0 || 0% || 3 || 14%
+| align="left" | Stephen Bain || 23 || 0 || 0% || 0 || 0% || 4 || 17%
 |-
-| align="left" | Vassyana || 20 || 0 || 0% || 3 || 15% || 1 || 5%
+| align="left" | Vassyana || 22 || 0 || 0% || 3 || 14% || 1 || 4%
 |-
-| align="left" | Wizardman || 21 || 0 || 0% || 0 || 0% || 5 || 24%
+| align="left" | Wizardman || 23 || 0 || 0% || 0 || 0% || 6 || 26%
 <!-- end cases stats 2009 only -->
 |}
 
@@ -838,7 +882,7 @@ The column headings, in the two tables below, have the following meanings:
 |-
 | align="left" | Jpgordon || 2 || 1 || 50% || 1 || 100% || 0 || 0%
 |-
-| align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 || 
+| align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 || 0%
 |-
 | align="left" | YellowMonkey || 2 || 1 || 50% || 0 || 0% || 0 || 0%
 <!-- end cases stats 2009 2008 -->
@@ -846,13 +890,146 @@ The column headings, in the two tables below, have the following meanings:
 
 ==Proposals==
 *Legend: S=Support, O=Oppose, A=Abstain, Ac=Active, R=Recused, I=Inactive/away, M=Majority, N=Not eligible. An "S1" indicates the first supporting vote. The numbers in the second set of arb columns give the length of time (rounded to the nearest day) between the first action (support, oppose or abstain) on this proposal and this arb's action.
-*Proposals: 966; passed: 714 (74%); failed: 252 (26%).
+<!-- begin proposals summary all -->
+*Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
+<!-- end proposals summary all -->
 
 ===For cases involving 2009 arbs only===
 {| class="wikitable" style="text-align:center"
 |+ Case proposals for cases involving 2009 arbs only
 |-
 <!-- begin proposals table 2009 only -->
+|-
+! colspan=2 | ''[[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley|Abd-William M. Connolley]]'' - [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed decision|Proposals]] (AC=10, R=2, I=2) || Disp || S || O || A || M ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Joh || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Joh || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Decorum|Decorum]] || align=left | P1 || align=left | Passed || 9 || 0 || 1 || 5 ||  || S || S || R || S || R || I || N || I || N || S || A || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 13 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Conduct on arbitration pages|Conduct on arbitration pages]] || align=left | P2 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Bans|Bans]] || align=left | P3 || align=left | Failed || 1 || 6 || 3 || 4 ||  || A || O || R || O || R || I || N || I || N || O || A || O || O || N || S1 || A || O ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Community bans|Community bans]] || align=left | P4 || align=left | Failed || 4 || 3 || 2 || 5 ||  || S || A || R || A || R || I || N || I || N || O || O ||  || O || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 ||  || 13 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Wikipedia page or topic bans|Wikipedia page or topic bans]] || align=left | P4.1 || align=left | Passed || 8 || 1 || 1 || 5 ||  || S || S1 || R || S || R || I || N || I || N || S || A || S || S || N || O || S || S ||  || 5 || 0 ||  || 2 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 11 || 20 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Use of administrator tools in a dispute|Use of administrator tools in a dispute]] || align=left | P5 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Avoiding apparent impropriety|Avoiding apparent impropriety]] || align=left | P6 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Good faith and disruption|Good faith and disruption]] || align=left | P7 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Locus of dispute|Locus of dispute]] || align=left | F1 || align=left | Failed || 2 || 6 || 2 || 5 ||  || O || O || R || O || R || I || N || I || N || S || A || O || O || N || S1 || A || O ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 || 13 || 14 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Locus of dispute|Locus of dispute]] || align=left | F1.1 || align=left | Passed || 9 || 0 || 0 || 6 ||  || S || S1 || R || S || R || I || N || I || N || S || S || S || S || N ||  || S || S ||  || 5 || 0 ||  || 2 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  ||  || 20 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Recent disputes|Recent disputes]] || align=left | F2 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley's reversion|William M. Connolley's reversion]] || align=left | F3 || align=left | Failed* || 9 || 0 || 1 || 5 ||  || S || A || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 13 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley’s controversial action as an administrator|William M. Connolley’s controversial action as an administrator]] || align=left | F3.1 || align=left | Passed || 9 || 0 || 1 || 5 ||  || S || S1 || R || S || R || I || N || I || N || S || S || S || S || N || A || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley's actions on cold fusion article|William M. Connolley's actions on cold fusion article]] || align=left | F3.2 || align=left | Failed || 4 || 5 || 0 || 6 ||  || S1 || S || R || O || R || I || N || I || N || S || O || O || O || N ||  || O || S ||  || 0 || 0 ||  || 1 ||  ||  ||  ||  ||  || 1 || 1 || 2 || 2 ||  ||  || 10 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Purported topic bans|Purported topic bans]] || align=left | F4 || align=left | Failed || 1 || 8 || 1 || 5 ||  || O || O || R || O || R || I || N || I || N || O || A || O || O || N || S1 || O || O ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Page bans|Page bans]] || align=left | F4.1 || align=left | Passed || 7 || 2 || 1 || 5 ||  || O || S || R || S1 || R || I || N || I || N || S || S || S || S || N || O || A || S ||  || 2 || 7 ||  || 0 ||  ||  ||  ||  ||  || 6 || 1 || 0 || 10 ||  || 7 || 17 || 7
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#First block of Abd|First block of Abd]] || align=left | F5 || align=left | Passed || 6 || 1 || 3 || 4 ||  || S || A || R || O || R || I || N || I || N || A || A || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#First block of Abd|First block of Abd]] || align=left | F5.1 || align=left | Failed* || 6 || 1 || 3 || 4 ||  || O || S || R || S1 || R || I || N || I || N || A || A || S || S || N || S || S || A ||  || 17 || 7 ||  || 0 ||  ||  ||  ||  ||  || 6 || 8 || 0 || 10 ||  || 3 || 17 || 10
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Edit-warring on the request for arbitration|Edit-warring on the request for arbitration]] || align=left | F6 || align=left | Passed || 5 || 3 || 2 || 5 ||  || S || O || R || A || R || I || N || I || N || O || O || S || S || N || S1 || A || S ||  || 21 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Editing comments of other editors and edit-warring on case pages|Editing comments of other editors and edit-warring on case pages]] || align=left | F7 || align=left | Passed || 7 || 3 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || O || O || S || O || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Second block of Abd|Second block of Abd]] || align=left | F8 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Personal attacks|Personal attacks]] || align=left | F9 || align=left | Failed || 1 || 6 || 3 || 4 ||  || O || O || R || A || R || I || N || I || N || O || O || A || O || N || S1 || A || O ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd’s style of discussion|Abd’s style of discussion]] || align=left | F10 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd tendentious editing|Abd tendentious editing]] || align=left | F11 || align=left | Passed || 8 || 2 || 0 || 6 ||  || O || S1 || R || S || R || I || N || I || N || S || S || S || S || N || O || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 10 || 12 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Allegations of a cabal|Allegations of a cabal]] || align=left | F12 || align=left | Passed || 7 || 2 || 1 || 5 ||  || O || A || R || S || R || I || N || I || N || S || S || S || S || N || S1 || O || S ||  || 21 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd in violation of prior remedy|Abd in violation of prior remedy]] || align=left | F13 || align=left | Passed || 7 || 2 || 1 || 5 ||  || O || S1 || R || S || R || I || N || I || N || S || S || S || S || N || O || A || S ||  || 5 || 0 ||  || 2 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 11 || 20 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley’s use of administrator tools while involved|William M. Connolley’s use of administrator tools while involved]] || align=left | F14 || align=left | Passed || 7 || 1 || 2 || 5 ||  || A || S || R || S || R || I || N || I || N || O || A || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 12 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Discretionary sanctions|Discretionary sanctions]] || align=left | R1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 3
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd placed under mentorship|Abd placed under mentorship]] || align=left | R2 || align=left | Failed || 2 || 7 || 1 || 5 ||  || S || O || R || O || R || I || N || I || N || A || O || O || O || N || S1 || O || O ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 12 || 4 || 14 ||  || 0 || 21 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd placed under involuntary mentorship|Abd placed under involuntary mentorship]] || align=left | R2.1 || align=left | Failed || 2 || 6 || 2 || 5 ||  || S1 || O || R || O || R || I || N || I || N || A || A || O || O || N || S || O || O ||  || 0 || 4 ||  || 5 ||  ||  ||  ||  ||  || 3 || 5 || 3 || 6 ||  || 4 || 13 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd editing restrictions|Abd editing restrictions]] || align=left | R3 || align=left | Failed || 2 || 5 || 3 || 4 ||  || O || S1 || R || O || R || I || N || I || N || A || A || S || O || N || O || O || A ||  || 6 || 1 ||  || 13 ||  ||  ||  ||  ||  || 3 || 12 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd editing restriction (prolixity)|Abd editing restriction (prolixity)]] || align=left | R3.1 || align=left | Failed || 4 || 5 || 1 || 5 ||  || S || S1 || R || O || R || I || N || I || N || O || A || S || O || N || O || O || S ||  || 0 || 0 ||  || 7 ||  ||  ||  ||  ||  || 5 || 7 || 8 || 8 ||  || 6 || 15 || 3
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd editing restriction (existing disputes)|Abd editing restriction (existing disputes)]] || align=left | R3.2 || align=left | Passed || 8 || 1 || 0 || 6 ||  || S || S1 || R || S || R || I || N || I || N || S || S || S || S || N ||  || O || S ||  || 0 || 0 ||  || 7 ||  ||  ||  ||  ||  || 7 || 7 || 8 || 8 ||  ||  || 15 || 3
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd banned from cold fusion article|Abd banned from cold fusion article]] || align=left | R3.3 || align=left | Passed || 8 || 2 || 0 || 6 ||  || O || S1 || R || S || R || I || N || I || N || S || S || S || S || N || O || S || S ||  || 0 || 0 ||  || 6 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 7 ||  || 4 || 14 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd editing restriction (1RR/week)|Abd editing restriction (1RR/week)]] || align=left | R3.4 || align=left | Failed || 1 || 7 || 2 || 5 ||  || O || S1 || R || O || R || I || N || I || N || A || O || O || O || N || O || A || O ||  || 0 || 0 ||  || 6 ||  ||  ||  ||  ||  || 5 || 5 || 6 || 7 ||  || 4 || 14 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd banned for four weeks|Abd banned for four weeks]] || align=left | R3.5 || align=left | Failed || 1 || 5 || 3 || 4 ||  || O || S1 || R || O || R || I || N || I || N || A || A || O || O || N ||  || O || A ||  || 0 || 0 ||  || 6 ||  ||  ||  ||  ||  || 17 || 6 || 6 || 7 ||  ||  || 14 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd banned for 3 months|Abd banned for 3 months]] || align=left | R3.6 || align=left | Passed || 8 || 1 || 0 || 6 ||  || O || S || R || S || R || I || N || I || N || S || S1 || S || S || N ||  || S || S ||  || 0 || 0 ||  || 0 ||  ||  ||  ||  ||  || 8 || 0 || 5 || 0 ||  ||  || 8 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd admonished|Abd admonished]] || align=left | R4 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 21 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Mathsci admonished|Mathsci admonished]] || align=left | R5 || align=left | Failed || 1 || 9 || 0 || 6 ||  || O || O || R || O || R || I || N || I || N || O || O || O || O || N || S1 || O || O ||  || 6 || 2 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 13 || 14 ||  || 0 || 24 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Mathsci reminded|Mathsci reminded]] || align=left | R5.1 || align=left | Passed || 5 || 4 || 1 || 5 ||  || O || O || R || S1 || R || I || N || I || N || O || A || S || S || N || S || O || S ||  || 3 || 9 ||  || 0 ||  ||  ||  ||  ||  || 0 || 2 || 1 || 11 ||  || 1 || 21 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley desysopped|William M. Connolley desysopped]] || align=left | R6 || align=left | Passed || 7 || 3 || 0 || 6 ||  || S || O || R || O || R || I || N || I || N || O || S || S || S || N || S1 || S || S ||  || 21 || 6 ||  || 3 ||  ||  ||  ||  ||  || 3 || 13 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley temp desysop and admin tool topic ban|William M. Connolley temp desysop and admin tool topic ban]] || align=left | R6.1 || align=left | Failed || 5 || 4 || 0 || 6 ||  || S || S1 || R || S || R || I || N || I || N || O || S || S ||  || N || O || O || O ||  || 6 || 1 ||  || 13 ||  ||  ||  ||  ||  || 3 || 12 || 4 ||  ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley on probation|William M. Connolley on probation]] || align=left | R6.2 || align=left | Failed || 4 || 5 || 0 || 6 ||  || O || S || R || S1 || R || I || N || I || N || O || O || S ||  || N || O || O || S ||  || 3 || 0 ||  || 0 ||  ||  ||  ||  ||  || 0 || 2 || 1 ||  ||  || 8 || 18 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley admonished|William M. Connolley admonished]] || align=left | R7 || align=left | Passed || 9 || 0 || 1 || 5 ||  || S || S || R || S || R || I || N || I || N || A || S || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Community discussion of topic-ban and page-ban procedure urged|Community discussion of topic-ban and page-ban procedure urged]] || align=left | R8 || align=left | Passed || 7 || 1 || 1 || 5 ||  || S || S1 || R || A || R || I || N || I || N || S || S || S || S || N ||  || O || S ||  || 4 || 0 ||  || 2 ||  ||  ||  ||  ||  || 2 || 3 || 3 || 12 ||  ||  || 20 || 1
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Enforcement by block|Enforcement by block]] || align=left | E1 || align=left | Passed || 7 || 1 || 2 || 5 ||  || S || A || R || S || R || I || N || I || N || S || S || S || S || N || S1 || O || A ||  || 6 || 5 ||  || 13 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Enforcement by lengthy block|Enforcement by lengthy block]] || align=left | E1.1 || align=left | Failed || 4 || 3 || 2 || 5 ||  || O || S1 || R ||  || R || I || N || I || N || O || O || S || S || N || A || A || S ||  || 0 || 0 ||  ||  ||  ||  ||  ||  ||  || 7 || 7 || 5 || 8 ||  || 6 || 15 || 6
+|-
+! colspan=2 | ''[[Wikipedia:Arbitration/Requests/Case/194x144x90x118|194x144x90x118]]'' - [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed decision|Proposals]] (AC=12, R=0, I=2) || Disp || S || O || A || M ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Joh || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Joh || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Decorum|Decorum]] || align=left | P1 || align=left | Passed || 11 || 0 || 0 || 7 ||  || S || S || S || S || S || I || N || I || N || S ||  || S || S || N || S || S || S1 ||  || 8 || 1 || 1 || 1 || 2 ||  ||  ||  ||  || 1 ||  || 2 || 2 ||  || 10 || 7 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Talk pages|Talk pages]] || align=left | P2 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S1 ||  || 8 || 1 || 1 || 1 || 2 ||  ||  ||  ||  || 1 || 2 || 2 || 2 ||  || 10 || 7 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Single purpose accounts|Single purpose accounts]] || align=left | P3 || align=left | Passed || 8 || 1 || 2 || 6 ||  || A || S || S || S || S || I || N || I || N || S || S || S ||  || N || O || A || S1 ||  || 8 || 1 || 8 || 1 || 2 ||  ||  ||  ||  || 1 || 2 || 2 ||  ||  || 10 || 7 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Edit warring|Edit warring]] || align=left | P4 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S1 ||  || 8 || 1 || 1 || 1 || 2 ||  ||  ||  ||  || 1 || 2 || 2 || 2 ||  || 10 || 7 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Business articles|Business articles]] || align=left | P5 || align=left | Passed || 5 || 3 || 3 || 5 ||  || S1 ||  || O || O || S || I || N || I || N || A || A || S || S || N || O || A || S ||  || 0 ||  || 3 || 3 || 3 ||  ||  ||  ||  || 2 || 1 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Allegations of improper conduct|Allegations of improper conduct]] || align=left | P6 || align=left | Passed || 11 || 0 || 0 || 7 ||  || S1 ||  || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S ||  || 0 ||  || 0 || 3 || 3 ||  ||  ||  ||  || 2 || 0 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#194x144x90x118|194x144x90x118]] || align=left | F1 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S1 ||  || 8 || 1 || 1 || 1 || 2 ||  ||  ||  ||  || 1 || 2 || 2 || 2 ||  || 10 || 7 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Prior editing history|Prior editing history]] || align=left | F2 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S1 || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S ||  || 0 || 0 || 0 || 2 || 3 ||  ||  ||  ||  || 2 || 0 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Locus of the dispute|Locus of the dispute]] || align=left | F3 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S1 || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S ||  || 0 || 0 || 0 || 2 || 3 ||  ||  ||  ||  || 2 || 1 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Editing by new users|Editing by new users]] || align=left | F4 || align=left | Passed || 11 || 1 || 0 || 7 ||  || S1 || S || S || S || S || I || N || I || N || S || S || S || S || N || O || S || S ||  || 0 || 0 || 0 || 2 || 3 ||  ||  ||  ||  || 3 || 1 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Prior incidents and dispute resolution|Prior incidents and dispute resolution]] || align=left | F5 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S1 || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S ||  || 0 || 0 || 0 || 2 || 3 ||  ||  ||  ||  || 2 || 1 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Nature of the dispute|Nature of the dispute]] || align=left | F6 || align=left | Passed || 11 || 0 || 1 || 6 ||  || S1 || S || A || S || S || I || N || I || N || S || S || S || S || N || S || S || S ||  || 0 || 0 || 0 || 2 || 3 ||  ||  ||  ||  || 2 || 1 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Concerns of third parties|Concerns of third parties]] || align=left | F7 || align=left | Passed || 8 || 1 || 2 || 6 ||  || S1 ||  || A || O || S || I || N || I || N || A || S || S || S || N || S || S || S ||  || 0 ||  || 0 || 2 || 3 ||  ||  ||  ||  || 2 || 1 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Disclosure and other commitments|Disclosure and other commitments]] || align=left | F8 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S1 || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S ||  || 0 || 0 || 0 || 2 || 3 ||  ||  ||  ||  || 2 || 1 || 0 || 1 ||  || 3 || 0 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#194x144x90x118 banned|194x144x90x118 banned]] || align=left | R1 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S1 ||  || 8 || 1 || 1 || 1 || 2 ||  ||  ||  ||  || 1 || 2 || 2 || 2 ||  || 10 || 7 || 0
+|-
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/194x144x90x118/Proposed_decision#Editors reminded|Editors reminded]] || align=left | R2 || align=left | Passed || 12 || 0 || 0 || 7 ||  || S1 || S || S || S || S || I || N || I || N || S || S || S || S || N || S || S || S ||  || 0 || 0 || 0 || 2 || 3 ||  ||  ||  ||  || 2 || 3 || 0 || 1 ||  || 3 || 0 || 0
+|-
 ! colspan=2 | ''[[Wikipedia:Arbitration/Requests/Case/ADHD|ADHD]]'' - [[Wikipedia:Arbitration/Requests/Case/ADHD/Proposed decision|Proposals]] (AC=12, R=2, I=1) || Disp || S || O || A || M ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Joh || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz ||  || Car || Cas || Chl || Cor || Fay || Flo || FT2 || Joh || Kir || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/ADHD/Proposed_decision#Neutral point of view|Neutral point of view]] || align=left | P1 || align=left | Passed || 11 || 0 || 0 || 7 ||  || S || R || S || I ||  || S || N || S || S || S || R || S || S || N || S1 || S || S ||  || 7 ||  || 0 ||  ||  || 1 ||  || 7 || 1 || 1 ||  || 1 || 7 ||  || 0 || 2 || 1
@@ -2768,7 +2945,7 @@ The column headings, in the two tables below, have the following meanings:
 | align="left" | [[Wikipedia:Requests for arbitration/G.-M. Cupertino/Proposed_decision#Enforcement by block|Enforcement by block]] || align=left | E1 || align=left | Passed || 11 || 0 || 0 || 9 ||  || S || S ||  ||  || S || S || N || S || S || S ||  || S ||  || S ||  || S || S1 ||  || 2 || 1 ||  ||  || 0 || 0 ||  || 3 || 0 || 0 ||  || 2 ||  || 0 ||  || 2 || 0
 <!-- end proposals table 2009 only -->
 |-
-| colspan=44 | Proposals: 938; passed: 689 (73%); failed: 249 (27%)
+| colspan=44 | Proposals: 1001; passed: 734 (73%); failed: 267 (27%)
 |}
 
 ===For cases involving 2009 and departing 2008 arbs===
@@ -2863,39 +3040,39 @@ In the two tables below, the column headings have the following meanings:
 ! Arb || EP || I || % || R || % || V || % || A || % || DNA || % || S || % || O || % || FS || % || ATV || MTV
 |-
 <!-- begin proposals stats 2009 only -->
-| align="left" | Carcharoth || 956 || 195 || 20% || 217 || 29% || 516 || 95% || 23 || 4% || 5 || 1% || 412 || 80% || 104 || 20% || 17 || 2% || 7.1 || 6.0
+| align="left" | Carcharoth || 1019 || 195 || 19% || 217 || 26% || 576 || 95% || 26 || 4% || 5 || 1% || 455 || 79% || 121 || 21% || 29 || 3% || 6.9 || 5.0
 |-
-| align="left" | Casliber || 956 || 0 || 0% || 255 || 27% || 613 || 87% || 50 || 7% || 38 || 5% || 585 || 95% || 28 || 5% || 7 || 1% || 3.3 || 1.0
+| align="left" | Casliber || 1019 || 0 || 0% || 255 || 25% || 668 || 87% || 55 || 7% || 41 || 5% || 630 || 94% || 38 || 6% || 21 || 2% || 3.1 || 1.0
 |-
-| align="left" | Cool Hand Luke || 956 || 0 || 0% || 146 || 15% || 669 || 83% || 49 || 6% || 92 || 11% || 580 || 87% || 89 || 13% || 21 || 2% || 8.7 || 10.0
+| align="left" | Cool Hand Luke || 1019 || 0 || 0% || 193 || 19% || 683 || 83% || 51 || 6% || 92 || 11% || 593 || 87% || 90 || 13% || 21 || 2% || 8.5 || 10.0
 |-
-| align="left" | Coren || 966 || 125 || 13% || 17 || 2% || 615 || 75% || 15 || 2% || 194 || 24% || 557 || 91% || 58 || 9% || 46 || 5% || 6.7 || 6.0
+| align="left" | Coren || 1029 || 125 || 12% || 17 || 2% || 673 || 76% || 19 || 2% || 195 || 22% || 600 || 89% || 73 || 11% || 50 || 5% || 6.4 || 4.0
 |-
-| align="left" | FayssalF || 966 || 0 || 0% || 85 || 9% || 511 || 58% || 99 || 11% || 271 || 31% || 466 || 91% || 45 || 9% || 68 || 7% || 10.0 || 9.0
+| align="left" | FayssalF || 1029 || 0 || 0% || 132 || 13% || 527 || 59% || 99 || 11% || 271 || 30% || 482 || 91% || 45 || 9% || 68 || 7% || 9.8 || 9.0
 |-
-| align="left" | FloNight || 966 || 68 || 7% || 17 || 2% || 820 || 93% || 29 || 3% || 32 || 4% || 700 || 85% || 120 || 15% || 27 || 3% || 4.5 || 2.0
+| align="left" | FloNight || 1029 || 131 || 13% || 17 || 2% || 820 || 93% || 29 || 3% || 32 || 4% || 700 || 85% || 120 || 15% || 27 || 3% || 4.5 || 2.0
 |-
 | align="left" | FT2 || 10 || 0 || 0% || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||  || 0 ||  || 0 || 0% ||  || 
 |-
-| align="left" | John Vandenberg || 956 || 0 || 0% || 50 || 5% || 812 || 90% || 44 || 5% || 50 || 6% || 676 || 83% || 136 || 17% || 137 || 14% || 8.7 || 5.0
+| align="left" | John Vandenberg || 1019 || 63 || 6% || 50 || 5% || 812 || 90% || 44 || 5% || 50 || 6% || 676 || 83% || 136 || 17% || 137 || 13% || 8.7 || 5.0
 |-
 | align="left" | Kirill Lokshin || 966 || 0 || 0% || 80 || 8% || 825 || 93% || 31 || 3% || 30 || 3% || 716 || 87% || 109 || 13% || 90 || 9% || 7.0 || 0.0
 |-
-| align="left" | Newyorkbrad || 966 || 0 || 0% || 106 || 11% || 663 || 77% || 121 || 14% || 76 || 9% || 509 || 77% || 154 || 23% || 80 || 8% || 9.3 || 7.0
+| align="left" | Newyorkbrad || 1029 || 0 || 0% || 106 || 10% || 716 || 78% || 131 || 14% || 76 || 8% || 548 || 77% || 168 || 23% || 80 || 8% || 8.8 || 5.0
 |-
-| align="left" | Risker || 956 || 244 || 26% || 137 || 19% || 466 || 81% || 64 || 11% || 45 || 8% || 365 || 78% || 101 || 22% || 7 || 1% || 10.4 || 7.0
+| align="left" | Risker || 1019 || 244 || 24% || 137 || 18% || 514 || 81% || 78 || 12% || 46 || 7% || 403 || 78% || 111 || 22% || 8 || 1% || 9.8 || 7.0
 |-
-| align="left" | Rlevse || 956 || 0 || 0% || 50 || 5% || 847 || 93% || 27 || 3% || 32 || 4% || 774 || 91% || 73 || 9% || 118 || 12% || 2.8 || 0.0
+| align="left" | Rlevse || 1019 || 0 || 0% || 50 || 5% || 908 || 94% || 28 || 3% || 33 || 3% || 826 || 91% || 82 || 9% || 118 || 11% || 2.9 || 0.0
 |-
-| align="left" | Roger Davies || 956 || 0 || 0% || 0 || 0% || 792 || 83% || 69 || 7% || 95 || 10% || 704 || 89% || 88 || 11% || 80 || 8% || 8.7 || 10.0
+| align="left" | Roger Davies || 1019 || 0 || 0% || 0 || 0% || 852 || 84% || 69 || 7% || 98 || 10% || 750 || 88% || 102 || 12% || 80 || 8% || 8.7 || 10.0
 |-
-| align="left" | Sam Blacketer || 384 || 0 || 0% || 42 || 11% || 320 || 94% || 19 || 6% || 3 || 1% || 273 || 85% || 47 || 15% || 2 || 1% || 7.2 || 8.0
+| align="left" | Sam Blacketer || 384 || 0 || 0% || 42 || 11% || 320 || 94% || 19 || 6% || 3 || 1% || 273 || 85% || 47 || 15% || 2 || 0% || 7.2 || 8.0
 |-
-| align="left" | Stephen Bain || 966 || 0 || 0% || 0 || 0% || 619 || 64% || 18 || 2% || 329 || 34% || 498 || 80% || 121 || 20% || 79 || 8% || 10.5 || 10.0
+| align="left" | Stephen Bain || 1029 || 0 || 0% || 0 || 0% || 674 || 66% || 20 || 2% || 335 || 33% || 540 || 80% || 134 || 20% || 105 || 10% || 9.9 || 9.0
 |-
-| align="left" | Vassyana || 956 || 0 || 0% || 174 || 18% || 644 || 82% || 125 || 16% || 13 || 2% || 523 || 81% || 121 || 19% || 52 || 5% || 4.1 || 2.0
+| align="left" | Vassyana || 1019 || 0 || 0% || 174 || 17% || 697 || 82% || 135 || 16% || 13 || 2% || 561 || 80% || 136 || 20% || 52 || 5% || 4.9 || 3.0
 |-
-| align="left" | Wizardman || 966 || 0 || 0% || 0 || 0% || 900 || 93% || 52 || 5% || 14 || 1% || 812 || 90% || 88 || 10% || 120 || 12% || 3.9 || 2.0
+| align="left" | Wizardman || 1029 || 0 || 0% || 0 || 0% || 959 || 93% || 56 || 5% || 14 || 1% || 862 || 90% || 97 || 10% || 126 || 12% || 3.8 || 2.0
 <!-- end proposals stats 2009 only -->
 |}
 
@@ -2914,7 +3091,7 @@ In the two tables below, the column headings have the following meanings:
 |-
 | align="left" | Jpgordon || 28 || 18 || 64% || 10 || 100% || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 || 0% ||  || 
 |-
-| align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  ||  || 
+| align="left" | Morven || 0 || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 ||  || 0 || 0% ||  || 
 |-
 | align="left" | YellowMonkey || 28 || 18 || 64% || 0 || 0% || 0 || 0% || 0 || 0% || 10 || 100% || 0 ||  || 0 ||  || 0 || 0% ||  || 
 <!-- end proposals stats 2009 2008 -->

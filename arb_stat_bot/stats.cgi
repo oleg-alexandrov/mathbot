@@ -634,7 +634,7 @@ sub compute_cases_stats {
   }else{
     $drafted   = 0; 
   }
-  $draftedp = percentage( $drafted,  $e );
+  $draftedp = percentage( $drafted,  $total );
   
   $row  =  "$e $i $ip $r $rp $drafted $draftedp\n";
   
@@ -666,7 +666,7 @@ sub compute_proposals_stats {
   $a  = $count{"A"};                           $ap   = percentage( $a,  $e-$i-$r );
   $dn = $count{""};                            $dnp  = percentage( $dn, $e-$i-$r );
   $s  = $count{"S"}+$count{"S1"};              $sp   = percentage( $s,  $v       );
-  $fs = $count{"S1"};                          $fsp  = percentage( $fs, $e       );
+  $fs = $count{"S1"};                          $fsp  = percentage( $fs, $total   );
   $o  = $count{"O"};                           $op   = percentage( $o,  $v       );
 
   my $arb2 = $arb . $uniqueTag; # access some other stats for this arb
