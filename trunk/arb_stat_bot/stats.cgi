@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+#test revision by Paul August
+
 use strict;          # 'strict' insists that all variables be declared
 use diagnostics;     # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
