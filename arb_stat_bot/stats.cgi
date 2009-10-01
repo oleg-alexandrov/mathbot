@@ -740,7 +740,7 @@ sub compute_cases_summary{
   my $cases     = $table->{"Case"};
   my $nCases    = scalar(@$cases);
 
-  my $days        = $table->{"Days Open"};
+  my $days        = $table->{"Days"};
   my $average     = find_average(@$days);
   $average        = round_ndigits($average, 1);
 
