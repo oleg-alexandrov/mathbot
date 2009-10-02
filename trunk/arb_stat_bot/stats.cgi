@@ -7,14 +7,18 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; 
 use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; 
 use lib '../wp/modules'; 
-require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
+
+my $use_local = scalar(@ARGV); # True only for debug purposes
+if (!$use_local){
+  require 'bin/perlwikipedia_utils.pl'; # needed to communicate with Wikipedia
+}
 
 my $uniqueTag = "_2nd"; # Make a row with "Z", "Z", into "Z", "Z_2nd", for unqueness.
 
 MAIN: {
 
   my ($sleep, $attempts, $text, $file, $local_file_in, $local_file_out);
-  my ($edit_summary, $Editor, $use_local);
+  my ($edit_summary, $Editor);
 
   print "Content-type: text/html\n\n"; # first line to print in a cgi script
   $| = 1; # flush the buffer each line
@@ -22,7 +26,6 @@ MAIN: {
   # If this function called with no arguments, read from and submit to
   # Wikipedia. Else, read from/write to write on disk. The second
   # option is useful for debugging purposes.
-  $use_local = scalar(@ARGV); 
   $local_file_in = "Statistics_2009.txt";
 
   if (!$use_local){
