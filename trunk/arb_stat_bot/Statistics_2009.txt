@@ -894,8 +894,8 @@ The column headings, in the two tables below, have the following meanings:
 
 ==Proposals==
 *Legend: S=Support, O=Oppose, A=Abstain, Ac=Active, R=Recused, I=Inactive/away, M=Majority, N=Not eligible. An "S1" indicates the first supporting vote. The numbers in the second set of arb columns give the length of time (rounded to the nearest day) between the first action (support, oppose or abstain) on this proposal and this arb's action.
-<!-- begin proposals summary all -->
-*Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
+*<!-- begin proposals summary all -->
+Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
 <!-- end proposals summary all -->
 
 ===For cases involving 2009 arbs only===
