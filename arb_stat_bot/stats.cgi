@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;          # 'strict' insists that all variables be declared
 use diagnostics;     # 'diagnostics' expands the cryptic warnings
-use open 'utf8';
+#use open 'utf8';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; 
@@ -298,6 +298,10 @@ sub gen_cases_stats{
                            parse_wiki_table($table_text) # current table
                          );
   }
+   
+  # Compute the summary first, since the number of decided cases ($Decided) needed later  
+  my $Decided = 0; # total number of cases decided
+  ($text, $Decided) = compute_cases_summary($table, $text);
 
   my $draftedCol = $table->{"Drafter"};
   foreach my $arb (@$draftedCol){
@@ -317,7 +321,7 @@ sub gen_cases_stats{
       my $arb_full = $arbs->{$arb}; # expansion of the abbrev
 
       my $row = "| align=\"left\" | $arb_full \|\| ";
-      $row   .= compute_cases_stats($arb, $arbs_votes, $table, $Drafted);
+      $row   .= compute_cases_stats($arb, $arbs_votes, $table, $Drafted, $Decided);
       $output_table .= $row;
       
     } # End iterating over arbitrators
@@ -331,9 +335,6 @@ sub gen_cases_stats{
                                   $beg_stats_tag, $end_stats_tag);
   
   } # End iterating over years
-
-  # Compute the summary as well
-  $text = compute_cases_summary($table, $text);
   
   return $text;
 }
@@ -633,7 +634,7 @@ sub compute_cases_stats {
   my $arbs_votes = shift; # types of votes to count
   my $table      = shift; # table of votes to count
   my $Drafted    = shift; # how many times an arb offered a motion
-  my $type       = shift;
+  my $Decided    = shift; # total number of cases decided
   
   my %count;
   my $total = count_values($table->{$arb}, $arbs_votes,  # inputs
@@ -654,7 +655,7 @@ sub compute_cases_stats {
   }else{
     $drafted   = 0; 
   }
-  $draftedp = percentage( $drafted,  $total );
+  $draftedp = percentage( $drafted,  $Decided );
   
   $row  =  "$e $i $ip $r $rp $drafted $draftedp\n";
   
@@ -762,16 +763,27 @@ sub compute_cases_summary{
 
   my $days        = $table->{"Days"};
   my $average     = find_average(@$days);
-  $average        = round_ndigits($average, 1);
+  $average        = round_ndigits($average, 0);
+  
+  my %disp_count;
+  my $disp        = $table->{"Disp"};
+  my $disp_names  = ["Decided", "Dismissed"];
+  my $total       = count_values($disp, $disp_names,   # inputs
+                                \%disp_count          # output
+                                );
+  
+  my $Decided     = $disp_count{"Decided"};   my $Decidedp = percentage( $Decided,  $nCases);
+  my $Dismissed   = $disp_count{"Dismissed"}; my $Dismissedp = percentage( $Dismissed,  $nCases);
 
   my $summary =
      "\n* Publicly heard cases: $nCases; " 
-        . "average duration: $average days.\n"; 
+        . "average duration: $average days; "
+           . "decided: $Decided ($Decidedp); dismissed: $Dismissed ($Dismissedp).\n"; 
 
   $text = put_text_between_tags($text, $summary,
                                 $beg_sum_tag, $end_sum_tag);
 
-  return $text;
+  return ($text, $Decided);
 }
 
 sub compute_proposals_summary{
