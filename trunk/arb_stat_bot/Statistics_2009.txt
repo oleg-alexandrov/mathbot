@@ -64,7 +64,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=304173154#Stephen_Bain Stephen Bain] || 14:13, 23-Jul-2009 || 04:54, 26-Jul-2009 || 3 || Declined || 0 || 7 || 1 || 0 || 2 || D || D || I ||  ||  || D || N ||  || N || D || D || D ||  || N || R || I || D
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Use_of_.22disputed_territories.22.2C_.22occupied_territories.22_and_related_terminology_in_the_context_of_the_Arab-Israeli_dispute Use of "disputed territories" and "occupied territories" â€¦] || 12:33, 1-Jul-2009 || 17:19, 16-Jul-2009 || 15 || Motion || 0 || 5 || 1 || 3 || 0 || C || C ||  ||  ||  || D || N || D || N || R || D || D ||  || N ||  || C || D
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302445506#Use_of_.22disputed_territories.22.2C_.22occupied_territories.22_and_related_terminology_in_the_context_of_the_Arab-Israeli_dispute Use of "disputed territories" and "occupied territories" É] || 12:33, 1-Jul-2009 || 17:19, 16-Jul-2009 || 15 || Motion || 0 || 5 || 1 || 3 || 0 || C || C ||  ||  ||  || D || N || D || N || R || D || D ||  || N ||  || C || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests/Case&oldid=302259118#Velela Velela] || 12:35, 13-Jul-2009 || 22:09, 15-Jul-2009 || 2 || Declined || 0 || 7 || 0 || 0 || 2 || D || D ||  ||  || D || D || N || D || N || D || D || N ||  || N ||  || I || I
 |-
@@ -170,7 +170,7 @@ This page presents arbitration data and statistics for 2009. For 2008 see:
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=265487223#Bishzilla Bishzilla] || 22:25, 13-Jan-2009 || 14:33, 21-Jan-2009 || 8 || Motion || 2 || 10 || 0 || 2 || 0 || D || D || D || A || A || C || N || D || D || D || D ||  || D || C ||  || D || D
 |-
-| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=264958462#user:Dicklyon.2C_user:Jokestress.2C_and_user:James_Cantor_at_The_Man_Who_Would_Be_Queen_and_related_pages user:Dicklyon, user:Jokestress, and user:James Cantor â€¦] || 02:03, 14-Jan-2009 || 22:56, 18-Jan-2009 || 5 || Declined || 0 || 10 || 0 || 1 || 0 || D || D || D || D || D || C || N || D ||  ||  || D ||  ||  || D ||  || D || D
+| align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Requests_for_arbitration&oldid=264958462#user:Dicklyon.2C_user:Jokestress.2C_and_user:James_Cantor_at_The_Man_Who_Would_Be_Queen_and_related_pages user:Dicklyon, user:Jokestress, and user:James Cantor É] || 02:03, 14-Jan-2009 || 22:56, 18-Jan-2009 || 5 || Declined || 0 || 10 || 0 || 1 || 0 || D || D || D || D || D || C || N || D ||  ||  || D ||  ||  || D ||  || D || D
 |-
 | align="left" | [http://en.wikipedia.org/w/index.php?title=Wikipedia:Arbitration/Requests&oldid=264357613#Giano Giano] || 22:42, 15-Jan-2009 || 00:02, 16-Jan-2009 || 0 || Withdrawn || 0 || 4 || 1 || 0 || 0 || D || D ||  ||  ||  || R || N || D ||  ||  ||  ||  || D ||  ||  ||  || 
 |-
@@ -752,7 +752,7 @@ The column headings, in table below, have the following meanings:
 ==Cases==
 *Legend: Ac=Active, R=Recused, I=Inactive/away, M=Majority, N=Not eligible, Drafter = the poster of the first draft on the case's "Proposed decision" page.
 <!-- begin cases summary all -->
-* Publicly heard cases: 23; average duration: 57.5 days.
+* Publicly heard cases: 24; average duration: 57 days; decided: 23 (96%); dismissed: 1 (4%).
 <!-- end cases summary all -->
 
 === Involving 2009 arbs only ===
@@ -760,49 +760,51 @@ The column headings, in table below, have the following meanings:
 |+ Publicly heard cases involving 2009 arbs only
 |-
 <!-- begin cases table 2009 only -->
-! Case !! Opened !! Closed !! Days !! Ac !! R !! I !! M !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz || Drafter
+! Case !! Opened !! Closed !! Days !! Disp !! Ac !! R !! I !! M !! Car !! Cas !! Chl !! Cor !! Fay !! Flo !! FT2 !! Joh !! Kir !! New !! Ris !! Rle !! Rog !! Sam !! Ste !! Vas !! Wiz || Drafter
 |-
-| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley|Abd-William M. Connolley]]'' || 15-Jul-2009 || 13-Sep-2009 || 60 || 10 || 2 || 2 || 6 ||  ||  || R ||  || R || I || N || I || N ||  ||  ||  ||  || N ||  ||  ||  || Ste
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Noloop|Noloop]]'' || 23-Aug-2009 || 4-Oct-2009 || 42 || Dismissed || 11 || 0 || 2 || 6 ||  || N ||  ||  ||  ||  || N || I || N ||  || I ||  ||  || N ||  ||  ||  || 
 |-
-| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/194x144x90x118|194x144x90x118]]'' || 14-Aug-2009 || 10-Sep-2009 || 26 || 12 || 0 || 2 || 7 ||  ||  ||  ||  ||  || I || N || I || N ||  ||  ||  ||  || N ||  ||  ||  || Wiz
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley|Abd-William M. Connolley]]'' || 15-Jul-2009 || 13-Sep-2009 || 60 || Decided || 10 || 2 || 2 || 6 ||  ||  || R ||  || R || I || N || I || N ||  ||  ||  ||  || N ||  ||  ||  || Ste
 |-
-| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/ADHD|ADHD]]'' || 21-May-2009 || 14-Jul-2009 || 53 || 12 || 2 || 1 || 7 ||  || R ||  || I ||  ||  || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || Ste
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/194x144x90x118|194x144x90x118]]'' || 14-Aug-2009 || 10-Sep-2009 || 26 || Decided || 12 || 0 || 2 || 7 ||  ||  ||  ||  ||  || I || N || I || N ||  ||  ||  ||  || N ||  ||  ||  || Wiz
 |-
-| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Mattisse|Mattisse]]'' || 11-May-2009 || 1-Jul-2009 || 51 || 10 || 5 || 0 || 6 ||  || R ||  || R || R || R || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || New
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/ADHD|ADHD]]'' || 21-May-2009 || 14-Jul-2009 || 53 || Decided || 12 || 2 || 1 || 7 ||  || R ||  || I ||  ||  || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || Ste
 |-
-| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/A Man In Black|A Man In Black]]'' || 23-May-2009 || 30-Jun-2009 || 37 || 11 || 4 || 0 || 6 || R || R ||  ||  ||  ||  || N ||  || R ||  || R ||  ||  || N ||  ||  ||  || Wiz
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Mattisse|Mattisse]]'' || 11-May-2009 || 1-Jul-2009 || 51 || Decided || 10 || 5 || 0 || 6 ||  || R ||  || R || R || R || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || New
 |-
-| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Seeyou|Seeyou]]'' || 11-Jun-2009 || 26-Jun-2009 || 16 || 13 || 1 || 1 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || New
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/A Man In Black|A Man In Black]]'' || 23-May-2009 || 30-Jun-2009 || 37 || Decided || 11 || 4 || 0 || 6 || R || R ||  ||  ||  ||  || N ||  || R ||  || R ||  ||  || N ||  ||  ||  || Wiz
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Obama articles|Obama articles]]'' || 20-Mar-2009 || 21-Jun-2009 || 93 || 13 || 0 || 2 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  || I ||  ||  || N ||  ||  ||  || Wiz
+| align="left" | ''[[Wikipedia:Arbitration/Requests/Case/Seeyou|Seeyou]]'' || 11-Jun-2009 || 26-Jun-2009 || 16 || Decided || 13 || 1 || 1 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  || R ||  ||  || N ||  ||  ||  || New
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Date delinking|Date delinking]]'' || 12-Jan-2009 || 14-Jun-2009 || 154 || 13 || 2 || 0 || 7 || R || R ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  || N ||  ||  ||  || Joh
+| align="left" | ''[[Wikipedia:Requests for arbitration/Obama articles|Obama articles]]'' || 20-Mar-2009 || 21-Jun-2009 || 93 || Decided || 13 || 0 || 2 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  || I ||  ||  || N ||  ||  ||  || Wiz
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Tang Dynasty|Tang Dynasty]]'' || 30-Mar-2009 || 11-Jun-2009 || 73 || 13 || 0 || 2 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  || I ||  ||  || N ||  ||  ||  || New
+| align="left" | ''[[Wikipedia:Requests for arbitration/Date delinking|Date delinking]]'' || 12-Jan-2009 || 14-Jun-2009 || 154 || Decided || 13 || 2 || 0 || 7 || R || R ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  || N ||  ||  ||  || Joh
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Macedonia 2|Macedonia 2]]'' || 22-Apr-2009 || 11-Jun-2009 || 51 || 14 || 0 || 1 || 8 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  || I ||  ||  || N ||  ||  ||  || Rle
+| align="left" | ''[[Wikipedia:Requests for arbitration/Tang Dynasty|Tang Dynasty]]'' || 30-Mar-2009 || 11-Jun-2009 || 73 || Decided || 13 || 0 || 2 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  || I ||  ||  || N ||  ||  ||  || New
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Scientology|Scientology]]'' || 11-Dec-2008 || 28-May-2009 || 169 || 13 || 1 || 1 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  || N ||  || R ||  || Rog
+| align="left" | ''[[Wikipedia:Requests for arbitration/Macedonia 2|Macedonia 2]]'' || 22-Apr-2009 || 11-Jun-2009 || 51 || Decided || 14 || 0 || 1 || 8 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  || I ||  ||  || N ||  ||  ||  || Rle
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 24-Mar-2009 || 24-May-2009 || 62 || 13 || 2 || 1 || 7 ||  ||  ||  || I ||  ||  || N ||  ||  || R || R ||  ||  ||  ||  ||  ||  || Fay
+| align="left" | ''[[Wikipedia:Requests for arbitration/Scientology|Scientology]]'' || 11-Dec-2008 || 28-May-2009 || 169 || Decided || 13 || 1 || 1 || 7 || I ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  || N ||  || R ||  || Rog
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Abd and JzG|Abd and JzG]]'' || 25-Apr-2009 || 18-May-2009 || 24 || 13 || 1 || 2 || 7 ||  ||  ||  || I || R || I || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Ste
+| align="left" | ''[[Wikipedia:Requests for arbitration/Ryulong|Ryulong]]'' || 24-Mar-2009 || 24-May-2009 || 62 || Decided || 13 || 2 || 1 || 7 ||  ||  ||  || I ||  ||  || N ||  ||  || R || R ||  ||  ||  ||  ||  ||  || Fay
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Aitias|Aitias]]'' || 9-Apr-2009 || 18-May-2009 || 39 || 15 || 0 || 1 || 8 ||  ||  ||  || I ||  ||  || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Wiz
+| align="left" | ''[[Wikipedia:Requests for arbitration/Abd and JzG|Abd and JzG]]'' || 25-Apr-2009 || 18-May-2009 || 24 || Decided || 13 || 1 || 2 || 7 ||  ||  ||  || I || R || I || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Ste
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/West Bank - Judea and Samaria|West Bank - Judea and Samaria]]'' || 1-Mar-2009 || 12-May-2009 || 72 || 14 || 2 || 0 || 8 ||  ||  ||  ||  || R ||  || N ||  ||  || R ||  ||  ||  ||  ||  ||  ||  || Kir
+| align="left" | ''[[Wikipedia:Requests for arbitration/Aitias|Aitias]]'' || 9-Apr-2009 || 18-May-2009 || 39 || Decided || 15 || 0 || 1 || 8 ||  ||  ||  || I ||  ||  || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Wiz
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Prem Rawat 2|Prem Rawat 2]]'' || 20-Feb-2009 || 20-Apr-2009 || 59 || 14 || 2 || 0 || 8 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  || R ||  || R ||  || Ste
+| align="left" | ''[[Wikipedia:Requests for arbitration/West Bank - Judea and Samaria|West Bank - Judea and Samaria]]'' || 1-Mar-2009 || 12-May-2009 || 72 || Decided || 14 || 2 || 0 || 8 ||  ||  ||  ||  || R ||  || N ||  ||  || R ||  ||  ||  ||  ||  ||  ||  || Kir
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/MZMcBride|MZMcBride]]'' || 1-Mar-2009 || 8-Apr-2009 || 39 || 14 || 2 || 0 || 8 ||  ||  || R ||  ||  ||  || N ||  || R ||  ||  ||  ||  ||  ||  ||  ||  || New
+| align="left" | ''[[Wikipedia:Requests for arbitration/Prem Rawat 2|Prem Rawat 2]]'' || 20-Feb-2009 || 20-Apr-2009 || 59 || Decided || 14 || 2 || 0 || 8 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  || R ||  || R ||  || Ste
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Ayn Rand|Ayn Rand]]'' || 22-Jan-2009 || 15-Mar-2009 || 51 || 14 || 1 || 1 || 8 ||  ||  || R ||  ||  || I || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Vas
+| align="left" | ''[[Wikipedia:Requests for arbitration/MZMcBride|MZMcBride]]'' || 1-Mar-2009 || 8-Apr-2009 || 39 || Decided || 14 || 2 || 0 || 8 ||  ||  || R ||  ||  ||  || N ||  || R ||  ||  ||  ||  ||  ||  ||  ||  || New
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/SemBubenny|SemBubenny]]'' || 29-Jan-2009 || 4-Mar-2009 || 33 || 16 || 0 || 0 || 9 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Wiz
+| align="left" | ''[[Wikipedia:Requests for arbitration/Ayn Rand|Ayn Rand]]'' || 22-Jan-2009 || 15-Mar-2009 || 51 || Decided || 14 || 1 || 1 || 8 ||  ||  || R ||  ||  || I || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Vas
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/Fringe science|Fringe science]]'' || 29-Dec-2008 || 25-Feb-2009 || 58 || 12 || 4 || 0 || 7 ||  ||  || R ||  ||  ||  || N || R ||  ||  ||  || R ||  ||  ||  || R ||  || Cor
+| align="left" | ''[[Wikipedia:Requests for arbitration/SemBubenny|SemBubenny]]'' || 29-Jan-2009 || 4-Mar-2009 || 33 || Decided || 16 || 0 || 0 || 9 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Wiz
 |-
-| align="left" | ''[[Wikipedia:Requests for arbitration/G.-M. Cupertino|G.-M. Cupertino]]'' || 2-Jan-2009 || 16-Jan-2009 || 14 || 16 || 0 || 0 || 9 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Wiz
+| align="left" | ''[[Wikipedia:Requests for arbitration/Fringe science|Fringe science]]'' || 29-Dec-2008 || 25-Feb-2009 || 58 || Decided || 12 || 4 || 0 || 7 ||  ||  || R ||  ||  ||  || N || R ||  ||  ||  || R ||  ||  ||  || R ||  || Cor
+|-
+| align="left" | ''[[Wikipedia:Requests for arbitration/G.-M. Cupertino|G.-M. Cupertino]]'' || 2-Jan-2009 || 16-Jan-2009 || 14 || Decided || 16 || 0 || 0 || 9 ||  ||  ||  ||  ||  ||  || N ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || Wiz
 <!-- end cases table 2009 only -->
 |}
 
@@ -812,11 +814,11 @@ The column headings, in table below, have the following meanings:
 |+ Publicly heard cases Involving 2009 and departing 2008 arbs
 |-
 <!-- begin cases table 2009 2008 -->
-! Case !! Opened !! Closed !! Days !! Ac !! R !! I !! M !! Car || Cas || Cha || Chl || Cor || Des || Fay || Flo || FT2 || Joh|| Jdf || Jpg || Kir || Mor || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz || Yel || Drafter
+! Case !! Opened !! Closed !! Days !! Disp !! Ac !! R !! I !! M !! Car || Cas || Cha || Chl || Cor || Des || Fay || Flo || FT2 || Joh|| Jdf || Jpg || Kir || Mor || New || Ris || Rle || Rog || Sam || Ste || Vas || Wiz || Yel || Drafter
 |-
-| align="left" |    ''[[Wikipedia:Requests for arbitration/PHG|PHG]]'' || 3-Dec-2008 || 2-Feb-2009 || 62 || 16 || 0 || 5 || 9 ||  ||  || I ||  ||  ||  ||  ||  || N ||  || I || I ||  || N ||  || I ||  ||  ||  ||  ||  ||  || I || Chl
+| align="left" |    ''[[Wikipedia:Requests for arbitration/PHG|PHG]]'' || 3-Dec-2008 || 2-Feb-2009 || 62 || Decided || 16 || 0 || 5 || 9 ||  ||  || I ||  ||  ||  ||  ||  || N ||  || I || I ||  || N ||  || I ||  ||  ||  ||  ||  ||  || I || Chl
 |-
-| align="left" |    ''[[Wikipedia:Requests for arbitration/Ireland article names|Ireland article names]]'' || 9-Dec-2008 || 4-Jan-2009 || 26 || 12 || 2 || 0 || 7 || N || N ||  || N ||  ||  ||  ||  ||  || N ||  || R ||  || N ||  || N || N || N || R ||  || N ||  || || Kir
+| align="left" |    ''[[Wikipedia:Requests for arbitration/Ireland article names|Ireland article names]]'' || 9-Dec-2008 || 4-Jan-2009 || 26 || Decided || 12 || 2 || 0 || 7 || N || N ||  || N ||  ||  ||  ||  ||  || N ||  || R ||  || N ||  || N || N || N || R ||  || N ||  || || Kir
 <!-- end cases table 2009 2008 -->
 |}
 
@@ -826,7 +828,7 @@ The column headings, in the two tables below, have the following meanings:
 *'''EC''' (eligible cases): The total number of cases for which this arb was eligible to act (count of non-"N"s).
 *'''Inactive''': The total number of cases for which this arb was listed on the case's "Proposed decision" talk page as inactive/away (count of empty cells); as a percentage of '''EC'''.
 *'''Recused''': The total number of cases for which this arb was listed on the case's "Proposed decision" talk page as recused (count of "R"s); as a percentage of ('''EC''' &minus; '''Inactive''').
-*'''Drafted''': The total number of cases for which this arb posted the first draft of the case's "Proposed decision" page; as a percentage of the total number of cases.
+*'''Drafted''': The total number of cases for which this arb posted the first draft of the case's "Proposed decision" page; as a percentage of the total number of cases decided.
 
 ====Arb activity (2009)====
 {| class="wikitable sortable" style="text-align:center"
@@ -835,39 +837,39 @@ The column headings, in the two tables below, have the following meanings:
 ! Arb || EC || Inactive || % || Recused || % || Drafted || %
 |-
 <!-- begin cases stats 2009 only -->
-| align="left" | Carcharoth || 22 || 4 || 18% || 2 || 11% || 0 || 0%
+| align="left" | Carcharoth || 23 || 4 || 17% || 2 || 11% || 0 || 0%
 |-
 | align="left" | Casliber || 22 || 0 || 0% || 4 || 18% || 0 || 0%
 |-
-| align="left" | Cool Hand Luke || 22 || 0 || 0% || 4 || 18% || 1 || 4%
+| align="left" | Cool Hand Luke || 23 || 0 || 0% || 4 || 17% || 1 || 4%
 |-
-| align="left" | Coren || 23 || 4 || 17% || 1 || 5% || 1 || 4%
+| align="left" | Coren || 24 || 4 || 17% || 1 || 5% || 1 || 4%
 |-
-| align="left" | FayssalF || 23 || 0 || 0% || 4 || 17% || 1 || 4%
+| align="left" | FayssalF || 24 || 0 || 0% || 4 || 17% || 1 || 4%
 |-
-| align="left" | FloNight || 23 || 4 || 17% || 1 || 5% || 0 || 0%
+| align="left" | FloNight || 24 || 4 || 17% || 1 || 5% || 0 || 0%
 |-
 | align="left" | FT2 || 1 || 0 || 0% || 0 || 0% || 0 || 0%
 |-
-| align="left" | John Vandenberg || 22 || 2 || 9% || 1 || 5% || 1 || 4%
+| align="left" | John Vandenberg || 23 || 3 || 13% || 1 || 5% || 1 || 4%
 |-
 | align="left" | Kirill Lokshin || 21 || 0 || 0% || 2 || 10% || 2 || 9%
 |-
-| align="left" | Newyorkbrad || 23 || 0 || 0% || 2 || 9% || 4 || 17%
+| align="left" | Newyorkbrad || 24 || 0 || 0% || 2 || 8% || 4 || 17%
 |-
-| align="left" | Risker || 22 || 4 || 18% || 5 || 28% || 0 || 0%
+| align="left" | Risker || 23 || 5 || 22% || 5 || 28% || 0 || 0%
 |-
-| align="left" | Rlevse || 22 || 0 || 0% || 1 || 5% || 1 || 4%
+| align="left" | Rlevse || 23 || 0 || 0% || 1 || 4% || 1 || 4%
 |-
-| align="left" | Roger Davies || 22 || 0 || 0% || 0 || 0% || 1 || 4%
+| align="left" | Roger Davies || 23 || 0 || 0% || 0 || 0% || 1 || 4%
 |-
 | align="left" | Sam Blacketer || 12 || 0 || 0% || 2 || 17% || 0 || 0%
 |-
-| align="left" | Stephen Bain || 23 || 0 || 0% || 0 || 0% || 4 || 17%
+| align="left" | Stephen Bain || 24 || 0 || 0% || 0 || 0% || 4 || 17%
 |-
-| align="left" | Vassyana || 22 || 0 || 0% || 3 || 14% || 1 || 4%
+| align="left" | Vassyana || 23 || 0 || 0% || 3 || 13% || 1 || 4%
 |-
-| align="left" | Wizardman || 23 || 0 || 0% || 0 || 0% || 6 || 26%
+| align="left" | Wizardman || 24 || 0 || 0% || 0 || 0% || 6 || 26%
 <!-- end cases stats 2009 only -->
 |}
 
@@ -894,8 +896,7 @@ The column headings, in the two tables below, have the following meanings:
 
 ==Proposals==
 *Legend: S=Support, O=Oppose, A=Abstain, Ac=Active, R=Recused, I=Inactive/away, M=Majority, N=Not eligible. An "S1" indicates the first supporting vote. The numbers in the second set of arb columns give the length of time (rounded to the nearest day) between the first action (support, oppose or abstain) on this proposal and this arb's action.
-*<!-- begin proposals summary all -->
-Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
+*<!-- begin proposals summary all -->Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
 <!-- end proposals summary all -->
 
 ===For cases involving 2009 arbs only===
@@ -930,7 +931,7 @@ Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley's reversion|William M. Connolley's reversion]] || align=left | F3 || align=left | Failed* || 9 || 0 || 1 || 5 ||  || S || A || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 13 || 14 ||  || 0 || 21 || 2
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolleyâ€™s controversial action as an administrator|William M. Connolleyâ€™s controversial action as an administrator]] || align=left | F3.1 || align=left | Passed || 9 || 0 || 1 || 5 ||  || S || S1 || R || S || R || I || N || I || N || S || S || S || S || N || A || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. ConnolleyÕs controversial action as an administrator|William M. ConnolleyÕs controversial action as an administrator]] || align=left | F3.1 || align=left | Passed || 9 || 0 || 1 || 5 ||  || S || S1 || R || S || R || I || N || I || N || S || S || S || S || N || A || S || S ||  || 5 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolley's actions on cold fusion article|William M. Connolley's actions on cold fusion article]] || align=left | F3.2 || align=left | Failed || 4 || 5 || 0 || 6 ||  || S1 || S || R || O || R || I || N || I || N || S || O || O || O || N ||  || O || S ||  || 0 || 0 ||  || 1 ||  ||  ||  ||  ||  || 1 || 1 || 2 || 2 ||  ||  || 10 || 0
 |-
@@ -950,7 +951,7 @@ Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Personal attacks|Personal attacks]] || align=left | F9 || align=left | Failed || 1 || 6 || 3 || 4 ||  || O || O || R || A || R || I || N || I || N || O || O || A || O || N || S1 || A || O ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abdâ€™s style of discussion|Abdâ€™s style of discussion]] || align=left | F10 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#AbdÕs style of discussion|AbdÕs style of discussion]] || align=left | F10 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 2
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd tendentious editing|Abd tendentious editing]] || align=left | F11 || align=left | Passed || 8 || 2 || 0 || 6 ||  || O || S1 || R || S || R || I || N || I || N || S || S || S || S || N || O || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 10 || 12 || 4 || 14 ||  || 0 || 21 || 2
 |-
@@ -958,7 +959,7 @@ Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Abd in violation of prior remedy|Abd in violation of prior remedy]] || align=left | F13 || align=left | Passed || 7 || 2 || 1 || 5 ||  || O || S1 || R || S || R || I || N || I || N || S || S || S || S || N || O || A || S ||  || 5 || 0 ||  || 2 ||  ||  ||  ||  ||  || 3 || 4 || 4 || 13 ||  || 11 || 20 || 2
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. Connolleyâ€™s use of administrator tools while involved|William M. Connolleyâ€™s use of administrator tools while involved]] || align=left | F14 || align=left | Passed || 7 || 1 || 2 || 5 ||  || A || S || R || S || R || I || N || I || N || O || A || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 12 || 4 || 14 ||  || 0 || 21 || 2
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#William M. ConnolleyÕs use of administrator tools while involved|William M. ConnolleyÕs use of administrator tools while involved]] || align=left | F14 || align=left | Passed || 7 || 1 || 2 || 5 ||  || A || S || R || S || R || I || N || I || N || O || A || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 12 || 4 || 14 ||  || 0 || 21 || 2
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/Abd-William M. Connolley/Proposed_decision#Discretionary sanctions|Discretionary sanctions]] || align=left | R1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || S || S || R || S || R || I || N || I || N || S || S || S || S || N || S1 || S || S ||  || 6 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 || 5 || 4 || 14 ||  || 0 || 21 || 3
 |-
@@ -1138,15 +1139,15 @@ Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#Arbitration in dispute resolution|Arbitration in dispute resolution]] || align=left | P10 || align=left | Passed || 5 || 2 || 3 || 5 ||  || R || R || A || A ||  || S || N || S || R || A || R || S || S || N || O || O || S1 ||  ||  ||  || 4 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 9 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Blackâ€™s edit-warring and block log|A Man In Blackâ€™s edit-warring and block log]] || align=left | F1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R || S || S || N || S || S || S1 ||  ||  ||  || 8 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In BlackÕs edit-warring and block log|A Man In BlackÕs edit-warring and block log]] || align=left | F1 || align=left | Passed || 10 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R || S || S || N || S || S || S1 ||  ||  ||  || 8 || 7 ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Black-Ikip involvement|A Man In Black-Ikip involvement]] || align=left | F2 || align=left | Failed* || 7 || 1 || 1 || 6 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || O || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#Disputes between A Man In Black and Ikip|Disputes between A Man In Black and Ikip]] || align=left | F2.1 || align=left | Passed || 8 || 0 || 1 || 6 ||  || R || R || A || S ||  ||  || N || S || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  ||  ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Blackâ€™s block of Ikip|A Man In Blackâ€™s block of Ikip]] || align=left | F3 || align=left | Failed* || 7 || 0 || 2 || 5 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || A || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In BlackÕs block of Ikip|A Man In BlackÕs block of Ikip]] || align=left | F3 || align=left | Failed* || 7 || 0 || 2 || 5 ||  || R || R || A ||  ||  || S || N || S || R || S || R || S || S || N || S || A || S1 ||  ||  ||  || 8 ||  ||  || 1 ||  || 9 ||  || 1 ||  || 1 || 4 ||  || 9 || 1 || 0
 |-
-| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In Blackâ€™s block of Ikip|A Man In Blackâ€™s block of Ikip]] || align=left | F3.1 || align=left | Passed || 8 || 1 || 1 || 6 ||  || R || R || A || S ||  || S || N || O || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  || 0 ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
+| align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man In BlackÕs block of Ikip|A Man In BlackÕs block of Ikip]] || align=left | F3.1 || align=left | Passed || 8 || 1 || 1 || 6 ||  || R || R || A || S ||  || S || N || O || R || S1 || R || S || S || N || S || S || S ||  ||  ||  || 8 || 7 ||  || 0 ||  || 9 ||  || 0 ||  || 5 || 3 ||  || 8 || 0 || 0
 |-
 | align="left" | [[Wikipedia:Arbitration/Requests/Case/A Man In Black/Proposed_decision#A Man in Black's blocks of Jtrainor and MalikCarr|A Man in Black's blocks of Jtrainor and MalikCarr]] || align=left | F3A || align=left | Passed || 8 || 0 || 0 || 6 ||  || R || R || S || S ||  || S || N || S || R || S || R ||  ||  || N || S1 || S || S ||  ||  ||  || 4 || 0 ||  || 0 ||  || 0 ||  || 4 ||  ||  ||  ||  || 0 || 2 || 1
 |-
@@ -2950,8 +2951,7 @@ Proposals: 1029; passed: 759 (74%); failed: 270 (26%).
 <!-- end proposals table 2009 only -->
 |-
 | colspan=44 | 
-<!-- begin proposals summary 2009 only -->
-Proposals: 1001; passed: 734 (73%); failed: 267 (27%)
+<!-- begin proposals summary 2009 only -->Proposals: 1001; passed: 734 (73%); failed: 267 (27%).
 <!-- end proposals summary 2009 only -->
 |}
 
@@ -3022,8 +3022,7 @@ Proposals: 1001; passed: 734 (73%); failed: 267 (27%)
 <!-- end proposals table 2009 2008 -->
 |-
 | colspan=55 | 
-<!-- begin proposals summary 2009 2008 -->
-Proposals: 28; passed 25 (89%); failed 3 (11%) 
+<!-- begin proposals summary 2009 2008 -->Proposals: 28; passed: 25 (89%); failed: 3 (11%).
 <!-- end proposals summary 2009 2008 -->
 |}
 
