@@ -359,12 +359,26 @@ sub gen_proposals_stats{
     my $table_text = get_text_between_tags($text, $beg_table_tag,
                                            $end_table_tag);
 
+    # This table has a funny entry of "Failed*" where it should be "Failed".
+    # That confuses the bot.
+    $table_text =~ s/Failed\*/Failed/g;
+
     # Fix odd stuff in this table before proceeding
     $table_text =~
        s/(\!\s*colspan\s*=\s*2.*?)(\n)/proc_proposals_description($1) . $2/eg;
 
+    # Compute the summary for the current sction
+    my $beg_sum_tag = "<!-- begin $type summary $year -->";
+    my $end_sum_tag = "<!-- end $type summary $year -->";
+
+    my $curr_table = parse_wiki_table($table_text); # current table
+
+    # summary for the current section
+    $text = compute_proposals_summary($curr_table, $text,
+                                      $beg_sum_tag, $end_sum_tag);
+    
     $table = merge_tables( $table,                       # tables so far
-                           parse_wiki_table($table_text) # current table
+                           $curr_table                   # current table
                          );
   }
 
@@ -396,8 +410,11 @@ sub gen_proposals_stats{
   
   } # End iterating over years
 
-  # Compute the summary as well
-  #$text = compute_proposals_summary($table, $text);
+  # Compute the summary for the combined section
+  my $beg_sum_tag = "<!-- begin proposals summary all -->";
+  my $end_sum_tag = "<!-- end proposals summary all -->";
+
+  $text = compute_proposals_summary($table, $text, $beg_sum_tag, $end_sum_tag);
   
   return $text;
 }
@@ -491,7 +508,7 @@ sub compute_requests_summary {
 
   my %disp_count;
   my $total = count_values($disp, $disp_names,  # inputs
-                           \%disp_count          # output
+                           \%disp_count         # output
                           );
  
   my $summary = form_requests_summary($total, $average, $total,
@@ -757,6 +774,37 @@ sub compute_cases_summary{
   return $text;
 }
 
+sub compute_proposals_summary{
+
+  my $table       = shift;
+  my $text        = shift;
+  my $beg_sum_tag = shift;
+  my $end_sum_tag = shift;
+  
+  my $proposals     = $table->{"Disp"};
+  my $nProposals    = scalar(@$proposals);
+
+  my $values = ["Passed", "Failed"];
+  my %count;
+  my $total  = count_values($proposals, $values, # inputs
+                            \%count              # output
+                           );
+
+  my ($passed, $failed, $pp, $fp);
+  $passed = $count{"Passed"};
+  $failed = $count{"Failed"};
+  $pp     = percentage    ($passed, $nProposals);
+  $fp     = percentage    ($failed, $nProposals);
+  
+  my $summary =
+     "Proposals: $nProposals; passed: $passed ($pp); failed: $failed ($fp).\n"; 
+
+  $text = put_text_between_tags($text, $summary,
+                                $beg_sum_tag, $end_sum_tag);
+
+  return $text;
+}
+
 sub get_arbs_list {
 
   # Get arbitrators for every year involved
@@ -1009,8 +1057,9 @@ sub parse_other_table_rows{
     exit(0);
   }
 
-  $row =~ s/^\|.*?\|\s*//g; # strip alignment info
-
+  $row =~ s/\|\s*align\s*=\s*.*?\|/\|/ig; # strip alignment info
+  $row =~ s/^\s*\|\s*//g;                 # strip markup at the beginning
+  
   my @cells = split(/\|\|/, $row);
   foreach my $cell (@cells){
     $cell =~ s/^\s*//g;
