@@ -137,9 +137,9 @@ sub gen_requests_stats{
     }elsif ($type eq "clarification"){
       
       $disp_names  = ["Declined", "Clarification",
-                      "Motion",   "Withdrawn"];
+                      "Motion",   "Withdrawn", "Removed"];
       $disp_legend = ["declined", "disposed by clarification",
-                      "disposed by motion", "withdrawn"];
+                      "disposed by motion", "withdrawn", "removed without comment"];
       
     }else{
       print "Unknown request type\n";
