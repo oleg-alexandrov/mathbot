@@ -9,6 +9,7 @@ use lib '../modules'; # path to perl modules
 require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
 require 'bin/identify_redlinks.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
+$| = 1; # flush the buffer each line
 
 MAIN: {
   my ($text, $sleep, $attempts, $cats_file, $new_cats_file, $chunk, @chunks, $bottom, $separator);
