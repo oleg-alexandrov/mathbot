@@ -8,8 +8,6 @@
 *-algebra
 *-autonomous category
 *-regular semigroup
--2 (number)
--yllion
 /dev/zero
 0 (number)
 0,1-simple lattice
@@ -172,6 +170,7 @@
 2-group
 2-opt
 2-sided
+2-transitive group
 2-valued morphism
 20 (number)
 200 (number)
@@ -421,7 +420,6 @@ A Mathematical Theory of Communication
 A Mathematician's Apology
 A Million Random Digits with 100,000 Normal Deviates
 A New Era of Thought
-A New Interpretation of Odd Magic Squares in the Lo Shu format
 A Requiem for Homo Sapiens
 A Symbolic Analysis of Relay and Switching Circuits
 A System of Logic
@@ -446,6 +444,7 @@ AGM method
 AKS primality test
 AMPL
 ANOVA-simultaneous component analysis
+AODE
 AP Statistics
 APMonitor
 ARGUS distribution
@@ -454,6 +453,7 @@ ATLAS of Finite Groups
 ATS theorem
 AUSM
 AWM/MAA Falconer Lecturer
+Aanderaa–Karp–Rosenberg conjecture
 Abacus
 Abacus logic
 Abacus system
@@ -533,6 +533,7 @@ Abstract structure
 Abstract variety
 Abstraction (mathematics)
 Abstraction model checking
+Abu Abdallah Yaish ibn Ibrahim ibn Yusuf ibn Simak al-Umawi
 Abu-Mahmud al-Khujandi
 Abundant number
 Abuse of notation
@@ -714,7 +715,6 @@ Algebra of sets
 Algebra over a field
 Algebra representation
 Algebra tile
-Algebraic (logic)
 Algebraic Geometry (book)
 Algebraic K-theory
 Algebraic Riccati equation
@@ -726,6 +726,7 @@ Algebraic combinatorics
 Algebraic connectivity
 Algebraic curve
 Algebraic cycle
+Algebraic definition
 Algebraic differential equation
 Algebraic differential geometry
 Algebraic element
@@ -748,6 +749,7 @@ Algebraic notation
 Algebraic number
 Algebraic number field
 Algebraic number theory
+Algebraic sentence
 Algebraic set
 Algebraic signal processing
 Algebraic solution
@@ -756,6 +758,7 @@ Algebraic stack
 Algebraic statistics
 Algebraic structure
 Algebraic surface
+Algebraic theory
 Algebraic topology
 Algebraic topology (object)
 Algebraic torus
@@ -776,6 +779,7 @@ Algorithm examples
 Algorithmic Lovász local lemma
 Algorithmic Number Theory Symposium
 Algorithmic inference
+Algorithmic probability
 Algorithmic version for Szemerédi regularity partition
 Algorithms for calculating variance
 Alignments of random points
@@ -907,6 +911,7 @@ Andronov–Pontryagin criterion
 André plane
 André–Quillen cohomology
 Andy Murray's career statistics
+And–or tree
 Angel problem
 Anger function
 Angle
@@ -983,6 +988,7 @@ Antisymmetrizer
 Antithetic variates
 Antiunitary operator
 Antoine's necklace
+AnyLogic
 Anyon
 Anyonic Lie algebra
 Apartness relation
@@ -1158,6 +1164,7 @@ Asaṃkhyeya
 Ascendant subgroup
 Ascending chain condition
 Ascending chain condition on principal ideals
+Ascending power numbers
 Ascertainment bias
 Ascii85
 Asian Pacific Mathematics Olympiad
@@ -1198,6 +1205,7 @@ Asymptotic expansion
 Asymptotic theory
 Asymptotically flat spacetime
 Asymptotology
+Asynchronous logic
 Atan2
 Atiyah–Bott fixed-point theorem
 Atiyah–Hirzebruch spectral sequence
@@ -1384,6 +1392,7 @@ Baker's map
 Baker–Campbell–Hausdorff formula
 Bakhshali manuscript
 Bak–Tang–Wiesenfeld sandpile
+Balanced boolean function
 Balanced prime
 Balanced repeated replication
 Balanced set
@@ -1474,6 +1483,7 @@ Base diameter
 Base flow (random dynamical systems)
 Base locus
 Base rate
+Base ten blocks
 Basel problem
 Basic Linear Algebra Subprograms
 Basic hypergeometric series
@@ -1559,6 +1569,7 @@ Benford's law
 Benjamin Graham formula
 Benjamin–Bona–Mahony equation
 Benjamin–Ono equation
+Bent function
 Bentley–Ottmann algorithm
 Benz plane
 Beremiz Samir
@@ -1613,6 +1624,7 @@ Besicovitch covering theorem
 Besov space
 Bessel function
 Bessel polynomials
+Bessel potential
 Bessel process
 Bessel's correction
 Bessel's inequality
@@ -1639,6 +1651,7 @@ Beverton–Holt model
 Beyer Chair of Applied Mathematics
 Beziergon
 Bhaskara's lemma
+Bhaskaracharya Pratishthana
 Bhatia–Davis inequality
 Bhattacharyya distance
 Bi-directional delay line
@@ -1820,6 +1833,7 @@ Bitruncated 120-cell
 Bitruncated 24-cell
 Bitruncated 5-cell
 Bitruncated cubic honeycomb
+Bitruncated hexateron
 Bitruncated tesseract
 Bitruncation
 Bitwise operation
@@ -2179,11 +2193,13 @@ Bézout's theorem
 Bôcher Memorial Prize
 Bôcher's theorem
 Büchi automaton
+Büchi's Problem
 Bühlmann model
 C closed subgroup
 C normal subgroup
 C space
 C*-algebra
+C-K Theory
 C-minimal theory
 C-number
 C-semiring
@@ -2210,7 +2226,6 @@ CR manifold
 CW complex
 CYK algorithm
 CaRMetal
-Cabal (set theory)
 Cabibbo–Kobayashi–Maskawa matrix
 Cabinet projection
 Cable knot
@@ -2302,6 +2317,7 @@ Cantellated 24-cell
 Cantellated 5-cell
 Cantellated 600-cell
 Cantellated cubic honeycomb
+Cantellated hexateron
 Cantellated tesseract
 Cantellation (geometry)
 Cantitruncated 120-cell
@@ -2399,6 +2415,7 @@ Cassini oval
 Casson handle
 Casson invariant
 Castelnuovo surface
+Castelnuovo–Mumford regularity
 Castelnuovo–de Franchis theorem
 Casting out nines
 Casus irreducibilis
@@ -2755,6 +2772,7 @@ Circular points at infinity
 Circular sector
 Circular segment
 Circular shift
+Circular surface
 Circular symmetry
 Circular-arc graph
 Circulation problem
@@ -3157,6 +3175,7 @@ Complex mexican hat wavelet
 Complex multiplication
 Complex network
 Complex network zeta function
+Complex normal distribution
 Complex number
 Complex plane
 Complex polygon
@@ -3407,6 +3426,7 @@ Conjugacy problem
 Conjugate (algebra)
 Conjugate Fourier series
 Conjugate closure
+Conjugate diameters
 Conjugate element (field theory)
 Conjugate gradient method
 Conjugate index
@@ -3433,6 +3453,7 @@ Connected space/Proofs
 Connected sum
 Connectedness
 Connectedness locus
+Connection (algebraic framework)
 Connection (mathematics)
 Connection (principal bundle)
 Connection (vector bundle)
@@ -3497,7 +3518,6 @@ Contact dynamics
 Contact geometry
 Contact process (mathematics)
 Contact type
-Containment hierarchy
 Containment order
 Content (algebra)
 Content (measure theory)
@@ -3763,7 +3783,6 @@ Covering relation
 Covering set
 Covering space
 Covering system
-Coversine
 Cox process
 Cox's theorem
 Cox-Zucker machine
@@ -3792,6 +3811,7 @@ Credible interval
 Crelle's Journal
 Cremona group
 Crepant resolution
+Crew scheduling
 Criterion validity
 Critical graph
 Critical group
@@ -3948,7 +3968,6 @@ Cyclic negation
 Cyclic number
 Cyclic order
 Cyclic permutation
-Cyclic permutation of integer
 Cyclic quadrilateral
 Cyclic redundancy check
 Cyclic symmetries
@@ -4400,7 +4419,7 @@ Dimensional analysis
 Dimensional metrology
 Dimensional operator
 Dimensional regularization
-Dimensions
+Dimensions (animation)
 Diminished rhombicosidodecahedron
 Dinatural transformation
 Dini derivative
@@ -4431,6 +4450,7 @@ Direct limit
 Direct limit of groups
 Direct linear transformation
 Direct material variance
+Direct method in calculus of variations
 Direct multiple shooting method
 Direct product
 Direct proof
@@ -4700,9 +4720,11 @@ Dowker space
 Dowling geometry
 Dozen
 Dragon curve
+Dragon's Eye (symbol)
 Drawing of lots
 Drawing straws
 Drazin inverse
+Drift rate
 Drinfel'd module
 Du Bois singularity
 Du Val singularity
@@ -4740,7 +4762,7 @@ Dudeney number
 Dudley's theorem
 Duffing equation
 Duffing map
-Duggan-Schwartz theorem
+Duggan–Schwartz theorem
 Duhamel's integral
 Duhamel's principle
 Duistermaat–Heckman formula
@@ -4783,6 +4805,7 @@ Dynamic network analysis
 Dynamic programming
 Dynamic rectangle
 Dynamic relaxation
+Dynamic simulation
 Dynamic time warping
 Dynamical billiards
 Dynamical system
@@ -4828,6 +4851,7 @@ Ecological correlation
 Ecological fallacy
 Econometric Theory
 Econometrica
+Economic epidemiology
 Eddy covariance
 Edge (geometry)
 Edge chromatic number
@@ -4856,6 +4880,7 @@ Edmonds–Karp algorithm
 Educational Studies in Mathematics
 Edyth May Sliffe Award
 Effect size
+Effective Polish space
 Effective action
 Effective descriptive set theory
 Effective dimension
@@ -4920,12 +4945,12 @@ Electron-longitudinal acoustic phonon interaction
 Electronic Journal of Combinatorics
 Element (category theory)
 Element (mathematics)
-Elementary (logic)
 Elementary abelian group
 Elementary algebra
 Elementary amenable group
 Elementary arithmetic
 Elementary class
+Elementary definition
 Elementary divisors
 Elementary equivalence
 Elementary event
@@ -4936,10 +4961,12 @@ Elementary matrix
 Elementary operations
 Elementary proof
 Elementary reflector
+Elementary sentence
 Elementary symmetric mean
 Elementary symmetric polynomial
+Elementary theory
 Elements of Algebra
-Eleusis (game)
+Eleusis (card game)
 Elevation (view)
 Elevator paradox
 Elias delta coding
@@ -5290,7 +5317,7 @@ Euler–Mascheroni constant
 Euler–Poisson–Darboux equation
 Euler–Rodrigues parameters
 Euler–Tricomi equation
-Eureka (magazine)
+Eureka (University of Cambridge magazine)
 European Congress of Mathematics
 European Journal of Combinatorics
 European Mathematical Society
@@ -5299,7 +5326,6 @@ European numerals
 Eutactic star
 Evacuation process simulation
 Evaluating sums
-Evasiveness conjecture
 Even and odd functions
 Even and odd ordinals
 Even code
@@ -5489,7 +5515,7 @@ FK-space
 FKG inequality
 FLAME clustering
 FNN algorithm
-FOIL rule
+FOIL method
 FSU Young Scholars Program
 FTCS scheme
 FWL theorem
@@ -6189,10 +6215,10 @@ Gal's accurate tables
 Galerkin method
 Galilean transformation
 Galileo's paradox
-Gall-Peters projection
 Gallery of curves
 Gallery of named graphs
 Galley division
+Gall–Peters projection
 Galois cohomology
 Galois connection
 Galois extension
@@ -6453,6 +6479,7 @@ Geometry Festival
 Geometry and topology
 Geometry of interaction
 Geometry of numbers
+Geometry of roots of real polynomials
 Geometry processing
 Geometry template
 George Szekeres Medal
@@ -6612,6 +6639,7 @@ Gosset 3 31 honeycomb
 Gosset 4 21 polytope
 Goursat tetrahedron
 Goursat's lemma
+Grabcut
 Graceful labeling
 Grad (angle)
 Grad-Shafranov equation
@@ -6620,6 +6648,7 @@ Graded C*-algebra
 Graded Lie algebra
 Graded algebra
 Graded category
+Graded manifold
 Graded poset
 Graded vector space
 Gradient
@@ -6686,7 +6715,6 @@ Graph theory
 Graph toughness
 Graph traversal
 Graphical comparison of musical scales and mathematical progressions
-Graphical methods of finding polynomial roots
 Graphical model
 Graphical projection
 Grassmann number
@@ -6766,7 +6794,6 @@ Greatest common denominator
 Greatest common divisor
 Greatest common divisor of two polynomials
 Greatest element
-Greatest fixed point
 Greedoid
 Greedy Nim
 Greedy algorithm
@@ -6907,6 +6934,7 @@ Gödel number
 Gödel numbering for sequences
 Gödel's completeness theorem
 Gödel's incompleteness theorems
+Gödel's β function
 Gödel, Escher, Bach
 Gödel–Gentzen negative translation
 Gömböc
@@ -7031,6 +7059,7 @@ Happy number
 Happy prime
 Harada-Norton group
 Harald Ganzinger
+Haran's diamond theorem
 Harary's generalized tic-tac-toe
 Hard hexagon model
 Hardness of approximation
@@ -7111,6 +7140,7 @@ Hausdorff measure
 Hausdorff moment problem
 Hausdorff paradox
 Hausdorff space
+Hausdorff–Young inequality
 Hausman test
 Haven (graph theory)
 Haversine formula
@@ -7148,6 +7178,7 @@ Heilbronn triangle problem
 Heine's identity
 Heine–Borel theorem
 Heine–Cantor theorem
+Heinz Hopf Prize
 Heinz mean
 Heisenberg group
 Heisenberg model
@@ -7294,6 +7325,7 @@ Hidden semi-Markov model
 Hidden subgroup problem
 Hierarchical Bayes model
 Hierarchical RBF
+Hierarchical clustering of networks
 Hierarchical constraint satisfaction
 Hierarchical hidden Markov model
 Hierarchical linear modeling
@@ -7449,7 +7481,7 @@ Hitting time
 Hjalmar Ekdal topology
 Hjelmslev transformation
 Hjelmslev's theorem
-Hjulstrøm curve
+Hjulström curve
 HoDoMS
 Hobbes–Wallis controversy
 Hobby–Rice theorem
@@ -7950,6 +7982,7 @@ Infinite descending chain
 Infinite descent
 Infinite divisibility
 Infinite divisibility (probability)
+Infinite group
 Infinite loop
 Infinite monkey theorem
 Infinite monkey theorem in popular culture
@@ -8089,7 +8122,6 @@ Integration by parts
 Integration by parts operator
 Integration by reduction formulae
 Integration by substitution
-Integration point
 Integration using Euler's formula
 Integration using parametric derivatives
 Integrator
@@ -8159,6 +8191,7 @@ International Workshops on Lattice QCD and Numerical Analysis
 Interpolation
 Interpolation (computer programming)
 Interpolation space
+Interpolation theorem
 Interpretability
 Interpretation (logic)
 Interpretation (model theory)
@@ -8192,9 +8225,9 @@ Intrinsic metric
 Intrinsic random event
 Introductio in analysin infinitorum
 Introduction to Arithmetic
+Introduction to Boolean algebra
 Introduction to Commutative Algebra
 Introduction to Mathematical Philosophy
-Introduction to boolean algebra
 Introduction to systolic geometry
 Intuitionism
 Intuitionistic logic
@@ -8354,6 +8387,7 @@ Isserlis Gaussian moment theorem
 Italian Mathematical Union
 Italian school of algebraic geometry
 Item tree analysis
+Item-total correlation
 Iterated Hilbert Transform
 Iterated binary operation
 Iterated function
@@ -8730,6 +8764,7 @@ Knot tabulation
 Knot theory
 Knot thickness
 Knots and graphs
+Knots in Washington
 Knuth's up-arrow notation
 Knuth–Bendix completion algorithm
 Knödel number
@@ -8741,7 +8776,7 @@ Kochen-Specker theorem
 Kodaira dimension
 Kodaira embedding theorem
 Kodaira vanishing theorem
-Koebe 1/4 theorem
+Koebe quarter theorem
 Kolakoski sequence
 Kolgomorov's inequality
 Kolmogorov backward equation
@@ -8795,6 +8830,7 @@ Krohn–Rhodes theory
 Kronecker delta
 Kronecker limit formula
 Kronecker product
+Kronecker substitution
 Kronecker symbol
 Kronecker's lemma
 Kronecker's sigma function
@@ -8860,7 +8896,7 @@ L'Hôpital's rule
 L(R)
 L-BFGS
 L-function
-L-moments
+L-moment
 L-notation
 L-system
 L-theory
@@ -8910,6 +8946,7 @@ Lagrangian and Eulerian specification of the flow field
 Lagrangian foliation
 Lagrangian mechanics
 Lagrangian relaxation
+Lagrangian system
 Laguerre form
 Laguerre polynomials
 Laguerre's method
@@ -8946,6 +8983,7 @@ Lanczos tensor
 Landau distribution
 Landau prime ideal theorem
 Landau set
+Landau's algorithm
 Landau's constants
 Landau's function
 Landau's problems
@@ -9497,6 +9535,7 @@ List of integrals of logarithmic functions
 List of integrals of rational functions
 List of integrals of trigonometric functions
 List of integration and measure theory topics
+List of isotoxal polyhedra and tilings
 List of knapsack problems
 List of knot theory topics
 List of large cardinal properties
@@ -9505,6 +9544,7 @@ List of letters used in mathematics and science
 List of limits
 List of linear algebra topics
 List of logarithmic identities
+List of logic topics
 List of logicians
 List of manifolds
 List of mathematical abbreviations
@@ -9572,9 +9612,10 @@ List of numerical analysis topics
 List of numerical computational geometry topics
 List of numerical libraries
 List of operators
-List of order topics
+List of order theory topics
 List of partial differential equation topics
 List of partition topics
+List of perfect numbers
 List of permutation topics
 List of planar symmetry groups
 List of polygons, polyhedra and polytopes
@@ -9591,7 +9632,6 @@ List of real analysis topics
 List of recreational number theory topics
 List of regular polytopes
 List of representation theory topics
-List of rotational symmetry polyhedral sets
 List of rules of inference
 List of scientific journals in mathematics
 List of scientific journals in mathematics education
@@ -9613,6 +9653,7 @@ List of surfaces
 List of terms relating to algorithms and data structures
 List of textbooks in statistical mechanics
 List of theorems
+List of topics in mathematics
 List of topics named after Alfred Tarski
 List of topics named after Carl Friedrich Gauss
 List of topics named after Hermann Weyl
@@ -9653,6 +9694,7 @@ Littlewood polynomial
 Littlewood's law
 Littlewood's three principles of real analysis
 Littlewood-Offord problem
+Littlewood–Paley theory
 Littlewood–Richardson rule
 Lituus
 Lituus (mathematics)
@@ -9684,6 +9726,7 @@ Local regression
 Local ring
 Local search (optimization)
 Local system
+Local tangent space alignment
 Local time (mathematics)
 Local trace formula
 Local zeta-function
@@ -9693,6 +9736,7 @@ Localization of a category
 Localization of a module
 Localization of a ring
 Localization of a topological space
+Localization theorem
 Locally Hausdorff space
 Locally compact group
 Locally compact quantum group
@@ -9701,6 +9745,7 @@ Locally connected space
 Locally constant function
 Locally convex topological vector space
 Locally cyclic group
+Locally decodable
 Locally discrete collection
 Locally finite collection
 Locally finite group
@@ -10079,6 +10124,7 @@ Master equation
 Master theorem
 Matched filter
 Matching
+Matching (statistics)
 Matching distance
 Matching number
 Matching pursuit
@@ -10224,6 +10270,7 @@ Matrix congruence
 Matrix decomposition
 Matrix determinant lemma
 Matrix differential equation
+Matrix equivalence
 Matrix exponential
 Matrix function
 Matrix grammar
@@ -10695,6 +10742,7 @@ Monge cone
 Monge equation
 Monge's theorem
 Monge–Ampère equation
+Mongolian numerals
 Monic
 Monk's formula
 Monkey saddle
@@ -10839,7 +10887,6 @@ Moyal bracket
 Moyal product
 Mrs. Miniver's problem
 Mu Alpha Theta
-Mu Alpha Theta National Log 1 Contest
 Mu calculus
 Muckenhoupt weights
 Mueller calculus
@@ -10887,7 +10934,9 @@ Multiphysics Methods Group
 Multiple (mathematics)
 Multiple comparisons
 Multiple correlation
+Multiple correspondence analysis
 Multiple cross products
+Multiple description coding
 Multiple discriminant analysis
 Multiple edges
 Multiple integral
@@ -10924,6 +10973,7 @@ Multiplier (Fourier analysis)
 Multiplier algebra
 Multipliers and centralizers (Banach spaces)
 Multiply perfect number
+Multiply transitive group
 Multiply-accumulate
 Multiply-with-carry
 Multipole expansion
@@ -11083,7 +11133,7 @@ Navier–Stokes equations
 Navier–Stokes existence and smoothness
 Navigrid
 Naylor Prize and Lectureship
-Near set
+Near sets
 Near-field (mathematics)
 Near-miss Johnson solid
 Near-semiring
@@ -11670,6 +11720,7 @@ Orbital momentum vector
 Orbital state vectors
 Order (graph theory)
 Order (group theory)
+Order (mathematics)
 Order (number theory)
 Order (ring theory)
 Order dimension
@@ -11768,7 +11819,6 @@ Orthonormal frame
 Orthonormal function system
 Orthonormality
 Orthostochastic matrix
-Orthotomic
 Ortsbogen theorem
 Oscillating reciprocation
 Oscillation
@@ -11795,15 +11845,25 @@ Outer billiard
 Outer measure
 Outer product
 Outlier
+Outline of Boolean algebra
+Outline of abstract algebra
 Outline of algebra
 Outline of arithmetic
 Outline of calculus
 Outline of category theory
+Outline of circles
+Outline of combinatorial computational geometry
 Outline of combinatorics
+Outline of commutative algebra
 Outline of discrete mathematics
 Outline of geometry
-Outline of logic
-Outline of mathematics
+Outline of graph theory
+Outline of group theory
+Outline of linear algebra
+Outline of mathematical logic
+Outline of number theory
+Outline of order theory
+Outline of polynomials
 Outline of probability
 Outline of regression analysis
 Outline of statistics
@@ -11873,7 +11933,6 @@ Padovan sequence
 Padua points
 Padé approximant
 Padé table
-Page's law
 Page's trend test
 Paid survey
 Painlevé transcendents
@@ -12160,6 +12219,7 @@ Percentage
 Percentage point
 Percentile
 Percentile rank
+Percept (information technology)
 Perceptrons (book)
 Percolation
 Percolation theory
@@ -12191,6 +12251,7 @@ Periodic boundary conditions
 Periodic continued fraction
 Periodic function
 Periodic group
+Periodic matrix set
 Periodic point
 Periodic points of complex quadratic mappings
 Periodic sequence
@@ -12210,6 +12271,7 @@ Permutation graph
 Permutation group
 Permutation matrix
 Permutation pattern
+Permutation polynomial
 Permutohedron
 Perpendicular
 Perpendicular axis theorem
@@ -12516,6 +12578,7 @@ Polyhedral combinatorics
 Polyhedral compound
 Polyhedral graph
 Polyhedral group
+Polyhedral pyramid
 Polyhedral space
 Polyhedron
 Polyhedron model
@@ -12673,12 +12736,13 @@ Poynting vector
 Practical number
 Pramana
 Pramāṇa-samuccaya
-Pre-Abelian category
+Pre-abelian category
 Pre-algebra
 Pre-measure
 Preadditive category
 Precalculus
 Precession
+Precision (statistics)
 Preclosure operator
 Preconditioner
 Predicate calculus
@@ -13074,6 +13138,7 @@ Pseudotriangle
 Pseudovector
 Pseudo–Anosov map
 Psi function
+Psi0(Omega omega)
 Psychological statistics
 Psychologism
 Ptolemy's theorem
@@ -13461,7 +13526,7 @@ Ramanujan theta function
 Ramanujan's congruences
 Ramanujan's lost notebook
 Ramanujan's sum
-Ramanujan-Nagell equation
+Ramanujan–Nagell equation
 Ramanujan–Petersson conjecture
 Ramanujan–Soldner constant
 Ramer-Douglas-Peucker algorithm
@@ -13566,7 +13631,7 @@ Ray transfer matrix analysis
 Rayleigh distribution
 Rayleigh quotient
 Rayleigh quotient iteration
-Rayleigh-Ritz method
+Rayleigh–Ritz method
 Raynaud surface
 Reachability
 Reaction–diffusion system
@@ -13654,6 +13719,7 @@ Redmond–Sun conjecture
 Reduced cost
 Reduced derivative
 Reduced homology
+Reduced product
 Reduced residue system
 Reduced ring
 Reduct
@@ -13724,6 +13790,7 @@ Regular ideal
 Regular isotopy
 Regular local ring
 Regular map
+Regular map (algebraic geometry)
 Regular map (graph theory)
 Regular matrix
 Regular measure
@@ -14065,6 +14132,7 @@ Root mean square
 Root mean square deviation
 Root mean square deviation (bioinformatics)
 Root mean square fluctuation
+Root of a function
 Root of unity
 Root system
 Root test
@@ -14119,6 +14187,7 @@ Row space
 Row vector
 Rowbottom cardinal
 Royal Statistical Society
+Rprop
 Rubik's Cube
 Rubik's Cube group
 Rubik's Revenge
@@ -14189,7 +14258,7 @@ SI prefix
 SIPTA
 SK-42 Reference System
 SKI combinator calculus
-SL2(R)
+SL₂(R)
 SNARK theorem prover
 SO(4)
 SO(5)
@@ -14287,6 +14356,7 @@ ScanIP
 Scatter matrix
 Scattering theory
 Scatterplot
+Scenario optimization
 Scene statistics
 Schaefer's dichotomy theorem
 Schanuel's conjecture
@@ -14336,6 +14406,7 @@ Schouten tensor
 Schouten–Nijenhuis bracket
 Schramm–Loewner evolution
 Schreier conjecture
+Schreier coset graph
 Schreier domain
 Schreier refinement theorem
 Schreier vector
@@ -14372,10 +14443,9 @@ Schutzenberger group
 Schwartz kernel theorem
 Schwartz set
 Schwartz space
-Schwartz-Bruhat function
+Schwartz–Bruhat function
 Schwartz–Zippel lemma
 Schwarz alternating method
-Schwarz formula
 Schwarz integral formula
 Schwarz lemma
 Schwarz reflection principle
@@ -14585,6 +14655,7 @@ Sequential analysis
 Sequential closure operator
 Sequential dynamical system
 Sequential estimation
+Sequential logic
 Sequential probability ratio test
 Sequential quadratic programming
 Sequential space
@@ -14724,7 +14795,7 @@ Siegel upper half-space
 Siegel zero
 Siegel's lemma
 Siegel's theorem on integral points
-Siegel-Tukey test
+Siegel–Tukey test
 Siegel–Walfisz theorem
 Sierpinski carpet
 Sierpinski number
@@ -14825,6 +14896,7 @@ Simulated annealing
 Simulation preorder
 Simultaneous equation model
 Simultaneous equations
+Simultaneous perturbation stochastic approximation
 Sinc function
 Sine and cosine transforms
 Sine wave
@@ -14947,7 +15019,7 @@ Small gross
 Small hexacronic icositetrahedron
 Small hexagonal hexecontahedron
 Small hexagrammic hexecontahedron
-Small icosacronic hexacontahedron
+Small icosacronic hexecontahedron
 Small icosicosidodecahedron
 Small icosihemidodecacron
 Small icosihemidodecahedron
@@ -15029,6 +15101,7 @@ Society for Industrial and Applied Mathematics
 Society for Mathematical Biology
 Society of Mathematicians, Physicists and Astronomers of Slovenia
 Société Mathématique de France
+Société de Mathématiques Appliquées et Industrielles
 Socle (mathematics)
 Soddy's hexlet
 Soft independent modelling of class analogies
@@ -15063,10 +15136,12 @@ Solving quadratic equations with continued fractions
 Solving the geodesic equations
 Solvmanifold
 Soma cube
+Sombrero function
 Somer-Lucas pseudoprime
 Sommerfeld expansion
 Sommerfeld identity
 Sommerfeld radiation condition
+Somos sequence
 Somos' quadratic recurrence constant
 Sophie Germain prime
 Sophie Germain's theorem
@@ -15116,6 +15191,7 @@ Specht's theorem
 Special affine group
 Special cases of Apollonius' problem
 Special classes of semigroups
+Special conformal transformation
 Special divisor
 Special functions
 Special linear group
@@ -15355,6 +15431,7 @@ Standardized rate
 Stanford University Mathematics Camp
 Stanine
 Stanley's reciprocity theorem
+Stanley-Reisner ring
 Stanley–Wilf conjecture
 Star (game)
 Star (graph theory)
@@ -15363,6 +15440,7 @@ Star domain
 Star height
 Star height problem
 Star number
+Star of David theorem
 Star polygon
 Star polyhedron
 Star product
@@ -15467,6 +15545,7 @@ Steinhaus theorem
 Steinhaus–Johnson–Trotter algorithm
 Steinhaus–Moser notation
 Steinitz exchange lemma
+Steinitz's theorem
 Steinmetz solid
 Steklov Institute of Mathematics
 Steklov function
@@ -15768,7 +15847,6 @@ Super-Poincaré algebra
 Super-Poulet number
 Super-logarithm
 Super-prime
-Super-root
 SuperPrime
 Superabundant number
 Superadditivity
@@ -15975,6 +16053,7 @@ Systoles of surfaces
 Systolic freedom
 Systolic geometry
 Sz.-Nagy's dilation theorem
+Szegő inequality
 Szegő kernel
 Szegő polynomial
 Szekeres snark
@@ -15989,6 +16068,7 @@ Szász–Mirakyan operator
 Séminaire Nicolas Bourbaki
 Séminaire Nicolas Bourbaki (1950–1959)
 Séminaire Nicolas Bourbaki (1960–1969)
+T(1) theorem
 T-duality
 T-group
 T-group (mathematics)
@@ -16528,6 +16608,7 @@ Transfer principle
 Transferable belief model
 Transfinite arithmetic
 Transfinite induction
+Transfinite interpolation
 Transfinite number
 Transform theory
 Transformation (geometry)
@@ -16556,6 +16637,7 @@ Transport function
 Transport of structure
 Transportation network (graph theory)
 Transportation theory
+Transposable integer
 Transpose
 Transpose graph
 Transposition (mathematics)
@@ -16720,6 +16802,7 @@ Truncated great dodecahedron
 Truncated great icosahedron
 Truncated hexagonal prismatic honeycomb
 Truncated hexagonal tiling
+Truncated hexateron
 Truncated icosahedron
 Truncated icosidodecahedron
 Truncated mean
@@ -16842,7 +16925,6 @@ UV fixed point
 Ugly duckling theorem
 Ulam numbers
 Ulam spiral
-Ultra exponential function
 Ultraconnected space
 Ultrafilter
 Ultrafinitism
@@ -17017,6 +17099,7 @@ Unknot
 Unknotting problem
 Unknown unknown
 Unlink
+Unmatched count
 Unreasonable ineffectiveness of mathematics
 Unrooted tree path lengths
 Unsolved Problems in Number Theory
@@ -17055,6 +17138,7 @@ Vague topology
 Valentin Vornicu
 Valiant–Vazirani theorem
 Validity (statistics)
+Valknut
 Valuation (algebra)
 Valuation (logic)
 Valuation (mathematics)
@@ -17106,7 +17190,7 @@ Variational Monte Carlo
 Variational bicomplex
 Variational inequality
 Variational integrator
-Variational method (quantum mechanics)
+Variational method
 Variational perturbation theory
 Variational principle
 Variational vector field
@@ -17192,6 +17276,7 @@ Very large-scale neighborhood search
 Vesica piscis
 Vibrating string
 Vibrations of a circular drum
+Vicious circle principle
 Vickrey auction
 Vicsek fractal
 Vieta jumping
@@ -17275,6 +17360,7 @@ Voronoi tessellation
 Vortex
 Vortex dynamics
 Vortical
+Vorticity confinement
 Vorticity equation
 Vorticity tensor
 Voting paradox
@@ -17287,8 +17373,8 @@ Wagner congruence
 Wagstaff prime
 Wald test
 Wald's equation
-Wald-Wolfowitz runs test
 Waldhausen category
+Wald–Wolfowitz runs test
 Wall-Sun-Sun prime
 Wall-crossing
 Wallenius' noncentral hypergeometric distribution
@@ -17474,7 +17560,6 @@ Whittaker and Watson
 Whittaker model
 Whittaker–Shannon interpolation formula
 Whole number
-Wiart's triangle
 Wick product
 Wick rotation
 Wiedersehen pair
@@ -17514,7 +17599,6 @@ Wilkinson's polynomial
 Wilks Memorial Award
 Wilks' lambda distribution
 Will Rogers phenomenon
-William Floyd (mathematician)
 William Lowell Putnam Mathematical Competition
 Williams' p + 1 algorithm
 Willmore conjecture

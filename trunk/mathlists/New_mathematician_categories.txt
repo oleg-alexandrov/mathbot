@@ -12,6 +12,7 @@ Category:Austrian logicians
 Category:Belgian logicians
 Category:Brazilian logicians
 Category:Presidents of the Associação Brasileira de Estatística
+Category:British actuaries
 Category:British cryptographers
 Category:British logicians
 Category:Members of HM Government Statistical Service
@@ -43,7 +44,6 @@ Category:Bourbaki
 Category:Calculating prodigies
 Category:Fictional mathematicians
 Category:Lists of mathematicians
-Category:Mathematical chairs
 Category:Medieval mathematicians
 Category:Second Wranglers
 Category:Senior Wranglers
@@ -64,6 +64,7 @@ Category:7th-century mathematicians
 Category:8th-century mathematicians
 Category:9th-century mathematicians
 Category:Actuaries
+Category:Ballistics experts
 Category:Bioinformaticists
 Category:Biostatisticians
 Category:Cryptographers
@@ -81,6 +82,7 @@ Category:Icelandic mathematicians
 Category:Logicians by nationality
 Category:Pakistani mathematicians
 Category:Soviet mathematicians
+Category:Taiwanese mathematicians
 Category:Geometry educators
 Category:Niels Henrik Abel
 Category:Norwegian demographers
