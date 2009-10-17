@@ -15,6 +15,9 @@ MAIN: {
   my ($edit_summary, $list);
   my (%redlinks_hash);
   
+  # This line must be the first to print in a cgi script
+  print "Content-type: text/html\n\n";
+
   my $Editor=wikipedia_login();
   $sleep = 1; $attempts=10;
   $separator = '<!-- separator --> <!-- Please do not delete or modify this line, as that will confuse the bot. -->';
