@@ -24,7 +24,7 @@ MAIN: {
   @letters=("0-9", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
 
   # Files involved (they are many).
-  $list_of_categories='Wikipedia:WikiProject_Mathematics/List_of_mathematics_categories.wiki';
+  $list_of_categories='List_of_mathematics_categories.wiki';
   $log_file="User:Mathbot/Changes_to_mathlists.wiki";
 
   # The files with the .txt extension are local, they don't get submitted to Wikipedia.
