@@ -1,3 +1,11 @@
+soviet      - Soviet Union
+Colombian   - Colombia
+Cuban       - Cuba
+Icelandic   -  Iceland
+Pakistani   - Pakistan
+Taiwanese   - Taiwan
+Norwegian   - Norway
+
 belgian - Belgium
 cameroonian - Cameroon
 irish - Ireland
