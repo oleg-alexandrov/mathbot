@@ -265,6 +265,7 @@
 360_%28number%29
 363_%28number%29
 365_%28number%29
+366_geometry
 369_%28number%29
 37_%28number%29
 38_%28number%29
@@ -1377,6 +1378,7 @@ Balancing_domain_decomposition
 Balayage_operator
 Baldwin%e2%80%93Lomax_model
 Balian%e2%80%93Low_theorem
+Balinski%27s_theorem
 Balkan_Mathematical_Olympiad
 Ball_%28mathematics%29
 Baltic_Way_%28mathematical_contest%29
@@ -7479,7 +7481,6 @@ Index_of_fractal-related_articles
 Index_of_information_theory_articles
 Index_of_logarithm_articles
 Index_of_logic_articles
-Index_of_mathematics_articles
 Index_of_statistics_articles
 Index_of_wave_articles
 Index_set
@@ -8920,6 +8921,7 @@ List_of_algorithm_general_topics
 List_of_algorithms
 List_of_amateur_mathematicians
 List_of_axioms
+List_of_basic_algebra_topics
 List_of_books_in_computational_geometry
 List_of_calculus_topics
 List_of_canonical_coordinate_transformations
@@ -9044,6 +9046,7 @@ List_of_mathematicians_%28X%29
 List_of_mathematicians_%28Y%29
 List_of_mathematicians_%28Z%29
 List_of_mathematicians_who_studied_chess
+List_of_mathematics_articles
 List_of_mathematics_articles_%280-9%29
 List_of_mathematics_articles_%28A%29
 List_of_mathematics_articles_%28B%29
@@ -10920,7 +10923,6 @@ Olami%e2%80%93Feder%e2%80%93Christensen_model
 Olimp%c3%adada_Brasileira_de_Matem%c3%a1tica
 Oloid
 Olympiade_Math%c3%a9matique_Belge
-Omar_Khayy%c3%a1m
 Omega_and_agemo_subgroup
 Omega_constant
 Omega_equation
@@ -11118,7 +11120,6 @@ Outer_automorphism_group
 Outer_billiard
 Outer_measure
 Outer_product
-Outline_of_algebra
 Outline_of_arithmetic
 Outline_of_calculus
 Outline_of_category_theory
@@ -13473,6 +13474,7 @@ Secant_line
 Secant_method
 Secant_variety
 Second_Hardy%e2%80%93Littlewood_conjecture
+Second_derivative
 Second_derivative_test
 Second_fundamental_form
 Second_generation_wavelet_transform
@@ -15453,6 +15455,7 @@ Trapezo-rhombic_dodecahedron
 Trapezohedron
 Trapezoid
 Trapezoidal_rule
+Traveling_tourist_problem
 Travelling_salesman_problem
 Tree_%28descriptive_set_theory%29
 Tree_%28graph_theory%29

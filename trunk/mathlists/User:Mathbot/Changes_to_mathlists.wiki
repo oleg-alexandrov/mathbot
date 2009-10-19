@@ -2,6 +2,18 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== October 18, 2009 ==
+
+:Removed [[Index of mathematics articles]] (is a redirect to [[List of mathematics articles]])
+:Removed [[Outline of algebra]] (is a redirect to [[List of basic algebra topics]])
+:Added   [[366 geometry]]
+:Added   [[Balinski's theorem]]
+:Added   [[List of basic algebra topics]]
+:Added   [[Second derivative]]
+:Added   [[Traveling tourist problem]]
+----
+: Mathematicians:added   [[Gareth Roberts (statistician)]]
+
 == October 17, 2009 ==
 
 :Removed [[Graphical methods of finding polynomial roots]] (is a redirect to [[Geometry of roots of real polynomials]])
@@ -2236,43 +2248,4 @@
 :Added   [[Āgamaḍambara]]
 ----
 : Mathematicians:removed [[Georgi Bonev]] (article deleted/does not exist)
-
-== September 3, 2009 ==
-
-:Removed [[Doubling map]] (is a redirect to [[Dyadic transformation]])
-:Removed [[Index of mathematics articles (A)]] (is a redirect to [[List of mathematics articles (A)]])
-:Removed [[Index of mathematics articles (B)]] (is a redirect to [[List of mathematics articles (B)]])
-:Removed [[Index of mathematics articles (C)]] (is a redirect to [[List of mathematics articles (C)]])
-:Removed [[Index of mathematics articles (D)]] (is a redirect to [[List of mathematics articles (D)]])
-:Removed [[Index of mathematics articles (E)]] (is a redirect to [[List of mathematics articles (E)]])
-:Removed [[Index of mathematics articles (F)]] (is a redirect to [[List of mathematics articles (F)]])
-:Removed [[Index of mathematics articles (G)]] (is a redirect to [[List of mathematics articles (G)]])
-:Removed [[Index of mathematics articles (H)]] (is a redirect to [[List of mathematics articles (H)]])
-:Removed [[Index of mathematics articles (I)]] (is a redirect to [[List of mathematics articles (I)]])
-:Removed [[Potsdam Miracle]] (is a redirect to [[State University of New York at Potsdam]])
-:Removed [[Rng (algebra)]] (is a redirect to [[Pseudo-ring]])
-:Removed [[Semicomputable Function]] (is a redirect to [[Semicomputable function]])
-:Added   [[Albertson conjecture]]
-:Added   [[Hájek–Le Cam convolution theorem]]
-:Added   [[J integral]]
-:Added   [[Jackson's theorem]]
-:Added   [[James–Stein estimator]]
-:Added   [[Janusz Brzozowski (computer scientist)]]
-:Added   [[Jarque–Bera test]]
-:Added   [[John J. O'Connor (mathematician)]]
-:Added   [[John Lucas (philosopher)]]
-:Added   [[Joint entropy]]
-:Added   [[Jordan algebra]]
-:Added   [[Journal of Official Statistics]]
-:Added   [[Pseudo-ring]]
-:Added   [[Semicomputable function]]
-:Added   [[State University of New York at Potsdam]]
-:Added   [[Unit Doublet]]
-:Added   [[Visual Detection of Imaginary Roots in a Parabola]]
-----
-: Mathematicians:removed [[Diego Lucio Rapoport]] (article deleted/does not exist)
-: Mathematicians:added   [[Lane P. Hughston]]
-: Mathematicians:added   [[Peter Aczel]]
-: Mathematicians:added   [[Robert Bryant]]
-: Mathematicians:added   [[Trygve Nagell]]
 

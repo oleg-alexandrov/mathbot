@@ -264,6 +264,7 @@
 360 (number)
 363 (number)
 365 (number)
+366 geometry
 369 (number)
 37 (number)
 38 (number)
@@ -1401,6 +1402,7 @@ Balancing domain decomposition
 Balayage operator
 Baldwin–Lomax model
 Balian–Low theorem
+Balinski's theorem
 Balkan Mathematical Olympiad
 Ball (mathematics)
 Ballpark estimate
@@ -7930,7 +7932,6 @@ Index of fractal-related articles
 Index of information theory articles
 Index of logarithm articles
 Index of logic articles
-Index of mathematics articles
 Index of statistics articles
 Index of wave articles
 Index set
@@ -9464,6 +9465,7 @@ List of algorithm general topics
 List of algorithms
 List of amateur mathematicians
 List of axioms
+List of basic algebra topics
 List of books in computational geometry
 List of calculus topics
 List of canonical coordinate transformations
@@ -11847,7 +11849,6 @@ Outer product
 Outlier
 Outline of Boolean algebra
 Outline of abstract algebra
-Outline of algebra
 Outline of arithmetic
 Outline of calculus
 Outline of category theory
@@ -14488,6 +14489,7 @@ Secant line
 Secant method
 Secant variety
 Second Hardy–Littlewood conjecture
+Second derivative
 Second derivative test
 Second fundamental form
 Second generation wavelet transform
@@ -16659,6 +16661,7 @@ Trapezohedron
 Trapezoid
 Trapezoidal rule
 Traveler's dilemma
+Traveling tourist problem
 Travelling salesman problem
 Tree (descriptive set theory)
 Tree (graph theory)
