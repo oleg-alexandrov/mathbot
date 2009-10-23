@@ -343,6 +343,7 @@ Aristarchus_of_Samos
 Aristotle
 Arjen_Lenstra
 Armand_Borel
+Armin_Shams
 Arnaud_Denjoy
 Arne_Beurling
 Arne_Meurman
@@ -387,6 +388,7 @@ Association_for_Women_in_Mathematics
 Athanasios_Papoulis
 Athanassios_S._Fokas
 Ath%c4%abr_al-D%c4%abn_al-Abhar%c4%ab
+Atila_Mert
 Atle_Selberg
 Attalus_of_Rhodes
 Attila_A%c5%9fkar
@@ -441,7 +443,6 @@ Benjamin_Gompertz
 Benjamin_Peirce
 Benjamin_Robins
 Beno_Eckmann
-Benoit_Pausader
 Beno%c3%aet_Mandelbrot
 Bent_Fuglede
 Beppo_Levi
@@ -1223,6 +1224,7 @@ Florence_Nightingale
 Florence_Nightingale_David
 Florentin_Smarandache
 Florian_Cajori
+Florian_Pop
 Florimond_de_Beaune
 Floris_Takens
 Floyd_Williams
@@ -2287,6 +2289,7 @@ John_Lennard-Jones
 John_Lennox
 John_Leslie_%28physicist%29
 John_Lighton_Synge
+John_Lott_%28mathematician%29
 John_M._Ball
 John_Machin
 John_Mackintosh_Howie
@@ -2859,6 +2862,7 @@ Martin_Ohm
 Martin_Wilhelm_Kutta
 Martin_Wilk
 Martin_van_den_Hove
+Martyn_Cundy
 Mary_Cartwright
 Mary_Celine_Fasenmyer
 Mary_Ellen_Rudin
@@ -3686,6 +3690,7 @@ Rudolf_Lipschitz
 Rudolf_Luneburg
 Rudolf_Wille
 Rudolph_Snellius
+Rufus_Bowen
 Ruslan_L._Stratonovich
 Ruth_Aaronson_Bari
 Ruth_Lawrence
@@ -4015,7 +4020,6 @@ Thoralf_Skolem
 Thorold_Gosset
 Thorvald_N._Thiele
 Thrasyllus_of_Mendes
-Three_Pillars_of_Chinese_Catholicism
 Thymaridas
 Th%c3%a9odore_Cornut
 Th%c3%a9odore_Moret
