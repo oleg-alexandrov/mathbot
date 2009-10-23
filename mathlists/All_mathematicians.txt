@@ -362,6 +362,7 @@ Aristarchus of Samos
 Aristotle
 Arjen Lenstra
 Armand Borel
+Armin Shams
 Arnaud Denjoy
 Arne Beurling
 Arne Meurman
@@ -408,6 +409,7 @@ Asclepius of Tralles
 Athanasios Papoulis
 Athanassios S. Fokas
 Athīr al-Dīn al-Abharī
+Atila Mert
 Atle Selberg
 Attalus of Rhodes
 Attila Aşkar
@@ -467,7 +469,6 @@ Benjamin Gompertz
 Benjamin Peirce
 Benjamin Robins
 Beno Eckmann
-Benoit Pausader
 Benoît Mandelbrot
 Bent Fuglede
 Beppo Levi
@@ -1302,6 +1303,7 @@ Florence Nightingale
 Florence Nightingale David
 Florentin Smarandache
 Florian Cajori
+Florian Pop
 Florimond de Beaune
 Floris Takens
 Floyd Williams
@@ -2420,6 +2422,7 @@ John Lennard-Jones
 John Lennox
 John Leslie (physicist)
 John Lighton Synge
+John Lott (mathematician)
 John M. Ball
 John Machin
 John Mackintosh Howie
@@ -3012,6 +3015,7 @@ Martin Ohm
 Martin Wilhelm Kutta
 Martin Wilk
 Martin van den Hove
+Martyn Cundy
 Mary Cartwright
 Mary Celine Fasenmyer
 Mary Ellen Rudin
@@ -3893,6 +3897,7 @@ Rudolf Luneburg
 Rudolf Wille
 Rudolph Snellius
 Rudranath Capildeo
+Rufus Bowen
 Ruslan L. Stratonovich
 Ruth Aaronson Bari
 Ruth Lawrence
