@@ -33,7 +33,7 @@ MAIN: {
     # Get the text from the Wikipedia server
     $sleep  = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
     $Editor = wikipedia_login("Mathbot");
-    $file   = "Wikipedia:Requests for arbitration/Statistics 2009";
+    $file   = "Wikipedia:Requests for arbitration/Statistics 2010";
     $text   = wikipedia_fetch($Editor, $file, $attempts, $sleep); 
     open(FILE, ">$local_file_in"); print FILE $text; close(FILE);
 
@@ -51,8 +51,8 @@ MAIN: {
 
     print '<br><br>Done updating ' .
        '<a href=\"http://en.wikipedia.org/wiki/' .
-          'Wikipedia:Requests_for_arbitration/Statistics_2009\">' .
-             'Wikipedia:Requests for arbitration/Statistics 2009</a>.<br>';
+          'Wikipedia:Requests_for_arbitration/Statistics_2010\">' .
+             'Wikipedia:Requests for arbitration/Statistics 2010</a>.<br>';
   }else{
     
     $local_file_out = "Statistics_2009_proc.txt";
@@ -69,7 +69,7 @@ sub gen_all_stats{
   
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
-  my $years      = ["2009 only", "2009 2008", "all"];
+  my $years      = ["2010 only", "2010 2009", "all"];
   my $arbs_list  = [ get_arbs_list($text, $years) ];
 
   # Section 1: the requests stats
@@ -449,8 +449,8 @@ sub parse_complete_requests_table_summaries {
   my $disp_names       = shift; # the types of values to summarize
   my $disp_legend      = shift; # the explanation of each value to summarize
   
-  # There are three summaries to complete: 2009 only ($count == 0),
-  # 2009 and 2008 ($count == 1), and the combined one ($count == 2).
+  # There are three summaries to complete: 2010 only ($count == 0),
+  # 2010 and 2009 ($count == 1), and the combined one ($count == 2).
   
   my ($table, @tables);
   
@@ -498,6 +498,10 @@ sub compute_requests_summary {
 
   my $requests   = $table->{"Request"};
   my $num_req    = scalar ( @$requests );
+  
+  if ($num_req == 0) {
+  	return "Requests: 0";
+  }	
 
   my $days       = $table->{"Days"};
   my $average    = find_average(@$days);
@@ -724,6 +728,17 @@ sub compute_motions_summary{
 
   my $motions     = $table->{"Motion"};
   my $nMotions    = scalar(@$motions);
+  
+  if ($nMotions == 0) {
+ 	 my $summary =
+   	  "\n* Publicly offered motions: 0.\n"; 
+	
+ 	 $text = put_text_between_tags($text, $summary,
+                                $beg_sum_tag, $end_sum_tag);
+  
+ 	 return $text;
+ 	}
+  	
 
   my $days        = $table->{"Days"};
   my $average     = find_average(@$days);
@@ -760,6 +775,16 @@ sub compute_cases_summary{
 
   my $cases     = $table->{"Case"};
   my $nCases    = scalar(@$cases);
+  
+  if ($nCases == 0) {
+  	 my $summary =
+   	  "\n* Publicly heard cases: 0.\n"; 
+
+ 	 $text = put_text_between_tags($text, $summary,
+                                $beg_sum_tag, $end_sum_tag);
+
+	  return ($text, 0);
+	}
 
   my $days        = $table->{"Days"};
   my $average     = find_average(@$days);
