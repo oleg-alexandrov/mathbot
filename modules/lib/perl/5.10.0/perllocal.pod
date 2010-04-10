@@ -86,3 +86,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Sat Apr 10 15:35:11 2010: C<Module> L<HTML::Parser|HTML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mathbot/public_html/wp/modules/share/perl/5.10.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.65>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
