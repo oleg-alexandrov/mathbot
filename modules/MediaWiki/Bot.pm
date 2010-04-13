@@ -227,7 +227,7 @@ sub login {
     my $self     = shift;
     my $editor   = shift;
     my $password = shift;
-    my $cookies  = ".perlwikipedia-$editor-cookies";
+    my $cookies  = ".mediawiki-bot-$editor-cookies";
     $self->{mech}->cookie_jar(
         { file => $cookies, autosave => 1 } );
     if ( !defined $password ) {
@@ -236,7 +236,7 @@ sub login {
         if ($cookies_exist) {
             $self->{mech}->{cookie_jar}->load($cookies);
             print "Loaded MediaWiki cookies from file $cookies\n" if $self->{debug};
-            $self->{api}->{ua}->{cookie_jar} = $self->{mech}->{cookie_jar};
+	    $self->{api}->{ua}->{cookie_jar} = $self->{mech}->{cookie_jar};
             return 0;
         } else {
             $self->{errstr} = "Cannot load MediaWiki cookies from file $cookies";
@@ -245,12 +245,12 @@ sub login {
         }
     }
 
-        my $res = $self->{api}->api( {
-                action=>'login',
-                lgname=>$editor,
-                lgpassword=>$password } );
-    my $result = $res->{login}->{result};
-    if ($result eq "NeedToken") {
+	my $res = $self->{api}->api( {
+		action=>'login',
+		lgname=>$editor,
+		lgpassword=>$password } );
+	my $result = $res->{login}->{result};
+	if ($result eq "NeedToken") {
         my $lgtoken=$res->{login}->{token};
         $res = $self->{api}->api( {
                 action=>'login',
@@ -258,13 +258,12 @@ sub login {
                 lgpassword=>$password,
                 lgtoken=>$lgtoken } );
         $result = $res->{login}->{result};
-#       use Data::Dumper; print Dumper($res);
     }
     $self->{mech}->{cookie_jar}->extract_cookies($self->{api}->{response});
     if ($result eq "Success") {
-        return 0;
+	return 0;
     } else {
-        return 1;
+	return 1;
     }
 }
 
