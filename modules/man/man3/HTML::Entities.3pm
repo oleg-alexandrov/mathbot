@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "HTML::Entities 3pm"
-.TH HTML::Entities 3pm "2009-02-09" "perl v5.10.0" "User Contributed Perl Documentation"
+.TH HTML::Entities 3pm "2010-04-04" "perl v5.10.0" "User Contributed Perl Documentation"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -144,7 +144,7 @@ HTML::Entities \- Encode or decode strings with HTML entities
 For example, this:
 .PP
 .Vb 2
-\& $input = "vis\-a\*`\-vis Beyonce\*'\*(Aqs nai\*:ve\enpapier\-ma\*^che\*' re\*'sume\*'";
+\& $input = "vis\-A\*~\ \-vis BeyoncA\*~X\*(Aqs naA\*~Xve\enpapier\-mA\*~XchA\*~X rA\*~XsumA\*~X";
 \& print encode_entities($input), "\en"
 .Ve
 .PP
@@ -202,7 +202,7 @@ misfeature.
 .Vb 3
 \&   $string = "foo&nbspbar";
 \&   _decode_entities($string, { nb => "@", nbsp => "\exA0" }, 1);
-\&   print $string;  # will print "foo\ bar"
+\&   print $string;  # will print "fooA\*^\ bar"
 .Ve
 .Sp
 This routine is exported by default.
@@ -215,15 +215,23 @@ This routine is exported by default.
 .IX Item "encode_entities( $string, $unsafe_chars )"
 .PD
 This routine replaces unsafe characters in \f(CW$string\fR with their entity
-representation. A second argument can be given to specify which
-characters to consider unsafe (i.e., which to escape). The default set
-of characters to encode are control chars, high-bit chars, and the
-\&\f(CW\*(C`<\*(C'\fR, \f(CW\*(C`&\*(C'\fR, \f(CW\*(C`>\*(C'\fR, \f(CW\*(C`\*(Aq\*(C'\fR and \f(CW\*(C`"\*(C'\fR
-characters.  But this, for example, would encode \fIjust\fR the
-\&\f(CW\*(C`<\*(C'\fR, \f(CW\*(C`&\*(C'\fR, \f(CW\*(C`>\*(C'\fR, and \f(CW\*(C`"\*(C'\fR characters:
+representation. A second argument can be given to specify which characters to
+consider unsafe.  The unsafe characters is specified using the regular
+expression character class syntax (what you find within brackets in regular
+expressions).
+.Sp
+The default set of characters to encode are control chars, high-bit chars, and
+the \f(CW\*(C`<\*(C'\fR, \f(CW\*(C`&\*(C'\fR, \f(CW\*(C`>\*(C'\fR, \f(CW\*(C`\*(Aq\*(C'\fR and \f(CW\*(C`"\*(C'\fR characters.  But this,
+for example, would encode \fIjust\fR the \f(CW\*(C`<\*(C'\fR, \f(CW\*(C`&\*(C'\fR, \f(CW\*(C`>\*(C'\fR, and \f(CW\*(C`"\*(C'\fR characters:
 .Sp
 .Vb 1
 \&  $encoded = encode_entities($input, \*(Aq<>&"\*(Aq);
+.Ve
+.Sp
+and this would only encode non-plain ascii:
+.Sp
+.Vb 1
+\&  $encoded = encode_entities($input, \*(Aq^\en\ex20\-\ex25\ex27\-\ex7e\*(Aq);
 .Ve
 .Sp
 This routine is exported by default.

@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "Parser 3pm"
-.TH Parser 3pm "2009-08-13" "perl v5.10.0" "User Contributed Perl Documentation"
+.TH Parser 3pm "2010-04-04" "perl v5.10.0" "User Contributed Perl Documentation"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -937,7 +937,7 @@ Example:
 .Sp
 .Vb 2
 \&  <!DOCTYPE HTML PUBLIC "\-//W3C//DTD HTML 4.01//EN"
-\&  "http://www.w3.org/TR/html40/strict.dtd">
+\&      "http://www.w3.org/TR/html4/strict.dtd">
 .Ve
 .Sp
 DTDs inside <!DOCTYPE ...> will confuse HTML::Parser.
@@ -1004,7 +1004,7 @@ The parser will make sure that it does not break a word or a sequence
 of whitespace between two text events.
 .SS "Unicode"
 .IX Subsection "Unicode"
-The \f(CW\*(C`HTML::Parser\*(C'\fR can parse Unicode strings when running under
+\&\f(CW\*(C`HTML::Parser\*(C'\fR can parse Unicode strings when running under
 perl\-5.8 or better.  If Unicode is passed to \f(CW$p\fR\->\fIparse()\fR then chunks
 of Unicode will be reported to the handlers.  The offset and length
 argspecs will also report their position in terms of characters.
@@ -1257,10 +1257,10 @@ HTML::LinkExtor, HTML::Form
 .PP
 HTML::TreeBuilder (part of the \fIHTML-Tree\fR distribution)
 .PP
-http://www.w3.org/TR/html4
+<http://www.w3.org/TR/html4/>
 .PP
 More information about marked sections and processing instructions may
-be found at \f(CW\*(C`http://www.sgml.u\-net.com/book/sgml\-8.htm\*(C'\fR.
+be found at <http://www.is\-thought.co.uk/book/sgml\-8.htm>.
 .SH "COPYRIGHT"
 .IX Header "COPYRIGHT"
 .Vb 2

@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "MediaWiki::Bot 3pm"
-.TH MediaWiki::Bot 3pm "2009-07-29" "perl v5.10.0" "User Contributed Perl Documentation"
+.TH MediaWiki::Bot 3pm "2010-04-10" "perl v5.10.0" "User Contributed Perl Documentation"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -168,7 +168,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 .el .IP "new([$agent[, \f(CW$assert\fR[, \f(CW$operator\fR]]])" 4
 .IX Item "new([$agent[, $assert[, $operator]]])"
 Calling MediaWiki::Bot\->new will create a new MediaWiki::Bot object. 
-\&\f(CW$agent\fR sets a custom useragent, \f(CW$assert\fR sets a parameter for the assertedit extension, common is \*(L"&assert=bot\*(R", \f(CW$operator\fR allows the bot to send you a message when it fails an assert. The message will tell you that \f(CW$agent\fR is logged out, so use a descriptive \f(CW$agent\fR.
+\&\f(CW$agent\fR sets a custom useragent, \f(CW$assert\fR sets a parameter for the assertedit extension, common is \*(L"&assert=bot\*(R", \f(CW$operator\fR allows the bot to send you a message when it fails an assert. The message will tell you that \f(CW$agent\fR is logged out, so use a descriptive \f(CW$agent\fR. \f(CW$protocol\fR allows you to specify 'http' or 'https' (default is 'http'). For example:
+.Sp
+\&\f(CW$bot\fR = MediaWiki::Bot\->new(\*(L"MediaWiki::Bot\*(R", undef, undef, 5, \*(L"https\*(R");
 .IP "set_highlimits([$flag])" 4
 .IX Item "set_highlimits([$flag])"
 Tells MediaWiki::Bot to start using the APIHighLimits for certain queries.
@@ -187,6 +189,9 @@ Returns an array containing the history of the specified page, with \f(CW$limit\
 .IP "get_text($pagename,[$revid,$section_number])" 4
 .IX Item "get_text($pagename,[$revid,$section_number])"
 Returns the text of the specified page. If \f(CW$revid\fR is defined, it will return the text of that revision; if \f(CW$section_number\fR is defined, it will return the text of that section. Returns 2 if page does not exist.
+.IP "get_id($pagename)" 4
+.IX Item "get_id($pagename)"
+Returns the id of the specified page. Returns 2 if page does not exist.
 .IP "get_pages(@pages)" 4
 .IX Item "get_pages(@pages)"
 Returns the text of the specified pages in a hashref. Content of '2' means page does not exist.
