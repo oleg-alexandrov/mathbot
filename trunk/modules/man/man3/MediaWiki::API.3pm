@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "MediaWiki::API 3pm"
-.TH MediaWiki::API 3pm "2009-09-09" "perl v5.10.0" "User Contributed Perl Documentation"
+.TH MediaWiki::API 3pm "2010-04-08" "perl v5.10.0" "User Contributed Perl Documentation"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -133,7 +133,7 @@
 MediaWiki::API \- Provides a Perl interface to the MediaWiki API (http://www.mediawiki.org/wiki/API)
 .SH "VERSION"
 .IX Header "VERSION"
-Version 0.28
+Version 0.30
 .SH "SYNOPSIS"
 .IX Header "SYNOPSIS"
 This module provides an interface between Perl and the MediaWiki \s-1API\s0 (http://www.mediawiki.org/wiki/API) allowing creation of scripts to automate editing and extraction of data from MediaWiki driven sites like Wikipedia.
@@ -201,6 +201,8 @@ max_lag = Integer value in seconds; Wikipedia runs on a database cluster and as 
 max_lag_delay = Integer value in seconds; This configuration option specified the delay to wait before retrying a request when the server has reported a lag more than the value of max_lag. This defaults to 5 if using the max_lag configuration option.
 .IP "\(bu" 4
 max_lag_retries = Integer value; The number of retries to send an \s-1API\s0 request if the server has reported a lag more than the value of max_lag. If the maximum retries is reached, an error is returned. Setting this to a negative value like \-1 will mean the request is resent until the servers max_lag is below the threshold or another error occurs. Defaults to 4.
+.IP "\(bu" 4
+no_proxy = Boolean; Set to 1 to Disable use of any proxy set in the environment. Note by default if you have proxy environment variables set, then the module will attempt to use them. This feature was added at version 0.29. Versions below this ignore any proxy settings, but you can set this yourself by doing MediaWiki::API\->{ua}\->\fIenv_proxy()\fR after creating a new instance of the \s-1API\s0 class. More information about env_proxy can be found at http://search.cpan.org/~gaas/libwww\-perl\-5.834/lib/LWP/UserAgent.pm#Proxy_attributes
 .PP
 An example for the on_error configuration could be something like:
 .PP
@@ -245,7 +247,7 @@ MediaWiki::API\->{response} = the last response object returned by the LWP::User
 .ie n .SS "MediaWiki::API\->login( $query_hashref )"
 .el .SS "MediaWiki::API\->login( \f(CW$query_hashref\fP )"
 .IX Subsection "MediaWiki::API->login( $query_hashref )"
-Logs in to a MediaWiki. Parameters are those used by the MediaWiki \s-1API\s0 (http://www.mediawiki.org/wiki/API:Login). Returns a hashref with some login details, or undef on login failure. Errors are stored in MediaWiki::API\->{error}\->{code} and MediaWiki::API\->{error}\->{details}.
+Logs in to a MediaWiki. Parameters are those used by the MediaWiki \s-1API\s0 (http://www.mediawiki.org/wiki/API:Login). Returns a hashref with some login details, or undef on login failure. If Mediawiki sends requests a LoginToken the login is attempted again, but with the token sent from the initial login. Errors are stored in MediaWiki::API\->{error}\->{code} and MediaWiki::API\->{error}\->{details}.
 .PP
 .Vb 1
 \&  my $mw = MediaWiki::API\->new( { api_url => \*(Aqhttp://en.wikipedia.org/w/api.php\*(Aq }  );
@@ -523,7 +525,7 @@ Jonas 'Spectral' Nyren (spectral [at] ludd.luth.se) for hints and tips!
 Jason 'XtC' Skelly (xtc [at] amigaguide.org) for moral support
 .SH "COPYRIGHT & LICENSE"
 .IX Header "COPYRIGHT & LICENSE"
-Copyright 2008 Jools Wills, all rights reserved.
+Copyright 2008 \- 2010 Jools Wills, all rights reserved.
 .PP
 This program is free software: you can redistribute it and/or modify
 it under the terms of the \s-1GNU\s0 General Public License as published by

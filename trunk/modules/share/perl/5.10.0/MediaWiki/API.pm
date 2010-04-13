@@ -40,11 +40,11 @@ MediaWiki::API - Provides a Perl interface to the MediaWiki API (http://www.medi
 
 =head1 VERSION
 
-Version 0.28
+Version 0.30
 
 =cut
 
-our $VERSION  = "0.28";
+our $VERSION  = "0.30";
 
 =head1 SYNOPSIS
 
@@ -112,6 +112,8 @@ Configuration options are
 
 =item * max_lag_retries = Integer value; The number of retries to send an API request if the server has reported a lag more than the value of max_lag. If the maximum retries is reached, an error is returned. Setting this to a negative value like -1 will mean the request is resent until the servers max_lag is below the threshold or another error occurs. Defaults to 4.
 
+=item * no_proxy = Boolean; Set to 1 to Disable use of any proxy set in the environment. Note by default if you have proxy environment variables set, then the module will attempt to use them. This feature was added at version 0.29. Versions below this ignore any proxy settings, but you can set this yourself by doing MediaWiki::API->{ua}->env_proxy() after creating a new instance of the API class. More information about env_proxy can be found at http://search.cpan.org/~gaas/libwww-perl-5.834/lib/LWP/UserAgent.pm#Proxy_attributes
+
 =back
 
 An example for the on_error configuration could be something like:
@@ -172,6 +174,7 @@ sub new {
   $ua->cookie_jar({});
   $ua->agent(__PACKAGE__ . "/$VERSION");
   $ua->default_header("Accept-Encoding" => "gzip, deflate");
+  $ua->env_proxy() unless ($config->{no_proxy});
 
   $self->{ua} = $ua;
 
@@ -198,7 +201,7 @@ sub new {
 
 =head2 MediaWiki::API->login( $query_hashref )
 
-Logs in to a MediaWiki. Parameters are those used by the MediaWiki API (http://www.mediawiki.org/wiki/API:Login). Returns a hashref with some login details, or undef on login failure. Errors are stored in MediaWiki::API->{error}->{code} and MediaWiki::API->{error}->{details}.
+Logs in to a MediaWiki. Parameters are those used by the MediaWiki API (http://www.mediawiki.org/wiki/API:Login). Returns a hashref with some login details, or undef on login failure. If Mediawiki sends requests a LoginToken the login is attempted again, but with the token sent from the initial login. Errors are stored in MediaWiki::API->{error}->{code} and MediaWiki::API->{error}->{details}.
 
   my $mw = MediaWiki::API->new( { api_url => 'http://en.wikipedia.org/w/api.php' }  );
 
@@ -216,9 +219,20 @@ sub login {
 
   # reassign hash reference to the login section
   my $login = $ref->{login};
+
+  # Do login token checking
+  if ( $login->{result} eq 'NeedToken' ) {
+    my $token = $login->{token};
+    $query->{lgtoken} = $token;
+    # Re-submit previous request with token
+    return undef unless ( $ref = $self->api( $query ) );
+    $login = $ref->{login};
+  }
+
+  # return error if the login was not successful
   return $self->_error( ERR_LOGIN, 'Login Failure - ' . $login->{result} )
     unless ( $login->{result} eq 'Success' );
-
+    
   # everything was ok so return the reference
   return $login;
 }
@@ -844,7 +858,7 @@ L<http://search.cpan.org/dist/MediaWiki-API>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 Jools Wills, all rights reserved.
+Copyright 2008 - 2010 Jools Wills, all rights reserved.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
