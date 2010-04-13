@@ -1,68 +1,63 @@
 Category:American cryptographers
 Category:American logicians
+Category:American statisticians
 Category:Euclid
 Category:Pythagoreans
 Category:Brahmagupta
-Category:5th-century mathematicians
 Category:Australian cryptographers
 Category:Australian logicians
-Category:Mathematicians from Melbourne
+Category:Australian statisticians
 Category:Austrian cryptographers
 Category:Austrian logicians
 Category:Belgian logicians
+Category:Belgian statisticians
 Category:Brazilian logicians
 Category:Presidents of the Associação Brasileira de Estatística
 Category:British actuaries
 Category:British cryptographers
 Category:British logicians
-Category:Members of HM Government Statistical Service
-Category:Presidents of the Royal Statistical Society
-Category:Presidents of the Statistical Society of Canada
+Category:British statisticians
+Category:Bulgarian statisticians
+Category:Lucasian Professors of Mathematics
+Category:Members of the Department of Applied Mathematics and Theoretical Physics
+Category:Members of the Department of Pure Mathematics and Mathematical Statistics
+Category:Canadian actuaries
+Category:Canadian statisticians
 Category:Chinese logicians
-Category:Combinatorial game theorists
 Category:Czech logicians
+Category:Danish statisticians
 Category:Dutch cryptographers
 Category:Dutch statisticians
 Category:Egyptian cryptographers
-Category:Cambridge mathematicians
 Category:English logicians
+Category:English statisticians
 Category:French cryptographers
 Category:French statisticians
 Category:Researchers in geometric algorithms
 Category:Carl Friedrich Gauss
 Category:German logicians
+Category:German statisticians
 Category:Greek logicians
+Category:Hungarian statisticians
 Category:Indian statisticians
 Category:Kerala school
 Category:Irish logicians
+Category:Irish statisticians
+Category:Israel Prize in exact science recipients
 Category:Israeli cryptographers
 Category:Italian cryptographers
 Category:Japanese logicians
-Category:Model theorists
+Category:Japanese statisticians
+Category:Swedish logicians
 Category:Statistician stubs
 Category:Bourbaki
 Category:Calculating prodigies
 Category:Fictional mathematicians
 Category:Lists of mathematicians
-Category:Medieval mathematicians
+Category:Lists of things named after mathematicians
+Category:Paul Erdős
 Category:Second Wranglers
 Category:Senior Wranglers
-Category:10th-century mathematicians
-Category:11th-century mathematicians
-Category:12th-century mathematicians
-Category:13th-century mathematicians
-Category:14th-century mathematicians
-Category:15th-century mathematicians
-Category:16th-century mathematicians
-Category:17th-century mathematicians
-Category:18th-century mathematicians
-Category:19th-century mathematicians
-Category:20th-century mathematicians
-Category:21st-century mathematicians
-Category:6th-century mathematicians
-Category:7th-century mathematicians
-Category:8th-century mathematicians
-Category:9th-century mathematicians
 Category:Actuaries
 Category:Ballistics experts
 Category:Bioinformaticists
@@ -75,26 +70,24 @@ Category:Logicians
 Category:Mathematical ecologists
 Category:Mathematical physicists
 Category:Queueing theorists
-Category:Colombian mathematicians
+Category:Statisticians
 Category:Cryptographers by nationality
-Category:Cuban mathematicians
-Category:Icelandic mathematicians
 Category:Logicians by nationality
-Category:Pakistani mathematicians
-Category:Soviet mathematicians
-Category:Taiwanese mathematicians
+Category:Statisticians by nationality
+Category:Sudanese mathematicians
 Category:Geometry educators
+Category:New Zealand statisticians
 Category:Niels Henrik Abel
-Category:Norwegian demographers
+Category:Norwegian statisticians
 Category:People associated with the finite element method
+Category:Pakistani statisticians
 Category:Polish cryptographers
 Category:Polish logicians
-Category:Polish mathematicians of Jewish descent
+Category:Polish statisticians
 Category:Russian cryptographers
 Category:Russian logicians
-Category:Demographers
-Category:Fellows of the American Statistical Association
-Category:Presidents of statistical organizations
-Category:Brazilian statisticians
-Category:Irish statisticians
-Category:Pakistani statisticians
+Category:Russian statisticians
+Category:Scottish statisticians
+Category:Swedish information theorists
+Category:Swedish statisticians
+Category:Swiss statisticians
