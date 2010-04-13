@@ -9,7 +9,6 @@ use POSIX qw(strftime);
 use HTML::Entities;
 use Encode;
 
-
 ##########################################################
 ## Enable a native code XML parser - makes a huge difference
 $XML::Simple::PREFERRED_PARSER = "XML::Parser";
@@ -29,7 +28,7 @@ $Revision: 1.32 $
  $api = Mediawiki::API->new();
  $api->base_url($newurl);
  @list = @{$api->pages_in_category($categoryTitle)};
- $api->overwrite_page($pageTitle, $pageContent, $editSummary);
+ $api->edit_page($pageTitle, $pageContent, $editSummary);
 
 =cut
 
@@ -68,10 +67,15 @@ sub new {
   $self->{'htmlMode'} = 0;         # escape output for CGI output  
   $self->{'debugXML'} = 0;         # print extra debugging for XML parsing
   $self->{'cmsort'} = 'sortkey';   # request this sort order from API
-  $self->{'botlimit'} = 5000;      # number of results to request per query
+  $self->{'querylimit'} = 500;     # number of results to request per query
+  $self->{'botlimit'} = 5000;      # number of results to request if bot
   $self->{'decodeprint'} = 1;      # don't UTF-8 output
   $self->{'xmlretrydelay'} = 10;   # pause after XML level failure 
   $self->{'xmlretrylimit'} = 10;   # retries at XML level
+
+  $self->{'cacheEditToken'} = 0;   
+
+  $self->{'logintries'} = 5;       # delay on login throttle
 
   bless($self);
   return $self;
@@ -125,7 +129,6 @@ sub max_retries  {
 
   return $self->{'maxRetryCount'};
 }
-
 
 ########################################################
 
@@ -195,8 +198,6 @@ sub debug_level {
  return $self->{'debugLevel'};
 }
 
-
-
 ######################################################
 
 =item $lag = $api->maxlag($newlag)
@@ -248,8 +249,6 @@ sub cmsort  {
   return $self->{'cmsort'};
 }
 
-
-
 #############################################################
 
 =head2 Log in
@@ -271,6 +270,12 @@ sub login {
  my $self = shift;
  my $userName = shift;
  my $userPassword = shift;
+ my $tries = shift || $self->{'logintries'};
+ $tries--;
+
+ if (  $tries == 0 ) {
+    die "Too many login attempts\n";
+ }
 
  $self->print(1,"A Logging in");
 
@@ -283,12 +288,48 @@ sub login {
   if ( ! defined $xml->{'login'} 
        || ! defined $xml->{'login'}->{'result'}) {
     
-    print "Foo: " . Dumper($xml);
+    $self->print(4, "E no login result.\n" . Dumper($xml));
     $self->handleXMLerror("login err");
   }
 
-  if ( ! ( $xml->{'login'}->{'result'} eq 'Success') ) {
-    die( "Login error. Message was: " . $xml->{'login'}->{'result'} . "\n");
+  my $result = $xml->{'login'}->{'result'};
+
+  if ( $result ne 'Success' ) {
+    if ( $result eq 'Throttled' || $result eq 'NeedToWait') { 
+      my $wait = $xml->{'login'}->{'wait'} || 10;
+      $self->print(3, "R Login delayed: $result, sleeping " 
+                      . (2 + $wait) . " seconds\n");
+      $self->print(5, Dumper($xml));
+
+      sleep (2 + $wait);
+      return $self->login($userName, $userPassword, $tries);
+    }  elsif ( $result eq 'NeedToken' ) {
+      my $oldxml = $xml;
+         $xml  = $self->makeXMLrequest(
+                      [ 'action' => 'login', 
+                        'format' => 'xml',
+                        'lgname' => $userName,
+                        'cookieprefix' => $oldxml->{'login'}->{'cookieprefix'},
+                        'sessionid' => $oldxml->{'login'}->{'sessionid'},
+                        'lguserid' => $oldxml->{'login'}->{'lguserid'},
+                        'lgtoken' => $oldxml->{'login'}->{'token'},
+                        'lgpassword' => $userPassword  ]);
+
+       if ( ! defined $xml->{'login'}
+         || ! defined $xml->{'login'}->{'result'}) {
+              $self->print(4, "E no login result.\n" . Dumper($xml));
+              $self->handleXMLerror("login err");
+        }
+
+        if ( $xml->{'login'}->{'result'} ne 'Success' ) {
+          $self->print(5, "Login error on second phase\n");
+          $self->print(5, Dumper($xml));
+       }
+    } else {
+       $self->print(5, "Login error\n");
+      $self->print(5, Dumper($xml));
+      die( "Login error. Message was: '" . $xml->{'login'}->{'result'} . "'\n");
+    }
   }
 
   $self->print(1,"R Login successful");
@@ -303,6 +344,9 @@ sub login {
   if ( $self->is_bot() ) { 
     $self->print (1,"R Logged in user has bot rights");
   }
+
+  delete $self->{'editToken'};
+
 }
 
 ##################################
@@ -353,24 +397,68 @@ sub cookie_jar {
 
 =over
 
-=item $api->overwrite_page($pageTitle, $pageContent, $editSummary);
+=item $api->edit_page($pageTitle, $pageContent, $editSummary, $params);
 
-Overwrite a page with new content. Currently doesn't work because
-the editing features of the API are not implemented in Mediawiki.
+Edit a page. 
+
+The array reference $params allows configuration. Valid parameters listed
+at http://www.mediawiki.org/wiki/API:Edit_-_Create%26Edit_pages#Token
+
+Returns undef on success. 
+Returns the API.php result hash on error.
 
 =back
 
 =cut
 
-sub overwrite_page { 
+sub edit_page { 
   my $self = shift;
   my $pageTitle = shift;
   my $pageContent = shift;
   my $editSummary = shift;
+  my $params = shift || [];
 
-  $self->print(1,"A Overwriting $pageTitle");
+  $self->print(1,"A Editing $pageTitle");
 
-  $pageContent = $pageContent . " " . strftime('%Y-%m-%dT%H:%M:00Z', gmtime(time()));
+  my $editToken; 
+
+  if ( 1 == $self->{'cacheEditToken'} 
+         && defined $self->{'editToken'} ) { 
+    $editToken = $self->{'editToken'};
+    $self->print(5, "I using cached edit token: $editToken");  
+  } else { 
+    $editToken = $self->edit_token($pageTitle);
+  }
+
+  if ( $editToken eq '+\\' ) { die "Bad edit token!\n"; }
+
+  my $query = 
+      [ 'action' => 'edit',
+	'token' => $editToken,
+	'summary' => $editSummary,
+	'text' => $pageContent,
+	'title' => $pageTitle,
+	'format' => 'xml',
+       @$params  ];
+  
+  my $res  = $self->makeXMLrequest($query);
+
+  $self->print(5, 'R editing response: ' . Dumper($res));
+
+  if ( $res->{'edit'}->{'result'} eq 'Success' ) { 
+      return "";
+  } else { 
+      return $res;
+  }
+
+}
+
+############################################################
+# internal function
+
+sub edit_token {
+  my $self = shift;
+  my $pageTitle = shift;
 
   my $xml  = $self->makeXMLrequest(
                   [ 'action' => 'query', 
@@ -379,8 +467,6 @@ sub overwrite_page {
                     'intoken' => 'edit',
                     'format' => 'xml']);
 
-  print Dumper($xml);
-
   if ( ! defined $xml->{'query'}
        || ! defined $xml->{'query'}->{'pages'}
        || ! defined $xml->{'query'}->{'pages'}->{'page'} 
@@ -388,21 +474,15 @@ sub overwrite_page {
      $self->handleXMLerror($xml);
   }
 
-  my $editToken= $xml->{'query'}->{'pages'}->{'page'}->{'edittoken'};
+  my $editToken = $xml->{'query'}->{'pages'}->{'page'}->{'edittoken'};
   $self->print(5, "R edit token: ... $editToken ...");
 
-  my $res  = $self->makeHTMLrequest(
-                  [ 'action' => 'edit',
-                    'epedittoken' => $editToken,
-                    'epsummary' => $editSummary,
-                    'eptext' => $pageContent,
-                    'eptitle' => $pageTitle,
-                    'format' => 'xml'  ]);
+  if ( 1 == $self->{'cacheEditToken'} ) { 
+    $self->{'editToken'} = $editToken;
+    $self->print(5, "I caching edit token");  
+  }
 
-  print Dumper($res);
-
-  return;
-
+  return $editToken;
 }
 
 ############################################################
@@ -463,7 +543,6 @@ sub fetch_backlinks_compat {
   return \@articles;
 }
 
-
 #############################################################3
 
 =item $pages = $api->backlinks($pageTitle);
@@ -481,7 +560,7 @@ sub backlinks {
  
   my %queryParameters =  ( 'action' => 'query', 
                            'list' => 'backlinks', 
-                           'bllimit' => '500',
+                           'bllimit' => $self->{'querylimit'}, 
 #                           'titles' => $pageTitle,
                            'bltitle' => $pageTitle,
                            'format' => 'xml');
@@ -530,7 +609,7 @@ sub pages_in_category_detailed {
 
   my %queryParameters =  ( 'action' => 'query', 
                            'list' => 'categorymembers', 
-                           'cmlimit' => '500',
+                           'cmlimit' => $self->{'querylimit'},
                            'cmsort' => $self->{'cmsort'},
                            'cmprop' => 'ids|title|sortkey|timestamp',
                            'cmtitle' => $categoryTitle,
@@ -552,7 +631,6 @@ sub pages_in_category_detailed {
   return $results;
 }
 
-
 #############################################################3
 
 =item $list = $api->where_embedded($templateName);
@@ -571,7 +649,7 @@ sub where_embedded {
  
   my %queryParameters =  ( 'action' => 'query', 
                            'list' => 'embeddedin', 
-                           'eilimit' => '500',
+                           'eilimit' => $self->{'querylimit'}, 
                            'eititle' => $templateTitle,
                            'format' => 'xml' );
 
@@ -591,7 +669,7 @@ sub where_embedded {
 
 #############################################################3
 
-=item $list = $api->log_events($pageName);
+=item $list = $api->log_events($pageName, $params);
 
 Fetch a list of log entries for the page.
 Returns a reference to an array of hashes.
@@ -601,14 +679,20 @@ Returns a reference to an array of hashes.
 sub log_events { 
   my $self = shift;
   my $pageTitle = shift;
+  my $params  = shift || [];
 
   $self->print(1,"A Fetching log events for $pageTitle");
  
+
   my %queryParameters =  ( 'action' => 'query', 
                            'list' => 'logevents', 
-                           'lelimit' => '500',
-                           'letitle' => $pageTitle,
-                           'format' => 'xml' );
+                           'lelimit' => $self->{'querylimit'},
+                           'format' => 'xml' ,
+                            @$params);
+
+  if ( defined $pageTitle ) { 
+    $queryParameters{'letitle'}  = $pageTitle;
+  }
 
   if ( $self->is_bot) { 
     $queryParameters{'lelimit'} = $self->{'botlimit'}
@@ -624,7 +708,7 @@ sub log_events {
   return $results;
 }
 
-#############################################################3
+#############################################################
 
 =item $list = $api->image_embedded($imageName);
 
@@ -642,7 +726,7 @@ sub image_embedded {
  
   my %queryParameters =  ( 'action' => 'query', 
                            'list' => 'imageusage', 
-                           'iulimit' => '500',
+                           'iulimit' => $self->{'querylimit'},
                            'iutitle' => $imageTitle,
                            'format' => 'xml' );
 
@@ -662,7 +746,7 @@ sub image_embedded {
 ######################################################
 
 
-#########################################################33
+######################################################
 
 =item $text = $api->content($pageTitles);
 
@@ -705,13 +789,12 @@ sub content {
   my $result;
 
   foreach $result ( @$data) { 
-    $arr->{$result->{'title'}} = $result->{'revisions'}->{'rev'};
+    $arr->{$result->{'title'}} = $result->{'revisions'}->{'rev'}->{'content'};
   }
 
   return $arr;
 }
  
-
 #########################################################
 
 ## Internal function
@@ -732,8 +815,73 @@ sub content_single {
     = $self->makeXMLrequest([%queryParameters]);
 
   return $self->child_data_if_defined($results, 
+                       ['query', 'pages', 'page', 'revisions', 'rev','content'], '');
+}
+#########################################################
+
+=item $text = $api->content_section($pageTitle, $secNum);
+
+Fetch the content (wikitext) of a particular section of a page.
+The lede section is #0. 
+
+=cut
+
+sub content_section { 
+  my $self = shift;
+  my $pageTitle = shift;
+  my $section = shift;
+
+  if ( ! ( $section =~ /^\d+$/ ) ) { 
+    die "Bad section: '$section'. Must be a nonnegative integer.\n";
+  }
+
+  $self->print(1,"A Fetching content of $pageTitle");
+ 
+  my %queryParameters =  ( 'action' => 'query', 
+                           'prop' => 'revisions', 
+                           'titles' => $pageTitle,
+                           'rvprop' => 'content',
+                           'rvsection' => $section,
+                           'format' => 'xml' );
+  my $results 
+    = $self->makeXMLrequest([%queryParameters]);
+
+  return $self->child_data_if_defined($results, 
                        ['query', 'pages', 'page', 'revisions', 'rev'], '');
 }
+
+
+###################################################
+
+=item $text = $api->revisions($pageTitle, $count);
+
+Fetch the most recent $count revisions of a page.
+
+=cut
+
+sub revisions {
+  my $self = shift;
+  my $title = shift;
+
+  my $count = shift;
+  if ( ! defined $count ) { 
+    $count = $self->{'querylimit'};
+  }
+
+  my $what = "ids|flags|timestamp|size|comment|user";
+ 
+  my $data = $self->makeXMLrequest([ 'format' => 'xml',
+                                       'action' => 'query',
+                                       'prop' => 'revisions',
+                                       'rvprop' => $what,
+                                       'rvlimit' => $count,
+                                       'titles' => encode("utf8", $title)  ], 
+                                     [ 'page', 'rev' ]);
+
+  my $t = $self->child_data_if_defined($data, ['query','pages','page']);
+  return $self->child_data_if_defined(${$t}[0], ['revisions', 'rev']);
+}
+
 
 
 ################################################################
@@ -749,9 +897,12 @@ sub page_info {
   my $pageTitle = shift;
 
   $self->print(1,"A Fetching info for $pageTitle");
- 
+
+  my $what = 'protection|talkid|subjectid'; 
+
   my %queryParameters =  ( 'action' => 'query', 
                            'prop' => 'info',
+                           'inprop' => $what,
                            'titles' => $pageTitle,
                            'format' => 'xml' );
 
@@ -760,7 +911,6 @@ sub page_info {
 
   return $self->child_data($results,  ['query', 'pages', 'page']);
 }
-
 
 #######################################################
 
@@ -792,6 +942,7 @@ sub fetchWithContinuation {
     $xml =$self->makeXMLrequest([ %{$queryParameters}], [$dataName]);
     @results = (@results, 
                 @{$self->child_data_if_defined($xml, $dataPath, [])} );
+
   }
 
   return \@results;
@@ -826,7 +977,7 @@ sub user_contribs {
 
   my %queryParameters =  ( 'action' => 'query', 
                            'list' => 'usercontribs', 
-                           'uclimit' => '500',
+                           'uclimit' => $self->{'querylimit'},
                            'ucdirection' => 'older',
                            'ucuser' => $userName,
                            'format' => 'xml' ); 
@@ -837,7 +988,7 @@ sub user_contribs {
 
   $self->add_maxlag_param(\%queryParameters);
 
-  my $res  = $self->makeHTMLrequest([ %queryParameters ]);
+  my $res  = $self->makeHTTPrequest([ %queryParameters ]);
   
   my $xml = $self->parse_xml($res);
 
@@ -851,7 +1002,7 @@ sub user_contribs {
 
     $self->print(3, "I Continue from: " . $xml->{'query-continue'}->{'usercontribs'}->{'ucstart'} );
 
-    $res  = $self->makeHTMLrequest([%queryParameters]);
+    $res  = $self->makeHTTPrequest([%queryParameters]);
 
     $xml = $self->parse_xml($res);
 
@@ -862,6 +1013,26 @@ sub user_contribs {
 
   return \@results;
 }
+
+######################3
+
+=item $api->parse( $wikitext ) 
+
+Parse a chunk of wiki code and return the HTML result. 
+
+=cut
+
+sub parse { 
+  my $self = shift;
+  my $content = shift;
+
+  my $r = $self->makeXMLrequest(['action'=>'parse',
+                                 'text'=>encode('utf8', $content),
+                                 'format' => 'xml']);
+
+  return $self->child_data($r, ['parse']);
+}                                  
+
 
 #############################################################3
 
@@ -1022,8 +1193,10 @@ sub user_is_bot {
 =item $api->makeXMLrequest($queryArgs [ , $arrayNames])
 
 Makes a request to the server, parses the result, and
-attempts to detect errors from the API and retry. $arrayNames,
-optional, is used for the 'ForceArray' parameter of XML::Simple.
+attempts to detect errors from the API and retry. 
+
+Optional parameter $arrayNames is used for the 'ForceArray' 
+parameter of XML::Simple.
 
 =cut
 
@@ -1046,7 +1219,7 @@ sub makeXMLrequest {
     }
    
 
-    $res = $self->makeHTMLrequest($args);
+    $res = $self->makeHTTPrequest($args);
   
     $self->print(7, "Got result\n$res\n---\n");
 
@@ -1093,6 +1266,7 @@ sub makeXMLrequest {
     $self->print(2,"E APR response indicates error");
     $self->print(3, "Err: " . $xml->{'error'} ->{'code'});
     $self->print(4, "Info: " . $xml->{'error'} ->{'info'});
+    $self->print(4, "Details: " . Dumper($xml) . "\n");
     sleep $edelay;
   }
 
@@ -1102,19 +1276,19 @@ return $xml;
 
 ######################################
 
-=item $api->makeHTMLrequest($args)
+=item $api->makeHTTPrequest($args)
 
-Makes an HTML request and returns the resulting content. This is the 
+Makes an HTTP request and returns the resulting content. This is the 
 most low-level access to the server. It provides error detection and 
 automatically retries failed attempts as appropriate. Most queries will 
 use a more specific method.
 
-The $args parameter must be an array reference to an array of 
-KEY => VALUE pairs. These are passed directly to the HTTP POST request.
+The $args parameter must be a reference to an array of KEY => VALUE 
+pairs. These are passed directly to the HTTP POST request.
 
 =cut
 
-sub makeHTMLrequest {
+sub makeHTTPrequest {
   my $self = shift;
   my $args = shift;
 
@@ -1122,18 +1296,20 @@ sub makeHTMLrequest {
 
   my $retryCount = 0;
   my $delay = 4;
- 
+
   my $res;
 
   while (1) { 
     $self->{'requestCount'}++;
 
     if ( $retryCount == 0) { 
-      $self->print(2, "A  Making HTML request (" . $self->{'requestCount'} . ")");
+      $self->print(2, "A  Making HTTP request (" . $self->{'requestCount'} . ")");
       $self->print(5, "I  Base URL: " . $self->{'baseurl'});
       my $k = 0;
       while ( $k < scalar @{$args}) { 
-        $self->print(5, "I\t" . ${$args}[$k] . " => " . Dumper(${$args}[$k+1]));
+        if ( ! defined ${$args}[$k+1] ) { ${$args}[$k+1] = ''; }
+        $self->print(5, "I\t" . ${$args}[$k] . " => '" 
+                       . ${$args}[$k+1] . "'");
         $k += 2;
       }
 
@@ -1147,6 +1323,8 @@ sub makeHTMLrequest {
 #    print Dumper($res);
 
     $self->print(1, "HTTP response code: " . $res->code() ) ;
+    $self->print(5, "Dump of response: " . Dumper($res) );  
+
 
     if (defined $res->header('x-squid-error')) { 
       $self->print(1,"I  Squid error: " . $res->header('x-squid-error'));
@@ -1232,20 +1410,20 @@ sub child_data_if_defined {
 
 # Internal function
 
-sub print { 
+sub print {
   my $self = shift;
   my $limit = shift;
   my $message = shift;
 
-  if ( $self->{'decodeprint'} == 1) { 
+  if ( $self->{'decodeprint'} == 1) {
     $message = decode("utf8", $message);
   }
 
   if ( $limit <= $self->{'debugLevel'} ) {
     print $message;
-    if ( $self->{'htmlMode'} > 0) { 
+    if ( $self->{'htmlMode'} > 0) {
       print " <br/>\n";
-    } else { 
+    } else {
       print "\n";
     }
   }
@@ -1402,5 +1580,3 @@ Released under GNU Public License (GPL) 2.0.
 ########################################################
 ## Return success upon loading class
 1;
-
-
