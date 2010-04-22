@@ -46,8 +46,15 @@ sub article_to_filename {
 
   my ($file, $letter_dir, $destination_dir);
 
+  my $home;
+  if ( exists $ENV{'HOME'} ){
+    $home = $ENV{'HOME'};
+  }else{
+    $home = "/tmp/";
+  }
+
   # Will store all articles to write to disk in this directory.
-  $destination_dir = '/tmp/articles';
+  $destination_dir = "$home/articles";
 
   $file = shift; $file = &html_encode_string ($file) . '.wiki';
 
