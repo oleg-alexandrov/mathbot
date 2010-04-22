@@ -75,8 +75,8 @@ MAIN:{
     
     # reconcile the new $entries{$name} with the old $line
     if (exists $entries{$name} && $entries{$name} ne $line) {
-      $entries{$name}=&reconcile ($line, $entries{$name}); 
       print "Reconciling $name\n";
+      $entries{$name}=&reconcile ($line, $entries{$name}); 
     }else{
       $entries{$name}=$line;
     }
@@ -201,6 +201,7 @@ sub reconcile {
    $ndeath =~ s/\s*$//g; $ndeath =~ s/^\s*//g;
  }else{
    print "Huge error! Don't have a name, country, birth, or death!\n";
+   print "Offending line is: '$new'\n";
    exit (0);
  }
 
