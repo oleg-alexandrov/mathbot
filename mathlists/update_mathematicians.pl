@@ -200,9 +200,8 @@ sub reconcile {
    $nbirth =~ s/\s*$//g; $nbirth =~ s/^\s*//g;
    $ndeath =~ s/\s*$//g; $ndeath =~ s/^\s*//g;
  }else{
-   print "Huge error! Don't have a name, country, birth, or death!\n";
-   print "Offending line is: '$new'\n";
-   exit (0);
+   $nname = ""; 
+   $ncountry = "?"; $nbirth = "?"; $ndeath = "";
  }
 
   # old country
