@@ -1,3 +1,4 @@
+Category:Functional analysts
 Category:American cryptographers
 Category:American logicians
 Category:American statisticians
@@ -48,6 +49,8 @@ Category:Israeli cryptographers
 Category:Italian cryptographers
 Category:Japanese logicians
 Category:Japanese statisticians
+Category:Approximation theorists
+Category:Measure theorists
 Category:Swedish logicians
 Category:Statistician stubs
 Category:Bourbaki
@@ -68,6 +71,7 @@ Category:Game theorists
 Category:Information theorists
 Category:Logicians
 Category:Mathematical ecologists
+Category:Mathematical economists
 Category:Mathematical physicists
 Category:Queueing theorists
 Category:Statisticians
