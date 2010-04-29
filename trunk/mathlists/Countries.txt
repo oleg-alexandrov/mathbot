@@ -1,3 +1,4 @@
+sudanese    - Sudan
 soviet      - Soviet Union
 Colombian   - Colombia
 Cuban       - Cuba

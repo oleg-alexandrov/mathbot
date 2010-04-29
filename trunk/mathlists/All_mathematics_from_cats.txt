@@ -18,7 +18,7 @@
 1_%2b_1_%2b_1_%2b_1_%2b_%c2%b7_%c2%b7_%c2%b7
 1_%2b_2_%2b_3_%2b_4_%2b_%c2%b7_%c2%b7_%c2%b7
 1_%2b_2_%2b_4_%2b_8_%2b_%c2%b7_%c2%b7_%c2%b7
-1_%e2%88%92_2_%2b_3_%e2%88%92_4_%2b_%c2%b7%c2%b7%c2%b7
+1_%e2%88%92_2_%2b_3_%e2%88%92_4_%2b_%c2%b7_%c2%b7_%c2%b7
 1_%e2%88%92_2_%2b_4_%e2%88%92_8_%2b_%c2%b7_%c2%b7_%c2%b7
 1-center_problem
 1-factor
@@ -907,6 +907,7 @@ Amoeba_%28mathematics%29
 Ampersand_curve
 Ample_line_bundle
 An_Exceptionally_Simple_Theory_of_Everything
+Anabelian_geometry
 Analysis_Situs_%28book%29
 Analysis_and_Applications
 Analysis_of_algorithms
@@ -995,7 +996,6 @@ Anosov_diffeomorphism
 Ansatz
 Anscombe_transform
 Anscombe%27s_quartet
-Ant_colony_optimization
 Ant_on_a_rubber_rope
 Anthropomorphic_polygon
 Anti_de_Sitter_space
@@ -1062,6 +1062,7 @@ Apply
 Approach_space
 Approximate_Bayesian_computation
 Approximate_identity
+Approximate_limit
 Approximate_string_matching
 Approximately_finite_dimensional_C%2a-algebra
 Approximately_finite-dimensional
@@ -1228,6 +1229,7 @@ Assortative_mixing
 Assumed_mean
 Astroid
 Astronomical_coordinate_systems
+Asymmetric_graph
 Asymmetric_norm
 Asymmetric_relation
 Asymptote
@@ -1270,7 +1272,6 @@ Aubin-Lions_lemma
 Auction_algorithm
 Audit_Record_Generation_and_Utilization_System
 Auerbach%27s_lemma
-Augmental_homology
 Augmentation_ideal
 Augmented_Dickey%e2%80%93Fuller_test
 Augmented_dodecahedron
@@ -1389,7 +1390,6 @@ BOSS_%28molecular_mechanics%29
 BPL_%28complexity%29
 BPP
 BQP
-BRST_algorithm
 BRST_formalism
 Ba_space
 Babenko%e2%80%93Beckner_inequality
@@ -1679,6 +1679,7 @@ Beurling%e2%80%93Lax_theorem
 Beverton%e2%80%93Holt_model
 Beyer_Chair_of_Applied_Mathematics
 Beziergon
+Bhaskara_I%27s_sine_approximation_formula
 Bhaskara%27s_lemma
 Bhaskaracharya_Pratishthana
 Bhatia%e2%80%93Davis_inequality
@@ -1795,7 +1796,6 @@ Binomial
 Binomial_QMF
 Binomial_approximation
 Binomial_coefficient
-Binomial_coefficients_and_trigonometry
 Binomial_differential_equation
 Binomial_distribution
 Binomial_inverse_theorem
@@ -3029,6 +3029,7 @@ Combinatorial_class
 Combinatorial_commutative_algebra
 Combinatorial_data_analysis
 Combinatorial_design
+Combinatorial_explosion
 Combinatorial_explosion_%28communication%29
 Combinatorial_game_theory
 Combinatorial_group_theory
@@ -3676,6 +3677,7 @@ Core_model
 Core-Plus_Mathematics_Project
 Coreflexive_relation
 Coreset
+Cornacchia%27s_algorithm
 Corner
 Corner_solution
 Corner_transfer_matrix
@@ -4395,6 +4397,7 @@ Digamma_function
 Digit_sum
 Digital_Library_of_Mathematical_Functions
 Digital_Morse_theory
+Digital_manifold
 Digital_root
 Digital_sum
 Digital_sum_in_base_b
@@ -4425,6 +4428,7 @@ Dimensional_regularization
 Dimensions_%28animation%29
 Diminished_rhombicosidodecahedron
 Dinatural_transformation
+Dini_continuity
 Dini_derivative
 Dini_test
 Dini%27s_surface
@@ -4656,7 +4660,6 @@ Dodgson_condensation
 Does_God_Play_Dice%3f_The_New_Mathematics_of_Chaos
 Dogbone_space
 Dolbeault_cohomology
-Dolbeault_operator
 Dolgachev_surface
 Dol%c3%a9ans-Dade_exponential
 Domain_%28complex_analysis%29
@@ -4689,8 +4692,10 @@ Doob_decomposition_theorem
 Doob_martingale
 Doob%27s_martingale_convergence_theorems
 Doob%27s_martingale_inequality
+Doob%e2%80%93Dynkin_lemma
 Doob%e2%80%93Meyer_decomposition_theorem
 Doomsday_argument
+Doomsday_conjecture
 Door_space
 Doo%e2%80%93Sabin_subdivision_surface
 Dopier-V_sequence
@@ -4931,6 +4936,7 @@ Eigenpoll
 Eigenvalue_algorithm
 Eigenvalue_perturbation
 Eigenvalue%2c_eigenvector_and_eigenspace
+Eigenvalues_and_eigenvectors_of_the_second_derivative
 Eight_queens_puzzle
 Eight-dimensional_space
 Eikonal_approximation
@@ -4943,6 +4949,7 @@ Eilenberg%e2%88%92Ganea_conjecture
 Eilenberg%e2%88%92MacLane_space
 Eilenberg%e2%88%92Moore_spectral_sequence
 Einstein_field_equations
+Einstein_function
 Einstein_manifold
 Einstein_notation
 Einstein_tensor
@@ -4992,7 +4999,7 @@ Elias_gamma_coding
 Elias_omega_coding
 Elimination_theory
 Elkies_trinomial_curves
-Ellingham-Horton_graph
+Ellingham%e2%80%93Horton_graph
 Elliott%e2%80%93Halberstam_conjecture
 Ellipse
 Ellipsis
@@ -5075,7 +5082,6 @@ Encyclopedia_of_Triangle_Centers
 End_%28category_theory%29
 End_%28topology%29
 End_extension
-Endofunction
 Endomorphism
 Endomorphism_ring
 Endoscopic_group
@@ -5347,6 +5353,7 @@ Even-hole-free_graph
 Event_%28probability_theory%29
 Event_calculus
 Event_generator
+Event-driven_Petri_net
 Eventually_%28mathematics%29
 Everyday_Mathematics
 Evidence_under_Bayes_theorem
@@ -5524,7 +5531,6 @@ FOIL_method
 FP_%28complexity%29
 FSU_Young_Scholars_Program
 FTCS_scheme
-FWL_theorem
 Face_%28geometry%29
 Face_configuration
 Face_diagonal
@@ -5636,11 +5642,12 @@ Fermat_primality_test
 Fermat_quintic_threefold
 Fermat_quotient
 Fermat%27s_Last_Theorem
+Fermat%27s_Last_Theorem_%28book%29
 Fermat%27s_Last_Theorem_in_fiction
 Fermat%27s_Room
 Fermat%27s_factorization_method
-Fermat%27s_last_theorem_%28book%29
 Fermat%27s_little_theorem
+Fermat%27s_principle
 Fermat%27s_spiral
 Fermat%27s_theorem
 Fermat%27s_theorem_%28stationary_points%29
@@ -5688,7 +5695,6 @@ Field_%28mathematics%29
 Field_arithmetic
 Field_extension
 Field_line
-Field_lines_of_Julia_sets
 Field_norm
 Field_of_definition
 Field_of_fractions
@@ -5825,6 +5831,7 @@ Fixed-radius_near_neighbors
 Flag_%28geometry%29
 Flag_%28linear_algebra%29
 Flat_%28geometry%29
+Flat_function
 Flat_manifold
 Flat_map
 Flat_module
@@ -5877,7 +5884,7 @@ Fondements_de_la_G%c3%a9ometrie_Alg%c3%a9brique
 For_Want_of_a_Nail_%28proverb%29
 Forbidden_graph_characterization
 Forbidden_subgraph_problem
-Force-based_algorithms
+Force-based_algorithms_%28graph_drawing%29
 Forcing_%28mathematics%29
 Forcing_%28recursion_theory%29
 Forcing_function_%28differential_equations%29
@@ -5947,6 +5954,7 @@ Fourier%e2%80%93Deligne_transform
 Fourier%e2%80%93Motzkin_elimination
 Fourth_dimension
 Fourth_power
+Fox_H-function
 Fox_derivative
 Fox_n-coloring
 Fractal
@@ -6064,6 +6072,7 @@ Friendship_paradox
 Frieze_group
 Fringe_search
 Frink_ideal
+Frisch%e2%80%93Waugh%e2%80%93Lovell_theorem
 Fritz_John_conditions
 Frobenius_algebra
 Frobenius_covariant
@@ -7513,12 +7522,10 @@ Hoberman_sphere
 Hochschild_homology
 Hodge_bundle
 Hodge_conjecture
-Hodge_cycle
 Hodge_dual
 Hodge_index_theorem
 Hodge_structure
 Hodge_theorem
-Hodge_theory
 Hodgkin%e2%80%93Huxley_model
 Hoeffding%27s_inequality
 Hoeffding%27s_lemma
@@ -7846,6 +7853,7 @@ Image_%28category_theory%29
 Image_%28mathematics%29
 Image_functors_for_sheaves
 Image-based_meshing
+Images_of_Julia_and_Mandelbrot_sets
 Imaginary_curve
 Imaginary_element
 Imaginary_hyperelliptic_curve
@@ -8144,7 +8152,6 @@ Interior_algebra
 Interior_point_method
 Interior_product
 Interleave_sequence
-Intermediate_Jacobian
 Intermediate_Math_League_of_Eastern_Massachusetts
 Intermediate_logic
 Intermediate_value_theorem
@@ -8326,6 +8333,7 @@ Ishimori_equation
 Ising_model
 Isis_%28journal%29
 Isocline
+Isoclinism_of_groups
 Isodynamic_point
 Isogeny
 Isogonal
@@ -8856,6 +8864,7 @@ Kronecker_delta
 Kronecker_limit_formula
 Kronecker_product
 Kronecker_substitution
+Kronecker_sum_of_discrete_Laplacians
 Kronecker_symbol
 Kronecker%27s_lemma
 Kronecker%27s_sigma_function
@@ -8963,6 +8972,8 @@ Lagrange_reversion_theorem
 Lagrange%27s_formula
 Lagrange%27s_four-square_theorem
 Lagrange%27s_identity
+Lagrange%27s_identity_%28boundary_value_problem%29
+Lagrange%27s_identity_%28disambiguation%29
 Lagrange%27s_theorem
 Lagrange%27s_theorem_%28group_theory%29
 Lagrange%27s_theorem_%28number_theory%29
@@ -9039,6 +9050,7 @@ Laplace_principle_%28large_deviations_theory%29
 Laplace_transform
 Laplace_transform_applied_to_differential_equations
 Laplace%27s_equation
+Laplace%27s_method
 Laplace%e2%80%93Beltrami_operator
 Laplace%e2%80%93Runge%e2%80%93Lenz_vector
 Laplace%e2%80%93Stieltjes_transform
@@ -9122,6 +9134,7 @@ Lax-Milgram_lemma
 Lax%e2%80%93Friedrichs_method
 Lax%e2%80%93Milgram_theorem
 Lax%e2%80%93Wendroff_method
+Lax%e2%80%93Wendroff_theorem
 Layer_cake_representation
 Layered_hidden_Markov_model
 Lazy_caterer%27s_sequence
@@ -9382,7 +9395,6 @@ Linear_functional
 Linear_independence
 Linear_inequality
 Linear_interpolation
-Linear_least_squares
 Linear_logic
 Linear_map
 Linear_matrix_inequality
@@ -9394,7 +9406,7 @@ Linear_probability_model
 Linear_programming
 Linear_programming_decoding
 Linear_programming_relaxation
-Linear_regression
+Linear_regression_model
 Linear_search_problem
 Linear_separability
 Linear_space_%28geometry%29
@@ -9742,6 +9754,7 @@ Ljung%e2%80%93Box_test
 Lloyd%27s_algorithm
 Lo_Shu_Square
 Lobachevsky_Prize
+Lobb_numbers
 Local_Euler_characteristic_formula
 Local_Fields_%28book%29
 Local_Tate_duality
@@ -10070,7 +10083,6 @@ Manakov_system
 Manava
 Mandart_inellipse
 Mandelbrot_Competition
-Mandelbrot_and_Julia_set_landscapes
 Mandelbrot_set
 Manifold
 Manifold_%28magazine%29
@@ -10440,6 +10452,7 @@ Median_cut
 Median_graph
 Median_test
 Mediant_%28mathematics%29
+Medoid
 Megaprime
 Mehrotra_predictor-corrector_method
 Meijer_G-function
@@ -11010,6 +11023,7 @@ Multivector
 Multiview_orthographic_projection
 Mumford_conjecture
 Mumford_vanishing_theorem
+Mumford%e2%80%93Tate_group
 Murderous_Maths
 Musean_hypernumber
 Music_and_mathematics
@@ -11399,6 +11413,7 @@ Norm_%28group%29
 Norm_%28mathematics%29
 Norm_form
 Norm_of_an_ideal
+Norm_residue_isomorphism_theorem
 Norm_variety
 Normal_basis
 Normal_bundle
@@ -11433,7 +11448,7 @@ Normal-inverse_Gaussian_distribution
 Normal-scaled_inverse_gamma_distribution
 Normalisation_by_evaluation
 Normality_test
-Normalization_property_%28lambda-calculus%29
+Normalization_property_%28abstract_rewriting%29
 Normalizing_constant
 Normally_distributed_and_uncorrelated_does_not_imply_independent
 Normally_hyperbolic_invariant_manifold
@@ -11503,6 +11518,7 @@ Numerical_digit
 Numerical_error
 Numerical_integration
 Numerical_linear_algebra
+Numerical_methods_for_linear_least_squares
 Numerical_model_of_solar_system
 Numerical_ordinary_differential_equations
 Numerical_parameter
@@ -11514,6 +11530,7 @@ Numerical_smoothing_and_differentiation
 Numerical_stability
 Numerical_weather_prediction
 Numerov%27s_method
+Num%c3%a9raire
 Nuts_and_bolts_%28general_relativity%29
 Nyaya
 Nyquist%e2%80%93Shannon_sampling_theorem
@@ -11539,6 +11556,7 @@ Observational_error
 Obstacle_problem
 Obstruction_theory
 Obversion
+Occupancy_frequency_distribution
 Occupancy_theorem
 Occurrences_of_Grandi%27s_series
 Occurs_check
@@ -11753,6 +11771,7 @@ Orthant
 Orthocentric_system
 Orthocompact_space
 Orthogonal_Procrustes_problem
+Orthogonal_analysis
 Orthogonal_collocation
 Orthogonal_complement
 Orthogonal_convex_hull
@@ -12627,6 +12646,7 @@ Positively_separated_sets
 Possibility_theory
 Possible_Worlds_%28play%29
 Post_correspondence_problem
+Post_hoc_ergo_propter_hoc
 Post%27s_inversion_formula
 Post%27s_lattice
 Post%27s_theorem
@@ -12751,6 +12771,7 @@ PrimeGrid
 Primefree_sequence
 Primes_in_arithmetic_progression
 Primeval_number
+Primitive_abundant_number
 Primitive_element
 Primitive_element_%28finite_field%29
 Primitive_element_theorem
@@ -13089,7 +13110,6 @@ Pushforward_%28differential%29
 Pushforward_%28homology%29
 Pushforward_measure
 Pushout_%28category_theory%29
-Pyramid
 Pyramid_%28geometry%29
 Pyramidal_number
 Pyritohedron
@@ -13402,7 +13422,7 @@ Ramsey_cardinal
 Ramsey_theory
 Ramsey%27s_theorem
 Randi%c4%87%e2%80%99s_molecular_connectivity_index
-Random_coil
+Random_Fibonacci_sequence
 Random_compact_set
 Random_dynamical_system
 Random_effects_model
@@ -13462,6 +13482,7 @@ Rate_of_convergence
 Ratio
 Ratio_distribution
 Ratio_test
+Rational_approximation
 Rational_consequence_relation
 Rational_dependence
 Rational_function
@@ -13747,7 +13768,6 @@ Representations_of_e
 Representative_function
 Reproducing_kernel_Hilbert_space
 Reptation_Monte_Carlo
-Repulsive_particle_swarm_optimization
 Repunit
 Repunit_prime
 Resampling_%28bitmap%29
@@ -14106,6 +14126,7 @@ SAT_Subject_Test_in_Mathematics_Level_2
 SC_%28complexity%29
 SEAMEO_Mathematics_Olympiad
 SETAR_%28model%29
+SHAZAM_%28software%29
 SHEEP_%28symbolic_computation_system%29
 SI_prefix
 SIPTA
@@ -14204,7 +14225,6 @@ Scale_analysis_%28mathematics%29
 Scale_analysis_%28statistics%29
 Scale_factor
 Scale_parameter
-Scale_property
 Scale-free_network
 Scaled-inverse-chi-square_distribution
 Scalenohedron
@@ -14294,6 +14314,7 @@ Schur%27s_lemma_%28from_Riemannian_geometry%29
 Schur%27s_property
 Schur%27s_theorem
 Schur-convex_function
+Schur%e2%80%93Horn_theorem
 Schur%e2%80%93Weyl_duality
 Schur%e2%80%93Zassenhaus_theorem
 Schutzenberger_group
@@ -15047,6 +15068,7 @@ Special_linear_group
 Special_number_field_sieve
 Special_ordered_set
 Special_orthogonal_Lie_algebra
+Special_products
 Special_right_triangles
 Special_unitary_group
 Special_values_of_L-functions
@@ -15275,7 +15297,6 @@ Stanine
 Stanislaw_Ulam
 Stanley%27s_reciprocity_theorem
 Stanley%e2%80%93Reisner_ring
-Stanley%e2%80%93Reisner_ring_%28binary_operations%29
 Stanley%e2%80%93Wilf_conjecture
 Star_%28game%29
 Star_%28graph_theory%29
@@ -15414,7 +15435,6 @@ Stirling_numbers_of_the_second_kind
 Stirling_transform
 Stirling%27s_approximation
 Stochastic
-Stochastic_approximation
 Stochastic_calculator
 Stochastic_calculus
 Stochastic_computing
@@ -15422,7 +15442,6 @@ Stochastic_control
 Stochastic_differential_equation
 Stochastic_diffusion_search
 Stochastic_geometry
-Stochastic_gradient_descent
 Stochastic_grammar
 Stochastic_hill_climbing
 Stochastic_kernel_estimation
@@ -15437,7 +15456,6 @@ Stochastic_processes_and_boundary_value_problems
 Stochastic_programming
 Stochastic_resonance
 Stochastic_simulation
-Stochastic_tunneling
 Stochastic_universal_sampling
 Stochastics_and_Dynamics
 Stokes_Equations
@@ -17117,7 +17135,6 @@ Visibility_graph_analysis
 Visibility_polygon
 Visual_Calculus
 Visual_hull
-Viswanath%27s_constant
 Vitale%27s_random_Brunn%e2%80%93Minkowski_inequality
 Vitali_convergence_theorem
 Vitali_covering_lemma
@@ -17174,6 +17191,7 @@ Vorticity_confinement
 Vorticity_equation
 Vuong%27s_closeness_test
 Vysochanski%c3%af%e2%80%93Petunin_inequality
+W-curve
 W._W._Rouse_Ball
 WKB_approximation
 WRF-Fire
@@ -17602,6 +17620,7 @@ Zorn%27s_lemma
 Zsigmondy%27s_theorem
 Zubov%27s_method
 Zuckerman_functor
+%c2%b11-sequence
 %c3%89douard_Lucas
 %c3%89l%c3%a9ments_de_g%c3%a9om%c3%a9trie_alg%c3%a9brique
 %c3%89tale_algebra
