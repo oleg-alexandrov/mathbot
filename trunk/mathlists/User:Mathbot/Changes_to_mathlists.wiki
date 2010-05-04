@@ -2,6 +2,11 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== May 4, 2010 ==
+
+:Removed [[Ascertainment bias]] (is a redirect to [[Sampling bias]])
+----
+
 == May 3, 2010 ==
 
 :Removed [[Mean Signed Difference]] (is a redirect to [[Mean signed difference]])
@@ -977,29 +982,6 @@
 :Added   [[T distribution]]
 :Added   [[Udo of Aachen]]
 :Added   [[Witten zeta function]]
-----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
-
-== March 23, 2010 ==
-
-:Removed [[Dyadic Distribution]] (is a redirect to [[Dyadic distribution]])
-:Added   [[Brooks-Iyengar Algorithm]]
-:Added   [[Dyadic distribution]]
-:Added   [[Entanglement-assisted stabilizer formalism]]
-:Added   [[Finite metric space]]
-:Added   [[Gephi]]
-:Added   [[Granny knot (mathematics)]]
-:Added   [[Herglotz-Zagier function]]
-:Added   [[Quadrature (mathematics)]]
-:Added   [[Sample (material)]]
-:Added   [[Square knot (mathematics)]]
-:Added   [[Vflo]]
 ----
 : Mathematicians:added   [[Carolyn S. Gordon]]
 : Mathematicians:added   [[Eberhard Melchior]]

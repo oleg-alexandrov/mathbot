@@ -1201,7 +1201,6 @@ Asa%e1%b9%83khyeya
 Ascendant_subgroup
 Ascending_chain_condition
 Ascending_chain_condition_on_principal_ideals
-Ascertainment_bias
 Asia-Pacific_Journal_of_Operational_Research
 Asian_Pacific_Mathematics_Olympiad
 Askey%e2%80%93Gasper_inequality
