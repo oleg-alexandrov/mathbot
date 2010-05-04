@@ -428,6 +428,7 @@ A Mathematical Theory of Communication
 A Mathematician's Apology
 A Million Random Digits with 100,000 Normal Deviates
 A New Era of Thought
+A Passage to Infinity
 A Requiem for Homo Sapiens
 A Symbolic Analysis of Relay and Switching Circuits
 A System of Logic
@@ -1220,7 +1221,7 @@ Aspherical space
 Assembly map
 Assignment problem
 Associahedron
-Associated Legendre function
+Associated Legendre polynomials
 Associated bundle
 Associated prime
 Association (statistics)
@@ -4656,6 +4657,7 @@ Dining philosophers problem
 Dinitz conjecture
 Diophantine approximation
 Diophantine equation
+Diophantine geometry
 Diophantine set
 Diophantus II.VIII
 Dipole graph
@@ -5448,7 +5450,6 @@ Equipotential
 Equipotential surface
 Equiprobable
 Equitable coloring
-Equitorium
 Equivalence (measure theory)
 Equivalence class
 Equivalence of categories
@@ -6548,6 +6549,7 @@ Föppl–von Kármán equations
 Følner sequence
 Fürer's algorithm
 Fσ set
+G-function
 G-module
 G-network
 G-structure
@@ -6611,6 +6613,7 @@ Gamma matrices
 Gamma process
 Gamma test (statistics)
 Ganea conjecture
+Ganita-yukti-bhasa
 Gantt chart
 Gap theorem
 Gap theorem (disambiguation)
@@ -7246,6 +7249,7 @@ Grothendieck–Hirzebruch–Riemann–Roch theorem
 Grothendieck–Katz p-curvature conjecture
 Ground axiom
 Ground expression
+Ground field
 Groundwater energy balance
 Groundwater flow equation
 Group (mathematics)
@@ -8202,6 +8206,7 @@ ICTCM Award
 ICTP Ramanujan Prize
 IDA*
 INSEE code
+IOSO
 IP (complexity)
 IP set
 ISO 31-11
@@ -8257,6 +8262,7 @@ Image (mathematics)
 Image functors for sheaves
 Image-based meshing
 Images of Julia and Mandelbrot sets
+Imaginary (exhibition)
 Imaginary curve
 Imaginary element
 Imaginary hyperelliptic curve
@@ -9663,6 +9669,7 @@ Left-truncatable prime
 Leftover hash-lemma
 Legendre chi function
 Legendre form
+Legendre function
 Legendre polynomials
 Legendre rational functions
 Legendre relation
@@ -9839,6 +9846,7 @@ Line (geometry)
 Line at infinity
 Line bundle
 Line complex
+Line coordinates
 Line drawing algorithm
 Line element
 Line field
@@ -10581,7 +10589,6 @@ Management science
 Manakov system
 Mandart inellipse
 Mandelbrot Competition
-Mandelbrot and Julia set landscapes
 Mandelbrot set
 Manifold
 Manifold (magazine)
@@ -10768,6 +10775,7 @@ Mathematical morphology
 Mathematical notation
 Mathematical object
 Mathematical physics
+Mathematical plurals
 Mathematical practice
 Mathematical problem
 Mathematical programming with equilibrium constraints
@@ -10946,6 +10954,7 @@ Mean integrated squared error
 Mean of circular quantities
 Mean percentage error
 Mean reciprocal rank
+Mean signed difference
 Mean square quantization error
 Mean square weighted deviation
 Mean squared error
@@ -11207,6 +11216,7 @@ Minor (linear algebra)
 Minority game
 Minute of arc
 Miquel's theorem
+Miracle Octad Generator
 Mirimanoff's congruence
 Mirror image
 Mirror symmetry
@@ -11734,6 +11744,7 @@ Natural density
 Natural exponential family
 Natural filtration
 Natural logarithm
+Natural logarithm of 2
 Natural neighbor
 Natural number
 Natural number object
@@ -11900,6 +11911,7 @@ Nine-dimensional space
 Nine-point circle
 Nine-point hyperbola
 Niven's constant
+Nl (format)
 No free lunch in search and optimization
 No free lunch theorem
 No wandering domain theorem
@@ -13306,6 +13318,7 @@ Polytope families
 Polytope graph
 Polytree
 Polytrope
+Pompeiu derivative
 Pompeiu problem
 Pompeiu's theorem
 Pompeiu–Hausdorff distance
@@ -13675,7 +13688,6 @@ Projection-slice theorem
 Projection-valued measure
 Projectionless algebra
 Projective Hilbert space
-Projective algebraic manifold
 Projective cone
 Projective connection
 Projective cover
@@ -14244,6 +14256,7 @@ Radonifying function
 Radon–Nikodym theorem
 Radon–Riesz property
 Ragsdale conjecture
+Raikov's theorem
 Raised cosine distribution
 Raising and lowering indices
 Ramanujam vanishing theorem
@@ -14362,6 +14375,7 @@ Ratner's theorems
 Rauch comparison theorem
 Raven paradox
 Raw score
+Ray casting
 Ray transfer matrix analysis
 Rayleigh distribution
 Rayleigh quotient
@@ -15610,6 +15624,7 @@ Sicherman dice
 Side-approximation theorem
 Sides of an equation
 Sidon sequence
+Siegel G-function
 Siegel disc
 Siegel modular form
 Siegel upper half-space
@@ -15945,6 +15960,7 @@ Solder form
 Solenoid (mathematics)
 Solenoidal vector field
 Solid Klein bottle
+Solid Modeling Solutions
 Solid angle
 Solid geometry
 Solid harmonics
@@ -16023,6 +16039,7 @@ Spatial frequency
 Spatial network
 Spatial variability
 Spatial-temporal reasoning
+Speakeasy (computational environment)
 Spearman's rank correlation coefficient
 Spearman-Brown prediction formula
 Specht module
@@ -18145,6 +18162,7 @@ Vantieghems theorem
 Vapnik–Chervonenkis theory
 Varadhan's lemma
 Variable (mathematics)
+Variable kernel density estimation
 Variable rules analysis
 Variable structure system
 Variable-length code
@@ -18388,6 +18406,7 @@ Water, gas, and electricity
 Waterfall chart
 Waterman polyhedron
 Watkins snark
+Watson's lemma
 Watt's curve
 Watts and Strogatz model
 Wave
@@ -18804,6 +18823,7 @@ Zuckerman functor
 Čech-to-derived functor spectral sequence
 Černy conjecture
 Łojasiewicz inequality
+Łoś–Tarski preservation theorem
 Łukasiewicz logic
 Γ-convergence
 Δ-hyperbolic space

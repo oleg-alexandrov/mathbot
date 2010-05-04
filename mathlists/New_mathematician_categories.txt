@@ -1,4 +1,3 @@
-Category:Functional analysts
 Category:American cryptographers
 Category:American logicians
 Category:American statisticians
@@ -32,10 +31,10 @@ Category:Dutch statisticians
 Category:Egyptian cryptographers
 Category:English logicians
 Category:English statisticians
-Category:Italian mathematician stubs
-Category:Polish mathematician stubs
+Category:Swedish mathematician stubs
 Category:French cryptographers
 Category:French statisticians
+Category:Approximation theorists
 Category:Researchers in geometric algorithms
 Category:Carl Friedrich Gauss
 Category:German logicians
@@ -51,8 +50,6 @@ Category:Israeli cryptographers
 Category:Italian cryptographers
 Category:Japanese logicians
 Category:Japanese statisticians
-Category:Approximation theorists
-Category:Measure theorists
 Category:Swedish logicians
 Category:Statistician stubs
 Category:Bourbaki
@@ -80,7 +77,6 @@ Category:Statisticians
 Category:Cryptographers by nationality
 Category:Logicians by nationality
 Category:Statisticians by nationality
-Category:Sudanese mathematicians
 Category:Geometry educators
 Category:New Zealand statisticians
 Category:Niels Henrik Abel

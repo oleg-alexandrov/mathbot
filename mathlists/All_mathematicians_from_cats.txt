@@ -213,6 +213,7 @@ Alfred_Russel_Wallace
 Alfred_Tarski
 Alfred_Tauber
 Alfred_Young
+Alfredo_Andreini
 Alfr%c3%a9d_Haar
 Alfr%c3%a9d_R%c3%a9nyi
 Alhazen
@@ -368,6 +369,7 @@ Arne_Sletsj%c3%b8e
 Arnold_Ross
 Arnold_Sch%c3%b6nhage
 Arnold_Walfisz
+Arnoldo_Frigessi
 Aron_Simis
 Artemas_Martin
 Arthur_Black_%28mathematician%29
@@ -486,6 +488,7 @@ Bernt_Michael_Holmboe
 Bernt_Wahl
 Bernt_%c3%98ksendal
 Bert_Broer
+Bertil_Gustafsson
 Bertram_Huppert
 Bertram_Kostant
 Bertrand_Russell
@@ -616,6 +619,7 @@ Carl_R._de_Boor
 Carl_St%c3%b8rmer
 Carl_Theodor_Anger
 Carl_Wilhelm_Borchardt
+Carl-Gustav_Esseen
 Carlo_Alberto_Castigliano
 Carlo_Emilio_Bonferroni
 Carlo_Severini
@@ -638,6 +642,7 @@ Cecilia_Krieger
 Cedric_Smith_%28statistician%29
 Cem_Y%c4%b1ld%c4%b1r%c4%b1m
 Cesare_Arzel%c3%a0
+Cesare_Burali-Forti
 Chandler_Davis
 Chandrashekhar_Khare
 Charalambos_D._Aliprantis
@@ -655,6 +660,7 @@ Charles_Ehresmann
 Charles_Epstein
 Charles_F._Van_Loan
 Charles_Fefferman
+Charles_Fox_%28mathematician%29
 Charles_Hayes_%28mathematician%29
 Charles_Hermite
 Charles_Howard_Hinton
@@ -728,6 +734,7 @@ Christopher_Budd
 Christopher_Clavius
 Christopher_Hooley
 Christopher_Wren
+Christopher_Wursteisen
 Christos_Papakyriakopoulos
 Chronology_of_ancient_Greek_mathematicians
 Chrysippus
@@ -789,6 +796,7 @@ Cypri%c3%a1n_Kar%c3%a1sek_Lvovick%c3%bd
 Cyril_Offord
 Cyrus_Colton_MacDuffee
 Czes%c5%82aw_Ryll-Nardzewski
+C%c3%a9dric_Villani
 D%27Arcy_Wentworth_Thompson
 D._D._Morduhai-Boltovskoi
 D._D._Wall
@@ -1058,6 +1066,7 @@ Edward_Norton_Lorenz
 Edward_O._Thorp
 Edward_Routh
 Edward_Rowe_Mores
+Edward_Szturm_de_Sztrem
 Edward_Thomas_Copson
 Edward_Vermilye_Huntington
 Edward_W._Veitch
@@ -1104,6 +1113,7 @@ Emil_Grosswald
 Emil_Julius_Gumbel
 Emil_Leon_Post
 Emil_Weyr
+Emilio_Artom
 Emilio_Spedicato
 Emma_Lehmer
 Emmanuel_Cand%c3%a8s
@@ -1505,6 +1515,7 @@ Giovanni_Battista_Amici
 Giovanni_Boaga
 Giovanni_Ceva
 Giovanni_Demisiani
+Giovanni_Francesco_Sagredo
 Giovanni_Frattini
 Giovanni_Giambelli
 Giovanni_Girolamo_Saccheri
@@ -2744,6 +2755,7 @@ Louis_Poinsot
 Louis_de_Branges_de_Bourcia
 Lowell_Schoenfeld
 Lo%c3%afc_Merel
+Luc_Illusie
 Luca_Pacioli
 Luca_Valerio
 Lucien_Godeaux
@@ -3342,6 +3354,7 @@ Paul_Zimmermann
 Paul_de_Casteljau
 Paul_%c3%89mile_Appell
 Paul-Andr%c3%a9_Meyer
+Paulo_Pancatuccio
 Paulo_Ribenboim
 Pavel_Alexandrov
 Pavel_Florensky
@@ -3465,6 +3478,7 @@ Piet_Hein_%28Denmark%29
 Pieter_Hendrik_Schoute
 Pietro_Abbati_Marescotti
 Pietro_Cataldi
+Pietro_Mengoli
 Pietro_Pitati
 Pingala
 Piotr_Smole%c5%84ski
@@ -3937,6 +3951,7 @@ Steve_Kuzmicich
 Steve_Shnider
 Steven_A._Orszag
 Steven_Brams
+Steven_G._Krantz
 Steven_Gaal
 Steven_Haberman
 Steven_Kerckhoff
@@ -3984,6 +3999,7 @@ Tadashi_Nakayama_%28mathematician%29
 Tadatoshi_Akiba
 Tadeusz_Banachiewicz
 Tadeusz_Iwaniec
+Tadeusz_Kotarbi%c5%84ski
 Tadeusz_Wa%c5%bcewski
 Takebe_Kenko
 Takuro_Shintani
@@ -4141,6 +4157,7 @@ Turgay_Uzer
 U._Narayan_Bhat
 U._S._R._Murty
 Udny_Yule
+Ulf_Grenander
 Ulisse_Dini
 Ulrich_Kohlenbach
 Ulrike_Tillmann
@@ -4223,6 +4240,7 @@ Viktor_Trkal
 Viktor_Wagner
 Viktoras_Bir%c5%bei%c5%a1ka
 Vilmos_Totik
+Vinay_V._Deodhar
 Vincent_Rijmen
 Vincentio_Reinieri
 Vincenzo_Riccati
@@ -4485,6 +4503,7 @@ Yutaka_Taniyama
 Yuval_Flicker
 Yves_Colin_de_Verdi%c3%a8re
 Yves_Laszlo
+Yves_Marie_Andr%c3%a9
 Yves_Meyer
 Yvon_Villarceau
 Yvonne_Choquet-Bruhat

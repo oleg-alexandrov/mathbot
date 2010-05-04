@@ -2,6 +2,68 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== May 3, 2010 ==
+
+:Removed [[Mean Signed Difference]] (is a redirect to [[Mean signed difference]])
+:Added   [[A Passage to Infinity]]
+:Added   [[Line coordinates]]
+:Added   [[Mean signed difference]]
+:Added   [[Nl (format)]]
+----
+: Mathematicians:added   [[Luc Illusie]]
+: Mathematicians:added   [[Yves Marie André]]
+
+== May 2, 2010 ==
+
+:Added   [[Mean Signed Difference]]
+:Added   [[Speakeasy (computational environment)]]
+----
+: Mathematicians:added   [[Christopher Wursteisen]]
+: Mathematicians:added   [[Ulf Grenander]]
+: Mathematicians:added   [[Vinay V. Deodhar]]
+
+== May 1, 2010 ==
+
+:Removed [[Associated Legendre function]] (is a redirect to [[Legendre function]])
+:Removed [[Mandelbrot and Julia set landscapes]] (article deleted/does not exist)
+:Added   [[Associated Legendre polynomials]]
+:Added   [[Ganita-yukti-bhasa]]
+:Added   [[Legendre function]]
+:Added   [[Mathematical plurals]]
+:Added   [[Pompeiu derivative]]
+:Added   [[Raikov's theorem]]
+:Added   [[Ray casting]]
+:Added   [[Watson's lemma]]
+----
+: Mathematicians:added   [[Bertil Gustafsson]]
+: Mathematicians:added   [[Cédric Villani]]
+: Mathematicians:added   [[Steven G. Krantz]]
+
+== April 30, 2010 ==
+
+:Removed [[Equitorium]] 
+:Removed [[Projective algebraic manifold]] (is a redirect to [[algebraic manifold]])
+:Removed [[Łoś-Tarski preservation theorem]] (is a redirect to [[Łoś–Tarski preservation theorem]])
+:Added   [[Diophantine geometry]]
+:Added   [[Ground field]]
+:Added   [[IOSO]]
+:Added   [[Siegel G-function]]
+:Added   [[Variable kernel density estimation]]
+:Added   [[Łoś–Tarski preservation theorem]]
+----
+
+== April 29, 2010 ==
+
+:Added   [[G-function]]
+:Added   [[Imaginary (exhibition)]]
+:Added   [[Miracle Octad Generator]]
+:Added   [[Natural logarithm of 2]]
+:Added   [[Solid Modeling Solutions]]
+:Added   [[Łoś-Tarski preservation theorem]]
+----
+: Mathematicians:added   [[Carl-Gustav Esseen]]
+: Mathematicians:added   [[Charles Fox (mathematician)]]
+
 == April 28, 2010 ==
 
 :Removed [[Dolbeault operator]] (is a redirect to [[complex differential form]])
@@ -938,112 +1000,6 @@
 :Added   [[Sample (material)]]
 :Added   [[Square knot (mathematics)]]
 :Added   [[Vflo]]
-----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
-
-== March 22, 2010 ==
-
-:Removed [[Combinatorial sphere]] (is a redirect to [[Simplicial sphere]])
-:Removed [[Hamilton institute]] (is a redirect to [[Hamilton Institute]])
-:Removed [[Swift-Hohenberg equation]] (is a redirect to [[Swift–Hohenberg equation]])
-:Added   [[7₁ knot]]
-:Added   [[Augmental homology]]
-:Added   [[Cyclic polytope]]
-:Added   [[Dyadic Distribution]]
-:Added   [[Folded cube graph]]
-:Added   [[Hamilton Institute]]
-:Added   [[Simplicial sphere]]
-:Added   [[Stanley-Reisner ring (binary operations)]]
-:Added   [[Stevedore knot (mathematics)]]
-:Added   [[Swift–Hohenberg equation]]
-----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
-
-== March 21, 2010 ==
-
-:Removed [[Bateman-Horn conjecture]] (is a redirect to [[Bateman–Horn conjecture]])
-:Removed [[Half circle distribution]] (is a redirect to [[Wigner semicircle distribution]])
-:Removed [[Half side formulae]] (is a redirect to [[Half-side formula]])
-:Removed [[Shintani L-function]] (is a redirect to [[Shintani zeta function]])
-:Removed [[Stanley-Reisner ring]] (is a redirect to [[Stanley–Reisner ring]])
-:Added   [[Barnes zeta function]]
-:Added   [[Bateman–Horn conjecture]]
-:Added   [[Feature selection]]
-:Added   [[Half-side formula]]
-:Added   [[Shintani zeta function]]
-:Added   [[Stanley–Reisner ring]]
-:Added   [[Three-twist knot]]
-:Added   [[Venvaroha]]
-----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
-
-== March 20, 2010 ==
-
-:Removed [[Frank and Brennie Morgan Prize for Outstanding Research in Mathematics by an Undergraduate Student]] (is a redirect to [[Morgan Prize]])
-:Removed [[Satisfiability and validity]] (is a redirect to [[Satisfiability]])
-:Removed [[Truncated power function]] (is a redirect to [[B-spline]])
-:Added   [[Morgan Prize (disambiguation)]]
-:Added   [[Multiple gamma function]]
-:Added   [[Normal-exponential-gamma distribution]]
-:Added   [[Omega-categorical theory]]
-:Added   [[Q-gamma function]]
-:Added   [[Satisfiability]]
-:Added   [[Shintani L-function]]
-----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
-
-== March 19, 2010 ==
-
-:Removed [[Counting argument]] (is a redirect to [[Combinatorial proof]])
-:Removed [[Unital]] (is a redirect to [[Unital algebra]])
-:Added   [[Meta-optimization]]
-:Added   [[Unital algebra]]
-----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
-
-== March 18, 2010 ==
-
-:Removed [[Epstein zeta function]] (is a redirect to [[real analytic Eisenstein series]])
-:Removed [[Theory of Sonics]] (is a redirect to [[Theory of sonics]])
-:Added   [[Counting argument]]
-:Added   [[Duality theory for distributive lattices]]
-:Added   [[Esakia duality]]
-:Added   [[Esakia space]]
-:Added   [[Pairwise Stone space]]
-:Added   [[Pairwise summation]]
-:Added   [[Priestley space]]
-:Added   [[Theory of sonics]]
-:Added   [[Zenzizenzizenzic]]
 ----
 : Mathematicians:added   [[Carolyn S. Gordon]]
 : Mathematicians:added   [[Eberhard Melchior]]
