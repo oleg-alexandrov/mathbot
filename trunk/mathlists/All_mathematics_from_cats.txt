@@ -426,6 +426,7 @@ A_Mathematical_Theory_of_Communication
 A_Mathematician%27s_Apology
 A_Million_Random_Digits_with_100%2c000_Normal_Deviates
 A_New_Era_of_Thought
+A_Passage_to_Infinity
 A_Requiem_for_Homo_Sapiens
 A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
 A_System_of_Logic
@@ -1210,7 +1211,7 @@ Aspherical_space
 Assembly_map
 Assignment_problem
 Associahedron
-Associated_Legendre_function
+Associated_Legendre_polynomials
 Associated_bundle
 Associated_prime
 Association_%28statistics%29
@@ -4438,6 +4439,7 @@ Dining_cryptographers_problem
 Dinitz_conjecture
 Diophantine_approximation
 Diophantine_equation
+Diophantine_geometry
 Diophantine_set
 Diophantus_II.VIII
 Dipole_graph
@@ -6212,6 +6214,7 @@ F%c3%b6ppl%e2%80%93von_K%c3%a1rm%c3%a1n_equations
 F%c3%b8lner_sequence
 F%c3%bcrer%27s_algorithm
 F%cf%83_set
+G-function
 G-module
 G-network
 G-structure
@@ -6270,10 +6273,10 @@ Gamma_matrices
 Gamma_process
 Gamma_test_%28statistics%29
 Ganea_conjecture
+Ganita-yukti-bhasa
 Gap_theorem
 Gap_theorem_%28disambiguation%29
 GapP
-Gardner%27s_relation
 Garside_element
 Gauge_covariant_derivative
 Gauge_function
@@ -6878,6 +6881,7 @@ Grothendieck%e2%80%93Hirzebruch%e2%80%93Riemann%e2%80%93Roch_theorem
 Grothendieck%e2%80%93Katz_p-curvature_conjecture
 Ground_axiom
 Ground_expression
+Ground_field
 Groundwater_energy_balance
 Groundwater_flow_equation
 Group_%28mathematics%29
@@ -7522,10 +7526,12 @@ Hoberman_sphere
 Hochschild_homology
 Hodge_bundle
 Hodge_conjecture
+Hodge_cycle
 Hodge_dual
 Hodge_index_theorem
 Hodge_structure
 Hodge_theorem
+Hodge_theory
 Hodgkin%e2%80%93Huxley_model
 Hoeffding%27s_inequality
 Hoeffding%27s_lemma
@@ -7794,6 +7800,7 @@ ICER
 ICTCM_Award
 ICTP_Ramanujan_Prize
 IDA%2a
+IOSO
 IP_%28complexity%29
 IP_set
 ISO_31-11
@@ -7854,6 +7861,7 @@ Image_%28mathematics%29
 Image_functors_for_sheaves
 Image-based_meshing
 Images_of_Julia_and_Mandelbrot_sets
+Imaginary_%28exhibition%29
 Imaginary_curve
 Imaginary_element
 Imaginary_hyperelliptic_curve
@@ -8152,6 +8160,7 @@ Interior_algebra
 Interior_point_method
 Interior_product
 Interleave_sequence
+Intermediate_Jacobian
 Intermediate_Math_League_of_Eastern_Massachusetts
 Intermediate_logic
 Intermediate_value_theorem
@@ -9186,6 +9195,7 @@ Left-truncatable_prime
 Leftover_hash-lemma
 Legendre_chi_function
 Legendre_form
+Legendre_function
 Legendre_polynomials
 Legendre_rational_functions
 Legendre_relation
@@ -9358,6 +9368,7 @@ Line_%28geometry%29
 Line_at_infinity
 Line_bundle
 Line_complex
+Line_coordinates
 Line_element
 Line_field
 Line_graph
@@ -10250,6 +10261,7 @@ Mathematical_model
 Mathematical_notation
 Mathematical_object
 Mathematical_physics
+Mathematical_plurals
 Mathematical_practice
 Mathematical_problem
 Mathematical_programming_with_equilibrium_constraints
@@ -10416,6 +10428,7 @@ Mean_integrated_squared_error
 Mean_of_circular_quantities
 Mean_percentage_error
 Mean_reciprocal_rank
+Mean_signed_difference
 Mean_square_quantization_error
 Mean_square_weighted_deviation
 Mean_squared_error
@@ -10650,6 +10663,7 @@ Minnesota_State_High_School_Mathematics_League
 Minor_%28linear_algebra%29
 Minute_of_arc
 Miquel%27s_theorem
+Miracle_Octad_Generator
 Mirimanoff%27s_congruence
 Mirror_image
 Mirror_symmetry_%28string_theory%29
@@ -11138,6 +11152,7 @@ Natural_density
 Natural_exponential_family
 Natural_filtration
 Natural_logarithm
+Natural_logarithm_of_2
 Natural_neighbor
 Natural_number
 Natural_number_object
@@ -11197,6 +11212,7 @@ Nematicon
 Nemeth_Braille
 Nemmers_Prize_in_Mathematics
 Nemytskii_operator
+Nephroid
 Nerve_%28category_theory%29
 Nerve_of_a_covering
 Nesbitt%27s_inequality
@@ -11289,6 +11305,7 @@ Nine-dimensional_space
 Nine-point_circle
 Nine-point_hyperbola
 Niven%27s_constant
+Nl_%28format%29
 No_free_lunch_in_search_and_optimization
 No_free_lunch_theorem
 No_wandering_domain_theorem
@@ -12593,6 +12610,7 @@ Polytope_density
 Polytope_families
 Polytope_graph
 Polytree
+Pompeiu_derivative
 Pompeiu_problem
 Pompeiu%27s_theorem
 Pompeiu%e2%80%93Hausdorff_distance
@@ -12919,7 +12937,6 @@ Projection-slice_theorem
 Projection-valued_measure
 Projectionless_algebra
 Projective_Hilbert_space
-Projective_algebraic_manifold
 Projective_cone
 Projective_connection
 Projective_cover
@@ -12933,6 +12950,7 @@ Projective_linear_group
 Projective_module
 Projective_object
 Projective_plane
+Projective_polyhedron
 Projective_representation
 Projective_semilinear_group
 Projective_space
@@ -13399,6 +13417,7 @@ Radonifying_function
 Radon%e2%80%93Nikodym_theorem
 Radon%e2%80%93Riesz_property
 Ragsdale_conjecture
+Raikov%27s_theorem
 Raised_cosine_distribution
 Raising_and_lowering_indices
 Ramanujam_vanishing_theorem
@@ -13503,6 +13522,7 @@ Rational_zeta_series
 Rationalisation_%28mathematics%29
 Ratner%27s_theorems
 Rauch_comparison_theorem
+Ray_casting
 Rayleigh_distribution
 Rayleigh_quotient
 Rayleigh_quotient_iteration
@@ -14225,6 +14245,7 @@ Scale_analysis_%28mathematics%29
 Scale_analysis_%28statistics%29
 Scale_factor
 Scale_parameter
+Scale_property
 Scale-free_network
 Scaled-inverse-chi-square_distribution
 Scalenohedron
@@ -14668,6 +14689,7 @@ Sicherman_dice
 Side-approximation_theorem
 Sides_of_an_equation
 Sidon_sequence
+Siegel_G-function
 Siegel_disc
 Siegel_modular_form
 Siegel_upper_half-space
@@ -14982,6 +15004,7 @@ Solder_form
 Solenoid_%28mathematics%29
 Solenoidal_vector_field
 Solid_Klein_bottle
+Solid_Modeling_Solutions
 Solid_angle
 Solid_geometry
 Solid_harmonics
@@ -15052,6 +15075,7 @@ Spatial_dependence
 Spatial_frequency
 Spatial_network
 Spatial-temporal_reasoning
+Speakeasy_%28computational_environment%29
 Spearman%27s_rank_correlation_coefficient
 Spearman-Brown_prediction_formula
 Specht_module
@@ -17004,6 +17028,7 @@ Vantieghems_theorem
 Vapnik%e2%80%93Chervonenkis_theory
 Varadhan%27s_lemma
 Variable_%28mathematics%29
+Variable_kernel_density_estimation
 Variable_rules_analysis
 Variable_structure_system
 Variable-length_code
@@ -17116,6 +17141,7 @@ Vietoris%e2%80%93Begle_mapping_theorem
 Vietoris%e2%80%93Rips_complex
 Vigesimal
 Villarceau_circles
+Vinay_V._Deodhar
 Vinculum_%28symbol%29
 Vinogradov%27s_theorem
 Virahanka
@@ -17232,6 +17258,7 @@ Watchman_route_problem
 Water%2c_gas%2c_and_electricity
 Waterman_polyhedron
 Watkins_snark
+Watson%27s_lemma
 Watt%27s_curve
 Watts_and_Strogatz_model
 Wave
@@ -17633,6 +17660,7 @@ Zuckerman_functor
 %c4%8cech-to-derived_functor_spectral_sequence
 %c4%8cerny_conjecture
 %c5%81ojasiewicz_inequality
+%c5%81o%c5%9b%e2%80%93Tarski_preservation_theorem
 %c5%81ukasiewicz_logic
 %c5%9ar%c4%abpati
 %ce%93-convergence

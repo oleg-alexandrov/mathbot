@@ -530,6 +530,7 @@ Bernt Michael Holmboe
 Bernt Wahl
 Bernt Øksendal
 Bert Broer
+Bertil Gustafsson
 Bertram Huppert
 Bertram Kostant
 Bertrand Russell
@@ -677,6 +678,7 @@ Carl Snyder
 Carl Størmer
 Carl Theodor Anger
 Carl Wilhelm Borchardt
+Carl-Gustav Esseen
 Carlo Alberto Castigliano
 Carlo Emilio Bonferroni
 Carlo Severini
@@ -721,6 +723,7 @@ Charles Ehresmann
 Charles Epstein
 Charles F. Van Loan
 Charles Fefferman
+Charles Fox (mathematician)
 Charles Hayes (mathematician)
 Charles Hermite
 Charles Howard Hinton
@@ -805,6 +808,7 @@ Christopher Budd
 Christopher Clavius
 Christopher Hooley
 Christopher Wren
+Christopher Wursteisen
 Christos Papakyriakopoulos
 Chrysippus
 Chuan-Chih Hsiung
@@ -874,6 +878,7 @@ Cyprián Karásek Lvovický
 Cyril Offord
 Cyrus Colton MacDuffee
 Czesław Ryll-Nardzewski
+Cédric Villani
 D'Arcy Wentworth Thompson
 D. A. Dickey
 D. B. West
@@ -3056,6 +3061,7 @@ Louis de Branges de Bourcia
 Lowell Schoenfeld
 Loïc Merel
 Luc Anselin
+Luc Illusie
 Luca Pacioli
 Luca Valerio
 Lucien Godeaux
@@ -4383,6 +4389,7 @@ Steve Kuzmicich
 Steve Shnider
 Steven A. Orszag
 Steven Brams
+Steven G. Krantz
 Steven Gaal
 Steven Haberman
 Steven Kerckhoff
@@ -4601,6 +4608,7 @@ U. Narayan Bhat
 U. S. R. Murty
 USR Murthy
 Udny Yule
+Ulf Grenander
 Ulisse Dini
 Ulrich Kohlenbach
 Ulrike Tillmann
@@ -4688,6 +4696,7 @@ Viktor Wagner
 Viktoras Biržiška
 Vilmos Totik
 Vilna Gaon
+Vinay V. Deodhar
 Vincent Rijmen
 Vincentio Reinieri
 Vincenzo Riccati
@@ -4984,6 +4993,7 @@ Yutaka Taniyama
 Yuval Flicker
 Yves Colin de Verdière
 Yves Laszlo
+Yves Marie André
 Yves Meyer
 Yvon Villarceau
 Yvonne Choquet-Bruhat
