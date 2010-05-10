@@ -8,8 +8,7 @@ use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; # absolute path to perl 
 use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
 use lib '../wp/modules'; # relative path to perl modules
 
-require 'bin/wikipedia_fetch_submit.pl'; 
-require 'bin/wikipedia_login.pl';
+require 'bin/perlwikipedia_utils.pl';
 require 'bin/get_html.pl';
 
 # Count and list the pages containing Wikipedia articles for deletion discussions (AfD).
@@ -18,6 +17,8 @@ require 'bin/get_html.pl';
 
 # Discussions more than this number of days in the past are considered old and must be listed at AfD
 my $afd_cutoff = 7; 
+
+my $gEditor;
 
 MAIN: {
   
@@ -39,7 +40,7 @@ MAIN: {
   }
 
   # The log in process must happen after we switched to the right directory as done above
-  &wikipedia_login();
+  $gEditor=wikipedia_login();
 
   my $attempts = 10;
   my $sleep    = 1;
@@ -84,7 +85,7 @@ sub count_and_list_open_AfDs {
   my ($text, $edit_summary, $error);
 
   # Fetch the summary file
-  $text = &wikipedia_fetch($summary_file, $attempts, $sleep);
+  $text = wikipedia_fetch($gEditor, $summary_file, $attempts, $sleep);
 
   # add the discussion from $afd_cutoff+1 days ago, if it is not already in $text
   ($text, $edit_summary) = &add_another_day ($text);
@@ -121,7 +122,7 @@ sub count_and_list_open_AfDs {
 
   # The file might have changed while we were doing the calculation above.
   # Get a new copy.
-  $text = &wikipedia_fetch($summary_file, $attempts, $sleep);
+  $text = wikipedia_fetch($gEditor, $summary_file, $attempts, $sleep);
   ($text, $edit_summary) = &add_another_day ($text);
   @lines = split("\n", $text);
   
@@ -152,8 +153,8 @@ sub count_and_list_open_AfDs {
     $edit_summary = "Big Backlog: " . $edit_summary;
   }
 
-  &wikipedia_submit($summary_file, $edit_summary, $combined_stats, $attempts, $sleep);
-  &wikipedia_submit($detailed_file, $edit_summary, $detailed_combined_stats, $attempts, $sleep);
+  wikipedia_submit($gEditor, $summary_file, $edit_summary, $combined_stats, $attempts, $sleep);
+  wikipedia_submit($gEditor, $detailed_file, $edit_summary, $detailed_combined_stats, $attempts, $sleep);
 
   return $combined_stats;
 }
@@ -244,7 +245,7 @@ sub update_archived_discussions {
   my $sleep        = shift;
 
   # The current text on the archive. We'll add to it.
-  my $archived_text = &wikipedia_fetch($archive_file, $attempts, $sleep);
+  my $archived_text = wikipedia_fetch($gEditor, $archive_file, $attempts, $sleep);
 
   my ($curr_year, $prev_year);
 
@@ -354,7 +355,7 @@ sub update_archived_discussions {
 
   $edit_summary = "Archiving " . $edit_summary;
   
-  &wikipedia_submit($archive_file, $edit_summary, $archived_text, $attempts, $sleep);
+  wikipedia_submit($gEditor, $archive_file, $edit_summary, $archived_text, $attempts, $sleep);
 }
 
 sub see_open_afd_discussions (){
@@ -463,7 +464,7 @@ sub initialize_new_afd_days {
     my ($next_afd_link, $next_afd_name) = &get_afd_link($day + 1);
 
     my $days_page = $curr_afd_link . ".wiki";
-    my $days_text = &wikipedia_fetch($days_page, $attempts, $sleep);
+    my $days_text = wikipedia_fetch($gEditor, $days_page, $attempts, $sleep);
 
     if ($days_text !~ /^\s*$/){
       # This day's page is not empty, so it was already initialized. Skip it.
@@ -478,7 +479,7 @@ sub initialize_new_afd_days {
     # Initialize the page for the day
     print "\n<br>Initializing $curr_afd_link<br>\n";
     my $edit_summary = "Initializing a new AfD day";
-    &wikipedia_submit($days_page, $edit_summary, $days_text, $attempts, $sleep);
+    wikipedia_submit($gEditor, $days_page, $edit_summary, $days_text, $attempts, $sleep);
 
   }
   
