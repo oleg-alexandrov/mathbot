@@ -4,9 +4,8 @@ use diagnostics;     # 'diagnostics' expands the cryptic warnings
 use CGI::Carp qw(fatalsToBrowser);
 
 print "Content-type: text/html\n\n"; # first line to print in a cgi script
-$| = 1; # flush the buffer each line
-
 undef $/; # undefines the separator. Can read one whole file in one scalar.
+$| = 1; # flush the buffer each line
 
 use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; 
 use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; 
