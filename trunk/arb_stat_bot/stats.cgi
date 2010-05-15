@@ -1,7 +1,11 @@
 #!/usr/bin/perl
 use strict;          # 'strict' insists that all variables be declared
 use diagnostics;     # 'diagnostics' expands the cryptic warnings
-#use open 'utf8';
+use CGI::Carp qw(fatalsToBrowser);
+
+print "Content-type: text/html\n\n"; # first line to print in a cgi script
+$| = 1; # flush the buffer each line
+
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; 
@@ -19,9 +23,6 @@ MAIN: {
 
   my ($sleep, $attempts, $text, $file, $local_file_in, $local_file_out);
   my ($edit_summary, $Editor);
-
-  print "Content-type: text/html\n\n"; # first line to print in a cgi script
-  $| = 1; # flush the buffer each line
 
   # If this function called with no arguments, read from and submit to
   # Wikipedia. Else, read from/write to write on disk. The second
