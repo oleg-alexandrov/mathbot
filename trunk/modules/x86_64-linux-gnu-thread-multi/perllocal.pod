@@ -20,3 +20,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Thu Apr 15 03:32:20 2010: C<Module> L<Crypt::SSLeay|Crypt::SSLeay>
+
+=over 4
+
+=item *
+
+C<installed into: /home/mathbot/public_html/wp/modules>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.57_01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -93,6 +93,10 @@ sub wikipedia_fetch {
       # Get text from the server, and check for errors.
       $editor->{errstr} = "";
       $text = $editor->get_text($article);
+      if ($text =~ /^2$/ ){
+	# Currently non-existent pages are marked with a "2"
+        $text = "";
+      }
       croak $editor->{errstr} . "\n" unless ($editor->{errstr} =~ /^\s*$/);
 
     };
