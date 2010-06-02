@@ -104,8 +104,10 @@ MAIN:{
     }
     $text = $text . "\n[[Category:Mathematics-related lists]]";
 
+    # These are groups of people, not individual mathematicians
     $text =~ s/(Bourbaki.*?\(.*?),.*?\n/$1\)\n/g;
     $text =~ s/(Martians.*?\(.*?),.*?\n/$1\)\n/g;
+    $text =~ s/(Blanche Descartes.*?\(.*?),.*?\n/$1\)\n/g;
 
     $edit_summary='Daily update. See [[User:Mathbot/Changes to mathlists]] for changes.';
     wikipedia_submit($Editor, "$mathematician_prefix ($letter).wiki", $edit_summary, $text, $attempts, $sleep);
