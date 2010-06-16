@@ -116,6 +116,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Chaos theory|Chaos theory]] &mdash;
 [[:Category:Chaotic maps|Chaotic maps]] &mdash;
 [[:Category:Characteristic classes|Characteristic classes]] &mdash;
+[[:Category:Characterization of probability distributions|Characterization of probability distributions]] &mdash;
 [[:Category:Chinese mathematics|Chinese mathematics]] &mdash;
 [[:Category:Chiral polyhedra|Chiral polyhedra]] &mdash;
 [[:Category:Circle packing|Circle packing]] &mdash;
@@ -201,7 +202,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Differential calculus|Differential calculus]] &mdash;
 [[:Category:Differential equations|Differential equations]] &mdash;
 [[:Category:Differential forms|Differential forms]] &mdash;
-[[:Category:Differential geometry|geometry and topology]] &mdash;
+[[:Category:Differential geometry|Differential geometry]] &mdash;
 [[:Category:Differential geometry of surfaces|Differential geometry of surfaces]] &mdash;
 [[:Category:Differential operators|Differential operators]] &mdash;
 [[:Category:Differential structures|Differential structures]] &mdash;
@@ -227,7 +228,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Domain theory|Domain theory]] &mdash;
 [[:Category:Duality theories|Duality theories]] &mdash;
 [[:Category:Dynamic programming|Dynamic programming]] &mdash;
-[[:Category:Dynamical systems|Dynamical systems]] 
+[[:Category:Dynamical systems|Dynamical systems]]
 
 === E ===
 
@@ -334,6 +335,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Graph operations|Graph operations]] &mdash;
 [[:Category:Graph products|Graph products]] &mdash;
 [[:Category:Graph theory|Graph theory]] &mdash;
+[[:Category:Graph theory objects|Graph theory objects]] &mdash;
 [[:Category:Graphical concepts in set theory|Graphical concepts in set theory]] &mdash;
 [[:Category:Graphical models|Graphical models]] &mdash;
 [[:Category:Graphical projections|Graphical projections]] &mdash;
@@ -397,6 +399,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Interpolation|Interpolation]] &mdash;
 [[:Category:Intersection classes of graphs|Intersection classes of graphs]] &mdash;
 [[:Category:Intersection theory|Intersection theory]] &mdash;
+[[:Category:Invariant subspaces|Invariant subspaces]] &mdash;
 [[:Category:Invariant theory|Invariant theory]] &mdash;
 [[:Category:Inverse functions|Inverse functions]] &mdash;
 [[:Category:Inverse problems|Inverse problems]] &mdash;
@@ -465,6 +468,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Mathematical axioms|Mathematical axioms]] &mdash;
 [[:Category:Mathematical chairs|Mathematical chairs]] &mdash;
 [[:Category:Mathematical comparisons|Mathematical comparisons]] &mdash;
+[[:Category:Mathematical concepts|Mathematical concepts]] &mdash;
 [[:Category:Mathematical congresses|Mathematical congresses]] &mdash;
 [[:Category:Mathematical constants|Mathematical constants]] &mdash;
 [[:Category:Mathematical constructivism|Mathematical constructivism]] &mdash;
@@ -673,7 +677,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Properties of Lie algebras|Properties of Lie algebras]] &mdash;
 [[:Category:Properties of groups|Properties of groups]] &mdash;
 [[:Category:Properties of topological spaces|Properties of topological spaces]] &mdash;
-[[:Category:Propositional logic|Propositional logic]] &mdash;
+[[:Category:Propositional calculus|Propositional calculus]] &mdash;
 [[:Category:Pseudoprimes|Pseudoprimes]] &mdash;
 [[:Category:Pyramids and bipyramids|Pyramids and bipyramids]]
 
@@ -757,6 +761,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Solitons|Solitons]] &mdash;
 [[:Category:Solvable groups|Solvable groups]] &mdash;
 [[:Category:Space-filling polyhedra|Space-filling polyhedra]] &mdash;
+[[:Category:Sparse matrices|Sparse matrices]] &mdash;
 [[:Category:Special functions|Special functions]] &mdash;
 [[:Category:Special hypergeometric functions|Special hypergeometric functions]] &mdash;
 [[:Category:Spectral sequences|Spectral sequences]] &mdash;
@@ -781,11 +786,13 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Statistical theory|Statistical theory]] &mdash;
 [[:Category:Statistics|Statistics]] &mdash;
 [[:Category:Statistics books|Statistics books]] &mdash;
+[[:Category:Statistics education|Statistics education]] &mdash;
 [[:Category:Statistics journals|Statistics journals]] &mdash;
 [[:Category:Stochastic algorithms|Stochastic algorithms]] &mdash;
 [[:Category:Stochastic control|Stochastic control]] &mdash;
 [[:Category:Stochastic differential equations|Stochastic differential equations]] &mdash;
 [[:Category:Stochastic models|Stochastic models]] &mdash;
+[[:Category:Stochastic optimization|Stochastic optimization]] &mdash;
 [[:Category:Stochastic processes|Stochastic processes]] &mdash;
 [[:Category:Structural complexity theory|Structural complexity theory]] &mdash;
 [[:Category:Structures on manifolds|Structures on manifolds]] &mdash;
@@ -1052,9 +1059,8 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Persian mathematicians|Persian mathematicians]] &mdash;
 [[:Category:Polish mathematician stubs|Polish mathematician stubs]] &mdash;
 [[:Category:Polish mathematicians|Polish mathematicians]] &mdash;
-[[:Category:Polish mathematicians of Jewish descent|Polish mathematicians of Jewish descent]] &mdash;
 [[:Category:Portuguese mathematicians|Portuguese mathematicians]] &mdash;
-[[:Category:Probability theorists|Probability theorists]] 
+[[:Category:Probability theorists|Probability theorists]]
 
 === R ===
 
@@ -1075,6 +1081,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Spanish mathematicians|Spanish mathematicians]] &mdash;
 [[:Category:Sri Lankan mathematicians|Sri Lankan mathematicians]] &mdash;
 [[:Category:Sudanese mathematicians|Sudanese mathematicians]] &mdash;
+[[:Category:Swedish mathematician stubs|Swedish mathematician stubs]] &mdash;
 [[:Category:Swedish mathematicians|Swedish mathematicians]] &mdash;
 [[:Category:Swiss mathematicians|Swiss mathematicians]] &mdash;
 [[:Category:Syrian mathematicians|Syrian mathematicians]] 
@@ -1426,6 +1433,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Niels Henrik Abel|Niels Henrik Abel]] &mdash;
 [[:Category:Noise|Noise]] <!-- (more like physics and engineering) --> &mdash;
 [[:Category:Non-equilibrium thermodynamics|Non-equilibrium thermodynamics]] <!-- (physics) --> &mdash;
+[[:Category:Norwegian actuaries|Norwegian actuaries]] &mdash;
 [[:Category:Norwegian demographers|Norwegian demographers]] &mdash;
 [[:Category:Norwegian statisticians|Norwegian statisticians]] &mdash;
 [[:Category:Number-related lists|Number-related lists]] <!-- (a frivolious category) --> &mdash;
@@ -1558,6 +1566,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Supersymmetry|Supersymmetry]] <!-- (physics) --> &mdash;
 [[:Category:Supertasks|Supertasks]] <!-- (philosophy) --> &mdash;
 [[:Category:Survival analysis|Survival analysis]] &mdash;
+[[:Category:Swedish information theorists|Swedish information theorists]] &mdash;
 [[:Category:Swedish statisticians|Swedish statisticians]] &mdash;
 [[:Category:Swiss statisticians|Swiss statisticians]] &mdash;
 [[:Category:Symmetry|Symmetry]] <!-- (too generic) --> 
@@ -1605,7 +1614,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Wave mechanics|Wave mechanics]] <!-- (physics) --> &mdash;
 [[:Category:Waves|Waves]] <!-- (too generic) --> &mdash;
 [[:Category:Wikipedia and mathematics|Wikipedia and mathematics]] <!-- (not math articles) --> &mdash;
-[[:Category:Wikipedia:Books on mathematics|Wikipedia:Books on mathematics]] &mdash;
 [[:Category:Winners of the Guy Medal|Winners of the Guy Medal]] &mdash;
 [[:Category:Winners of the Shewhart Medal|Winners of the Shewhart Medal]] &mdash;
 [[:Category:Winners of the Wilks Memorial Award|Winners of the Wilks Memorial Award]] -- 
