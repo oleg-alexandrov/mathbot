@@ -91,11 +91,13 @@ sub get_link_to_next_contributions_page {
   
   if ($text =~ /\n(.*?limit=.*?contribs=.*?namespace=.*?)\n/i){
     
-    $link = $1; $link =~ s/^.*?\(.*?\).*?\(.*?\).*?\((.*?)\).*?$/$1/g;  # look in the third par of praens
+    $link = $1; 
+    $link =~ s/^.*?\(.*?\).*?(\(.*?\)).*?\((.*?)\).*?$/$1/g;  # look in the second pair of parens
+    
     $success = 1;
 
     # see if there are more contributions
-    if ($link =~ /a\s+href=\"(.*?)\"/i){
+    if ($link =~ /^.*a\s+href=\"(.*?)\"/i){
       $link = $1;
       $link = $wiki_http . $link;
       $link =~ s/\&amp;/\&/g;
@@ -129,8 +131,8 @@ sub parse_current_contributions_page {
     
     next if ($title =~ /:/i); # ignore everything but the article namespace
     $comment =~ s/\<span\s+class=[\"\']autocomment[\"\']\>.*?\<\/span\>//g; # strip default comment
-    
-    if ($comment =~ /\<span\s+class=[\"\']minor[\"\']\>.*?\<\/span\>/) {
+
+    if ($comment =~ /class=[\"\']minor[\"\']/) {
       $minor=1;
     } else {
       $minor=0; 
@@ -141,7 +143,9 @@ sub parse_current_contributions_page {
     } else {
       $comment=""; 
     }
-    
+   
+    #print "comment is '$comment', minor is '$minor'<br>\n";
+
     # the heart of the code, see how many edit summaries have comments, both for minor and for major edits
     if ($minor && $total_minor < $base ) {
       
