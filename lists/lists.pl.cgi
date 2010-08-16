@@ -1,12 +1,11 @@
 #!/usr/bin/perl 
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
+use open 'utf8';
 use CGI::Carp qw(fatalsToBrowser);
 
 use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # path to perl modules
-use WWW::Mediawiki::Client;   # upload from Wikipedia
-require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
-require 'bin/wikipedia_login.pl';
+require 'bin/perlwikipedia_utils.pl';
 require "bin/fetch_articles.pl";
 
 undef $/;	   	      # undefines the separator. Can read one whole file in one scalar.
@@ -33,9 +32,9 @@ MAIN: {
   $list_talk =~ s/[+ ]/_/g; $list_talk =~ s/^.*?\/wiki\///ig; $list_talk = "$list_talk.wiki";
   $list = $list_talk; $list =~ s/Talk://g; $list =~ s/[_\s]*talk:/:/g;
 
-  &wikipedia_login();
-  $talk=&fetch_file_nosave($list_talk, $attempts, $sleep); $talk = decode('utf8', $talk);
-  $main=&fetch_file_nosave($list, $attempts, $sleep);  $main = decode('utf8', $main);
+  my $Editor=&wikipedia_login();
+  $talk=wikipedia_fetch($Editor, $list_talk, $attempts, $sleep); 
+  $main=wikipedia_fetch($Editor, $list, $attempts, $sleep);
 
   $read=1;		      # read
   ($talk, $p1, $p2, $p3, $p4, $p5) = &printout ($talk, $list, $read, $p1, $p2, $p3, $p4, $p5);
@@ -92,8 +91,7 @@ MAIN: {
   $talk =~ s/clicking on the link at the bottom of subsection D/clicking on the link at the bottom of subsection E/g;
 
   print "Modifying the talk page of \"$liststrip\"<br>\n";
-  $talk = encode('utf8', $talk);
-  &submit_file_nosave($list_talk, "List articles missing from the \[\[$liststrip\]\].", $talk, $attempts, $sleep);
+  wikipedia_submit($Editor, $list_talk, "List articles missing from the \[\[$liststrip\]\].", $talk, $attempts, $sleep);
 
   $list_talk =~ s/\.wiki//g;
   print "Done. You may now go back to the <A href=\"http://en.wikipedia.org/wiki/$list_talk\">$list_talk</a><br>\n";
