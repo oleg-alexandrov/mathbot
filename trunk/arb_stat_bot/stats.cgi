@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 use strict;          # 'strict' insists that all variables be declared
-use diagnostics;     # 'diagnostics' expands the cryptic warnings
+#use diagnostics;     # 'diagnostics' expands the cryptic warnings
 use CGI::Carp qw(fatalsToBrowser);
 
 print "Content-type: text/html\n\n"; # first line to print in a cgi script
@@ -33,7 +33,7 @@ MAIN: {
     # Get the text from the Wikipedia server
     $sleep  = 5; $attempts = 500; # necessary to fetch/submit Wikipedia text
     $Editor = wikipedia_login("Mathbot");
-    $file   = "Wikipedia:Requests for arbitration/Statistics 2010";
+    $file   = "Wikipedia:Requests for arbitration/Statistics 2011";
     $text   = wikipedia_fetch($Editor, $file, $attempts, $sleep); 
     open(FILE, ">$local_file_in"); print FILE $text; close(FILE);
 
@@ -51,11 +51,11 @@ MAIN: {
 
     print '<br><br>Done updating ' .
        '<a href=\"http://en.wikipedia.org/wiki/' .
-          'Wikipedia:Requests_for_arbitration/Statistics_2010\">' .
-             'Wikipedia:Requests for arbitration/Statistics 2010</a>.<br>';
+          'Wikipedia:Requests_for_arbitration/Statistics_2011\">' .
+             'Wikipedia:Requests for arbitration/Statistics 2011</a>.<br>';
   }else{
     
-    $local_file_out = "Statistics_2009_proc.txt";
+    $local_file_out = "Statistics_2010_proc.txt";
     print "Writing to $local_file_out\n";
     open(FILE, ">$local_file_out"); print FILE $text . "\n"; close(FILE);
 
@@ -69,7 +69,7 @@ sub gen_all_stats{
   
   $text =~ s/\r//g; # Get rid of Windows carriage return
 
-  my $years      = ["2010 only", "2010 2009", "all"];
+  my $years      = ["2011 only", "2011 2010", "all"];
   my $arbs_list  = [ get_arbs_list($text, $years) ];
 
   # Section 1: the requests stats
@@ -449,8 +449,8 @@ sub parse_complete_requests_table_summaries {
   my $disp_names       = shift; # the types of values to summarize
   my $disp_legend      = shift; # the explanation of each value to summarize
   
-  # There are three summaries to complete: 2010 only ($count == 0),
-  # 2010 and 2009 ($count == 1), and the combined one ($count == 2).
+  # There are three summaries to complete: 2011 only ($count == 0),
+  # 2011 and 2010 ($count == 1), and the combined one ($count == 2).
   
   my ($table, @tables);
   
