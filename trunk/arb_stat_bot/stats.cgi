@@ -55,7 +55,7 @@ MAIN: {
              'Wikipedia:Requests for arbitration/Statistics 2011</a>.<br>';
   }else{
     
-    $local_file_out = "Statistics_2010_proc.txt";
+    $local_file_out = "Statistics_2009_proc.txt";
     print "Writing to $local_file_out\n";
     open(FILE, ">$local_file_out"); print FILE $text . "\n"; close(FILE);
 
@@ -130,16 +130,16 @@ sub gen_requests_stats{
     if ($type eq "case"){
       
       $disp_names  = ["Accepted", "Declined",
-                      "Motion",   "Withdrawn"];
+                      "Motion",   "Withdrawn", "Removed"];
       $disp_legend = ["accepted", "declined",
-                      "disposed by motion", "withdrawn"];
+                      "disposed by motion", "withdrawn", "removed"];
       
     }elsif ($type eq "clarification"){
       
       $disp_names  = ["Declined", "Clarification",
                       "Motion",   "Withdrawn", "Removed"];
       $disp_legend = ["declined", "disposed by clarification",
-                      "disposed by motion", "withdrawn", "removed without comment"];
+                      "disposed by motion", "withdrawn", "removed"];
       
     }else{
       print "Unknown request type\n";
