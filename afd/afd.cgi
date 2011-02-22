@@ -367,52 +367,31 @@ sub see_open_afd_discussions (){
 
   $text =~ s/\n//g;	      # rm newlines
 
-  # strip the top part, as otherwise it confuses the parser below
-  $text =~ s/^.*?\<div id=\"toctitle\"\>//sg;
-  
-  # some processing to deal with AfD ambiguity recently
-  $text =~ s/\"boilerplate[_\s]+metadata[_\s+][avp]fd.*?\"/\"boilerplate metadata vfd\"/ig;
-  
-  $text =~   s/(\<div\s+class\s*=\s*\"boilerplate metadata vfd\".*?\<span\s+class\s*=\s*\"editsectio)(n)(.*?\>)/$1p$3/sgi;
+  # To distinguish open and closed discussions, for closed discussions 
+  # replace the text "mw-headline" with "mw-headline-closed"
+  $text =~   s/(\<div\s+class=\"boilerplate metadata afd vfd xfd-closed\".*?\<span\s+class*=\")mw-headline/$1mw-headline-closed/sgi;
 
-
-  my @all =    ($text =~ /\<span\s+class\s*=\s*\"editsectio\w\".*?\>\[\<a href\s*=\s*\"\/w\/index.php\?title\s*=\s*(Wikipedia:\w+[_\s]for[_\s]deletion.*?)\"/g );
-
-  my @open =   ($text =~ /\<span\s+class\s*=\s*\"editsection\".*?\>\[\<a href\s*=\s*\"\/w\/index.php\?title\s*=\s*(Wikipedia:\w+[_\s]for[_\s]deletion.*?)\"/g );
-
-  my @closed = ($text =~ /\<span\s+class\s*=\s*\"editsectiop\".*?\>\[\<a href\s*=\s*\"\/w\/index.php\?title\s*=\s*(Wikipedia:\w+[_\s]for[_\s]deletion.*?)\"/g );
+  my @all    = ($text =~ /\<span\s+class=\"mw-headline.*?id=\"(.*?)\"/g );
+  my @open   = ($text =~ /\<span\s+class=\"mw-headline[^-].*?id=\"(.*?)\"/g );
+  my @closed = ($text =~ /\<span\s+class=\"mw-headline-closed.*?id=\"(.*?)\"/g );
 
   my $openc=0;
    foreach (@open) {
-
-    next if (/Wikipedia:\w+[_\s]for[_\s]deletion\/Log/i);
-    next unless (/\&amp;section=(T-|)1/);
-    s/\&.*?$//g;
     $openc++;
 
-    $stats = "$stats " . "\[\[$_\|$openc]]";
+    $stats = "$stats " . "\[\[$link\#$_\|$openc]]";
   }
   print "($openc open / ";
 
-
   my $closedc=0;
    foreach (@closed) {
-    next if (/Wikipedia:\w+[_\s]for[_\s]deletion\/Log/i);
-    next unless (/\&amp;section=(T-|)1/);
-    s/\&.*?$//g;
     $closedc++;
-
-#    print "$closedc: $_\n";
   }
  print "$closedc closed / ";
 
   my $allc=0;
   foreach (@all) {
-    next if (/Wikipedia:\w+[_\s]for[_\s]deletion\/Log/i);
-    next unless (/\&amp;section=(T-|)1/);
-    s/\&.*?$//g;
     $allc++;
-#    print "$allc: $_\n";
   }
   print "$allc total discussions)<br>\n";
 
