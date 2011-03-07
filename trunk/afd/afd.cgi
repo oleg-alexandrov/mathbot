@@ -1,4 +1,10 @@
 #!/usr/bin/perl
+
+$| = 1; # flush the buffer each line
+
+# This line must be the first to print in a cgi script
+print "Content-type: text/html\r\n\r\n";
+
 use POSIX;                     # the strftime function
 use CGI::Carp qw(fatalsToBrowser);
 use strict;
@@ -22,11 +28,6 @@ my $gEditor;
 
 MAIN: {
   
-  # This line must be the first to print in a cgi script
-  print "Content-type: text/html\n\n"; 
-
-  $| = 1; # flush the buffer each line
-
   print "Please be patient, this script can take a minute or two "
      .  "if Wikipedia is slow ...<br><br>\n";
 
@@ -382,7 +383,11 @@ sub see_open_afd_discussions (){
    foreach (@open) {
     $openc++;
 
-    $stats = "$stats " . "\[\[$link\#$_\|$openc]]";
+    # Link to the page having the currently open afd
+    my $link_to_discussion = $link;
+    $link_to_discussion    =~ s/Log\/.*?$//g;
+    $link_to_discussion   .= $_;
+    $stats = "$stats " . "\[\[$link_to_discussion\|$openc]]";
   }
   print "($openc open / ";
 
@@ -398,7 +403,7 @@ sub see_open_afd_discussions (){
   }
   print "$allc total discussions)<br>\n";
 
-  # some gimmickry, to list to sections in $detailed_file.
+  # Some gimmickry, to list to sections in $detailed_file
   my $detailed_stats = $stats; 
   my $short_link = $link;
   $short_link =~ s/^.*\///g;
