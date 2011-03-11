@@ -373,11 +373,11 @@ sub see_open_afd_discussions (){
 
   # To distinguish open and closed discussions, for closed discussions 
   # replace the text "mw-headline" with "mw-headline-closed"
-  $text =~   s/(\<div\s+class=\"boilerplate metadata afd vfd xfd-closed\".*?\<h3\>\<span\s+class*=\")mw-headline/$1mw-headline-closed/sgi;
+  $text =~   s/(\<div\s+class=\"boilerplate metadata afd vfd xfd-closed\".*?\<h3\>\<span\s+class*=\"mw-headline)/$1-closed/sgi;
 
-  my @all    = ($text =~ /\<h3\>\<span\s+class=\"mw-headline.*?id=\"(.*?)\"/g );
-  my @open   = ($text =~ /\<h3\>\<span\s+class=\"mw-headline[^-].*?id=\"(.*?)\"/g );
-  my @closed = ($text =~ /\<h3\>\<span\s+class=\"mw-headline-closed.*?id=\"(.*?)\"/g );
+  my @all    = ($text =~ /\<h3\>\<span\s+class=\"mw-headline.*?\>([^>]*?)\<\/a\>/g );
+  my @open   = ($text =~ /\<h3\>\<span\s+class=\"mw-headline[^-].*?\>([^>]*?)\<\/a\>/g );
+  my @closed = ($text =~ /\<h3\>\<span\s+class=\"mw-headline-closed.*?\>([^>]*?)\<\/a\>/g );
 
   my $openc=0;
    foreach (@open) {
