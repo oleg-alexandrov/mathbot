@@ -365,8 +365,9 @@ sub see_open_afd_discussions (){
   my $text = shift;
   my $detailed_file = shift;
 
-  # Debug stuff
+  ## Debug stuff
   #my $file = $link; $file =~ s/^.*\///g; $file =~ s/\s+/_/g;
+  #print "Writing to $file\n";
   #open(FILE, ">$file"); print FILE $text; close(FILE); 
 
   my $stats = "";
@@ -377,7 +378,7 @@ sub see_open_afd_discussions (){
   # replace the text "mw-headline" with "mw-headline-closed"
   $text =~   s/(\<div\s+class=\"boilerplate metadata afd vfd xfd-closed\".*?\<h3\>\<span\s+class*=\"mw-headline)/$1-closed/sgi;
 
-  my $match  = ".*?title=\"([^\"]*?)\"\>View AfD";
+  my $match  = "[^\>]*?\>\<a href.*?title=\"([^\"]*?)\"\>View AfD";
   my @all    = ($text =~ /\<h3\>\<span\s+class=\"mw-headline$match/g );
   my @open   = ($text =~ /\<h3\>\<span\s+class=\"mw-headline[^-]$match/g );
   my @closed = ($text =~ /\<h3\>\<span\s+class=\"mw-headline-closed$match/g );
