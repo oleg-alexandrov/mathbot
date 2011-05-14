@@ -371,12 +371,11 @@ sub see_open_afd_discussions (){
   #open(FILE, ">$file"); print FILE $text; close(FILE); 
 
   my $stats = "";
-
   $text =~ s/\n//g;	      # rm newlines
 
   # To distinguish open and closed discussions, for closed discussions 
   # replace the text "mw-headline" with "mw-headline-closed"
-  $text =~   s/(\<div\s+class=\"boilerplate metadata afd vfd xfd-closed\".*?\<h3\>\<span\s+class*=\"mw-headline)/$1-closed/sgi;
+  $text =~   s/(\<div\s+class=\"boilerplate[\w\s]+afd vfd xfd-closed\".*?\<h3\>\<span\s+class*=\"mw-headline)/$1-closed/sgi;
 
   my $match  = "[^\>]*?\>\<a href.*?title=\"([^\"]*?)\"\>View AfD";
   my @all    = ($text =~ /\<h3\>\<span\s+class=\"mw-headline$match/g );
@@ -387,6 +386,7 @@ sub see_open_afd_discussions (){
    foreach (@open) {
     $openc++;
     # Link to the page having the currently open afd
+    #print "open $_\n";
     $stats = "$stats " . "\[\[$_\|$openc]]";
   }
   print "($openc open / ";
