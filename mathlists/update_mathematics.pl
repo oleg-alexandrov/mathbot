@@ -32,7 +32,7 @@ MAIN: {
   $all_math_arts_file='All_mathematics.txt';
   $mathematicians_logfile='Mathematicians_log.txt';
 
-  $prefix = "List of mathematics articles";
+  $prefix = "Wikipedia:WikiProject_Mathematics/List of mathematics articles";
   
   $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
   $Editor=wikipedia_login();

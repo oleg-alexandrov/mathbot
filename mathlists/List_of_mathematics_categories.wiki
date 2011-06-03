@@ -62,6 +62,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Applied mathematics stubs|Applied mathematics stubs]] &mdash;
 [[:Category:Applied probability|Applied probability]] &mdash;
 [[:Category:Approximation theory|Approximation theory]] &mdash;
+[[:Category:Approximations|Approximations]] &mdash;
 [[:Category:Arbelos|Arbelos]] &mdash;
 [[:Category:Arbitrary precision algorithms|Arbitrary precision algorithms]] &mdash;
 [[:Category:Archimedean solids|Archimedean solids]] &mdash;
@@ -97,7 +98,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Birational geometry|Birational geometry]] &mdash;
 [[:Category:Boolean algebra|Boolean algebra]] &mdash;
 [[:Category:Boundary conditions|Boundary conditions]] &mdash;
-[[:Category:Bourbaki|Bourbaki]] &mdash;
 [[:Category:Braid groups|Braid groups]] 
 
 === C ===
@@ -429,6 +429,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Latin squares|Latin squares]] &mdash;
 [[:Category:Lattice points|Lattice points]] &mdash;
 [[:Category:Lattice theory|Lattice theory]] &mdash;
+[[:Category:Laymen and statistics]] &mdash;
 [[:Category:Lemmas|Lemmas]] &mdash;
 [[:Category:Lie algebras|Lie algebras]] &mdash;
 [[:Category:Lie groupoids|Lie groupoids]] &mdash;
@@ -451,7 +452,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Logical connectives|Logical connectives]] &mdash;
 [[:Category:Long-memory processes|Long-memory processes]] &mdash;
 [[:Category:Lorentzian manifolds|Lorentzian manifolds]] &mdash;
-[[:Category:Low dimensional topology|Low dimensional topology]] -- 
+[[:Category:Low dimensional topology|Low dimensional topology]] --
 
 === M ===
 
@@ -475,7 +476,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Mathematical databases|Mathematical databases]] &mdash;
 [[:Category:Mathematical disambiguation|Mathematical disambiguation]] &mdash;
 [[:Category:Mathematical examples|Mathematical examples]] &mdash;
-[[:Category:Mathematical films|Mathematical films]] &mdash;
 [[:Category:Mathematical games|Mathematical games]] &mdash;
 [[:Category:Mathematical identities|Mathematical identities]] &mdash;
 [[:Category:Mathematical institutes|Mathematical institutes]] &mdash;
@@ -486,6 +486,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Mathematical logic stubs|Mathematical logic stubs]] &mdash;
 [[:Category:Mathematical modeling|Mathematical modeling]] &mdash;
 [[:Category:Mathematical notation|Mathematical notation]] &mdash;
+[[:Category:Mathematical objects|Mathematical objects]] &mdash;
 [[:Category:Mathematical optimization|Mathematical optimization]] &mdash;
 [[:Category:Mathematical physics|Mathematical physics]] &mdash;
 [[:Category:Mathematical principles|Mathematical principles]] &mdash;
@@ -710,7 +711,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Real numbers|Real numbers]] &mdash;
 [[:Category:Recreational mathematics|Recreational mathematics]] &mdash;
 [[:Category:Recurrence relations|Recurrence relations]] &mdash;
-[[:Category:Recursion theory|Recursion theory]] &mdash;
 [[:Category:Reflection groups|Reflection groups]] &mdash;
 [[:Category:Regression analysis|Regression analysis]] &mdash;
 [[:Category:Regression variable selection|Regression variable selection]] &mdash;
@@ -774,6 +774,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Stability theory|Stability theory]] &mdash;
 [[:Category:Statistical algorithms|Statistical algorithms]] &mdash;
 [[:Category:Statistical awards|Statistical awards]] &mdash;
+[[:Category:Statistical dependence|Statistical dependence]] &mdash;
 [[:Category:Statistical deviation and dispersion|Statistical deviation and dispersion]] &mdash;
 [[:Category:Statistical distance measures|Statistical distance measures]] &mdash;
 [[:Category:Statistical inequalities|Statistical inequalities]] &mdash;
@@ -796,6 +797,7 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Stochastic processes|Stochastic processes]] &mdash;
 [[:Category:Structural complexity theory|Structural complexity theory]] &mdash;
 [[:Category:Structures on manifolds|Structures on manifolds]] &mdash;
+[[:Category:Subdivisions of mathematics|Subdivisions of mathematics]] &mdash;
 [[:Category:Subgroup properties|Subgroup properties]] &mdash;
 [[:Category:Subgroup series|Subgroup series]] &mdash;
 [[:Category:Subharmonic functions|Subharmonic functions]] &mdash;
@@ -916,7 +918,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Abel Prize laureates|Abel Prize laureates]] &mdash;
 [[:Category:Abel laureates|Abel laureates]] &mdash;
 [[:Category:Adams Prize recipients|Adams Prize recipients]] &mdash;
-[[:Category:Afghan mathematicians|Afghan mathematicians]] &mdash;
 [[:Category:African mathematicians|African mathematicians]] &mdash;
 [[:Category:Albanian mathematicians|Albanian mathematicians]] &mdash;
 [[:Category:Algebraic geometers|Algebraic geometers]] &mdash;
@@ -956,7 +957,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Chinese mathematicians|Chinese mathematicians]] &mdash;
 [[:Category:Colombian mathematicians|Colombian mathematicians]] &mdash;
 [[:Category:Combinatorial game theorists|Combinatorial game theorists]] &mdash;
-[[:Category:Combinatorists|Combinatorists]] &mdash;
 [[:Category:Croatian mathematicians|Croatian mathematicians]] &mdash;
 [[:Category:Cuban mathematicians|Cuban mathematicians]] &mdash;
 [[:Category:Czech mathematicians|Czech mathematicians]] 
@@ -1081,7 +1081,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Spanish mathematicians|Spanish mathematicians]] &mdash;
 [[:Category:Sri Lankan mathematicians|Sri Lankan mathematicians]] &mdash;
 [[:Category:Sudanese mathematicians|Sudanese mathematicians]] &mdash;
-[[:Category:Swedish mathematician stubs|Swedish mathematician stubs]] &mdash;
 [[:Category:Swedish mathematicians|Swedish mathematicians]] &mdash;
 [[:Category:Swiss mathematicians|Swiss mathematicians]] &mdash;
 [[:Category:Syrian mathematicians|Syrian mathematicians]] 
@@ -1096,7 +1095,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 === U ===
 
 [[:Category:Ukrainian mathematicians|Ukrainian mathematicians]] &mdash;
-[[:Category:United Kingdom mathematician stubs|United Kingdom mathematician stubs]] &mdash;
 [[:Category:Uruguayan mathematicians|Uruguayan mathematicians]] 
 
 === V ===
@@ -1151,7 +1149,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Belgian statisticians|Belgian statisticians]] &mdash;
 [[:Category:Bermuda Triangle|Bermuda Triangle]] &mdash;
 [[:Category:Betting systems|Betting systems]] &mdash;
-[[:Category:Bioinformaticists|Bioinformaticists]] &mdash;
 [[:Category:Bioinformatics|Bioinformatics]] <!-- (biology + comp sci) --> &mdash;
 [[:Category:Biological theorems|Biological theorems]] <!-- (biology) --> &mdash;
 [[:Category:Biostatisticians|Biostatisticians]] &mdash;
@@ -1178,7 +1175,6 @@ This list contains [[wikipedia:Categories|categories]] related to [[mathematics]
 [[:Category:Calculators|Calculators]] &mdash;
 [[:Category:Canadian actuaries|Canadian actuaries]] &mdash;
 [[:Category:Canadian statisticians|Canadian statisticians]] &mdash;
-[[:Category:Carl Friedrich Gauss|Carl Friedrich Gauss]] &mdash;
 [[:Category:Cartographic projections|Cartographic projections]] <!-- (geography) --> &mdash;
 [[:Category:Celestial coordinate system|Celestial coordinate system]] <!-- (astronomy)  --> &mdash;
 [[:Category:Cellular automata|Cellular automata]] &mdash;
