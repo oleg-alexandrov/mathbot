@@ -8,6 +8,8 @@
 # go to the working directory
 cd $HOME/public_html/wp/mathlists
 
+./recent.pl
+
 # ------------------------ mathematicians -------------------------
 
 ./update_mathematicians.pl
