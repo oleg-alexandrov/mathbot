@@ -4,7 +4,9 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-use lib '../modules'; # path to perl modules
+#use lib '../modules'; # path to perl modules
+#use lib '/home/project/w/p/m/wpmath/public_html/wp/modules'; 
+
 
 require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
 require 'bin/identify_redlinks.pl';

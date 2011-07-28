@@ -1,14 +1,19 @@
+Category:Kenyan mathematicians
+Category:Tunisian mathematicians
 Category:American cryptographers
 Category:American logicians
 Category:American statisticians
+Category:Hollis Chair of Mathematics and Natural Philosophy
 Category:Euclid
 Category:Pythagoreans
-Category:Brahmagupta
+Category:Medieval Arab mathematicians
+Category:Medieval Armenian mathematicians
 Category:Australian cryptographers
 Category:Australian logicians
 Category:Australian statisticians
 Category:Austrian cryptographers
 Category:Austrian logicians
+Category:Austrian statisticians
 Category:Belgian logicians
 Category:Belgian statisticians
 Category:Brazilian logicians
@@ -16,7 +21,9 @@ Category:Presidents of the Associação Brasileira de Estatística
 Category:British actuaries
 Category:British cryptographers
 Category:British logicians
+Category:British mathematician stubs
 Category:British statisticians
+Category:Mathematicians from Northern Ireland
 Category:Bulgarian statisticians
 Category:Lucasian Professors of Mathematics
 Category:Members of the Department of Applied Mathematics and Theoretical Physics
@@ -24,72 +31,96 @@ Category:Members of the Department of Pure Mathematics and Mathematical Statisti
 Category:Canadian actuaries
 Category:Canadian statisticians
 Category:Chinese logicians
+Category:Medieval Chinese mathematicians
 Category:Czech logicians
 Category:Danish statisticians
 Category:Dutch cryptographers
 Category:Dutch statisticians
 Category:Egyptian cryptographers
+Category:Medieval Egyptian mathematicians
 Category:English logicians
 Category:English statisticians
-Category:Swedish mathematician stubs
+Category:Medieval English mathematicians
+Category:Finnish statisticians
 Category:French cryptographers
 Category:French statisticians
+Category:Medieval French mathematicians
 Category:Approximation theorists
+Category:Variational analysts
 Category:Researchers in geometric algorithms
-Category:Carl Friedrich Gauss
 Category:German logicians
 Category:German statisticians
+Category:Medieval German mathematicians
 Category:Greek logicians
 Category:Hungarian statisticians
 Category:Indian statisticians
 Category:Kerala school
+Category:Medieval Indian mathematicians
+Category:Medieval Iraqi mathematicians
 Category:Irish logicians
 Category:Irish statisticians
 Category:Israel Prize in exact science recipients
 Category:Israeli cryptographers
 Category:Italian cryptographers
+Category:Italian statisticians
 Category:Japanese logicians
 Category:Japanese statisticians
-Category:Swedish logicians
 Category:Statistician stubs
-Category:Bourbaki
 Category:Calculating prodigies
 Category:Fictional mathematicians
+Category:Game theorists
 Category:Lists of mathematicians
 Category:Lists of things named after mathematicians
-Category:Paul Erdős
+Category:Mathematicians of medieval Islam
+Category:Mathematicians who died in the Holocaust
+Category:Nicolas Bourbaki
 Category:Second Wranglers
 Category:Senior Wranglers
+Category:Statisticians
 Category:Actuaries
 Category:Ballistics experts
-Category:Bioinformaticists
+Category:Bioinformaticians
 Category:Biostatisticians
+Category:Combinatorialists
 Category:Cryptographers
 Category:Cyberneticists
-Category:Game theorists
 Category:Information theorists
-Category:Logicians
 Category:Mathematical ecologists
 Category:Mathematical economists
 Category:Mathematical physicists
+Category:Monte Carlo methodologists
+Category:Operations researchers
 Category:Queueing theorists
-Category:Statisticians
 Category:Cryptographers by nationality
 Category:Logicians by nationality
+Category:Mathematicians from Georgia (country)
+Category:Ottoman mathematicians
 Category:Statisticians by nationality
 Category:Geometry educators
+Category:Statistics educators
+Category:Medieval Jewish mathematicians
+Category:Medieval Persian mathematicians
+Category:Medieval Spanish mathematicians
+Category:Medieval Syrian mathematicians
+Category:Medieval Tunisian mathematicians
+Category:Medieval Turkic mathematicians
 Category:New Zealand statisticians
-Category:Niels Henrik Abel
+Category:Norwegian actuaries
+Category:Norwegian logicians
 Category:Norwegian statisticians
 Category:People associated with the finite element method
+Category:Pakistani cryptographers
+Category:Pakistani logicians
 Category:Pakistani statisticians
 Category:Polish cryptographers
 Category:Polish logicians
 Category:Polish statisticians
+Category:Romanian statisticians
 Category:Russian cryptographers
 Category:Russian logicians
 Category:Russian statisticians
 Category:Scottish statisticians
 Category:Swedish information theorists
+Category:Swedish logicians
 Category:Swedish statisticians
 Category:Swiss statisticians

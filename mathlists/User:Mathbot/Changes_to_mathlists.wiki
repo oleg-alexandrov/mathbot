@@ -2,992 +2,496 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
-== May 4, 2010 ==
+== July 27, 2011 ==
 
-:Removed [[Ascertainment bias]] (is a redirect to [[Sampling bias]])
+:Removed [[Clique cover]] (is a redirect to [[Clique cover problem]])
+:Removed [[Geometric tomography]] (is a redirect to [[Tomography]])
+:Removed [[Reciprocity (mathematics)]] (is a redirect to [[Reciprocity]])
+:Added   [[Clique cover problem]]
+:Added   [[International Journal of Applied Mathematics and Computer Science]]
+:Added   [[Pentacontakaipentagon]]
+:Added   [[Reciprocity]]
+:Added   [[Rotations in 4-dimensional Euclidean space]]
+:Added   [[Smooth structure]]
 ----
 
-== May 3, 2010 ==
+== July 26, 2011 ==
 
-:Removed [[Mean Signed Difference]] (is a redirect to [[Mean signed difference]])
-:Added   [[A Passage to Infinity]]
-:Added   [[Line coordinates]]
-:Added   [[Mean signed difference]]
-:Added   [[Nl (format)]]
+:Removed [[Covering (graph theory)]] (is a redirect to [[Covering]])
+:Added   [[Bayesian statistics]]
+:Added   [[Consistency (statistics)]]
+:Added   [[Pentacontakaitetragon]]
+:Added   [[Pyrrho's lemma]]
 ----
-: Mathematicians:added   [[Luc Illusie]]
-: Mathematicians:added   [[Yves Marie André]]
+: Mathematicians:added   [[Michel Demazure]]
+: Mathematicians:added   [[Shmuel Agmon]]
 
-== May 2, 2010 ==
+== July 25, 2011 ==
 
-:Added   [[Mean Signed Difference]]
-:Added   [[Speakeasy (computational environment)]]
+:Removed [[Jenkins-Traub algorithm]] (is a redirect to [[Jenkins–Traub algorithm]])
+:Removed [[Oscillator Toda]] (is a redirect to [[Toda oscillator]])
+:Added   [[Jenkins–Traub algorithm]]
+:Added   [[Rule of Marteloio]]
+:Added   [[Toda oscillator]]
 ----
-: Mathematicians:added   [[Christopher Wursteisen]]
-: Mathematicians:added   [[Ulf Grenander]]
-: Mathematicians:added   [[Vinay V. Deodhar]]
+: Mathematicians:removed [[Rudolf E. Kalman]] (is a redirect to [[Rudolf E. Kálmán]])
+: Mathematicians:added   [[Euphemia Haynes]]
+: Mathematicians:added   [[Morris Hirsch]]
+: Mathematicians:added   [[Roger Fletcher (mathematician)]]
+: Mathematicians:added   [[Rudolf E. Kálmán]]
 
-== May 1, 2010 ==
+== July 24, 2011 ==
 
-:Removed [[Associated Legendre function]] (is a redirect to [[Legendre function]])
-:Removed [[Mandelbrot and Julia set landscapes]] (article deleted/does not exist)
-:Added   [[Associated Legendre polynomials]]
-:Added   [[Ganita-yukti-bhasa]]
-:Added   [[Legendre function]]
-:Added   [[Mathematical plurals]]
-:Added   [[Pompeiu derivative]]
-:Added   [[Raikov's theorem]]
-:Added   [[Ray casting]]
-:Added   [[Watson's lemma]]
+:Removed [[H-stable Potentials]] (is a redirect to [[H-stable potential]])
+:Removed [[List of topics in mathematics]] (is a redirect to [[Outline of mathematics]])
+:Added   [[Braided vector space]]
+:Added   [[H-stable potential]]
+:Added   [[Hardy–Ramanujan Journal]]
+:Added   [[Hilbert's 24th problem]]
+:Added   [[Outline of mathematics]]
 ----
-: Mathematicians:added   [[Bertil Gustafsson]]
-: Mathematicians:added   [[Cédric Villani]]
-: Mathematicians:added   [[Steven G. Krantz]]
+: Mathematicians:removed [[Ron Larson (mathematician)]] (is a redirect to [[Ron Larson]])
+: Mathematicians:added   [[Benson Farb]]
+: Mathematicians:added   [[Kanakanahalli Ramachandra]]
+: Mathematicians:added   [[Ram Prakash Bambah]]
+: Mathematicians:added   [[Ron Larson]]
 
-== April 30, 2010 ==
+== July 23, 2011 ==
 
-:Removed [[Equitorium]] 
-:Removed [[Projective algebraic manifold]] (is a redirect to [[algebraic manifold]])
-:Removed [[Łoś-Tarski preservation theorem]] (is a redirect to [[Łoś–Tarski preservation theorem]])
-:Added   [[Diophantine geometry]]
-:Added   [[Ground field]]
-:Added   [[IOSO]]
-:Added   [[Siegel G-function]]
-:Added   [[Variable kernel density estimation]]
-:Added   [[Łoś–Tarski preservation theorem]]
+:Added   [[Srinivasa Ramanujan Medal]]
 ----
 
-== April 29, 2010 ==
+== July 22, 2011 ==
 
-:Added   [[G-function]]
-:Added   [[Imaginary (exhibition)]]
-:Added   [[Miracle Octad Generator]]
-:Added   [[Natural logarithm of 2]]
-:Added   [[Solid Modeling Solutions]]
-:Added   [[Łoś-Tarski preservation theorem]]
+:Removed [[H-stability]] (is a redirect to [[H-stable Potentials]])
+:Removed [[SMCV]] (is a redirect to [[Standardized mean of a contrast variable]])
+:Added   [[H-stable Potentials]]
+:Added   [[Hajós construction]]
+:Added   [[Normal probability plot]]
+:Added   [[Standardized mean of a contrast variable]]
 ----
-: Mathematicians:added   [[Carl-Gustav Esseen]]
-: Mathematicians:added   [[Charles Fox (mathematician)]]
 
-== April 28, 2010 ==
+== July 21, 2011 ==
 
-:Removed [[Dolbeault operator]] (is a redirect to [[complex differential form]])
-:Added   [[Digital manifold]]
-:Added   [[Doomsday conjecture]]
-:Added   [[Mumford–Tate group]]
-:Added   [[W-curve]]
-:Added   [[±1-sequence]]
+:Removed [[Romanian Master of Sciences]] (is a redirect to [[Romanian Master of Mathematics and Sciences]])
+:Removed [[Small circle]] (is a redirect to [[Circle of a sphere]])
+:Added   [[Bass conjecture]]
+:Added   [[Circle of a sphere]]
+:Added   [[Contrast variable]]
+:Added   [[Ear decomposition]]
+:Added   [[Geometric tomography]]
+:Added   [[II25,1]]
+:Added   [[Romanian Master of Mathematics and Sciences]]
+:Added   [[SMCV]]
+:Added   [[Trinidad and Tobago Mathematics Olympiad]]
 ----
-: Mathematicians:added   [[Julius Reichelt]]
-: Mathematicians:added   [[Larry Wos]]
-: Mathematicians:added   [[Mohamed H.A. Hassan]]
-: Mathematicians:added   [[Paul Olum]]
+: Mathematicians:added   [[Edward Baylis]]
+: Mathematicians:added   [[Stathis Zachos]]
 
-== April 27, 2010 ==
+== July 20, 2011 ==
 
-:Removed [[Stanley–Reisner ring (binary operations)]] (article deleted/does not exist)
-:Added   [[Dini continuity]]
-:Added   [[Flat function]]
-:Added   [[Norm residue isomorphism theorem]]
-:Added   [[Occupancy frequency distribution]]
+:Removed [[Confidence in statistical conclusions]] (article deleted/does not exist)
+:Removed [[Modeling and analysis of financial markets]] (is a redirect to [[Financial modeling]])
+:Added   [[Simplified swarm optimization]]
 ----
-: Mathematicians:added   [[Bálint Virág]]
-: Mathematicians:added   [[Thomas Murray MacRobert]]
+: Mathematicians:added   [[Marc van Leeuwen]]
 
-== April 26, 2010 ==
+== July 19, 2011 ==
 
-:Removed [[Binomial coefficients and trigonometry]] (article deleted/does not exist)
-:Removed [[Fermat's last theorem (book)]] (is a redirect to [[Fermat's Last Theorem (book)]])
-:Removed [[Field lines of Julia sets]] (article deleted/does not exist)
-:Removed [[Linear least squares]] (is a redirect to [[Ordinary least squares]])
-:Removed [[Linear regression]] (is a redirect to [[Linear regression model]])
-:Removed [[Schur-Horn Theorem]] (is a redirect to [[Schur–Horn theorem]])
-:Added   [[Anabelian geometry]]
-:Added   [[Fermat's Last Theorem (book)]]
-:Added   [[Isoclinism of groups]]
-:Added   [[Linear regression model]]
-:Added   [[Numerical methods for linear least squares]]
-:Added   [[Schur–Horn theorem]]
+:Removed [[Weapon Target Assignment Problem]] (is a redirect to [[Weapon target assignment problem]])
+:Added   [[Albanian National Olympiad on Mathematics and General Formation]]
+:Added   [[Honda–Tate theorem]]
+:Added   [[Moore determinant of a Hermitian matrix]]
+:Added   [[Weapon target assignment problem]]
 ----
-: Mathematicians:added   [[Jitim Young]]
+: Mathematicians:removed [[Ugur G. Abdulla]] (article deleted/does not exist)
 
-== April 25, 2010 ==
+== July 18, 2011 ==
 
-:Removed [[Doob-Dynkin lemma]] (is a redirect to [[Doob–Dynkin lemma]])
-:Removed [[Ellingham-Horton graph]] (is a redirect to [[Ellingham–Horton graph]])
-:Removed [[FWL theorem]] (is a redirect to [[Frisch–Waugh–Lovell theorem]])
-:Added   [[Approximate limit]]
-:Added   [[Doob–Dynkin lemma]]
-:Added   [[Einstein function]]
-:Added   [[Ellingham–Horton graph]]
-:Added   [[Fox H-function]]
-:Added   [[Frisch–Waugh–Lovell theorem]]
-:Added   [[Lobb numbers]]
-:Added   [[Method of steepest descent]]
-:Added   [[Schur-Horn Theorem]]
-:Added   [[Special products]]
+:Removed [[Modes of a linear field]] (is a redirect to [[Mode of a linear field]])
+:Removed [[Valuation (mathematics)]] (is a redirect to [[Valuation]])
+:Added   [[Equioscillation theorem]]
+:Added   [[Karatsuba phenomenon]]
+:Added   [[Mode of a linear field]]
+:Added   [[Shelling (topology)]]
+:Added   [[Valuation]]
+:Added   [[Weapon Target Assignment Problem]]
 ----
-: Mathematicians:added   [[Andreas Winter]]
-: Mathematicians:added   [[C.S. Venkitaraman]]
-: Mathematicians:added   [[Cornelis Simon Meijer]]
-: Mathematicians:added   [[Friedrich Wilhelm Schäfke]]
-: Mathematicians:added   [[Robert Breusch]]
-: Mathematicians:added   [[Willem 's Gravesande]]
+: Mathematicians:removed [[Esther Pearson]] (article deleted/does not exist)
+: Mathematicians:removed [[Ngô Bảo Châu]] (is a redirect to [[Ngo Bao Chau]])
+: Mathematicians:added   [[John Barrow (historian)]]
+: Mathematicians:added   [[Ngo Bao Chau]]
 
-== April 24, 2010 ==
+== July 17, 2011 ==
 
-:Removed [[Augmental homology]] (article deleted/does not exist)
-:Removed [[Event-driven petri nets]] (is a redirect to [[Event-driven Petri net]])
-:Removed [[Method of steepest descent]] (is a redirect to [[Laplace's method]])
-:Added   [[Event-driven Petri net]]
-:Added   [[Lagrange's identity (boundary value problem)]]
-:Added   [[Lagrange's identity (disambiguation)]]
-:Added   [[Laplace's method]]
-:Added   [[Orthogonal analysis]]
+:Removed [[Ginibre inequality]] (is a redirect to [[Griffiths inequality]])
+:Added   [[Logarithmic barrier function]]
+:Added   [[Mathematical descriptions of physical laws]]
+:Added   [[MaxDDBS]]
+:Added   [[Modes of a linear field]]
+:Added   [[Triple helix]]
 ----
-: Mathematicians:added   [[Anne-Marie Imafidon]]
-: Mathematicians:added   [[Matthew Young (bishop)]]
-: Mathematicians:added   [[Vladimir Andrunakievich]]
-: Mathematicians:added   [[Yan Soibelman]]
 
-== April 23, 2010 ==
+== July 16, 2011 ==
 
-:Removed [[Drawing of lots]] 
-:Removed [[Force-based algorithms]] (is a redirect to [[Force-based algorithms (graph drawing)]])
-:Removed [[Lax-Wendroff theorem]] (is a redirect to [[Lax–Wendroff theorem]])
-:Removed [[Normalization property (lambda-calculus)]] (is a redirect to [[Normalization property (abstract rewriting)]])
-:Added   [[Cornacchia's algorithm]]
-:Added   [[Event-driven petri nets]]
-:Added   [[Force-based algorithms (graph drawing)]]
-:Added   [[Images of Julia and Mandelbrot sets]]
-:Added   [[Kronecker sum of discrete Laplacians]]
-:Added   [[Lax–Wendroff theorem]]
-:Added   [[Medoid]]
-:Added   [[Normalization property (abstract rewriting)]]
-:Added   [[Post hoc ergo propter hoc]]
-:Added   [[Primitive abundant number]]
-:Added   [[Sortition]]
+:Added   [[Bmin]]
+:Added   [[C+-probability]]
 ----
-: Mathematicians:removed [[Alexander Novikov (Professor)]] (is a redirect to [[Alexander Novikov (professor)]])
-: Mathematicians:removed [[Robert MacPherson]] (is a redirect to [[Robert Macpherson]])
-: Mathematicians:added   [[Alexander Novikov (professor)]]
-: Mathematicians:added   [[Gerhard Geise]]
-: Mathematicians:added   [[Robert MacPherson (mathematician)]]
-: Mathematicians:added   [[Ronald Brown (mathematician)/deleted revisions]]
+: Mathematicians:added   [[Anar Ahkmedov]]
+: Mathematicians:added   [[Josef Teichmann]]
+: Mathematicians:added   [[Paul Hoste]]
 
-== April 22, 2010 ==
+== July 15, 2011 ==
 
-:Removed [[1 − 2 + 3 − 4 + ···]] (is a redirect to [[1 − 2 + 3 − 4 + · · ·]])
-:Removed [[Endofunction]] (is a redirect to [[Endomorphism]])
-:Removed [[Viswanath's constant]] (is a redirect to [[Random Fibonacci sequence]])
-:Added   [[1 − 2 + 3 − 4 + · · ·]]
-:Added   [[Asymmetric graph]]
-:Added   [[Bhaskara I's sine approximation formula]]
-:Added   [[Cabal (set theory)]]
-:Added   [[Eigenvalues and eigenvectors of the second derivative]]
-:Added   [[Random Fibonacci sequence]]
-:Added   [[Rational approximation]]
-:Added   [[SHAZAM (software)]]
+:Removed [[6666]] (is a redirect to [[Ayah]])
+:Added   [[3571 (number)]]
+:Added   [[Bernstein–von Mises theorem]]
+:Added   [[Transition path sampling]]
 ----
-: Mathematicians:removed [[Adrian Krzyzanowski]] (is a redirect to [[Adrian Krzyżanowski]])
-: Mathematicians:removed [[Artur Avila]] 
-: Mathematicians:removed [[Cabal (set theory)]] 
-: Mathematicians:removed [[K. R. Parthasarathy]] 
-: Mathematicians:removed [[Ngo Bao Chau]] 
-: Mathematicians:removed [[Sripati]] 
-: Mathematicians:added   [[Adrian Krzyżanowski]]
-: Mathematicians:added   [[Nancy Kopell]]
-: Mathematicians:added   [[Robert Frucht]]
+: Mathematicians:added   [[Al-Jazari]]
 
-== April 22, 2010 ==
+== July 14, 2011 ==
 
-:Removed [[Abu Zayd al-Balkhi]] (is in the [[list of mathematicians]])
-:Removed [[Colin McLarty]] (is in the [[list of mathematicians]])
-:Removed [[Hunayn ibn Ishaq]] (is in the [[list of mathematicians]])
-:Removed [[Jean-Marc Fontaine]] (is in the [[list of mathematicians]])
-:Removed [[Ludwig Schlesinger]] (is in the [[list of mathematicians]])
-:Removed [[Maxwell Rosenlicht]] (is in the [[list of mathematicians]])
-:Removed [[R. Tyrrell Rockafellar]] (is in the [[list of mathematicians]])
-:Removed [[Śrīpati]] (is in the [[list of mathematicians]])
-:Added   [[Doob-Dynkin lemma]]
-:Added   [[Lax-Wendroff theorem]]
-:Added   [[Numéraire]]
+:Removed [[Basic Affine Jump Diffusion]] (is a redirect to [[Basic affine jump diffusion]])
+:Removed [[Moore determinant over a division algebra]] (is a redirect to [[Moore determinant of a Hermitian matrix]])
+:Removed [[Moore determinant over a finite field]] (is a redirect to [[Moore matrix]])
+:Added   [[Basic affine jump diffusion]]
+:Added   [[Chiliagon]]
+:Added   [[Doi–Naganuma lifting]]
+:Added   [[Moore matrix]]
+:Added   [[Voorhoeve index]]
 ----
-: Mathematicians:removed [[A. R. Rao]] (article deleted/does not exist)
-: Mathematicians:removed [[Albert Abramovich Muchnik]] 
-: Mathematicians:removed [[Alexander Hurwitz]] (article deleted/does not exist)
-: Mathematicians:removed [[Andrea Milani]] 
-: Mathematicians:removed [[B. A. Uralegaddi]] (article deleted/does not exist)
-: Mathematicians:removed [[Bryan Tse]] (article deleted/does not exist)
-: Mathematicians:removed [[Catherine Hewitt]] 
-: Mathematicians:removed [[Daniel Kane]] 
-: Mathematicians:removed [[David Glass (sociologist)]] 
-: Mathematicians:removed [[David Madore]] (article deleted/does not exist)
-: Mathematicians:removed [[Dayanand N. Naik]] 
-: Mathematicians:removed [[Driss Abouabdillah]] (article deleted/does not exist)
-: Mathematicians:removed [[Fred Mitchell (mathematics)]] 
-: Mathematicians:removed [[George Kayatta]] 
-: Mathematicians:removed [[George Paine (civil servant)]] 
-: Mathematicians:removed [[Gordon Screaton]] (article deleted/does not exist)
-: Mathematicians:removed [[Goro Nagase]] 
-: Mathematicians:removed [[Graham Vincent-Smith]] (article deleted/does not exist)
-: Mathematicians:removed [[Gregory M. Fikhtengol'ts]] (article deleted/does not exist)
-: Mathematicians:removed [[Herman J.J. te Riele]] 
-: Mathematicians:removed [[Hideo Wada]] (article deleted/does not exist)
-: Mathematicians:removed [[Ivan Ivanovich Ivanov]] 
-: Mathematicians:removed [[Laura Taalman]] (article deleted/does not exist)
-: Mathematicians:removed [[Matjaž Omladič]] (article deleted/does not exist)
-: Mathematicians:removed [[Mehrdad Shahshahani]] (article deleted/does not exist)
-: Mathematicians:removed [[Michel Balazard]] (article deleted/does not exist)
-: Mathematicians:removed [[Mikhail Leonidovich Gromov]] 
-: Mathematicians:removed [[Minoru Tanaka (mathematician)]] (article deleted/does not exist)
-: Mathematicians:removed [[Nirmala B. Limaye]] (article deleted/does not exist)
-: Mathematicians:removed [[P. Z. Chinn]] (article deleted/does not exist)
-: Mathematicians:removed [[Panini (grammarian)]] 
-: Mathematicians:removed [[Paul Olum]] (article deleted/does not exist)
-: Mathematicians:removed [[Prabha S. Neeralagi]] (article deleted/does not exist)
-: Mathematicians:removed [[Prafulla D. Chawathe]] (article deleted/does not exist)
-: Mathematicians:removed [[RH Bing]] 
-: Mathematicians:removed [[Reginald P. Tewarson]] (article deleted/does not exist)
-: Mathematicians:removed [[S. F. Kapoor]] (article deleted/does not exist)
-: Mathematicians:removed [[Ted Hill]] 
-: Mathematicians:removed [[Thanos Miloulis]] (article deleted/does not exist)
-: Mathematicians:removed [[Vladimir Abramovich Rokhlin]] 
-: Mathematicians:removed [[W. N. Colquitt]] 
-: Mathematicians:added   [[Abdusalam Abubakar]]
-: Mathematicians:added   [[Abu Zayd al-Balkhi]]
-: Mathematicians:added   [[Adolf Yushkevich]]
-: Mathematicians:added   [[Adolfas Jucys]]
-: Mathematicians:added   [[Adrian Krzyzanowski]]
-: Mathematicians:added   [[Ahmed I. Zayed]]
-: Mathematicians:added   [[Albert Muchnik]]
-: Mathematicians:added   [[Alexander Abercrombie]]
-: Mathematicians:added   [[Alexander Novikov (Professor)]]
-: Mathematicians:added   [[Alexander Rinnooy Kan]]
-: Mathematicians:added   [[Alexei Skorobogatov]]
-: Mathematicians:added   [[Anders Johan Lexell]]
-: Mathematicians:added   [[Andrea Milani (mathematician)]]
-: Mathematicians:added   [[Andrei Knyazev (mathematician)]]
-: Mathematicians:added   [[Andrew Ronald Mitchell]]
-: Mathematicians:added   [[Andrey Kiselyov]]
-: Mathematicians:added   [[Aner Shalev]]
-: Mathematicians:added   [[Anton Kotzig]]
-: Mathematicians:added   [[Arne Sletsjøe]]
-: Mathematicians:added   [[Artur Shkurti]]
-: Mathematicians:added   [[Artur Ávila]]
-: Mathematicians:added   [[Askold Ivanovich Vinogradov]]
-: Mathematicians:added   [[B. V. Shah]]
-: Mathematicians:added   [[Blanche Descartes]]
-: Mathematicians:added   [[Boethius]]
-: Mathematicians:added   [[Bojidar Spiriev]]
-: Mathematicians:added   [[Brethren of Purity]]
-: Mathematicians:added   [[Burton Wendroff]]
-: Mathematicians:added   [[Carl Gottlieb Ehler]]
-: Mathematicians:added   [[Carl King-Millward]]
-: Mathematicians:added   [[Carlo Severini]]
-: Mathematicians:added   [[Charalambos D. Aliprantis]]
-: Mathematicians:added   [[Christian Wurstisen]]
-: Mathematicians:added   [[Claude Lemaréchal]]
-: Mathematicians:added   [[Colin McLarty]]
-: Mathematicians:added   [[D'Arcy Wentworth Thompson]]
-: Mathematicians:added   [[Damodara]]
-: Mathematicians:added   [[Detlef Laugwitz]]
-: Mathematicians:added   [[Dietrich Mahnke]]
-: Mathematicians:added   [[Dirk van Dalen]]
-: Mathematicians:added   [[Dominique Foata]]
-: Mathematicians:added   [[Donald Burkholder]]
-: Mathematicians:added   [[Douglas West (mathematician)]]
-: Mathematicians:added   [[Edmund Wingate]]
-: Mathematicians:added   [[Eduardo Daniel Sontag]]
-: Mathematicians:added   [[Edward Frenkel]]
-: Mathematicians:added   [[Eleanor Robson]]
-: Mathematicians:added   [[Emmanuel Candès]]
-: Mathematicians:added   [[Ernst Sejersted Selmer]]
-: Mathematicians:added   [[Eugenio Oñate Ibañez de Navarra]]
-: Mathematicians:added   [[Evgenii Georgievich D'yakonov]]
-: Mathematicians:added   [[Florence Rivault]]
-: Mathematicians:added   [[Frank Kelly (mathematician)]]
-: Mathematicians:added   [[Frank Ryan (American football)]]
-: Mathematicians:added   [[Frank W. Bubb Sr.]]
-: Mathematicians:added   [[François Labourie]]
-: Mathematicians:added   [[Fred S. Roberts]]
-: Mathematicians:added   [[Félix Alcan]]
-: Mathematicians:added   [[George B. Purdy]]
-: Mathematicians:added   [[George Henry Livens]]
-: Mathematicians:added   [[George Walker (Presbyterian)]]
-: Mathematicians:added   [[Georges Valiron]]
-: Mathematicians:added   [[Georgiy Shilov]]
-: Mathematicians:added   [[Gilles Pisier]]
-: Mathematicians:added   [[Giovanni Battista Amici]]
-: Mathematicians:added   [[Giovanni Salvemini]]
-: Mathematicians:added   [[Gopal Prasad]]
-: Mathematicians:added   [[Gordon Welchman]]
-: Mathematicians:added   [[Grzegorz Rozenberg]]
-: Mathematicians:added   [[Gustaf Eneström]]
-: Mathematicians:added   [[Gyula Pál]]
-: Mathematicians:added   [[György Elekes]]
-: Mathematicians:added   [[György Hajós]]
-: Mathematicians:added   [[Harold Edwards (mathematician)]]
-: Mathematicians:added   [[Henry Pogorzelski]]
-: Mathematicians:added   [[Herman te Riele]]
-: Mathematicians:added   [[Hunayn ibn Ishaq]]
-: Mathematicians:added   [[Hypatia]]
-: Mathematicians:added   [[Igor Vladimirovich Girsanov]]
-: Mathematicians:added   [[Ingebrigt Johansson]]
-: Mathematicians:added   [[Ingram Olkin]]
-: Mathematicians:added   [[Iurie Boreico]]
-: Mathematicians:added   [[Ivan Ivanov (mathematician)]]
-: Mathematicians:added   [[Jacob Lurie]]
-: Mathematicians:added   [[Jacob T. Schwartz]]
-: Mathematicians:added   [[James H. Bramble]]
-: Mathematicians:added   [[James Hamilton (physicist)]]
-: Mathematicians:added   [[James McKernan]]
-: Mathematicians:added   [[James Wood (mathematician)]]
-: Mathematicians:added   [[Jan Brinkhuis]]
-: Mathematicians:added   [[Jan Mycielski]]
-: Mathematicians:added   [[Jean Kuntzmann]]
-: Mathematicians:added   [[Jean-Marc Fontaine]]
-: Mathematicians:added   [[Jean-Paul Benzécri]]
-: Mathematicians:added   [[Jeffrey H. Smith]]
-: Mathematicians:added   [[Jeffry Ned Kahn]]
-: Mathematicians:added   [[Jie-zhong Zou]]
-: Mathematicians:added   [[John Lane Bell]]
-: Mathematicians:added   [[John R. Womersley]]
-: Mathematicians:added   [[John Tipper]]
-: Mathematicians:added   [[Josef Finger]]
-: Mathematicians:added   [[Joseph Dauben]]
-: Mathematicians:added   [[Juan Bermudo]]
-: Mathematicians:added   [[Juan Ramón Koenig]]
-: Mathematicians:added   [[Julian Cole]]
-: Mathematicians:added   [[Julio Garavito Armero]]
-: Mathematicians:added   [[Julius Weisbach]]
-: Mathematicians:added   [[K. R. Parthasarathy (Graph theorist)]]
-: Mathematicians:added   [[K. R. Parthasarathy (Probabilist)]]
-: Mathematicians:added   [[Kate Bellingham]]
-: Mathematicians:added   [[Ken Stroud]]
-: Mathematicians:added   [[Kentaro Nagao]]
-: Mathematicians:added   [[Klaus Fischer (mathematician)]]
-: Mathematicians:added   [[Kristin Lauter]]
-: Mathematicians:added   [[Kwan-ichi Terazawa]]
-: Mathematicians:added   [[L. Mahadevan]]
-: Mathematicians:added   [[Lenhard Ng]]
-: Mathematicians:added   [[Lesley Sibner]]
-: Mathematicians:added   [[Liaqat Ali Khan (mathematician)]]
-: Mathematicians:added   [[Loïc Merel]]
-: Mathematicians:added   [[Lucien Szpiro]]
-: Mathematicians:added   [[Ludwig Burmester]]
-: Mathematicians:added   [[Ludwig Schlesinger]]
-: Mathematicians:added   [[László Pyber]]
-: Mathematicians:added   [[Marc Yor]]
-: Mathematicians:added   [[Marco Mastrofini]]
-: Mathematicians:added   [[Martin Feinberg]]
-: Mathematicians:added   [[Martin Hairer]]
-: Mathematicians:added   [[Martin J. Newell]]
-: Mathematicians:added   [[Maxwell Rosenlicht]]
-: Mathematicians:added   [[Michael Adelbulner]]
-: Mathematicians:added   [[Michael Anthony Crisfield]]
-: Mathematicians:added   [[Michael Rapoport]]
-: Mathematicians:added   [[Michael S. Longuet-Higgins]]
-: Mathematicians:added   [[Michele Cipolla]]
-: Mathematicians:added   [[Mikhail Gromov (mathematician)]]
-: Mathematicians:added   [[Mikhail Katz]]
-: Mathematicians:added   [[Mladen Bestvina]]
-: Mathematicians:added   [[Najm al-Dīn al-Qazwīnī al-Kātibī]]
-: Mathematicians:added   [[Ngô Bảo Châu]]
-: Mathematicians:added   [[Nicole El Karoui]]
-: Mathematicians:added   [[Nikolai Nikolaevich Yanenko]]
-: Mathematicians:added   [[Noor Muhammad]]
-: Mathematicians:added   [[Norman L. Biggs]]
-: Mathematicians:added   [[Obádovics J. Gyula]]
-: Mathematicians:added   [[Osip Ivanovich Somov]]
-: Mathematicians:added   [[Owen Saunders]]
-: Mathematicians:added   [[Paco Ahlgren]]
-: Mathematicians:added   [[Paul Finsler]]
-: Mathematicians:added   [[Paul Montel]]
-: Mathematicians:added   [[Paul T. Bateman]]
-: Mathematicians:added   [[Percy Deift]]
-: Mathematicians:added   [[Peter Jaeckel]]
-: Mathematicians:added   [[Peter Nicholson (architect)]]
-: Mathematicians:added   [[Peter Turner (mathematician)]]
-: Mathematicians:added   [[Peter Wynn (mathematician)]]
-: Mathematicians:added   [[Petr Ufimtsev]]
-: Mathematicians:added   [[Philip Treisman]]
-: Mathematicians:added   [[Piero Borgi]]
-: Mathematicians:added   [[Qaiser Mushtaq]]
-: Mathematicians:added   [[R. H. Bing]]
-: Mathematicians:added   [[R. Tyrrell Rockafellar]]
-: Mathematicians:added   [[Ralph Tambs-Lyche]]
-: Mathematicians:added   [[Richard H. Schwartz]]
-: Mathematicians:added   [[Richard Hamilton (mathematician)]]
-: Mathematicians:added   [[Richard Kadison]]
-: Mathematicians:added   [[Richard Lashof]]
-: Mathematicians:added   [[Richard V. Southwell]]
-: Mathematicians:added   [[Robert F. Coleman]]
-: Mathematicians:added   [[Robert Forsyth Scott]]
-: Mathematicians:added   [[Robert Schatten]]
-: Mathematicians:added   [[Roger J–B Wets]]
-: Mathematicians:added   [[Roland Carl Backhouse]]
-: Mathematicians:added   [[Rosemary A. Bailey]]
-: Mathematicians:added   [[Samuel Kotz]]
-: Mathematicians:added   [[Sankara Variar]]
-: Mathematicians:added   [[Sankara Varman]]
-: Mathematicians:added   [[Sergiu Klainerman]]
-: Mathematicians:added   [[Shahn Majid]]
-: Mathematicians:added   [[Shrawan Kumar]]
-: Mathematicians:added   [[Spencer Bloch]]
-: Mathematicians:added   [[Stefan Burr]]
-: Mathematicians:added   [[Stefan Müller (mathematician)]]
-: Mathematicians:added   [[Stephen Wiggins]]
-: Mathematicians:added   [[Suresh Venapally]]
-: Mathematicians:added   [[T.M.F. Smith]]
-: Mathematicians:added   [[Tadeusz Kotarbiński]]
-: Mathematicians:added   [[Takuro Shintani]]
-: Mathematicians:added   [[Tamas Erdelyi (mathematician)]]
-: Mathematicians:added   [[Ted Hill (mathematician)]]
-: Mathematicians:added   [[Thomas Wright Hill]]
-: Mathematicians:added   [[Thomas Zaslavsky]]
-: Mathematicians:added   [[Tianyu Yang]]
-: Mathematicians:added   [[Timothy Pont]]
-: Mathematicians:added   [[Tobias Colding]]
-: Mathematicians:added   [[Tosio Kato]]
-: Mathematicians:added   [[U. S. R. Murty]]
-: Mathematicians:added   [[Vararuci]]
-: Mathematicians:added   [[Viacheslav V. Nikulin]]
-: Mathematicians:added   [[Vladimir Markovich Entov]]
-: Mathematicians:added   [[Vladimir Rokhlin (Soviet mathematician)]]
-: Mathematicians:added   [[Vyacheslav Ivanovich Lebedev]]
-: Mathematicians:added   [[W. H. Clatworthy]]
-: Mathematicians:added   [[Welington de Melo]]
-: Mathematicians:added   [[Wilbur Knorr]]
-: Mathematicians:added   [[Wilhelmus Luxemburg]]
-: Mathematicians:added   [[William Batchelder Greene]]
-: Mathematicians:added   [[William C. Waterhouse]]
-: Mathematicians:added   [[William Minicozzi II]]
-: Mathematicians:added   [[Wolfgang Lück]]
-: Mathematicians:added   [[Yinyu Ye]]
-: Mathematicians:added   [[Yousef Saad]]
-: Mathematicians:added   [[Yuri Burago]]
-: Mathematicians:added   [[Ziauddin Ahmed]]
-: Mathematicians:added   [[Śrīpati]]
+: Mathematicians:added   [[Andrei Zelevinsky]]
+: Mathematicians:added   [[James J. Andrews (mathematician)]]
+: Mathematicians:added   [[Morton L. Curtis]]
 
-== April 21, 2010 ==
+== July 13, 2011 ==
 
-:Removed [[Florida Association of Mu Alpha Theta]] (is a redirect to [[Mu Alpha Theta]])
-:Removed [[Linear regression model]] (is a redirect to [[Linear regression]])
-:Added   [[Color wheel graphs of complex functions]]
-:Added   [[Dopier-V sequence]]
-:Added   [[Govinda Bhattathiri]]
-:Added   [[Harmonic differential]]
-:Added   [[K-median problem]]
-:Added   [[Linear regression]]
+:Removed [[Baker's dozen]] (is a redirect to [[Dozen]])
+:Removed [[Cramér–von-Mises criterion]] (is a redirect to [[Cramér–von Mises criterion]])
+:Removed [[Fundamental theorem of arbitrage-free pricing]] (is a redirect to [[Fundamental theorem of asset pricing]])
+:Removed [[Murray R. Spiegel]] (is in the [[list of mathematicians]])
+:Added   [[Basic Affine Jump Diffusion]]
+:Added   [[Cramér–von Mises criterion]]
+:Added   [[Fundamental theorem of asset pricing]]
+:Added   [[Moore determinant over a division algebra]]
+:Added   [[Moore determinant over a finite field]]
+:Added   [[Sphere-cylinder intersection]]
+:Added   [[Sphere-sphere intersection]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Murray R. Spiegel]]
 
-== April 20, 2010 ==
+== July 12, 2011 ==
 
-:Removed [[Linear regression]] (is a redirect to [[Linear regression model]])
-:Added   [[Cluster algebra]]
-:Added   [[Coulomb wave function]]
-:Added   [[Discrete Fourier series]]
-:Added   [[Linear regression model]]
-:Added   [[Whittaker function]]
+:Removed [[Antiderivative theorem]] (article deleted/does not exist)
+:Removed [[DPS Science and Mathematics Talent Examination]] (article deleted/does not exist)
+:Removed [[Yetter-Drinfeld category]] (is a redirect to [[Yetter–Drinfeld category]])
+:Added   [[Murray R. Spiegel]]
+:Added   [[Representation up to homotopy]]
+:Added   [[Yetter–Drinfeld category]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[Aida Yasuaki]] (is a redirect to [[Yasuaki Aida]])
+: Mathematicians:added   [[Edwin Bailey Elliott]]
+: Mathematicians:added   [[Lester R. Rice-Wray]]
+: Mathematicians:added   [[Yasuaki Aida]]
 
-== April 19, 2010 ==
+== July 11, 2011 ==
 
-:Removed [[Evolutionary Multi-modal Optimization]] (is a redirect to [[Evolutionary multi-modal optimization]])
-:Removed [[Finite metric space]] (is a redirect to [[Metric space]])
-:Removed [[Ordinal scale]] (is a redirect to [[Level_of_measurement]])
-:Removed [[Roman letters used in mathematics]] (is a redirect to [[Latin letters used in mathematics]])
-:Removed [[Stanley-Reisner ring (binary operations)]] (is a redirect to [[Stanley–Reisner ring (binary operations)]])
-:Added   [[Cunningham function]]
-:Added   [[Elliptical distribution]]
-:Added   [[Evolutionary multi-modal optimization]]
-:Added   [[Latin letters used in mathematics]]
-:Added   [[Stanley–Reisner ring (binary operations)]]
+:Added   [[Alvis–Curtis duality]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Charles W. Curtis]]
+: Mathematicians:added   [[Irving Reiner]]
 
-== April 18, 2010 ==
+== July 11, 2011 ==
 
-:Removed [[Limiting recursive]] (is a redirect to [[Computation in the limit]])
-:Removed [[Sequence dependent setup]] (is a redirect to [[Sequence-dependent setup]])
-:Added   [[Abelson's paradox]]
-:Added   [[Binomial coefficients and trigonometry]]
-:Added   [[Enumerations of specific permutation classes]]
-:Added   [[Evolutionary Multi-modal Optimization]]
-:Added   [[Journal of Modern Applied Statistical Methods]]
-:Added   [[Rule complex]]
-:Added   [[Sankaranarayana]]
-:Added   [[Sawilowsky's paradox]]
-:Added   [[Sequence-dependent setup]]
+:Added   [[Consumer math]]
+:Added   [[Gelfand–Graev representation]]
+:Added   [[Law of cotangents]]
+:Added   [[Nichols algebra]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Gholamhossein Mosaheb]]
 
-== April 17, 2010 ==
+== July 10, 2011 ==
 
-:Removed [[Chomsky-Schützenberger theorem]] (is a redirect to [[Chomsky–Schützenberger theorem]])
-:Added   [[Bateman function]]
-:Added   [[Chomsky–Schützenberger theorem]]
-:Added   [[Khabibullin’s conjecture on integral inequalities]]
-:Added   [[List of hypergeometric identities]]
-:Added   [[State space (dynamical system)]]
-:Added   [[System L]]
-:Added   [[Toronto function]]
+:Removed [[Euler-Rodrigues formula]] (is a redirect to [[Euler–Rodrigues formula]])
+:Removed [[Euler–Rodrigues parameters]] (is a redirect to [[Euler–Rodrigues formula]])
+:Added   [[Euler–Rodrigues formula]]
+:Added   [[New Jersey Center for Science, Technology and Mathematics]]
+:Added   [[Parallel parking problem]]
+:Added   [[Unipotent representation]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[Gopala (mathematician)]] (is a redirect to [[Fibonacci number]])
 
-== April 16, 2010 ==
+== July 9, 2011 ==
 
-:Removed [[Angular velocity tensor]] (is a redirect to [[Angular velocity]])
-:Removed [[Table of Gaussian Integer Factorizations]] (is a redirect to [[Table of Gaussian integer factorizations]])
-:Removed [[The Uncertainty Principle for the Short-time Fourier Transform]] (is a redirect to [[Uncertainty principle for the short-time Fourier transform]])
-:Added   [[Auerbach's lemma]]
-:Added   [[Chomsky-Schützenberger theorem]]
-:Added   [[Expansion in spectrograms]]
-:Added   [[Superrigidity]]
-:Added   [[Table of Gaussian integer factorizations]]
-:Added   [[Uncertainty principle for the short-time Fourier transform]]
-:Added   [[Washington Student Math Association]]
+:Added   [[Euler-Rodrigues formula]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Annette Huber-Klawitter]]
+: Mathematicians:added   [[Christopher Deninger]]
+: Mathematicians:added   [[Dmitry Kramkov]]
 
-== April 15, 2010 ==
+== July 8, 2011 ==
 
-:Removed [[Bearing-from-coordinates formula]] (article deleted/does not exist)
-:Added   [[Heyting field]]
-:Added   [[LOBPCG]]
-:Added   [[PPP (complexity)]]
-:Added   [[Table of Gaussian Integer Factorizations]]
-:Added   [[The Uncertainty Principle for the Short-time Fourier Transform]]
+:Removed [[Irrational cable on a torus]] (is a redirect to [[Irrational winding of a torus]])
+:Removed [[Shortest shared path problem]] (article deleted/does not exist)
+:Removed [[Similarly sorted]] (article deleted/does not exist)
+:Removed [[Snakes and ladders]] (is a redirect to [[Snakes and Ladders]])
+:Removed [[Statistically meaningful trend]] (article deleted/does not exist)
+:Removed [[Tau (mathematics)]] (is a redirect to [[Tau]])
+:Added   [[Irrational winding of a torus]]
+:Added   [[Snakes and Ladders]]
+:Added   [[Tau (2π)]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Curt Meyer]]
 
-== April 14, 2010 ==
+== July 7, 2011 ==
 
-:Removed [[Black-Karasinski model]] (is a redirect to [[Black–Karasinski model]])
-:Removed [[Inversion in a point]] (is a redirect to [[Point reflection]])
-:Removed [[Math Academy (Santa Cruz High School)]] (is a redirect to [[Santa Cruz High School]])
-:Removed [[Reflection through the origin]] (is a redirect to [[Point reflection]])
-:Removed [[The Ensemble Axiom]] (is a redirect to [[Ensemble Axiom]])
-:Removed [[Von Neumann-Morgenstern utility theorem]] (is a redirect to [[Von Neumann–Morgenstern utility theorem]])
-:Added   [[BLOPEX]]
-:Added   [[Black–Karasinski model]]
-:Added   [[Derivation of the conjugate gradient method]]
-:Added   [[Ensemble Axiom]]
-:Added   [[Hypergeometric series]]
-:Added   [[Hypre]]
-:Added   [[Pochhammer contour]]
-:Added   [[PolyL]]
-:Added   [[Projective polyhedron]]
-:Added   [[Santa Cruz High School]]
-:Added   [[Schwarz's list]]
-:Added   [[Von Neumann–Morgenstern utility theorem]]
-:Added   [[WRF-Fire]]
+:Removed [[Sample size]] (is a redirect to [[Sample size determination]])
+:Added   [[6666]]
+:Added   [[Automorphic L-function]]
+:Added   [[Base change]]
+:Added   [[Donaldson–Thomas theory]]
+:Added   [[Dual-flashlight plot]]
+:Added   [[Sample size determination]]
+:Added   [[Selberg's zeta function conjecture]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[Ichiro Satake]] (is a redirect to [[Ichirô Satake]])
+: Mathematicians:added   [[Howard Winklevoss]]
+: Mathematicians:added   [[Ichirô Satake]]
+: Mathematicians:added   [[Lorenzo Fatibene]]
 
-== April 13, 2010 ==
+== July 6, 2011 ==
 
-:Removed [[Bowyer-Watson algorithm]] (is a redirect to [[Bowyer–Watson algorithm]])
-:Removed [[Hypergeometric series]] (is a redirect to [[Hypergeometric function]])
-:Removed [[Journal of Computational Geometry]] (article deleted/does not exist)
-:Removed [[Linde-Buzo-Gray algorithm]] 
-:Added   [[Hypergeometric function]]
-:Added   [[Linde–Buzo–Gray algorithm]]
-:Added   [[Method of conditional probabilities]]
-:Added   [[Steve Awodey]]
+:Removed [[Pendulum (derivations)]] (is a redirect to [[Pendulum (mathematics)]])
+:Added   [[Dense submodule]]
+:Added   [[Irrational cable on a torus]]
+:Added   [[Renormalization]]
+:Added   [[Satake isomorphism]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Ichiro Satake]]
+: Mathematicians:added   [[Ugur G. Abdulla]]
 
-== April 13, 2010 ==
+== July 5, 2011 ==
 
-:Removed [[Addition of natural numbers]] (is a redirect to [[Addition]])
-:Removed [[Bearing from coordinates formula]] (is a redirect to [[Bearing-from-coordinates formula]])
-:Removed [[Bivariegated graph]] (is a redirect to [[K-Variegated graph]])
-:Removed [[Brookhouse Method of Binary Addition]] (article deleted/does not exist)
-:Removed [[Combinadic]] (is a redirect to [[Combinatorial number system]])
-:Removed [[Euler hypergeometric integral]] (is a redirect to [[hypergeometric function]])
-:Removed [[Gauss' area formula]] (is a redirect to [[Shoelace formula]])
-:Removed [[Gephi]] (article deleted/does not exist)
-:Removed [[Hindu mathematics]] (is a redirect to [[Indian mathematics]])
-:Removed [[Hypergeometric differential equation]] (is a redirect to [[Hypergeometric series]])
-:Removed [[Hypergeometric identities]] (is a redirect to [[Wilf–Zeilberger pair]])
-:Removed [[LP Norm]] (is a redirect to [[Lp space]])
-:Removed [[Laboratoire Européen Associé CNRS Franco-Roumain]] (is a redirect to [[European CNRS Franco-Romanian Associated Laboratories]])
-:Removed [[Least Squares Support Vector Machine]] (is a redirect to [[Least squares support vector machine]])
-:Removed [[List of hypergeometric identities]] (is a redirect to [[Hypergeometric function]])
-:Removed [[Substitution instance]] (is a redirect to [[Substitution (logic)]])
-:Removed [[Szpilrajn Extension Theorem]] (is a redirect to [[Szpilrajn extension theorem]])
-:Removed [[Unsolved problems in computer science]] (is a redirect to [[List of unsolved problems in computer science]])
-:Removed [[Unsolved problems in mathematics]] (is a redirect to [[List of unsolved problems in mathematics]])
-:Removed [[Unsolved problems in statistics]] (is a redirect to [[List of unsolved problems in statistics]])
-:Added   [[5 21 honeycomb]]
-:Added   [[Abu Zayd al-Balkhi]]
-:Added   [[Bearing-from-coordinates formula]]
-:Added   [[Black-Karasinski model]]
-:Added   [[Bowyer–Watson algorithm]]
-:Added   [[Chinese multiplication table]]
-:Added   [[Closed linear span]]
-:Added   [[Collection (mathematics)]]
-:Added   [[Combinatorial number system]]
-:Added   [[Complex space]]
-:Added   [[De Prospectiva Pigendi]]
-:Added   [[De divina proportione]]
-:Added   [[EL++]]
-:Added   [[Field lines of Julia sets]]
-:Added   [[Generalized hypergeometric function]]
-:Added   [[George David Birkhoff Prize]]
-:Added   [[Gram polynomial]]
-:Added   [[Hot game]]
-:Added   [[K-Variegated graph]]
-:Added   [[Least squares support vector machine]]
-:Added   [[List of unsolved problems in computer science]]
-:Added   [[List of unsolved problems in mathematics]]
-:Added   [[List of unsolved problems in statistics]]
-:Added   [[Mandelbrot and Julia set landscapes]]
-:Added   [[Naproxen]]
-:Added   [[Prune and search]]
-:Added   [[Pythagoras' constant]]
-:Added   [[Schauder dimension]]
-:Added   [[Sequence dependent setup]]
-:Added   [[Standard-Model Extension]]
-:Added   [[Substitution (logic)]]
-:Added   [[Szpilrajn extension theorem]]
-:Added   [[Talagrand's concentration inequality]]
-:Added   [[The Ensemble Axiom]]
-:Added   [[Theorem-proving]]
-:Added   [[Total correlation]]
-:Added   [[Urquhart graph]]
-:Added   [[Von Neumann-Morgenstern utility theorem]]
-:Added   [[Welch bounds]]
+:Added   [[Charter of Swiss Public Statistics]]
+:Added   [[Hopfian object]]
+:Added   [[Legal basis of official statistics in Switzerland]]
+:Added   [[Probability amplitude]]
+:Added   [[Regularized canonical correlation analysis]]
+:Added   [[Symplectic spinor bundle]]
+:Added   [[Vinberg's algorithm]]
+:Added   [[Worldwide Center of Mathematics]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Joseph Shalika]]
+: Mathematicians:added   [[Lee Sallows]]
+: Mathematicians:added   [[Vladimír Šverák]]
 
-== April 6, 2010 ==
+== July 4, 2011 ==
 
-:Added   [[Bearing from coordinates formula]]
-:Added   [[Coefficient of fractional parentage]]
-:Added   [[Journal of Computational Geometry]]
-:Added   [[LP Norm]]
-:Added   [[Least Squares Support Vector Machine]]
+:Removed [[Numerical Analysis (book)]] (article deleted/does not exist)
+:Removed [[Root of a function]] (is a redirect to [[Zero of a function]])
+:Removed [[Viète's formulas]] (is a redirect to [[Vieta's formulas]])
+:Added   [[Comeasuring]]
+:Added   [[Revista Colombiana de Estadistica]]
+:Added   [[Vieta's formulas]]
+:Added   [[Zero of a function]]
+:Added   [[Θ10]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[Andrey Kiselyov]] (is a redirect to [[Andrei Kiselyov]])
+: Mathematicians:removed [[Andrey Nikolayevich Tychonoff]] (is a redirect to [[Andrey Nikolayevich Tikhonov]])
+: Mathematicians:removed [[Pranab Sen]] (is a redirect to [[Pranab K. Sen]])
+: Mathematicians:removed [[Sammy Jelin]] 
+: Mathematicians:added   [[Andrei Petrovich Kiselyov]]
+: Mathematicians:added   [[Andrey Nikolayevich Tikhonov]]
+: Mathematicians:added   [[Fujita Sadasuke]]
 
-== April 5, 2010 ==
+== July 3, 2011 ==
 
-:Added   [[Bridging Liberal Arts and Mathematics]]
-:Added   [[De Bruijn–Erdős theorem (graph theory)]]
-:Added   [[FFTW]]
-:Added   [[Finite difference coefficient]]
-:Added   [[Kish grid]]
-:Added   [[Squaring the plane]]
-:Added   [[Unicode mathematical operators]]
+:Removed [[Extended Newsvendor models]] (is a redirect to [[Extended newsvendor model]])
+:Added   [[Bernstein–Zelevinsky classification]]
+:Added   [[Extended newsvendor model]]
+:Added   [[Lafforgue's theorem]]
+:Added   [[Max-min inequality]]
+:Added   [[Theil–Sen estimator]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[John Macnaughten Whittaker]] (is a redirect to [[John Macnaghten Whittaker]])
+: Mathematicians:added   [[Theophilos Erotikos (10th century)]]
 
-== April 4, 2010 ==
+== July 2, 2011 ==
 
-:Removed [[Fundamental concepts of geometry]] (is a redirect to [[Euclidean geometry]])
-:Removed [[Squaring the plane]] (is a redirect to [[Squaring the square]])
-:Added   [[De Bruijn–Erdős theorem (incidence geometry)]]
-:Added   [[Diagonalizable group]]
-:Added   [[Differentiable function]]
-:Added   [[Direct product of groups]]
-:Added   [[Ludwig Schlesinger]]
-:Added   [[Maxwell Rosenlicht]]
-:Added   [[Syngonorthus]]
-:Added   [[Univariate analysis]]
+:Removed [[Denominate number]] (is a redirect to [[Concrete number]])
+:Removed [[Integral image theorem]] (is a redirect to [[Antiderivative theorem]])
+:Removed [[Isserlis’ theorem]] (is a redirect to [[Isserlis' theorem]])
+:Removed [[Newsvendor]] (is a redirect to [[Newsvendor model]])
+:Removed [[Plücker’s conoid]] (is a redirect to [[Plücker's conoid]])
+:Removed [[Randić’s molecular connectivity index]] (is a redirect to [[Randić's molecular connectivity index]])
+:Removed [[Wallis’s conical edge]] (is a redirect to [[Wallis's conical edge]])
+:Removed [[ZAMM — Journal of Applied Mathematics & Mechanics]] (is a redirect to [[Journal of Applied Mathematics and Mechanics]])
+:Added   [[Antiderivative theorem]]
+:Added   [[Concrete number]]
+:Added   [[Isserlis' theorem]]
+:Added   [[Newsvendor model]]
+:Added   [[Philosophy of computer science]]
+:Added   [[Plücker's conoid]]
+:Added   [[Randić's molecular connectivity index]]
+:Added   [[Wallis's conical edge]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[KR Parthasarathy]] 
 
-== April 3, 2010 ==
+== July 1, 2011 ==
 
-:Removed [[Aliter]] (is a redirect to [[Mathematical jargon]])
-:Removed [[Angle chasing]] (is a redirect to [[Mathematical jargon]])
-:Removed [[Delta travelling salesman problem]] (is a redirect to [[Travelling salesman problem]])
-:Removed [[Dickman–de Bruijn function]] (is a redirect to [[Dickman function]])
-:Added   [[Barrett reduction]]
-:Added   [[Dickman function]]
-:Added   [[Fundamental concepts of geometry]]
-:Added   [[Squaring the plane]]
+:Removed [[Condegram Spiral Plots]] (is a redirect to [[Condegram spiral plot]])
+:Removed [[Integral Image Theorem]] (is a redirect to [[Integral image theorem]])
+:Added   [[Condegram spiral plot]]
+:Added   [[Illumination angle]]
+:Added   [[Integral image theorem]]
+:Added   [[Probabilistic forecasting]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Carl Georg Barth]]
 
-== April 2, 2010 ==
+== June 30, 2011 ==
 
-:Removed [[Binary set]] (is a redirect to [[Unordered pair]])
-:Removed [[Dickman-de Bruijn function]] (is a redirect to [[Dickman–de Bruijn function]])
-:Removed [[Lwow-Warsaw School of Logic]] (is a redirect to [[Lwów–Warsaw school of logic]])
-:Added   [[Abjunction]]
-:Added   [[Delta travelling salesman problem]]
-:Added   [[Dickman–de Bruijn function]]
-:Added   [[Fritz John conditions]]
-:Added   [[Lwów–Warsaw school of logic]]
-:Added   [[Unordered pair]]
+:Removed [[Discrete Green's theorem]] (is a redirect to [[Integral Image Theorem]])
+:Added   [[Algebraic cobordism]]
+:Added   [[André–Oort conjecture]]
+:Added   [[Box method]]
+:Added   [[Condegram Spiral Plots]]
+:Added   [[Free boundary problem]]
+:Added   [[Integral Image Theorem]]
+:Added   [[Local Langlands conjectures]]
+:Added   [[Lomax distribution]]
+:Added   [[Total survey error]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[Frappadingue du Valseur]] 
+: Mathematicians:added   [[Vladimir Makanin]]
 
-== April 1, 2010 ==
+== June 29, 2011 ==
 
-:Removed [[Trivial (mathematics)]] (is a redirect to [[Triviality (mathematics)]])
-:Added   [[Multivariate Behavioral Research]]
-:Added   [[Sharafutdinov's retraction]]
-:Added   [[Triviality (mathematics)]]
+:Removed [[Uniform polyexon]] (is a redirect to [[7-polytope]])
+:Added   [[7-polytope]]
+:Added   [[Convolution of probability distributions]]
+:Added   [[Tate's thesis]]
+:Added   [[Tau (mathematics)]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Frappadingue du Valseur]]
 
-== March 31, 2010 ==
+== June 28, 2011 ==
 
-:Added   [[Batalin–Vilkovisky formalism]]
-:Added   [[Brookhouse Method of Binary Addition]]
-:Added   [[Number bond]]
-:Added   [[Reed–Solomon error correction]]
+:Removed [[Box–Pierce test]] (is a redirect to [[Ljung–Box test]])
+:Removed [[Distributivity]] (is a redirect to [[Distributive property]])
+:Removed [[Hill's equation]] (is a redirect to [[Hill equation]])
+:Removed [[Mathematical formalism]] (is a redirect to [[Mathematical_logic]])
+:Added   [[Carnot group]]
+:Added   [[Distributive property]]
+:Added   [[Hill differential equation]]
+:Added   [[Pansu derivative]]
+:Added   [[Shuffle algebra]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[Cristian Popescu]] 
+: Mathematicians:added   [[Imre Izsak]]
 
-== March 30, 2010 ==
+== June 27, 2011 ==
 
-:Removed [[Continuous function (topology)]] (is a redirect to [[Continuous function]])
-:Removed [[Ramer-Douglas-Peucker algorithm]] (is a redirect to [[Ramer–Douglas–Peucker algorithm]])
-:Removed [[Rendiconti del Seminario Matematico di Torino]] (is a redirect to [[Rendiconti del Seminario Matematico Università e Politecnico di Torino]])
-:Added   [[Airy zeta function]]
-:Added   [[Franklin D. Roosevelt's paralytic illness]]
-:Added   [[Gauss iterated map]]
-:Added   [[Jacobi zeta function]]
-:Added   [[Jordan curve]]
-:Added   [[Ramer–Douglas–Peucker algorithm]]
-:Added   [[Rendiconti del Seminario Matematico Università e Politecnico di Torino]]
-:Added   [[Summation equation]]
+:Removed [[A∞-algebra]] (is a redirect to [[A∞-operad]])
+:Removed [[Skeletal regular polyhedron]] (is a redirect to [[Steinitz's theorem]])
+:Added   [[M. Lothaire]]
+:Added   [[Marketing science]]
+:Added   [[Mathematical formalism]]
+:Added   [[Rectified Gaussian distribution]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Boris Levitan]]
+: Mathematicians:added   [[Walter Foster (mathematician)]]
 
-== March 29, 2010 ==
+== June 26, 2011 ==
 
-:Removed [[Afrika Matematica]] (is a redirect to [[African Mathematical Union]])
-:Removed [[Triebel-Lizorkin space]] (is a redirect to [[Triebel–Lizorkin space]])
-:Added   [[Beppo-Levi space]]
-:Added   [[Bihari's inequality]]
-:Added   [[H-vector]]
-:Added   [[Rendiconti del Seminario Matematico di Torino]]
-:Added   [[Triebel–Lizorkin space]]
-:Added   [[Unisolvent point set]]
+:Removed [[Number names]] (is a redirect to [[Numeral (linguistics)]])
+:Added   [[Balinese numerals]]
+:Added   [[Critical pair (order theory)]]
+:Added   [[Dzongkha numerals]]
+:Added   [[Flat vector bundle]]
+:Added   [[Global section functor]]
+:Added   [[Hindustani numerals]]
+:Added   [[Integer broom topology]]
+:Added   [[Javanese numerals]]
+:Added   [[Layer group]]
+:Added   [[Numeral (linguistics)]]
+:Added   [[Rod group]]
+:Added   [[Yoruba numerals]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Leonid Pastur]]
 
-== March 28, 2010 ==
+== June 25, 2011 ==
 
-:Added   [[List of prime knots]]
-:Added   [[Resection (orientation)]]
-:Added   [[Triebel-Lizorkin space]]
+:Removed [[Q-gaussian]] (is a redirect to [[Q-Gaussian]])
+:Added   [[Binomial ring]]
+:Added   [[Hecke algebra of a locally compact group]]
+:Added   [[Hecke algebra of a pair]]
+:Added   [[Iwahori–Hecke algebra]]
+:Added   [[Necklace ring]]
+:Added   [[Products in algebraic topology]]
+:Added   [[Q-Gaussian]]
+:Added   [[Variability function]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[John Wren-Lewis]]
+: Mathematicians:added   [[Martin Folkes]]
 
-== March 27, 2010 ==
+== June 24, 2011 ==
 
-:Removed [[Aryabhata algorithm]] (is a redirect to [[Chinese remainder theorem]])
-:Removed [[Aryabhata equation]] (is a redirect to [[Bézout's identity]])
-:Added   [[Local Euler characteristic formula]]
-:Added   [[Local Tate duality]]
-:Added   [[Osgood curve]]
-:Added   [[Powers of 10]]
+:Removed [[Moreau's necklace-counting function]] (is a redirect to [[Necklace polynomial]])
+:Removed [[Natural Evolution Strategies]] (is a redirect to [[Natural evolution strategy]])
+:Removed [[Number-theoretic transform]] (is a redirect to [[Discrete_Fourier_transform_(general)]])
+:Added   [[Line group]]
+:Added   [[Multilinear principal component analysis]]
+:Added   [[Natural evolution strategy]]
+:Added   [[Necklace polynomial]]
+:Added   [[Preference regression]]
+:Added   [[Q-exponential distribution]]
+:Added   [[Q-gaussian]]
+:Added   [[S-function]]
+:Added   [[Singular submodule]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Thomas Spencer (mathematical physicist)]]
 
-== March 26, 2010 ==
+== June 23, 2011 ==
 
-:Removed [[Abacus logic]] (is a redirect to [[Logical abacus]])
-:Removed [[Crooked egg curve]] (article deleted/does not exist)
-:Removed [[Rabin automaton]] (is a redirect to [[Omega automaton]])
-:Removed [[Streett automaton]] (is a redirect to [[Omega automaton]])
-:Added   [[215 (number)]]
-:Added   [[Backward chaining]]
-:Added   [[Continuous graph]]
-:Added   [[Eulerian poset]]
-:Added   [[Lissajous knot]]
-:Added   [[Matsumoto zeta function]]
-:Added   [[Twist knot]]
-:Added   [[Unknotting number]]
+:Added   [[Ginibre inequality]]
+:Added   [[Gradient-like dynamical systems]]
+:Added   [[Gradient-like vector field]]
+:Added   [[Hardy field]]
+:Added   [[Monic polynomial]]
+:Added   [[Natural Evolution Strategies]]
+:Added   [[Switching circuit theory]]
+:Added   [[Translation functor]]
+:Added   [[Twisted Poincaré duality]]
+:Added   [[Ulam's game]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:removed [[Peter Balazs (Mathematician)]] (is a redirect to [[Peter Balazs (mathematician)]])
+: Mathematicians:added   [[Charles Paul Narcisse Moreau]]
+: Mathematicians:added   [[Mehmet Nadir]]
+: Mathematicians:added   [[Peter Balazs (mathematician)]]
 
-== March 25, 2010 ==
+== June 22, 2011 ==
 
-:Removed [[Aegean numbers]] (is a redirect to [[Aegean numerals]])
-:Removed [[Gaussian binomial]] (is a redirect to [[Gaussian binomial coefficient]])
-:Removed [[Microsphere projection]] (article deleted/does not exist)
-:Removed [[Reciprocal property]] (article deleted/does not exist)
-:Removed [[Relation between sine and cosine (Fourier transform)]] (article deleted/does not exist)
-:Removed [[Research Students Conference Probability and Statistics]] (article deleted/does not exist)
-:Added   [[1387 (number)]]
-:Added   [[Aegean numerals]]
-:Added   [[Gaussian binomial coefficient]]
-:Added   [[JTS Topology Suite]]
-:Added   [[Tate twist]]
+:Removed [[Good cover]] (is a redirect to [[Good cover (algebraic topology)]])
+:Removed [[Infinity laplacian]] (is a redirect to [[Infinity Laplacian]])
+:Added   [[A∞-algebra]]
+:Added   [[Good cover (algebraic topology)]]
+:Added   [[Horn angle]]
+:Added   [[Infinity Laplacian]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[Peter Balazs (Mathematician)]]
 
-== March 24, 2010 ==
+== June 21, 2011 ==
 
-:Removed [[Brooks-Iyengar Algorithm]] (is a redirect to [[Brooks–Iyengar algorithm]])
-:Removed [[Equable shapes]] (is a redirect to [[Equable shape]])
-:Removed [[Erdős–Graham conjecture]] (is a redirect to [[Erdős–Graham problem]])
-:Removed [[Herglotz-Zagier function]] (is a redirect to [[Herglotz–Zagier function]])
-:Added   [[6₂ knot]]
-:Added   [[6₃ knot]]
-:Added   [[Aegean numbers]]
-:Added   [[Brooks–Iyengar algorithm]]
-:Added   [[Equable shape]]
-:Added   [[Erdős–Graham problem]]
-:Added   [[Herglotz–Zagier function]]
-:Added   [[T distribution]]
-:Added   [[Udo of Aachen]]
-:Added   [[Witten zeta function]]
+:Removed [[Maris-McGwire-Sosa pair]] (is a redirect to [[Maris–McGwire–Sosa pair]])
+:Added   [[Generalized Pareto distribution]]
+:Added   [[Good cover]]
+:Added   [[Infinity laplacian]]
+:Added   [[Jacquet module]]
+:Added   [[Maris–McGwire–Sosa pair]]
+:Added   [[Quarterly Journal of Mathematics]]
+:Added   [[The Quarterly Journal of Pure and Applied Mathematics]]
 ----
-: Mathematicians:added   [[Carolyn S. Gordon]]
-: Mathematicians:added   [[Eberhard Melchior]]
-: Mathematicians:added   [[Heinz Bauer]]
-: Mathematicians:added   [[Leroy Milton Kelly]]
-: Mathematicians:added   [[Peter Grindrod]]
-: Mathematicians:added   [[Thanos Miloulis]]
-: Mathematicians:added   [[Vinzenz Bronzin]]
+: Mathematicians:added   [[John Blissard]]
+: Mathematicians:added   [[Sufiah Yusof]]
 
