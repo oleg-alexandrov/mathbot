@@ -6,6 +6,10 @@
 
 ----
 
+== July 28, 2011 ==
+
+----
+
 == July 27, 2011 ==
 
 :Removed [[Clique cover]] (is a redirect to [[Clique cover problem]])
@@ -473,15 +477,4 @@
 : Mathematicians:added   [[Charles Paul Narcisse Moreau]]
 : Mathematicians:added   [[Mehmet Nadir]]
 : Mathematicians:added   [[Peter Balazs (mathematician)]]
-
-== June 22, 2011 ==
-
-:Removed [[Good cover]] (is a redirect to [[Good cover (algebraic topology)]])
-:Removed [[Infinity laplacian]] (is a redirect to [[Infinity Laplacian]])
-:Added   [[A∞-algebra]]
-:Added   [[Good cover (algebraic topology)]]
-:Added   [[Horn angle]]
-:Added   [[Infinity Laplacian]]
-----
-: Mathematicians:added   [[Peter Balazs (Mathematician)]]
 
