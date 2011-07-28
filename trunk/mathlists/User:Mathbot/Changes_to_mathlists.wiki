@@ -2,6 +2,10 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== July 28, 2011 ==
+
+----
+
 == July 27, 2011 ==
 
 :Removed [[Clique cover]] (is a redirect to [[Clique cover problem]])
@@ -480,18 +484,4 @@
 :Added   [[Infinity Laplacian]]
 ----
 : Mathematicians:added   [[Peter Balazs (Mathematician)]]
-
-== June 21, 2011 ==
-
-:Removed [[Maris-McGwire-Sosa pair]] (is a redirect to [[Maris–McGwire–Sosa pair]])
-:Added   [[Generalized Pareto distribution]]
-:Added   [[Good cover]]
-:Added   [[Infinity laplacian]]
-:Added   [[Jacquet module]]
-:Added   [[Maris–McGwire–Sosa pair]]
-:Added   [[Quarterly Journal of Mathematics]]
-:Added   [[The Quarterly Journal of Pure and Applied Mathematics]]
-----
-: Mathematicians:added   [[John Blissard]]
-: Mathematicians:added   [[Sufiah Yusof]]
 

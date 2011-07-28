@@ -19,6 +19,7 @@ Belarusian - Belarus
 Swedish - Sweden
 
 Wells - Wales
+Welsh- Wales
 
 American - USA
  
@@ -196,4 +197,188 @@ Iraqi - Iraq
 Syrian - Syria
 uruguayan - Uruguay
 sri lankan - Sri Lanka
+
+
+Afghan - Afghanistan
+Albanian - Albania
+Algerian - Algeria
+Andorran - Andorra
+Angolan - Angola
+Argentinian - Argentina
+Armenian - Armenia
+Australian - Australia
+Austrian - Austria
+Azerbaijani - Azerbaijan
+Bahamian - Bahamas
+Bahraini - Bahrain
+Bangladeshi - Bangladesh
+Barbadian - Barbados
+Belorussian - Belarus
+Belgian - Belgium
+Belizian - Belize
+Beninese - Benin
+Bhutanese - Bhutan
+Bolivian - Bolivia
+Bosnian - Bosnia-Herzegovina 
+Botswanan - Botswana
+Brazilian - Brazil
+British - Britain
+Bruneian - Brunei
+Bulgarian - Bulgaria
+Burkinese - Burkina
+Burmese - Burma
+Burundian - Burundi
+Cambodian - Cambodia
+Cameroonian - Cameroon
+Canadian - Canada
+Cape Verdean - Cape Verde 
+Chadian - Chad
+Chilean - Chile
+Chinese - China
+Colombian - Colombia
+Congolese - Congo
+Costa Rican - Costa Rica
+Croat - Croatia
+Cuban - Cuba
+Cypriot - Cyprus
+Czech - Czech Republic
+Danish - Denmark
+Djiboutian - Djibouti
+Dominican - Dominican Republic 
+Ecuadorean - Ecuador
+Egyptian - Egypt
+El Salvadorian - El Salvador
+English - England
+Eritrean - Eritrea
+Estonian - Estonia
+Ethiopian - Ethiopia
+Fijian - Fiji
+Finnish - Finland
+French - France
+Gabonese - Gabon
+Gambian - The Gambia
+Georgian - Georgia
+German - Germany
+Ghanaian - Ghana
+Greek - Greece
+Grenadian - Grenada
+Guatemalan - Guatemala
+Guinean - Guinea
+Guyanese - Guyana
+Haitian - Haiti
+Dutch - Netherlands
+Honduran - Honduras
+Hungarian - Hungary
+Icelandic - Iceland
+Indian - India
+Indonesian - Indonesia
+Iranian - Iran
+Iraqi - Iraq
+Irish - Ireland
+Israeli - Israel
+Italian - Italy
+Jamaican - Jamaica
+Japanese - Japan
+Jordanian - Jordan
+Kazakh - Kazakhstan
+Kenyan - Kenya
+South Korean - South Korea
+North Korean - North Korea
+Kuwaiti - Kuwait
+Laotian - Laos
+Latvian - Latvia
+Lebanese - Lebanon
+Liberian - Liberia
+Libyan - Libya
+Liechtensteiner - Liechtenstein
+Lithuanian - Lithuania
+Luxembourger - Luxembourg
+Macedonian - Macedonia
+Malagasay - Madagascar
+Malawian - Malawi
+Malaysian - Malaysia
+Maldivian - Maldives
+Malian - Mali
+Maltese - Malta
+Mauritanian - Mauritania
+Mauritian - Mauritius
+Mexican - Mexico
+Moldovan - Moldova
+Monégasque - Monaco
+Monegasque - Monaco
+Monacan - Monaco	
+Mongolian - Mongolia
+Montenegrin - Montenegro
+Moroccan - Morocco
+Mozambican - Mozambique
+Namibian - Namibia
+Nepalese - Nepal
+Dutch - Netherlands
+New Zealander - New Zealand 
+Nicaraguan - Nicaragua
+Nigerien - Niger
+Nigerian - Nigeria
+Norwegian - Norway
+Omani - Oman
+Pakistani - Pakistan
+Panamanian - Panama
+Papua New Guinean - Papua New Guinea
+Paraguayan - Paraguay
+Peruvian - Peru
+Filipino - Philippines
+Polish - Poland
+Portuguese - Portugal
+Qatari - Qatar
+Romanian - Romania
+Russian - Russia
+Rwandan - Rwanda
+Saudi Arabian - Saudi Arabia
+Saudi - Saudi Arabia
+Scottish - Scotland
+Senegalese - Senegal
+Serb - Serbia
+Seychellois - Seychelles
+Sierra Leonian - Sierra Leone
+Singaporean - Singapore
+Slovak - Slovakia
+Slovene - Slovenia
+Solomon Islander - Solomon Islands
+Somali - Somalia
+South African - South Africa
+South Korean - South Korea
+Spanish - Spain
+Sri Lankan - Sri Lanka
+Sudanese - Sudan
+Surinamese - Suriname
+Swazi - Swaziland
+Swedish - Sweden
+Swiss - Switzerland
+Syrian - Syria
+Taiwanese - Taiwan
+Tajik - Tajikistan
+Tanzanian - Tanzania
+Thai - Thailand
+Togolese - Togo
+Trinidadian - Trinidad and Tobago
+Trinidad and Tobagan - Trinidad and Tobago
+Tunisian - Tunisia
+Turkish - Turkey
+Turkmen - Turkmenistan
+Tuvaluan - Tuvali
+Ugandan - Uganda
+Ukrainian - Ukraine
+Uruguayan - Uruguay
+Uzbek - Uzbekistan
+Vanuatuan - Vanuata
+Venezuelan - Venezuela
+Vietnamese - Vietnam
+Welsh - Wales
+Yemeni - Yemen
+Yugoslav - Yugoslavia
+Zaïrean - Zaire
+Zairean - Zaire
+Western Samoan - Western Samoa
+Zambian - Zambia
+Zimbabwean - Zimbabwe
+
 
