@@ -108,6 +108,7 @@ Al-%e1%b8%a4ajj%c4%81j_ibn_Y%c5%absuf_ibn_Ma%e1%b9%adar
 Alain_Badiou
 Alain_Connes
 Alain_Desrosi%c3%a8res
+Alain_Lascoux
 Alan_Baker_%28mathematician%29
 Alan_D._Taylor
 Alan_Davies_%28mathematician%29
@@ -2084,6 +2085,7 @@ Ian_Grojnowski
 Ian_R._Porteous
 Ian_Sloan
 Ian_Stewart_%28mathematician%29
+Ibn_Abi_al-Shukr
 Ibn_Ghazi_al-Miknasi
 Ibn_Hamza_al-Maghribi
 Ibn_Mu%ca%bf%c4%81dh_al-Jayy%c4%81n%c4%ab
@@ -3009,6 +3011,7 @@ Leonid_Khachiyan
 Leonid_Levin
 Leonid_Pastur
 Leonid_Plyushch
+Leonid_Polterovich
 Leonid_Vaser%c5%a1te%c4%adn
 Leonida_Tonelli
 Leonidas_Alaoglu

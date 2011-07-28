@@ -176,6 +176,8 @@ palestinian -
 buddhist - 
 islamic - 
 muslim - 
+bayesian - 
+medieval persian - Medieval Persia
 
 ancient indian - Ancient India
 bulgarian - Bulgaria
