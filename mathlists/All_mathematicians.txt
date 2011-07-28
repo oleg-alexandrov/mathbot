@@ -120,6 +120,7 @@ Alain Badiou
 Alain Connes
 Alain Desrosières
 Alain Glavieux
+Alain Lascoux
 Alan Baker (mathematician)
 Alan D. Taylor
 Alan Davies (mathematician)
@@ -2322,6 +2323,7 @@ Ian Grojnowski
 Ian R. Porteous
 Ian Sloan
 Ian Stewart (mathematician)
+Ibn Abi al-Shukr
 Ibn Ghazi al-Miknasi
 Ibn Hamza al-Maghribi
 Ibn Muʿādh al-Jayyānī
@@ -3343,6 +3345,7 @@ Leonid Khachiyan
 Leonid Levin
 Leonid Pastur
 Leonid Plyushch
+Leonid Polterovich
 Leonid Vaseršteĭn
 Leonida Tonelli
 Leonidas Alaoglu
