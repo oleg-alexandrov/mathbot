@@ -22,8 +22,8 @@ MAIN:{
   $work_dir=$0; $work_dir =~ s/\/[^\/]*$/\//g; chdir $work_dir;
   
   my $Editor=wikipedia_login();
-  $attempts = 100; $sleep = 2;
-  $days=1;  $limit=5000;
+  $attempts = 100; $sleep = 1;
+  $days=2;  $limit=5000;
 
   $base='http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_';
   foreach $letter (@letters){
@@ -32,9 +32,9 @@ MAIN:{
 
     print "now: getting $link\n";
     ($text, $error)  = &get_html($link);
-    print "sleep 2\n"; sleep 2;
-    
-    @articles_list = (@articles_list, ($text =~ /\<li\>\s*\(\s*\<a href=\"[^\"]*?\"\s+title=\"([^\"]*?)\"/ig) );
+    print "sleep $sleep\n"; sleep $sleep;
+  
+    @articles_list = (@articles_list, ($text =~ /\<li.*?\>\s*\(\s*\<a href=\"[^\"]*?\"\s+title=\"([^\"]*?)\"/ig) );
   }
 
   foreach $article (@articles_list){
