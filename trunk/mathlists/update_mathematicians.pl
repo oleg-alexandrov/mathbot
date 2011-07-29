@@ -74,7 +74,7 @@ MAIN:{
     next if (exists $blacklist{$name}); # ignore blacklist, just as above
     
     # reconcile the new $entries{$name} with the old $line
-    if (exists $entries{$name} && $entries{$name} ne $line) {
+    if (exists $entries{$name} ){ # && $entries{$name} ne $line) {
       print "Reconciling $name\n";
       $entries{$name}=&reconcile ($line, $entries{$name}); 
     }else{
@@ -228,8 +228,8 @@ sub reconcile {
   # Always keep the the name from the old. For the rest, keep the entry with most info.
   $nname    = $oname     if (                      $oname    =~ /\w/    ); 
   $ncountry = $ocountry  if ($ncountry  !~ /\w/ && $ocountry =~ /\w/    );
-  $nbirth   = $obirth    if ($nbirth    !~ /\d/ && $obirth   =~ /[^\?]/ ); 
-  $ndeath   = $odeath    if ($ndeath    !~ /\d/ && $odeath   =~ /[^\?]/ );
+  $nbirth   = $obirth    if ($nbirth    !~ /\d/ && $obirth   =~ /[^\?\-]/ ); 
+  $ndeath   = $odeath    if ($ndeath    !~ /\d/ && $odeath   =~ /[^\?\-]/ );
   if ($nbirth !~ /\?/ && $ndeath =~ /^[\?\s]*$/){
     return "* [[$nname]] \($ncountry, born $nbirth\)";	  
   }else{
