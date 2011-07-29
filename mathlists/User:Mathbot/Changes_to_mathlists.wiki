@@ -2,6 +2,25 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== July 29, 2011 ==
+
+:Removed [[Progression (mathematics)]] (is a redirect to [[Progression]])
+:Removed [[Resolution (mathematics)]] (is a redirect to [[Resolution]])
+:Removed [[Sampling variogram]] (article deleted/does not exist)
+:Removed [[Walsh code]] (is a redirect to [[Walsh-Hadamard code]])
+:Added   [[Ackermann coding]]
+:Added   [[Demazure character formula]]
+:Added   [[Demazure module]]
+:Added   [[Dinostratus' theorem]]
+:Added   [[Equidistant]]
+:Added   [[Principles of Hindu Reckoning]]
+:Added   [[Representable numbers]]
+:Added   [[Riemannian metric]]
+:Added   [[Total active reflection coefficient]]
+:Added   [[Variance map]]
+:Added   [[Walsh-Hadamard code]]
+----
+
 == July 28, 2011 ==
 
 :Removed [[Progression (mathematics)]] (is a redirect to [[Progression]])
@@ -454,21 +473,4 @@
 ----
 : Mathematicians:added   [[John Wren-Lewis]]
 : Mathematicians:added   [[Martin Folkes]]
-
-== June 24, 2011 ==
-
-:Removed [[Moreau's necklace-counting function]] (is a redirect to [[Necklace polynomial]])
-:Removed [[Natural Evolution Strategies]] (is a redirect to [[Natural evolution strategy]])
-:Removed [[Number-theoretic transform]] (is a redirect to [[Discrete_Fourier_transform_(general)]])
-:Added   [[Line group]]
-:Added   [[Multilinear principal component analysis]]
-:Added   [[Natural evolution strategy]]
-:Added   [[Necklace polynomial]]
-:Added   [[Preference regression]]
-:Added   [[Q-exponential distribution]]
-:Added   [[Q-gaussian]]
-:Added   [[S-function]]
-:Added   [[Singular submodule]]
-----
-: Mathematicians:added   [[Thomas Spencer (mathematical physicist)]]
 

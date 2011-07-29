@@ -640,6 +640,7 @@ Accidental sampling
 Accuracy and precision
 Accuracy paradox
 Achilles number
+Ackermann coding
 Ackermann function
 Ackermann ordinal
 Ackermann set theory
@@ -4859,6 +4860,8 @@ Deltoidal hexecontahedron
 Deltoidal icositetrahedron
 Deltoidal trihexagonal tiling
 Demand optimization
+Demazure character formula
+Demazure module
 Demihypercube
 Deming regression
 Demon algorithm
@@ -5122,6 +5125,7 @@ Dinic's algorithm
 Dining cryptographers problem
 Dining philosophers problem
 Dinitz conjecture
+Dinostratus' theorem
 Diophantine approximation
 Diophantine equation
 Diophantine geometry
@@ -5976,6 +5980,7 @@ Equidigital number
 Equidimensional
 Equidimensional scheme
 Equidimensionality
+Equidistant
 Equidistributed sequence
 Equidistribution theorem
 Equilateral dimension
@@ -14773,6 +14778,7 @@ Principle of indifference
 Principle of least action
 Principle of maximum entropy
 Principles and Standards for School Mathematics
+Principles of Hindu Reckoning
 Principles of Mathematical Logic
 Prior Analytics
 Prior probability
@@ -14884,7 +14890,6 @@ Profunctor
 Prognostic equation
 Prognostics
 Program in Mathematics for Young Scientists
-Progression (mathematics)
 Progressive Graphics File
 Progressive function
 Progressively measurable process
@@ -15974,6 +15979,7 @@ Replication (statistics)
 Replicator equation
 Reports on Mathematical Physics
 Representable functor
+Representable numbers
 Representation (mathematics)
 Representation of a Lie group
 Representation of a Lie superalgebra
@@ -16026,7 +16032,6 @@ Resistance distance
 Resistive ballooning mode
 Resolution (algebra)
 Resolution (logic)
-Resolution (mathematics)
 Resolution of singularities
 Resolvable space
 Resolvent formalism
@@ -16146,6 +16151,7 @@ Riemannian circle
 Riemannian connection on a surface
 Riemannian geometry
 Riemannian manifold
+Riemannian metric
 Riemannian submanifold
 Riemannian submersion
 Riemann–Hilbert correspondence
@@ -16485,7 +16491,6 @@ Sampling frame
 Sampling risk
 Sampling theory
 Sampling theory (disambiguation)
-Sampling variogram
 Samuelson's inequality
 Sand table
 Sangaku
@@ -19092,6 +19097,7 @@ Tortuosity
 Torus
 Torus bundle
 Torus knot
+Total active reflection coefficient
 Total angular momentum quantum number
 Total coloring
 Total coloring conjecture
@@ -19874,6 +19880,7 @@ Variable-order Markov model
 Variance
 Variance gamma process
 Variance inflation factor
+Variance map
 Variance reduction
 Variance-gamma distribution
 Variance-stabilizing transformation
@@ -20105,9 +20112,9 @@ Wallman compactification
 Wallpaper group
 Wall–Sun–Sun prime
 Walrasian auction
-Walsh code
 Walsh function
 Walsh matrix
+Walsh-Hadamard code
 Walter theorem
 Wandering set
 Wang B-machine

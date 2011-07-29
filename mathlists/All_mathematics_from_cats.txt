@@ -625,6 +625,7 @@ Accuracy_paradox
 Acharya_Hemachandra
 Achilles_number
 Achyuta_Pisharati
+Ackermann_coding
 Ackermann_function
 Ackermann_ordinal
 Ackermann_set_theory
@@ -4484,6 +4485,7 @@ Deltoidal_hexecontahedron
 Deltoidal_icositetrahedron
 Deltoidal_trihexagonal_tiling
 Demand_optimization
+Demazure_module
 Demihypercube
 Deming_regression
 Demon_algorithm
@@ -4718,6 +4720,7 @@ Dini%27s_theorem
 Dinic%27s_algorithm
 Dining_cryptographers_problem
 Dinitz_conjecture
+Dinostratus%27_theorem
 Diophantine_approximation
 Diophantine_equation
 Diophantine_geometry
@@ -5505,6 +5508,7 @@ Equidigital_number
 Equidimensional
 Equidimensional_scheme
 Equidimensionality
+Equidistant
 Equidistributed_sequence
 Equidistribution_theorem
 Equilateral_dimension
@@ -13734,7 +13738,6 @@ Professorship_of_Mathematical_Statistics%2c_University_of_Cambridge
 Professorship_of_Statistical_Science%2c_University_of_Cambridge
 Profinite_group
 Profunctor
-Progression_%28mathematics%29
 Progressive_Graphics_File
 Progressive_function
 Progressively_measurable_process
@@ -14666,6 +14669,7 @@ Replication_%28statistics%29
 Replicator_equation
 Reports_on_Mathematical_Physics
 Representable_functor
+Representable_numbers
 Representation_%28mathematics%29
 Representation_of_a_Lie_group
 Representation_of_a_Lie_superalgebra
@@ -14714,7 +14718,6 @@ Resistance_distance
 Resistive_ballooning_mode
 Resolution_%28algebra%29
 Resolution_%28logic%29
-Resolution_%28mathematics%29
 Resolution_of_singularities
 Resolvable_space
 Resolvent_formalism
@@ -14830,6 +14833,7 @@ Riemannian_circle
 Riemannian_connection_on_a_surface
 Riemannian_geometry
 Riemannian_manifold
+Riemannian_metric
 Riemannian_submanifold
 Riemannian_submersion
 Riemann%e2%80%93Hilbert_correspondence
@@ -17511,6 +17515,7 @@ Tortuosity
 Torus
 Torus_bundle
 Torus_knot
+Total_active_reflection_coefficient
 Total_coloring
 Total_coloring_conjecture
 Total_correlation
@@ -18226,6 +18231,7 @@ Variable-order_Bayesian_network
 Variable-order_Markov_model
 Variance
 Variance_gamma_process
+Variance_map
 Variance_reduction
 Variance-gamma_distribution
 Variance-stabilizing_transformation
@@ -18443,9 +18449,9 @@ Wallman_compactification
 Wallpaper_group
 Wall%e2%80%93Sun%e2%80%93Sun_prime
 Walrasian_auction
-Walsh_code
 Walsh_function
 Walsh_matrix
+Walsh-Hadamard_code
 Walter_Edwin_Arnoldi
 Walter_theorem
 Wandering_set

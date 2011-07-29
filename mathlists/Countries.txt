@@ -4,6 +4,8 @@ medieval iraqi - Medieval Iraq
 medieval arab - Medieval Arabia
 medieval spanish - Medieval Spain
 
+Bosnia and Herzegovina - Bosnia and Herzegovina
+
 sudanese    - Sudan
 soviet      - Soviet Union
 Colombian   - Colombia
