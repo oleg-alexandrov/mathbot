@@ -194,6 +194,12 @@ sub put_ndash {
 sub reconcile {
  my ($old, $oname, $ocountry, $obirth, $odeath, $new, $nname, $ncountry, $nbirth, $ndeath);
  ($old, $new)=@_;
+   
+
+   $old =~ s/\&nbsp;/ /g;
+   $old =~ s/\&[nm]dash;/-/g;
+   $old =~ s/\x{2013}/-/g;
+   $old =~ s/\x{2014}/-/g;
 
  # from new, take the country, birth, death info
  if ($new =~ /^\s*\*\s*\[\[(.*?)\]\]\s*\((.*?),(.*?)-(.*?)\)/){
@@ -210,6 +216,7 @@ sub reconcile {
   $ocountry="?"; $obirth="?"; $odeath="";
   if ($old =~ /^\s*\*\s*\[\[(.*?)\]\].*?\((.*?),(.*?)-(.*?)\)/){ $odeath=$4;   }
   if ($old =~ /^\s*\*\s*\[\[(.*?)\]\].*?\((.*?),(.*?)[-\)]/   ){ $obirth=$3;   }
+  if ($old =~ /^\s*\*\s*\[\[(.*?)\]\].*?\((.*?),\s*born(.*?)[-\)]/ ){ $obirth=$3;   }
   if ($old =~ /^\s*\*\s*\[\[(.*?)\]\].*?\((.*?)[\),\d]/       ){ $ocountry=$2; }
   if ($old =~ /^\s*\*\s*\[\[(.*?)\]\]/                        ){ $oname=$1;    } 
 
@@ -223,7 +230,11 @@ sub reconcile {
   $ncountry = $ocountry  if ($ncountry  !~ /\w/ && $ocountry =~ /\w/    );
   $nbirth   = $obirth    if ($nbirth    !~ /\d/ && $obirth   =~ /[^\?]/ ); 
   $ndeath   = $odeath    if ($ndeath    !~ /\d/ && $odeath   =~ /[^\?]/ );
-  return "* [[$nname]] \($ncountry, $nbirth - $ndeath\)";	  
+  if ($nbirth !~ /\?/ && $ndeath =~ /^[\?\s]*$/){
+    return "* [[$nname]] \($ncountry, born $nbirth\)";	  
+  }else{
+    return "* [[$nname]] \($ncountry, $nbirth - $ndeath\)";	  
+   }
 }
 
 sub parse_get_data {
