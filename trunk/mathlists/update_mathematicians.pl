@@ -258,11 +258,12 @@ sub parse_get_data {
 
   $country=""; 
   foreach (@countries){
-    $_ = lc ($_);
-    if ( exists $country2nationality->{$_}){
-      $_=$country2nationality->{$_};
+    if ( exists $country2nationality->{lc($_)}){
+      $_=$country2nationality->{lc($_)};
+    }else{
+      $_= "";
     }
-    
+
     if  ( ! exists $duplication_tracker{$_} && $_ !~ /^\s*$/) {
       $country = "$country" . "$_" . "/";
       $duplication_tracker{$_}=1;
