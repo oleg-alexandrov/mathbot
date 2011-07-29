@@ -4,6 +4,18 @@
 
 == July 28, 2011 ==
 
+:Removed [[Progression (mathematics)]] (is a redirect to [[Progression]])
+:Removed [[Sampling variogram]] (article deleted/does not exist)
+:Added   [[Ackermann coding]]
+:Added   [[Demazure character formula]]
+:Added   [[Principles of Hindu Reckoning]]
+:Added   [[Riemannian metric]]
+:Added   [[Total active reflection coefficient]]
+----
+: Mathematicians:removed [[Principles of Hindu Reckoning]] 
+
+== July 28, 2011 ==
+
 ----
 
 == July 28, 2011 ==
@@ -459,22 +471,4 @@
 :Added   [[Singular submodule]]
 ----
 : Mathematicians:added   [[Thomas Spencer (mathematical physicist)]]
-
-== June 23, 2011 ==
-
-:Added   [[Ginibre inequality]]
-:Added   [[Gradient-like dynamical systems]]
-:Added   [[Gradient-like vector field]]
-:Added   [[Hardy field]]
-:Added   [[Monic polynomial]]
-:Added   [[Natural Evolution Strategies]]
-:Added   [[Switching circuit theory]]
-:Added   [[Translation functor]]
-:Added   [[Twisted Poincaré duality]]
-:Added   [[Ulam's game]]
-----
-: Mathematicians:removed [[Peter Balazs (Mathematician)]] (is a redirect to [[Peter Balazs (mathematician)]])
-: Mathematicians:added   [[Charles Paul Narcisse Moreau]]
-: Mathematicians:added   [[Mehmet Nadir]]
-: Mathematicians:added   [[Peter Balazs (mathematician)]]
 

@@ -1,6 +1,9 @@
 medieval jewish -
 medieval indian - Medieval India
 medieval iraqi - Medieval Iraq
+medieval arab - Medieval Arabia
+medieval spanish - Medieval Spain
+
 sudanese    - Sudan
 soviet      - Soviet Union
 Colombian   - Colombia
