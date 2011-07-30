@@ -352,6 +352,7 @@ Angus_Macintyre
 Anil_Nerode
 Anna_Johnson_Pell_Wheeler
 Anna_Nagurney
+Annamalai_Ramanathan
 Anne_Sjerp_Troelstra
 Annette_Huber-Klawitter
 Annie_Dale_Biddle_Andrews
@@ -4755,6 +4756,7 @@ Viggo_Brun
 Viggo_Stoltenberg-Hansen
 Vijay_Kumar_Patodi
 Vijayanandi
+Vikram_Bhagvandas_Mehta
 Vikraman_Balaji
 Viktor_Buchstaber
 Viktor_Bunyakovsky

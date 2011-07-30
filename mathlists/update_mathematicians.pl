@@ -74,12 +74,10 @@ MAIN:{
     next if (exists $blacklist{$name}); # ignore blacklist, just as above
     
     # reconcile the new $entries{$name} with the old $line
-    if (exists $entries{$name} ){ # && $entries{$name} ne $line) {
-      print "Reconciling $name\n";
-      $entries{$name}=&reconcile ($line, $entries{$name}); 
-    }else{
-      $entries{$name}=$line;
+    if ( !exists $entries{$name} ){
+      $entries{$name} = "";
     }
+    $entries{$name}=&reconcile ($line, $entries{$name}); 
   }
   
   # split into a number of hashes, by letter. Those hashes are keyed by an ascii version of the last nime, for sorting. 
@@ -99,7 +97,6 @@ MAIN:{
 
     $text = "__NOTOC__\n\{\{MathTopicTOC\}\}\n";
     foreach $last ( sort {$a cmp $b} keys %{$people{$letter}} ) {
-      #    $people{$letter}->{$last} =~ s/(\*\s*\[\[.*?\]\].*?\(.*?,)(.*?)$/&put_ndash($1, $2)/eg; # put ndash back 
       $text = $text . "$people{$letter}->{$last}\n";
     }
     $text = $text . "\n[[Category:Mathematics-related lists]]";
@@ -183,14 +180,6 @@ sub strip_last {
   return $last;
 }
 
-sub put_ndash {
-
-  my $a=shift; my $b=shift;
-  $b =~ s/-/\x{2013}/g;
-  return "$a$b";
-}
-
-
 sub reconcile {
  my ($old, $oname, $ocountry, $obirth, $odeath, $new, $nname, $ncountry, $nbirth, $ndeath);
  ($old, $new)=@_;
@@ -198,8 +187,8 @@ sub reconcile {
 
    $old =~ s/\&nbsp;/ /g;
    $old =~ s/\&[nm]dash;/-/g;
-   $old =~ s/\x{2013}/-/g;
-   $old =~ s/\x{2014}/-/g;
+   $old =~ s/\x{2013}/-/g; # ndash
+   $old =~ s/\x{2014}/-/g; # mdash 
 
  # from new, take the country, birth, death info
  if ($new =~ /^\s*\*\s*\[\[(.*?)\]\]\s*\((.*?),(.*?)-(.*?)\)/){
@@ -230,10 +219,15 @@ sub reconcile {
   $ncountry = $ocountry  if ($ncountry  !~ /\w/ && $ocountry =~ /\w/    );
   $nbirth   = $obirth    if ($nbirth    !~ /\d/ && $obirth   =~ /[^\?\-]/ ); 
   $ndeath   = $odeath    if ($ndeath    !~ /\d/ && $odeath   =~ /[^\?\-]/ );
+  
+  if ($ncountry !~ /\w/){ $ncountry = '?'; }
+  if ($nbirth   !~ /\d/){ $nbirth   = '?'; }
+  if ($ndeath   !~ /\d/){ $ndeath   = '?'; }
+
   if ($nbirth !~ /\?/ && $ndeath =~ /^[\?\s]*$/){
     return "* [[$nname]] \($ncountry, born $nbirth\)";	  
   }else{
-    return "* [[$nname]] \($ncountry, $nbirth - $ndeath\)";	  
+    return "* [[$nname]] \($ncountry, $nbirth\x{2013}$ndeath\)";	  
    }
 }
 
@@ -259,7 +253,9 @@ sub parse_get_data {
   $country=""; 
   foreach (@countries){
     if ( exists $country2nationality->{lc($_)}){
-      $_=$country2nationality->{lc($_)};
+      $_= $country2nationality->{lc($_)};
+    }elsif ($_ =~ /^\s*(\w+)\s+(\w.*?)\s*$/ && exists $country2nationality->{lc($2)} ){  
+     $_ = $1 . " " . $country2nationality->{lc($2)};      
     }else{
       $_= "";
     }
@@ -274,13 +270,15 @@ sub parse_get_data {
   $country = "\?" if ($country =~ /^\s*$/);
 
   $birth="\?"; # a person must have a date of birth
-  if ($text =~ /\[\[Category:\s*([^\]\[]*?)\s+births/i){
-    $birth=$1; 
+  my @bmatches = ( $text =~ /\[\[Category:\s*([^\]\[]*?)\s+births/ig );
+  foreach my $match (@bmatches){
+    if ($match =~ /\d/) { $birth = $match; }
   }
 
-  $death=""; # have some respect, the person might still be alive
-  if ($text =~ /\[\[Category:\s*([^\]\[]*?)\s+deaths/i){
-    $death=$1;
+  $death="\?";
+  my @dmatches = ( $text =~ /\[\[Category:\s*([^\]\[]*?)\s+deaths/ig );
+  foreach my $match (@dmatches){
+    if ($match =~ /\d/) { $death = $match; }
   }
 
   if ($text =~ /\{\{lived\s*\|\s*b=(.*?)\s*\|\s*d=(.*?)\s*[\}\|]/i) { 

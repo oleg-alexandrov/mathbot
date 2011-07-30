@@ -382,6 +382,7 @@ Angus Macintyre
 Anil Nerode
 Anna Johnson Pell Wheeler
 Anna Nagurney
+Annamalai Ramanathan
 Anne Sjerp Troelstra
 Anne-Marie Imafidon
 Annette Huber-Klawitter
@@ -4612,6 +4613,7 @@ Roger Evans Howe
 Roger Fletcher (mathematician)
 Roger Godement
 Roger Heath-Brown
+Roger J-B Wets
 Roger Jones (mathematician)
 Roger J–B Wets
 Roger Lyndon
@@ -5014,7 +5016,6 @@ Theodor Schönemann
 Theodor Vahlen
 Theodor von Oppolzer
 Theodore James Courant
-Theodore Kaczynski
 Theodore Motzkin
 Theodore Slaman
 Theodore Wilbur Anderson
@@ -5249,6 +5250,7 @@ Viggo Brun
 Viggo Stoltenberg-Hansen
 Vijay Kumar Patodi
 Vijayanandi
+Vikram Bhagvandas Mehta
 Vikraman Balaji
 Viktor Buchstaber
 Viktor Bunyakovsky
