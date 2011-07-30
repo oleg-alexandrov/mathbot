@@ -4,6 +4,10 @@
 
 == July 29, 2011 ==
 
+----
+
+== July 29, 2011 ==
+
 :Removed [[Progression (mathematics)]] (is a redirect to [[Progression]])
 :Removed [[Resolution (mathematics)]] (is a redirect to [[Resolution]])
 :Removed [[Sampling variogram]] (article deleted/does not exist)
@@ -458,19 +462,4 @@
 :Added   [[Yoruba numerals]]
 ----
 : Mathematicians:added   [[Leonid Pastur]]
-
-== June 25, 2011 ==
-
-:Removed [[Q-gaussian]] (is a redirect to [[Q-Gaussian]])
-:Added   [[Binomial ring]]
-:Added   [[Hecke algebra of a locally compact group]]
-:Added   [[Hecke algebra of a pair]]
-:Added   [[Iwahori–Hecke algebra]]
-:Added   [[Necklace ring]]
-:Added   [[Products in algebraic topology]]
-:Added   [[Q-Gaussian]]
-:Added   [[Variability function]]
-----
-: Mathematicians:added   [[John Wren-Lewis]]
-: Mathematicians:added   [[Martin Folkes]]
 
