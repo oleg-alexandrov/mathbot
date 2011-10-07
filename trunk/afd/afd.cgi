@@ -374,13 +374,13 @@ sub see_open_afd_discussions (){
   $text =~ s/\n//g;	      # rm newlines
 
   # To distinguish open and closed discussions, for closed discussions 
-  # replace the text "mw-headline" with "mw-headline-closed"
-  $text =~   s/(\<div\s+class=\"boilerplate[\w\s]+afd vfd xfd-closed\".*?\<h3\>\<span\s+class*=\"mw-headline)/$1-closed/sgi;
+  # replace the text "editsection" with "editsection-closed"
+  $text =~   s/(\<div\s+class=\"boilerplate[\w\s]+afd vfd xfd-closed\".*?\<h3\>\<span\s+class*=\"editsection)/$1-closed/sgi;
 
-  my $match  = "[^\>]*?\>\<a href.*?title=\"([^\"]*?)\"\>View AfD";
-  my @all    = ($text =~ /\<h3\>\<span\s+class=\"mw-headline$match/g );
-  my @open   = ($text =~ /\<h3\>\<span\s+class=\"mw-headline[^-]$match/g );
-  my @closed = ($text =~ /\<h3\>\<span\s+class=\"mw-headline-closed$match/g );
+  my $match  = "[^\>]*?\>\\[\<a href.*?title=\"([^\"]*?)\"\>edit";
+  my @all    = ($text =~ /\<h3\>\<span\s+class=\"editsection$match/g );
+  my @open   = ($text =~ /\<h3\>\<span\s+class=\"editsection[^-]$match/g );
+  my @closed = ($text =~ /\<h3\>\<span\s+class=\"editsection-closed$match/g );
 
   my $openc=0;
    foreach (@open) {
