@@ -480,7 +480,8 @@ sub get_page_text {
   $prev_afd_name =~ s/\s*\(.*?\)\s*//g;
   $next_afd_name =~ s/\s*\(.*?\)\s*//g;
   
-return '<div class="boilerplate metadata vfd" style="background-color: #F3F9FF; margin: 0 auto; padding: 0 1px 0 0; border: 1px solid #AAAAAA; font-size:10px">
+return '{{Recent AfDs}}
+<div class="boilerplate metadata vfd" style="background-color: #F3F9FF; margin: 0 auto; padding: 0 1px 0 0; border: 1px solid #AAAAAA; font-size:10px">
 {| width = "100%"
 |-
 ! width="50%" align="left"  | <font color="gray">&lt;</font> [['
