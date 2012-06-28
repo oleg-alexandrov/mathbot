@@ -366,9 +366,9 @@ sub see_open_afd_discussions (){
   my $detailed_file = shift;
 
   ## Debug stuff
-  my $file = $link; $file =~ s/^.*\///g; $file =~ s/\s+/_/g;
-  print "Writing to $file\n";
-  open(FILE, ">$file"); print FILE $text; close(FILE); 
+  #my $file = $link; $file =~ s/^.*\///g; $file =~ s/\s+/_/g;
+  #print "Writing to $file\n";
+  #open(FILE, ">$file"); print FILE $text; close(FILE); 
 
   my $stats = "";
   $text =~ s/\n//g;	      # rm newlines
