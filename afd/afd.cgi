@@ -81,7 +81,7 @@ sub count_and_list_open_AfDs {
   my $sleep         = shift;
       
   my ($stats, $detailed_stats, $detailed_combined_stats);
-  $detailed_combined_stats = "{{shortcut|WP:OAFD|WP:OLDAFD}}\n";
+  $detailed_combined_stats = "<noinclude>{{Older AfDs}}<noinclude/>\n{{shortcut|WP:OAFD|WP:OLDAFD}}\n";
 
   my ($text, $edit_summary, $error);
 
