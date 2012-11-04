@@ -78,6 +78,13 @@ MAIN:{
       $entries{$name} = "";
     }
     $entries{$name}=&reconcile ($line, $entries{$name}); 
+
+    # Replace [[name|name]] with [[name]]
+    if ( $entries{$name} =~ /^(.*?\[\[)(.*?)\|(.*?)(\]\].*?)$/ ){
+        my ($a, $b, $c, $d) = ($1, $2, $3, $4);
+        $entries{$name} = "$a$b$d" if ( $b eq $c );
+    }
+
   }
   
   # split into a number of hashes, by letter. Those hashes are keyed by an ascii version of the last nime, for sorting. 
@@ -97,9 +104,9 @@ MAIN:{
 
     $text = "__NOTOC__\n\{\{MathTopicTOC\}\}\n";
     foreach $last ( sort {$a cmp $b} keys %{$people{$letter}} ) {
-      $text = $text . "$people{$letter}->{$last}\n";
+      $text .= "$people{$letter}->{$last}\n";
     }
-    $text = $text . "\n[[Category:Mathematics-related lists]]";
+    $text .= "\n[[Category:Mathematics-related lists]]";
 
     # These are groups of people, not individual mathematicians
     $text =~ s/(Bourbaki.*?\(.*?),.*?\n/$1\)\n/g;

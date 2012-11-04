@@ -1,10 +1,22 @@
+Category:12th-century mathematicians by nationality
+Category:13th-century mathematicians by nationality
+Category:14th-century mathematicians by nationality
+Category:15th-century mathematicians by nationality
+Category:16th-century mathematicians by nationality
+Category:17th-century mathematicians by nationality
+Category:18th-century mathematicians by nationality
+Category:19th-century mathematicians by nationality
+Category:20th-century mathematicians by nationality
+Category:Mathematicians who died in the Holocaust
+Category:21st-century mathematicians by nationality
+Category:Algerian mathematicians
 Category:Kenyan mathematicians
 Category:Tunisian mathematicians
 Category:American cryptographers
 Category:American logicians
 Category:American statisticians
 Category:Hollis Chair of Mathematics and Natural Philosophy
-Category:Euclid
+Category:Stanford University Department of Mathematics faculty
 Category:Pythagoreans
 Category:Medieval Arab mathematicians
 Category:Medieval Armenian mathematicians
@@ -23,6 +35,7 @@ Category:British cryptographers
 Category:British logicians
 Category:British mathematician stubs
 Category:British statisticians
+Category:Fellows of the Institute of Mathematics and its Applications
 Category:Mathematicians from Northern Ireland
 Category:Bulgarian statisticians
 Category:Lucasian Professors of Mathematics
@@ -31,6 +44,7 @@ Category:Members of the Department of Pure Mathematics and Mathematical Statisti
 Category:Canadian actuaries
 Category:Canadian statisticians
 Category:Chinese logicians
+Category:Chinese statisticians
 Category:Medieval Chinese mathematicians
 Category:Czech logicians
 Category:Danish statisticians
@@ -40,6 +54,7 @@ Category:Egyptian cryptographers
 Category:Medieval Egyptian mathematicians
 Category:English logicians
 Category:English statisticians
+Category:Mathematicians from Kingston upon Hull
 Category:Medieval English mathematicians
 Category:Finnish statisticians
 Category:French cryptographers
@@ -51,32 +66,38 @@ Category:Researchers in geometric algorithms
 Category:German logicians
 Category:German statisticians
 Category:Medieval German mathematicians
+Category:Graph drawing people
 Category:Greek logicians
 Category:Hungarian statisticians
 Category:Indian statisticians
 Category:Kerala school
 Category:Medieval Indian mathematicians
 Category:Medieval Iraqi mathematicians
+Category:Irish cryptographers
 Category:Irish logicians
 Category:Irish statisticians
-Category:Israel Prize in exact science recipients
 Category:Israeli cryptographers
 Category:Italian cryptographers
+Category:Italian mathematicians by century
+Category:Italian mathematicians by location
 Category:Italian statisticians
 Category:Japanese logicians
 Category:Japanese statisticians
+Category:19th-century Lithuanian mathematicians
+Category:PDE theorists
+Category:Proof theorists
+Category:Cryptographer stubs
 Category:Statistician stubs
-Category:Calculating prodigies
+Category:Benedictine mathematicians
 Category:Fictional mathematicians
-Category:Game theorists
+Category:Kurdish mathematicians
 Category:Lists of mathematicians
 Category:Lists of things named after mathematicians
-Category:Mathematicians of medieval Islam
-Category:Mathematicians who died in the Holocaust
+Category:Mental calculators
 Category:Nicolas Bourbaki
+Category:Pseudonymous mathematicians
 Category:Second Wranglers
 Category:Senior Wranglers
-Category:Statisticians
 Category:Actuaries
 Category:Ballistics experts
 Category:Bioinformaticians
@@ -84,6 +105,7 @@ Category:Biostatisticians
 Category:Combinatorialists
 Category:Cryptographers
 Category:Cyberneticists
+Category:Game theorists
 Category:Information theorists
 Category:Mathematical ecologists
 Category:Mathematical economists
@@ -91,36 +113,51 @@ Category:Mathematical physicists
 Category:Monte Carlo methodologists
 Category:Operations researchers
 Category:Queueing theorists
+Category:Statisticians
+Category:Actuaries by nationality
+Category:Carniolan mathematicians
 Category:Cryptographers by nationality
+Category:Korean mathematicians
 Category:Logicians by nationality
 Category:Mathematicians from Georgia (country)
+Category:Namibian mathematicians
 Category:Ottoman mathematicians
+Category:Singaporean mathematicians
+Category:South Korean mathematicians
 Category:Statisticians by nationality
+Category:Venezuelan mathematicians
 Category:Geometry educators
 Category:Statistics educators
+Category:Mathematicians of medieval Islam
 Category:Medieval Jewish mathematicians
+Category:Medieval Kurdish mathematicians
 Category:Medieval Persian mathematicians
 Category:Medieval Spanish mathematicians
 Category:Medieval Syrian mathematicians
 Category:Medieval Tunisian mathematicians
 Category:Medieval Turkic mathematicians
 Category:New Zealand statisticians
-Category:Norwegian actuaries
 Category:Norwegian logicians
 Category:Norwegian statisticians
 Category:People associated with the finite element method
 Category:Pakistani cryptographers
 Category:Pakistani logicians
 Category:Pakistani statisticians
+Category:19th-century Polish mathematicians
 Category:Polish cryptographers
 Category:Polish logicians
 Category:Polish statisticians
 Category:Romanian statisticians
+Category:18th-century Russian mathematicians
+Category:19th-century Russian mathematicians
 Category:Russian cryptographers
 Category:Russian logicians
 Category:Russian statisticians
+Category:Scottish logicians
 Category:Scottish statisticians
 Category:Swedish information theorists
 Category:Swedish logicians
 Category:Swedish statisticians
+Category:18th-century Swiss mathematicians
+Category:Swiss cryptographers
 Category:Swiss statisticians
