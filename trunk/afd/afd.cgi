@@ -402,7 +402,6 @@ sub see_open_afd_discussions (){
 
   my $allc=0;
   foreach (@all) {
-	  print "$_\n";
     $allc++;
   }
   print "$allc total discussions)<br>\n";
