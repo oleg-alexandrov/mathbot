@@ -106,15 +106,16 @@ sub count_and_list_open_AfDs {
        $brief_afd_link = $link;
     }
     print "Now doing $link ... ";
-    
-    my $full_link = $link; $full_link =~ s/ /_/g;
-    $full_link = 'http://en.wikipedia.org/wiki/' . $full_link;
+    $text = wikipedia_fetch($gEditor, $link, $attempts, $sleep); 
 
-    ($text, $error) = &get_html ($full_link);
+    #my $full_link = $link; $full_link =~ s/ /_/g;
+    #$full_link = 'http://en.wikipedia.org/wiki/' . $full_link;
+
+    #($text, $error) = &get_html ($full_link);
 
     # see which AfD debates are not closed yet, and put that info in the link. 
     # Get both a brief and a complete list, to put in different places.
-    ($stats, $detailed_stats) = &see_open_afd_discussions ($link, $text, $detailed_file);
+    ($stats, $detailed_stats) = &see_open_afd_discussions ($link, $text, $detailed_file, $attempts, $sleep);
     $detailed_combined_stats = $detailed_combined_stats . $detailed_stats;
 
     $line = '* [[' . $link . '|' . $brief_afd_link . ']] ' . $stats;
@@ -364,47 +365,60 @@ sub see_open_afd_discussions (){
   my $link = shift;
   my $text = shift;
   my $detailed_file = shift;
+  my $attempts = shift;
+  my $sleep = shift;
+  $sleep = 0.1;
 
-  ## Debug stuff
-  #my $file = $link; $file =~ s/^.*\///g; $file =~ s/\s+/_/g;
-  #print "Writing to $file\n";
-  #open(FILE, ">$file"); print FILE $text; close(FILE); 
-
+  $text =~ s/\<\!--.*?--\>//g;
+  my @pages = ( $text =~ /\{\{((?:WP|Wikipedia):Articles for deletion\/.*?)\}\}/ig);
+  my ($openc, $closedc, $allc) = (0, 0, 0);
   my $stats = "";
-  $text =~ s/\n//g;	      # rm newlines
+  foreach my $page (@pages){
+	  #print "$page\n";
+	  $text = wikipedia_fetch($gEditor, $page, $attempts, $sleep);
+	  #print "$text\n";
+	  if ($text =~ /boilerplate metadata afd vfd xfd-closed/){
+		  $closedc++;
+	  }else{
+		  $openc++;
+		  $stats = "$stats " . "\[\[$page\|$openc]]";
+          }
+	  $allc++;
+	  #exit(1);
 
-  # To distinguish open and closed discussions, for closed discussions 
-  # replace the text "editsection" with "editsection-closed"
-  $text =~   s/(\<div\s+class=\"boilerplate[\w\s]+afd vfd xfd-closed\".*?\<h3\>.*?\<span\s+class*=\"mw-editsection)/$1-closed/sgi;
-
-#<h3><span class="mw-headline" id="List_o"><a href="/ts" title="Lis">Lis</a></span> <
-#span class="mw-editsection">[<a href="/w/ion=edit&amp;section=T-1" title="Ws">edit</a>]</span></h3>
-
-  my $match  = "[^\>]*?\>\\[\<a href=\"[^\"]*?section=T-1\" title=\"([^\"]*?)\"\>edit";
-  my @all    = ($text =~ /\<span\s+class=\"mw-editsection$match/g );
-  my @open   = ($text =~ /\<span\s+class=\"mw-editsection[^-]$match/g );
-  my @closed = ($text =~ /\<span\s+class=\"mw-editsection-closed$match/g );
-
-  my $openc=0;
-   foreach (@open) {
-    $openc++;
-    # Link to the page having the currently open afd
-    #print "open $_\n";
-    $stats = "$stats " . "\[\[$_\|$openc]]";
+     #if ($openc > 0 || $allc > 20) { last; } # temporary!!!  
   }
+  print "$stats\n";
   print "($openc open / ";
-
-  my $closedc=0;
-   foreach (@closed) {
-    $closedc++;
-  }
- print "$closedc closed / ";
-
-  my $allc=0;
-  foreach (@all) {
-    $allc++;
-  }
+  print "$closedc closed / ";
   print "$allc total discussions)<br>\n";
+  #exit(1);
+
+  #my $match  = "[^\>]*?\>\\[\<a href=\"[^\"]*?section=T-1\" title=\"([^\"]*?)\"\>edit";
+  #my @all    = ($text =~ /\<span\s+class=\"mw-editsection$match/g );
+  #my @open   = ($text =~ /\<span\s+class=\"mw-editsection[^-]$match/g );
+  #my @closed = ($text =~ /\<span\s+class=\"mw-editsection-closed$match/g );
+
+  #$openc=0;
+  # foreach (@open) {
+  #  $openc++;
+  #  # Link to the page having the currently open afd
+  #  #print "open $_\n";
+  #  $stats = "$stats " . "\[\[$_\|$openc]]";
+  #}
+  #print "($openc open / ";
+
+  #$closedc=0;
+  # foreach (@closed) {
+  #  $closedc++;
+  #}
+  # print "$closedc closed / ";
+
+  #$allc=0;
+  #foreach (@all) {
+  #  $allc++;
+  #}
+  #print "$allc total discussions)<br>\n";
 
   # Some gimmickry, to list to sections in $detailed_file
   my $detailed_stats = $stats; 
