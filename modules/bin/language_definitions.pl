@@ -4,7 +4,7 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 
 sub language_definitions {
 
-  my $home = $ENV{'HOME'} || '/home/mathbot';
+  my $home = $ENV{'HOME'} || '/data/project/mathbot';
   
   my ($Lang, %Dictionary);
 
