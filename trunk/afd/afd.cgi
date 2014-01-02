@@ -10,9 +10,8 @@ use CGI::Carp qw(fatalsToBrowser);
 use strict;
 undef $/; 
 
-use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
-use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # absolute path to perl modules
-use lib '../wp/modules'; # relative path to perl modules
+use lib '/data/project/mathbot/public_html/wp/modules'; # relative path to perl modules
+use lib '/data/project/mathbot/perl5/lib/perl5/';
 
 require 'bin/perlwikipedia_utils.pl';
 require 'bin/get_html.pl';
