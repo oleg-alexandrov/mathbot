@@ -3,40 +3,59 @@ Category:13th-century mathematicians by nationality
 Category:14th-century mathematicians by nationality
 Category:15th-century mathematicians by nationality
 Category:16th-century mathematicians by nationality
+Category:Johannes Kepler
+Category:Nicolaus Copernicus
 Category:17th-century mathematicians by nationality
+Category:Gottfried Leibniz
 Category:18th-century mathematicians by nationality
 Category:19th-century mathematicians by nationality
 Category:20th-century mathematicians by nationality
+Category:Bertrand Russell
 Category:Mathematicians who died in the Holocaust
 Category:21st-century mathematicians by nationality
 Category:Algerian mathematicians
 Category:Kenyan mathematicians
 Category:Tunisian mathematicians
+Category:19th-century American mathematicians
+Category:20th-century American mathematicians
+Category:21st-century American mathematicians
+Category:African-American mathematicians
 Category:American cryptographers
+Category:American information theorists
 Category:American logicians
 Category:American statisticians
 Category:Hollis Chair of Mathematics and Natural Philosophy
 Category:Stanford University Department of Mathematics faculty
+Category:Ancient Greek logicians
 Category:Pythagoreans
+Category:Ancient Chinese mathematicians
 Category:Medieval Arab mathematicians
+Category:Argentine information theorists
 Category:Medieval Armenian mathematicians
 Category:Australian cryptographers
 Category:Australian logicians
 Category:Australian statisticians
 Category:Austrian cryptographers
+Category:Austrian information theorists
 Category:Austrian logicians
 Category:Austrian statisticians
 Category:Belgian logicians
 Category:Belgian statisticians
 Category:Brazilian logicians
 Category:Presidents of the Associação Brasileira de Estatística
+Category:18th-century British mathematicians
+Category:19th-century British mathematicians
+Category:20th-century British mathematicians
 Category:British actuaries
 Category:British cryptographers
+Category:British information theorists
 Category:British logicians
 Category:British mathematician stubs
 Category:British statisticians
 Category:Fellows of the Institute of Mathematics and its Applications
 Category:Mathematicians from Northern Ireland
+Category:Presidents of the London Mathematical Society
+Category:Bulgarian logicians
 Category:Bulgarian statisticians
 Category:Lucasian Professors of Mathematics
 Category:Members of the Department of Applied Mathematics and Theoretical Physics
@@ -47,28 +66,47 @@ Category:Chinese logicians
 Category:Chinese statisticians
 Category:Medieval Chinese mathematicians
 Category:Czech logicians
+Category:Czech statisticians
+Category:Danish actuaries
 Category:Danish statisticians
 Category:Dutch cryptographers
+Category:Dutch logicians
 Category:Dutch statisticians
 Category:Egyptian cryptographers
 Category:Medieval Egyptian mathematicians
+Category:16th-century English mathematicians
+Category:17th-century English mathematicians
+Category:18th-century English mathematicians
+Category:19th-century English mathematicians
 Category:English logicians
 Category:English statisticians
 Category:Mathematicians from Kingston upon Hull
 Category:Medieval English mathematicians
 Category:Finnish statisticians
+Category:17th-century French mathematicians
+Category:18th-century French mathematicians
+Category:19th-century French mathematicians
 Category:French cryptographers
+Category:French information theorists
+Category:French logicians
 Category:French statisticians
 Category:Medieval French mathematicians
 Category:Approximation theorists
 Category:Variational analysts
 Category:Researchers in geometric algorithms
+Category:18th-century German mathematicians
+Category:19th-century German mathematicians
+Category:German information theorists
 Category:German logicians
 Category:German statisticians
 Category:Medieval German mathematicians
 Category:Graph drawing people
 Category:Greek logicians
+Category:Greek statisticians
+Category:Hungarian logicians
 Category:Hungarian statisticians
+Category:Icelandic logicians
+Category:Indian logicians
 Category:Indian statisticians
 Category:Kerala school
 Category:Medieval Indian mathematicians
@@ -77,24 +115,29 @@ Category:Irish cryptographers
 Category:Irish logicians
 Category:Irish statisticians
 Category:Israeli cryptographers
+Category:Israeli information theorists
+Category:Israeli statisticians
 Category:Italian cryptographers
+Category:Italian information theorists
 Category:Italian mathematicians by century
 Category:Italian mathematicians by location
 Category:Italian statisticians
+Category:Medieval Italian mathematicians
+Category:Japanese information theorists
 Category:Japanese logicians
 Category:Japanese statisticians
 Category:19th-century Lithuanian mathematicians
 Category:PDE theorists
+Category:Computability theorists
 Category:Proof theorists
 Category:Cryptographer stubs
 Category:Statistician stubs
 Category:Benedictine mathematicians
+Category:Fellows of the American Mathematical Society
 Category:Fictional mathematicians
-Category:Kurdish mathematicians
 Category:Lists of mathematicians
 Category:Lists of things named after mathematicians
 Category:Mental calculators
-Category:Nicolas Bourbaki
 Category:Pseudonymous mathematicians
 Category:Second Wranglers
 Category:Senior Wranglers
@@ -102,6 +145,7 @@ Category:Actuaries
 Category:Ballistics experts
 Category:Bioinformaticians
 Category:Biostatisticians
+Category:Coding theorists
 Category:Combinatorialists
 Category:Cryptographers
 Category:Cyberneticists
@@ -113,12 +157,18 @@ Category:Mathematical physicists
 Category:Monte Carlo methodologists
 Category:Operations researchers
 Category:Queueing theorists
+Category:Recreational mathematics experts
 Category:Statisticians
 Category:Actuaries by nationality
+Category:Bangladeshi mathematicians
 Category:Carniolan mathematicians
 Category:Cryptographers by nationality
+Category:Czechoslovak mathematicians
+Category:Ethnic Armenian mathematicians
 Category:Korean mathematicians
+Category:Kurdish mathematicians
 Category:Logicians by nationality
+Category:Maltese mathematicians
 Category:Mathematicians from Georgia (country)
 Category:Namibian mathematicians
 Category:Ottoman mathematicians
@@ -126,38 +176,49 @@ Category:Singaporean mathematicians
 Category:South Korean mathematicians
 Category:Statisticians by nationality
 Category:Venezuelan mathematicians
-Category:Geometry educators
 Category:Statistics educators
 Category:Mathematicians of medieval Islam
 Category:Medieval Jewish mathematicians
-Category:Medieval Kurdish mathematicians
 Category:Medieval Persian mathematicians
 Category:Medieval Spanish mathematicians
 Category:Medieval Syrian mathematicians
 Category:Medieval Tunisian mathematicians
 Category:Medieval Turkic mathematicians
+Category:New Zealand logicians
 Category:New Zealand statisticians
+Category:Niels Henrik Abel
 Category:Norwegian logicians
 Category:Norwegian statisticians
 Category:People associated with the finite element method
 Category:Pakistani cryptographers
+Category:Pakistani information theorists
 Category:Pakistani logicians
 Category:Pakistani statisticians
 Category:19th-century Polish mathematicians
 Category:Polish cryptographers
 Category:Polish logicians
 Category:Polish statisticians
+Category:Romanian logicians
 Category:Romanian statisticians
 Category:18th-century Russian mathematicians
 Category:19th-century Russian mathematicians
+Category:Imperial Russian mathematicians
 Category:Russian cryptographers
+Category:Russian information theorists
 Category:Russian logicians
 Category:Russian statisticians
 Category:Scottish logicians
 Category:Scottish statisticians
+Category:Serbian statisticians
+Category:South African statisticians
+Category:Sri Lankan Tamil mathematicians
 Category:Swedish information theorists
 Category:Swedish logicians
 Category:Swedish statisticians
 Category:18th-century Swiss mathematicians
+Category:19th-century Swiss mathematicians
 Category:Swiss cryptographers
 Category:Swiss statisticians
+Category:Taiwanese statisticians
+Category:Turkish logicians
+Category:Welsh statisticians
