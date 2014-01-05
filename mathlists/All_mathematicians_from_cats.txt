@@ -2402,6 +2402,7 @@ Howard_Lincoln_Hodgkins
 Howard_Percy_Robertson
 Howell_Peregrine
 Ho%c3%a0ng_T%e1%bb%a5y
+Hrvoje_Kraljevi%c4%87
 Hu_Hesheng
 Hua_Luogeng
 Huai-Dong_Cao
@@ -2420,6 +2421,7 @@ Hugo_Rossi
 Hugo_Steinhaus
 Huguette_Delavault
 Humiaki_Huzita
+Hunayn_ibn_Ishaq
 Hung_Cheng
 Huzihiro_Araki
 Hyman_Bass
@@ -5018,6 +5020,7 @@ Selmer_M._Johnson
 Semyon_Alesker
 Semyon_Aranovich_Gershgorin
 Sem%c3%abn_Samsonovich_Kutateladze
+Serafino_Raffaele_Minich
 Serenus_of_Antinouplis
 Serge_Lang
 Sergei_Adian

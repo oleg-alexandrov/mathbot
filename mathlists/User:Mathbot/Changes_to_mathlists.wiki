@@ -2,6 +2,34 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== January 4, 2014 ==
+
+:Removed [[Abel function]] (is a redirect to [[Abel equation]])
+:Removed [[Subrandom numbers]] (is a redirect to [[low-discrepancy sequence]])
+:Added   [[The Manga Guides]]
+----
+
+== January 3, 2014 ==
+
+:Removed [[Borges and mathematics]] (is a redirect to [[Jorge Luis Borges and mathematics]])
+:Removed [[Ring spectrum (homotopy theory)]] (is a redirect to [[Ring spectrum]])
+:Removed [[Tautological Prime Conjecture]] (article deleted/does not exist)
+:Added   [[Assemble-to-order system]]
+:Added   [[Jorge Luis Borges and mathematics]]
+:Added   [[Ring spectrum]]
+----
+: Mathematicians:removed [[Serafin Rafael Minić]] (is a redirect to [[Serafino Raffaele Minich]])
+: Mathematicians:added   [[Hrvoje Kraljević]]
+: Mathematicians:added   [[Serafino Raffaele Minich]]
+
+== January 2, 2014 ==
+
+:Added   [[Emulation theory of representation]]
+:Added   [[Tautological Prime Conjecture]]
+:Added   [[Zero (disambiguation)]]
+----
+: Mathematicians:added   [[Serafin Rafael Minić]]
+
 == January 1, 2014 ==
 
 :Removed [[Multidimensional Transform]] (is a redirect to [[Multidimensional transform]])
@@ -381,41 +409,4 @@
 :Added   [[Near Polygon]]
 ----
 : Mathematicians:added   [[Michel Balinski]]
-
-== November 27, 2013 ==
-
-:Removed [[Annihilator method]] (is a redirect to [[Annihilator Method]])
-:Added   [[Annihilator Method]]
-:Added   [[Functional principal component analysis]]
-:Added   [[Runcicantellated 24-cell honeycomb]]
-:Added   [[Steiner's theorem (geometry)]]
-:Added   [[Stericantitruncated 16-cell honeycomb]]
-:Added   [[Urania Propitia]]
-----
-: Mathematicians:added   [[Alexandros Chapsiadis]]
-: Mathematicians:added   [[Caius Iacob]]
-: Mathematicians:added   [[François Trèves]]
-: Mathematicians:added   [[Robert Kottwitz]]
-
-== November 26, 2013 ==
-
-:Removed [[Black–Scholes]] (is a redirect to [[Black–Scholes model]])
-:Added   [[Black–Scholes model]]
-:Added   [[Pillai's arithmetical function]]
-:Added   [[Spread polynomials]]
-----
-: Mathematicians:added   [[Joseph A. Wolf]]
-: Mathematicians:added   [[Peter Roquette]]
-: Mathematicians:added   [[Wade Edward Philpott]]
-
-== November 25, 2013 ==
-
-:Removed [[Hypererlang distribution]] (is a redirect to [[Hyper-Erlang distribution]])
-:Removed [[Smarandache function]] (is a redirect to [[Kempner function]])
-:Added   [[Hyper-Erlang distribution]]
-:Added   [[Kempner function]]
-----
-: Mathematicians:removed [[Andrew Kearns]] (article deleted/does not exist)
-: Mathematicians:added   [[Gloria Conyers Hewitt]]
-: Mathematicians:added   [[Raymond O. Wells, Jr.]]
 
