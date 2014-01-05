@@ -564,7 +564,6 @@ Abdus Salam School of Mathematics
 Abel Prize
 Abel equation
 Abel equation of the first kind
-Abel function
 Abel polynomials
 Abel transform
 Abel's binomial theorem
@@ -1461,6 +1460,7 @@ Askey–Wilson polynomials
 Asperity (materials science)
 Aspherical space
 Asplund space
+Assemble-to-order system
 Assembly map
 Assignment problem
 Associahedron
@@ -2534,7 +2534,6 @@ Borel–Moore homology
 Borel–Weil theorem
 Borel–Weil–Bott theorem
 Borel–de Siebenthal theory
-Borges and mathematics
 Boris Kordemsky
 Born reciprocity
 Bornological space
@@ -6469,6 +6468,7 @@ Empty semigroup
 Empty set
 Empty string
 Empty sum
+Emulation theory of representation
 En (Lie algebra)
 Encryption
 Encyclopedia of Mathematics
@@ -10843,6 +10843,7 @@ Jordan's theorem (symmetric group)
 Jordan's totient function
 Jordan–Chevalley decomposition
 Jordan–Schur theorem
+Jorge Luis Borges and mathematics
 Josephus problem
 Joukowsky transform
 Journal de Mathématiques Pures et Appliquées
@@ -18070,7 +18071,7 @@ Ring of periods
 Ring of polynomial functions
 Ring of sets
 Ring of symmetric functions
-Ring spectrum (homotopy theory)
+Ring spectrum
 Ring theory
 Ringed space
 Ringel–Hall algebra
@@ -20301,7 +20302,6 @@ Subordination
 Subordinator (mathematics)
 Subpaving
 Subquotient
-Subrandom numbers
 Subring
 Subsequence
 Subsequential limit
@@ -20965,6 +20965,7 @@ The Magical Bag of Mathematical Tricks
 The Man Who Counted
 The Man Who Knew Infinity
 The Man Who Loved Only Numbers
+The Manga Guides
 The Martians (group)
 The Math Book
 The Mathematical Classic of Sunzi
@@ -22885,6 +22886,7 @@ Zermelo's theorem (game theory)
 Zermelo–Fraenkel set theory
 Zernike polynomials
 Zero (complex analysis)
+Zero (disambiguation)
 Zero dagger
 Zero divisor
 Zero element

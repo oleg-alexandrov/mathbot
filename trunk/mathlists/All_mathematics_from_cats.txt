@@ -547,7 +547,6 @@ Abdus_Salam_School_of_Mathematics
 Abel_Prize
 Abel_equation
 Abel_equation_of_the_first_kind
-Abel_function
 Abel_polynomials
 Abel_transform
 Abel%27s_binomial_theorem
@@ -1345,6 +1344,7 @@ Askey%e2%80%93Wilson_polynomials
 Asperity_%28materials_science%29
 Aspherical_space
 Asplund_space
+Assemble-to-order_system
 Assembly_map
 Assignment_problem
 Associahedron
@@ -2282,7 +2282,6 @@ Borel%e2%80%93Moore_homology
 Borel%e2%80%93Weil_theorem
 Borel%e2%80%93Weil%e2%80%93Bott_theorem
 Borel%e2%80%93de_Siebenthal_theory
-Borges_and_mathematics
 Born_reciprocity
 Bornological_space
 Born%e2%80%93Huang_approximation
@@ -9745,6 +9744,7 @@ Jordan%27s_theorem_%28symmetric_group%29
 Jordan%27s_totient_function
 Jordanus_de_Nemore
 Jordan%e2%80%93Chevalley_decomposition
+Jorge_Luis_Borges_and_mathematics
 Josephus_problem
 Joukowsky_transform
 Journal_de_Math%c3%a9matiques_Pures_et_Appliqu%c3%a9es
@@ -16092,7 +16092,7 @@ Ring_of_periods
 Ring_of_polynomial_functions
 Ring_of_sets
 Ring_of_symmetric_functions
-Ring_spectrum_%28homotopy_theory%29
+Ring_spectrum
 Ring_theory
 Ringed_space
 Ringel%e2%80%93Hall_algebra
@@ -18043,7 +18043,6 @@ Subobject_classifier
 Subordinator_%28mathematics%29
 Subpaving
 Subquotient
-Subrandom_numbers
 Subring
 Subsequence
 Subsequential_limit
@@ -18636,6 +18635,7 @@ The_Magical_Bag_of_Mathematical_Tricks
 The_Man_Who_Counted
 The_Man_Who_Knew_Infinity
 The_Man_Who_Loved_Only_Numbers
+The_Manga_Guides
 The_Math_Book
 The_Mathematical_Classic_of_Sunzi
 The_Mathematical_Diary
@@ -20364,6 +20364,7 @@ Zermelo%27s_theorem_%28game_theory%29
 Zermelo%e2%80%93Fraenkel_set_theory
 Zernike_polynomials
 Zero_%28complex_analysis%29
+Zero_%28disambiguation%29
 Zero_dagger
 Zero_divisor
 Zero_element
