@@ -51,13 +51,11 @@ Abū Rayḥān al-Bīrūnī
 Abū Sahl al-Qūhī
 Abū al-Wafā' Būzjānī
 Abū al-Ḥasan ibn ʿAlī al-Qalaṣādī
-Abū Ḥanīfa Dinawarī
 Achi Brandt
 Achille Brocot
 Achille Pierre Dionis du Séjour
 Achyuta Panikkar
 Achyuta Pisharati
-Ada Dietz
 Ada Lovelace
 Ada Maddison
 Adalbold II of Utrecht
@@ -91,6 +89,7 @@ Adriaan Adriaanszoon
 Adriaan Cornelis Zaanen
 Adriaan Vlacq
 Adriaan van Roomen
+Adriaen Anthonisz
 Adrian Ioana
 Adrian Krzyżanowski
 Adrian Raftery
@@ -98,6 +97,7 @@ Adrian Smith (statistician)
 Adriano Garsia
 Adrien Douady
 Adrien Pouliot
+Adrien Ulacq
 Adrien-Marie Legendre
 Agner Krarup Erlang
 Agnes Sime Baxter
@@ -113,7 +113,7 @@ Ahmes
 Ahto Buldas
 Ailana Fraser
 Aise Johan de Jong
-Aizik Isaakovich Vol'pert
+Aizik Volpert
 Ajima Naonobu
 Akihiro Kanamori
 Akio Hattori
@@ -174,11 +174,11 @@ Alberto Beneduce
 Alberto Bressan
 Alberto Calderón
 Alberto González Domínguez
+Alberto Pinto (professor)
 Albin Gurklis
 Albrecht Beutelspacher
 Albrecht Böttcher
 Albrecht Dold
-Albrecht Dürer
 Albrecht Fröhlich
 Albrecht Pfister (mathematician)
 Aldo Andreotti
@@ -199,6 +199,7 @@ Aleksei Pogorelov
 Aleksei Zinovyevich Petrov
 Aleksey Krylov
 Aleksey Letnikov
+Alessandro Faedo
 Alessandro Figà Talamanca
 Alessandro Galilei
 Alessandro Marchetti (mathematician)
@@ -211,7 +212,6 @@ Alex Eskin
 Alex Grossman
 Alex Grossmann
 Alex Wilkie
-Alex Wissner-Gross
 Alexander Abercrombie
 Alexander Abian
 Alexander Abrosimov
@@ -235,6 +235,7 @@ Alexander Gelfond
 Alexander Givental
 Alexander Goncharov
 Alexander Grothendieck
+Alexander Holevo
 Alexander John Thompson
 Alexander Johnson (mathematician)
 Alexander Kirillov, Jr.
@@ -472,6 +473,7 @@ Anneli Cahn Lax
 Annette Huber-Klawitter
 Annie Dale Biddle Andrews
 Annie Easley
+Anny Cazenave
 Antanas Baranauskas
 Antanas Mockus
 Anthemius of Tralles
@@ -480,7 +482,6 @@ Anthony W. Knapp
 Antiphon (orator)
 Antoine Arnauld
 Antoine Augustin Cournot
-Antoine Deparcieux
 Antoine Gombaud
 Antoine Meyer
 Antoine Parent
@@ -576,7 +577,6 @@ Artur Avila
 Artur Shkurti
 Arunas Rudvalis
 Arup Bose
-Arvid Gerhard Damm
 Aryabhata
 Aryabhata II
 Aryeh Dvoretzky
@@ -613,7 +613,6 @@ Augustin Banyaga
 Augustin Hirschvogel
 Augustin Sesmat
 Augustin-Louis Cauchy
-Augustus De Morgan
 Augustus Edward Hough Love
 Augustus William Smith
 Aurel Wintner
@@ -626,6 +625,7 @@ Aviezri Fraenkel
 Avner Friedman
 Avraham Trahtman
 Awi Federgruen
+Axel Johannes Malmquist
 Axel Thue
 Ayn al-Quzat Hamadani
 Ayşe Soysal
@@ -670,7 +670,6 @@ Benedikt Löwe
 Beniamino Segre
 Benjamin Alvord (mathematician)
 Benjamin Banneker
-Benjamin Donn
 Benjamin Finkel
 Benjamin Gompertz
 Benjamin Osgood Peirce
@@ -739,6 +738,7 @@ Blasius of Parma
 Bo Berndtsson
 Boethius
 Bogdan Gavrilović
+Bogdan Suceavă
 Bogoljub Kočović
 Bohuslav Balcar
 Bojan Mohar
@@ -806,6 +806,7 @@ Bruce Sagan
 Bruno Abakanowicz
 Bruno Augenstein
 Bruno Buchberger
+Bruno D'Amore
 Bruno Dupire
 Bruno de Finetti
 Bryan John Birch
@@ -819,6 +820,7 @@ Burchard de Volder
 Burt Kaliski
 Burt Totaro
 Burton Rodin
+Burton Wadsworth Jones
 Burton Wendroff
 Bálint Tóth
 Bálint Virág
@@ -880,6 +882,7 @@ Carl Ludwig Siegel
 Carl Neumann
 Carl Pomerance
 Carl R. de Boor
+Carl S. Herz
 Carl Severin Wigert
 Carl Snyder
 Carl Størmer
@@ -999,7 +1002,6 @@ Charles Xavier Thomas
 Charles de Bovelles
 Charles Étienne Louis Camus
 Charles-Ange Laisant
-Charles-Eugène Delaunay
 Charlotte Barnum
 Charlotte Froese Fischer
 Charlotte Scott
@@ -1027,6 +1029,7 @@ Chris Rogers (mathematician)
 Christiaan Huygens
 Christian August Hausen
 Christian Doppler
+Christian Genest
 Christian Goldbach
 Christian Gustav Adolph Mayer
 Christian Heinrich von Nagel
@@ -1073,6 +1076,7 @@ Claiborne Latimer
 Claire Voisin
 Clarence Abiathar Waldo
 Clarence F. Stephens
+Clarence Lemuel Elisha Moore
 Clarence Raymond Adams
 Claribel Kendall
 Clark Kimberling
@@ -1083,6 +1087,7 @@ Claude Gaspard Bachet de Méziriac
 Claude LeBrun
 Claude Lemaréchal
 Claude Mydorge
+Claude Sabbah
 Claude Shannon
 Claude-Louis Mathieu
 Claudia Zaslavsky
@@ -1150,7 +1155,6 @@ Czesław Olech
 Czesław Ryll-Nardzewski
 Cédric Villani
 D'Arcy Wentworth Thompson
-D. A. Dickey
 D. D. Morduhai-Boltovskoi
 D. G. Champernowne
 D. J. Finney
@@ -1166,7 +1170,6 @@ Daihachiro Sato
 Daina Taimina
 Damiaen Joan van Doorninck
 Damiano Brigo
-Damo (Greece)
 Damodar Dharmananda Kosambi
 Damodara
 Dan Freed
@@ -1184,6 +1187,7 @@ Daniel Bleichenbacher
 Daniel Brélaz
 Daniel Cresswell
 Daniel Dod
+Daniel Edwin Rutherford
 Daniel Friedrich Hecht
 Daniel Goldston
 Daniel Gorenstein
@@ -1313,11 +1317,11 @@ David Trotman
 David V. Hinkley
 David Vogan
 David Wallace (physicist)
+David Webb (mathematician)
 David Widder
 David Williams (mathematician)
 David X. Li
 David van Dantzig
-Davis Rich Dewey
 Daya-Nand Verma
 Deane Montgomery
 Debabrata Basu
@@ -1367,6 +1371,7 @@ Dima Grigoriev
 Dimiter Skordev
 Dimitri Bertsekas
 Dimitrie Pompeiu
+Dinesh Singh (academic)
 Dinesh Thakur (mathematician)
 Dinostratus
 Diocles (mathematician)
@@ -1423,8 +1428,9 @@ Douglas Hartree
 Douglas N. Arnold
 Douglas Northcott
 Douglas Ravenel
+Douglas Samuel Jones
 Douglas West (mathematician)
-Dov Tamari (mathematician)
+Dov Tamari
 Dragan Marušič
 Dragoslav Mitrinović
 Dror Bar-Natan
@@ -1442,7 +1448,6 @@ Dwight Duffus
 Dénes Kőnig
 Désiré André
 Dănuț Marcu
-E Brian Davies (mathematican)
 E. Brian Davies
 E. F. Schumacher
 E. H. Moore
@@ -1489,13 +1494,13 @@ Edmund Hess
 Edmund Hlawka
 Edmund Husserl
 Edmund Landau
+Edmund Schuster
 Edmund Wingate
 Edmé-Gilles Guyot
 Edna Grossman
 Edna Kramer
 Edoardo Vesentini
 Edouard Zeckendorf
-Edsger Dijkstra
 Eduard Heine
 Eduard Heis
 Eduard Helly
@@ -1543,6 +1548,7 @@ Edward Nelson
 Edward Ng
 Edward Norton Lorenz
 Edward O. Thorp
+Edward Ott
 Edward Routh
 Edward Rowe Mores
 Edward Sang
@@ -1577,6 +1583,7 @@ Einar Hille
 Eknath Prabhakar Ghate
 Elart von Collani
 Elbert Frank Cox
+Eleanor Jones
 Eleanor Robson
 Eleazar Chisma
 Elena Cornaro Piscopia
@@ -1744,6 +1751,7 @@ Eugene Dynkin
 Eugene Grebenik
 Eugene Lukacs
 Eugene M. Luks
+Eugene Plotkin (mathematician)
 Eugene Salamin (mathematician)
 Eugene Seneta
 Eugene Trubowitz
@@ -1789,6 +1797,7 @@ Fariba Fahroo
 Farkas Bolyai
 Farshad Bashir
 Fatos Kongoli
+Faustina Pignatelli
 Fazio Cardano
 Federico Cafiero
 Federico Commandino
@@ -1825,7 +1834,6 @@ Filippo Ferrari
 Filippo Pigafetta
 Flora Philip
 Florence Marie Mears
-Florence Nightingale David
 Florence Rivault
 Florence Yeldham
 Florian Cajori
@@ -1881,7 +1889,6 @@ Frank Adams
 Frank Adcock
 Frank Bonsall
 Frank Deutsch
-Frank Duckworth
 Frank Grosshans
 Frank Harary
 Frank Kelly (mathematician)
@@ -1985,7 +1992,6 @@ Frédéric Hélein
 Fujita Sadasuke
 Fyodor Zak
 Félix Alcan
-Félix Delastelle
 G. B. Halsted
 G. H. Hardy
 G. I. Taylor
@@ -2095,6 +2101,7 @@ George Dantzig
 George Darley
 George Darwin
 George David Birkhoff
+George E. Collins
 George E. P. Box
 George F C Griss
 George F. Carrier
@@ -2120,6 +2127,7 @@ George Kingsley Zipf
 George Leigh Cooke
 George Lusztig
 George Mackey
+George Maltese
 George Marsaglia
 George Mostow
 George Peacock
@@ -2130,6 +2138,7 @@ George Salmon
 George Shuckburgh-Evelyn
 George Sinclair (mathematician)
 George Skerry
+George Springer (mathematician)
 George Szekeres
 George Thibaut
 George Tollet
@@ -2215,8 +2224,8 @@ Gilbert Clerke
 Gilbert Strang
 Gilbert Walker
 Gilbert de Beauregard Robinson
-Gilles Baroin
 Gilles Brassard
+Gilles Châtelet
 Gilles Pisier
 Gilles de Roberval
 Gino Fano
@@ -2229,6 +2238,7 @@ Giovanni Antonelli
 Giovanni Antonio Magini
 Giovanni Battista Amici
 Giovanni Battista Baliani
+Giovanni Battista Guccia
 Giovanni Battista Rizza
 Giovanni Boaga
 Giovanni Bordiga
@@ -2245,6 +2255,7 @@ Giovanni Vacca
 Giovanni de Galliano Pieroni
 Giovanni di Casali
 Girard Desargues
+Gisbert Hasenjaeger
 Gisbert Wüstholz
 Gisiro Maruyama
 Giulio Ascoli
@@ -2255,6 +2266,7 @@ Giuseppe Battaglini
 Giuseppe Biancani
 Giuseppe Colombo
 Giuseppe Lauricella
+Giuseppe Maria Figatelli
 Giuseppe Melfi
 Giuseppe Mingione
 Giuseppe Veronese
@@ -2293,11 +2305,12 @@ Graciano Ricalde Gamboa
 Graciela Chichilnisky
 Gradimir Milovanović
 Graeme Segal
+Graham Allan
 Graham Brightwell
+Graham Everest
 Graham Higman
 Graham Hilford Pollard
 Graham Nelson
-Graham Robert Allan
 Graham Sutton
 Grant Olney
 Granville Sewell
@@ -2407,9 +2420,9 @@ Haim Gaifman
 Haim Hanani
 Hal Abelson
 Halayudha
-Halbert L. Dunn
 Halil Mete Soner
 Hamlet Isakhanli
+Hamnet Holditch
 Hanfried Lenz
 Hanna Neumann
 Hannes Keller
@@ -2466,7 +2479,6 @@ Harold Davenport
 Harold Douglas Ursell
 Harold Edwards (mathematician)
 Harold Exton
-Harold F. Dodge
 Harold Grad
 Harold Hotelling
 Harold Jeffreys
@@ -2591,7 +2603,6 @@ Henry Atkinson (scientist)
 Henry Briggs (mathematician)
 Henry C. Wente
 Henry Cabourn Pocklington
-Henry Daniels
 Henry Dudeney
 Henry Gellibrand
 Henry Gordon Rice
@@ -2615,7 +2626,6 @@ Henry Owen
 Henry P. H. Bromwell
 Henry Perigal
 Henry Pogorzelski
-Henry Richmond Droop
 Henry Roy Brahana
 Henry Sanborn Noyes
 Henry Scheffé
@@ -2718,6 +2728,7 @@ Horng-Tzer Yau
 Horst Knörrer
 Horst Sachs
 Horst Schubert
+Hossein Zakeri
 Hourya Sinaceur
 Howard Eves
 Howard Hawks Mitchell
@@ -2750,7 +2761,6 @@ Hugo Steinhaus
 Huguette Delavault
 Humiaki Huzita
 Humphrey Baker
-Humphry Ditton
 Hunayn ibn Ishaq
 Hung Cheng
 Huzihiro Araki
@@ -2802,7 +2812,6 @@ Idun Reiten
 Ieke Moerdijk
 Ignacy Zaborowski
 Ignatius Carbonnelle
-Ignazio Danti
 Igor Ansoff
 Igor Dolgachev
 Igor Frenkel
@@ -2922,6 +2931,7 @@ J. C. P. Miller
 J. Carson Mark
 J. Doyne Farmer
 J. Ernest Wilkins, Jr.
+J. F. Besseling
 J. H. C. Whitehead
 J. Hyam Rubinstein
 J. J. Thomson
@@ -2974,7 +2984,6 @@ Jacques Bertillon
 Jacques Charles François Sturm
 Jacques Deny
 Jacques Dixmier
-Jacques Drèze
 Jacques F. Benders
 Jacques Feldbau
 Jacques Hadamard
@@ -3019,6 +3028,7 @@ James Ax
 James Bassantin
 James Berger (statistician)
 James C. Hickman
+James Caldwell (mathematician)
 James Cannon (mathematician)
 James Clerk Maxwell
 James Cockle
@@ -3028,10 +3038,7 @@ James Crichton
 James Cullen (mathematician)
 James D. Murray
 James Demmel
-James Dodson
 James Dugundji
-James Dunwoody Brownson DeBow
-James Durbin
 James Earl Baumgartner
 James Eells
 James Franklin (philosopher)
@@ -3041,7 +3048,6 @@ James Glimm
 James Goodnight
 James Gray (mathematician)
 James Gregory (mathematician)
-James Grime
 James H. Bramble
 James H. Ellis
 James H. Wilkinson
@@ -3125,7 +3131,6 @@ Jayant Narlikar
 Jayanta Kumar Ghosh
 Jayme Luiz Szwarcfiter
 Jean Arbault
-Jean Baptiste Joseph Delambre
 Jean Baptiste Meusnier
 Jean Bourgain
 Jean Cavaillès
@@ -3173,7 +3178,6 @@ Jean-Luc Brylinski
 Jean-Marc Deshouillers
 Jean-Marc Fontaine
 Jean-Marie De Koninck
-Jean-Marie Duhamel
 Jean-Marie Souriau
 Jean-Michel Bismut
 Jean-Michel Coron
@@ -3380,10 +3384,8 @@ John Craig (mathematician)
 John Crank
 John Cranke
 John Dalgleish Donaldson
-John Darwin (statistician)
 John David Fay
 John David Jackson (physicist)
-John Dawson (surgeon)
 John Dee
 John Dougall (mathematician)
 John Dwyer (mathematician)
@@ -3506,7 +3508,7 @@ John T. Graves
 John T. Lewis
 John Tate
 John Tavares (lacrosse)
-John Tipper
+John Tipper (mathematician)
 John Todd (computer scientist)
 John Toland (mathematician)
 John Trevor Stuart
@@ -3540,6 +3542,7 @@ Jon Speelman
 Jonas Kubilius
 Jonas Moore
 Jonathan Borwein
+Jonathan Cape (mathematician)
 Jonathan Lazare Alperin
 Jonathan Lubin
 Jonathan Mestel
@@ -3641,6 +3644,7 @@ José Sebastião e Silva
 José Ádem
 José-Miguel Bernardo
 Jotun Hein
+Jouko Väänänen
 Jovan Karamata
 Joyce McLaughlin
 João Marques Silva
@@ -3746,8 +3750,8 @@ Karel Rychlík
 Karel Slavíček
 Karel Zahradnik
 Karel deLeeuw
-Karen Dunnell
 Karen Parshall
+Karen Smith (mathematician)
 Karen Uhlenbeck
 Karen Vogtmann
 Kari Karhunen
@@ -3790,6 +3794,7 @@ Karol Borsuk
 Karol Życzkowski
 Kate Bellingham
 Katherine Johnson
+Kathleen Adebola Okikiolu
 Kathleen Ollerenshaw
 Kathrin Bringmann
 Katia Sycara
@@ -3799,6 +3804,7 @@ Katsuya Eda
 Kazimierz Abramowicz
 Kazimierz Ajdukiewicz
 Kazimierz Bartel
+Kazimierz Cwojdziński
 Kazimierz Kuratowski
 Kazimierz Zarankiewicz
 Kazimierz Żorawski
@@ -3812,6 +3818,7 @@ Keith Conrad
 Keith Devlin
 Keith Edward Bullen
 Keith Geddes
+Keith Martin Ball
 Keith Stroyan
 Kelallur Neelakandhan Somayaji
 Kelly Miller (scientist)
@@ -3846,10 +3853,12 @@ Kim Plofker
 Kinnosuke Ogura
 Kiran Kedlaya
 Kirik the Novgorodian
+Kiril Tenekedjiev
 Kirsti Andersen
 Kirstine Smith
 Kiyoshi Itō
 Kiyoshi Oka
+Klara Löbenstein
 Klaus Fischer (mathematician)
 Klaus Matthes
 Klaus Roth
@@ -3952,6 +3961,7 @@ Lee Segel
 Lee Stiff
 Leif Arkeryd
 Leiki Loone
+Leila Schneps
 Len Cook
 Len Sassaman
 Lenhard Ng
@@ -3980,7 +3990,6 @@ Leon Simon
 Leonard Bairstow
 Leonard Blumenthal
 Leonard Carlitz
-Leonard Digges (scientist)
 Leonard E. Baum
 Leonard Eugene Dickson
 Leonard Gillman
@@ -4027,6 +4036,7 @@ Lester Frankel
 Lester R. Ford
 Lester R. Rice-Wray
 Lester S. Hill
+Lev Gutenmaher
 Lev M. Bregman
 Lev Pontryagin
 Lev Schnirelmann
@@ -4083,7 +4093,6 @@ Louis Couturat
 Louis François Antoine Arbogast
 Louis Guttman
 Louis Hodes
-Louis Israel Dublin
 Louis J. Gross
 Louis J. Mordell
 Louis Kauffman
@@ -4112,6 +4121,7 @@ Ludolph van Ceulen
 Ludvig Faddeev
 Ludvig Lorenz
 Ludvig Oppermann
+Ludwig Becker (astronomer)
 Ludwig Bieberbach
 Ludwig Boltzmann
 Ludwig Burmester
@@ -4190,6 +4200,7 @@ Manuel Kauers
 Manuel Sadosky
 Marc Culler
 Marc Krasner
+Marc Rieffel
 Marc Thomas
 Marc Voorhoeve
 Marc Yor
@@ -4213,9 +4224,14 @@ Marek Karpinski
 Marek Kuczma
 Margaret Clement
 Margaret Meyer
+Margarete Kahn
+Margherita Piazzola Beloch
+Marguerite Frank
 Maria Adelaide Sneider
+Maria Ardinghelli
 Maria Chudnovsky
 Maria Gaetana Agnesi
+Maria J. Esteban
 Maria Klawe
 Marian Rejewski
 Marianna Csörnyei
@@ -4235,7 +4251,7 @@ Mario Szegedy
 Mario Wschebor
 Marion Cameron Gray
 Marion Cohen
-Mariusz Ziolko
+Mariusz Ziółko
 Marjorie Lee Browne
 Marjorie Rice
 Marjorie Senechal
@@ -4262,6 +4278,7 @@ Marko Petkovšek
 Markus Rost
 Marquis de Condorcet
 Mars Cramer
+Marsha Berger
 Marshall Hall (mathematician)
 Marshall Harvey Stone
 Marston Conder
@@ -4429,7 +4446,6 @@ Michael J. Larsen
 Michael Katehakis
 Michael Krivelevich
 Michael Lacey
-Michael Lin
 Michael Lin (mathematician)
 Michael Luby
 Michael Lvovitch Tsetlin
@@ -4450,6 +4466,7 @@ Michael Schlessinger
 Michael Scot
 Michael Scott Jacobson
 Michael Shelley (mathematician)
+Michael Shub
 Michael Sipser
 Michael Somos
 Michael Spivak
@@ -4569,7 +4586,6 @@ Moritz Cantor
 Moritz Pasch
 Moritz Wilhelm Drobisch
 Morris Birkbeck Pell
-Morris H. DeGroot
 Morris Hirsch
 Morris Kline
 Morton Brown
@@ -4578,12 +4594,15 @@ Morton L. Curtis
 Morwen Thistlethwaite
 Moses Botarel Farissol
 Moses Schönfinkel
+Moshe Katsav
 Moshé Machover
+Moss Sweedler
 Moti Gitik
 Motosaburo Masuyama
 Mourad Ismail
 Mstislav Keldysh
 Muhammad Baqir Yazdi
+Muhammad Sharif (cosmologist)
 Muhammad Yousuf
 Muhammad ibn Ahmad ibn Gazi
 Muhammad ibn Mahmud Amuli
@@ -4607,10 +4626,10 @@ Na'im ibn Musa
 Nachman Aronszajn
 Nae Ionescu
 Nagayoshi Iwahori
-Naihua Duan
 Nail Bakirov
 Najm al-Dīn al-Qazwīnī al-Kātibī
 Nalin de Silva
+Nalini Anantharaman
 Nalini Joshi
 Nan Laird
 Nancy Kopell
@@ -4639,7 +4658,7 @@ Nati Linial
 Naum Akhiezer
 Naum Krasner
 Naum Meiman
-Naum Vilenkin
+Naum Ya.Vilenkin
 Naum Z. Shor
 Navin M. Singhi
 Nazif ibn Yumn
@@ -4723,6 +4742,7 @@ Nikolai Chebotaryov
 Nikolai Chudakov
 Nikolai Durov
 Nikolai Efimov
+Nikolai Günther
 Nikolai Kochin
 Nikolai Lobachevsky
 Nikolai Luzin
@@ -4778,7 +4798,6 @@ Norman Riley
 Norman Shapiro
 Norman Steenrod
 Notker Labeo
-Noël Duret
 Nuno Crato
 O. Dersch
 O. Timothy O'Meara
@@ -4804,11 +4823,11 @@ Oleg Lupanov
 Oleg Tozoni
 Oleg Viro
 Oleksandr Mykolaiovych Sharkovsky
-Olga Aleksandrovna Ladyzhenskaya
-Olga Arsenievna Oleinik
 Olga Bondareva
 Olga Holtz
 Olga Kharlampovich
+Olga Ladyzhenskaya
+Olga Oleinik
 Olga Taussky-Todd
 Olgierd Zienkiewicz
 Olinde Rodrigues
@@ -4846,7 +4865,6 @@ Osmo Pekonen
 Oswald Teichmüller
 Oswald Veblen
 Otakar Borůvka
-Otis Dudley Duncan
 Otomar Hájek
 Ott-Heinrich Keller
 Otto Blumenthal
@@ -4867,6 +4885,7 @@ Otto Toeplitz
 Ovidiu Savin
 Owen Saunders
 Oxford Calculators
+Oza Rutvik
 P Kesava Menon
 Paco Ahlgren
 Paco Lagerstrom
@@ -4895,10 +4914,11 @@ Patrick Dehornoy
 Patrick Kelly (metrologist)
 Patrick Murdoch
 Patrick Suppes
+Patrick Wilson (astronomer)
 Patrick du Val
 Paul A. Catlin
 Paul Althaus Smith
-Paul Baum
+Paul Baum (mathematician)
 Paul Benacerraf
 Paul Bernays
 Paul Biran
@@ -4993,9 +5013,11 @@ Perseus (geometer)
 Persi Diaconis
 Peter A. Loeb
 Peter Aczel
+Peter Allan Sweet
 Peter Andreas Hansen
 Peter Armitage
 Peter B. Andrews
+Peter B. Gilkey
 Peter B. Kronheimer
 Peter Balazs (mathematician)
 Peter Barlow (mathematician)
@@ -5023,6 +5045,7 @@ Peter J. Freyd
 Peter Jaeckel
 Peter Johnstone (mathematician)
 Peter Jones (mathematician)
+Peter Keevash
 Peter Killworth
 Peter Landweber
 Peter Lax
@@ -5192,7 +5215,6 @@ Quirico Filopanti
 Qāḍī Zāda al-Rūmī
 R. A. Schwaller de Lubicz
 R. Catesby Taliaferro
-R. E. Powers
 R. E. Siday
 R. G. D. Allen
 R. H. Bing
@@ -5233,6 +5255,7 @@ Rajendra Bhatia
 Rajesh Kasturirangan
 Ralph Abraham
 Ralph Duncan James
+Ralph Ernest Powers
 Ralph Faudree
 Ralph Fox
 Ralph Greatorex
@@ -5269,6 +5292,7 @@ Raphaël Rouquier
 Raphaël Salem
 Rashid Ahmad
 Rasmus Bartholin
+Ravi Agarwal
 Ravi Jagannathan
 Ravi Vakil
 Ravindra Khattree
@@ -5341,8 +5365,6 @@ Richard Crandall
 Richard D. Gill
 Richard Davis Anderson
 Richard Dedekind
-Richard Delamaine
-Richard Doll
 Richard E. Bellman
 Richard Earl Block
 Richard Elman (mathematician)
@@ -5427,7 +5449,6 @@ Robert D. Richtmyer
 Robert D. Russell
 Robert Daniel Carmichael
 Robert Detweiler
-Robert Dixon (mathematician)
 Robert Edmund O'Malley
 Robert Edouard Moritz
 Robert Evert Stong
@@ -5444,6 +5465,7 @@ Robert G. Bartle
 Robert G. Bland
 Robert Giffen
 Robert Goldblatt
+Robert Gompf
 Robert Gordon of Straloch
 Robert Griess
 Robert Griffiths (mathematician)
@@ -5499,6 +5521,7 @@ Robert Smith (mathematician)
 Robert Sorgenfrey
 Robert Stanton Avery
 Robert Steinberg
+Robert Strichartz
 Robert Thomas Seeley
 Robert Tijdeman
 Robert V. Hogg
@@ -5578,6 +5601,7 @@ Ronald Ross
 Ronald Solomon
 Ronald V. Book
 Ronitt Rubinfeld
+Rosa García García
 Rosalind Tanner
 Rose Peltesohn
 Rose Whelan Sedgewick
@@ -5595,6 +5619,7 @@ Rudolf Ahlswede
 Rudolf Benesh
 Rudolf E. Kálmán
 Rudolf Ernest Langer
+Rudolf Fueter
 Rudolf Gorenflo
 Rudolf Halin
 Rudolf Inzinger
@@ -5606,6 +5631,8 @@ Rudranath Capildeo
 Rufus Bowen
 Ruslan Stratonovich
 Ruth Aaronson Bari
+Ruth Gregory
+Ruth Kellerhals
 Ruth Lawrence
 Ruth Lyttle Satter
 Ruth Moufang
@@ -5641,7 +5668,6 @@ Samuel A. Schreiner, Jr.
 Samuel Arthur Saunder
 Samuel Beatty (mathematician)
 Samuel Dickstein (mathematician)
-Samuel Dunn (mathematician)
 Samuel Earnshaw
 Samuel Eilenberg
 Samuel Foster
@@ -5721,8 +5747,6 @@ Seymour Lipschutz
 Seymour Papert
 Shafi Goldwasser
 Shahn Majid
-Shakir Naghiyev
-Shakuntala Devi
 Sharadchandra Shankar Shrikhande
 Sharaf al-Dīn al-Ṭūsī
 Sharam Kohan
@@ -5923,7 +5947,6 @@ Subbayya Sivasankaranarayana Pillai
 Subhash Kak
 Subhash Khot
 Subrahmanyan Chandrasekhar
-Sucharit Sarkar
 Sudhakar Dwivedi
 Sudines
 Sue Whitesides
@@ -5992,7 +6015,7 @@ Takuro Shintani
 Tamás Erdélyi (mathematician)
 Tamás Hausel
 Tamás Szőnyi
-Taqi al-Din Muhammad ibn Ma'ruf
+Taqi ad-Din Muhammad ibn Ma'ruf
 Taro Morishima
 Tasawar Hayat
 Tasneem M. Shah
@@ -6072,7 +6095,6 @@ Thomas Callister Hales
 Thomas Carlyle
 Thomas Chalmers
 Thomas Clausen (mathematician)
-Thomas Digges
 Thomas Exley
 Thomas Fale
 Thomas Fincke
@@ -6083,6 +6105,7 @@ Thomas Gerald Room
 Thomas Hakon Grönwall
 Thomas Harriot
 Thomas Henderson (astronomer)
+Thomas Heth
 Thomas Hill (author)
 Thomas Hood (mathematician)
 Thomas Hornsby
@@ -6114,7 +6137,6 @@ Thomas Shaw Brandreth
 Thomas Simpson
 Thomas Simpson Evans
 Thomas Spencer (mathematical physicist)
-Thomas Stephens Davies
 Thomas Streicher
 Thomas Turton
 Thomas Urquhart
@@ -6219,6 +6241,7 @@ U. Narayan Bhat
 U. S. R. Murty
 Ubiratàn D'Ambrosio
 Udai Bhan Tewari
+Udayana
 Udny Yule
 Ugo Morin
 Ulf Grenander
@@ -6256,6 +6279,7 @@ Valerie Isham
 Valerii Denisovich Goppa
 Valery Glivenko
 Valery Goppa
+Valery Senderov
 Van H. Vu
 Vance Faber
 Vararuchi
@@ -6264,8 +6288,8 @@ Varāhamihira
 Vasanti N. Bhat-Nayak
 Vasile M. Popov
 Vasili Yakovlevich Zinger
-Vasilii Sergeevich Vladimirov
 Vasily Sergeevich Nemchinov
+Vasily Vladimirov
 Vasudevan Srinivas
 Vatasseri Parameshwaran Nambudiri
 Vateswara Siddhanta
@@ -6281,6 +6305,7 @@ Vera Nikolaevna Maslennikova
 Vera Pless
 Vera T. Sós
 Vera de Spinadel
+Verena Huber-Dyson
 Vergilius of Salzburg
 Verner Emil Hoggatt, Jr.
 Vernor Vinge
@@ -6366,7 +6391,6 @@ Vladimir Boltyansky
 Vladimir Damgov
 Vladimir Dragović
 Vladimir Drinfeld
-Vladimir Gilelevich Maz'ya
 Vladimir Ivanovich Mironenko
 Vladimir Kanovei
 Vladimir Korepin
@@ -6376,6 +6400,7 @@ Vladimir Levenshtein
 Vladimir Makanin
 Vladimir Marchenko
 Vladimir Markovich Entov
+Vladimir Mazya
 Vladimir Miklyukov
 Vladimir Petrovich Platonov
 Vladimir Potapov
@@ -6398,13 +6423,13 @@ Volodymyr Korolyuk
 Volodymyr Petryshyn
 Vyacheslav Ivanovich Lebedev
 Vyacheslav Shokurov
+Vyacheslav Stepanov
 Václav Chvátal
 Václav E. Beneš
 Václav Hlavatý
 Václav Láska
 Víctor Neumann-Lara
 W. B. R. Lickorish
-W. Edwards Deming
 W. Frahm
 W. H. Besant
 W. H. Clatworthy
@@ -6440,6 +6465,7 @@ Walter Gage
 Walter Gautschi
 Walter Gottschalk
 Walter Hayman
+Walter Knödel
 Walter Ledermann
 Walter Noll
 Walter Rudin
@@ -6551,13 +6577,13 @@ William Emerson (mathematician)
 William Esson
 William Farr
 William Feller
-William Fishburn Donkin
 William Fleetwood
 William Fleetwood Sheppard
 William Floyd (mathematician)
 William Fogg Osgood
 William Frederick Eberlein
 William Fulton (mathematician)
+William G. McCallum
 William Galbraith (mathematician)
 William Gascoigne (scientist)
 William Gemmell Cochran
@@ -6588,6 +6614,7 @@ William Makeham
 William Mann (mathematician)
 William McCrea (astronomer)
 William McFadden Orr
+William Meikleham (astronomer)
 William Menasco
 William Messing
 William Minicozzi II
@@ -6651,6 +6678,7 @@ Wolfgang M. Schmidt
 Wolfgang Rautenberg
 Wolfgang Smith
 Woody Bledsoe
+Wu Renchen
 Wu Wenjun
 Władysław Orlicz
 Władysław Zajączkowski
@@ -6732,6 +6760,7 @@ Yvonne Choquet-Bruhat
 Yāska
 Zahid Khalilov
 Zalman Usiskin
+Zbigniew Marciniak
 Zdeněk Frolík
 Zdzisław Krygowski
 Zdzisław Pawlak

@@ -96,6 +96,7 @@ Category:Variational analysts
 Category:Researchers in geometric algorithms
 Category:18th-century German mathematicians
 Category:19th-century German mathematicians
+Category:Carl Friedrich Gauss
 Category:German information theorists
 Category:German logicians
 Category:German statisticians
@@ -141,6 +142,7 @@ Category:Mental calculators
 Category:Pseudonymous mathematicians
 Category:Second Wranglers
 Category:Senior Wranglers
+Category:Tarski lecturers
 Category:Actuaries
 Category:Ballistics experts
 Category:Bioinformaticians
@@ -150,6 +152,7 @@ Category:Combinatorialists
 Category:Cryptographers
 Category:Cyberneticists
 Category:Game theorists
+Category:Geodesists
 Category:Information theorists
 Category:Mathematical ecologists
 Category:Mathematical economists
@@ -202,6 +205,7 @@ Category:Romanian logicians
 Category:Romanian statisticians
 Category:18th-century Russian mathematicians
 Category:19th-century Russian mathematicians
+Category:20th-century Russian mathematicians
 Category:Imperial Russian mathematicians
 Category:Russian cryptographers
 Category:Russian information theorists
