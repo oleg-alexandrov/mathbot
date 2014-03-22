@@ -27,10 +27,10 @@ my $gEditor;
 
 MAIN: {
  
-  print "Machine is " . qx(uname -a) . "\n";
-
   print "Please be patient, this script can take a minute or two "
      .  "if Wikipedia is slow ...<br><br>\n";
+
+  print "Machine is " . qx(uname -a) . "<br><br>\n";
 
   # If the full path to the script is known (such as when running this
   # script from crontab), go to that directory first
