@@ -26,7 +26,9 @@ my $afd_cutoff = 7;
 my $gEditor;
 
 MAIN: {
-  
+ 
+  print "Machine is " . qx(uname -a) . "\n";
+
   print "Please be patient, this script can take a minute or two "
      .  "if Wikipedia is slow ...<br><br>\n";
 
