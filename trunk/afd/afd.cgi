@@ -378,7 +378,7 @@ sub see_open_afd_discussions (){
 	  #print "$page\n";
 	  $text = wikipedia_fetch($gEditor, $page, $attempts, $sleep);
 	  #print "$text\n";
-	  if ($text =~ /boilerplate[\s\w]*afd vfd xfd-closed/){
+	  if ($text =~ /(boilerplate[\s\w]*afd vfd xfd-closed|\{\{archivetop\}\})/){
 		  $closedc++;
 	  }else{
 		  $openc++;
