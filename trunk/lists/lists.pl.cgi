@@ -1,14 +1,21 @@
 #!/usr/bin/perl 
-use strict;		      # 'strict' insists that all variables be declared
-use diagnostics;	      # 'diagnostics' expands the cryptic warnings
-use open 'utf8';
-use CGI::Carp qw(fatalsToBrowser);
 
-use lib '/home/mathbot/public_html/cgi-bin/wp/modules'; # path to perl modules
+$| = 1; # flush the buffer each line
+
+# This line must be the first to print in a cgi script
+print "Content-type: text/html\r\n\r\n";
+
+use POSIX;                     # the strftime function
+use CGI::Carp qw(fatalsToBrowser);
+use strict;
+use diagnostics;	      # 'diagnostics' expands the cryptic warnings
+undef $/;	   	      # undefines the separator. Can read one whole file in one scalar.
+
+use lib '/data/project/mathbot/public_html/wp/modules'; # relative path to perl modules
+use lib '/data/project/mathbot/perl5/lib/perl5/';
+use open 'utf8';
 require 'bin/perlwikipedia_utils.pl';
 require "bin/fetch_articles.pl";
-
-undef $/;	   	      # undefines the separator. Can read one whole file in one scalar.
 
 MAIN: { 
 
