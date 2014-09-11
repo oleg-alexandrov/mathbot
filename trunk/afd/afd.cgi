@@ -164,18 +164,9 @@ sub count_and_list_open_AfDs {
 
 sub add_another_day{
 
-  my ($text, $afd_link, $hour_now, $thresh, $edit_summary, $SECONDS_PER_DAY, $brief_afd_link, $seconds);
+  my ($text, $afd_link, $edit_summary, $SECONDS_PER_DAY, $brief_afd_link, $seconds);
     
   $text = shift;  
-
-  # If beyond certain hour of the day (midnight GMT time),
-  # add a link for the Afd discussion six days ago if not here yet
-  $hour_now=strftime("%H", localtime(time));
-  $thresh = 0;  # midnight on gmt
-
-  if ($hour_now < $thresh){
-    return ($text, "");
-  }
 
   ($afd_link, $brief_afd_link) = &get_afd_link(-$afd_cutoff-1); # Older than $afd_cutoff
   
