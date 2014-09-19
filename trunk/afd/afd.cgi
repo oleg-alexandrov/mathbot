@@ -338,14 +338,36 @@ sub update_archived_discussions {
     }
   }
 
+  # Replace in $archived_text the portion corresponding to the links for this year
+  # with $new_links which contains the newly archived links 
+  $archived_text = $p1 . "\n" . $new_links . "\n" . $p3;
+
+  # There is a bug above, days at the end of the year don't get added.
+  # Fix it here for all years. If a day is in, but the day after it is not,
+  # then add it. This whole code needs to be re-written for clarity.
+  my %archived_already = &extract_links($archived_text);
+  for ($day = -5000 ; $day <= $start; $day++){
+     my ($afd_link, $brief_afd_link) = &get_afd_link($day);
+     next if (exists $archived_already{$afd_link});
+     next if (exists $skip_archive{$afd_link});
+
+     # Will insert the link above the old link
+     my ($oafd_link, $obrief_afd_link) = &get_afd_link($day-1);
+     next unless (exists $archived_already{$oafd_link});
+     if ($archived_text =~ /^(.*?)(\* \[\[\Q$oafd_link\E.*?)$/s){
+	 $archived_text = $1 . "* [[$afd_link]]\n" . $2;
+     }
+      
+     if ($edit_summary eq ""){
+	 $edit_summary = "Archiving $afd_link";
+     }
+
+  }
+
   if ($edit_summary eq ""){
     print "No new pages to archive<br><br>\n";
     return;
   }
-
-  # Replace in $archived_text the portion corresponding to the links for this year
-  # with $new_links which contains the newly archived links 
-  $archived_text = $p1 . "\n" . $new_links . "\n" . $p3;
 
   $edit_summary = "Archiving " . $edit_summary;
   
