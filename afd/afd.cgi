@@ -359,7 +359,7 @@ sub update_archived_discussions {
      }
       
      if ($edit_summary eq ""){
-	 $edit_summary = "Archiving $afd_link";
+	 $edit_summary = "[[$afd_link]]";
      }
 
   }
