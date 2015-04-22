@@ -4,6 +4,7 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
+use lib '/data/project/mathbot/perl5/lib/perl5/';
 
 require 'bin/perlwikipedia_utils.pl'; 
 require "strip_accents_and_stuff.pl";

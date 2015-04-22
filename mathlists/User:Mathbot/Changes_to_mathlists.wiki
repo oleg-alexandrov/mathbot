@@ -2,433 +2,434 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
-== March 16, 2014 ==
+== April 22, 2015 ==
 
-:Removed [[Dissipation]] (is a redirect to [[Dissipation (thermodynamics)]])
-:Removed [[Reed-Muller expansion]] (is a redirect to [[Reed–Muller expansion]])
-:Added   [[Alternated hexagonal tiling honeycomb]]
-:Added   [[Alternated order-5 cubic honeycomb]]
-:Added   [[Alternated order-6 cubic honeycomb]]
-:Added   [[Alternated order-6 hexagonal tiling honeycomb]]
-:Added   [[Dissipation (thermodynamics)]]
-:Added   [[List of types of systems theory]]
-:Added   [[Reed–Muller expansion]]
+:Removed [[Bayesian additive regression kernels]] (article deleted/does not exist)
+:Removed [[Euclidean simplex]] (is a redirect to [[Simplex]])
+:Removed [[General case]] (is a redirect to [[Generalization]])
+:Removed [[Node influence metrics]] (is a redirect to [[Node influence metric]])
+:Removed [[Oblate spheroid]] (is a redirect to [[Spheroid]])
+:Removed [[Prolate spheroid]] (is a redirect to [[Spheroid]])
+:Removed [[Transformation (combinatorics)]] (is a redirect to [[Transformation (function)]])
+:Removed [[Truncated 7-demicubes]] (is a redirect to [[Cantic 7-cube]])
+:Added   [[Cantic 7-cube]]
+:Added   [[Dyck congruence]]
+:Added   [[Free half group]]
+:Added   [[I-semigroup]]
+:Added   [[Involutive monoid]]
+:Added   [[Node influence metric]]
+:Added   [[Shamir congruence]]
+:Added   [[U-semigroup]]
 ----
-: Mathematicians:added   [[William G. McCallum]]
+: Mathematicians:added   [[George Karniadakis]]
 
-== March 15, 2014 ==
+== April 21, 2015 ==
 
-:Removed [[Epsilon-neighborhood]] (is a redirect to [[Neighbourhood]])
-:Added   [[Fundamental matrix (linear differential equation)]]
-:Added   [[Negation introduction]]
+:Removed [[Ban number]] (is a redirect to [[Vowel-ban number]])
+:Removed [[Chaotic Cryptology]] (is a redirect to [[Chaotic cryptology]])
+:Removed [[Given, Required, Analysis, Solution, and Paraphrase]] (article deleted/does not exist)
+:Removed [[Glossary of scheme theory]] (is a redirect to [[glossary of algebraic geometry]])
+:Removed [[Hafner–Sarnak–McCurley constant]] (is a redirect to [[Hafner-Sarnak-McCurley Constant]])
+:Removed [[Hall–Janko group]] (is a redirect to [[Janko group J2]])
+:Removed [[Inuit numerals]] (is a redirect to [[Kaktovik Inupiaq numerals]])
+:Removed [[School of Math and Sciences, WBU]] (is a redirect to [[Wayland_Baptist_University]])
+:Removed [[Steiner's theorem (geometry)]] (is a redirect to [[Steiner conic]])
+:Removed [[Xcos]] (is a redirect to [[Scilab]])
+:Added   [[Antidistributive]]
+:Added   [[Chaotic cryptology]]
+:Added   [[Consecutive sampling]]
+:Added   [[Difunctional]]
+:Added   [[Foundational relation]]
+:Added   [[Full linear monoid]]
+:Added   [[Hafner-Sarnak-McCurley Constant]]
+:Added   [[Janko group J2]]
+:Added   [[Kaktovik Inupiaq numerals]]
+:Added   [[Labs septic]]
+:Added   [[Maltsev conditions]]
+:Added   [[Maltsev variety]]
+:Added   [[Steiner conic]]
+:Added   [[Tau (mathematical constant)]]
+:Added   [[Vowel-ban number]]
 ----
-: Mathematicians:removed [[Alex Wissner-Gross]] (article deleted/does not exist)
-: Mathematicians:added   [[Kathleen Adebola Okikiolu]]
-: Mathematicians:added   [[Verena Huber-Dyson]]
+: Mathematicians:removed [[Frederic Brenton Fitch]] (is a redirect to [[Frederic Fitch]])
+: Mathematicians:added   [[André Neves]]
+: Mathematicians:added   [[Frederic Fitch]]
+: Mathematicians:added   [[Keti Tenenblat]]
+: Mathematicians:added   [[Moshe Zakai]]
+: Mathematicians:added   [[Sergei N. Artemov]]
 
-== March 14, 2014 ==
+== April 17, 2015 ==
 
-:Removed [[Fujita-Storm equation]] (is a redirect to [[Fujita–Storm equation]])
-:Removed [[Hexakis cubic honeycomb]] (is a redirect to [[Tetragonal_disphenoid_tetrahedral_honeycomb]])
-:Removed [[Imaging Cycler Microscopy]] (is a redirect to [[Imaging cycler microscopy]])
-:Removed [[Phyllic disphenoidal honeycomb]] (is a redirect to [[Tetragonal_disphenoid_tetrahedral_honeycomb]])
-:Removed [[Princeton University Mathematics Competition]] (article deleted/does not exist)
-:Removed [[Rhombic pyramidal honeycomb]] (is a redirect to [[Rhombic_dodecahedral_honeycomb]])
-:Removed [[Square bipyramidal honeycomb]] (is a redirect to [[Tetragonal_disphenoid_tetrahedral_honeycomb]])
-:Added   [[Fujita–Storm equation]]
-:Added   [[Fundamental matrix]]
-:Added   [[Imaging cycler microscopy]]
-:Added   [[The Ciphers of the Monks]]
-----
-: Mathematicians:removed [[Mariusz Ziolko]] (is a redirect to [[Mariusz Ziółko]])
-: Mathematicians:added   [[Marguerite Frank]]
-: Mathematicians:added   [[Mariusz Ziółko]]
-
-== March 13, 2014 ==
-
-:Removed [[Cantic cubic honeycomb]] (is a redirect to [[Tetrahedral-octahedral_honeycomb]])
-:Removed [[Elongated alternated cubic honeycomb]] (is a redirect to [[Tetrahedral-octahedral honeycomb]])
-:Removed [[Gradient-directed transect]] (is a redirect to [[Gradsect]])
-:Removed [[Gyrated tetrahedral-octahedral honeycomb]] (is a redirect to [[Tetrahedral-octahedral_honeycomb]])
-:Removed [[Gyroelongated alternated cubic honeycomb]] (is a redirect to [[Tetrahedral-octahedral honeycomb ]])
-:Removed [[Mathematics and Informatics Quarterly]] (article deleted/does not exist)
-:Removed [[Runcic cubic honeycomb]] (is a redirect to [[Tetrahedral-octahedral_honeycomb]])
-:Removed [[Runcicantic cubic honeycomb]] (is a redirect to [[Tetrahedral-octahedral_honeycomb]])
-:Removed [[Trapezo-rhombic dodecahedral honeycomb]] (is a redirect to [[Rhombic_dodecahedral_honeycomb]])
-:Removed [[Wilks' lambda distribution]] (is a redirect to [[Wilks's lambda distribution]])
-:Added   [[Fujita-Storm equation]]
-:Added   [[Gradsect]]
-:Added   [[Imaging Cycler Microscopy]]
-:Added   [[Wilks's lambda distribution]]
-----
-
-== March 12, 2014 ==
-
-:Removed [[Alternated order-5 cubic honeycomb]] (is a redirect to [[Order-5_cubic_honeycomb]])
-:Removed [[Cantellated cubic honeycomb]] (is a redirect to [[cubic honeycomb]])
-:Removed [[Cantitruncated cubic honeycomb]] (is a redirect to [[cubic honeycomb]])
-:Removed [[Omnitruncated cubic honeycomb]] (is a redirect to [[cubic honeycomb]])
-:Removed [[Rectified cubic honeycomb]] (is a redirect to [[cubic honeycomb]])
-:Removed [[Runcitruncated cubic honeycomb]] (is a redirect to [[cubic honeycomb]])
-:Removed [[Truncated cubic honeycomb]] (is a redirect to [[cubic honeycomb]])
-:Removed [[Vegasim]] (article deleted/does not exist)
-:Removed [[−1 (number)]] (is a redirect to [[−1]])
-:Added   [[Gradient-directed transect]]
-:Added   [[−1]]
-----
-: Mathematicians:added   [[James Caldwell (mathematician)]]
-: Mathematicians:added   [[Thomas Heth]]
-
-== March 11, 2014 ==
-
-:Added   [[Jump point search]]
-:Added   [[LowerUnits]]
-:Added   [[Revised simplex method]]
-:Added   [[Variance function]]
-----
-: Mathematicians:removed [[Taqi al-Din Muhammad ibn Ma'ruf]] (is a redirect to [[Taqi ad-Din Muhammad ibn Ma'ruf]])
-: Mathematicians:added   [[Ruth Gregory]]
-: Mathematicians:added   [[Taqi ad-Din Muhammad ibn Ma'ruf]]
-
-== March 10, 2014 ==
-
-:Removed [[Integral of a Gaussian function]] (is a redirect to [[Gaussian function]])
-:Added   [[Cycle basis]]
-:Added   [[Missing-digit sum]]
-----
-: Mathematicians:added   [[Kazimierz Cwojdziński]]
-: Mathematicians:added   [[Muhammad Sharif (cosmologist)]]
-
-== March 9, 2014 ==
-
-:Removed [[Behrend's formula]] (is a redirect to [[Behrend's trace formula]])
-:Added   [[Alternated order-5 cubic honeycomb]]
-:Added   [[Behrend's trace formula]]
-:Added   [[Nilpotent space]]
-----
-: Mathematicians:added   [[Leila Schneps]]
-
-== March 8, 2014 ==
-
-:Removed [[Approximately finite dimensional C*-algebra]] (is a redirect to [[Approximately finite-dimensional C*-algebra]])
-:Removed [[Category of finite dimensional Hilbert spaces]] (is a redirect to [[Category of finite-dimensional Hilbert spaces]])
-:Removed [[Edmund Schuster]] (is in the [[list of mathematicians]])
-:Removed [[Finite dimensional von Neumann algebra]] (is a redirect to [[Finite-dimensional von Neumann algebra]])
-:Added   [[Approximately finite-dimensional C*-algebra]]
-:Added   [[Category of finite-dimensional Hilbert spaces]]
-:Added   [[Finite-dimensional von Neumann algebra]]
-:Added   [[Lang's theorem]]
-----
-: Mathematicians:added   [[Anny Cazenave]]
-: Mathematicians:added   [[Edmund Schuster]]
-
-== March 7, 2014 ==
-
-:Removed [[Characteristic sequence]] (is a redirect to [[Indicator function]])
-:Removed [[Pick matrix]] (is a redirect to [[Nevanlinna–Pick interpolation]])
-:Added   [[Journal of Statistical Planning and Inference]]
-:Added   [[Nonlinearity (journal)]]
-----
-: Mathematicians:removed [[Peter Allan Sweet(astronomer)]] (is a redirect to [[Peter Allan Sweet]])
-: Mathematicians:added   [[Peter Allan Sweet]]
-
-== March 6, 2014 ==
-
-:Removed [[K-trivial sets]] (is a redirect to [[K-trivial set]])
-:Added   [[Abundance estimation]]
-:Added   [[K-trivial set]]
-:Added   [[Volodin space]]
-----
-: Mathematicians:added   [[Ludwig Becker (astronomer)]]
-: Mathematicians:added   [[Peter Allan Sweet(astronomer)]]
-
-== March 5, 2014 ==
-
-:Removed [[Magic tesseract]] (is a redirect to [[Magic hypercube]])
-:Removed [[Multiplicative suborder]] (is a redirect to [[Multiplicative order]])
-:Added   [[Apeirogonal hosohedron]]
-:Added   [[K-trivial sets]]
-:Added   [[Resolution inference]]
-----
-: Mathematicians:added   [[Faustina Pignatelli]]
-: Mathematicians:added   [[Maria Ardinghelli]]
-: Mathematicians:added   [[Patrick Wilson (astronomer)]]
-: Mathematicians:added   [[William Meikleham (astronomer)]]
-
-== March 4, 2014 ==
-
-----
-: Mathematicians:added   [[Udayana]]
-
-== March 3, 2014 ==
-
-:Added   [[DADiSP]]
-:Added   [[Decillion]]
-:Added   [[Derived stack]]
-:Added   [[Differentiability class]]
-:Added   [[Neukirch–Uchida theorem]]
-:Added   [[Vegasim]]
+:Removed [[Exterior bundle]] (is a redirect to [[tensor bundle]])
+:Removed [[Magnitude of Completeness]] (is a redirect to [[Magnitude of completeness]])
+:Removed [[Road coloring problem]] (is a redirect to [[Road coloring theorem]])
+:Removed [[Wonders of Numbers]] (is a redirect to [[Clifford A. Pickover]])
+:Added   [[Chaotic Cryptology]]
+:Added   [[Jost function]]
+:Added   [[List of q-analogs]]
+:Added   [[Magnitude of completeness]]
+:Added   [[Poincaré separation theorem]]
+:Added   [[Ramification (mathematics)]]
+:Added   [[Road coloring theorem]]
 ----
 
-== March 2, 2014 ==
+== April 16, 2015 ==
 
-:Added   [[Affine monoid]]
-:Added   [[Closest point method]]
-:Added   [[Newton's theorem (quadrilateral)]]
+:Removed [[Bernstein–Khovanskii–Kushnirenko theorem]] (is a redirect to [[Bernstein–Kushnirenko theorem]])
+:Added   [[Tensor product bundle]]
+----
+: Mathematicians:added   [[George H. Mealy]]
+: Mathematicians:added   [[Robert Edmund Edwards]]
+
+== April 15, 2015 ==
+
+:Removed [[Section (group theory)]] (is a redirect to [[Subquotient]])
+:Added   [[Anna Karenina principle]]
+:Added   [[Cheryl's Birthday]]
+:Added   [[Magnitude of Completeness]]
+----
+: Mathematicians:added   [[Wei Zhang (mathematician)]]
+
+== April 14, 2015 ==
+
+:Removed [[Rocs]] (is a redirect to [[KDE Education Project]])
+:Removed [[Waxholm space]] (article deleted/does not exist)
+:Added   [[Big q-Legendre polynomials]]
+:Added   [[Color model]]
+:Added   [[L-infinity]]
+:Added   [[Presentation of a module]]
 ----
 
-== March 1, 2014 ==
+== April 13, 2015 ==
 
-:Removed [[G space]] 
-:Removed [[Khmer numbers]] (is a redirect to [[Khmer numerals]])
-:Added   [[Anne's theorem]]
-:Added   [[Edmund Schuster]]
-:Added   [[Khmer numerals]]
-:Added   [[Stable ∞-category]]
+:Removed [[Florida Association of Mu Alpha Theta]] (is a redirect to [[Mu Alpha Theta]])
+:Removed [[Tensor bundle]] (is a redirect to [[Tensor_product_of_modules]])
+:Added   [[Iterative compression]]
+:Added   [[Node influence metrics]]
 ----
-: Mathematicians:removed [[Paul Baum]] 
-: Mathematicians:added   [[Paul Baum (mathematician)]]
+: Mathematicians:removed [[Dinesh Singh (academic)]] (article deleted/does not exist)
+: Mathematicians:added   [[Jill H. Larkin]]
 
-== February 28, 2014 ==
+== April 12, 2015 ==
 
-:Added   [[Linear Algebra and its Applications]]
-:Added   [[METIS]]
-:Added   [[Malmquist's theorem]]
-----
-: Mathematicians:added   [[Axel Johannes Malmquist]]
-
-== February 27, 2014 ==
-
-:Removed [[Isovolume problem]] (is a redirect to [[Isoperimetric inequality ]])
-:Removed [[K(n,n) equation]] (is a redirect to [[Rosenau–Hyman equation]])
-:Added   [[Cox ring]]
-:Added   [[Simon Stevin (journal)]]
+:Removed [[Class function]] (is a redirect to [[Class function (algebra)]])
+:Removed [[Oscillating reciprocation]] (article deleted/does not exist)
+:Removed [[Real projective line]] (is a redirect to [[Projectively extended real line]])
+:Removed [[Rotary reciprocation]] (article deleted/does not exist)
+:Added   [[Class function (algebra)]]
+:Added   [[Group inverse]]
+:Added   [[List of convex regular-faced polyhedra]]
+:Added   [[Projectively extended real line]]
 ----
 
-== February 26, 2014 ==
+== April 10, 2015 ==
 
-:Removed [[Professional Science Master's]] (is a redirect to [[Professional Science Master's Degree]])
-:Added   [[Boussinesq type equation]]
-:Added   [[GetFEM++]]
-:Added   [[Sinh-Gordon]]
-:Added   [[Spatial Poisson process]]
-----
-: Mathematicians:removed [[Dov Tamari (mathematician)]] (is a redirect to [[Dov Tamari]])
-: Mathematicians:added   [[Dov Tamari]]
-: Mathematicians:added   [[Eleanor Jones]]
-
-== February 25, 2014 ==
-
-:Added   [[Nilpotent algebra (ring theory)]]
+:Added   [[Thomsen graph]]
+:Added   [[Thomsen's theorem]]
 ----
 
-== February 24, 2014 ==
+== April 9, 2015 ==
 
-:Added   [[K(n,n) equation]]
-:Added   [[Stokes phenomenon]]
-----
-: Mathematicians:removed [[Aizik Isaakovich Vol'pert]] (is a redirect to [[Aizik Volpert]])
-: Mathematicians:removed [[Emmanuil Manousos]] (article deleted/does not exist)
-: Mathematicians:removed [[Nikolai Maximovich Günther]] (is a redirect to [[Nikolai Günther]])
-: Mathematicians:removed [[Olga Arsenievna Oleinik]] (is a redirect to [[Olga Oleinik]])
-: Mathematicians:removed [[R. E. Powers]] (is a redirect to [[Ralph Ernest Powers]])
-: Mathematicians:removed [[Vasilii Sergeevich Vladimirov]] (is a redirect to [[Vasily Vladimirov]])
-: Mathematicians:removed [[Vladimir Gilelevich Maz'ya]] (is a redirect to [[Vladimir Mazya]])
-: Mathematicians:added   [[Aizik Volpert]]
-: Mathematicians:added   [[Moss Sweedler]]
-: Mathematicians:added   [[Nikolai Günther]]
-: Mathematicians:added   [[Olga Oleinik]]
-: Mathematicians:added   [[Ralph Ernest Powers]]
-: Mathematicians:added   [[Vasily Vladimirov]]
-: Mathematicians:added   [[Vladimir Mazya]]
-
-== February 23, 2014 ==
-
-:Removed [[Chain sequence (continued fraction)]] (is a redirect to [[Chain sequence]])
-:Removed [[Decoupling (mathematical analysis)]] (article deleted/does not exist)
-:Added   [[Chain sequence]]
-:Added   [[Global analysis]]
-----
-: Mathematicians:added   [[Carl S. Herz]]
-: Mathematicians:added   [[Marsha Berger]]
-: Mathematicians:added   [[Robert Gompf]]
-
-== February 22, 2014 ==
-
-:Added   [[Clique graph (disambiguation)]]
-:Added   [[Cosheaf]]
-:Added   [[Cotriple homology]]
-:Added   [[Heptagrammic-order heptagonal tiling]]
-:Added   [[Littlewood's Tauberian theorem]]
-:Added   [[Model]]
-:Added   [[Order-7 heptagrammic tiling]]
-----
-: Mathematicians:added   [[Giuseppe Maria Figatelli]]
-: Mathematicians:added   [[Graham Everest]]
-: Mathematicians:added   [[Peter B. Gilkey]]
-
-== February 21, 2014 ==
-
-:Removed [[Weyl's criterion]] (is a redirect to [[Equidistributed sequence]])
-----
-: Mathematicians:removed [[J.F. Besseling]] (is a redirect to [[J. F. Besseling]])
-: Mathematicians:added   [[J. F. Besseling]]
-: Mathematicians:added   [[Keith Martin Ball]]
-: Mathematicians:added   [[Rudolf Fueter]]
-
-== February 20, 2014 ==
-
-:Removed [[CIR process]] (is a redirect to [[Cox–Ingersoll–Ross model]])
-:Removed [[Constructions of low-discrepancy sequences]] (is a redirect to [[Low-discrepancy sequence]])
-----
-: Mathematicians:added   [[Christian Genest]]
-: Mathematicians:added   [[Dinesh Singh (academic)]]
-: Mathematicians:added   [[J.F. Besseling]]
-: Mathematicians:added   [[Vyacheslav Stepanov]]
-
-== February 19, 2014 ==
-
-:Removed [[Basic Sequential Algorithmic Scheme]] (is a redirect to [[Basic sequential algorithmic scheme]])
-:Removed [[Math-Bridge]] (is a redirect to [[Computer-based mathematics education]])
-:Added   [[Basic sequential algorithmic scheme]]
-:Added   [[Rees matrix semigroup]]
+:Removed [[Categorical algebra]] (is a redirect to [[Category algebra]])
+:Removed [[Online NMF]] (is a redirect to [[Non-negative matrix factorization]])
+:Added   [[Category algebra]]
+:Added   [[Minimal generating set]]
 ----
 
-== February 18, 2014 ==
+== April 8, 2015 ==
 
-:Removed [[Tube (mathematics)]] (is a redirect to [[Tube]])
-:Removed [[Xcos]] (article deleted/does not exist)
-:Added   [[Basic Sequential Algorithmic Scheme]]
-:Added   [[Busemann function]]
-:Added   [[Clique graph]]
-:Added   [[Deductive lambda calculus]]
-:Added   [[Elvis operator]]
-:Added   [[Great 120-cell honeycomb]]
-:Added   [[Matrix-exponential distribution]]
-:Added   [[Null coalescing operator]]
-:Added   [[Order-5 icosahedral 120-cell honeycomb]]
-:Added   [[Pentagrammic-order 600-cell honeycomb]]
-:Added   [[Rational arrival process]]
-:Added   [[Small stellated 120-cell honeycomb]]
-:Added   [[Tube]]
+:Removed [[Hamilton Mathematics Institute]] (is a redirect to [[William Rowan Hamilton]])
+:Removed [[Montgomery reduction]] (is a redirect to [[Montgomery modular multiplication]])
+:Added   [[Bogdanov map]]
+:Added   [[Module homomorphism]]
+:Added   [[Montgomery modular multiplication]]
+:Added   [[Torsion abelian group]]
 ----
-: Mathematicians:removed [[Olga Aleksandrovna Ladyzhenskaya]] (is a redirect to [[Olga Ladyzhenskaya]])
-: Mathematicians:added   [[Daniel Edwin Rutherford]]
-: Mathematicians:added   [[Edward Ott]]
-: Mathematicians:added   [[Karen Smith (mathematician)]]
-: Mathematicians:added   [[Michael Shub]]
-: Mathematicians:added   [[Nalini Anantharaman]]
-: Mathematicians:added   [[Olga Ladyzhenskaya]]
-: Mathematicians:added   [[Ravi Agarwal]]
+: Mathematicians:removed [[Gheorghe Morosanu]] (is a redirect to [[Gheorghe Moroșanu]])
+: Mathematicians:added   [[Alain A. Lewis]]
+: Mathematicians:added   [[Gheorghe Moroșanu]]
+: Mathematicians:added   [[Thomas Ransford]]
 
-== February 16, 2014 ==
+== April 7, 2015 ==
 
-:Removed [[List of mathematical symbols as TeX codes]] (article deleted/does not exist)
-:Removed [[Lukaszyk–Karmowski metric]] (is a redirect to [[Łukaszyk–Karmowski metric]])
-:Added   [[Infinite-order dodecahedral honeycomb]]
-:Added   [[Infinite-order hexagonal tiling honeycomb]]
-:Added   [[Łukaszyk–Karmowski metric]]
+:Removed [[Walk-on-Spheres method]] (is a redirect to [[Walk-on-spheres method]])
+:Added   [[Bernstein–Khovanskii–Kushnirenko theorem]]
+:Added   [[Brams–Taylor–Zwicker procedure]]
+:Added   [[Iranian Mathematical Society]]
+:Added   [[Medcouple]]
+:Added   [[Plethystic substitution]]
+:Added   [[Walk-on-spheres method]]
 ----
-: Mathematicians:added   [[George Springer (mathematician)]]
+: Mathematicians:added   [[Gheorghe Morosanu]]
+: Mathematicians:added   [[James B. Carrell]]
+: Mathematicians:added   [[Lorenz Leonard Lindelöf]]
+: Mathematicians:added   [[Sabir Gusein-Zade]]
 
-== February 15, 2014 ==
+== April 6, 2015 ==
 
-:Removed [[Derivation (abstract algebra)]] (is a redirect to [[Derivation (differential algebra)]])
-:Removed [[M. C. Escher's legacy]] (is a redirect to [[M. C. Escher]])
-:Removed [[Rotation group]] (is a redirect to [[Orthogonal group]])
-:Added   [[Derivation (differential algebra)]]
-:Added   [[Nurse rostering problem]]
-:Added   [[Rotation group (disambiguation)]]
+:Removed [[Metagrobology]] (is a redirect to [[puzzle]])
+:Removed [[Up truncation]] (article deleted/does not exist)
+:Added   [[Additive map]]
 ----
-: Mathematicians:added   [[George Maltese]]
-: Mathematicians:added   [[Robert Strichartz]]
+: Mathematicians:added   [[Catherine Doléans-Dade]]
+: Mathematicians:added   [[Paolo dal Pozzo Toscanelli]]
+: Mathematicians:added   [[Ralf J. Spatzier]]
 
-== February 14, 2014 ==
+== April 5, 2015 ==
 
-:Removed [[Active set]] (is a redirect to [[Active set method]])
-:Removed [[Firoozbakht’s conjecture]] (is a redirect to [[Firoozbakht's conjecture]])
-:Added   [[Active set method]]
-:Added   [[Firoozbakht's conjecture]]
-:Added   [[Hessian equation]]
+:Removed [[Grey box completion and validation]] (is a redirect to [[Grey box model]])
+:Removed [[Rec-STFT]] (is a redirect to [[Rectangular mask short-time Fourier transform]])
+:Added   [[Grey box model]]
+:Added   [[Iterable cardinal]]
+:Added   [[Rectangular mask short-time Fourier transform]]
+:Added   [[Walk-on-Spheres method]]
 ----
-: Mathematicians:added   [[Clarence Lemuel Elisha Moore]]
-: Mathematicians:added   [[Eugene Plotkin (mathematician)]]
+: Mathematicians:added   [[David Hedgley]]
 
-== February 13, 2014 ==
+== April 4, 2015 ==
 
-:Added   [[120-cell honeycomb]]
-:Added   [[Cubic honeycomb honeycomb]]
-:Added   [[List of mathematical symbols as TeX codes]]
-:Added   [[Order-4 120-cell honeycomb]]
-:Added   [[Order-4 24-cell honeycomb]]
-:Added   [[Order-5 120-cell honeycomb]]
-:Added   [[Order-5 5-cell honeycomb]]
-:Added   [[Order-5 tesseractic honeycomb]]
-----
-: Mathematicians:added   [[Burton Wadsworth Jones]]
-
-== February 12, 2014 ==
-
-:Added   [[Shearlet]]
-:Added   [[Toponome]]
-:Added   [[Toponomics]]
-----
-: Mathematicians:added   [[Walter Knödel]]
-
-== February 11, 2014 ==
-
-:Removed [[Random multinomial logit]] (is a redirect to [[Random forest]])
-:Removed [[Random naive Bayes]] (is a redirect to [[Random forest]])
-:Added   [[Groupoid scheme]]
-:Added   [[Hyperfinite]]
-:Added   [[Indicator vector]]
-:Added   [[Manin conjecture]]
-:Added   [[Multiplicative suborder]]
-:Added   [[Stochastic Processes and their Applications]]
-:Added   [[Torsor (algebraic geometry)]]
+:Removed [[Isoptic]] (is a redirect to [[orthoptic (geometry)]])
+:Added   [[Orthoptic (geometry)]]
+:Added   [[Rec-STFT]]
 ----
 
-== February 10, 2014 ==
+== April 3, 2015 ==
 
-:Added   [[Regularization by spectral filtering]]
+:Added   [[Implicit surface]]
+:Added   [[List of people by Erdős number]]
+----
+: Mathematicians:removed [[Abdon Atangana]] 
+: Mathematicians:removed [[Marin Getaldić]] (is a redirect to [[Marino Ghetaldi]])
+: Mathematicians:added   [[Cheon Jung-Hee]]
+: Mathematicians:added   [[Jang Bahadur Shukla]]
+: Mathematicians:added   [[Marino Ghetaldi]]
+
+== April 2, 2015 ==
+
+:Removed [[Multiscale mathematics]] (is a redirect to [[Multiscale modeling]])
+:Added   [[Implicit curve]]
+:Added   [[Multiscale modeling]]
+:Added   [[Symmetric operator]]
+----
+: Mathematicians:added   [[Boris Komrakov]]
+
+== April 1, 2015 ==
+
+:Added   [[Henri Poincaré Prize]]
+:Added   [[List of polygons]]
 ----
 
-== February 9, 2014 ==
+== March 31, 2015 ==
 
-:Removed [[Decoupling (analysis)]] (is a redirect to [[Decoupling (mathematical analysis)]])
-:Added   [[Decoupling (mathematical analysis)]]
-:Added   [[Ignatov's theorem]]
-:Added   [[Smooth topology]]
-----
-: Mathematicians:added   [[Alessandro Faedo]]
-: Mathematicians:added   [[Bruno D'Amore]]
-: Mathematicians:added   [[Margherita Piazzola Beloch]]
-
-== February 8, 2014 ==
-
-:Removed [[Dead beat control]] (is a redirect to [[Dead-beat control]])
-:Added   [[Dead-beat control]]
-:Added   [[Equivariant sheaf]]
-:Added   [[Talairach coordinates]]
-----
-: Mathematicians:removed [[Sucharit Sarkar]] (article deleted/does not exist)
-: Mathematicians:added   [[Adriaen Anthonisz]]
-: Mathematicians:added   [[Marc Rieffel]]
-: Mathematicians:added   [[Zbigniew Marciniak]]
-
-== February 7, 2014 ==
-
-:Added   [[Graded (mathematics)]]
+:Removed [[Underreporting]] (is a redirect to [[Under-reporting]])
+:Added   [[Classical logic]]
+:Added   [[European Society for Mathematics and the Arts]]
+:Added   [[Isaac Watts]]
+:Added   [[Semi-Yao graph]]
+:Added   [[Synergy Sports Technology]]
 :Added   [[Xcos]]
 ----
+: Mathematicians:added   [[Johannes Kemperman]]
+: Mathematicians:added   [[Svetlana Jitomirskaya]]
 
-== February 6, 2014 ==
+== March 16, 2015 ==
 
-:Added   [[Cyclic sieving]]
-:Added   [[Novikov ring]]
+:Added   [[Hemi-cuboctahedron]]
 ----
-: Mathematicians:removed [[Georges E. Collins]] (is a redirect to [[George E. Collins]])
-: Mathematicians:added   [[Emmanuil Manousos]]
-: Mathematicians:added   [[George E. Collins]]
-: Mathematicians:added   [[Valery Senderov]]
+: Mathematicians:removed [[E. L. Elte]] (is a redirect to [[Emanuel Lodewijk Elte]])
+: Mathematicians:added   [[Annette Dobson]]
+: Mathematicians:added   [[Emanuel Lodewijk Elte]]
+
+== March 15, 2015 ==
+
+:Removed [[Ferrers functions]] (is a redirect to [[Ferrers function]])
+:Removed [[Probabilistic solution discovery algorithm]] (article deleted/does not exist)
+:Added   [[Ferrers function]]
+:Added   [[Fibonacci hyperbolic functions]]
+:Added   [[Kernal function for solving Integral Equation of Surface Radiation Exchanges]]
+:Added   [[LEAP Science and Maths Schools]]
+:Added   [[Link-centric preferential attachment]]
+----
+
+== March 14, 2015 ==
+
+:Removed [[Probabilistic Solution Discovery Algorithm (PSDA)]] (is a redirect to [[Probabilistic solution discovery algorithm]])
+:Added   [[20984]]
+:Added   [[Ferrers functions]]
+:Added   [[Griewank function]]
+:Added   [[Probabilistic solution discovery algorithm]]
+:Added   [[Projective Set (game)]]
+:Added   [[Swirl function]]
+----
+: Mathematicians:added   [[Sergei Tabachnikov]]
+
+== March 13, 2015 ==
+
+:Removed [[Carotid-Kundalini function]] (is a redirect to [[Carotid–Kundalini function]])
+:Removed [[Dao's theorem on six circumcenters]] (article deleted/does not exist)
+:Removed [[International CensusAtSchool Project]] (article deleted/does not exist)
+:Removed [[Neville Theta functions]] (is a redirect to [[Neville theta functions]])
+:Added   [[Carotid–Kundalini function]]
+:Added   [[Multiscale turbulence]]
+:Added   [[Neville theta functions]]
+----
+: Mathematicians:added   [[Ernst August Weiß]]
+
+== March 12, 2015 ==
+
+:Removed [[Material Point Method]] (is a redirect to [[Material point method]])
+:Added   [[Carotid-Kundalini function]]
+:Added   [[Dot product representation of a graph]]
+:Added   [[Enneadecahedron]]
+:Added   [[Material point method]]
+----
+: Mathematicians:added   [[Christel Rotthaus]]
+: Mathematicians:added   [[Eugenius Nulty]]
+: Mathematicians:added   [[Lynne H. Walling]]
+: Mathematicians:added   [[Nancy K. Stanton]]
+
+== March 11, 2015 ==
+
+:Added   [[Semigroup with three elements]]
+----
+: Mathematicians:added   [[Paul C. Yang]]
+
+== March 10, 2015 ==
+
+:Removed [[List of African American men in STEM fields]] (article deleted/does not exist)
+:Added   [[Neville Theta functions]]
+----
+: Mathematicians:added   [[Anton Zorich]]
+: Mathematicians:added   [[Boris Khesin]]
+: Mathematicians:added   [[Carlos Matheus]]
+: Mathematicians:added   [[Christina Sormani]]
+
+== March 9, 2015 ==
+
+:Added   [[Eternal dominating set]]
+:Added   [[General case]]
+:Added   [[Material Point Method]]
+:Added   [[Probabilistic Solution Discovery Algorithm (PSDA)]]
+----
+: Mathematicians:removed [[George Green]] 
+: Mathematicians:added   [[George Green (mathematician)]]
+
+== March 8, 2015 ==
+
+:Removed [[Infinite skew polyhedron]] (is a redirect to [[Skew apeirohedron]])
+:Added   [[Apeirotope]]
+:Added   [[Artin–Tate lemma]]
+:Added   [[Cheetah Math]]
+:Added   [[Cut rule]]
+:Added   [[Nuprl]]
+----
+: Mathematicians:removed [[Berghammer, R.]] (is a redirect to [[Rudolf Berghammer]])
+: Mathematicians:added   [[Antoni Malet]]
+: Mathematicians:added   [[Niccolò Guicciardini]]
+: Mathematicians:added   [[Rudolf Berghammer]]
+
+== March 7, 2015 ==
+
+:Removed [[Apeirohedron]] (is a redirect to [[Skew apeirohedron]])
+:Removed [[Autoparallel]] (is a redirect to [[Glossary of Riemannian and metric geometry]])
+:Removed [[Kaplan-Yorke conjecture]] (is a redirect to [[Kaplan–Yorke conjecture]])
+:Removed [[RTCP hierarchical aggregation]] (is a redirect to [[RTP_Control_Protocol]])
+:Added   [[Bachet's conjecture]]
+:Added   [[Kaplan–Yorke conjecture]]
+:Added   [[Regular skew apeirohedron]]
+:Added   [[Skew apeirogon]]
+:Added   [[Skew apeirohedron]]
+:Added   [[Tübingen triangle]]
+----
+: Mathematicians:added   [[Berghammer, R.]]
+: Mathematicians:added   [[Bernd Siebert]]
+: Mathematicians:added   [[María Andrea Casamayor]]
+
+== March 6, 2015 ==
+
+:Added   [[Parallelohedron]]
+----
+: Mathematicians:added   [[Victor-Amédée Lebesgue]]
+
+== March 5, 2015 ==
+
+:Removed [[Gronwall's inequality]] (is a redirect to [[Grönwall's inequality]])
+:Removed [[Scale Co-occurrence Matrix]] (is a redirect to [[Scale co-occurrence matrix]])
+:Added   [[Dao's theorem on six circumcenters]]
+:Added   [[Grönwall's inequality]]
+:Added   [[Kaplan-Yorke conjecture]]
+:Added   [[Scale co-occurrence matrix]]
+----
+: Mathematicians:added   [[Catherine de Parthenay]]
+: Mathematicians:added   [[Joseph Liberman]]
+: Mathematicians:added   [[Lucy R. Wyatt]]
+
+== March 4, 2015 ==
+
+:Removed [[Mathematics and the Imagination (book)]] (is a redirect to [[Mathematics and the Imagination]])
+:Removed [[Polynomial Wigner-Ville distribution]] (is a redirect to [[Polynomial Wigner–Ville distribution]])
+:Added   [[Mathematics and the Imagination]]
+:Added   [[Polynomial Wigner–Ville distribution]]
+----
+: Mathematicians:added   [[William A. Veech]]
+
+== March 3, 2015 ==
+
+:Added   [[Bhargava cube]]
+:Added   [[Finite element exterior calculus]]
+:Added   [[Polynomial Wigner-Ville distribution]]
+:Added   [[Scale Co-occurrence Matrix]]
+:Added   [[School of Math and Sciences, WBU]]
+----
+: Mathematicians:added   [[Jacques Hurtubise (mathematician)]]
+
+== March 2, 2015 ==
+
+----
+: Mathematicians:removed [[Vadim Arsenyevich Efremovich]] (is a redirect to [[Vadim Arsenyevich Yefremovich]])
+: Mathematicians:added   [[Marko Tadić]]
+: Mathematicians:added   [[Pavle Papić]]
+: Mathematicians:added   [[Vadim Arsenyevich Yefremovich]]
+
+== March 1, 2015 ==
+
+:Removed [[Junior Balkan Mathematical Olympiad]] (is a redirect to [[Balkan Mathematical Olympiad]])
+:Removed [[Nonary]] (is a redirect to [[Ternary numeral system]])
+:Removed [[Pentadecimal]] (is a redirect to [[List of numeral systems]])
+:Removed [[Septenary]] (is a redirect to [[List of numeral systems]])
+----
+: Mathematicians:added   [[David A. Freedman]]
+: Mathematicians:added   [[Ward Whitt]]
+
+== February 28, 2015 ==
+
+:Removed [[Double negative elimination]] (is a redirect to [[Double negation]])
+----
+: Mathematicians:added   [[Andrea R. Nahmod]]
+
+== February 27, 2015 ==
+
+:Removed [[Evidence Based Subjective Logic]] (is a redirect to [[Evidence-based subjective logic]])
+:Removed [[NuPRL]] (article deleted/does not exist)
+:Added   [[Alexander's theorem]]
+:Added   [[Cokurtosis]]
+:Added   [[Evidence-based subjective logic]]
+:Added   [[Facility location problem]]
+:Added   [[List of African American men in STEM fields]]
+:Added   [[Productive matrix]]
+:Added   [[Subclass (set theory)]]
+----
+
+== February 26, 2015 ==
+
+:Removed [[Abelian root group]] (article deleted/does not exist)
+:Removed [[Base 11]] (is a redirect to [[List of numeral systems]])
+:Removed [[Root group]] (article deleted/does not exist)
+:Removed [[Studies in Mathematical Sciences]] (article deleted/does not exist)
+:Removed [[Tetradecimal]] (is a redirect to [[List of numeral systems]])
+:Added   [[Evidence Based Subjective Logic]]
+:Added   [[PCO2]]
+----
+: Mathematicians:added   [[Elisabeth M. Werner]]
+: Mathematicians:added   [[Jesús Ildefonso Díaz]]
 
