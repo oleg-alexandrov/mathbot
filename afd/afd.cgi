@@ -16,6 +16,9 @@ use lib '/data/project/mathbot/perl5/lib/perl5/';
 require 'bin/perlwikipedia_utils.pl';
 require 'bin/get_html.pl';
 
+use POSIX qw(locale_h);
+use locale;
+
 # Count and list the pages containing Wikipedia articles for deletion discussions (AfD).
 # Archive the pages on which all deletion discussions are closed.
 # Initialize pages for the upcoming days.
@@ -32,13 +35,21 @@ MAIN: {
 
   print "Machine is " . qx(uname -a) . "<br><br>\n";
 
+  # This an unverified attempt at a bugfix. Suddenly the bot started
+  # writing the months in German, but later I could not reproduce this.
+  setlocale(LC_ALL, "C");
+  my $locale = setlocale(LC_ALL);
+  if ( "$locale" ne "C"){
+   print "Error: locale must be C\n";
+  }
+  print "Locale is $locale<br>\n";
+
   # If the full path to the script is known (such as when running this
   # script from crontab), go to that directory first
   my $cur_dir = $0; # $0 stands for the executable, with or without full path
   if ($cur_dir =~ /^\//){
     $cur_dir =~ s/^(.*)\/.*?$/$1/g;
     chdir $cur_dir;
-  }else{
   }
 
   # The log in process must happen after we switched to the right directory as done above
