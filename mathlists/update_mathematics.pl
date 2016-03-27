@@ -14,7 +14,7 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 # Collect the mathematics articles from the mathematics categories. Merge them into the [[list of mathematics articles]] on Wikipedia.
 # Remove redlinks, redirects, and disambig pages. Submit to Wikipedia the log of changes and newly detected categories. This runs daily.
-my $mdash = "\x{2014}";
+my $mdash = "\x{2013}";
 my $n09 = "0" . $mdash . "9";
 MAIN: {
 

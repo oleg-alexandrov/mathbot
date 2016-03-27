@@ -61,7 +61,7 @@ sub fetch_articles_cats {
 
   $catNS = 14;
 
-  $results = $fa_api->pages_in_category_detailed($cat);
+  eval {$results = $fa_api->pages_in_category_detailed($cat); }; warn $@ if $@;
 
   foreach $result ( @$results)  {
     if ( $result->{'ns'} == $catNS) {
