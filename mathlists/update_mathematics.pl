@@ -14,7 +14,8 @@ undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 # Collect the mathematics articles from the mathematics categories. Merge them into the [[list of mathematics articles]] on Wikipedia.
 # Remove redlinks, redirects, and disambig pages. Submit to Wikipedia the log of changes and newly detected categories. This runs daily.
-
+my $mdash = "\x{2014}";
+my $n09 = "0" . $mdash . "9";
 MAIN: {
 
   $| = 1; # flush the buffer each line
@@ -22,7 +23,7 @@ MAIN: {
   my ($line, @lines, %articles, $letter, %blacklist, @articles_from_cats, $text, $file, $sleep, $attempts, $edit_summary, $todays_log);
   my ($list_of_categories, @letters, @mathematics_categories, @mathematician_categories, @other_categories, $log_file, $count);
   my ($articles_from_cats_file, $all_math_arts_file, @new_categories, %current_categories, %all_articles, $mathematicians_logfile, $prefix, $Editor);
-  @letters=("0-9", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
+  @letters=($n09, "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
 
   # Files involved (they are many).
   $list_of_categories='List_of_mathematics_categories.wiki';
@@ -124,7 +125,7 @@ sub merge_new_entries_from_categories{
     $link_stripped = &strip_accents_and_stuff ($link); 
     
     # now, do not deal with any articles except the current letter
-    if ($letter eq "0-9"){
+    if ($letter eq $n09){
       next unless ($link_stripped =~ /^[0-9]/);
     }else{
       next unless ($link_stripped =~ /^$letter/i);
