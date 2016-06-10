@@ -26,7 +26,7 @@ MAIN:{
   $attempts = 100; $sleep = 1;
   $days=2;  $limit=5000;
 
-  $base='http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_';
+  $base='https://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_';
   foreach $letter (@letters){
     
     $link = $base . '%28' . $letter . '%29&hideminor=0&days=' . $days . '&limit=' . $limit;

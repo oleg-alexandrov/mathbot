@@ -6,17 +6,21 @@ Category:16th-century mathematicians by nationality
 Category:Johannes Kepler
 Category:Nicolaus Copernicus
 Category:17th-century mathematicians by nationality
+Category:Christiaan Huygens
 Category:Gottfried Leibniz
 Category:18th-century mathematicians by nationality
 Category:19th-century mathematicians by nationality
+Category:Niels Henrik Abel
 Category:20th-century mathematicians by nationality
 Category:Bertrand Russell
 Category:Mathematicians who died in the Holocaust
 Category:21st-century mathematicians by nationality
 Category:Algerian mathematicians
 Category:Gabonese mathematicians
-Category:Kenyan mathematicians
+Category:Namibian mathematicians
+Category:Republic of the Congo mathematicians
 Category:Tunisian mathematicians
+Category:Ugandan mathematicians
 Category:18th-century American mathematicians
 Category:19th-century American mathematicians
 Category:20th-century American mathematicians
@@ -25,13 +29,16 @@ Category:African-American mathematicians
 Category:American cryptographers
 Category:American information theorists
 Category:American statisticians
+Category:American women mathematicians
+Category:Claude Shannon
 Category:Hollis Chair of Mathematics and Natural Philosophy
 Category:Stanford University Department of Mathematics faculty
 Category:Ancient Greek logicians
-Category:Pythagoreans
+Category:Pythagoras
 Category:Ancient Chinese mathematicians
 Category:Medieval Arab mathematicians
 Category:Argentine information theorists
+Category:20th-century Australian mathematicians
 Category:Australian cryptographers
 Category:Australian logicians
 Category:Australian statisticians
@@ -39,6 +46,7 @@ Category:Austrian cryptographers
 Category:Austrian information theorists
 Category:Austrian logicians
 Category:Austrian statisticians
+Category:Belgian cryptographers
 Category:Belgian logicians
 Category:Belgian statisticians
 Category:Brazilian logicians
@@ -71,8 +79,12 @@ Category:Chinese statisticians
 Category:Medieval Chinese mathematicians
 Category:Czech logicians
 Category:Czech statisticians
+Category:20th-century Danish mathematicians
+Category:21st-century Danish mathematicians
 Category:Danish actuaries
 Category:Danish statisticians
+Category:20th-century Dutch mathematicians
+Category:21st-century Dutch mathematicians
 Category:Dutch cryptographers
 Category:Dutch logicians
 Category:Dutch statisticians
@@ -109,7 +121,10 @@ Category:18th-century German mathematicians
 Category:19th-century German mathematicians
 Category:20th-century German mathematicians
 Category:21st-century German mathematicians
+Category:Bernhard Riemann
 Category:Carl Friedrich Gauss
+Category:David Hilbert
+Category:Georg Cantor
 Category:German information theorists
 Category:German logicians
 Category:German statisticians
@@ -154,16 +169,20 @@ Category:Proof theorists
 Category:Cryptographer stubs
 Category:Statistician stubs
 Category:Amateur mathematicians
-Category:Benedictine mathematicians
 Category:Fellows of the American Mathematical Society
 Category:Fictional mathematicians
 Category:Lists of mathematicians
 Category:Lists of things named after mathematicians
+Category:Mathematicians by award
+Category:Mathematicians by city
+Category:Mathematicians by ethnicity
 Category:Mental calculators
+Category:Paul Lévy (mathematician)
 Category:Pseudonymous mathematicians
 Category:Second Wranglers
 Category:Senior Wranglers
 Category:Tarski lecturers
+Category:Wikipedia categories named after mathematicians
 Category:Actuaries
 Category:Ballistics experts
 Category:Bioinformaticians
@@ -171,14 +190,18 @@ Category:Biostatisticians
 Category:Coding theorists
 Category:Combinatorialists
 Category:Complex analysts
+Category:Computer scientists
 Category:Cryptographers
 Category:Cyberneticists
+Category:Dynamical systems theorists
 Category:Game theorists
 Category:Geodesists
 Category:Information theorists
+Category:Mathematical cognition researchers
 Category:Mathematical ecologists
 Category:Mathematical economists
 Category:Mathematical physicists
+Category:Mathematics writers
 Category:Monte Carlo methodologists
 Category:Operations researchers
 Category:Queueing theorists
@@ -190,33 +213,37 @@ Category:Carniolan mathematicians
 Category:Cryptographers by nationality
 Category:Czechoslovak mathematicians
 Category:Ecuadorian mathematicians
+Category:Ethnic Armenian mathematicians
 Category:Flemish mathematicians
+Category:Indonesian mathematicians
+Category:Information theorists by nationality
+Category:Kenyan mathematicians
 Category:Korean mathematicians
-Category:Kurdish mathematicians
 Category:Logicians by nationality
 Category:Maltese mathematicians
 Category:Mathematicians from Georgia (country)
-Category:Namibian mathematicians
 Category:Ottoman mathematicians
 Category:Singaporean mathematicians
 Category:South Korean mathematicians
 Category:Statisticians by nationality
-Category:Ugandan mathematicians
+Category:Tajikistani mathematicians
 Category:Venezuelan mathematicians
 Category:Statistics educators
 Category:Mathematicians of medieval Islam
 Category:Medieval Jewish mathematicians
 Category:Medieval Persian mathematicians
+Category:Medieval Polish mathematicians
 Category:Medieval Spanish mathematicians
 Category:Medieval Syrian mathematicians
 Category:Medieval Tunisian mathematicians
 Category:Medieval Turkic mathematicians
 Category:New Zealand logicians
 Category:New Zealand statisticians
-Category:Niels Henrik Abel
 Category:Norwegian logicians
 Category:Norwegian statisticians
 Category:People associated with the finite element method
+Category:20th-century Pakistani mathematicians
+Category:21st-century Pakistani mathematicians
 Category:Pakistani cryptographers
 Category:Pakistani information theorists
 Category:Pakistani logicians
@@ -233,15 +260,18 @@ Category:Romanian statisticians
 Category:18th-century Russian mathematicians
 Category:19th-century Russian mathematicians
 Category:20th-century Russian mathematicians
+Category:21st-century Russian mathematicians
 Category:Imperial Russian mathematicians
 Category:Russian cryptographers
 Category:Russian information theorists
 Category:Russian logicians
 Category:Russian statisticians
+Category:17th-century Scottish mathematicians
 Category:Scottish logicians
 Category:Scottish statisticians
 Category:Serbian statisticians
 Category:South African statisticians
+Category:Soviet logicians
 Category:Sri Lankan Tamil mathematicians
 Category:Swedish information theorists
 Category:Swedish logicians
@@ -253,3 +283,4 @@ Category:Swiss statisticians
 Category:Taiwanese statisticians
 Category:Turkish logicians
 Category:Welsh statisticians
+Category:French women mathematicians

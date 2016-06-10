@@ -292,7 +292,7 @@ close(MAIN_FILE);
 &wikipedia_submit($main_file, 'Update table', $maintext, $attempts, $sleep);
 #&submit_file ($main_file);
 
-print '<br>Done! You may go back to <a href="http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Mathematics/PlanetMath_Exchange"> The project page. </a><br>';
+print '<br>Done! You may go back to <a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Mathematics/PlanetMath_Exchange"> The project page. </a><br>';
 
 
 #open STDOUT, ">temp.txt";

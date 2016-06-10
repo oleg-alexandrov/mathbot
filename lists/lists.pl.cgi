@@ -90,8 +90,8 @@ MAIN: {
   ($talk, $p1, $p2, $p3, $p4, $p5) = &printout ($talk, $list, $read, $p1, $p2, $p3, $p4, $p5);
 
   # Convert to the new url
-  my $old_addr='http://www.math.ucla.edu/~aoleg/wp';
-  my $new_addr='http://tools.wikimedia.de/~mathbot/cgi-bin/wp';
+  my $old_addr='https://www.math.ucla.edu/~aoleg/wp';
+  my $new_addr='https://tools.wikimedia.de/~mathbot/cgi-bin/wp';
   $talk =~ s/$old_addr/$new_addr/g;
 
   # retroactively fix a typo
@@ -101,7 +101,7 @@ MAIN: {
   wikipedia_submit($Editor, $list_talk, "List articles missing from the \[\[$liststrip\]\].", $talk, $attempts, $sleep);
 
   $list_talk =~ s/\.wiki//g;
-  print "Done. You may now go back to the <A href=\"http://en.wikipedia.org/wiki/$list_talk\">$list_talk</a><br>\n";
+  print "Done. You may now go back to the <A href=\"https://en.wikipedia.org/wiki/$list_talk\">$list_talk</a><br>\n";
   
 }
 sub printout {

@@ -28,7 +28,7 @@ try to use invalid cache data.
 
 For more information on notebooks and Mathematica-compatible 
 applications, contact Wolfram Research:
-  web: http://www.wolfram.com
+  web: https://www.wolfram.com
   email: info@wolfram.com
   phone: +1-217-398-0700 (U.S.)
 

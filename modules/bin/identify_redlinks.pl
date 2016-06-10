@@ -8,7 +8,7 @@ sub identify_redlinks {
 
   $article = shift; $redlinks = shift; $bluelinks = shift; 
   
-  $wiki_http='http://en.wikipedia.org';
+  $wiki_http='https://en.wikipedia.org';
 
   $link = $wiki_http . '/wiki/' . &html_encode_string ($article);
   print "Identify redlinks/bluelinks in $link\n";

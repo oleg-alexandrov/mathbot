@@ -58,7 +58,7 @@ sub guess_media_type
     if (ref($file)) {
 	# assume URI object
 	$file = $file->path;
-	#XXX should handle non http:, file: or ftp: URIs differently
+	#XXX should handle non https:, file: or ftp: URIs differently
     }
     else {
 	$fullname = $file;  # enable peek at actual file

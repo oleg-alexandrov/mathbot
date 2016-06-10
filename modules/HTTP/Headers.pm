@@ -383,7 +383,7 @@ attribute-value pairs as parameters to the constructor.  I<E.g.>:
  $h = HTTP::Headers->new(
        Date         => 'Thu, 03 Feb 1994 00:00:00 GMT',
        Content_Type => 'text/html; version=3.2',
-       Content_Base => 'http://www.perl.org/');
+       Content_Base => 'https://www.perl.org/');
 
 The constructor arguments are passed to the C<header> method which is
 described below.

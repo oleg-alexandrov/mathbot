@@ -26,7 +26,7 @@ sub wikipedia_login {
   my %Dictionary = &language_definitions();
   my $Lang = $Dictionary{'Lang'};
   
-  my $wiki_http='http://' . $Lang . '.wikipedia.org';
+  my $wiki_http='https://' . $Lang . '.wikipedia.org';
   my $opt_u=$bot_name;
   my $opt_p="DefaultPassword";
   my $command='login';

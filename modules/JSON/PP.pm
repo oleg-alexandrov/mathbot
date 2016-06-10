@@ -2114,7 +2114,7 @@ Most of the document are copied and modified from JSON::XS doc.
 
 L<JSON::XS>
 
-RFC4627 (L<http://www.ietf.org/rfc/rfc4627.txt>)
+RFC4627 (L<https://www.ietf.org/rfc/rfc4627.txt>)
 
 =head1 AUTHOR
 

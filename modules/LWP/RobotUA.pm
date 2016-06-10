@@ -218,7 +218,7 @@ LWP::RobotUA - a class for well-behaved Web robots
   ...
 
   # Then just use it just like a normal LWP::UserAgent:
-  my $response = $ua->get('http://whatever.int/...');
+  my $response = $ua->get('https://whatever.int/...');
   ...
 
 =head1 DESCRIPTION
@@ -229,7 +229,7 @@ should consult the F</robots.txt> file to ensure that they are welcomed
 and they should not make requests too frequently.
 
 But before you consider writing a robot, take a look at
-<URL:http://www.robotstxt.org/>.
+<URL:https://www.robotstxt.org/>.
 
 When you use a I<LWP::RobotUA> object as your user agent, then you do not
 really have to think about these things yourself; C<robots.txt> files

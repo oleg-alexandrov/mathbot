@@ -10,7 +10,7 @@ sub fetch_articles_cats{
   %Dictionary = &language_definitions();
   $Lang      = $Dictionary{'Lang'};
   $Category  = $Dictionary{'Category'};
-  $wiki_http = 'http://' . $Lang . '.wikipedia.org';
+  $wiki_http = 'https://' . $Lang . '.wikipedia.org';
 
   $max_failures = 10;  $sleep = 5;
 

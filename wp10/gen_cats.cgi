@@ -95,5 +95,5 @@ MAIN: {
 
 sub print_cat {
   my $cat = shift;
-  return '<a href="http://en.wikipedia.org/wiki/' . &html_encode($cat) . '">' . $cat . '</a>';
+  return '<a href="https://en.wikipedia.org/wiki/' . &html_encode($cat) . '">' . $cat . '</a>';
 }

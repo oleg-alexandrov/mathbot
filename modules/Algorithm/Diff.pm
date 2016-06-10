@@ -20,7 +20,7 @@ require Exporter;
 # McIlroy-Hunt diff algorithm
 # Adapted from the Smalltalk code of Mario I. Wolczko, <mario@wolczko.com>
 # by Ned Konz, perl@bike-nomad.com
-# Updates by Tye McQueen, http://perlmonks.org/?node=tye
+# Updates by Tye McQueen, https://perlmonks.org/?node=tye
 
 # Create a hash that maps each element of $aCollection to the set of
 # positions it occupies in $aCollection, restricted to the elements
@@ -1669,7 +1669,7 @@ they will die with a message.
 
 =head1 AUTHOR
 
-This version released by Tye McQueen (http://perlmonks.org/?node=tye).
+This version released by Tye McQueen (https://perlmonks.org/?node=tye).
 
 =head1 LICENSE
 

@@ -130,7 +130,7 @@ sub _get
 {
     my $url = shift;
     my $ret;
-    if (!$FULL_LWP && $url =~ m,^http://([^/:\@]+)(?::(\d+))?(/\S*)?$,) {
+    if (!$FULL_LWP && $url =~ m,^https://([^/:\@]+)(?::(\d+))?(/\S*)?$,) {
 	my $host = $1;
 	my $port = $2 || 80;
 	my $path = $3;
@@ -143,7 +143,7 @@ sub _get
 	    # non-absolute redirect from &_trivial_http_get
 	    my($host, $port, $path) = @_;
 	    require URI;
-	    $url = URI->new_abs($url, "http://$host:$port$path");
+	    $url = URI->new_abs($url, "https://$host:$port$path");
 	}
 	my $request = HTTP::Request->new(GET => $url);
 	my $response = $ua->request($request);
@@ -204,17 +204,17 @@ LWP::Simple - simple procedural interface to LWP
 
 =head1 SYNOPSIS
 
- perl -MLWP::Simple -e 'getprint "http://www.sn.no"'
+ perl -MLWP::Simple -e 'getprint "https://www.sn.no"'
 
  use LWP::Simple;
- $content = get("http://www.sn.no/");
+ $content = get("https://www.sn.no/");
  die "Couldn't get it!" unless defined $content;
 
- if (mirror("http://www.sn.no/", "foo") == RC_NOT_MODIFIED) {
+ if (mirror("https://www.sn.no/", "foo") == RC_NOT_MODIFIED) {
      ...
  }
 
- if (is_success(getprint("http://www.sn.no/"))) {
+ if (is_success(getprint("https://www.sn.no/"))) {
      ...
  }
 

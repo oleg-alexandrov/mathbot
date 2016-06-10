@@ -4,7 +4,7 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 
 # Some Wikipedia articles are categorized by quality.  Go through those categories, get a list of all such articles,
 # and print them out in tables, sectioned by category. Also write a log of what happened, and this is the hardest. 
-# See http://en.wikipedia.org/wiki/Wikipedia:Version_1.0_Editorial_Team/Index for more details.
+# See https://en.wikipedia.org/wiki/Wikipedia:Version_1.0_Editorial_Team/Index for more details.
 
 # All the code is actually in wp10_routines.pl which we load and call below.
 # It is convenient to keep things that way so that those routines can also be called from a CGI script.

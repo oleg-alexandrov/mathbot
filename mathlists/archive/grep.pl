@@ -178,7 +178,7 @@ sub blank_line {
 #  if ($text =~ /(^|\n)([^\n]*)(couldn|doesn|won|can|shouldn|wouldn)(\'t)(.*?\n)/){
 #  if ($text =~ /\{\{merge\}\}\s*\[\[/i){
 #  if ($text =~ /(.)(.)(knows?n?)(\'t)(.*?\n)/i){
-#  if ($text =~ /\n([^\n]*?\[http:\/\/www-gap.dcs.st-and.ac.uk\/~history\/Mathematicians\/\w[^\n]*?MacTutor.*?)\n/i){
+#  if ($text =~ /\n([^\n]*?\[https:\/\/www-gap.dcs.st-and.ac.uk\/~history\/Mathematicians\/\w[^\n]*?MacTutor.*?)\n/i){
   if ($text !~ /MacTutor/i){
     open (FILE, ">>result.txt");
     print "$art_decoded does not have MacTutor link! \n";
@@ -187,7 +187,7 @@ sub blank_line {
     
 #     if ($interactive){
 # #      $text =~ s/\{\{merge\}\}\s*\[\[(.*?)\]\]/\{\{mergewith|$1\}\}/sg;
-#       $text =~ s/\[http:\/\/www-gap.dcs.st-and.ac.uk\/~history\/Mathematicians\/(\w.*?)\.html.*?\n/\{\{MacTutor Biography\|id=$1\}\}\n/;
+#       $text =~ s/\[https:\/\/www-gap.dcs.st-and.ac.uk\/~history\/Mathematicians\/(\w.*?)\.html.*?\n/\{\{MacTutor Biography\|id=$1\}\}\n/;
 
       
 #       $$ptext = $text;

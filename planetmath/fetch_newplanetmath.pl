@@ -5,14 +5,14 @@ use diagnostics;                       # 'diagnostics' expands the cryptic warni
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 use LWP::Simple;
 
-my $base='http://planetmath.org/';
+my $base='https://planetmath.org/';
 my ($level, $file);
 undef $/; #read the whole file in a line
 
 # Go to the working directory
 chdir 'data';
 
-my $text = get('http://planetmath.org/browse/objects/');
+my $text = get('https://planetmath.org/browse/objects/');
 open (FILE, ">ZZZ0.txt");
 print FILE "$text\n";
 close(FILE);

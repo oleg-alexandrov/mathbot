@@ -44,7 +44,7 @@ my $Category     = $Dictionary{'Category'};
 my $Wikipedia    = $Dictionary{'Wikipedia'};
 my $WikiProject  = $Dictionary{'WikiProject'};
 my $WP           = $Dictionary{'WP'};
-my $Wiki_http    = 'http://' . $Lang . '.wikipedia.org';
+my $Wiki_http    = 'https://' . $Lang . '.wikipedia.org';
 
 # More language specific stuff. These are keywords for this particular Wikipedia 1.0 script
 # that's why they are not in the module "bin/language_definitions.pl"
@@ -518,7 +518,7 @@ sub extract_assessments{
     $art->{'date'} =~ s/[\[\]]//g; # rm links from dates
 
     # this is necessary as some articles may also have an external link next to them, pointing to a specific version
-    if ($art->{'name'} =~ /\[\[(.*?)\]\]\s*\[(http:\/\/.*?)\s*\]/){
+    if ($art->{'name'} =~ /\[\[(.*?)\]\]\s*\[(https:\/\/.*?)\s*\]/){
       $art->{'name'}=$1;
       $art->{'hist_link'}=$2;
     }else{
@@ -1802,7 +1802,7 @@ sub write_old_ids_on_disk {
     $old_ids_on_disk->{$article}->{'date'} = $new_arts->{$article}->{'date'};
 
     # the old id is obtained from the history link by removing everything but the id
-    # http://en.wikipedia.org/w/index.php?title=Ambon_Island&oldid=69789582 becomes 69789582
+    # https://en.wikipedia.org/w/index.php?title=Ambon_Island&oldid=69789582 becomes 69789582
     $link = $new_arts->{$article}->{'hist_link'};
     if ( $link =~ /oldid=(\d+)/ ){
       $old_ids_on_disk->{$article}->{'old_id'} = $1; 
@@ -1916,7 +1916,7 @@ sub old_id_to_hist_link {
 
 ######################################################################
 # given a link to a history version of a Wikipedia article
-# of the form http://en.wikipedia.org/w/index.php?oldid=86978700
+# of the form https://en.wikipedia.org/w/index.php?oldid=86978700
 # get the article name (as the heading 1 title)
 sub hist_link_to_article_name {
 

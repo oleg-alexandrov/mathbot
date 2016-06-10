@@ -15,7 +15,7 @@ foreach $letter (@letters){
 
   print "$letter\n";
   
-  $address="http://eom.springer.de/$letter/default.htm";
+  $address="https://eom.springer.de/$letter/default.htm";
   $text = get ($address);
 
   if ($text !~ /All entries within $letter(.*?)$/s){

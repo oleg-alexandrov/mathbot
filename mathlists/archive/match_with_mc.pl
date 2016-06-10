@@ -5,7 +5,7 @@ require "encode_decode.pl";
 
 my (@mc, @wp, $url);
 
-$url='http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/';
+$url='https://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/';
 open (FILE, "<Mc_tutor.html");
 @mc=<FILE>;
 close(FILE);

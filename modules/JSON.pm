@@ -601,7 +601,7 @@ This version is compatible with JSON::XS B<2.24> and later.
  *******************************************************************
 
 JSON (JavaScript Object Notation) is a simple data format.
-See to L<http://www.json.org/> and C<RFC4627>(L<http://www.ietf.org/rfc/rfc4627.txt>).
+See to L<https://www.json.org/> and C<RFC4627>(L<https://www.ietf.org/rfc/rfc4627.txt>).
 
 This module converts Perl data structures to JSON and vice versa using either
 L<JSON::XS> or L<JSON::PP>.
@@ -2045,7 +2045,7 @@ Most of the document is copied and modified from JSON::XS doc.
 
 L<JSON::XS>, L<JSON::PP>
 
-C<RFC4627>(L<http://www.ietf.org/rfc/rfc4627.txt>)
+C<RFC4627>(L<https://www.ietf.org/rfc/rfc4627.txt>)
 
 =head1 AUTHOR
 

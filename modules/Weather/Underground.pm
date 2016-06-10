@@ -16,7 +16,7 @@ $VERSION = '3.02';
 # GLOBAL Variables Assignments
 #
 
-$CGI    = 'http://mobile.wunderground.com/cgi-bin/findweather/getForecast';
+$CGI    = 'https://mobile.wunderground.com/cgi-bin/findweather/getForecast';
 $CGIVAR = 'query';
 $MYNAME = "Weather::Underground";
 $DEBUG  = 0;
@@ -256,7 +256,7 @@ If the constructor or a method returns undef, the variable $@ will contain a tex
 =head1 AUTHOR
 
 Mina Naguib
-http://mina.naguib.ca
+https://mina.naguib.ca
 mnaguib@cpan.org
 
 =head1 COPYRIGHT

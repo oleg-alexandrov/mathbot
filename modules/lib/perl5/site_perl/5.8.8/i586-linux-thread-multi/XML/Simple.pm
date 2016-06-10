@@ -73,7 +73,7 @@ my $DefRootName    = qq(opt);
 my $DefContentKey  = qq(content);
 my $DefXmlDecl     = qq(<?xml version='1.0' standalone='yes'?>);
 
-my $xmlns_ns       = 'http://www.w3.org/2000/xmlns/';
+my $xmlns_ns       = 'https://www.w3.org/2000/xmlns/';
 my $bad_def_ns_jcn = '{' . $xmlns_ns . '}';     # LibXML::SAX workaround
 
 
@@ -2540,7 +2540,7 @@ Note: you can spell this option with a 'z' if that is more natural for you.
 This option controls namespace expansion - the translation of element and
 attribute names of the form 'prefix:name' to '{uri}name'.  For example the
 element name 'xsl:template' might be expanded to:
-'{http://www.w3.org/1999/XSL/Transform}template'.
+'{https://www.w3.org/1999/XSL/Transform}template'.
 
 By default, C<XMLin()> will return element names and attribute names exactly as
 they appear in the XML.  Setting this option to 1 will cause all element and
@@ -3248,7 +3248,7 @@ You don't need help converting between different encodings
 In a serious XML project, you'll probably outgrow these assumptions fairly
 quickly.  This section of the document used to offer some advice on chosing a
 more powerful option.  That advice has now grown into the 'Perl-XML FAQ'
-document which you can find at: L<http://perl-xml.sourceforge.net/faq/>
+document which you can find at: L<https://perl-xml.sourceforge.net/faq/>
 
 The advice in the FAQ boils down to a quick explanation of tree versus
 event based parsers and then recommends:

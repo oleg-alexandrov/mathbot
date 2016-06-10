@@ -197,7 +197,7 @@ sub send_request
 	    $response->content_type("text/plain");
 	    $response->content(<<EOT);
 LWP will support https URLs if the Crypt::SSLeay module is installed.
-More information at <http://www.linpro.no/lwp/libwww-perl/README.SSL>.
+More information at <https://www.linpro.no/lwp/libwww-perl/README.SSL>.
 EOT
 	}
 	return $response;
@@ -822,7 +822,7 @@ LWP::UserAgent - Web user agent class
  $ua->timeout(10);
  $ua->env_proxy;
  
- my $response = $ua->get('http://search.cpan.org/');
+ my $response = $ua->get('https://search.cpan.org/');
  
  if ($response->is_success) {
      print $response->content;  # or whatever
@@ -1111,8 +1111,8 @@ proxy server.
 
 Set/retrieve proxy URL for a scheme:
 
- $ua->proxy(['http', 'ftp'], 'http://proxy.sn.no:8001/');
- $ua->proxy('gopher', 'http://proxy.sn.no:8001/');
+ $ua->proxy(['http', 'ftp'], 'https://proxy.sn.no:8001/');
+ $ua->proxy('gopher', 'https://proxy.sn.no:8001/');
 
 The first form specifies that the URL is to be used for proxying of
 access methods listed in the list in the first method argument,
@@ -1133,8 +1133,8 @@ any domains clears the list of domains. Eg:
 Load proxy settings from *_proxy environment variables.  You might
 specify proxies like this (sh-syntax):
 
-  gopher_proxy=http://proxy.my.place/
-  wais_proxy=http://proxy.my.place/
+  gopher_proxy=https://proxy.my.place/
+  wais_proxy=https://proxy.my.place/
   no_proxy="localhost,my.domain"
   export gopher_proxy wais_proxy no_proxy
 

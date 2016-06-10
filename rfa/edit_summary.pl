@@ -67,7 +67,7 @@ MAIN: {
     
     $tag_base= $beg . "\n"
        . "*See \[\[User:$user\|$user\]\]\'s edit summary usage with " 
-          . "[http://toolserver.org/~mathbot/cgi-bin/wp/rfa/edit_summary.cgi?user=" 
+          . "[https://toolserver.org/~mathbot/cgi-bin/wp/rfa/edit_summary.cgi?user=" 
              . &html_encode($user) 
                 . "&lang=$lang mathbot's tool]. "
                    . "For the edit count, see the \[\[$nomin_talk\|talk page\]\].\n"
@@ -162,7 +162,7 @@ sub post_edit_summary_on_talk_page{
   # .wiki extension necessary for submitting things
   $nomin_talk = $nomin_talk . '.wiki';
   
-  $tool_url = 'http://toolserver.org/~interiot/cgi-bin/Tool1/wannabe_kate?username='
+  $tool_url = 'https://toolserver.org/~interiot/cgi-bin/Tool1/wannabe_kate?username='
      . &html_encode($user)
         . '&site=en.wikipedia.org';
   

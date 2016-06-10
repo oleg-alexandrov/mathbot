@@ -7,7 +7,7 @@ use open ':utf8'; # input/output in unicode
 MAIN:{
   my ($address, $text, @entries);
   
-  $address="http://www-history.mcs.st-andrews.ac.uk/history/Glossary/index.html";
+  $address="https://www-history.mcs.st-andrews.ac.uk/history/Glossary/index.html";
   $text = get ($address);
   #print "$text\n";
 

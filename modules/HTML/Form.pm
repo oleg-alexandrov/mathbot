@@ -73,7 +73,7 @@ with LWP then this this parameter is obtained from the
 $response->base() method, as shown by the following example:
 
     my $ua = LWP::UserAgent->new;
-    my $response = $ua->get("http://www.example.com/form.html");
+    my $response = $ua->get("https://www.example.com/form.html");
     my @forms = HTML::Form->parse($response->decoded_content,
 				  $response->base);
 
@@ -81,7 +81,7 @@ The parse() method can parse from an C<HTTP::Response> object
 directly, so the example above can be more conveniently written as:
 
     my $ua = LWP::UserAgent->new;
-    my $response = $ua->get("http://www.example.com/form.html");
+    my $response = $ua->get("https://www.example.com/form.html");
     my @forms = HTML::Form->parse($response);
 
 Note that any object that implements a decoded_content() and base() method

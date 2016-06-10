@@ -102,7 +102,7 @@ The libwww-perl library is based on HTTP style communication. This
 section tries to describe what that means.
 
 Let us start with this quote from the HTTP specification document
-<URL:http://www.w3.org/pub/WWW/Protocols/>:
+<URL:https://www.w3.org/pub/WWW/Protocols/>:
 
 =over 3
 
@@ -277,7 +277,7 @@ headers from the E<lt>head> section of HTML documents.
 =item *
 
 The B<proxy> and B<no_proxy> attributes specify if and when to go through
-a proxy server. <URL:http://www.w3.org/pub/WWW/Proxies/>
+a proxy server. <URL:https://www.w3.org/pub/WWW/Proxies/>
 
 =item *
 
@@ -302,7 +302,7 @@ represented in actual perl code:
   $ua->agent("MyApp/0.1 ");
 
   # Create a request
-  my $req = HTTP::Request->new(POST => 'http://search.cpan.org/search');
+  my $req = HTTP::Request->new(POST => 'https://search.cpan.org/search');
   $req->content_type('application/x-www-form-urlencoded');
   $req->content('query=libwww-perl&mode=dist');
 
@@ -523,7 +523,7 @@ library. Indentation shows class inheritance.
    LWP::UserAgent   -- WWW user agent class
      LWP::RobotUA   -- When developing a robot applications
    LWP::Protocol          -- Interface to various protocol schemes
-     LWP::Protocol::http  -- http:// access
+     LWP::Protocol::http  -- https:// access
      LWP::Protocol::file  -- file:// access
      LWP::Protocol::ftp   -- ftp:// access
      ...
@@ -649,7 +649,7 @@ modify it under the same terms as Perl itself.
 The latest version of this library is likely to be available from CPAN
 as well as:
 
- http://www.linpro.no/lwp/
+ https://www.linpro.no/lwp/
 
 The best place to discuss this code is on the <libwww@perl.org>
 mailing list.

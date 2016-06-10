@@ -30,7 +30,7 @@ sub parse_edits {
   
   $verbose = 0;
   $total_major=0; $total_minor=0; $commented_major=0; $commented_minor=0;
-  $wiki_http = "http://$lang.wikipedia.org";
+  $wiki_http = "https://$lang.wikipedia.org";
   $error_msg = '<font color=red>Failed to get the link!</font> Server problem or the user may not exist. ';
   
   $link = $wiki_http . "/w/index.php?limit=500&title=Special%3AContributions&contribs=user&target=$user_enc&namespace=0";

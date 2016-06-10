@@ -301,7 +301,7 @@ URI - Uniform Resource Identifiers (absolute and relative)
 
 =head1 SYNOPSIS
 
- $u1 = URI->new("http://www.perl.com");
+ $u1 = URI->new("https://www.perl.com");
  $u2 = URI->new("foo", "http");
  $u3 = $u2->abs($u1);
  $u4 = $u3->clone;
@@ -795,7 +795,7 @@ following mailto-specific methods: $uri->to, $uri->headers.
 
 =item B<mms>:
 
-The I<mms> URL specification can be found at L<http://sdp.ppona.com/>
+The I<mms> URL specification can be found at L<https://sdp.ppona.com/>
 C<URI> objects belonging to the mms scheme support the common,
 generic, and server methods, with the exception of userinfo and
 query-related sub-components.
@@ -843,7 +843,7 @@ instead of TCP.  The syntax is the same as rtsp.
 
 =item B<rsync>:
 
-Information about rsync is available from http://rsync.samba.org.
+Information about rsync is available from https://rsync.samba.org.
 C<URI> objects belonging to the rsync scheme support the common,
 generic and server methods.  In addition, they provide methods to
 access the userinfo sub-components: $uri->user and $uri->password.
@@ -880,7 +880,7 @@ common, generic and server methods.
 
 =item B<ssh>:
 
-Information about ssh is available at http://www.openssh.com/.
+Information about ssh is available at https://www.openssh.com/.
 C<URI> objects belonging to the ssh scheme support the common,
 generic and server methods. In addition, they provide methods to
 access the userinfo sub-components: $uri->user and $uri->password.
@@ -895,7 +895,7 @@ and the Namespace-Specific String respectively.
 The Namespace Identifier basically works like the Scheme identifier of
 URIs, and further divides the URN namespace.  Namespace Identifier
 assignments are maintained at
-<http://www.iana.org/assignments/urn-namespaces>.
+<https://www.iana.org/assignments/urn-namespaces>.
 
 Letter case is not significant for the Namespace Identifier.  It is
 always returned in lower case by the $uri->nid method.  The $uri->_nid
@@ -934,12 +934,12 @@ that this should be avoided, but you can enable this old behaviour by
 setting the $URI::ABS_ALLOW_RELATIVE_SCHEME variable to a TRUE value.
 The difference is demonstrated by the following examples:
 
-  URI->new("http:foo")->abs("http://host/a/b")
-      ==>  "http:foo"
+  URI->new("https:foo")->abs("https://host/a/b")
+      ==>  "https:foo"
 
   local $URI::ABS_ALLOW_RELATIVE_SCHEME = 1;
-  URI->new("http:foo")->abs("http://host/a/b")
-      ==>  "http:/host/a/foo"
+  URI->new("https:foo")->abs("https://host/a/b")
+      ==>  "https:/host/a/foo"
 
 
 =item $URI::ABS_REMOTE_LEADING_DOTS
@@ -949,12 +949,12 @@ segments in the relative URI by setting $URI::ABS_REMOTE_LEADING_DOTS
 to a TRUE value.  The difference is demonstrated by the following
 examples:
 
-  URI->new("../../../foo")->abs("http://host/a/b")
-      ==> "http://host/../../foo"
+  URI->new("../../../foo")->abs("https://host/a/b")
+      ==> "https://host/../../foo"
 
   local $URI::ABS_REMOTE_LEADING_DOTS = 1;
-  URI->new("../../../foo")->abs("http://host/a/b")
-      ==> "http://host/foo"
+  URI->new("../../../foo")->abs("https://host/a/b")
+      ==> "https://host/foo"
 
 =back
 
@@ -987,11 +987,11 @@ L<URI::Split>, L<URI::Heuristic>
 RFC 2396: "Uniform Resource Identifiers (URI): Generic Syntax",
 Berners-Lee, Fielding, Masinter, August 1998.
 
-http://www.iana.org/assignments/uri-schemes
+https://www.iana.org/assignments/uri-schemes
 
-http://www.iana.org/assignments/urn-namespaces
+https://www.iana.org/assignments/urn-namespaces
 
-http://www.w3.org/Addressing/
+https://www.w3.org/Addressing/
 
 =head1 COPYRIGHT
 

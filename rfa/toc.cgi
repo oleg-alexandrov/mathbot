@@ -31,7 +31,7 @@ MAIN: {
   $toc=  $rfa . '/TOC.wiki';
 
   $rfa_url = $rfa; $rfa_url =~ s/ /_/g;
-  $rfa_url = 'http://en.wikipedia.org/wiki/' . $rfa_url;
+  $rfa_url = 'https://en.wikipedia.org/wiki/' . $rfa_url;
 
   $data->{'adminship'}=(); $data->{'bureaucratship'}=();
   $edit_summary = &extract_current_admin_bureaucrat_candidates($rfa, $data);
@@ -201,6 +201,6 @@ sub print_level2{
 
 sub print_toc_footer {
   
-  return "</ul>\n([http://www.math.ucla.edu/~aoleg/wp/rfa/toc.cgi refresh contents])\n"
+  return "</ul>\n([https://www.math.ucla.edu/~aoleg/wp/rfa/toc.cgi refresh contents])\n"
 	. "</td>\n</tr>\n</table>\n";
 }

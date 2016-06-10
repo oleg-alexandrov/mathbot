@@ -2,8 +2,8 @@ sub add_google_links {
   my ($tag, $wiki, $google, $books, $line, $link);
 
   $tag='<!-- bottag -->';
-  $wiki='http://en.wikipedia.org/wiki/Special:Search?search=';
-  $google='http://www.google.com/search?q='; $books='http://books.google.com/books?q=';
+  $wiki='https://en.wikipedia.org/wiki/Special:Search?search=';
+  $google='https://www.google.com/search?q='; $books='https://books.google.com/books?q=';
   
   $line = shift;
   if ($line !~ /\[\[(.*?)\]\]/){

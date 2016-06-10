@@ -102,7 +102,7 @@ sub parse_libcongress {
   my ($isbn, $isbn2, $text, $base, $url, $title, $main_author, $author, $authors, $edition, $publisher, $date, $error, $tag, $main_author_fl); 
 
   $isbn = shift;
-  $url = 'http://catalog.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&CNT=25+records+per+page&CMD=isbn+' . $isbn;
+  $url = 'https://catalog.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&CNT=25+records+per+page&CMD=isbn+' . $isbn;
   print "<a href=\"$url\">Library of Congress data</a>\n";
 
   ($text, $error) = &get_html ($url);
@@ -151,7 +151,7 @@ sub parse_copac{
   $isbn  = shift;
 
   # must go through two urls to get the result
-  $base='http://copac.ac.uk';
+  $base='https://copac.ac.uk';
   $url = $base . '/wzgw?fs=Search&form=A%2FT&au=&cau=&ti=&pub=&isn=+' . $isbn . '&date=&lang=';
   ($text, $error) = &get_html ($url);
 
@@ -263,8 +263,8 @@ sub strip_html_tags_and_format {
 }
 
 sub print_head {
-    print '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+    print '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
 <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
     
 <body>
@@ -282,7 +282,7 @@ for example by following the links above.</li>
 </ul>
 
 <hr>
-<a href="http://en.wikipedia.org/wiki/User_talk:Oleg_Alexandrov">Feedback?</a>
+<a href="https://en.wikipedia.org/wiki/User_talk:Oleg_Alexandrov">Feedback?</a>
 
 </body></html>
 ';

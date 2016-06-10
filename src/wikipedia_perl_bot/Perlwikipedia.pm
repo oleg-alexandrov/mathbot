@@ -65,7 +65,7 @@ sub _get {
     $page =~ s/\&/%26/g; # escape the ampersand
 
     my $url =
-      "http://$self->{host}/$self->{path}/index.php?title=$page&action=$action";
+      "https://$self->{host}/$self->{path}/index.php?title=$page&action=$action";
     $url .= $extra if $extra;
     print "Retrieving $url\n" if $self->{debug};
     my $res = $self->{mech}->get($url);
@@ -92,10 +92,10 @@ m/The action you have requested is limited to users in the group (.+)\./
 sub _get_api {
     my $self  = shift;
     my $query = shift;
-    print "Retrieving http://$self->{host}/$self->{path}/api.php?$query\n"
+    print "Retrieving https://$self->{host}/$self->{path}/api.php?$query\n"
       if $self->{debug};
     my $res =
-      $self->{mech}->get("http://$self->{host}/$self->{path}/api.php?$query");
+      $self->{mech}->get("https://$self->{host}/$self->{path}/api.php?$query");
     if ( $res->is_success() ) {
         return $res;
     } else {
@@ -123,7 +123,7 @@ sub _put {
 
 =item set_wiki($wiki_host,$wiki_path)
 
-set_wiki will cause the Perlwikipedia object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell Perlwikipedia to use http://de.wikipedia.org/w/index.php. Perlwikipedia's default settings are 'en.wikipedia.org' with a path of 'w'.
+set_wiki will cause the Perlwikipedia object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell Perlwikipedia to use https://de.wikipedia.org/w/index.php. Perlwikipedia's default settings are 'en.wikipedia.org' with a path of 'w'.
 
 =cut
 
@@ -131,7 +131,7 @@ sub set_wiki {
     my $self = shift;
     $self->{host} = shift;
     $self->{path} = shift;
-    print "Wiki set to http://$self->{host}/$self->{path}\n" if $self->{debug};
+    print "Wiki set to https://$self->{host}/$self->{path}\n" if $self->{debug};
     return 0;
 }
 

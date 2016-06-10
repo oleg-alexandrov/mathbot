@@ -105,7 +105,7 @@ the form of list that is returned.
 
 =head1 SEE ALSO
 
-L<RFC-2255|http://www.cis.ohio-state.edu/htbin/rfc/rfc2255.html>
+L<RFC-2255|https://www.cis.ohio-state.edu/htbin/rfc/rfc2255.html>
 
 =head1 AUTHOR
 

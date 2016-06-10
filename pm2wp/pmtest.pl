@@ -10,7 +10,7 @@ undef $/;
 
 my ($url, $id, $text, $title);
 
-#$url='http://planetmath.org/?op=getobj&from=objects&id=720';
+#$url='https://planetmath.org/?op=getobj&from=objects&id=720';
 #$text = get($url);
 #print "$text";
 #exit (0);

@@ -11,7 +11,7 @@
 # Thanks are due to many people for reporting bugs and suggestions
 
 # For more information, see:
-#     http://cgi-lib.stanford.edu/cgi-lib/
+#     https://cgi-lib.stanford.edu/cgi-lib/
 
 $cgi_lib'version = sprintf("%d.%02d", q$Revision: 2.18 $ =~ /(\d+)\.(\d+)/);
 
@@ -359,7 +359,7 @@ sub MethPost {
 sub MyBaseUrl {
   local ($ret, $perlwarn);
   $perlwarn = $^W; $^W = 0;
-  $ret = 'http://' . $ENV{'SERVER_NAME'} .  
+  $ret = 'https://' . $ENV{'SERVER_NAME'} .  
          ($ENV{'SERVER_PORT'} != 80 ? ":$ENV{'SERVER_PORT'}" : '') .
          $ENV{'SCRIPT_NAME'};
   $^W = $perlwarn;
@@ -372,7 +372,7 @@ sub MyBaseUrl {
 sub MyFullUrl {
   local ($ret, $perlwarn);
   $perlwarn = $^W; $^W = 0;
-  $ret = 'http://' . $ENV{'SERVER_NAME'} .  
+  $ret = 'https://' . $ENV{'SERVER_NAME'} .  
          ($ENV{'SERVER_PORT'} != 80 ? ":$ENV{'SERVER_PORT'}" : '') .
          $ENV{'SCRIPT_NAME'} . $ENV{'PATH_INFO'} .
          (length ($ENV{'QUERY_STRING'}) ? "?$ENV{'QUERY_STRING'}" : '');

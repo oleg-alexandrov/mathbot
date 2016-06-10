@@ -53,7 +53,7 @@ sub _encode_latin1 {
 }
 
 
-sub _decode_surrogates { # from http://homepage1.nifty.com/nomenclator/unicode/ucs_utf.htm
+sub _decode_surrogates { # from https://homepage1.nifty.com/nomenclator/unicode/ucs_utf.htm
     my $uni = 0x10000 + (hex($_[0]) - 0xD800) * 0x400 + (hex($_[1]) - 0xDC00); # from perlunicode
     my $bit = unpack('B32', pack('N', $uni));
 

@@ -11,7 +11,7 @@ use open 'utf8';             # input/output in unicode
 # for each subject in the AMS math subj. class,
 # create a list of articles on that subject from PlanetMath
 
-my $base='http://planetmath.org/';
+my $base='https://planetmath.org/';
 
 my %ids; # a hash to keep track of the first occurence of an item
 my ($code, $top_file, $bot_file, $ncode, $ndomain, $text, $address);

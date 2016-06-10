@@ -50,7 +50,7 @@ MAIN: {
     wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 
     print '<br><br>Done updating ' .
-       '<a href=\"http://en.wikipedia.org/wiki/' .
+       '<a href=\"https://en.wikipedia.org/wiki/' .
           'Wikipedia:Requests_for_arbitration/Statistics_2011\">' .
              'Wikipedia:Requests for arbitration/Statistics 2011</a>.<br>';
   }else{

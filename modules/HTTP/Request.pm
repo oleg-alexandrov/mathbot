@@ -117,7 +117,7 @@ HTTP::Request - HTTP style request message
 =head1 SYNOPSIS
 
  require HTTP::Request;
- $request = HTTP::Request->new(GET => 'http://www.example.com/');
+ $request = HTTP::Request->new(GET => 'https://www.example.com/');
 
 and usually used like this:
 

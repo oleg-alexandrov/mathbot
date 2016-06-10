@@ -5,7 +5,7 @@ sub fetch_articles_cats{
 
   my ($cat, $cats, $articles, $wiki_http, $text, $error, $tmp, $continue, $link, $count);
 
-  $wiki_http="http://en.wikipedia.org";
+  $wiki_http="https://en.wikipedia.org";
 
   $cat = shift; $cat=&html_encode($cat); # category to search
   $cats=shift; $articles=shift; # the last two are actually arrays, will contain the output artcicles/cats

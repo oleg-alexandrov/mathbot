@@ -16,7 +16,7 @@ sub wikipedia_login {
   my $pass = get_login_info($bot_name, $Dictionary{'Credentials'});
 
   my $Lang = $Dictionary{'Lang'};
-  my $wiki_http='http://' . $Lang . '.wikipedia.org';
+  my $wiki_http='https://' . $Lang . '.wikipedia.org';
   
   # Initiate agent
   #my $editor=Perlwikipedia->new($bot_name);

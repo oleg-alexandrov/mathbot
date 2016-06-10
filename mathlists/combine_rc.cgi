@@ -37,7 +37,7 @@ MAIN: {
   ($top, $bottom) = &read_top_bottom_from_file($file_tb, $bot_tag);
   print "$top\n";
   
-  print '<br><p>Fetching the changes to the <b><a href="http://en.wikipedia.org/wiki/List_of_mathematics_articles">'
+  print '<br><p>Fetching the changes to the <b><a href="https://en.wikipedia.org/wiki/List_of_mathematics_articles">'
       . 'list of mathematics articles</a></b> in the last 24 hours...<br><p>' . "\n\n";
 
   # do some STDOUT manipulation to hide messages from wikipedia_login()
@@ -109,7 +109,7 @@ sub fetch_recent_changes{
 
   $Editor = shift; $page_pt = shift;
 
-  $url = 'http://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematics_articles_('
+  $url = 'https://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematics_articles_('
      . $page_pt . ')&hideminor=0&days=1&limit=5000';
   
   print "<a href=\"$url\">$page_pt</a>\&nbsp;";
@@ -140,7 +140,7 @@ sub extract_top_body_bottom {
   $text = shift;
 
   # make paths absolute
-  $base_url = 'http://en.wikipedia.org/';
+  $base_url = 'https://en.wikipedia.org/';
   $text =~ s/(")\//$1$base_url/g;
 
   $top_sep="Below are the last \<strong\>\\d+\<\/strong\> changes";

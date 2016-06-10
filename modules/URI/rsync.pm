@@ -1,4 +1,4 @@
-package URI::rsync;  # http://rsync.samba.org/
+package URI::rsync;  # https://rsync.samba.org/
 
 # rsync://[USER@]HOST[:PORT]/SRC
 

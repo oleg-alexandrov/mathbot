@@ -28,7 +28,7 @@ a history of the URLs you've visited, which can be queried and revisited.
 
     $mech->follow_link( n => 3 );
     $mech->follow_link( text_regex => qr/download this/i );
-    $mech->follow_link( url => 'http://host.com/index.html' );
+    $mech->follow_link( url => 'https://host.com/index.html' );
 
     $mech->submit_form(
         form_number => 3,
@@ -81,15 +81,15 @@ FAQ in WWW::Mechanize::FAQ for more.
 
 =over 4
 
-=item * L<http://search.cpan.org/dist/WWW-Mechanize/>
+=item * L<https://search.cpan.org/dist/WWW-Mechanize/>
 
 The CPAN documentation page for Mechanize.
 
-=item * L<http://search.cpan.org/dist/WWW-Mechanize/lib/WWW/Mechanize/FAQ.pod>
+=item * L<https://search.cpan.org/dist/WWW-Mechanize/lib/WWW/Mechanize/FAQ.pod>
 
 Frequently asked questions.  Make sure you read here FIRST.
 
-=item * L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-Mechanize>
+=item * L<https://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-Mechanize>
 
 The RT queue for bugs & enhancements in Mechanize.  Click the "Report bug"
 link if your bug isn't already reported.
@@ -2113,8 +2113,8 @@ sub _modify_request {
     my $req = shift;
 
     # add correct Accept-Encoding header to restore compliance with
-    # http://www.freesoft.org/CIE/RFC/2068/158.htm
-    # http://use.perl.org/~rhesa/journal/25952
+    # https://www.freesoft.org/CIE/RFC/2068/158.htm
+    # https://use.perl.org/~rhesa/journal/25952
     if (not $req->header( 'Accept-Encoding' ) ) {
         # "identity" means "please! unencoded content only!"
         $req->header( 'Accept-Encoding', $HAS_ZLIB ? 'gzip' : 'identity' );
@@ -2414,14 +2414,14 @@ __END__
 
 Mech is hosted by the kind generosity of Ask and Robert,
 maintainers of perl.org.  The Subversion repository is at
-L<http://svn.perl.org/modules/www-mechanize>.
+L<https://svn.perl.org/modules/www-mechanize>.
 
 =head1 OTHER DOCUMENTATION
 
 =head2 I<Spidering Hacks>, by Kevin Hemenway and Tara Calishain
 
 I<Spidering Hacks> from O'Reilly
-(L<http://www.oreilly.com/catalog/spiderhks/>) is a great book for anyone
+(L<https://www.oreilly.com/catalog/spiderhks/>) is a great book for anyone
 wanting to know more about screen-scraping and spidering.
 
 There are six hacks that use Mech or a Mech derivative:
@@ -2443,7 +2443,7 @@ There are six hacks that use Mech or a Mech derivative:
 =back
 
 The book was also positively reviewed on Slashdot:
-L<http://books.slashdot.org/article.pl?sid=03/12/11/2126256>
+L<https://books.slashdot.org/article.pl?sid=03/12/11/2126256>
 
 =head1 ONLINE RESOURCES AND SUPPORT
 
@@ -2452,14 +2452,14 @@ L<http://books.slashdot.org/article.pl?sid=03/12/11/2126256>
 =item * LWP mailing list
 
 The LWP mailing list is at
-L<http://lists.perl.org/showlist.cgi?name=libwww>, and is more
+L<https://lists.perl.org/showlist.cgi?name=libwww>, and is more
 user-oriented and well-populated than the WWW::Mechanize Development
 list.  This is a good list for Mech users, since LWP is the basis
 for Mech.
 
 =item * Perlmonks
 
-L<http://perlmonks.org> is an excellent community of support, and
+L<https://perlmonks.org> is an excellent community of support, and
 many questions about Mech have already been answered there.
 
 =item * L<WWW::Mechanize::Examples>
@@ -2473,44 +2473,44 @@ Mechanize distribution.
 
 =over 4
 
-=item * L<http://www-128.ibm.com/developerworks/linux/library/wa-perlsecure.html>
+=item * L<https://www-128.ibm.com/developerworks/linux/library/wa-perlsecure.html>
 
 IBM article "Secure Web site access with Perl"
 
-=item * L<http://www.oreilly.com/catalog/googlehks2/chapter/hack84.pdf>
+=item * L<https://www.oreilly.com/catalog/googlehks2/chapter/hack84.pdf>
 
 Leland Johnson's hack #84 in I<Google Hacks, 2nd Edition> is
 an example of a production script that uses WWW::Mechanize and
 HTML::TableContentParser. It takes in keywords and returns the estimated
 price of these keywords on Google's AdWords program.
 
-=item * L<http://www.perl.com/pub/a/2004/06/04/recorder.html>
+=item * L<https://www.perl.com/pub/a/2004/06/04/recorder.html>
 
 Linda Julien writes about using HTTP::Recorder to create WWW::Mechanize
 scripts.
 
-=item * L<http://www.developer.com/lang/other/article.php/3454041>
+=item * L<https://www.developer.com/lang/other/article.php/3454041>
 
 Jason Gilmore's article on using WWW::Mechanize for scraping sales
 information from Amazon and eBay.
 
-=item * L<http://www.perl.com/pub/a/2003/01/22/mechanize.html>
+=item * L<https://www.perl.com/pub/a/2003/01/22/mechanize.html>
 
 Chris Ball's article about using WWW::Mechanize for scraping TV
 listings.
 
-=item * L<http://www.stonehenge.com/merlyn/LinuxMag/col47.html>
+=item * L<https://www.stonehenge.com/merlyn/LinuxMag/col47.html>
 
 Randal Schwartz's article on scraping Yahoo News for images.  It's
 already out of date: He manually walks the list of links hunting
 for matches, which wouldn't have been necessary if the C<find_link()>
 method existed at press time.
 
-=item * L<http://www.perladvent.org/2002/16th/>
+=item * L<https://www.perladvent.org/2002/16th/>
 
 WWW::Mechanize on the Perl Advent Calendar, by Mark Fowler.
 
-=item * L<http://www.linux-magazin.de/Artikel/ausgabe/2004/03/perl/perl.html>
+=item * L<https://www.linux-magazin.de/Artikel/ausgabe/2004/03/perl/perl.html>
 
 Michael Schilli's article on Mech and L<WWW::Mechanize::Shell> for the
 German magazine I<Linux Magazin>.
@@ -2562,11 +2562,11 @@ Just like Mech, but using Microsoft Internet Explorer to do the work.
 =head1 REQUESTS & BUGS
 
 Please report any requests, suggestions or (gasp!) bugs via the
-excellent RT bug-tracking system at http://rt.cpan.org/, or email to
+excellent RT bug-tracking system at https://rt.cpan.org/, or email to
 bug-WWW-Mechanize@rt.cpan.org.  This makes it much easier for me to
 track things.
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-Mechanize> is the RT queue
+L<https://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-Mechanize> is the RT queue
 for Mechanize.  Please check to see if your bug has already been reported.
 
 Please note that this is NOT for support requests.  Please be sure

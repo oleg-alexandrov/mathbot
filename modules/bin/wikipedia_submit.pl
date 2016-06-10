@@ -25,7 +25,7 @@ sub init_editor  {
   $Credentials = $dict{'Credentials'};
 
   $ws_editor = Mediawiki::Edit->new();
-  $ws_editor->base_url('http://en.wikipedia.org/w');
+  $ws_editor->base_url('https://en.wikipedia.org/w');
   $ws_editor->login_from_file($Credentials);
   $ws_editor->debug_level(6);
   $ws_editor->maxlag(10);

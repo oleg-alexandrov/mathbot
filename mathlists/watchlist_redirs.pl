@@ -40,7 +40,7 @@ MAIN:{
     if ($text =~ /^\s*\#redirect/i){
 
       print "$link: $text\n";
-      $logtext = $logtext . '* [http://en.wikipedia.org/w/index.php?title=' . &html_encode_string ($link) . '&redirect=no ' .  $link . ']' . "\n";
+      $logtext = $logtext . '* [https://en.wikipedia.org/w/index.php?title=' . &html_encode_string ($link) . '&redirect=no ' .  $link . ']' . "\n";
       $count++;
 
       if ($count > 1){

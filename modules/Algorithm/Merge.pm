@@ -674,7 +674,7 @@ each sequence.
 
 Most assuredly there are bugs.  If a pattern similar to the above 
 example does not work, send it to <jsmith@cpan.org> or report it on 
-<http://rt.cpan.org/>, the CPAN bug tracker.
+<https://rt.cpan.org/>, the CPAN bug tracker.
 
 L<Algorithm::Diff|Algorithm::Diff>'s implementation of 
 C<traverse_sequences> may not be symmetric with respect to the input 

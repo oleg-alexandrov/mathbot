@@ -32,7 +32,7 @@ sub init_api {
   $Lang      = $Dictionary{'Lang'};
   $Category  = $Dictionary{'Category'};
   $Credentials = $Dictionary{'Credentials'};
-  $wiki_http = 'http://' . $Lang . '.wikipedia.org/w/api.php';
+  $wiki_http = 'https://' . $Lang . '.wikipedia.org/w/api.php';
 
   $fa_api->base_url($wiki_http);
 }

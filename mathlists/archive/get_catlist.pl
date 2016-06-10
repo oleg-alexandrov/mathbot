@@ -8,8 +8,8 @@ undef $/;
 # find all math categories by crawling up from [[Category:Mathematics]]
 
 my (@stuff, $level, $cat, $newcat, @cats, $text, $wget, %old, %new, %newnew, $slevel, @toc_cats, $url, $url_short);
-$url="http://en.wikipedia.org/wiki";
-$url_short="http://en.wikipedia.org";
+$url="https://en.wikipedia.org/wiki";
+$url_short="https://en.wikipedia.org";
 $wget="wget -q -O - ";
 
 open (FILE, ">Categories.txt");

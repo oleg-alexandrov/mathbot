@@ -562,7 +562,7 @@ ispell options:
 Lingua::Ispell uses the external program ispell, which is
 the "International Ispell", available at
 
-  http://fmg-www.cs.ucla.edu/geoff/ispell.html
+  https://fmg-www.cs.ucla.edu/geoff/ispell.html
 
 as well as various archives and mirrors, such as 
 

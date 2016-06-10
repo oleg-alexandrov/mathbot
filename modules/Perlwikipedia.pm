@@ -27,7 +27,7 @@ $editor->revert('Wikipedia:Sandbox', 'Reverting vandalism', '38484848');
 
 Perlwikipedia is a framework that can be used to write Wikipedia bots.
 
-Many of the methods use the MediaWiki API (L<http://en.wikipedia.org/w/api.php>).
+Many of the methods use the MediaWiki API (L<https://en.wikipedia.org/w/api.php>).
 
 =head1 AUTHOR
 
@@ -75,7 +75,7 @@ sub _get {
     $page = uri_escape_utf8($page) unless $no_escape;
 
     my $url =
-      "http://$self->{host}/$self->{path}/index.php?title=$page&action=$action";
+      "https://$self->{host}/$self->{path}/index.php?title=$page&action=$action";
     $url .= $extra if $extra;
     print "Retrieving $url\n" if $self->{debug};
     my $res = $self->{mech}->get($url);
@@ -102,10 +102,10 @@ sub _get {
 sub _get_api {
     my $self  = shift;
     my $query = shift;
-    print "Retrieving http://$self->{host}/$self->{path}/api.php?$query\n"
+    print "Retrieving https://$self->{host}/$self->{path}/api.php?$query\n"
       if $self->{debug};
     my $res =
-      $self->{mech}->get("http://$self->{host}/$self->{path}/api.php?$query");
+      $self->{mech}->get("https://$self->{host}/$self->{path}/api.php?$query");
     if ( ref($res) eq 'HTTP::Response' && $res->is_success() ) {
         return $res;
     } else {
@@ -142,7 +142,7 @@ sub _put {
 
 =item set_wiki([$wiki_host[,$wiki_path]])
 
-set_wiki will cause the Perlwikipedia object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell Perlwikipedia to use http://de.wikipedia.org/w/index.php. The Perlwikipedia default settings are 'en.wikipedia.org' with a path of 'w'.
+set_wiki will cause the Perlwikipedia object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell Perlwikipedia to use https://de.wikipedia.org/w/index.php. The Perlwikipedia default settings are 'en.wikipedia.org' with a path of 'w'.
 
 =cut
 
@@ -152,7 +152,7 @@ sub set_wiki {
     my $path = shift;
     $self->{host} = $host if $host;
     $self->{path} = $path if $path;
-    print "Wiki set to http://$self->{host}/$self->{path}\n" if $self->{debug};
+    print "Wiki set to https://$self->{host}/$self->{path}\n" if $self->{debug};
     return 0;
 }
 
@@ -632,7 +632,7 @@ Gets a list of pages which include a certain image.
 sub links_to_image {
 	my $self	= shift;
 	my $page	= shift;
-	my $url = "http://$self->{host}/$self->{path}/index.php?title=$page";
+	my $url = "https://$self->{host}/$self->{path}/index.php?title=$page";
 	print "Retrieving $url\n" if $self->{debug};
 	my $res = $self->{mech}->get($url);
 	$res->decoded_content=~/div class=\"linkstoimage\" id=\"linkstoimage\"(.+?)\<\/ul\>/is;

@@ -36,7 +36,7 @@ use constant {
 
 =head1 NAME
 
-MediaWiki::API - Provides a Perl interface to the MediaWiki API (http://www.mediawiki.org/wiki/API)
+MediaWiki::API - Provides a Perl interface to the MediaWiki API (https://www.mediawiki.org/wiki/API)
 
 =head1 VERSION
 
@@ -48,12 +48,12 @@ our $VERSION  = "0.28";
 
 =head1 SYNOPSIS
 
-This module provides an interface between Perl and the MediaWiki API (http://www.mediawiki.org/wiki/API) allowing creation of scripts to automate editing and extraction of data from MediaWiki driven sites like Wikipedia.
+This module provides an interface between Perl and the MediaWiki API (https://www.mediawiki.org/wiki/API) allowing creation of scripts to automate editing and extraction of data from MediaWiki driven sites like Wikipedia.
 
   use MediaWiki::API;
 
   my $mw = MediaWiki::API->new();
-  $mw->{config}->{api_url} = 'http://en.wikipedia.org/w/api.php';
+  $mw->{config}->{api_url} = 'https://en.wikipedia.org/w/api.php';
 
   # log in to the wiki
   $mw->login( { lgname => 'username', lgpassword => 'password' } )
@@ -86,7 +86,7 @@ This module provides an interface between Perl and the MediaWiki API (http://www
 
 Returns a MediaWiki API object. You can pass a config as a hashref when calling new, or set the configuration later. When creating a new object, defaults for max lag and retries are set.
 
-  my $mw = MediaWiki::API->new( { api_url => 'http://en.wikipedia.org/w/api.php' }  );
+  my $mw = MediaWiki::API->new( { api_url => 'https://en.wikipedia.org/w/api.php' }  );
 
 Configuration options are
 
@@ -96,7 +96,7 @@ Configuration options are
 
 =item * files_url = 'Base url for files'; (needed if the api returns a relative URL for images like /images/a/picture.jpg)
 
-=item * upload_url = 'http://en.wikipedia.org/wiki/Special:Upload'; (path to the upload special page which is required if you want to upload images)
+=item * upload_url = 'https://en.wikipedia.org/wiki/Special:Upload'; (path to the upload special page which is required if you want to upload images)
 
 =item * on_error = Function reference to call if an error occurs in the module.
 
@@ -106,7 +106,7 @@ Configuration options are
 
 =item * retry_delay = Integer value in seconds; The amount of time to wait before retrying a request if an HTTP error or JSON decoding error occurs.
 
-=item * max_lag = Integer value in seconds; Wikipedia runs on a database cluster and as such high edit rates cause the slave servers to lag. If this config option is set then if the lag is more then the value of max_lag, the api will wait before retrying the request. 5 is a recommended value. More information about this subject can be found at http://www.mediawiki.org/wiki/Manual:Maxlag_parameter. note the config option includes an underscore so match the naming scheme of the other configuration options. 
+=item * max_lag = Integer value in seconds; Wikipedia runs on a database cluster and as such high edit rates cause the slave servers to lag. If this config option is set then if the lag is more then the value of max_lag, the api will wait before retrying the request. 5 is a recommended value. More information about this subject can be found at https://www.mediawiki.org/wiki/Manual:Maxlag_parameter. note the config option includes an underscore so match the naming scheme of the other configuration options. 
 
 =item * max_lag_delay = Integer value in seconds; This configuration option specified the delay to wait before retrying a request when the server has reported a lag more than the value of max_lag. This defaults to 5 if using the max_lag configuration option.
 
@@ -198,9 +198,9 @@ sub new {
 
 =head2 MediaWiki::API->login( $query_hashref )
 
-Logs in to a MediaWiki. Parameters are those used by the MediaWiki API (http://www.mediawiki.org/wiki/API:Login). Returns a hashref with some login details, or undef on login failure. Errors are stored in MediaWiki::API->{error}->{code} and MediaWiki::API->{error}->{details}.
+Logs in to a MediaWiki. Parameters are those used by the MediaWiki API (https://www.mediawiki.org/wiki/API:Login). Returns a hashref with some login details, or undef on login failure. Errors are stored in MediaWiki::API->{error}->{code} and MediaWiki::API->{error}->{details}.
 
-  my $mw = MediaWiki::API->new( { api_url => 'http://en.wikipedia.org/w/api.php' }  );
+  my $mw = MediaWiki::API->new( { api_url => 'https://en.wikipedia.org/w/api.php' }  );
 
   #log in to the wiki
   $mw->login( {lgname => 'username', lgpassword => 'password' } )
@@ -225,7 +225,7 @@ sub login {
 
 =head2 MediaWiki::API->api( $query_hashref, $options_hashref )
 
-Call the MediaWiki API interface. Parameters are passed as a hashref which are described on the MediaWiki API page (http://www.mediawiki.org/wiki/API). returns a hashref with the results of the call or undef on failure with the error code and details stored in MediaWiki::API->{error}->{code} and MediaWiki::API->{error}->{details}. MediaWiki::API uses the LWP::UserAgent module to send the http requests to the MediaWiki API. After any API call, the response object returned by LWP::UserAgent is available in $mw->{response};
+Call the MediaWiki API interface. Parameters are passed as a hashref which are described on the MediaWiki API page (https://www.mediawiki.org/wiki/API). returns a hashref with the results of the call or undef on failure with the error code and details stored in MediaWiki::API->{error}->{code} and MediaWiki::API->{error}->{details}. MediaWiki::API uses the LWP::UserAgent module to send the http requests to the MediaWiki API. After any API call, the response object returned by LWP::UserAgent is available in $mw->{response};
 
   binmode STDOUT, ':utf8';
 
@@ -387,7 +387,7 @@ sub logout {
 
 =head2 MediaWiki::API->edit( $query_hashref, $options_hashref )
 
-A helper function for doing edits using the MediaWiki API. Parameters are passed as a hashref which are described on the MediaWiki API editing page (http://www.mediawiki.org/wiki/API:Changing_wiki_content). Note that you need $wgEnableWriteAPI = true in your LocalSettings.php to use these features.
+A helper function for doing edits using the MediaWiki API. Parameters are passed as a hashref which are described on the MediaWiki API editing page (https://www.mediawiki.org/wiki/API:Changing_wiki_content). Note that you need $wgEnableWriteAPI = true in your LocalSettings.php to use these features.
 
 Currently only
 
@@ -490,7 +490,7 @@ Returns a hashref with the following keys or undef on an error. If the page is m
 
 =back
 
-Full information about these can be read on (http://www.mediawiki.org/wiki/API:Query_-_Properties#revisions_.2F_rv)
+Full information about these can be read on (https://www.mediawiki.org/wiki/API:Query_-_Properties#revisions_.2F_rv)
 
 =cut
 
@@ -511,7 +511,7 @@ sub get_page {
 
 =head2 MediaWiki::API->list( $query_hashref, $options_hashref )
 
-A helper function for getting lists using the MediaWiki API. Parameters are passed as a hashref which are described on the MediaWiki API editing page (http://www.mediawiki.org/wiki/API:Query_-_Lists).
+A helper function for getting lists using the MediaWiki API. Parameters are passed as a hashref which are described on the MediaWiki API editing page (https://www.mediawiki.org/wiki/API:Query_-_Lists).
 
 This function will return a reference to an array of hashes or undef on failure. It handles getting lists of data from the MediaWiki api, continuing the request with another connection if needed. The options_hashref currently has three parameters:
 
@@ -600,9 +600,9 @@ sub list {
 A function to upload files to a MediaWiki. This function does not use the MediaWiki API currently as support for file uploading is not yet implemented. Instead it uploads using the Special:Upload page, and as such an additional configuration value is needed.
 
   my $mw = MediaWiki::API->new( {
-   api_url => 'http://en.wikipedia.org/w/api.php' }  );
+   api_url => 'https://en.wikipedia.org/w/api.php' }  );
   # configure the special upload location.
-  $mw->{config}->{upload_url} = 'http://en.wikipedia.org/wiki/Special:Upload';
+  $mw->{config}->{upload_url} = 'https://en.wikipedia.org/wiki/Special:Upload';
 
 The upload function is then called as follows
 
@@ -650,9 +650,9 @@ sub upload {
 A function to download images/files from a MediaWiki. A file url may need to be configured if the api returns a relative URL.
 
   my $mw = MediaWiki::API->new( {
-    api_url => 'http://www.exotica.org.uk/mediawiki/api.php' }  );
+    api_url => 'https://www.exotica.org.uk/mediawiki/api.php' }  );
   # configure the file url. Wikipedia doesn't need this but the ExoticA wiki does.
-  $mw->{config}->{files_url} = 'http://www.exotica.org.uk';
+  $mw->{config}->{files_url} = 'https://www.exotica.org.uk';
 
 The download function is then called as follows
 
@@ -792,7 +792,7 @@ Jools 'BuZz' Wills, C<< <buzz [at] exotica.org.uk> >>
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-mediawiki-api at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=MediaWiki-API>.  I will be notified, and then you'll automatically be notified of progress on your bug as I make changes.
+the web interface at L<https://rt.cpan.org/NoAuth/ReportBug.html?Queue=MediaWiki-API>.  I will be notified, and then you'll automatically be notified of progress on your bug as I make changes.
 
 =head1 SUPPORT
 
@@ -807,19 +807,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=MediaWiki-API>
+L<https://rt.cpan.org/NoAuth/Bugs.html?Dist=MediaWiki-API>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/MediaWiki-API>
+L<https://annocpan.org/dist/MediaWiki-API>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/MediaWiki-API>
+L<https://cpanratings.perl.org/d/MediaWiki-API>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/MediaWiki-API>
+L<https://search.cpan.org/dist/MediaWiki-API>
 
 =back
 
@@ -857,7 +857,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 =cut
 

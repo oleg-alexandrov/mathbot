@@ -13,7 +13,7 @@ foreach $letter (@letters){
 
   print "$letter\n";
   
-  $address="http://mathworld.wolfram.com/letters/$letter.html";
+  $address="https://mathworld.wolfram.com/letters/$letter.html";
   $text = get ($address);
 
   $text =~ s/.*?\<div\s+class\s*=\s*\"index\"\>//sg; $text =~ s/\s+/ /g;

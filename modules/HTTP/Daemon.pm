@@ -145,7 +145,7 @@ sub get_request
     my $method = $1;
     my $uri = $2;
     my $proto = $3 || "HTTP/0.9";
-    $uri = "http://$uri" if $method eq "CONNECT";
+    $uri = "https://$uri" if $method eq "CONNECT";
     $uri = $HTTP::URI_CLASS->new($uri, $self->daemon->url);
     my $r = HTTP::Request->new($method, $uri);
     $r->protocol($proto);

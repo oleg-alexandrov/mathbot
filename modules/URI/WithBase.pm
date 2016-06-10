@@ -75,7 +75,7 @@ sub base {
     # to URL objects. Strings may be stored but when a string is
     # fetched it will automatically be converted to a URL object.
     # The main benefit is to make it much cheaper to say:
-    #   URI::WithBase->new($random_url_string, 'http:')
+    #   URI::WithBase->new($random_url_string, 'https:')
     if (defined($base) && !ref($base)) {
 	$base = ref($self)->new($base);
 	$self->[1] = $base unless @_;

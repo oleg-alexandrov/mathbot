@@ -1,6 +1,6 @@
 % find the amoeba of the polynomial
 % p(z, w)=50 z^3+83 z^2 w+24 z w^2+w^3+392 z^2+414 z w+50 w^2-28 z +59 w-100
-% See http://en.wikipedia.org/wiki/Amoeba_(mathematics).
+% See https://en.wikipedia.org/wiki/Amoeba_(mathematics).
 
 function main()
 

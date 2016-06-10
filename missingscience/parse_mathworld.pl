@@ -116,7 +116,7 @@ sub complete_link_with_google{
   $link = shift; $file = shift;
   
   print "Doing now $link\n";
-  $google='http://www.google.com/search?q=' . "$link+mathworld";
+  $google='https://www.google.com/search?q=' . "$link+mathworld";
   
   $ua = LWP::UserAgent->new;
   $ua->agent("$0/0.1 " . $ua->agent);

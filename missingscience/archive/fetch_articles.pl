@@ -23,7 +23,7 @@ foreach $letter (@letters){
   @links = split ("\n", $text);
   foreach $link (@links){
    next unless ($link =~ /^(\/.*?)\s/);
-   $link = $1; $address="http://mathworld.wolfram.com$link";
+   $link = $1; $address="https://mathworld.wolfram.com$link";
    next if (exists $done{$link});
 
    print "Fetching $address to write to articles/$link\n";

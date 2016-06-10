@@ -19,7 +19,7 @@ sub identify_red {
   
   $wget="wget -q -O - ";
   $log = 'User:Mathbot/Page42.wiki';
-  $link='http://en.wikipedia.org/wiki/' . $log; $link =~ s/\.wiki$//g;
+  $link='https://en.wikipedia.org/wiki/' . $log; $link =~ s/\.wiki$//g;
 
   # submit wikicode and get back html source with red and blue links
   &submit_file_nosave($log, "Add links.", $text, 10, 5); 

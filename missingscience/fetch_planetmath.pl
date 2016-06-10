@@ -14,7 +14,7 @@ MAIN:{
   my ($ascii_pos, $letter, $text, $all_text, $error, $prefix, $link, @entries, $entry, $count, $info);
   my (%links, %synonyms, %redirects, $attempts, $sleep, $file, $edit_summary);
   
-  $prefix = 'http://planetmath.org/encyclopedia/';
+  $prefix = 'https://planetmath.org/encyclopedia/';
 
   # extract the raw html source of all planetmath lists
   $all_text = "";

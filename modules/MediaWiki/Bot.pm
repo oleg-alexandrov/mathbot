@@ -36,7 +36,7 @@ $editor->revert('Wikipedia:Sandbox', 'Reverting vandalism', '38484848');
 
 MediaWiki::Bot is a framework that can be used to write Wikipedia bots.
 
-Many of the methods use the MediaWiki API (L<http://en.wikipedia.org/w/api.php>).
+Many of the methods use the MediaWiki API (L<https://en.wikipedia.org/w/api.php>).
 
 =head1 AUTHOR
 
@@ -57,7 +57,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 =head1 METHODS
 
@@ -80,7 +80,7 @@ sub new {
     my $maxlag   = shift || 5;
 
     # Added for https
-    my $protocol = shift || 'http';
+    my $protocol = shift || 'https';
 
     $operator =~ s/^User://i if $operator; # Strip off namespace, if it is present
     $assert =~ s/[&?]assert=// if $assert; # Strip out param part, leaving just the value for insertion in to the query string
@@ -107,7 +107,7 @@ sub new {
     $self->{assert}                   = $assert;
     $self->{operator}                 = $operator;
     $self->{api}                      = MediaWiki::API->new();
-    $self->{api}->{config}->{api_url} = 'http://en.wikipedia.org/w/api.php';
+    $self->{api}->{config}->{api_url} = 'https://en.wikipedia.org/w/api.php';
     $self->{api}->{config}->{max_lag} = $maxlag;
     $self->{api}->{config}->{max_lag_delay}   = 1;
     $self->{api}->{config}->{retries}         = 5;
@@ -132,7 +132,7 @@ sub set_highlimits {
 
 =item set_wiki([$wiki_host[,$wiki_path]])
 
-set_wiki will cause the MediaWiki::Bot object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell it to use http://de.wikipedia.org/w/index.php. The default settings are 'en.wikipedia.org' with a path of 'w'.
+set_wiki will cause the MediaWiki::Bot object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell it to use https://de.wikipedia.org/w/index.php. The default settings are 'en.wikipedia.org' with a path of 'w'.
 
 =cut
 
@@ -858,7 +858,7 @@ sub is_blocked {
     my $self = shift;
     my $user = shift;
 
-    # http://en.wikipedia.org/w/api.php?action=query&meta=blocks&bkusers=$user&bklimit=1&bkprop=id
+    # https://en.wikipedia.org/w/api.php?action=query&meta=blocks&bkusers=$user&bklimit=1&bkprop=id
     my $hash = {
         action  => 'query',
         list    => 'blocks',
@@ -1445,7 +1445,7 @@ sub undelete {
     my $page    = shift;
     my $summary = shift || 'Bot: undeleting page by request';
 
-    # http://meta.wikimedia.org/w/api.php?action=query&list=deletedrevs&titles=User:Mike.lifeguard/sandbox&drprop=token&drlimit=1
+    # https://meta.wikimedia.org/w/api.php?action=query&list=deletedrevs&titles=User:Mike.lifeguard/sandbox&drprop=token&drlimit=1
     my $tokenhash = {
         action  => 'query',
         list    => 'deletedrevs',

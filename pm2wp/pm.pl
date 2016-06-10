@@ -291,8 +291,8 @@ sub format_cats {
 }
 
 sub print_head {
-    print '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+    print '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
 <body>
@@ -307,7 +307,7 @@ document.writeln("</div>");
 /*]]>*/
 </script>
 
-<form id="editform" name="editform" method="post" action="http://en.wikipedia.org/w/index.php?title= ... not really, just bootstrapping Wikipedia\'s preview function &amp;action=submit" enctype="multipart/form-data">
+<form id="editform" name="editform" method="post" action="https://en.wikipedia.org/w/index.php?title= ... not really, just bootstrapping Wikipedia\'s preview function &amp;action=submit" enctype="multipart/form-data">
 
 <center>
 <textarea tabindex="1" accesskey="," name="wpTextbox1" rows="25" cols="80">';

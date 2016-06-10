@@ -77,7 +77,7 @@ MAIN: {
   &initialize_new_afd_days($attempts, $sleep);
   
   print  "<br>Finished! One may now go back to "
-       . "<a href=\"http://en.wikipedia.org/w/index.php?title="
+       . "<a href=\"https://en.wikipedia.org/w/index.php?title="
        . "Wikipedia:Articles_for_deletion/Old&action=purge\">" 
        . "Wikipedia:Articles for deletion/Old</a>. <br>\n";
 }
@@ -121,7 +121,7 @@ sub count_and_list_open_AfDs {
     $text = wikipedia_fetch($gEditor, $link, $attempts, $sleep); 
 
     #my $full_link = $link; $full_link =~ s/ /_/g;
-    #$full_link = 'http://en.wikipedia.org/wiki/' . $full_link;
+    #$full_link = 'https://en.wikipedia.org/wiki/' . $full_link;
 
     #($text, $error) = &get_html ($full_link);
 
@@ -461,7 +461,7 @@ sub see_open_afd_discussions (){
   }
 
   my $http_link = $link; $http_link =~ s/ /_/g; 
-  $http_link = '([http://en.wikipedia.org/w/index.php?title=' . $http_link . '&action=edit edit this day\'s list])'; 
+  $http_link = '([https://en.wikipedia.org/w/index.php?title=' . $http_link . '&action=edit edit this day\'s list])'; 
 
   # text to add to a subpage listing all open discussions
   $detailed_stats =~ s/\s*\[\[(.*?)\|\d+\]\]/\* \[\[$1\]\]\n/g;

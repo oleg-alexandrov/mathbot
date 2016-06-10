@@ -183,7 +183,7 @@ sub agent {
         # Strip it so that it's just the short name.
         # I.e., "FooBot"                                      => "FooBot"
         #       "FooBot/1.2"                                  => "FooBot"
-        #       "FooBot/1.2 [http://foobot.int; foo@bot.int]" => "FooBot"
+        #       "FooBot/1.2 [https://foobot.int; foo@bot.int]" => "FooBot"
 
 	$name = $1 if $name =~ m/(\S+)/; # get first word
 	$name =~ s!/.*!!;  # get rid of version
@@ -290,13 +290,13 @@ WWW::RobotRules - database of robots.txt-derived permissions
  use LWP::Simple qw(get);
 
  {
-   my $url = "http://some.place/robots.txt";
+   my $url = "https://some.place/robots.txt";
    my $robots_txt = get $url;
    $rules->parse($url, $robots_txt) if defined $robots_txt;
  }
 
  {
-   my $url = "http://some.other.place/robots.txt";
+   my $url = "https://some.other.place/robots.txt";
    my $robots_txt = get $url;
    $rules->parse($url, $robots_txt) if defined $robots_txt;
  }
@@ -312,7 +312,7 @@ WWW::RobotRules - database of robots.txt-derived permissions
 
 This module parses F</robots.txt> files as specified in
 "A Standard for Robot Exclusion", at
-<http://www.robotstxt.org/wc/norobots.html>
+<https://www.robotstxt.org/wc/norobots.html>
 Webmasters can use the F</robots.txt> file to forbid conforming
 robots from accessing parts of their web site.
 
@@ -350,7 +350,7 @@ rules and expire times out of the cache.
 
 The format and semantics of the "/robots.txt" file are as follows
 (this is an edited abstract of
-<http://www.robotstxt.org/wc/norobots.html> ):
+<https://www.robotstxt.org/wc/norobots.html> ):
 
 The file consists of one or more records separated by one or more
 blank lines. Each record contains lines of the form

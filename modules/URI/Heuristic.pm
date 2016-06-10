@@ -9,9 +9,9 @@ URI::Heuristic - Expand URI using heuristics
 =head1 SYNOPSIS
 
  use URI::Heuristic qw(uf_uristr);
- $u = uf_uristr("perl");             # http://www.perl.com
- $u = uf_uristr("www.sol.no/sol");   # http://www.sol.no/sol
- $u = uf_uristr("aas");              # http://www.aas.no
+ $u = uf_uristr("perl");             # https://www.perl.com
+ $u = uf_uristr("www.sol.no/sol");   # https://www.sol.no/sol
+ $u = uf_uristr("aas");              # https://www.aas.no
  $u = uf_uristr("ftp.funet.fi");     # ftp://ftp.funet.fi
  $u = uf_uristr("/etc/passwd");      # file:/etc/passwd
 
@@ -134,7 +134,7 @@ sub uf_uristr ($)
     s/\s+$//;
 
     if (/^(www|web|home)\./) {
-	$_ = "http://$_";
+	$_ = "https://$_";
 
     } elsif (/^(ftp|gopher|news|wais|http|https)\./) {
 	$_ = "$1://$_";
@@ -194,7 +194,7 @@ sub uf_uristr ($)
 		    print STDERR "no\n" if $DEBUG;
 		}
 	    }
-	    $_ = "http://$host$_";
+	    $_ = "https://$host$_";
 
 	} else {
 	    # pure junk, just return it unchanged...

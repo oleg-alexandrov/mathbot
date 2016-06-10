@@ -38,7 +38,7 @@ $editor->revert('Wikipedia:Sandbox', 'Reverting vandalism', '38484848');
 
 MediaWiki::Bot is a framework that can be used to write Wikipedia bots.
 
-Many of the methods use the MediaWiki API (L<http://en.wikipedia.org/w/api.php>).
+Many of the methods use the MediaWiki API (L<https://en.wikipedia.org/w/api.php>).
 
 =head1 AUTHOR
 
@@ -59,7 +59,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 =head1 METHODS
 
@@ -91,7 +91,7 @@ sub new {
     $self->{assert} = $assert;
     $self->{operator}=$operator;
     $self->{api}    = MediaWiki::API->new();
-    $self->{api}->{config}->{api_url} = 'http://en.wikipedia.org/w/api.php';
+    $self->{api}->{config}->{api_url} = 'https://en.wikipedia.org/w/api.php';
     $self->{api}->{config}->{max_lag} = $maxlag;
     $self->{api}->{config}->{max_lag_delay} = 1;
     $self->{api}->{config}->{retries} = 5;
@@ -124,7 +124,7 @@ sub _get {
     $page = uri_escape_utf8($page) unless $no_escape;
 
     my $url =
-      "http://$self->{host}/$self->{path}/index.php?title=$page&action=$action";
+      "https://$self->{host}/$self->{path}/index.php?title=$page&action=$action";
     $url .= $extra if $extra;
     print "Retrieving $url\n" if $self->{debug};
     my $res = $self->{mech}->get($url);
@@ -150,10 +150,10 @@ sub _get {
 sub _get_api {
     my $self  = shift;
     my $query = shift;
-    print "Retrieving http://$self->{host}/$self->{path}/api.php?$query\n"
+    print "Retrieving https://$self->{host}/$self->{path}/api.php?$query\n"
       if $self->{debug};
     my $res =
-      $self->{mech}->get("http://$self->{host}/$self->{path}/api.php?$query");
+      $self->{mech}->get("https://$self->{host}/$self->{path}/api.php?$query");
     if ( ref($res) eq 'HTTP::Response' && $res->is_success() ) {
         return $res;
     } else {
@@ -189,7 +189,7 @@ sub _put {
 
 =item set_wiki([$wiki_host[,$wiki_path]])
 
-set_wiki will cause the MediaWiki::Bot object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell it to use http://de.wikipedia.org/w/index.php. The default settings are 'en.wikipedia.org' with a path of 'w'.
+set_wiki will cause the MediaWiki::Bot object to use the wiki specified, e.g set_wiki('de.wikipedia.org','w') will tell it to use https://de.wikipedia.org/w/index.php. The default settings are 'en.wikipedia.org' with a path of 'w'.
 
 =cut
 
@@ -199,8 +199,8 @@ sub set_wiki {
     my $path = shift || 'w';
     $self->{host} = $host if $host;
     $self->{path} = $path if $path;
-    $self->{api}->{config}->{api_url} = "http://$host/$path/api.php";
-    print "Wiki set to http://$self->{host}/$self->{path}\n" if $self->{debug};
+    $self->{api}->{config}->{api_url} = "https://$host/$path/api.php";
+    print "Wiki set to https://$self->{host}/$self->{path}\n" if $self->{debug};
     return 0;
 }
 
@@ -490,7 +490,7 @@ sub get_pages {
     };
 
     #based on
-    #http://en.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=namespaces|namespacealiases
+    #https://en.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=namespaces|namespacealiases
     my $expand = {
 	WP  => 'Wikipedia',
 	WT  => 'Wikipedia talk',
@@ -799,7 +799,7 @@ Gets a list of pages which include a certain image.
 sub links_to_image {
     my $self	= shift;
     my $page	= shift;
-    my $url = "http://$self->{host}/$self->{path}/index.php?title=$page";
+    my $url = "https://$self->{host}/$self->{path}/index.php?title=$page";
     print "Retrieving $url\n" if $self->{debug};
     my $res = $self->{mech}->get($url);
     $res->decoded_content=~/div class=\"linkstoimage\" id=\"linkstoimage\"(.+?)\<\/ul\>/is;

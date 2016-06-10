@@ -1,5 +1,5 @@
 % find the amoeba of a polynomial, see
-% http://en.wikipedia.org/wiki/Amoeba_%28mathematics%29
+% https://en.wikipedia.org/wiki/Amoeba_%28mathematics%29
 
 % consider a polynomial in z and w
 %f[z_, w_] = 1 + z + z^2 + z^3 + z^2*w^3 + 10*z*w + 12*z^2*w + 10*z^2*w^2

@@ -22,8 +22,8 @@ MAIN: {
     #$entry_s='AffineConnection'; #for debugging
 
     # let's see which of the following two keywords would be more effective
-    $link = 'http://www.google.com/search?q=' . $entry_s . '+SEE';
-    #$link = 'http://www.google.com/search?q=' . $entry_s . '+SEE+Mathworld';
+    $link = 'https://www.google.com/search?q=' . $entry_s . '+SEE';
+    #$link = 'https://www.google.com/search?q=' . $entry_s . '+SEE+Mathworld';
 
     print "$link\n";
     ($text, $error) = &get_html ($link);
@@ -84,7 +84,7 @@ sub extract_mathworld_redir_if_exists {
   foreach $result (@$results){
 
     #    print "\n-----\n$result\n----\n\n";
-    next unless ($result =~ /^\<a href=\"http:\/\/mathworld\.wolfram\.com\/\Q$entry_s\E[^\>]*?\>(.*?)\<\/a.*?SEE:\s*(.*?)\. /i);
+    next unless ($result =~ /^\<a href=\"https:\/\/mathworld\.wolfram\.com\/\Q$entry_s\E[^\>]*?\>(.*?)\<\/a.*?SEE:\s*(.*?)\. /i);
 
     $name = $1; 
     $redir = $2;
@@ -101,10 +101,10 @@ sub extract_mathworld_redir_if_exists {
   if ($redir){
     
     open(FILE, ">>Google_MW_redirs.txt");
-    print FILE "\* \[\[$name\]\] \[http:\/\/mathworld.wolfram.com\/$entry_s\.html\] redirects to \[\[$redir\]\]\n";
+    print FILE "\* \[\[$name\]\] \[https:\/\/mathworld.wolfram.com\/$entry_s\.html\] redirects to \[\[$redir\]\]\n";
     close(FILE);
     
-    print "\* \[\[$name\]\] \[http:\/\/mathworld.wolfram.com\/$entry_s\.html\] redirects to \[\[$redir\]\]\n";
+    print "\* \[\[$name\]\] \[https:\/\/mathworld.wolfram.com\/$entry_s\.html\] redirects to \[\[$redir\]\]\n";
   }
   
   print "Sleep 5\n"; sleep 5;

@@ -20,7 +20,7 @@ MAIN: {
   $id=$input{'id'}; $id =~ s/[^\d]//g;
   $text=$input{'text'};
 
-  $url='http://planetmath.org/?op=getobj&from=objects&id=' . "$id";
+  $url='https://planetmath.org/?op=getobj&from=objects&id=' . "$id";
   $text = get($url);
 
   ($id, $title, $text) = &strip_html($text);

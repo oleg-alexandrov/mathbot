@@ -26,7 +26,7 @@ MAIN: {
   for ($i=1 ; $i <=30 ; $i++){
     $logtext = $logtext  . "\n==Removed from \[\[$missing_prefix$i\]\]==\n";
     
-    $link = $missing_prefix . $i; $link =~ s/ /_/g; $link = 'http://en.wikipedia.org/wiki/' . $link;
+    $link = $missing_prefix . $i; $link =~ s/ /_/g; $link = 'https://en.wikipedia.org/wiki/' . $link;
     $text = `$wget \"$link\"`;
     &identify_redlinks ($text, \%reds);
     

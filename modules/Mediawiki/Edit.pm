@@ -15,7 +15,7 @@ use Encode;
 #   # Initialize
 #   require Mediawiki::Edit;
 #   my $client = Mediawiki::Edit->new();
-#   $client->base_url('http://en.wikipedia.org/w');
+#   $client->base_url('https://en.wikipedia.org/w');
 #
 #   # Log in
 #   $client->login($user, $pass);
@@ -34,9 +34,9 @@ sub new {
   $self->{'agent'} = new LWP::UserAgent;
   $self->{'agent'}->cookie_jar(HTTP::Cookies->new());
 
-  $self->{'baseurl'} = 'http://192.168.1.71/~mw/wiki';
-  $self->{'indexurl'} = 'http://192.168.1.71/~mw/wiki/index.php';
-  $self->{'apiurl'} = 'http://192.168.1.71/~mw/wiki/api.php';
+  $self->{'baseurl'} = 'https://192.168.1.71/~mw/wiki';
+  $self->{'indexurl'} = 'https://192.168.1.71/~mw/wiki/index.php';
+  $self->{'apiurl'} = 'https://192.168.1.71/~mw/wiki/api.php';
   $self->{'loggedin'} = 'false';
   $self->{'maxRetryCount'} = 40;
   $self->{'debugLevel'} = 1;

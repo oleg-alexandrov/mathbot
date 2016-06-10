@@ -56,7 +56,7 @@ sub new {
   $self->{'agent'} = new LWP::UserAgent;
   $self->{'agent'}->cookie_jar(HTTP::Cookies->new());
 
-  $self->{'baseurl'} = 'http://192.168.1.71/~mw/wiki/api.php';
+  $self->{'baseurl'} = 'https://192.168.1.71/~mw/wiki/api.php';
   $self->{'loggedin'} = 'false';
 
   ## Configuration parameters
@@ -402,7 +402,7 @@ sub cookie_jar {
 Edit a page. 
 
 The array reference $params allows configuration. Valid parameters listed
-at http://www.mediawiki.org/wiki/API:Edit_-_Create%26Edit_pages#Token
+at https://www.mediawiki.org/wiki/API:Edit_-_Create%26Edit_pages#Token
 
 Returns undef on success. 
 Returns the API.php result hash on error.
