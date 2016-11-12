@@ -12,6 +12,7 @@ undef $/;
 
 use lib '/data/project/mathbot/public_html/wp/modules'; # relative path to perl modules
 use lib '/data/project/mathbot/perl5/lib/perl5/';
+use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
 
 require 'bin/perlwikipedia_utils.pl';
 require 'bin/get_html.pl';

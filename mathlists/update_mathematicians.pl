@@ -5,6 +5,7 @@ use open 'utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 use lib '/data/project/mathbot/perl5/lib/perl5/';
+use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
 
 require 'bin/perlwikipedia_utils.pl'; 
 require "strip_accents_and_stuff.pl";

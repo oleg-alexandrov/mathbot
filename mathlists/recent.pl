@@ -4,6 +4,7 @@ use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use lib $ENV{HOME} . '/public_html/wp/modules';
 use lib $ENV{HOME} . '/public_html/wp/mathlists';
 use lib '/data/project/mathbot/perl5/lib/perl5/';
+use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
 
 require 'bin/perlwikipedia_utils.pl'; 
 require 'bin/get_html.pl';
@@ -23,7 +24,7 @@ MAIN:{
   $work_dir=$0; $work_dir =~ s/\/[^\/]*$/\//g; chdir $work_dir;
   
   my $Editor=wikipedia_login();
-  $attempts = 100; $sleep = 1;
+  $attempts = 10; $sleep = 1;
   $days=2;  $limit=5000;
 
   $base='https://en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&target=List_of_mathematicians_';

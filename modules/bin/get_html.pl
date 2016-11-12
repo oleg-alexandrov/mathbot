@@ -8,7 +8,7 @@ sub get_html {
 
   $link = shift;
   
-  for ($counter=0 ; $counter <= 100  ; $counter++){
+  for ($counter=0 ; $counter <= 10  ; $counter++){
 
     my ($ua, $req, $res);
     

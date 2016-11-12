@@ -1,9 +1,8 @@
 %27Abd_al-Ham%c4%abd_ibn_Turk
-A._A._Krishnaswami_Ayyangar
 A._Edward_Nussbaum
 A._H._Lightstone
-A._M._Mathai
 A._O._L._Atkin
+A._Rod_Gover
 A._Ross_Eckler
 A._Ross_Eckler_Jr.
 A._V._Balakrishnan
@@ -50,7 +49,6 @@ Acheson_J._Duncan
 Achi_Brandt
 Achille_Brocot
 Achille_Pierre_Dionis_du_S%c3%a9jour
-Achyuta_Pisharati
 Ada_Lovelace
 Ada_Maddison
 Adalbold_II_of_Utrecht
@@ -82,10 +80,9 @@ Adriaan_Cornelis_Zaanen
 Adriaan_Metius
 Adriaan_Vlacq
 Adriaan_van_Roomen
-Adriaen_Anthonisz
+Adrian_Bowyer
 Adrian_Ioana
 Adrian_Krzy%c5%bcanowski
-Adrian_Raftery
 Adrian_Smith_%28statistician%29
 Adriano_Garsia
 Adrien_Douady
@@ -106,7 +103,7 @@ Ahmes
 Ailana_Fraser
 Aise_Johan_de_Jong
 Aizik_Volpert
-Ajit_Iqbal_Singh
+Akif_Jafar_Hajiyev
 Akihiro_Kanamori
 Akio_Hattori
 Aksel_Frederik_Andersen
@@ -137,6 +134,7 @@ Alain-Sol_Sznitman
 Alan_Baker_%28mathematician%29
 Alan_C._Newell
 Alan_Herries_Wilson
+Alan_Huckleberry
 Alan_M._Frieze
 Alan_Tucker
 Alan_Turing
@@ -224,9 +222,9 @@ Alexander_Givental
 Alexander_Goncharov
 Alexander_Grothendieck
 Alexander_Holevo
-Alexander_Johnson_%28mathematician%29
 Alexander_Kirillov%2c_Jr.
 Alexander_Kronrod
+Alexander_Kuznetsov_%28mathematician%29
 Alexander_Lavut
 Alexander_Lubotzky
 Alexander_Lyudskanov
@@ -271,6 +269,7 @@ Alexei_Skorobogatov
 Alexey_Chervonenkis
 Alexey_Grigorevich_Ivakhnenko
 Alexey_Lyapunov
+Alexey_Parshin
 Alexey_Stakhov
 Alexis_Bonnet
 Alexis_Hocquenghem
@@ -308,13 +307,13 @@ Alfreds_Meders
 Alfr%c3%a9d_Haar
 Alfr%c3%a9d_R%c3%a9nyi
 Algimantas_Adolfas_Jucys
-Alhazen
 Ali_Abkar
 Ali_Akansu
 Ali_Ku%c5%9f%c3%a7u
 Ali_%c3%9clger
 Alice_Guionnet
 Alice_Lee
+Alice_Rogers
 Alice_Roth
 Alice_Silverberg
 Alice_T._Schafer
@@ -326,7 +325,6 @@ Allan_Birnbaum
 Allan_Borodin
 Allan_Joseph_Champneys_Cunningham
 Allen_Hatcher
-Allen_Tannenbaum
 Alphonse_Antonio_de_Sarasa
 Alphonse_de_Polignac
 Alston_Scott_Householder
@@ -340,17 +338,16 @@ Amir_Aczel
 Amir_Alexander
 Amit_Garg
 Amitai_Regev
-Amiya_Charan_Banerjee
 Amnon_Yekutieli
 Amy_Cohen-Corwin
 Amy_Ellis
 Am%c3%a9d%c3%a9e_Mannheim
 Ana_Caraiani
-Anadi_Sankar_Gupta
-Anand_Kumar
 Anania_Shirakatsi
+Anatol_Slissenko
 Anatole_Beck
 Anatoli_Georgievich_Vitushkin
+Anatoli_N._Andrianov
 Anatoli_Prudnikov
 Anatolii_Goldberg
 Anatoliy_Skorokhod
@@ -358,6 +355,7 @@ Anatoly_Fomenko
 Anatoly_Karatsuba
 Anatoly_Libgober
 Anatoly_Maltsev
+Anatoly_Mikhailovich_Stepin
 Anatoly_Samoilenko
 Anatoly_Vershik
 Anaxagoras
@@ -367,6 +365,8 @@ Anders_Johan_Lexell
 Anders_Lindstedt
 Anders_Martin-L%c3%b6f
 Anders_Nicolai_Ki%c3%a6r
+Anders_Planman
+Anders_Spole
 Anders_Wiman
 Andrea_Argoli
 Andrea_Bertozzi
@@ -375,6 +375,7 @@ Andrea_Malchiodi
 Andrea_Milani_%28mathematician%29
 Andrea_Naccari
 Andrea_R._Nahmod
+Andrea_Razmadze
 Andreas_Blass
 Andreas_Brandst%c3%a4dt
 Andreas_Floer
@@ -392,8 +393,8 @@ Andrei_Polyanin
 Andrei_Suslin
 Andrei_Toom
 Andrei_Zelevinsky
-Andrej_Bauer
 Andrej_Dujella
+Andrej_Pazman
 Andres_Luure
 Andrew_Beal
 Andrew_Blake_%28scientist%29
@@ -403,7 +404,6 @@ Andrew_Granville
 Andrew_Gray_%28physicist%29
 Andrew_Guinand
 Andrew_H._Wallace
-Andrew_Hodges
 Andrew_John_Pullan
 Andrew_Kalotay
 Andrew_M._Bruckner
@@ -414,7 +414,6 @@ Andrew_Munro_%28mathematician%29
 Andrew_Ogg
 Andrew_Prentice
 Andrew_Ronald_Mitchell
-Andrew_S.I.D._Lang
 Andrew_Searle_Hart
 Andrew_V%c3%a1zsonyi
 Andrew_Wiles
@@ -444,6 +443,7 @@ Andr%c3%a9_Bloch_%28mathematician%29
 Andr%c3%a9_Haefliger
 Andr%c3%a9_Joyal
 Andr%c3%a9_Lichnerowicz
+Andr%c3%a9_Martineau
 Andr%c3%a9_Neves
 Andr%c3%a9_N%c3%a9ron
 Andr%c3%a9_Sainte-Lagu%c3%ab
@@ -452,18 +452,17 @@ Andr%c3%a9_Warusfel
 Andr%c3%a9_Weil
 Andr%c3%a9-Louis_Cholesky
 Andy_Liu
-Andy_Loo
 Aner_Shalev
+Angelika_Steger
+Angelina_Cabras
 Angeline_Stickney
 Angelo_Genocchi
 Angiolo_Maria_Colomboni
 Angus_Ellis_Taylor
 Angus_MacFarlane-Grieve
 Angus_Macintyre
-Anil_Kumar_Bhattacharya
 Anil_Kumar_Gain
 Anirudh_Lal_Nagar
-Ann_S._Almgren
 Anna_C._Gilbert
 Anna_Erschler
 Anna_Johnson_Pell_Wheeler
@@ -473,12 +472,10 @@ Anna_R%c3%b6nstr%c3%b6m
 Anna_Wienhard
 Anna_Zofia_Krygowska
 Annalisa_Buffa
-Annamalai_Ramanathan
 Anne_Sjerp_Troelstra
 Anneli_Cahn_Lax
 Annette_Dobson
 Annette_Huber-Klawitter
-Annie_Dale_Biddle_Andrews
 Annie_Easley
 Anny_Cazenave
 Anry_Nersesyan
@@ -491,12 +488,12 @@ Anthony_James_Merrill_Spencer
 Antipater_%28astrologer%29
 Antiphon_%28orator%29
 Antoine_Andr%c3%a9_Louis_Reynaud
-Antoine_Cavalleri
 Antoine_Deidier
 Antoine_Gombaud
 Antoine_Meyer
 Antoine_Parent
 Antoine_de_Laloub%c3%a8re
+Antoinette_Tordesillas
 Anton_Ambschel
 Anton_Davidoglu
 Anton_Felkel
@@ -506,6 +503,7 @@ Anton_von_Braunm%c3%bchl
 Antoni_Malet
 Antoni_Zygmund
 Antoni_%c5%81omnicki
+Antonia_Ferr%c3%adn_Moreiras
 Antonio_Ambrosetti
 Antonio_Cagnoli
 Antonio_Fais
@@ -515,7 +513,6 @@ Antonio_Maria_Bordoni
 Antonio_Maria_Lorgna
 Antonio_Monteiro_%28mathematician%29
 Antonio_Sangiovanni
-Antonio_Schinella_Conti
 Antoon_Kolen
 Antti_Kupiainen
 Ant%c3%b4nio_Carbonari_Netto
@@ -523,7 +520,6 @@ Anu%c5%a1ka_Ferligoj
 Apollodorus_Logisticus
 Apollonius_of_Perga
 Apostolos_Doxiadis
-Aravind_Joshi
 Archibald_Henderson_%28professor%29
 Archibald_Read_Richardson
 Archibald_Smith
@@ -589,12 +585,11 @@ Artur_Avila
 Artur_Oscar_Lopes
 Artur_Shkurti
 Arunas_Rudvalis
-Arup_Bose
-Aryabhata
 Aryabhata_II
 Aryeh_Dvoretzky
 Asad_Naqvi
 Asclepius_of_Tralles
+Asef_Hadjiyev
 Asger_Aaboe
 Asghar_Qadir
 Asher_Kravitz
@@ -644,21 +639,21 @@ Azriel_L%c3%a9vy
 A%e1%b9%a3-%e1%b9%a2aidan%c4%81n%c4%ab
 B._L._S._Prakasa_Rao
 B._R._Bhat
-B._V._Rajarama_Bhat
 Bah%c4%81%ca%be_al-d%c4%abn_al-%ca%bf%c4%80mil%c4%ab
-Bakul_Kayastha
 Balanos_Vasilopoulos
 Baldassarre_Boncompagni
 Bal%c3%a1zs_Szegedy
 Ban%c5%ab_M%c5%abs%c4%81
-Bapudeva_Sastri
 Barbara_Goette
 Barbara_Keyfitz
 Barbara_L._Osofsky
 Barbara_M._Brizuela
 Barbara_McMartin
+Barbara_Niethammer
 Barbara_R._Holland
+Bard_Ermentrout
 Barnaba_Tortolini
+Barnab%c3%a9_Brisson_%28engineer%29
 Barry_Edward_Johnson
 Barry_Mazur
 Barry_Pennington
@@ -670,6 +665,7 @@ Bartosz_Piasecki
 Baruch_Barzel
 Bassano_Politi
 Baudhayana_sutras
+Beatrice_Aitchison
 Beatrice_Mabel_Cave-Browne-Cave
 Bella_Subbotovskaya
 Ben_Andrews_%28mathematician%29
@@ -720,7 +716,6 @@ Bertrand_Russell
 Betz_Halloran
 Bhama_Srinivasan
 Bharath_Sriraman
-Bh%c4%81skara_I
 Bh%c4%81skara_II
 Bibhutibhushan_Datta
 Bill_Casselman_%28mathematician%29
@@ -743,6 +738,7 @@ Blaise_Pascal
 Blanche_Descartes
 Blasius_of_Parma
 Bo_Berndtsson
+Boaz_Tsaban
 Bodil_Branner
 Boethius
 Bogdan_Gavrilovi%c4%87
@@ -782,10 +778,10 @@ Boris_Zilber
 Boyan_Petkanchin
 Boyd_Crumrine_Patterson
 Boye_Str%c3%b8m
+Bozenna_Pasik-Duncan
 Bo%c3%a1z_Klartag
 Bradley_Alpert
 Brahmadeva
-Brahmagupta
 Bram_van_Leer
 Branko_Gr%c3%bcnbaum
 Brendan_Hassett
@@ -803,7 +799,6 @@ Brian_Swimme
 Brian_White_%28mathematician%29
 Brigitte_Vall%c3%a9e
 Bronis%c5%82aw_Knaster
-Bronwyn_Harch
 Brook_Taylor
 Brooke_Benjamin
 Brooke_Shipley
@@ -838,15 +833,12 @@ C._B._Collins
 C._Brian_Haselgrove
 C._E._V._Leser
 C._L._E._Moore_instructor
-C._N._S._Iyengar
 C._P._Ramanujam
 C._R._Rao
 C._S._Seshadri
-C._S._Venkataraman
 C._T._C._Wall
 C._V._Durell
 C._V._Mourey
-Cadambathur_Tiruvenkatacharlu_Rajagopal
 Cahit_Arf
 Caius_Iacob
 Caleb_Gattegno
@@ -871,6 +863,7 @@ Carl_Christoffer_Georg_Andr%c3%a6
 Carl_D._Olds
 Carl_David_Tolm%c3%a9_Runge
 Carl_Fabian_Bj%c3%b6rling
+Carl_Ferdinand_Degen
 Carl_Friedrich_Gauss
 Carl_Gottlieb_Ehler
 Carl_Gustav_Axel_Harnack
@@ -912,7 +905,7 @@ Carlos_Matheus
 Carlos_Simpson
 Carlton_E._Lemke
 Carol_Karp
-Carol_S._Wood
+Carol_Wood
 Carole_Lacampagne
 Caroline_Series
 Carolyn_Eisele
@@ -944,7 +937,6 @@ Chandler_Davis
 Chandrashekhar_Khare
 Charalambos_D._Aliprantis
 Charles_Angas_Hurst
-Charles_Auguste_Briot
 Charles_B._Morrey%2c_Jr.
 Charles_Babbage
 Charles_Bossut
@@ -968,7 +960,6 @@ Charles_Hermite
 Charles_Herschel_Sisam
 Charles_Jasper_Joly
 Charles_Jean_de_la_Vall%c3%a9e-Poussin
-Charles_Julien_Brianchon
 Charles_L._Bouton
 Charles_Leedham-Green
 Charles_Loewner
@@ -1004,15 +995,11 @@ Chaudry_Mohammad_Aslam
 Chen_Chung_Chang
 Chen_Jiangong
 Chen_Jingrun
-Chennas_Narayanan_Namboodiripad
+Chenyang_Xu
 Cheon_Jung-hee
 Cheryl_Praeger
 Chia-Chiao_Lin
-Chia-Kun_Chu
-Chidambara_Chandrasekaran
 Chike_Obi
-Chitikila_Musili
-Chitra_Dutta
 Chitrabhanu_%28mathematician%29
 Chiu-Chu_Melissa_Liu
 Chris_Brink
@@ -1108,12 +1095,15 @@ Clive_Selwyn_Davis
 Clyde_E._Love
 Cl%c3%a9ment_Mouhot
 Coke_Reed
+Colette_Moeglin
 Colin_Adams_%28mathematician%29
 Colin_Clark_%28economist%29
 Colin_Mackenzie
 Colin_Maclaurin
 Colin_McLarty
 Colin_P._Rourke
+Colm_Mulcahy
+Conel_Hugh_O%27Donel_Alexander
 Conny_Palm
 Conon_of_Samos
 Conrad_Dasypodius
@@ -1123,8 +1113,10 @@ Constantin_Climescu
 Constantin_Le_Paige
 Constantine_Dafermos
 Cora_Sadosky
+Coralie_Colmez
 Corinna_Ulcigrai
 Cornelia_Dru%c8%9bu
+Cornelia_Fabri
 Cornelius_Denvir
 Cornelius_Lanczos
 Corrado_Segre
@@ -1153,7 +1145,6 @@ D._D._Morduhai-Boltovskoi
 D._G._Champernowne
 D._H._J._Polymath
 D._R._Fulkerson
-D._R._Kaprekar
 D._S._Malik
 Da_Ruan
 Dag_Prawitz
@@ -1162,8 +1153,6 @@ Daihachiro_Sato
 Daina_Taimina
 Damiaen_Joan_van_Doorninck
 Damiano_Brigo
-Damodar_Dharmananda_Kosambi
-Damodara
 Dan_Grimaldi
 Dan_Laksov
 Dan_Segal
@@ -1185,13 +1174,14 @@ Daniel_Hershkowitz
 Daniel_Huybrechts
 Daniel_I._A._Cohen
 Daniel_Kan
-Daniel_Kleitman
 Daniel_Kr%c3%a1%c4%be
 Daniel_Kubert
+Daniel_Lightwing
 Daniel_Murray_%28mathematician%29
 Daniel_P._Sanders
 Daniel_Pedoe
 Daniel_Quillen
+Daniel_Rider
 Daniel_Santbech
 Daniel_Schwenter
 Daniel_Shanks
@@ -1212,6 +1202,7 @@ David_A._Freedman
 David_A._Huffman
 David_Aldous
 David_Allan_Spence
+David_Arnold_%28mathematician%29
 David_B._A._Epstein
 David_B._Hertz
 David_Benney
@@ -1245,6 +1236,7 @@ David_Gabai
 David_Gale
 David_Gans
 David_George_Kendall
+David_Gibb_%28mathematician%29
 David_Gilbarg
 David_Glass_%28sociologist%29
 David_Gregory_%28mathematician%29
@@ -1259,6 +1251,7 @@ David_J._Thomson
 David_Jesson
 David_Kazhdan
 David_Kelly_%28mathematician%29
+David_Khorol
 David_Klein_%28mathematician%29
 David_Lovelock
 David_Lowery_%28musician%29
@@ -1274,12 +1267,12 @@ David_Mumford
 David_Negrete_Fern%c3%a1ndez
 David_Nualart
 David_Orrell
-David_P._Robbins
 David_P._Williamson
 David_Pingree
 David_Preiss
 David_Ruelle
 David_R%c3%ados_Insua
+David_Salsburg
 David_Schmeidler
 David_Seetapun
 David_Siegmund
@@ -1294,12 +1287,9 @@ David_Widder
 David_William_Boyd
 David_Williams_%28mathematician%29
 David_Wolpert
-Daya-Nand_Verma
 Deane_Montgomery
 Death_of_Gareth_Williams
 Debabrata_Basu
-Debashish_Goswami
-Debasis_Mitra
 Deborah_Frank_Lockhart
 Deborah_Hughes_Hallett
 Deborah_Loewenberg_Ball
@@ -1330,6 +1320,7 @@ Detlef_Gromoll
 Detlef_Laugwitz
 Diana_Shelstad
 Diane_Souvaine
+Dianne_P._O%27Leary
 Dicaearchus
 Dick_de_Jongh
 Didier_Dubois_%28mathematician%29
@@ -1346,7 +1337,6 @@ Dimitri_Bertsekas
 Dimitrie_Pompeiu
 Dimitrije_Ne%c5%a1i%c4%87
 Dinesh_Singh_%28academic%29
-Dinesh_Thakur_%28mathematician%29
 Ding_Shisun
 Dinostratus
 Diocles_%28mathematician%29
@@ -1354,7 +1344,6 @@ Dionigi_Galletto
 Dionys_Burger
 Dionysodorus
 Diophantus
-Dipendra_Prasad
 Dirck_Rembrantsz_van_Nierop
 Dirk_Jan_Struik
 Dirk_van_Dalen
@@ -1375,6 +1364,7 @@ Dominic_Joyce
 Dominic_Welsh
 Dominique_Bakry
 Dominique_Foata
+Dominique_Picard
 Dominique_de_Caen
 Domninus_of_Larissa
 Don_Zagier
@@ -1408,6 +1398,7 @@ Dorothy_Walcott_Weeks
 Doug_Stinson
 Douglas_Hartree
 Douglas_N._Arnold
+Douglas_Smigly
 Douglas_West_%28mathematician%29
 Dov_Tamari
 Dragan_Maru%c5%a1i%c4%8d
@@ -1455,6 +1446,7 @@ Edgar_Gilbert
 Edgar_Krahn
 Edgar_Lorch
 Edgar_Odell_Lovett
+Edith_Alice_M%c3%bcller
 Edith_Hirsch_Luchins
 Edith_de_Leeuw
 Edmond_Bonan
@@ -1526,7 +1518,6 @@ Ehrenfried_Walther_von_Tschirnhaus
 Ehud_Hrushovski
 Einar_Hille
 Eitan_Tadmor
-Eknath_Prabhakar_Ghate
 Elart_von_Collani
 Eleanor_Jones
 Eleanor_Robson
@@ -1550,6 +1541,7 @@ Elizabeth_Williams_%28educationist%29
 Elizaveta_Litvinova
 Ellen_Hayes
 Ellen_Kirkman
+Ellice_Horsburgh
 Elling_Holst
 Ellis_Kolchin
 Elmer_Rees
@@ -1560,7 +1552,6 @@ Elon_Lindenstrauss
 Elwin_Bruno_Christoffel
 Elwyn_Berlekamp
 El%c3%a9na_Wexler-Kreindler
-El%c5%bcbieta_Pleszczy%c5%84ska
 Emanoil_Bacaloglu
 Emanuel_Bj%c3%b6rling
 Emanuel_Czuber
@@ -1612,7 +1603,6 @@ Erhan_%c3%87inlar
 Erhard_Heinz
 Erhard_Weigel
 Eri_Jabotinsky
-Eric_Anders_Carlen
 Eric_Bach
 Eric_Charles_Milner
 Eric_Goles
@@ -1662,6 +1652,7 @@ Ernst_Kolman
 Ernst_Kummer
 Ernst_K%c3%b6tter
 Ernst_Leonard_Lindel%c3%b6f
+Ernst_Mayr_%28computer_scientist%29
 Ernst_Meissel
 Ernst_Peschl
 Ernst_Ruh
@@ -1712,13 +1703,13 @@ Eug%c3%a8ne_Charles_Catalan
 Eug%c3%a8ne_Cosserat
 Eug%c3%a8ne_Ehrhart
 Eug%c3%a8ne_Rouch%c3%a9
-Euphemia_Haynes
 Eustachio_Manfredi
 Eutocius_of_Ascalon
 Eva_Bayer-Fluckiger
 Eva_Germaine_Rimington_Taylor
 Eva_Kallin
 Evan_O%27Dorney
+Evan_Siegel
 Evan_Tom_Davies
 Evan_William_Evans
 Evangelista_Torricelli
@@ -1784,10 +1775,8 @@ Fibonacci
 Filip_Lundberg
 Filippo_Antonio_Revelli
 Filippo_Ferrari
-Filippo_Pigafetta
 Flemming_Tops%c3%b8e
 Flora_Philip
-Florence_Eliza_Allen
 Florence_Lewis
 Florence_Marie_Mears
 Florence_Nightingale_David
@@ -1861,7 +1850,7 @@ Frank_Ruskey
 Frank_Smithies
 Frank_Spitzer
 Frank_Terpe
-Frank_W._Bubb%2c_Sr.
+Frank_W._Bubb_Sr.
 Frank_W._J._Olver
 Frank_Yates
 Franklin_P._Peterson
@@ -1916,6 +1905,7 @@ Friedrich_Prym
 Friedrich_Schottky
 Friedrich_Schur
 Friedrich_Wilhelm_Levi
+Friedrich_Wilhelm_Opelt
 Friedrich_Wilhelm_Sch%c3%a4fke
 Frigyes_Riesz
 Frithiof_Nevanlinna
@@ -1928,14 +1918,14 @@ Fritz_John
 Fritz_Noether
 Fritz_Peter
 Fr%c3%a9d%c3%a9ric_H%c3%a9lein
-Fuad_Aleskerov
+Fr%c3%a9d%c3%a9ric_Pham
 Fyodor_Zak
 F%c3%a9lix_Alcan
+G._B._Halsted
 G._H._Hardy
 G._I._Taylor
 G._Mike_Reed
 G._N._Watson
-G._S._Maddala
 G._Spencer-Brown
 G._V._Belyi
 G._W._Peck
@@ -1952,7 +1942,6 @@ Gabrio_Piola
 Gaetano_Fichera
 Gaetano_Scorza
 Gaisi_Takeuti
-Ganesh_Prasad
 Gang_Tian
 Gangesha_Upadhyaya
 Garrett_Birkhoff
@@ -1978,6 +1967,7 @@ Gen%27ichir%c5%8d_Sunouchi
 Gene_H._Golub
 Genevieve_Grotjan_Feinstein
 Genevi%c3%a8ve_Guitel
+Gennady_Andreev
 Geoff_Bascand
 Geoff_Smith_%28mathematician%29
 Geoffrey_Grimmett
@@ -2031,6 +2021,7 @@ George_F._D._Duff
 George_F._Pinder
 George_F._R._Ellis
 George_Gallup
+George_Gibson_%28mathematician%29
 George_Glauberman
 George_Green_%28mathematician%29
 George_Gr%c3%a4tzer
@@ -2049,11 +2040,12 @@ George_Mackey
 George_Maltese
 George_Mostow
 George_Murray_Burnett
-George_Padamadan
 George_Peacock
 George_Piranian
 George_P%c3%b3lya
 George_R._Price
+George_Ridsdale_Goldsbrough
+George_Robin_Henderson
 George_Salmon
 George_Samuel_Hurst
 George_Seligman
@@ -2080,6 +2072,7 @@ Georges_Skandalis
 Georges_Valiron
 Georges_de_Rham
 Georgi_Bradistilov
+Georgia_Benkart
 Georgii_Yurii_Pfeiffer
 Georgios_Remoundos
 Georgiy_Shilov
@@ -2209,8 +2202,6 @@ Glenn_H._Stevens
 Gloria_Conyers_Hewitt
 Glyn_Harman
 Gonzalo_P%c3%a9rez_Iribarren
-Gopal_Prasad
-Gopinath_Kallianpur
 Gordana_Matic
 Gordon_Douglas_Slade
 Gordon_Foster
@@ -2230,6 +2221,7 @@ Grace_Andrews_%28mathematician%29
 Grace_Bates
 Grace_Chisholm_Young
 Grace_Hopper
+Grace_Marie_Bareis
 Grace_Wahba
 Graciano_Ricalde_Gamboa
 Graciela_Chichilnisky
@@ -2269,6 +2261,7 @@ Guido_Castelnuovo
 Guido_Fubini
 Guido_Stampacchia
 Guido_Zappa
+Guido_de_Philippis
 Guidobaldo_del_Monte
 Guillaume_Le_Blond
 Guillaume_de_l%27H%c3%b4pital
@@ -2303,6 +2296,7 @@ Gustave_Solomon
 Gustavo_Colonnetti
 Gustavo_Sannia
 Guy_Henniart
+Guy_Hirsch
 Guy_Nason
 Guy_Terjanian
 Gu%c3%b0brandur_%c3%9eorl%c3%a1ksson
@@ -2318,6 +2312,7 @@ Gyula_Y._Katona
 Gy%c3%b6rgy_Alexits
 Gy%c3%b6rgy_Elekes
 Gy%c3%b6rgy_Haj%c3%b3s
+G%c3%a1bor_Domokos
 G%c3%a1bor_Hal%c3%a1sz
 G%c3%a1bor_J._Sz%c3%a9kely
 G%c3%a1bor_Korchm%c3%a1ros
@@ -2332,6 +2327,7 @@ G%c3%a9za_Gr%c3%bcnwald
 G%c3%a9za_Ottlik
 G%c3%b6sta_Mittag-Leffler
 G%c3%bcnter_Asser
+G%c3%bcnter_Harder
 G%c3%bcnter_Hotz
 G%c3%bcnter_Lumer
 G%c3%bcnter_Pilz
@@ -2341,12 +2337,14 @@ Habash_al-Hasib_al-Marwazi
 Haesun_Park
 Haim_Gaifman
 Haim_Hanani
+Haim_Shapira
 Halayudha
 Halil_Mete_Soner
 Hamlet_Isakhanli
 Hamnet_Holditch
 Hanfried_Lenz
 Hanna_Neumann
+Hannah_Fry
 Hannes_Keller
 Hanno_Rund
 Hans_Bruun_Nielsen
@@ -2394,7 +2392,6 @@ Harald_Cram%c3%a9r
 Harald_Garcke
 Harald_Helfgott
 Harald_Niederreiter
-Harish-Chandra
 Harm_Bart
 Harold_A._Knapp
 Harold_Davenport
@@ -2483,7 +2480,6 @@ Helmut_R%c3%b6hrl
 Helmut_Ulm
 Helmut_Wielandt
 Helmuth_Gericke
-Hemachandra
 Henda_Swart
 Hendrik_Kloosterman
 Hendrik_Lenstra
@@ -2535,7 +2531,6 @@ Henry_Sanborn_Noyes
 Henry_Scheff%c3%a9
 Henry_Seely_White
 Henry_Thomas_Colebrooke
-Henry_Thomas_Herbert_Piaggio
 Henry_Wallman
 Henry_Wilbraham
 Henry_William_Durant
@@ -2583,7 +2578,7 @@ Hermann_of_Reichenau
 Hernando_Burgos-Soto
 Hero_of_Alexandria
 Herta_Freitag
-Hertha_Marks_Ayrton
+Hertha_Ayrton
 Herv%c3%a9_Jacquet
 Herv%c3%a9_Le_Bras
 Herv%c3%a9_Moulin
@@ -2608,7 +2603,6 @@ Hiroshi_Haruki
 Hiroshi_Okamura
 Hjalmar_Magnus_Eklund
 Hjalmar_Mellin
-Hoon_Balakram
 Horace_Webster
 Horatio_Scott_Carslaw
 Horng-Tzer_Yau
@@ -2623,6 +2617,7 @@ Howard_G._Funkhouser
 Howard_Jerome_Keisler
 Howard_Levi
 Howard_Masur
+Howard_Smith_%28diplomat%29
 Howard_Wright_Alexander
 Ho%c3%a0ng_T%e1%bb%a5y
 Ho%c3%a0ng_Xu%c3%a2n_H%c3%a3n
@@ -2684,6 +2679,7 @@ Ibn_Sahl
 Ibn_Shuayb
 Ibn_Yunus
 Ibn_al-Banna%27_al-Marrakushi
+Ibn_al-Haytham
 Ibn_al-Majdi
 Ibn_al-Yasamin
 Ibn_al%e2%80%90Ha%27im_al%e2%80%90Ishbili
@@ -2726,7 +2722,6 @@ Imre_Z._Ruzsa
 Inayatullah_Khan_Mashriqi
 Inder_Bir_Singh_Passi
 Indranil_Biswas
-Indulata_Sukla
 Ingebrigt_Johansson
 Ingrid_Daubechies
 Ioan_Dzi%c8%9bac
@@ -2763,6 +2758,7 @@ Isaak_Russman
 Isaak_Yaglom
 Isabel_Hubard_Escalera
 Isabella_Bashmakova
+Isabella_Novik
 Isabelle_Gallagher
 Isadore_Singer
 Isaiah_Kantor
@@ -2816,7 +2812,7 @@ J._Barkley_Rosser
 J._C._P._Miller
 J._Carson_Mark
 J._Doyne_Farmer
-J._Ernest_Wilkins%2c_Jr.
+J._Ernest_Wilkins_Jr.
 J._F._Cameron
 J._H._C._Whitehead
 J._H._van_Lint
@@ -2844,6 +2840,7 @@ Jack_Lutz
 Jack_Morava
 Jack_Silver
 Jack_Yang
+Jackie_Stedall
 Jacob_Bernoulli
 Jacob_Cohen_%28statistician%29
 Jacob_Fox
@@ -2880,8 +2877,6 @@ Jacques_de_Billy
 Jacques-Louis_Lions
 Jafar_Zafarani
 Jagannatha_Samrat
-Jai_Singh_II
-Jaikumar_Radhakrishnan
 Jakob_Amsler-Laffon
 Jakob_Hermann
 Jakob_Horn
@@ -2921,6 +2916,7 @@ James_Eells
 James_Franklin_%28philosopher%29
 James_Glenie
 James_Glimm
+James_Gow_%28scholar%29
 James_Gray_%28mathematician%29
 James_Gregory_%28mathematician%29
 James_H._Bramble
@@ -2953,7 +2949,6 @@ James_R._Jackson
 James_R._Newman
 James_R._Norris
 James_Robert_McConnell
-James_Serrin
 James_Stewart_%28mathematician%29
 James_Stirling_%28mathematician%29
 James_Tanton
@@ -2982,7 +2977,6 @@ Jan_Miko%c5%82aj_Smogulecki
 Jan_Mikusi%c5%84ski
 Jan_Mycielski
 Jan_Rajewski
-Jan_Vaerman
 Jan_Willem_Klop
 Jan_Willem_Nienhuys
 Jan_%c5%81ukasiewicz
@@ -2997,7 +2991,6 @@ Jarl_Waldemar_Lindeberg
 Jaroslav_H%c3%a1jek
 Jaroslav_Kurzweil
 Jaroslav_Ne%c5%a1et%c5%99il
-Jason_Behrstock
 Javier_Gonz%c3%a1lez_Garza
 Javier_Perez-Capdevila
 Jayadeva_%28mathematician%29
@@ -3024,7 +3017,6 @@ Jean_Paul_de_Gua_de_Malves
 Jean_Serra
 Jean_Taylor
 Jean_Trembley
-Jean_le_Rond_d%27Alembert
 Jean_van_Heijenoort
 Jean-Charles_Faug%c3%a8re
 Jean-Charles_della_Faille
@@ -3047,7 +3039,6 @@ Jean-Michel_Coron
 Jean-Michel_Salanskis
 Jean-Paul_Benz%c3%a9cri
 Jean-Paul_Delahaye
-Jean-Pierre_Bourguignon
 Jean-Pierre_Eckmann
 Jean-Pierre_Kahane
 Jean-Pierre_Serre
@@ -3159,6 +3150,7 @@ Johann_Georg_Rosenhain
 Johann_Georg_Tralles
 Johann_Gottlieb_Friedrich_von_Bohnenberger
 Johann_Heinrich_Lambert
+Johann_Heinrich_Louis_Kr%c3%bcger
 Johann_III_Bernoulli
 Johann_Jacob_Zimmermann
 Johann_Karl_Burckhardt
@@ -3196,6 +3188,7 @@ John_B._Cosgrave
 John_B._Garnett
 John_Babington_%28mathematician%29
 John_Bonnycastle
+John_Brian_Helliwell
 John_Brillhart
 John_Britton_%28mathematician%29
 John_Brown_Clark
@@ -3209,6 +3202,7 @@ John_Casey_%28mathematician%29
 John_Cayo_Evans
 John_Charles_Burkill
 John_Charles_Fields
+John_Christopher_Sturmius
 John_Clayton_Taylor
 John_Coleman_Moore
 John_Conrad_Jaeger
@@ -3277,7 +3271,6 @@ John_Morgan_%28mathematician%29
 John_Napier
 John_Newsome_Crossley
 John_Nunn
-John_Oommen
 John_Pardon
 John_Pediasimos
 John_Pell
@@ -3293,6 +3286,7 @@ John_Riordan_%28mathematician%29
 John_Robert_Anderson_%28psychologist%29
 John_Robert_Kline
 John_Robert_Ringrose
+John_Robertson_%28FRS%29
 John_Roe_%28mathematician%29
 John_Selfridge
 John_Shand
@@ -3302,7 +3296,6 @@ John_Stillwell
 John_T._Graves
 John_T._Lewis
 John_Tate
-John_Tavares_%28lacrosse%29
 John_Tipper_%28mathematician%29
 John_Todd_%28computer_scientist%29
 John_Toland_%28mathematician%29
@@ -3328,7 +3321,6 @@ John_von_Neumann
 Joichi_Suetsuna
 Jon_Barwise
 Jon_Folkman
-Jon_Speelman
 Jon_T._Pitts
 Jonas_Kubilius
 Jonathan_Bennett_%28mathematician%29
@@ -3373,6 +3365,7 @@ Joseph_Gillis
 Joseph_H._Silverman
 Joseph_Hilbe
 Joseph_J._Kohn
+Joseph_J._Rotman
 Joseph_Jean_Baptiste_Neuberg
 Joseph_Kamp%c3%a9_de_F%c3%a9riet
 Joseph_Keller
@@ -3387,10 +3380,10 @@ Joseph_Liberman
 Joseph_Liouville
 Joseph_Lipman
 Joseph_Ludwig_Raabe
-Joseph_Madachy
 Joseph_Mazur
 Joseph_Oesterl%c3%a9
 Joseph_Proudman
+Joseph_P%c3%a9r%c3%a8s
 Joseph_R._Shoenfield
 Joseph_Raphson
 Joseph_Saurin
@@ -3399,7 +3392,6 @@ Joseph_Sgro
 Joseph_Tilly
 Joseph_Valentin_Boussinesq
 Joseph_Wedderburn
-Joseph_Winlock
 Joseph_Wolstenholme
 Joseph_of_Spain
 Joseph-Louis_Lagrange
@@ -3456,6 +3448,7 @@ Jules_Tannery
 Julia_F._Knight
 Julia_Robinson
 Julian_Coolidge
+Julian_J._Bussgang
 Julian_Sochocki
 Julien_Amegandjin
 Julio_Cesar_Firrufino
@@ -3478,7 +3471,6 @@ Jurij_Vega
 Jurjen_Ferdinand_Koksma
 Justinian_Rweyemamu
 Justus_Velsius
-Jye%e1%b9%a3%e1%b9%adhadeva
 J%c3%a1nos_Acz%c3%a9l_%28mathematician%29
 J%c3%a1nos_Ap%c3%a1czai_Csere
 J%c3%a1nos_Bolyai
@@ -3498,31 +3490,22 @@ J%c3%bcrgen_Moser
 J%c3%bcrgen_Neukirch
 J%c4%81nis_Vuc%c4%81ns
 K_Sandeep
-K._Ananda_Rau
 K._B._Reid
 K._C._Nag
 K._C._Sreedharan_Pillai
 K._David_Elworthy
-K._G._Ramanathan
-K._Mani_Chandy
 K._R._Parthasarathy_%28graph_theorist%29
 K._R._Parthasarathy_%28probabilist%29
-K._S._Amur
 K._S._Chandrasekharan
-K._S._S._Nambooripad
 K._V._Sarma
-Kadammanitta_Vasudevan_Pillai
 Kai_Behrend
+Kai-Tai_Fang
 Kaisa_Miettinen
 Kaisa_Nyberg
 Kajetan_Garbi%c5%84ski
 Kali_S._Banerjee
-Kalyan_Bidhan_Sinha
 Kalyan_Mukherjea
-Kamalakara
 Kam%c4%81l_al-D%c4%abn_al-F%c4%81ris%c4%ab
-Kanakanahalli_Ramachandra
-Kannan_Soundararajan
 Kanta_Gupta
 Karel_Hrb%c3%a1%c4%8dek
 Karel_Jane%c4%8dek
@@ -3560,6 +3543,7 @@ Karl_Pearson
 Karl_Prachar
 Karl_Rohn
 Karl_Rubin
+Karl_Schr%c3%b6ter
 Karl_Seebach
 Karl_Sigmund
 Karl_Stein_%28mathematician%29
@@ -3576,7 +3560,6 @@ Karol_%c5%bbyczkowski
 Karsten_Grove
 Katalin_Marton
 Kate_Bellingham
-Katherine_Johnson
 Kathleen_Adebola_Okikiolu
 Kathleen_Antonelli
 Kathleen_Ollerenshaw
@@ -3591,8 +3574,8 @@ Kazimierz_Abramowicz
 Kazimierz_Bartel
 Kazimierz_Cwojdzi%c5%84ski
 Kazimierz_Kuratowski
+Kazimierz_Urbanik
 Kazimierz_Zarankiewicz
-Kazimov_Javanshir
 Kazuhiko_Aomoto
 Kazuoki_Azuma
 Kazuya_Kato
@@ -3605,7 +3588,6 @@ Keith_Martin_Ball
 Keith_O%27Brien
 Keith_Stroyan
 Keith_William_Morton
-Kelallur_Neelakandhan_Somayaji
 Kelly_Miller_%28scientist%29
 Ken_Keeler
 Ken_Ono
@@ -3614,7 +3596,6 @@ Ken_Ritchie
 Ken_Stroud
 Ken-ichi_Kawarabayashi
 Kengo_Hirachi
-Kenji_Fukaya
 Kenji_Ueno
 Kenkichi_Iwasawa
 Kenneth_Appel
@@ -3665,7 +3646,6 @@ Konstantin_Posse
 Konstantinos_Tzechanis
 Kosmas_Balanos
 Krassimir_Atanassov
-Krishnaswami_Alladi
 Kristen_Nygaard
 Kristian_B._Dysthe
 Kristian_Seip
@@ -3705,7 +3685,6 @@ Lajos_P%c3%b3sa_%28mathematician%29
 Lajos_Szilassi
 Lajos_Tak%c3%a1cs
 Lakkoju_Sanjeevaraya_Sharma
-Lalla
 Lam_Lay_Yong
 Lamberto_Cesari
 Lancelot_Stephen_Bosanquet
@@ -3729,6 +3708,7 @@ Laurence_Chisholm_Young
 Laurence_Wolsey
 Laurens_de_Haan
 Laurent_C._Siebenmann
+Laurent_Clozel
 Laurent_Lafforgue
 Laurent_Schwartz
 Lawrence_A._Mysak
@@ -3860,6 +3840,7 @@ List_of_mathematical_probabilists
 List_of_women_in_mathematics
 Liu_Gang
 Liu_Lu
+Liu_Yingming
 Ljubomir_Chakaloff
 Lloyd_Dines
 Lloyd_N._Trefethen
@@ -3890,6 +3871,7 @@ Louis_J._Mordell
 Louis_Kauffman
 Louis_Michel_%28physicist%29
 Louis_Napoleon_George_Filon
+Louis_Necker
 Louis_Nirenberg
 Louis_Norberg_Howard
 Louis_Puissant
@@ -3921,6 +3903,7 @@ Ludvig_Faddeev
 Ludvig_Lorenz
 Ludvig_Oppermann
 Ludwig_Becker_%28astronomer%29
+Ludwig_Berwald
 Ludwig_Boltzmann
 Ludwig_Burmester
 Ludwig_Immanuel_Magnus
@@ -3946,6 +3929,7 @@ Luis_V%c3%a1zquez_Mart%c3%adnez
 Luther_P._Eisenhart
 Lu%c3%ads_Teixeira
 Lyndhurst_Giblin
+Lynette_Long
 Lynn_Harold_Loomis
 Lynne_H._Walling
 Lyubomir_Ivanov_%28explorer%29
@@ -3968,6 +3952,7 @@ L%c3%aa_D%c5%a9ng_Tr%c3%a1ng
 L%c3%aa_Th%e1%bb%8b_Thanh_Nh%c3%a0n
 L%c3%aa_V%c4%83n_Thi%c3%aam
 M._B._W._Tent
+M._C._Chakrabarti
 M._D._Chow
 M._H._J._Schoenmaekers
 M._J._Seaton
@@ -3978,15 +3963,10 @@ M._S._Raghunathan
 M._T._Cheng
 M._T._Naraniengar
 Maciej_Zworski
-Madhava_of_Sangamagrama
-Madhu_Sudan
 Magnus_Hestenes
 Magnus_Pegel
-Mahan_Mj
 Mahendra_S%c5%abri
 Mahmut_Bajraktarevi%c4%87
-Mah%c4%81v%c4%abra_%28mathematician%29
-Maithili_Sharan
 Maleyka_Abbaszadeh
 Mamadsho_Ilolov
 Mamikon_Mnatsakanian
@@ -3995,8 +3975,6 @@ Manava
 Manfred_Einsiedler
 Manfred_Wagner
 Manfredo_do_Carmo
-Mangala_Narlikar
-Manindra_Agrawal
 Manjul_Bhargava
 Manohar_Vartak
 Manuel_Sadosky
@@ -4005,7 +3983,6 @@ Marc_Culler
 Marc_Krasner
 Marc_Lackenby
 Marc_Thomas
-Marc_Voorhoeve
 Marc_Yor
 Marc_Zamansky
 Marc_van_Leeuwen
@@ -4028,6 +4005,7 @@ Marcus_du_Sautoy
 Marcy_Barge
 Marek_Karpinski
 Marek_Kuczma
+Margaret_Boyle
 Margaret_Greig
 Margaret_H._Wright
 Margaret_K._Butler
@@ -4038,6 +4016,7 @@ Marguerite_Frank
 Marguerite_Lehr
 Maria_Adelaide_Sneider
 Maria_Angela_Ardinghelli
+Maria_Assumpci%c3%b3_Catal%c3%a0_i_Poch
 Maria_Chudnovsky
 Maria_E._Schonbek
 Maria_Gaetana_Agnesi
@@ -4050,6 +4029,8 @@ Marian_Small
 Marianna_Cs%c3%b6rnyei
 Marie_Anne_Victoire_Pigeon
 Marie_Crous
+Marie_Farge
+Marie_Fran%c3%a7oise_Ouedraogo
 Marie_Litzinger
 Marie-France_Vign%c3%a9ras
 Marie-Fran%c3%a7oise_Roy
@@ -4068,6 +4049,7 @@ Mario_Szegedy
 Mario_Wschebor
 Marion_Cameron_Gray
 Marion_Cohen
+Marion_Scheepers
 Marion_Walter
 Marjorie_Lee_Browne
 Marjorie_Rice
@@ -4121,6 +4103,7 @@ Martin_L%c3%b6b
 Martin_Scharlemann
 Martin_Schechter_%28mathematician%29
 Martin_T._Barlow
+Martin_Vingron
 Martin_Wilhelm_Kutta
 Martin_van_den_Hove
 Marvin_Knopp
@@ -4156,7 +4139,6 @@ Mathematician
 Mathias_Lerch
 Mathias_Schacht
 Mathieu_Lewin
-Mathukumalli_V._Subbarao
 Matila_Ghyka
 Matilde_Marcolli
 Matrak%c3%a7%c4%b1_Nasuh
@@ -4215,7 +4197,6 @@ Menahem_Max_Schiffer
 Menelaus_of_Alexandria
 Merrilyn_Goos
 Messoud_Efendiev
-Metius
 Meton_of_Athens
 Metrodorus_%28grammarian%29
 Meyer_Bockstein
@@ -4233,6 +4214,7 @@ Michael_Benedicks
 Michael_Boardman
 Michael_Christopher_Wendl
 Michael_Cowling
+Michael_D._Fried
 Michael_D._Morley
 Michael_D._Plummer
 Michael_Dinneen
@@ -4247,7 +4229,6 @@ Michael_H._Albert
 Michael_Harris_%28mathematician%29
 Michael_Heath_%28computer_scientist%29
 Michael_Hutchings_%28mathematician%29
-Michael_J._D._Powell
 Michael_Katehakis
 Michael_Krivelevich
 Michael_Lin_%28mathematician%29
@@ -4309,13 +4290,13 @@ Michio_Kuga
 Michio_Suzuki
 Mich%c3%a8le_Audin
 Mich%c3%a8le_Vergne
+Mieczys%c5%82aw_Warmus
 Miggy_Biller
 Miguel_Walsh
 Miguel_%c3%81ngel_Fern%c3%a1ndez_Sanju%c3%a1n
 Mihail_Zervos
 Mihailo_Petrovi%c4%87
 Mihalis_Dafermos
-Mihir_Baran_Banerjee
 Mike_Alder
 Mike_Steel_%28mathematician%29
 Mikhail_Agranovich
@@ -4347,6 +4328,7 @@ Milan_Raspopovi%c4%87
 Mildred_Sanderson
 Miles_Reid
 Mileva_Mari%c4%87
+Mileva_Prvanovi%c4%87
 Milo%c5%a1_Zahradn%c3%adk
 Milton_Abramowitz
 Milutin_Dostani%c4%87
@@ -4356,6 +4338,7 @@ Mina_Rees
 Minggatu
 Miodrag_Petkovi%c4%87
 Mir_Maswood_Ali
+Miranda_Cheng
 Mircea_Puta
 Mireille_Bousquet-M%c3%a9lou
 Miriam_Cohen
@@ -4366,7 +4349,6 @@ Mischa_Cotlar
 Misha_Verbitsky
 Misir_Mardanov
 Mitchell_Feigenbaum
-Mitio_Nagumo
 Mitrofan_Cioban
 Mizan_Rahman
 Mkhitar_Djrbashian
@@ -4381,8 +4363,8 @@ Mohammed_ibn_Abdun_al-Jabali
 Mohsen_Hashtroodi
 Moj%c5%bcesz_David_Kirszbraun
 Moj%c5%bcesz_Presburger
-Mollie_Orshansky
 Monika_Ludwig
+Monique_Laurent
 Monroe_D._Donsker
 Montserrat_Teixidor_i_Bigas
 Morgan_Crofton
@@ -4414,6 +4396,7 @@ Mstislav_Keldysh
 Mu-Tao_Wang
 Muhammad_Ayub_%28mathematician%29
 Muhammad_Baqir_Yazdi
+Muhammad_Raziuddin_Siddiqui
 Muhammad_Sharif_%28cosmologist%29
 Muhammad_Yahuza_Bello
 Muhammad_Yousuf
@@ -4428,10 +4411,10 @@ Muzio_Oddi
 Mu%e1%b8%a5ammad_ibn_Ibr%c4%81h%c4%abm_al-Faz%c4%81r%c4%ab
 Myhailo_Yadrenko
 Myles_Hollander
+Myles_Tierney
 M%c3%a1rton_Bal%c3%a1zs
 M%c3%b3nica_Clapp
 N._G._W._H._Beeger
-N._S._Rajaram
 N._U._Prabhu
 Na%27im_ibn_Musa
 Nachman_Aronszajn
@@ -4458,6 +4441,7 @@ Natascha_Artin_Brunswick
 Nata%c5%a1a_Pavlovi%c4%87
 Nata%c5%a1a_%c5%a0e%c5%a1um
 Nate_Ackerman
+Nathalie_Sinclair
 Nathan_Altshiller_Court
 Nathan_D%27Laryea
 Nathan_Daboll
@@ -4485,6 +4469,7 @@ Nelson_Dunford
 Nesmith_Ankeny
 Nessim_Sibony
 Newton_da_Costa
+Ngamta_Thamwattana
 Nguyen_Dinh_Ngoc
 Nguy%e1%bb%85n_Ng%e1%bb%8dc_B%c3%acnh
 Ng%c3%b4_B%e1%ba%a3o_Ch%c3%a2u
@@ -4513,9 +4498,11 @@ Nicolae_Popescu
 Nicolai_A._Vasiliev
 Nicolai_Reshetikhin
 Nicolai_V._Krylov
+Nicolao_Colletti
 Nicolas_Bourbaki
 Nicolas_Chuquet
 Nicolas_Fatio_de_Duillier
+Nicolas_Fizes
 Nicolas_Rashevsky
 Nicolas_Sarrabat
 Nicolas_Vilant
@@ -4572,7 +4559,6 @@ Nikolay_Yakovlevich_Sonin
 Nikolay_Yegorovich_Zhukovsky
 Nikoloz_Muskhelishvili
 Niky_Kamran
-Nilakantha_Somayaji
 Nils_Aall_Barricelli
 Nils_Dencker
 Nil%c3%bcfer_%c3%87%c4%b1nar_%c3%87orlulu
@@ -4605,7 +4591,6 @@ Notker_Labeo
 Nuno_Crato
 Octav_Mayer
 Octav_Onicescu
-Odd_Aalen
 Odd_Magnus_Faltinsen
 Oded_Schramm
 Oenopides
@@ -4627,7 +4612,7 @@ Oleg_Marichev
 Oleg_Nagornov
 Oleg_Tozoni
 Oleg_Viro
-Oleksandr_Mykolaiovych_Sharkovsky
+Oleksandr_Mykolayovych_Sharkovsky
 Olga_Bondareva
 Olga_Holtz
 Olga_Kharlampovich
@@ -4638,6 +4623,7 @@ Olgierd_Zienkiewicz
 Olive_Hazlett
 Olive_Jean_Dunn
 Olivier_Debarre
+Olivier_Gu%c3%a9ant
 Olivier_Pironneau
 Olivier_Ramar%c3%a9
 Olli_Lehto
@@ -4696,17 +4682,14 @@ Ovidiu_Savin
 Owen_Saunders
 Oxford_Calculators
 Oyewusi_Ibidapo-Obe
-P_Kesava_Menon
 P._A._P._Moran
 P._Kanagasabapathy
+Pablo_Ferrari
 Paco_Lagerstrom
 Pafnuty_Chebyshev
 Palash_Kumar
-Palash_Sarkar
 Pan_Chengdong
 Panagiota_Daskalopoulos
-Pandurang_Vasudeo_Sukhatme
-Pankaj_K._Agarwal
 Panos_Papasoglu
 Pao_Ming_Pu
 Pao-Lu_Hsu
@@ -4717,7 +4700,6 @@ Paolo_Marcellini
 Paolo_Ruffini
 Paolo_dal_Pozzo_Toscanelli
 Pappus_of_Alexandria
-Parameshvara
 Pascal_Auscher
 Pasquale_del_Pezzo
 Patrice_Ossona_de_Mendez
@@ -4727,6 +4709,7 @@ Patrick_Billingsley
 Patrick_Brosnan
 Patrick_Dehornoy
 Patrick_Ion
+Patrick_Joseph_Nolan
 Patrick_Michael_Grundy
 Patrick_Suppes
 Patrick_Wilson_%28astronomer%29
@@ -4855,6 +4838,7 @@ Peter_Landrock
 Peter_Lax
 Peter_Littelmann
 Peter_Ludwig_Mejdell_Sylow
+Peter_Lynch_%28meteorologist%29
 Peter_M._Gruber
 Peter_M._Neumann
 Peter_McCullagh
@@ -4864,6 +4848,7 @@ Peter_Onumanyi
 Peter_Orno
 Peter_Ozsv%c3%a1th
 Peter_Paule
+Peter_Richtarik
 Peter_Roquette
 Peter_Salamon
 Peter_Sarnak
@@ -4894,6 +4879,7 @@ Philip_Ehrlich
 Philip_Emeagwali
 Philip_Franklin
 Philip_Hall
+Philip_Hartman
 Philip_J._Davis
 Philip_M._Whitman
 Philip_Rosenau
@@ -4915,7 +4901,6 @@ Phillip_Griffiths
 Philolaus
 Philon
 Philonides_of_Laodicea
-Phoolan_Prasad
 Phyllis_Chinn
 Phyllis_Fox
 Phyllis_Nicolson
@@ -4970,16 +4955,11 @@ Pingala
 Piotr_Smole%c5%84ski
 Platon_Poretsky
 Polyaenus_of_Lampsacus
-Poondi_Kumaraswamy
 Pope_Sylvester_II
 Posidonius
 Poul_Heegaard
-Prabhakar_Raghavan
-Prabhu_Lal_Bhatnagar
-Prabodh_Chandra_Goswami
 Prabodh_Chandra_Sengupta
 Prakash_Belkale
-Prasad_V._Tetali
 Preda_Mih%c4%83ilescu
 Prithudaka
 Priyanshi_Somani
@@ -5014,8 +4994,6 @@ R._Leonard_Brooks
 R._M._Foster
 R._M._Wilson
 R._P._Gupta
-R._P._Paranjpe
-R._Ramachandra_Rao
 R._Ranga_Rao
 R._Tyrrell_Rockafellar
 R._W._H._T._Hudson
@@ -5025,11 +5003,11 @@ Rachel_Riley
 Radha_Charan_Gupta
 Radha_Laha
 Radhanath_Sikdar
+Radoslav_Harman
 Rafael_Artzy
 Rafael_Bombelli
 Rafael_E._N%c3%ba%c3%b1ez
 Raffaello_Magiotti
-Raghavan_Narasimhan
 Raghu_Raj_Bahadur
 Ragnar_Winther
 Ragni_Piene
@@ -5039,11 +5017,7 @@ Raimo_H%c3%a4m%c3%a4l%c3%a4inen
 Raimundo_Teixeira_Mendes
 Rainer_Burkard
 Raj_Chandra_Bose
-Rajagopalan_Parthasarathy
-Rajeev_Motwani
 Rajeeva_Laxman_Karandikar
-Rajendra_Bhatia
-Rajesh_Kasturirangan
 Ralf_J._Spatzier
 Ralph_Abraham
 Ralph_Duncan_James
@@ -5059,11 +5033,9 @@ Ralph_P._Boas_Jr.
 Ralph_Palmer_Agnew
 Ralph_Tambs-Lyche
 Ram_Prakash_Bambah
-Ramachandran_Balasubramanian
 Ramaiyengar_Sridharan
 Raman_Parimala
 Ramaswamy_S._Vaidyanathaswamy
-Ramchundra
 Rami_Grossberg
 Ramin_Takloo-Bighash
 Ramiro_Rampinelli
@@ -5079,11 +5051,8 @@ Rapha%c3%abl_Rouquier
 Rapha%c3%abl_Salem
 Rashid_Ahmad
 Rasmus_Bartholin
-Ratan_Shankar_Mishra
-Ravi_Agarwal
 Ravi_Vakil
 Ravindra_Shripad_Kulkarni
-Ravindran_Kannan
 Ray_Kunze
 Raymond_Clare_Archibald
 Raymond_Flood_%28mathematician%29
@@ -5095,12 +5064,14 @@ Raymond_Paley
 Raymundo_Favila
 Ra%c3%bal_Ch%c3%a1vez_Sarmiento
 Rebecca_A._Herb
+Rebecca_Goldin
 Regina_S._Burachik
 Regina_Tyshkevich
 Regiomontanus
 Rehuel_Lobatto
 Reidun_Twarock
 Reinhard_Selten
+Reinhardt_Kiehl
 Reinhold_Baer
 Reinhold_Remmert
 Reinhold_Strassmann
@@ -5123,7 +5094,6 @@ Ren%c3%a9-Fran%c3%a7ois_de_Sluse
 Ren%c3%a9-Louis_Baire
 Reo_Fortune
 Reuben_Goodstein
-Reuben_Hersh
 Reuven_Rubinstein
 Revaz_Gamkrelidze
 Reviel_Netz
@@ -5151,11 +5121,11 @@ Richard_D._Gill
 Richard_Davis_Anderson
 Richard_Dedekind
 Richard_Earl_Block
+Richard_Eliot_Chamberlin
 Richard_Elman_%28mathematician%29
 Richard_F._Bass
 Richard_Friederich_Arens
 Richard_G._Brown
-Richard_Hamilton_%28mathematician%29
 Richard_Hamming
 Richard_J._Lipton
 Richard_J._Wood
@@ -5172,8 +5142,10 @@ Richard_M._Dudley
 Richard_M._Pollack
 Richard_MacDonnell_%28scholar%29
 Richard_Meyer_%28mathematician%29
+Richard_Murray_%28mathematician%29
 Richard_P._Brent
 Richard_Rado
+Richard_S._Hamilton
 Richard_S._Varga
 Richard_Schelp
 Richard_Schoen
@@ -5230,7 +5202,9 @@ Robert_Gordon_of_Straloch
 Robert_Griess
 Robert_Haldane_%28mathematician%29
 Robert_Hamilton_%28economist%29
+Robert_Harley_%28mathematician%29
 Robert_Heath_%28mathematician%29
+Robert_Hermann_%28mathematician%29
 Robert_Horton_Cameron
 Robert_I._Soare
 Robert_J._Frey
@@ -5252,6 +5226,7 @@ Robert_Osserman
 Robert_P._Dilworth
 Robert_Parris_Moses
 Robert_Phelps
+Robert_Pollock_Gillespie
 Robert_Recorde
 Robert_Remak_%28mathematician%29
 Robert_S._Boyer
@@ -5275,7 +5250,6 @@ Robert_William_Chapman_%28engineer%29
 Robert_William_Genese
 Robert_Williams_%28geometer%29
 Robert_Woodhouse
-Roberto_Conti_%28mathematician%29
 Roberto_Marcolongo
 Roberto_de_Miranda
 Robin_Gandy
@@ -5313,6 +5287,7 @@ Roland_Glowinski
 Roland_Sprague
 Roland_Weitzenb%c3%b6ck
 Roland_Wilson_%28economist%29
+Rolando_Chuaqui
 Rolf_Nevanlinna
 Rolin_Wavre
 Rollo_Davidson
@@ -5321,6 +5296,7 @@ Rom_Varshamov
 Roman_Bezrukavnikov
 Roman_Holowinsky
 Roman_Sikorski
+Romanas_Janu%c5%a1kevi%c4%8dius
 Ron_Aharoni
 Ron_Eglash
 Ron_Goldman_%28mathematician%29
@@ -5364,6 +5340,7 @@ Rudolf_Wille
 Rudolph_Snellius
 Rudranath_Capildeo
 Rufus_Isaacs_%28game_theorist%29
+Ruggiero_Torelli
 Ruslan_Stratonovich
 Rutger_von_Langerfeld
 Ruth_Aaronson_Bari
@@ -5384,15 +5361,12 @@ R%c5%absi%c5%86%c5%a1_M%c4%81rti%c5%86%c5%a1_Freivalds
 S._A._Choudum
 S._B._Rao
 S._Barry_Cooper
-S._G._Dani
 S._L._Hakimi
 S._L._Loney
 S._L._Woronowicz
 S._M._Shah
-S._R._Ranganathan
 S._R._Srinivasa_Varadhan
 S._Ramanan
-S._Shankar_Sastry
 Sabir_Gusein-Zade
 Sabri_Ergun
 Saeid_Abbasbandy
@@ -5422,23 +5396,21 @@ Samuel_S._Wilks
 Samuel_Yates
 Sander_P._Zwegers
 Sandi_Klav%c5%bear
+Sandrine_P%c3%a9ch%c3%a9
 Sandy_Green_%28mathematician%29
 Sanford_L._Segal
 Sanjeev_Arora
-Sankara_Variar
-Sankara_Varman
 Santiago_L%c3%b3pez_de_Medrano
+Sara_Billey
+Sara_Zahedi
 Sara_van_de_Geer
 Sarah_Flannery
 Sarah_Woodhead
-Sarvadaman_Chowla
-Satyavarapu_Naga_Parameswara_Gupta
 Satyendra_Nath_Bose
 Saunders_Mac_Lane
 Sava_Grozdev
 Scipione_del_Ferro
 Scott_A._Wolpert
-Seema_Nanda
 Seki_Takakazu
 Selig_Brodetsky
 Selman_Akbulut
@@ -5455,7 +5427,9 @@ Sergei_K._Godunov
 Sergei_Konyagin
 Sergei_N._Artemov
 Sergei_Natanovich_Bernstein
+Sergei_Nikolaevich_Chernikov
 Sergei_Novikov_%28mathematician%29
+Sergei_Petrovskii
 Sergei_Sobolev
 Sergei_Tabachnikov
 Sergei_Vostokov
@@ -5476,9 +5450,6 @@ Seymour_Lipschutz
 Seymour_Papert
 Shafi_Goldwasser
 Shahn_Majid
-Shakuntala_Devi
-Shambhu_Dayal_Sinvhal
-Sharadchandra_Shankar_Shrikhande
 Sharaf_al-D%c4%abn_al-%e1%b9%ac%c5%abs%c4%ab
 Shaul_Foguel
 Shaun_Wylie
@@ -5492,6 +5463,7 @@ Shi_Zhongci
 Shigefumi_Mori
 Shigeru_Iitaka
 Shigeru_Mukai
+Shih-Hsien_Yu
 Shiing-Shen_Chern
 Shimon_Even
 Shimshon_Amitsur
@@ -5526,7 +5498,7 @@ Siemion_Fajtlowicz
 Sigmund_Selberg
 Sigmundur_Gudmundsson
 Sigurd_Angenent
-Sigurdur_Helgason_%28mathematician%29
+Sigur%c3%b0ur_Helgason_%28mathematician%29
 Sigve_Tj%c3%b8tta
 Sijue_Wu
 Silas_D._Alben
@@ -5549,7 +5521,6 @@ Sinan_ibn_Thabit
 Sin%c4%81n_ibn_al-Fat%e1%b8%a5
 Sir_George_Stokes%2c_1st_Baronet
 Sir_John_Sinclair%2c_1st_Baronet
-Siva_Athreya
 Sixto_R%c3%ados
 Skip_Garibaldi
 Sk%c3%abnder_Gjinushi
@@ -5574,10 +5545,7 @@ Sourav_Chatterjee
 Spencer_Bloch
 Spiru_Haret
 Sporus_of_Nicaea
-Sridhara
-Srinivasa_Ramanujan
 Srinivasacharya_Raghavan
-Srisa_Chandra_Vasu
 Sr%c4%91an_Ognjanovi%c4%87
 St_George_Ashe
 Stan_Wagon
@@ -5605,7 +5573,6 @@ Stanley_Skewes
 Stanley_Tennenbaum
 Stathis_Zachos
 Stefan_Bergman
-Stefan_Brands
 Stefan_Burr
 Stefan_E._Warschawski
 Stefan_Grigorievich_Samko
@@ -5614,6 +5581,7 @@ Stefan_Mazurkiewicz
 Stefan_M%c3%bcller_%28mathematician%29
 Stefan_Nemirovski
 Stefan_Ralescu
+Stefanie_Petermichl
 Stefano_Bianchini
 Stefano_da_San_Gregorio
 Stefano_degli_Angeli
@@ -5625,7 +5593,6 @@ Stephan_Cohn-Vossen
 Stephan_Luckhaus
 Stephanie_B._Alexander
 Stephanie_Singer
-Stephen_Alexander_%28astronomer%29
 Stephen_Altschul
 Stephen_Arthur_Jennings
 Stephen_Bigelow
@@ -5633,8 +5600,8 @@ Stephen_Fienberg
 Stephen_Gelbart
 Stephen_Hilbert
 Stephen_Milne_%28mathematician%29
+Stephen_Rallis
 Stephen_S._Kudla
-Stephen_Schanuel
 Stephen_Semmes
 Stephen_Smale
 Stephen_Stigler
@@ -5669,19 +5636,12 @@ St%c3%a5l_Aanderaa
 Su_Buqing
 Su_Song
 Subbaramiah_Minakshisundaram
-Subbayya_Sivasankaranarayana_Pillai
-Subhash_Kak
 Subhash_Khot
-Subhash_Suri
-Subrahmanyan_Chandrasekhar
-Sucharit_Sarkar
 Sudhakara_Dvivedi
 Sudines
 Sue_Chandler
 Sue_Whitesides
 Sufiah_Yusof
-Sujatha_Ramdorai
-Sulochana_Gadgil
 Sumner_Byron_Myers
 Sun_Guangyuan
 Sun_Tzu_%28mathematician%29
@@ -5729,7 +5689,6 @@ S%c3%a1muel_Mikoviny
 S%c3%a1ndor_Cs%c3%b6rg%c5%91
 S%c3%b8ren_Galatius
 S%c5%8dichi_Kakeya
-T._A._Sarasvati_Amma
 T._A._Springer
 T._Christine_Stevens
 T._N._Venkataramana
@@ -5749,7 +5708,6 @@ Takashi_Ono_%28mathematician%29
 Takebe_Kenko
 Takeo_Nakasawa
 Takuro_Shintani
-Takur%c5%8d_Mochizuki
 Tamar_Schlick
 Tamar_Ziegler
 Tamara_Awerbuch-Friedlander
@@ -5760,7 +5718,6 @@ Tam%c3%a1s_Sz%c5%91nyi
 Tam%c3%a1s_Vicsek
 Taqi_ad-Din_Muhammad_ibn_Ma%27ruf
 Tara_S._Holm
-Tarlok_Nath_Shorey
 Taro_Morishima
 Tasawar_Hayat
 Tasneem_M._Shah
@@ -5803,7 +5760,6 @@ Theodor_von_Oppolzer
 Theodore_Frankel
 Theodore_James_Courant
 Theodore_Slaman
-Theodore_Strong
 Theodore_William_Chaundy
 Theodorus_Dekker
 Theodorus_of_Cyrene
@@ -5816,7 +5772,6 @@ Theudius
 Thierry_Aubin
 Thierry_Coquand
 Thierry_Goudon
-Thiruvenkatachari_Parthasarathy
 Thomas_Banchoff
 Thomas_Barker_%28mathematician%29
 Thomas_Bartholin
@@ -5827,6 +5782,7 @@ Thomas_Carlyle
 Thomas_Chalmers
 Thomas_Clausen_%28mathematician%29
 Thomas_Fincke
+Thomas_G._Kurtz
 Thomas_Galloway
 Thomas_Gerald_Room
 Thomas_Hakon_Gr%c3%b6nwall
@@ -5839,7 +5795,10 @@ Thomas_Jech
 Thomas_Joannes_Stieltjes
 Thomas_John_I%27Anson_Bromwich
 Thomas_Jones_%28mathematician%29
+Thomas_Jones_Enright
+Thomas_Kingsmill_Abbott
 Thomas_Kirkman
+Thomas_Lengauer
 Thomas_Little_Heath
 Thomas_M._Cover
 Thomas_M._Liggett
@@ -5875,6 +5834,7 @@ Thrasyllus_of_Mendes
 Thymaridas
 Th%c3%a9odore_Cornut
 Th%c3%a9odore_Moret
+Th%c3%a9odore_Olivier
 Th%c3%a9odore_Reinach
 Th%c3%a9ophile_Lepage
 Th%c3%a9ophile_P%c3%a9pin
@@ -5915,13 +5875,13 @@ Tom_Whiteside
 Tomasz_%c5%81uczak
 Toma%c5%be_Pisanski
 Tomek_Bartoszy%c5%84ski
-Tomi_Reichental
 Tomio_Kubota
 Tommaso_Boggio
 Tommaso_Ceva
 Tommy_Bonnesen
 Toniann_Pitassi
 Tony_F._Chan
+Tony_L%c3%a9vy
 Tord_Ganelius
 Tord_Hall
 Tore_Schweder
@@ -5936,6 +5896,7 @@ Toufik_Mansour
 Trachette_Jackson
 Traian_Lalescu
 Trevor_West
+Tristan_Rivi%c3%a8re
 Troels_J%c3%b8rgensen
 Trygve_Haavelmo
 Trygve_Nagell
@@ -5950,7 +5911,6 @@ Tytus_Babczy%c5%84ski
 U._Narayan_Bhat
 U._S._R._Murty
 Ubirat%c3%a0n_D%27Ambrosio
-Udai_Bhan_Tewari
 Udayana
 Uffe_Haagerup
 Ugo_Morin
@@ -5960,19 +5920,15 @@ Ulrich_Kohlenbach
 Ulrich_Stuhler
 Ulrike_Tillmann
 Ulugh_Beg
-Umaswati
 Umesh_Vazirani
 Uriel_Feige
 Uriel_Frisch
 Urs_Schreiber
 Ursula_Hamenst%c3%a4dt
-Ushadevi_Bhosle
 Uwe_Storch
 Uzi_Vishne
 V._J._Havel
 V._Kumar_Murty
-V._Ramaswamy_Aiyer
-V._S._Huzurbazar
 V._S._Sunder
 Vaclav_Zizler
 Vadim_G._Vizing
@@ -5996,20 +5952,15 @@ Valery_Glivenko
 Valery_Goppa
 Valery_Senderov
 Van_H._Vu
-Vanaja_Iyengar
 Vance_Faber
+Vanja_Dukic
 Vanya_Mirzoyan
 Vararuchi
 Varghese_Mathai
-Var%c4%81hamihira
-Vasanti_N._Bhat-Nayak
-Vashishtha_Narayan_Singh
 Vasile_M._Popov
 Vasili_Yakovlevich_Zinger
 Vasily_Sergeevich_Nemchinov
 Vasily_Vladimirov
-Vasudevan_Srinivas
-Vatasseri_Parameshwaran_Nambudiri
 Vatroslav_Berti%c4%87
 Vaughan_Jones
 Vavrinec_Benedikt_of_Nedo%c5%beery
@@ -6018,7 +5969,6 @@ Va%e1%b9%ade%c5%9bvara
 Veeravalli_S._Varadarajan
 Veniamin_Kagan
 Venkat_Chandrasekaran
-Venkatesan_Guruswami
 Vera_Faddeeva
 Vera_Kublanovskaya
 Vera_Nikolaevna_Maslennikova
@@ -6028,7 +5978,7 @@ Vera_Serganova
 Vera_T._S%c3%b3s
 Verena_Huber-Dyson
 Vergilius_of_Salzburg
-Verner_Emil_Hoggatt%2c_Jr.
+Verner_Emil_Hoggatt_Jr.
 Vernor_Vinge
 Vi_Hart
 Viacheslav_Belavkin
@@ -6064,6 +6014,7 @@ Victor_Shestakov
 Victor_Shoup
 Victor_Th%c3%a9bault
 Victor_V%c3%a2lcovici
+Victor_W._Marek
 Victor_Wickerhauser
 Victor_Zalgaller
 Victor-Am%c3%a9d%c3%a9e_Lebesgue
@@ -6102,6 +6053,7 @@ Virginia_Ragsdale
 Vitali_Milman
 Vitalii_Ditkin
 Vitaly_Bergelson
+Vitello
 Vito_Volterra
 Vitold_Belevitch
 Vitold_Shmulyan
@@ -6125,6 +6077,8 @@ Vladimir_Damgov
 Vladimir_Dragovi%c4%87
 Vladimir_Drinfeld
 Vladimir_Filippov_%28politician%29
+Vladimir_Gennadievich_Sprindzuk
+Vladimir_Gerdt
 Vladimir_Kanovei
 Vladimir_Korepin
 Vladimir_Lefebvre
@@ -6145,6 +6099,7 @@ Vladimir_Steklov
 Vladimir_Tretyakov
 Vladimir_Vapnik
 Vladimir_Vari%c4%87ak
+Vladimir_Voevodin
 Vladimir_Voevodsky
 Vladimir_Vragov
 Vladimir_Vrani%c4%87
@@ -6162,6 +6117,7 @@ Vsevolod_Ivanovich_Romanovsky
 Vyacheslav_Ivanovich_Lebedev
 Vyacheslav_Shokurov
 Vyacheslav_Stepanov
+Vyacheslav_Vasilievich_Sazonov
 Vyjayanthi_Chari
 V%c3%a1clav_Benda
 V%c3%a1clav_Chv%c3%a1tal
@@ -6207,6 +6163,7 @@ Walter_Warwick_Sawyer
 Walter_Whiteley
 Walther_Mayer
 Walther_von_Dyck
+Wanda_Szmielew
 Wang_Fan
 Wang_Xianghao
 Wang_Xiaotong
@@ -6227,7 +6184,6 @@ Weinan_E
 Weiqing_Gu
 Welington_de_Melo
 Wendelin_Werner
-Wendy_Hall
 Werner_Boy
 Werner_Fenchel
 Werner_Gysin
@@ -6250,6 +6206,7 @@ Wilhelm_Ljunggren
 Wilhelm_Magnus
 Wilhelm_Specht
 Wilhelm_S%c3%bcss
+Wilhelm_Winkler
 Wilhelm_Wirtinger
 Wilhelm_von_Freeden
 Wilhelmus_Luxemburg
@@ -6272,6 +6229,7 @@ William_B._Gragg
 William_B._Johnson_%28mathematician%29
 William_Batecumbe
 William_Beckner_%28mathematician%29
+William_Benjamin_Smith
 William_Bigelow_Easton
 William_Braikenridge
 William_Browder_%28mathematician%29
@@ -6301,6 +6259,7 @@ William_John_Dundas
 William_Jones_%28mathematician%29
 William_Kahan
 William_Karush
+William_King_Gillies
 William_Kingdon_Clifford
 William_Lawrence_Kocay
 William_Lawvere
@@ -6334,12 +6293,14 @@ William_W._Tait
 William_Wallace_%28mathematician%29
 William_Y.C._Chen
 William_of_Heytesbury
+Wilson_Sutherland
+Wim_Blok
 Wing_Hung_Wong
 Winifred_Asprey
 Winifred_Edgerton_Merrill
+Winifred_Margaret_Deans
 Winifred_Sargent
 Winnie_Li
-Witelo
 Witold_Milewski_%28mathematician%29
 Witold_Rybczy%c5%84ski
 Wladimir_Seidel
@@ -6358,9 +6319,9 @@ Wolfgang_Leinberer
 Wolfgang_L%c3%bcck
 Wolfgang_M._Schmidt
 Wolfgang_Rautenberg
-Wolfgang_Walter
 Wu_Renchen
 Wu_Wenjun
+Wu-Chung_Hsiang
 W%c5%82adys%c5%82aw_Orlicz
 W%c5%82adys%c5%82aw_Zaj%c4%85czkowski
 W%c5%82adys%c5%82aw_%c5%9alebodzi%c5%84ski
@@ -6390,7 +6351,6 @@ Yaroslav_Lopatinskii
 Yasuaki_Aida
 Yasumasa_Kanada
 Yasutaka_Ihara
-Yativ%e1%b9%9b%e1%b9%a3abha
 Ya%ca%bfq%c5%abb_ibn_%e1%b9%ac%c4%81riq
 Ya%ca%bf%c4%absh_ibn_Ibr%c4%81h%c4%abm_al-Umaw%c4%ab
 Yegor_Ivanovich_Zolotarev
@@ -6449,10 +6409,10 @@ Yves_Laszlo
 Yves_Le_Jan
 Yves_Marie_Andr%c3%a9
 Yves_Meyer
+Yvette_Amice
 Yvette_Kosmann-Schwarzbach
 Yvon_Villarceau
 Yvonne_Choquet-Bruhat
-Y%c4%81ska
 Zahid_Khalilov
 Zalman_Usiskin
 Zden%c4%9bk_Dvo%c5%99%c3%a1k
@@ -6468,21 +6428,25 @@ Zenon_Ivanovich_Borevich
 Zenon_Waraszkiewicz
 Zhan_Tao
 Zhen_Luan
+Zhiwei_Yun
 Zhu_Miaolong
 Zhu_Shijie
 Zhu_Xiping
 Ziauddin_Ahmad
 Zinovy_Reichstein
 Zlil_Sela
+Zoel_Garc%c3%ada_de_Galdeano
 Zoia_Ceau%c8%99escu
 Zolt%c3%a1n_F%c3%bcredi
 Zolt%c3%a1n_P%c3%a1l_Dienes
 Zolt%c3%a1n_Szab%c3%b3_%28mathematician%29
 Zolt%c3%a1n_Tibor_Balogh
 Zo%c3%a1rd_Ge%c5%91cze
+Zo%c3%a9_Chatzidakis
 Zsolt_Baranyai
 Zu_Chongzhi
 Zu_Gengzhi
+Zuhair_Nashed
 Zvezdelina_Stankova
 Zvi_Arad
 Zvi_Galil
@@ -6516,6 +6480,4 @@ Zygmunt_Zawirski
 %c3%89variste_Sanchez-Palencia
 %c3%98ystein_Ore
 %c4%90uro_Kurepa
-%c5%9aa%e1%b9%85karan%c4%81r%c4%81ya%e1%b9%87a
-%c5%9ar%c4%abpati
 %c5%a0tefan_Zn%c3%a1m

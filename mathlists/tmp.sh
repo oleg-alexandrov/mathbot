@@ -1,0 +1,3 @@
+uname -a
+echo hi
+
