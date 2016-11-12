@@ -46,8 +46,8 @@ sub get_html {
   }
 
   if ($error == 1){
-    print "Failed to get $link! Exiting...\n";
-    exit(0);
+    print "Failed to get $link!\n";
+    #exit(0);
   }
   
   return ($text, $error);
