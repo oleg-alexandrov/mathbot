@@ -14,8 +14,15 @@ use lib '/data/project/mathbot/public_html/wp/modules'; # relative path to perl 
 use lib '/data/project/mathbot/perl5/lib/perl5/';
 use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
 
+eval {
+
 require 'bin/perlwikipedia_utils.pl';
 require 'bin/get_html.pl';
+
+}; 
+if ($@){
+  print "$@\n:";
+}
 
 use POSIX qw(locale_h);
 use locale;
@@ -35,6 +42,13 @@ MAIN: {
      .  "if Wikipedia is slow ...<br><br>\n";
 
   print "Machine is " . qx(uname -a) . "<br><br>\n";
+  #chdir '/data/project/mathbot/public_html/wp/afd';
+
+  my $bot_name = 'Mathbot';
+  if (scalar(@ARGV) > 0){
+    # Can use a custom bot name
+    $bot_name = shift @ARGV;
+  }
 
   # This an unverified attempt at a bugfix. Suddenly the bot started
   # writing the months in German, but later I could not reproduce this.
@@ -54,7 +68,7 @@ MAIN: {
   }
 
   # The log in process must happen after we switched to the right directory as done above
-  $gEditor=wikipedia_login();
+  $gEditor=wikipedia_login($bot_name);
 
   my $attempts = 10;
   my $sleep    = 1;

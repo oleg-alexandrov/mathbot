@@ -1,12 +1,3 @@
-== November 12, 2016 ==
+== February 7, 2017 ==
 
-:Removed [[George Robin Henderson (mathematician)]] (is a redirect to [[George Robin Henderson]])
-:Removed [[Richard Hamilton (mathematician)]] (is a redirect to [[Richard S. Hamilton]])
-:Removed [[Richard Hamilton (professor)]] 
-:Removed [[Vasyl Ustymenko]] (article deleted/does not exist)
-:Added   [[Ellice Horsburgh]]
-:Added   [[George Robin Henderson]]
-:Added   [[Isabella Novik]]
-:Added   [[John Christopher Sturmius]]
-:Added   [[Peter Lynch (meteorologist)]]
-:Added   [[Richard S. Hamilton]]
+:Added   [[Doris Cohen]]

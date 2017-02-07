@@ -36,6 +36,7 @@ Category:21st-century American mathematicians
 Category:African-American mathematicians
 Category:American cryptographers
 Category:American information theorists
+Category:American logicians
 Category:American statisticians
 Category:American women mathematicians
 Category:Claude Shannon
@@ -43,6 +44,8 @@ Category:Hollis Chair of Mathematics and Natural Philosophy
 Category:Mathematicians from Philadelphia
 Category:Stanford University Department of Mathematics faculty
 Category:Ancient Greek logicians
+Category:Archimedes
+Category:Ptolemy
 Category:Pythagoras
 Category:Ancient Chinese mathematicians
 Category:Medieval Arab mathematicians
@@ -55,7 +58,9 @@ Category:Austrian cryptographers
 Category:Austrian information theorists
 Category:Austrian logicians
 Category:Austrian statisticians
+Category:Azerbaijani logicians
 Category:Ethnic Azerbaijani mathematicians
+Category:Belarusian computer scientists
 Category:Belgian cryptographers
 Category:Belgian logicians
 Category:Belgian statisticians
@@ -95,13 +100,14 @@ Category:Czech logicians
 Category:Czech statisticians
 Category:20th-century Danish mathematicians
 Category:21st-century Danish mathematicians
-Category:Danish actuaries
 Category:Danish statisticians
+Category:17th-century Dutch mathematicians
 Category:20th-century Dutch mathematicians
 Category:21st-century Dutch mathematicians
 Category:Dutch cryptographers
 Category:Dutch logicians
 Category:Dutch statisticians
+Category:Hendrik Lorentz
 Category:Egyptian cryptographers
 Category:Medieval Egyptian mathematicians
 Category:16th-century English mathematicians
@@ -149,6 +155,7 @@ Category:Greek logicians
 Category:Greek statisticians
 Category:Hungarian logicians
 Category:Hungarian statisticians
+Category:Paul Erdős
 Category:Icelandic logicians
 Category:Indian logicians
 Category:Indian mathematicians by century
@@ -161,6 +168,8 @@ Category:Medieval Iraqi mathematicians
 Category:Irish cryptographers
 Category:Irish logicians
 Category:Irish statisticians
+Category:Irish women mathematicians
+Category:William Rowan Hamilton
 Category:Israeli cryptographers
 Category:Israeli information theorists
 Category:Israeli statisticians
@@ -171,13 +180,9 @@ Category:Italian mathematicians by century
 Category:Italian mathematicians by location
 Category:Italian statisticians
 Category:Medieval Italian mathematicians
-Category:17th-century Japanese mathematicians
-Category:18th-century Japanese mathematicians
-Category:19th-century Japanese mathematicians
-Category:20th-century Japanese mathematicians
-Category:21st-century Japanese mathematicians
 Category:Japanese information theorists
 Category:Japanese logicians
+Category:Japanese mathematicians by century
 Category:Japanese statisticians
 Category:19th-century Lithuanian mathematicians
 Category:PDE theorists
@@ -200,6 +205,7 @@ Category:Senior Wranglers
 Category:Tarski lecturers
 Category:Wikipedia categories named after mathematicians
 Category:Wikipedians with an OEIS account
+Category:Polish mathematicians by century
 Category:Actuaries
 Category:Ballistics experts
 Category:Bioinformaticians
@@ -239,6 +245,7 @@ Category:Indonesian mathematicians
 Category:Information theorists by nationality
 Category:Kenyan mathematicians
 Category:Korean mathematicians
+Category:Lebanese mathematicians
 Category:Logicians by nationality
 Category:Maltese mathematicians
 Category:Mathematicians from Georgia (country)
@@ -274,10 +281,6 @@ Category:Pakistani cryptographers
 Category:Pakistani information theorists
 Category:Pakistani logicians
 Category:Pakistani statisticians
-Category:18th-century Polish mathematicians
-Category:19th-century Polish mathematicians
-Category:20th-century Polish mathematicians
-Category:21st-century Polish mathematicians
 Category:Polish cryptographers
 Category:Polish logicians
 Category:Polish statisticians
@@ -311,3 +314,4 @@ Category:Taiwanese statisticians
 Category:Turkish logicians
 Category:Welsh statisticians
 Category:French women mathematicians
+Category:West Area Computers

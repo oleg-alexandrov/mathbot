@@ -10,13 +10,18 @@ require  'bin/language_definitions.pl';
 
 sub wikipedia_login {
 
-  my %Dictionary = &language_definitions(); # see the language_definitions.pl module
-
   my $bot_name = shift || 'Mathbot'; # User Mathbot is no bot name is given
+
+  my $Lang = 'en';
+  if ($bot_name eq 'MathbotBeta'){
+    $Lang = 'beta';
+  }
+
+  my %Dictionary = &language_definitions($Lang); # see the language_definitions.pl module
+
   my $pass = get_login_info($bot_name, $Dictionary{'Credentials'});
 
-  my $Lang = $Dictionary{'Lang'};
-  my $wiki_http='https://' . $Lang . '.wikipedia.org';
+  my $wiki_http = $Dictionary{'Domain'};
   
   # Initiate agent
   #my $editor=Perlwikipedia->new($bot_name);
@@ -26,7 +31,7 @@ sub wikipedia_login {
   $editor->{debug} = 1;
 
   # Set the language
-  $editor->set_wiki("$Lang.wikipedia.org",'w');
+  $editor->set_wiki($wiki_http,'w');
   print "<br><br>\n";
 
   # Create the cookies file if it does not exist. In either case, make sure it is read-only.
