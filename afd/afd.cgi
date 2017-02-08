@@ -156,9 +156,10 @@ sub count_and_list_open_AfDs {
   @lines = split("\n", $text);
   
   # gather all the info in $text
-  my $num_days      = 0; # cout how many days are listed, ...
-  my $num_open_disc = 0; # ... and how open many discussions
-  my $combined_stats="";
+  my $num_days        = 0; # count how many days are listed, ...
+  my $num_open_disc   = 0; # ... and how open many discussions
+  my $combined_stats  = "";
+  my $max_num_to_list = 10; # if there are more than this number of lines, wipe those with 0 open disc
   foreach $line (@lines){
     if ($line =~ /^\*\s*\[\[(Wikipedia:(?:Pages|Votes|Articles) for deletion\/Log\/\d+.*?)\s*(?:\||\]\])/) {
       $link=$1;
@@ -166,9 +167,14 @@ sub count_and_list_open_AfDs {
       if (exists $stats_hash{$link}) {
         $line = $stats_hash{$link}; # Overwite this line with the stats we found above
       }
+      my $local_open = 0;
       if ( $line =~ /\((\d+) open/ ){
-       $num_open_disc = $num_open_disc + $1;
+       $local_open = $1; 
+       $num_open_disc = $num_open_disc + $local_open;
       }
+      if ($num_days > $max_num_to_list && $local_open == 0){
+        next; # do not add this line
+       }
     }
     $combined_stats = $combined_stats . "$line\n";
   }
