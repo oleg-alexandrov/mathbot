@@ -3,10 +3,17 @@ sub get_last {
   my ($name, $first, $last);
   
   $name = shift;
-  $name =~ s/\s*\([A-Za-z ]+\)\s*$//g; # from Oleg A (mathematician), rm the (mathematician) part
-  
-  return $name if ($name =~ / of /); # this is not a correct last/first combination 
-  return $name if ($name !~ / /); # only one word
+  my $par = ""; # things in parentheses
+  if ($name =~ /^(.*?)(\s*\([A-Za-z ]+\))\s*$/){
+    # from Oleg A (mathematician), separate the (mathematician) part
+     $name = $1;
+     $par = $2;
+  } 
+  if ($name =~ / of / || # this is not a correct last/first combination 
+      $name !~ / / ){    # only one word
+       $name = "$name$par";
+         return $name;
+   }
 
   # try to guess last name based on nationality
   if ($name =~ /^(.*) (.*?) (Jr\.?)$/){
@@ -49,7 +56,7 @@ sub get_last {
   }
   
   $name = "$last, $first";
-  return $name;
+  return "$name$par";
 }
 
 1;
