@@ -55,7 +55,7 @@ MAIN:{
 
     &write_to_disk($article, $text);
   }
-
+  $list_of_changes =~ s/(\[\[)(Category:.*?\]\])/$1\:$2/g;
   $file = 'User:Mathbot/Recent changes.wiki';
   $edit_summary = "Recent changes to the [[list of mathematicians]]";
   
