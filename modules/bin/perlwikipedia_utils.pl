@@ -7,6 +7,7 @@ use Carp qw(croak carp confess);
 use MediaWiki::Bot;
 #use Perlwikipedia; #Note that the 'p' is capitalized, due to Perl style
 require  'bin/language_definitions.pl';
+binmode STDOUT, ':utf8'; # to not complain about printing wide characters
 
 sub wikipedia_login {
 
