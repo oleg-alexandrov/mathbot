@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
+# This line must be the first to print in a cgi script
 print "Content-type: text/html\r\n\r\n";
-#print "4test\n";
 
 use POSIX;                     # the strftime function
 use CGI::Carp qw(fatalsToBrowser);
@@ -14,21 +14,12 @@ eval {
 #open STDOUT, ">", "/data/project/mathbot/public_html/wp/afd/output.txt" or print "cannot open file.\n";
 #open STDERR, ">", "/data/project/mathbot/public_html/wp/afd/error.txt" or print "cannot open file.\n";
 
-
-#print "testing\n";
 #print qx(which perl) . "\n";
 #print qx(perl --version) . "\n";
 #print qx(env) . "\n";
-
 #print qx(lsb_release -a) . "\n";
-
 #print qx(uname -a) . "\n";
 #print qx(ls /usr/bin/perl*) . "\n";
-
-# This line must be the first to print in a cgi script
-#print "Content-type: text/html\r\n\r\n";
-
-#print "test1\n\n\n";
 
 };
 if ($@){
@@ -37,41 +28,20 @@ if ($@){
 
 use lib '/data/project/mathbot/public_html/wp/modules/perl5';
 use lib '/data/project/mathbot/public_html/wp/modules';
-#use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
-
 
 $| = 1; # flush the buffer each line
 
-# This line must be the first to print in a cgi script
-#print "Content-type: text/html\r\n\r\n";
-
-use POSIX;                     # the strftime function
-use CGI::Carp qw(fatalsToBrowser);
-use strict;
-undef $/; 
-
-#print "a2\n";
 use lib '/data/project/mathbot/public_html/wp/modules'; # relative path to perl modules
 use lib '/data/project/mathbot/perl5/lib/perl5/';
-#use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
-#print "a3\n";
 
 eval {
-#print "a7\n";
-require '/data/project/mathbot/public_html/wp/modules/bin/perlwikipedia_utils.pl';
-#print "b1\n";
-
-require 'bin/perlwikipedia_utils.pl';
-
-#print "a8\n";
-require 'bin/get_html.pl';
-#print "a4\n";
-
+  require '/data/project/mathbot/public_html/wp/modules/bin/perlwikipedia_utils.pl';
+  require 'bin/perlwikipedia_utils.pl';
+  require 'bin/get_html.pl';
 }; 
 if ($@){
-#  print "$@\n:";
+  print "$@\n:";
 }
-#print "a5\n";
 
 use POSIX qw(locale_h);
 use locale;
