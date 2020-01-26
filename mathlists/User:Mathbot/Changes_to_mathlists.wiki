@@ -2,422 +2,337 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
-== February 7, 2017 ==
+== January 26, 2020 ==
 
-:Removed [[Homotopy perturbation method]] (is a redirect to [[Homotopy analysis method]])
+:Removed [[Charity (programming language)]] (article deleted/does not exist)
+:Added   [[An Illustrated Book of Bad Arguments]]
 ----
-: Mathematicians:added   [[Doris Cohen]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== February 6, 2017 ==
+== January 25, 2020 ==
 
-:Added   [[Damping]]
-:Added   [[Real RAM]]
-:Added   [[Treatise on analysis]]
+:Removed [[Angle notation]] (is a redirect to [[Phasor notation]])
 ----
-: Mathematicians:removed [[Athīr al-Dīn al-Abharī]] (is a redirect to [[Athir al-Din al-Abhari]])
-: Mathematicians:removed [[Ralph Abraham]] 
-: Mathematicians:added   [[Athir al-Din al-Abhari]]
-: Mathematicians:added   [[George F. Simmons]]
-: Mathematicians:added   [[Hakan Hedenmalm]]
-: Mathematicians:added   [[Karl-Georg Niebergall]]
-: Mathematicians:added   [[Robert Everist Greene]]
+: Mathematicians:added   [[Alexandre Mikhailovich Vinogradov]]
+: Mathematicians:added   [[Brian Marcus]]
 
-== February 5, 2017 ==
-
-:Removed [[Expansive]] (is a redirect to [[expansivity]])
-:Added   [[Bayesian survival analysis]]
-:Added   [[Expansive homeomorphism]]
-----
-: Mathematicians:added   [[Ralph Abraham (mathematician)]]
-
-== February 4, 2017 ==
-
-:Removed [[Rotatope]] (article deleted/does not exist)
-:Added   [[Bouncing ball]]
-:Added   [[Quasitopos]]
-:Added   [[Truncated pentagonal hexecontahedron]]
-----
-
-== February 3, 2017 ==
-
-:Added   [[Voronoi formula]]
-----
-
-== February 2, 2017 ==
-
-:Added   [[Axiom of finite choice]]
-:Added   [[Graph (topology)]]
-:Added   [[Meissel–Lehmer algorithm]]
-:Added   [[Nondeterministic constraint logic]]
-:Added   [[Tensor-matrix multiplication]]
-:Added   [[Uranium tile]]
-:Added   [[Γ-space]]
-----
-: Mathematicians:removed [[Hartley Rogers, Jr.]] (is a redirect to [[Hartley Rogers Jr.]])
-: Mathematicians:added   [[Hartley Rogers Jr.]]
-: Mathematicians:added   [[Irina Pshenina]]
-: Mathematicians:added   [[Yao Nai]]
-
-== February 1, 2017 ==
-
-:Removed [[Brown Gitler spectra]] (is a redirect to [[Brown–Gitler spectrum]])
-:Removed [[C-closed subgroup]] (is a redirect to [[Centralizer and normalizer]])
-:Added   [[Brown–Gitler spectrum]]
-:Added   [[Mode-k flattening]]
-:Added   [[Schwarz triangle function]]
-----
-: Mathematicians:added   [[Jin Akiyama]]
-
-== January 31, 2017 ==
+== January 24, 2020 ==
 
 ----
 
-== January 30, 2017 ==
+== January 23, 2020 ==
 
-:Removed [[Factoriangular number]] (article deleted/does not exist)
-:Removed [[Open Problems in Mathematics (book)]] (is a redirect to [[Open Problems in Mathematics]])
-:Added   [[Graph Commons]]
-:Added   [[Open Problems in Mathematics]]
-----
-: Mathematicians:removed [[Muhammad Ayub (QAU)]] (is a redirect to [[Muhammad Ayub (mathematician)]])
-: Mathematicians:added   [[Jianhong Wu]]
-: Mathematicians:added   [[Josephine Chanler]]
-: Mathematicians:added   [[Josephine Elizabeth Burns Glasgow]]
-: Mathematicians:added   [[Mary Cleophas Garvin]]
-: Mathematicians:added   [[Mary de Lellis Gough]]
-: Mathematicians:added   [[May Beenken]]
-: Mathematicians:added   [[Muhammad Ayub (mathematician)]]
-
-== January 29, 2017 ==
-
-:Added   [[Brown Gitler spectra]]
+:Removed [[Toral Lie algebra]] (is a redirect to [[Toral subalgebra]])
+:Added   [[Abelian Lie group]]
+:Added   [[Extremal Ensemble Learning]]
+:Added   [[Geometrically (algebraic geometry)]]
+:Added   [[Gluing schemes]]
+:Added   [[Phase field models on graphs]]
+:Added   [[Robert Anton Wilson]]
+:Added   [[Sommerfeld effect]]
+:Added   [[Toral subalgebra]]
 ----
 
-== January 28, 2017 ==
+== January 22, 2020 ==
 
-:Added   [[Biryukov equation]]
+:Removed [[Discipline-based education research]] (is a redirect to [[Education research]])
+:Removed [[Root system of a semi-simple Lie algebra]] (is a redirect to [[semisimple Lie algebra]])
+:Added   [[Representation theory of semisimple Lie algebras]]
+:Added   [[Serre's theorem on a semisimple Lie algebra]]
 ----
-: Mathematicians:removed [[Muhammad Ayub (mathematician)]] (is a redirect to [[Muhammad Ayub (QAU)]])
-: Mathematicians:added   [[Muhammad Ayub (QAU)]]
-: Mathematicians:added   [[Sylvie Paycha]]
-: Mathematicians:added   [[Walter Craig (mathematician)]]
+: Mathematicians:removed [[Ludwig Falter]] 
+: Mathematicians:removed [[Nizam al-Din Nishapuri]] (is a redirect to [[Nizam al-Din al-Nisapuri]])
+: Mathematicians:removed [[Rudolf Hentze]] 
+: Mathematicians:added   [[Nizam al-Din al-Nisapuri]]
 
-== January 27, 2017 ==
+== January 21, 2020 ==
 
-:Removed [[Moving Particle Semi-implicit Method]] (is a redirect to [[Moving particle semi-implicit method]])
-:Removed [[Ponte del Diavolo (game)]] (is a redirect to [[Ponte del Diavolo]])
-:Removed [[The Art of Problem Solving]] (article deleted/does not exist)
-:Added   [[Moving particle semi-implicit method]]
-:Added   [[Numberblocks]]
-:Added   [[Pohlke's theorem]]
-:Added   [[Ponte del Diavolo]]
+:Removed [[593 (number)]] (is a redirect to [[500 (number)]])
+:Removed [[Dependency Network (graphical model)]] (is a redirect to [[Dependency network (graphical model)]])
+:Removed [[Syzygy (mathematics)]] (is a redirect to [[Linear relation]])
+:Added   [[Dependency network (graphical model)]]
 ----
-: Mathematicians:added   [[Martin Schottenloher]]
+: Mathematicians:removed [[Serenus of Antinouplis]] (is a redirect to [[Serenus of Antinoöpolis]])
+: Mathematicians:added   [[Serenus of Antinoöpolis]]
 
-== January 26, 2017 ==
+== January 20, 2020 ==
 
-:Removed [[Del (letter)]] (is a redirect to [[Del]])
-:Added   [[Del]]
-:Added   [[Open Problems in Mathematics (book)]]
-:Added   [[The Art of Problem Solving]]
+:Added   [[Identity (philosophy)]]
+:Added   [[Identity of indiscernibles]]
 ----
+: Mathematicians:added   [[Johann Schweigger]]
 
-== January 25, 2017 ==
+== January 19, 2020 ==
 
-:Removed [[Biharmonic maps]] (is a redirect to [[Biharmonic map]])
-:Removed [[Del]] (is a redirect to [[Del (letter)]])
-:Removed [[Fluxion (mathematics)]] (is a redirect to [[Fluxion]])
-:Added   [[Biharmonic map]]
-:Added   [[Del (letter)]]
-:Added   [[Fluxion]]
+:Added   [[Dependency Network (graphical model)]]
+:Added   [[Regular numerical predicate]]
 ----
-: Mathematicians:added   [[Dale Husemoller]]
-: Mathematicians:added   [[William Caspar Graustein]]
+: Mathematicians:added   [[Pamela E. Harris]]
+: Mathematicians:added   [[William Hanson Dodge]]
 
-== January 24, 2017 ==
+== January 18, 2020 ==
 
-:Removed [[Geometric and Functional Analysis (journal)]] (is a redirect to [[Geometric and Functional Analysis]])
-:Removed [[Spurious correlation]] (is a redirect to [[Spurious relationship]])
-:Removed [[Strobogrammatic prime]] (is a redirect to [[Strobogrammatic number]])
-:Added   [[Biharmonic maps]]
-:Added   [[Fluxion (mathematics)]]
-:Added   [[Geometric and Functional Analysis]]
-:Added   [[List of Laplace transforms]]
-:Added   [[Rotatope]]
-:Added   [[Scruton number]]
-:Added   [[Singularity (system theory)]]
-:Added   [[Spurious correlation of ratios]]
+:Added   [[Curie's Principle]]
+:Added   [[Finite algebra]]
+:Added   [[Focal conics]]
+:Added   [[Linear relation]]
 ----
-: Mathematicians:added   [[Stefano Montaldo]]
-: Mathematicians:added   [[Vivek Borkar]]
+: Mathematicians:removed [[Sergei Eremenko (scientist)]] (article deleted/does not exist)
+: Mathematicians:added   [[John Williams Calkin]]
+: Mathematicians:added   [[Sarah J. Greenwald]]
 
-== January 22, 2017 ==
+== January 17, 2020 ==
 
-:Removed [[Multi-time-step]] (is a redirect to [[Multi-time-step integration]])
-:Added   [[Cubinder]]
-:Added   [[Factoriangular number]]
-:Added   [[Laguerre–Forsyth invariant]]
-:Added   [[Multi-time-step integration]]
+:Removed [[Set notation]] (is a redirect to [[Set-builder notation]])
 ----
-: Mathematicians:added   [[Abiyun al-Bitriq]]
-: Mathematicians:added   [[André Fortin (mathematician)]]
+: Mathematicians:added   [[Barbara Kaltenbacher]]
+: Mathematicians:added   [[Charles-Michel Marle]]
+: Mathematicians:added   [[José A. Carrillo]]
 
-== January 21, 2017 ==
+== January 16, 2020 ==
 
-:Added   [[List of things named after Anatoliy Skorokhod]]
+:Removed [[Sigma-algebra]] (is a redirect to [[Σ-algebra]])
+:Removed [[Wolfram Alpha]] (is a redirect to [[WolframAlpha]])
+:Added   [[Finite-difference frequency-domain method]]
+:Added   [[WolframAlpha]]
+:Added   [[Σ-algebra]]
 ----
-: Mathematicians:added   [[Abu'l-Hasan Bayhaqi]]
+: Mathematicians:removed [[Gennadiy Mykhailovych Feldman]] (is a redirect to [[Gennadiy Feldman]])
+: Mathematicians:added   [[Antun Domic]]
+: Mathematicians:added   [[Gennadiy Feldman]]
 
-== January 20, 2017 ==
+== January 15, 2020 ==
 
-:Removed [[Preradicals]] (is a redirect to [[Preradical]])
-:Added   [[Preradical]]
+:Removed [[Enneagon]] (is a redirect to [[Nonagon]])
+:Removed [[Generated σ-algebra (by sets)]] (is a redirect to [[Sigma-algebra]])
+:Added   [[Nonagon]]
+:Added   [[Research in Number Theory]]
 ----
+: Mathematicians:removed [[Abū Kāmil Shujāʿ ibn Aslam]] (is a redirect to [[Abu Kamil Shuja' ibn Aslam]])
+: Mathematicians:added   [[Abu Kamil Shuja' ibn Aslam]]
+: Mathematicians:added   [[Robert Jones (aerodynamicist)]]
 
-== January 19, 2017 ==
+== January 14, 2020 ==
 
-:Added   [[Multi-time-step]]
-:Added   [[Multiverse (set theory)]]
-:Added   [[Preradicals]]
+:Added   [[Algebraic system]]
 ----
-: Mathematicians:added   [[Elazar ben Tsedaka ben Yitzhaq]]
+: Mathematicians:removed [[Domenico Marinucci]] (article deleted/does not exist)
+: Mathematicians:removed [[James Jardine]] 
+: Mathematicians:removed [[Tamás Terlaky]] (article deleted/does not exist)
+: Mathematicians:added   [[James Jardine (engineer)]]
 
-== January 18, 2017 ==
+== January 13, 2020 ==
 
-:Removed [[100000000 (number)]] (is a redirect to [[100,000,000]])
-:Added   [[100,000,000]]
-:Added   [[Causality (book)]]
+:Removed [[Stationary-wave integrated Fourier transform spectrometry]] (is a redirect to [[Stationary-wave integrated Fourier-transform spectrometry]])
+:Added   [[List of mathematics awards]]
+:Added   [[Ryu-Takayanagi conjecture]]
+:Added   [[Stationary-wave integrated Fourier-transform spectrometry]]
 ----
+: Mathematicians:added   [[Sergei Eremenko (scientist)]]
 
-== January 17, 2017 ==
-
-:Removed [[The Mathematical Classic of Sunzi]] (is a redirect to [[Sunzi Suanjing]])
-:Removed [[The Sea Island Mathematical Manual]] (is a redirect to [[Haidao Suanjing]])
-:Removed [[Wucao suanjing]] (is a redirect to [[Wucao Suanjing]])
-:Removed [[Xiahou Yang suanjing]] (is a redirect to [[Xiahou Yang Suanjing]])
-:Removed [[Zhou Bi Suan Jing]] (is a redirect to [[Zhoubi Suanjing]])
-:Added   [[Haidao Suanjing]]
-:Added   [[Sunzi Suanjing]]
-:Added   [[Upsilon function]]
-:Added   [[Wucao Suanjing]]
-:Added   [[Xiahou Yang Suanjing]]
-:Added   [[Zhoubi Suanjing]]
-----
-: Mathematicians:added   [[Douglas Ulmer]]
-
-== January 15, 2017 ==
+== January 12, 2020 ==
 
 ----
-: Mathematicians:removed [[Dr Muhammad Ayub]] (is a redirect to [[Muhammad Ayub (mathematician)]])
-: Mathematicians:added   [[Muhammad Ayub (mathematician)]]
+: Mathematicians:added   [[Marina Logares]]
 
-== January 14, 2017 ==
+== January 11, 2020 ==
 
-:Removed [[Pearson correlation]] (is a redirect to [[Pearson correlation coefficient]])
-:Added   [[Amerio Prize]]
-:Added   [[Clebsch representation]]
-:Added   [[Cognitive holding power]]
-:Added   [[Pearson correlation coefficient]]
-----
-: Mathematicians:removed [[Muhammad Ayub (mathematician)]] (is a redirect to [[Dr Muhammad Ayub]])
-: Mathematicians:added   [[Dr Muhammad Ayub]]
-: Mathematicians:added   [[William Richard Joseph Cook]]
-
-== January 12, 2017 ==
-
-:Removed [[Bernard William James Hughes]] (article deleted/does not exist)
-:Removed [[Golden section search]] (is a redirect to [[Golden-section search]])
-:Removed [[Regression-Kriging]] (is a redirect to [[Regression-kriging]])
-:Removed [[The Bayesian model of computational anatomy]] (is a redirect to [[Bayesian model of computational anatomy]])
-:Removed [[Von Foerster equation (ecology)]] (is a redirect to [[Von Foerster equation]])
-:Added   [[Bayesian model of computational anatomy]]
-:Added   [[Disposition effect]]
-:Added   [[Golden-section search]]
-:Added   [[Regression-kriging]]
-:Added   [[Riemannian metric and Lie-bracket in computational anatomy]]
-:Added   [[Structural Equations with Latent Variables]]
-:Added   [[Von Foerster equation]]
-----
-: Mathematicians:removed [[Bud Mishra]] (is a redirect to [[Bhubaneswar Mishra]])
-: Mathematicians:added   [[Askar Dzhumadildayev]]
-: Mathematicians:added   [[Bhubaneswar Mishra]]
-: Mathematicians:added   [[Clermont (mathematician)]]
-: Mathematicians:added   [[Francesco Cigalini]]
-: Mathematicians:added   [[Helen Wilson (mathematician)]]
-: Mathematicians:added   [[John Meadows Jackson]]
-
-== January 10, 2017 ==
-
-:Removed [[Working-Hotelling procedure]] (is a redirect to [[Working–Hotelling procedure]])
-:Added   [[Computational anatomy]]
-:Added   [[D-space]]
-:Added   [[Fangcheng (mathematics)]]
-:Added   [[Hurewicz space]]
-:Added   [[Rothberger space]]
-:Added   [[The Bayesian model of computational anatomy]]
-:Added   [[Working–Hotelling procedure]]
+:Added   [[Markov constant]]
 ----
 
-== January 9, 2017 ==
+== January 10, 2020 ==
 
-:Added   [[Mathematicism]]
-:Added   [[Multiscale Green's function]]
-:Added   [[Working-Hotelling procedure]]
+:Added   [[Mathematical Foundations of Quantum Mechanics]]
 ----
-: Mathematicians:removed [[Douglas Smigly]] (article deleted/does not exist)
+: Mathematicians:added   [[Pauline Mellon]]
 
-== January 8, 2017 ==
+== January 9, 2020 ==
 
-:Removed [[Binary lambda calculus]] (article deleted/does not exist)
-:Removed [[Pearson product-moment correlation coefficient]] (is a redirect to [[Pearson correlation]])
-:Removed [[Stochastic Dynamic Programming]] (is a redirect to [[Stochastic dynamic programming]])
-:Added   [[Numerical algebraic geometry]]
-:Added   [[Pearson correlation]]
-:Added   [[Stochastic dynamic programming]]
+:Removed [[Age (model theory)]] (is a redirect to [[Fraïssé limit]])
+:Removed [[Fraïssé's theorem]] (is a redirect to [[Fraïssé limit]])
+:Removed [[Holomorphic tangent space]] (is a redirect to [[Holomorphic tangent bundle]])
+:Removed [[Raymond and Beverly Sackler Distinguished Lectures in Mathematics]] (article deleted/does not exist)
+:Added   [[Holomorphic tangent bundle]]
 ----
-: Mathematicians:removed [[Julius Nadas]] 
-: Mathematicians:added   [[William Jack (mathematician)]]
+: Mathematicians:removed [[Lam Siu-Por]] (is a redirect to [[Lam Siu-por]])
+: Mathematicians:added   [[Frances Kuo]]
+: Mathematicians:added   [[Lam Siu-por]]
+: Mathematicians:added   [[Robert Henry Risch]]
 
-== January 6, 2017 ==
+== January 8, 2020 ==
 
-:Removed [[1 (number)]] (is a redirect to [[1]])
-:Added   [[1]]
-:Added   [[Stochastic Dynamic Programming]]
+:Removed [[Complex analytic space]] (is a redirect to [[Complex analytic variety]])
+:Removed [[Complex-analytic variety]] (is a redirect to [[Complex analytic variety]])
+:Removed [[Einstein–Hermitian vector bundle]] (is a redirect to [[Hermitian Yang–Mills connection]])
+:Added   [[Complex analytic variety]]
+:Added   [[Hermitian Yang–Mills connection]]
 ----
-: Mathematicians:added   [[Levon Aghababyan]]
+: Mathematicians:added   [[Carrie Ichikawa Jenkins]]
+: Mathematicians:added   [[Gerda de Vries]]
+: Mathematicians:added   [[Ina Kersten]]
+: Mathematicians:added   [[Monica Nevins]]
 
-== January 5, 2017 ==
+== January 7, 2020 ==
 
-:Removed [[Base change map]] (is a redirect to [[Base change theorems]])
-:Removed [[Cornish numerals]] (is a redirect to [[Cornish language numbers]])
-:Removed [[Dr Bernard William James Hughes]] (is a redirect to [[Bernard William James Hughes]])
-:Removed [[Random function]] (is a redirect to [[Stochastic process]])
-:Added   [[Base change theorems]]
-:Added   [[Bernard William James Hughes]]
-:Added   [[Cornish language numbers]]
+:Added   [[Journal of Functional Analysis]]
 ----
-: Mathematicians:added   [[Luiz Velho]]
+: Mathematicians:removed [[Juliusz Brzezinski]] 
+: Mathematicians:added   [[Alexander Shapiro]]
+: Mathematicians:added   [[Norman Laurence Gilbreath]]
+: Mathematicians:added   [[Tamás Terlaky]]
 
-== January 4, 2017 ==
+== January 6, 2020 ==
 
-:Added   [[Dr Bernard William James Hughes]]
-:Added   [[List of types of sets]]
+:Added   [[Mean square]]
 ----
-: Mathematicians:added   [[Shaharir Mohamad Zain]]
 
-== January 3, 2017 ==
+== January 5, 2020 ==
+
+:Removed [[Distance of closest approach of ellipses and ellipsoids]] (is a redirect to [[Distance of closest approach]])
+:Removed [[Toroidal and poloidal]] (is a redirect to [[Toroidal and poloidal coordinates]])
+:Added   [[Absolute-value norm]]
+:Added   [[Distance of closest approach]]
+:Added   [[Toroidal and poloidal coordinates]]
+----
+: Mathematicians:added   [[Ramon E. Moore]]
+
+== January 4, 2020 ==
+
+:Added   [[Al-Farabi]]
+:Added   [[Averroes]]
+:Added   [[Yang–Mills equations]]
+----
+: Mathematicians:removed [[Baha Alzalg]] 
+: Mathematicians:added   [[Harry Trentelman]]
+
+== January 3, 2020 ==
+
+:Removed [[Antonio Pace]] (article deleted/does not exist)
+:Added   [[K-stability]]
+----
+: Mathematicians:added   [[Ghaffar Farzadi]]
+
+== January 2, 2020 ==
+
+:Removed [[Centered pentachoric number]] (article deleted/does not exist)
+:Added   [[Alon–Boppana bound]]
+----
+: Mathematicians:added   [[Federico Rodriguez Hertz]]
+
+== January 1, 2020 ==
+
+:Removed [[Sackler Distinguished Lectures]] (is a redirect to [[Raymond and Beverly Sackler Distinguished Lectures in Mathematics]])
+:Added   [[Prime (symbol)]]
+:Added   [[Raymond and Beverly Sackler Distinguished Lectures in Mathematics]]
+----
+: Mathematicians:removed [[Susan Howson]] 
+: Mathematicians:added   [[Casey Mann]]
+: Mathematicians:added   [[Susan Howson (mathematician)]]
+
+== December 31, 2019 ==
+
+:Removed [[Free Poisson distribution]] (is a redirect to [[Poisson distribution]])
+:Added   [[Math-Tinik]]
+----
+
+== December 30, 2019 ==
+
+:Added   [[Analysis]]
+:Added   [[Inverse Pythagorean theorem]]
+:Added   [[Jacobson–Morozov theorem]]
+:Added   [[Nested set]]
+----
+: Mathematicians:added   [[Baha Alzalg]]
+: Mathematicians:added   [[Jinde Cao]]
+
+== December 29, 2019 ==
+
+:Removed [[Institute of Physics James Clerk Maxwell Medal and Prize]] (is a redirect to [[Institute of Physics]])
+:Removed [[Institute of Physics Rayleigh Medal and Prize]] (is a redirect to [[Institute of Physics]])
+:Removed [[Nonagon]] (is a redirect to [[Enneagon]])
+:Added   [[Enneagon]]
+:Added   [[Irish logarithm]]
+----
+: Mathematicians:removed [[N. M. J. Woodhouse]] (is a redirect to [[Nick Woodhouse]])
+: Mathematicians:added   [[Anna Cartan]]
+: Mathematicians:added   [[Hao Huang (mathematician)]]
+: Mathematicians:added   [[Nick Woodhouse]]
+
+== December 28, 2019 ==
+
+:Removed [[Clarke tangent cone]] (article deleted/does not exist)
+:Removed [[Field, power, and root-power quantities]] (is a redirect to [[Power, root-power, and field quantities]])
+:Removed [[Usage analysis]] (article deleted/does not exist)
+:Added   [[Eakin–Nagata theorem]]
+:Added   [[Incomplete Bessel K function/generalized incomplete gamma function]]
+:Added   [[Power, root-power, and field quantities]]
+----
+: Mathematicians:added   [[Adela Ruiz de Royo]]
+
+== December 27, 2019 ==
+
+:Removed [[School of Mathematics and Statistics, University of Sydney]] (is a redirect to [[University of Sydney School of Mathematics and Statistics]])
+:Added   [[Hypergraph removal lemma]]
+:Added   [[University of Sydney School of Mathematics and Statistics]]
+----
+: Mathematicians:removed [[Malwina Łuczak]] (is a redirect to [[Malwina Luczak]])
+: Mathematicians:added   [[Malwina Luczak]]
+
+== December 26, 2019 ==
+
+:Added   [[Clarke tangent cone]]
+:Added   [[Decomposition of a module]]
+:Added   [[Polynomial method in combinatorics]]
+----
+
+== December 25, 2019 ==
 
 ----
-: Mathematicians:removed [[Edward Brandt, Jr.]] (is a redirect to [[Edward Brandt Jr.]])
-: Mathematicians:added   [[Edward Brandt Jr.]]
-: Mathematicians:added   [[Julius Nadas]]
+: Mathematicians:removed [[Andrei Petrovich Kiselyov]] (is a redirect to [[Andrey Kiselyov]])
+: Mathematicians:added   [[Andrey Kiselyov]]
 
-== January 2, 2017 ==
+== December 24, 2019 ==
 
-:Removed [[Glossary of algebraic groups]] (is a redirect to [[Algebraic group]])
-:Removed [[Linnik distribution]] (is a redirect to [[Geometric stable distribution]])
-:Removed [[Sichel distribution]] (is a redirect to [[Generalized inverse Gaussian distribution]])
-:Added   [[Coxeter decompositions of hyperbolic polygons]]
-:Added   [[Magic triangle (mathematics)]]
 ----
-: Mathematicians:removed [[Charles B. Morrey, Jr.]] (is a redirect to [[Charles B. Morrey Jr.]])
-: Mathematicians:added   [[Charles B. Morrey Jr.]]
-: Mathematicians:added   [[Ilka Agricola]]
+: Mathematicians:added   [[Alik Ismail-Zadeh]]
 
-== December 31, 2016 ==
+== December 23, 2019 ==
 
-:Removed [[Product of rings]] (is a redirect to [[Product ring]])
-:Added   [[Nonlinear partial differential equation]]
-:Added   [[Product ring]]
 ----
-: Mathematicians:added   [[Arjan van der Schaft]]
+: Mathematicians:added   [[Walter Murray Wonham]]
 
-== December 30, 2016 ==
+== December 22, 2019 ==
 
-:Added   [[Kaprekar's routine]]
+:Removed [[Plus-minus sign]] (is a redirect to [[Plus–minus sign]])
+:Removed [[Senior Wrangler (University of Cambridge)]] (is a redirect to [[Senior Wrangler]])
+:Added   [[Plus–minus sign]]
+:Added   [[Senior Wrangler]]
 ----
-: Mathematicians:removed [[Margaret Boyle]] (article deleted/does not exist)
-: Mathematicians:added   [[Pepijn van Erp]]
+: Mathematicians:added   [[Eleanor Pairman]]
+: Mathematicians:added   [[Lam Siu-Por]]
 
-== December 29, 2016 ==
+== December 21, 2019 ==
 
-:Removed [[Daniel Gillespie]] (is in the [[list of mathematicians]])
-:Removed [[Edge Tesselations]] (is a redirect to [[Edge tessellation]])
-:Added   [[Edge tessellation]]
-:Added   [[Joos–Weinberg equation]]
+:Removed [[Roger L. Easton, Jr.]] (article deleted/does not exist)
+:Added   [[Glauber dynamics]]
 ----
-: Mathematicians:added   [[Adi Bulsara]]
-: Mathematicians:added   [[Albert-László Barabási]]
-: Mathematicians:added   [[Alexander van Oudenaarden]]
-: Mathematicians:added   [[Bart Kosko]]
-: Mathematicians:added   [[Carolyne Van Vliet]]
-: Mathematicians:added   [[Cosma Shalizi]]
-: Mathematicians:added   [[Daniel Gillespie]]
-: Mathematicians:added   [[Edward W. Piotrowski]]
-: Mathematicians:added   [[Erol Gelenbe]]
-: Mathematicians:added   [[George Uhlenbeck]]
-: Mathematicians:added   [[H. Eugene Stanley]]
-: Mathematicians:added   [[Hans Christian von Baeyer]]
-: Mathematicians:added   [[Hans Frauenfelder]]
-: Mathematicians:added   [[Hans Kramers]]
-: Mathematicians:added   [[Hermann Haken]]
-: Mathematicians:added   [[Ian Wanless]]
-: Mathematicians:added   [[J. M. R. Parrondo]]
-: Mathematicians:added   [[Jan Sładkowski]]
-: Mathematicians:added   [[Jean-Pierre Vigier]]
-: Mathematicians:added   [[Johan Paulsson]]
-: Mathematicians:added   [[John Muth]]
-: Mathematicians:added   [[Klaus Hasselmann]]
-: Mathematicians:added   [[Kurt Wiesenfeld]]
-: Mathematicians:added   [[Laszlo B. Kish]]
-: Mathematicians:added   [[Leonard Ornstein]]
-: Mathematicians:added   [[Luca Gammaitoni]]
-: Mathematicians:added   [[Michael F. Shlesinger]]
-: Mathematicians:added   [[Neil F. Johnson]]
-: Mathematicians:added   [[Neil Shephard]]
-: Mathematicians:added   [[Nigel G. Stocks]]
-: Mathematicians:added   [[Peter Stoica]]
-: Mathematicians:added   [[Peter V. E. McClintock]]
-: Mathematicians:added   [[Richard Arnold Epstein]]
-: Mathematicians:added   [[Robert Brown (Scottish botanist from Montrose)]]
-: Mathematicians:added   [[Sergey M. Bezrukov]]
-: Mathematicians:added   [[Sidney Redner]]
-: Mathematicians:added   [[Vito Latora]]
+: Mathematicians:added   [[Jean-Baptiste Leblond]]
+: Mathematicians:added   [[Mabel Minerva Young]]
+: Mathematicians:added   [[Yves Pomeau]]
 
-== December 28, 2016 ==
+== December 20, 2019 ==
 
-:Removed [[Chaos mapping]] (article deleted/does not exist)
-:Removed [[Particular values of Riemann zeta function]] (is a redirect to [[Particular values of the Riemann zeta function]])
-:Added   [[Chaos machine]]
-:Added   [[Field equation]]
-:Added   [[List of things named after Eduard Heine]]
-:Added   [[Maker Education]]
-:Added   [[Particular values of the Riemann zeta function]]
+:Removed [[Pyritohedral near-miss Johnson solid]] (is a redirect to [[Pentahexagonal pyritoheptacontatetrahedron]])
+:Removed [[Skew apeirogon]] (is a redirect to [[Infinite skew polygon]])
+:Added   [[Eighth power]]
+:Added   [[Infinite skew polygon]]
+:Added   [[Kaplansky's theorem on projective modules]]
+:Added   [[Mind]]
+:Added   [[Pentahexagonal pyritoheptacontatetrahedron]]
+:Added   [[Roger L. Easton, Jr.]]
+:Added   [[Socrates]]
 ----
-: Mathematicians:added   [[Ramdas L. Bhirud]]
-: Mathematicians:added   [[Xu Yue]]
-
-== December 27, 2016 ==
-
-:Removed [[Identifiability Analysis]] (is a redirect to [[Identifiability analysis]])
-:Removed [[Topological functioning model]] (article deleted/does not exist)
-:Added   [[CMAC]]
-:Added   [[Critical mathematics pedagogy]]
-:Added   [[Edge Tesselations]]
-:Added   [[Identifiability analysis]]
-:Added   [[Modélisation Mathématique et Analyse Numérique]]
-:Added   [[Volume and displacement indicators for an architectural structure]]
-----
-: Mathematicians:added   [[Matthew O'Brien (mathematician)]]
-
-== December 26, 2016 ==
-
-:Removed [[Cucconi Test]] (is a redirect to [[Cucconi test]])
-:Removed [[Functional Differential Equation]] (is a redirect to [[Functional differential equation]])
-:Added   [[Cucconi test]]
-:Added   [[Functional differential equation]]
-:Added   [[Reverse divisible number]]
-----
-: Mathematicians:added   [[Ferdinando Pio Rosellini]]
-: Mathematicians:added   [[Henry Oliver Lancaster]]
+: Mathematicians:added   [[Mary-Elizabeth Hamstrom]]
 
