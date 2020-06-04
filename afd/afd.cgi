@@ -104,7 +104,7 @@ MAIN: {
 
   # Update the list of archived disucssions, the ones that are no longer at AfD/Old,
   # which is the text in $combined_stats
-  my $archive_file = "Wikipedia:Archived deletion discussions.wiki";
+  my $archive_file = "Wikipedia:Archived articles for deletion discussions.wiki";
   &update_archived_discussions($archive_file, $combined_stats, $attempts, $sleep);
   
   # Initialize afd pages for the next several days
