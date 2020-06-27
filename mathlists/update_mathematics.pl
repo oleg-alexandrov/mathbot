@@ -49,7 +49,7 @@ MAIN: {
   # articles which we will not allow in the math list for various reasons
   &put_redlinks_on_blacklist($prefix, \@letters, \%blacklist);
   &put_mathematicians_on_blacklist_and_user_selected_also(\%blacklist);
-  &put_redirects_on_blacklist(\%blacklist, $articles_from_cats_file, \@articles_from_cats);
+  &put_redirects_on_blacklist($Editor, \%blacklist, $articles_from_cats_file, \@articles_from_cats);
 
   # go letter by letter, and merge the new entries
   foreach $letter (@letters){
@@ -65,14 +65,14 @@ MAIN: {
     wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 
   }
-  &post_newly_detected_categories(\@mathematics_categories, \@mathematician_categories, \@other_categories, \@new_categories);
+  &post_newly_detected_categories($Editor, \@mathematics_categories, \@mathematician_categories, \@other_categories, \@new_categories);
 
   # create the log of changes to the math articles. Merge with the changes to mathematician articles. Submit.
   $todays_log=&process_log_of_todays_changes(\%all_articles, \%blacklist, $all_math_arts_file); # changes to the mathematics articles
   open(FILE, "<$mathematicians_logfile"); $text=<FILE>; close(FILE);
   $text =~ s/^==.*?==\s*//g; $text =~ s/(^|\n)(:.)/"$1: Mathematicians" . lc($2)/eg;
   $todays_log = $todays_log . "----\n" . $text;
-  &merge_logs_and_submit($todays_log, $log_file);
+  &merge_logs_and_submit($Editor, $todays_log, $log_file);
 }
 
 # articles which we will not allow in the [[list of mathematics articles]]
@@ -149,8 +149,8 @@ sub merge_new_entries_from_categories{
 
 sub post_newly_detected_categories {
 
-  my ($mathematics_categories, $mathematician_categories, $other_categories, $new_categories)=@_;
-  my (%current_categories, $text, $line, $mathematician_cat_list, $sleep, $attempts, $edit_summary, $file, $Editor);
+  my ($Editor, $mathematics_categories, $mathematician_categories, $other_categories, $new_categories)=@_;
+  my (%current_categories, $text, $line, $mathematician_cat_list, $sleep, $attempts, $edit_summary, $file);
 
   # add to the newly discovered mathematics categories the mathematician categories discovered when running that script
   $mathematician_cat_list = "New_mathematician_categories.txt";
@@ -171,15 +171,13 @@ sub post_newly_detected_categories {
   }
 
   $file              = "User:Mathbot/New_math_categories.wiki";
-  $Editor=wikipedia_login();
   $sleep = 5; $attempts=500;  $edit_summary="Today's new math categories.";
   wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 }
 
 sub merge_logs_and_submit{
-
+  my $Editor = $_[0];
   my ($log_file, $todays_log, $combined_log, @days, $sleep, $attempts, $edit_summary);
-  my ($Editor);
   ($todays_log, $log_file)=@_;
   
   # Read in the log from previous days (from the disk), append to it today's log
@@ -192,7 +190,6 @@ sub merge_logs_and_submit{
   $combined_log = join ("\n==", @days);
 
   # submit the log file, and write the logfile back to disk (away from wikipedia vandals)
-  $Editor=wikipedia_login();
   $sleep = 5; $attempts=500; $edit_summary="Today's changes to the [[list of mathematics articles]].";
   wikipedia_submit($Editor, $log_file, $edit_summary, $combined_log, $attempts, $sleep);
   open (FILE, ">$log_file"); print FILE "$combined_log\n"; close(FILE); # write new log to disk

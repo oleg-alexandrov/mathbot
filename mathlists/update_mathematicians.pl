@@ -40,13 +40,13 @@ MAIN:{
   &fetch_articles(\@mathematician_categories, \@articles_from_cats, \@new_categories);
   open (FILE, ">", $mathematician_cat_list); print FILE join ("\n", @new_categories); close(FILE);
 
-  &put_redirects_on_blacklist (\%blacklist, $articles_from_cats_file, \@articles_from_cats);
+  &put_redirects_on_blacklist ($Editor, \%blacklist, $articles_from_cats_file, \@articles_from_cats);
   &put_redlinks_on_blacklist($mathematician_prefix, \@letters, \%blacklist); 
 
   @articles_from_cats=&randomize_array(@articles_from_cats); # this has a purpose, to identify entries differning only by capitals
   
   &read_countries ($countries_file, \%country2nationality);
-  &parse_new(\@articles_from_cats, \%country2nationality, \%entries);
+  &parse_new($Editor, \@articles_from_cats, \%country2nationality, \%entries);
 
   # now, deal with the existing entries in the list of mathematicians
   $sleep = 5; $attempts=100; $text="";
@@ -142,10 +142,8 @@ sub read_countries {
 }
 
 sub parse_new {
-  my ($name, $text, $country, $birth, $death, $last);
+  my ($Editor, $name, $text, $country, $birth, $death, $last);
   my ($articles_from_cats, $country2nationality, $entries)=@_;
-
-  my $Editor=wikipedia_login();
 
   # go through the articles, read them in and get necessary data. 
   foreach $name (@$articles_from_cats){

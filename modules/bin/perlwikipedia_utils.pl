@@ -10,6 +10,7 @@ require  'bin/language_definitions.pl';
 binmode STDOUT, ':utf8'; # to not complain about printing wide characters
 
 sub wikipedia_login {
+  print "Login at " . qx(date) . "\n";
 
   my $bot_name = shift || 'Mathbot'; # User Mathbot is no bot name is given
 
