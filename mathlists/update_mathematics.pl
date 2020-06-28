@@ -37,7 +37,7 @@ MAIN: {
 
   $prefix = "Wikipedia:WikiProject_Mathematics/List of mathematics articles";
   
-  $sleep = 5; $attempts=500; # necessary to fetch data from Wikipedia and submit
+  $sleep = 5; $attempts=5; # necessary to fetch data from Wikipedia and submit
   $Editor=wikipedia_login();
 
   # Get today's articles found in categories
@@ -171,7 +171,7 @@ sub post_newly_detected_categories {
   }
 
   $file              = "User:Mathbot/New_math_categories.wiki";
-  $sleep = 5; $attempts=500;  $edit_summary="Today's new math categories.";
+  $sleep = 5; $attempts=5;  $edit_summary="Today's new math categories.";
   wikipedia_submit($Editor, $file, $edit_summary, $text, $attempts, $sleep);
 }
 
@@ -190,7 +190,7 @@ sub merge_logs_and_submit{
   $combined_log = join ("\n==", @days);
 
   # submit the log file, and write the logfile back to disk (away from wikipedia vandals)
-  $sleep = 5; $attempts=500; $edit_summary="Today's changes to the [[list of mathematics articles]].";
+  $sleep = 5; $attempts=5; $edit_summary="Today's changes to the [[list of mathematics articles]].";
   wikipedia_submit($Editor, $log_file, $edit_summary, $combined_log, $attempts, $sleep);
   open (FILE, ">$log_file"); print FILE "$combined_log\n"; close(FILE); # write new log to disk
 }

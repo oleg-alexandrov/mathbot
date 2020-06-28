@@ -29,7 +29,7 @@ MAIN:{
   }
   close(FILE);
 
-  my $Editor=wikipedia_login(); $sleep = 1; $attempts=500; # necessary to fetch data from Wikipedia and submit
+  my $Editor=wikipedia_login(); $sleep = 1; $attempts=5; # necessary to fetch data from Wikipedia and submit
   
   foreach $article (@list){
     
