@@ -176,9 +176,8 @@ sub post_newly_detected_categories {
 }
 
 sub merge_logs_and_submit{
-  my $Editor = $_[0];
-  my ($log_file, $todays_log, $combined_log, @days, $sleep, $attempts, $edit_summary);
-  ($todays_log, $log_file)=@_;
+  my ($Editor, $todays_log, $log_file)=@_;
+  my ($combined_log, @days, $sleep, $attempts, $edit_summary);
   
   # Read in the log from previous days (from the disk), append to it today's log
   open (FILE, "<$log_file"); $combined_log=<FILE>; close(FILE);
