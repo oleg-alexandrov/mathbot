@@ -142,8 +142,8 @@ sub read_countries {
 }
 
 sub parse_new {
-  my ($Editor, $name, $text, $country, $birth, $death, $last);
-  my ($articles_from_cats, $country2nationality, $entries)=@_;
+  my ($name, $text, $country, $birth, $death, $last);
+  my ($Editor, $articles_from_cats, $country2nationality, $entries)=@_;
 
   # go through the articles, read them in and get necessary data. 
   foreach $name (@$articles_from_cats){
