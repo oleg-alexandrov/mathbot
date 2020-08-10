@@ -2,337 +2,418 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
-== January 26, 2020 ==
+== August 10, 2020 ==
 
-:Removed [[Charity (programming language)]] (article deleted/does not exist)
-:Added   [[An Illustrated Book of Bad Arguments]]
+:Removed [[Birkhoff orthogonality]] (is a redirect to [[Glossary_of_functional_analysis]])
+:Added   [[Independence complex]]
+:Added   [[Institute of Mathematics and Applications, Bhubaneswar]]
+:Added   [[When Topology Meets Chemistry]]
 ----
 : Mathematicians:added   [[Arnold Oberschelp]]
 : Mathematicians:added   [[Francis Xavier Aynscom]]
 : Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 25, 2020 ==
+== August 9, 2020 ==
 
-:Removed [[Angle notation]] (is a redirect to [[Phasor notation]])
+:Removed [[Lexicographical order]] (is a redirect to [[Lexicographic order]])
+:Added   [[Lexicographic order]]
 ----
-: Mathematicians:added   [[Alexandre Mikhailovich Vinogradov]]
-: Mathematicians:added   [[Brian Marcus]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 24, 2020 ==
+== August 8, 2020 ==
 
+:Removed [[List of Schwarz–Goursat simplices]] (article deleted/does not exist)
+:Removed [[Mixed Hodge Structure]] (is a redirect to [[Mixed Hodge structure]])
+:Added   [[Mixed Hodge structure]]
+:Added   [[Width of a hypergraph]]
 ----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 23, 2020 ==
+== August 7, 2020 ==
 
-:Removed [[Toral Lie algebra]] (is a redirect to [[Toral subalgebra]])
-:Added   [[Abelian Lie group]]
-:Added   [[Extremal Ensemble Learning]]
-:Added   [[Geometrically (algebraic geometry)]]
-:Added   [[Gluing schemes]]
-:Added   [[Phase field models on graphs]]
-:Added   [[Robert Anton Wilson]]
-:Added   [[Sommerfeld effect]]
-:Added   [[Toral subalgebra]]
+:Removed [[Evidence-based subjective logic]] (is a redirect to [[Subjective logic]])
 ----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 22, 2020 ==
+== August 6, 2020 ==
 
-:Removed [[Discipline-based education research]] (is a redirect to [[Education research]])
-:Removed [[Root system of a semi-simple Lie algebra]] (is a redirect to [[semisimple Lie algebra]])
-:Added   [[Representation theory of semisimple Lie algebras]]
-:Added   [[Serre's theorem on a semisimple Lie algebra]]
+:Removed [[Freethought]] (is a redirect to [[Free thought]])
+:Added   [[Basic Number Theory]]
+:Added   [[Free thought]]
+:Added   [[General model theory]]
+:Added   [[Graph Theory, 1736–1936]]
 ----
-: Mathematicians:removed [[Ludwig Falter]] 
-: Mathematicians:removed [[Nizam al-Din Nishapuri]] (is a redirect to [[Nizam al-Din al-Nisapuri]])
-: Mathematicians:removed [[Rudolf Hentze]] 
-: Mathematicians:added   [[Nizam al-Din al-Nisapuri]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 21, 2020 ==
+== August 5, 2020 ==
 
-:Removed [[593 (number)]] (is a redirect to [[500 (number)]])
-:Removed [[Dependency Network (graphical model)]] (is a redirect to [[Dependency network (graphical model)]])
-:Removed [[Syzygy (mathematics)]] (is a redirect to [[Linear relation]])
-:Added   [[Dependency network (graphical model)]]
+:Removed [[Tensorsketch]] (is a redirect to [[Tensor sketch]])
+:Added   [[Gaussian process approximations]]
+:Added   [[Tensor sketch]]
+:Added   [[Vecchia approximation]]
 ----
-: Mathematicians:removed [[Serenus of Antinouplis]] (is a redirect to [[Serenus of Antinoöpolis]])
-: Mathematicians:added   [[Serenus of Antinoöpolis]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 20, 2020 ==
+== August 4, 2020 ==
 
-:Added   [[Identity (philosophy)]]
-:Added   [[Identity of indiscernibles]]
+:Added   [[Mixed Hodge Structure]]
 ----
-: Mathematicians:added   [[Johann Schweigger]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 19, 2020 ==
+== August 3, 2020 ==
 
-:Added   [[Dependency Network (graphical model)]]
-:Added   [[Regular numerical predicate]]
+:Removed [[Fat object]] 
+:Added   [[Adventures Among the Toroids]]
+:Added   [[Fat object (geometry)]]
+:Added   [[Filters, random fields, and maximum entropy model]]
 ----
-: Mathematicians:added   [[Pamela E. Harris]]
-: Mathematicians:added   [[William Hanson Dodge]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 18, 2020 ==
+== August 2, 2020 ==
 
-:Added   [[Curie's Principle]]
-:Added   [[Finite algebra]]
-:Added   [[Focal conics]]
-:Added   [[Linear relation]]
+:Added   [[Applications of sensitivity analysis to environmental sciences]]
+:Added   [[Buchdahl's theorem]]
 ----
-: Mathematicians:removed [[Sergei Eremenko (scientist)]] (article deleted/does not exist)
-: Mathematicians:added   [[John Williams Calkin]]
-: Mathematicians:added   [[Sarah J. Greenwald]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 17, 2020 ==
+== August 1, 2020 ==
 
-:Removed [[Set notation]] (is a redirect to [[Set-builder notation]])
+:Added   [[Birkhoff algorithm]]
 ----
-: Mathematicians:added   [[Barbara Kaltenbacher]]
-: Mathematicians:added   [[Charles-Michel Marle]]
-: Mathematicians:added   [[José A. Carrillo]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 16, 2020 ==
+== July 31, 2020 ==
 
-:Removed [[Sigma-algebra]] (is a redirect to [[Σ-algebra]])
-:Removed [[Wolfram Alpha]] (is a redirect to [[WolframAlpha]])
-:Added   [[Finite-difference frequency-domain method]]
-:Added   [[WolframAlpha]]
-:Added   [[Σ-algebra]]
+:Removed [[Simpson correspondence]] (is a redirect to [[Nonabelian Hodge correspondence]])
+:Added   [[Homological connectivity]]
+:Added   [[National Documentation Centre (Greece)]]
+:Added   [[Nonabelian Hodge correspondence]]
+:Added   [[Undecimal]]
 ----
-: Mathematicians:removed [[Gennadiy Mykhailovych Feldman]] (is a redirect to [[Gennadiy Feldman]])
-: Mathematicians:added   [[Antun Domic]]
-: Mathematicians:added   [[Gennadiy Feldman]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 15, 2020 ==
+== July 30, 2020 ==
 
-:Removed [[Enneagon]] (is a redirect to [[Nonagon]])
-:Removed [[Generated σ-algebra (by sets)]] (is a redirect to [[Sigma-algebra]])
-:Added   [[Nonagon]]
-:Added   [[Research in Number Theory]]
+:Removed [[Lifting the exponent lemma]] (is a redirect to [[Lifting-the-exponent lemma]])
+:Removed [[Meaning (philosophy of language)]] (is a redirect to [[Meaning (philosophy)]])
+:Removed [[Nth root algorithm]] (is a redirect to [[Nth root]])
+:Added   [[Graph homology]]
+:Added   [[Lifting-the-exponent lemma]]
+:Added   [[Meaning (philosophy)]]
+:Added   [[Vogel-Fulcher-Tammann equation]]
 ----
-: Mathematicians:removed [[Abū Kāmil Shujāʿ ibn Aslam]] (is a redirect to [[Abu Kamil Shuja' ibn Aslam]])
-: Mathematicians:added   [[Abu Kamil Shuja' ibn Aslam]]
-: Mathematicians:added   [[Robert Jones (aerodynamicist)]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 14, 2020 ==
+== July 29, 2020 ==
 
-:Added   [[Algebraic system]]
+:Added   [[Badouel intersection algorithm]]
+:Added   [[Rainbow independent set]]
 ----
-: Mathematicians:removed [[Domenico Marinucci]] (article deleted/does not exist)
-: Mathematicians:removed [[James Jardine]] 
-: Mathematicians:removed [[Tamás Terlaky]] (article deleted/does not exist)
-: Mathematicians:added   [[James Jardine (engineer)]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 13, 2020 ==
+== July 28, 2020 ==
 
-:Removed [[Stationary-wave integrated Fourier transform spectrometry]] (is a redirect to [[Stationary-wave integrated Fourier-transform spectrometry]])
-:Added   [[List of mathematics awards]]
-:Added   [[Ryu-Takayanagi conjecture]]
-:Added   [[Stationary-wave integrated Fourier-transform spectrometry]]
+:Added   [[Convex embedding]]
+:Added   [[Descartes on Polyhedra]]
+:Added   [[Hajek projection]]
 ----
-: Mathematicians:added   [[Sergei Eremenko (scientist)]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 12, 2020 ==
+== July 27, 2020 ==
 
+:Removed [[List of Schwarz-Goursat Simplices]] (is a redirect to [[List of Schwarz–Goursat simplices]])
+:Removed [[Navigrid]] (article deleted/does not exist)
+:Added   [[Fractional model]]
+:Added   [[Lifting the exponent lemma]]
+:Added   [[List of Schwarz–Goursat simplices]]
 ----
-: Mathematicians:added   [[Marina Logares]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 11, 2020 ==
+== July 26, 2020 ==
 
-:Added   [[Markov constant]]
+:Added   [[List of Schwarz-Goursat Simplices]]
+:Added   [[What the Tortoise Said to Achilles]]
 ----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== January 10, 2020 ==
-
-:Added   [[Mathematical Foundations of Quantum Mechanics]]
-----
-: Mathematicians:added   [[Pauline Mellon]]
-
-== January 9, 2020 ==
-
-:Removed [[Age (model theory)]] (is a redirect to [[Fraïssé limit]])
-:Removed [[Fraïssé's theorem]] (is a redirect to [[Fraïssé limit]])
-:Removed [[Holomorphic tangent space]] (is a redirect to [[Holomorphic tangent bundle]])
-:Removed [[Raymond and Beverly Sackler Distinguished Lectures in Mathematics]] (article deleted/does not exist)
-:Added   [[Holomorphic tangent bundle]]
-----
-: Mathematicians:removed [[Lam Siu-Por]] (is a redirect to [[Lam Siu-por]])
-: Mathematicians:added   [[Frances Kuo]]
-: Mathematicians:added   [[Lam Siu-por]]
-: Mathematicians:added   [[Robert Henry Risch]]
-
-== January 8, 2020 ==
-
-:Removed [[Complex analytic space]] (is a redirect to [[Complex analytic variety]])
-:Removed [[Complex-analytic variety]] (is a redirect to [[Complex analytic variety]])
-:Removed [[Einstein–Hermitian vector bundle]] (is a redirect to [[Hermitian Yang–Mills connection]])
-:Added   [[Complex analytic variety]]
-:Added   [[Hermitian Yang–Mills connection]]
-----
-: Mathematicians:added   [[Carrie Ichikawa Jenkins]]
-: Mathematicians:added   [[Gerda de Vries]]
-: Mathematicians:added   [[Ina Kersten]]
-: Mathematicians:added   [[Monica Nevins]]
-
-== January 7, 2020 ==
-
-:Added   [[Journal of Functional Analysis]]
-----
-: Mathematicians:removed [[Juliusz Brzezinski]] 
-: Mathematicians:added   [[Alexander Shapiro]]
-: Mathematicians:added   [[Norman Laurence Gilbreath]]
-: Mathematicians:added   [[Tamás Terlaky]]
-
-== January 6, 2020 ==
-
-:Added   [[Mean square]]
-----
-
-== January 5, 2020 ==
-
-:Removed [[Distance of closest approach of ellipses and ellipsoids]] (is a redirect to [[Distance of closest approach]])
-:Removed [[Toroidal and poloidal]] (is a redirect to [[Toroidal and poloidal coordinates]])
-:Added   [[Absolute-value norm]]
-:Added   [[Distance of closest approach]]
-:Added   [[Toroidal and poloidal coordinates]]
-----
-: Mathematicians:added   [[Ramon E. Moore]]
-
-== January 4, 2020 ==
-
-:Added   [[Al-Farabi]]
-:Added   [[Averroes]]
-:Added   [[Yang–Mills equations]]
-----
-: Mathematicians:removed [[Baha Alzalg]] 
-: Mathematicians:added   [[Harry Trentelman]]
-
-== January 3, 2020 ==
-
-:Removed [[Antonio Pace]] (article deleted/does not exist)
-:Added   [[K-stability]]
-----
-: Mathematicians:added   [[Ghaffar Farzadi]]
-
-== January 2, 2020 ==
-
-:Removed [[Centered pentachoric number]] (article deleted/does not exist)
-:Added   [[Alon–Boppana bound]]
-----
-: Mathematicians:added   [[Federico Rodriguez Hertz]]
-
-== January 1, 2020 ==
-
-:Removed [[Sackler Distinguished Lectures]] (is a redirect to [[Raymond and Beverly Sackler Distinguished Lectures in Mathematics]])
-:Added   [[Prime (symbol)]]
-:Added   [[Raymond and Beverly Sackler Distinguished Lectures in Mathematics]]
-----
-: Mathematicians:removed [[Susan Howson]] 
-: Mathematicians:added   [[Casey Mann]]
-: Mathematicians:added   [[Susan Howson (mathematician)]]
-
-== December 31, 2019 ==
-
-:Removed [[Free Poisson distribution]] (is a redirect to [[Poisson distribution]])
-:Added   [[Math-Tinik]]
-----
-
-== December 30, 2019 ==
-
-:Added   [[Analysis]]
-:Added   [[Inverse Pythagorean theorem]]
-:Added   [[Jacobson–Morozov theorem]]
-:Added   [[Nested set]]
-----
-: Mathematicians:added   [[Baha Alzalg]]
-: Mathematicians:added   [[Jinde Cao]]
-
-== December 29, 2019 ==
-
-:Removed [[Institute of Physics James Clerk Maxwell Medal and Prize]] (is a redirect to [[Institute of Physics]])
-:Removed [[Institute of Physics Rayleigh Medal and Prize]] (is a redirect to [[Institute of Physics]])
-:Removed [[Nonagon]] (is a redirect to [[Enneagon]])
-:Added   [[Enneagon]]
-:Added   [[Irish logarithm]]
-----
-: Mathematicians:removed [[N. M. J. Woodhouse]] (is a redirect to [[Nick Woodhouse]])
-: Mathematicians:added   [[Anna Cartan]]
-: Mathematicians:added   [[Hao Huang (mathematician)]]
-: Mathematicians:added   [[Nick Woodhouse]]
-
-== December 28, 2019 ==
-
-:Removed [[Clarke tangent cone]] (article deleted/does not exist)
-:Removed [[Field, power, and root-power quantities]] (is a redirect to [[Power, root-power, and field quantities]])
-:Removed [[Usage analysis]] (article deleted/does not exist)
-:Added   [[Eakin–Nagata theorem]]
-:Added   [[Incomplete Bessel K function/generalized incomplete gamma function]]
-:Added   [[Power, root-power, and field quantities]]
-----
-: Mathematicians:added   [[Adela Ruiz de Royo]]
-
-== December 27, 2019 ==
-
-:Removed [[School of Mathematics and Statistics, University of Sydney]] (is a redirect to [[University of Sydney School of Mathematics and Statistics]])
-:Added   [[Hypergraph removal lemma]]
-:Added   [[University of Sydney School of Mathematics and Statistics]]
-----
-: Mathematicians:removed [[Malwina Łuczak]] (is a redirect to [[Malwina Luczak]])
-: Mathematicians:added   [[Malwina Luczak]]
-
-== December 26, 2019 ==
-
-:Added   [[Clarke tangent cone]]
-:Added   [[Decomposition of a module]]
-:Added   [[Polynomial method in combinatorics]]
-----
-
-== December 25, 2019 ==
+== July 25, 2020 ==
 
 ----
-: Mathematicians:removed [[Andrei Petrovich Kiselyov]] (is a redirect to [[Andrey Kiselyov]])
-: Mathematicians:added   [[Andrey Kiselyov]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== December 24, 2019 ==
+== July 24, 2020 ==
+
+:Removed [[Isolate (puzzle)]] (article deleted/does not exist)
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 23, 2020 ==
+
+:Removed [[Applications of sensitivity analysis in chemistry]] (article deleted/does not exist)
+:Removed [[Applications of sensitivity analysis to the social sciences]] (article deleted/does not exist)
+:Removed [[Environmental applications of sensitivity analysis]] (article deleted/does not exist)
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 22, 2020 ==
+
+:Removed [[BOBYQA]] (is a redirect to [[Michael J. D. Powell]])
+:Removed [[COBYLA]] (is a redirect to [[Michael J. D. Powell]])
+:Removed [[Xuming He]] 
+:Added   [[A Topological Picturebook]]
+:Added   [[Logarithmic Sobolev inequalities]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 21, 2020 ==
+
+:Removed [[Ars Magna (Gerolamo Cardano)]] (is a redirect to [[Ars Magna (Cardano book)]])
+:Removed [[Ballu equation]] (article deleted/does not exist)
+:Removed [[I am a Mathematician]] (is a redirect to [[I Am a Mathematician]])
+:Removed [[The Schoolmaster's Assistant, Being a Compendium of Arithmetic both Practical and Theoretical]] (is a redirect to [[The Schoolmaster's Assistant, Being a Compendium of Arithmetic Both Practical and Theoretical]])
+:Removed [[Treatise on analysis]] (is a redirect to [[Treatise on Analysis]])
+:Removed [[Treks Into Intuitive Geometry]] (is a redirect to [[Treks into Intuitive Geometry]])
+:Removed [[Winning Ways for your Mathematical Plays]] (is a redirect to [[Winning Ways for Your Mathematical Plays]])
+:Added   [[Ars Magna (Cardano book)]]
+:Added   [[Brouwer Medal]]
+:Added   [[Ex-Prodigy]]
+:Added   [[History of Hindu Mathematics]]
+:Added   [[I Am a Mathematician]]
+:Added   [[Mathematical Models]]
+:Added   [[Sacred Mathematics]]
+:Added   [[The Schoolmaster's Assistant, Being a Compendium of Arithmetic Both Practical and Theoretical]]
+:Added   [[Treatise on Analysis]]
+:Added   [[Treks into Intuitive Geometry]]
+:Added   [[Winning Ways for Your Mathematical Plays]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 20, 2020 ==
+
+:Removed [[Euclid and his Modern Rivals]] (is a redirect to [[Euclid and His Modern Rivals]])
+:Removed [[Institut des hautes études scientifiques]] (is a redirect to [[Institut des Hautes Études Scientifiques]])
+:Removed [[Vectors in three-dimensional space]] (is a redirect to [[Vectors in Three-dimensional Space]])
+:Added   [[Classical field theory]]
+:Added   [[Complete topological vector space]]
+:Added   [[Conformal field theory]]
+:Added   [[Euclid and His Modern Rivals]]
+:Added   [[Field (physics)]]
+:Added   [[Institut des Hautes Études Scientifiques]]
+:Added   [[Parbelos]]
+:Added   [[Topological string theory]]
+:Added   [[Vectors in Three-dimensional Space]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 19, 2020 ==
+
+:Removed [[Cylinder sphere packing]] (is a redirect to [[Sphere packing in a cylinder]])
+:Removed [[EM Algorithm And GMM Model]] (is a redirect to [[EM algorithm and GMM model]])
+:Added   [[EM algorithm and GMM model]]
+:Added   [[Sphere packing in a cylinder]]
+:Added   [[Statistical field theory]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 18, 2020 ==
+
+:Removed [[Arthur conjectures]] (is a redirect to [[Arthur's conjectures]])
+:Added   [[Arthur's conjectures]]
+:Added   [[EM Algorithm And GMM Model]]
+:Added   [[Matching polytope]]
+:Added   [[Mathematically Gifted & Black]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 17, 2020 ==
+
+:Added   [[Seminorm]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 16, 2020 ==
+
+:Added   [[Berlekamp switching game]]
+:Added   [[Peano surface]]
+:Added   [[Perfect matching in high-degree hypergraphs]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 15, 2020 ==
+
+:Removed [[Ballu Equation]] (is a redirect to [[Ballu equation]])
+:Removed [[Chinese restaurant table distribution]] (is a redirect to [[Chinese restaurant process]])
+:Added   [[Ballu equation]]
+:Added   [[Mirror symmetry conjecture]]
+:Added   [[Ryser's conjecture]]
+:Added   [[Truncated projective plane]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 14, 2020 ==
+
+:Removed [[Balanced tournament design]] (is a redirect to [[Combinatorial design]])
+:Added   [[Chopsticks (hand game)]]
+:Added   [[Expositiones Mathematicae]]
+:Added   [[Meshulam game]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 13, 2020 ==
+
+:Removed [[List of OEIS sequences]] (is a redirect to [[List of integer sequences]])
+:Added   [[Graham–Pollak theorem]]
+:Added   [[Khatri–Rao product]]
+:Added   [[List of integer sequences]]
+:Added   [[Median triangle]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 12, 2020 ==
 
 ----
-: Mathematicians:added   [[Alik Ismail-Zadeh]]
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
 
-== December 23, 2019 ==
+== July 11, 2020 ==
+
+:Removed [[Expositiones Mathematicae]] (article deleted/does not exist)
+:Removed [[グループテスト]] (article deleted/does not exist)
+:Added   [[Ballu Equation]]
+:Added   [[Homotopy associative algebra]]
+:Added   [[Tensorsketch]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== July 11, 2020 ==
+
+:Added   [[グループテスト]]
+----
+: Mathematicians:added   [[Arnold Oberschelp]]
+: Mathematicians:added   [[Francis Xavier Aynscom]]
+: Mathematicians:added   [[Patti Frazer Lock]]
+
+== June 27, 2020 ==
+
+:Removed [[1-factor]] (is a redirect to [[Graph factorization]])
+:Removed [[Banach *-algebra]] (is a redirect to [[Banach algebra]])
+:Added   [[Additive process]]
+:Added   [[Anderson acceleration]]
+:Added   [[Applications of sensitivity analysis in chemistry]]
+:Added   [[Applications of sensitivity analysis to model calibration]]
+:Added   [[Applications of sensitivity analysis to the Social sciences]]
+:Added   [[Black box model of power converter]]
+:Added   [[Coherent topos]]
+:Added   [[Composite methods for structural dynamics]]
+:Added   [[Environmental applications of sensitivity analysis]]
+:Added   [[Extremal Problems For Finite Sets]]
+:Added   [[Forward problem of electrocardiology]]
+:Added   [[Glossary of functional analysis]]
+----
+: Mathematicians:removed [[Timofei Fedorovic Osipovsky]] (is a redirect to [[Timofei Osipovsky]])
+: Mathematicians:added   [[Timofei Osipovsky]]
+
+== June 26, 2020 ==
 
 ----
-: Mathematicians:added   [[Walter Murray Wonham]]
 
-== December 22, 2019 ==
+== June 25, 2020 ==
 
-:Removed [[Plus-minus sign]] (is a redirect to [[Plus–minus sign]])
-:Removed [[Senior Wrangler (University of Cambridge)]] (is a redirect to [[Senior Wrangler]])
-:Added   [[Plus–minus sign]]
-:Added   [[Senior Wrangler]]
+:Added   [[Developable roller]]
+:Added   [[Glossary of group theory]]
 ----
-: Mathematicians:added   [[Eleanor Pairman]]
-: Mathematicians:added   [[Lam Siu-Por]]
+: Mathematicians:added   [[Tamas Terlaky]]
 
-== December 21, 2019 ==
+== June 24, 2020 ==
 
-:Removed [[Roger L. Easton, Jr.]] (article deleted/does not exist)
-:Added   [[Glauber dynamics]]
+:Removed [[Fraction (mathematics)]] (is a redirect to [[Fraction]])
+:Removed [[Series-parallel networks problem]] (article deleted/does not exist)
+:Added   [[4-2-2-1 code]]
+:Added   [[5-2-2-1 code]]
+:Added   [[5-3-1-1 code]]
+:Added   [[5-4-2-1 code]]
+:Added   [[Fraction]]
+:Added   [[Jump-at-2 code]]
+:Added   [[Jump-at-8 code]]
+:Added   [[Solving the Riddle of Phyllotaxis]]
+:Added   [[White code]]
 ----
-: Mathematicians:added   [[Jean-Baptiste Leblond]]
-: Mathematicians:added   [[Mabel Minerva Young]]
-: Mathematicians:added   [[Yves Pomeau]]
+: Mathematicians:added   [[Gerhard Haenzel]]
+: Mathematicians:added   [[Martine Queffélec]]
+: Mathematicians:added   [[Salomo Sachs]]
 
-== December 20, 2019 ==
+== June 23, 2020 ==
 
-:Removed [[Pyritohedral near-miss Johnson solid]] (is a redirect to [[Pentahexagonal pyritoheptacontatetrahedron]])
-:Removed [[Skew apeirogon]] (is a redirect to [[Infinite skew polygon]])
-:Added   [[Eighth power]]
-:Added   [[Infinite skew polygon]]
-:Added   [[Kaplansky's theorem on projective modules]]
-:Added   [[Mind]]
-:Added   [[Pentahexagonal pyritoheptacontatetrahedron]]
-:Added   [[Roger L. Easton, Jr.]]
-:Added   [[Socrates]]
+:Added   [[Arithmologia]]
+:Added   [[Injective tensor product]]
+:Added   [[The Fractal Dimension of Architecture]]
 ----
-: Mathematicians:added   [[Mary-Elizabeth Hamstrom]]
+: Mathematicians:added   [[Leifur Ásgeirsson]]
+: Mathematicians:added   [[Patricia Grambsch]]
+
+== June 22, 2020 ==
+
+:Removed [[Zellige]] (is a redirect to [[Zellij]])
+:Added   [[Subtraction game]]
+:Added   [[Zellij]]
+----
 
