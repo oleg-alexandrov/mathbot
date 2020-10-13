@@ -242,7 +242,7 @@ sub get_afd_link {
                           localtime($seconds));
   $afd_link =~ s/ 0(\d)$/ $1/g; # make 2005 April 01 into 2005 April 1
 
-  my $brief_afd_link = strftime("%d %B (%A)", localtime($seconds));
+  my $brief_afd_link = strftime("%B %d (%A)", localtime($seconds));
   $brief_afd_link =~ s/^0//g;
 
   return ($afd_link, $brief_afd_link);
