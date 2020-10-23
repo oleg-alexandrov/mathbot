@@ -108,7 +108,7 @@ MAIN:{
     foreach $last ( sort {$a cmp $b} keys %{$people{$letter}} ) {
       $text .= "$people{$letter}->{$last}\n";
     }
-    $text .= "\n[[Category:Mathematics-related lists]]";
+    $text .= "\n[[Category:WikiProject Mathematics list of articles|$letter]]";
 
     # These are groups of people, not individual mathematicians
     $text =~ s/(Bourbaki.*?\(.*?),.*?\n/$1\)\n/g;

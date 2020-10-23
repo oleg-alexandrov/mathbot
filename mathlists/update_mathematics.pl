@@ -142,8 +142,7 @@ sub merge_new_entries_from_categories{
   foreach (sort { $a cmp $b } keys %articles) {
     $text = $text . $articles{$_} . "\n";
   }
-  $text = $text . "\n[[Category:WikiProject Mathematics|Mathematics $letter]]\n";
-#  $text = $text . "\n[[Category:Mathematics-related lists|Mathematics $letter]]\n[[Category:Indexes of articles|Mathematics $letter]]\n";
+  $text = $text . "\n[[Category:WikiProject Mathematics list of articles|$letter]]\n";
   return $text;
 }
 
