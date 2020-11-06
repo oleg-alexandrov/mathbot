@@ -28,7 +28,7 @@ MAIN:{
 
   # files to be used
   $countries_file='Countries.txt';
-  $mathematician_prefix='List of mathematicians'; # will add later (A), (B), ... 
+  $mathematician_prefix='Wikipedia:WikiProject Mathematics/List of mathematicians'; # will add later (A), (B), ... 
   $articles_from_cats_file='All_mathematicians_from_cats.txt';
   $all_mathematicians='All_mathematicians.txt';
   $mathematicians_logfile='Mathematicians_log.txt';
