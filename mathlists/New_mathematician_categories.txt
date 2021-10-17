@@ -1,19 +1,27 @@
 Category:10th-century Indian mathematicians
+Category:10th-century Persian mathematicians
+Category:11th-century Chinese mathematicians
 Category:11th-century Indian mathematicians
+Category:11th-century Persian mathematicians
+Category:11th-century mathematicians by nationality
+Category:12th-century Chinese mathematicians
 Category:12th-century Indian mathematicians
 Category:12th-century Italian mathematicians
+Category:12th-century Persian mathematicians
+Category:12th-century mathematicians by nationality
+Category:13th-century Chinese mathematicians
 Category:13th-century Indian mathematicians
 Category:13th-century Italian mathematicians
-Category:14th-century Indian mathematicians
-Category:14th-century Italian mathematicians
+Category:13th-century Persian mathematicians
+Category:13th-century mathematicians by nationality
+Category:14th-century mathematicians by nationality
+Category:15th-century Persian mathematicians
 Category:15th-century mathematicians by nationality
+Category:16th-century Persian mathematicians
 Category:16th-century mathematicians by nationality
-Category:Johannes Kepler
 Category:17th-century mathematicians by nationality
-Category:Gottfried Leibniz
 Category:18th-century mathematicians by nationality
 Category:19th-century mathematicians by nationality
-Category:Niels Henrik Abel
 Category:20th-century mathematicians by nationality
 Category:20th-century women mathematicians
 Category:21st-century mathematicians by nationality
@@ -23,9 +31,13 @@ Category:Hypatia
 Category:6th-century Indian mathematicians
 Category:7th-century Indian mathematicians
 Category:8th-century Indian mathematicians
+Category:8th-century Persian mathematicians
 Category:9th-century Indian mathematicians
+Category:9th-century Persian mathematicians
+Category:African women mathematicians
 Category:Algerian mathematicians
 Category:Burkinabé mathematicians
+Category:Burundian mathematicians
 Category:Gabonese mathematicians
 Category:Kenyan mathematicians
 Category:Namibian mathematicians
@@ -34,6 +46,7 @@ Category:Senegalese mathematicians
 Category:Tunisian mathematicians
 Category:Ugandan mathematicians
 Category:Italian algebraic geometers
+Category:Linear algebraists
 Category:African-American mathematicians
 Category:American bioinformaticians
 Category:American cryptographers
@@ -47,14 +60,22 @@ Category:American statisticians
 Category:American women mathematicians
 Category:Claude Shannon
 Category:Hollis Chair of Mathematics and Natural Philosophy
-Category:Jewish American mathematicians
 Category:Mathematicians from Washington, D.C.
 Category:Ancient Greek logicians
 Category:Archimedes
 Category:Ptolemy
+Category:1st-century BC mathematicians
+Category:1st-century mathematicians
+Category:2nd-century BC mathematicians
+Category:2nd-century mathematicians
+Category:3rd-century BC mathematicians
+Category:3rd-century mathematicians
+Category:4th-century BC mathematicians
 Category:4th-century mathematicians
+Category:5th-century BC mathematicians
+Category:6th-century BC mathematicians
+Category:7th-century BC mathematicians
 Category:Ancient Chinese mathematicians
-Category:Medieval Arab mathematicians
 Category:20th-century Argentine mathematicians
 Category:Argentine information theorists
 Category:Argentine statisticians
@@ -66,11 +87,11 @@ Category:Australian logicians
 Category:Australian mathematicians by century
 Category:Australian statisticians
 Category:Australian women mathematicians
-Category:20th-century Austrian mathematicians
 Category:Austrian bioinformaticians
 Category:Austrian cryptographers
 Category:Austrian information theorists
 Category:Austrian logicians
+Category:Austrian mathematicians by century
 Category:Austrian statisticians
 Category:Mathematicians from Vienna
 Category:20th-century Azerbaijani mathematicians
@@ -125,23 +146,20 @@ Category:20th-century Croatian mathematicians
 Category:Croatian geodesists
 Category:20th-century Cuban mathematicians
 Category:20th-century Czech mathematicians
+Category:21st-century Czech mathematicians
 Category:Czech logicians
 Category:Czech statisticians
 Category:Mathematicians from Prague
-Category:20th-century Danish mathematicians
-Category:21st-century Danish mathematicians
 Category:Danish bioinformaticians
+Category:Danish mathematicians by century
 Category:Danish statisticians
-Category:16th-century Dutch mathematicians
-Category:17th-century Dutch mathematicians
-Category:20th-century Dutch mathematicians
-Category:21st-century Dutch mathematicians
+Category:Danish women mathematicians
 Category:Dutch bioinformaticians
 Category:Dutch cryptographers
 Category:Dutch logicians
+Category:Dutch mathematicians by century
 Category:Dutch statisticians
 Category:Dutch women mathematicians
-Category:Hendrik Lorentz
 Category:20th-century Egyptian mathematicians
 Category:Egyptian cryptographers
 Category:Medieval Egyptian mathematicians
@@ -154,6 +172,7 @@ Category:Mathematicians from London
 Category:Medieval English mathematicians
 Category:Estonian statisticians
 Category:20th-century Finnish mathematicians
+Category:21st-century Finnish mathematicians
 Category:Finnish statisticians
 Category:Augustin-Louis Cauchy
 Category:French bioinformaticians
@@ -168,9 +187,9 @@ Category:Paul Lévy (mathematician)
 Category:Approximation theorists
 Category:Variational analysts
 Category:Medieval geometers
+Category:René Descartes
 Category:Researchers in geometric algorithms
 Category:Bernhard Riemann
-Category:Carl Friedrich Gauss
 Category:David Hilbert
 Category:Georg Cantor
 Category:German bioinformaticians
@@ -179,20 +198,34 @@ Category:German logicians
 Category:German mathematicians by century
 Category:German statisticians
 Category:German women mathematicians
+Category:Gottfried Leibniz
 Category:Hermann Minkowski
 Category:Medieval German mathematicians
 Category:Graph drawing people
+Category:11th-century Greek mathematicians
+Category:12th-century Greek mathematicians
+Category:13th-century Greek mathematicians
+Category:14th-century Greek mathematicians
+Category:15th-century Greek mathematicians
+Category:16th-century Greek mathematicians
+Category:17th-century Greek mathematicians
+Category:18th-century Greek mathematicians
+Category:19th-century Greek mathematicians
+Category:20th-century Greek mathematicians
+Category:9th-century Greek mathematicians
 Category:Greek bioinformaticians
 Category:Greek logicians
 Category:Greek statisticians
 Category:Greek women mathematicians
 Category:Indian group theorists
+Category:Niels Henrik Abel
 Category:20th-century Hong Kong mathematicians
+Category:18th-century Hungarian mathematicians
+Category:19th-century Hungarian mathematicians
 Category:20th-century Hungarian mathematicians
 Category:21st-century Hungarian mathematicians
 Category:Hungarian logicians
 Category:Hungarian statisticians
-Category:Jewish Hungarian mathematicians
 Category:Mathematicians from Budapest
 Category:Icelandic logicians
 Category:Indian bioinformaticians
@@ -232,7 +265,6 @@ Category:Italian mathematicians by century
 Category:Italian mathematicians by location
 Category:Italian statisticians
 Category:Italian women mathematicians
-Category:Jewish Italian mathematicians
 Category:Medieval Italian mathematicians
 Category:Japanese bioinformaticians
 Category:Japanese information theorists
@@ -240,6 +272,7 @@ Category:Japanese logicians
 Category:Japanese mathematicians by century
 Category:Japanese statisticians
 Category:Japanese women mathematicians
+Category:18th-century Lithuanian mathematicians
 Category:19th-century Lithuanian mathematicians
 Category:PDE theorists
 Category:Computability theorists
@@ -250,18 +283,18 @@ Category:Amateur mathematicians
 Category:Cultural depictions of mathematicians
 Category:Fellows of the American Mathematical Society
 Category:Fictional mathematicians
+Category:LGBT mathematicians
 Category:Lists of mathematicians
 Category:Lists of things named after mathematicians
 Category:Mathematicians by award
 Category:Mathematicians by city
-Category:Mathematicians by ethnicity
 Category:Mathematicians involved with Mathematische Annalen
 Category:Mental calculators
 Category:Pseudonymous mathematicians
 Category:Second Wranglers
 Category:Senior Wranglers
 Category:Wikipedia categories named after mathematicians
-Category:Wikipedians with an OEIS account
+Category:Women in mathematics
 Category:Mathematicians by century and nationality
 Category:Mathematicians by nationality and century
 Category:Women mathematicians by century
@@ -282,6 +315,7 @@ Category:Ethnomathematicians
 Category:Game theorists
 Category:Geodesists
 Category:Information theorists
+Category:Lists of mathematicians by field
 Category:Mathematical cognition researchers
 Category:Mathematical ecologists
 Category:Mathematical economists
@@ -300,22 +334,23 @@ Category:Carniolan mathematicians
 Category:Cryptographers by nationality
 Category:Czechoslovak mathematicians
 Category:Ecuadorian mathematicians
-Category:Ethnic Armenian mathematicians
 Category:Filipino mathematicians
 Category:Flemish mathematicians
+Category:Gambian mathematicians
 Category:Genevan mathematicians
+Category:Ghanaian mathematician
 Category:Indonesian mathematicians
 Category:Information theorists by nationality
 Category:Ivorian mathematicians
 Category:Kazakhstani mathematicians
 Category:Korean mathematicians
+Category:Lists of mathematicians by nationality
 Category:Logicians by nationality
 Category:Macedonian mathematicians
 Category:Malaysian mathematicians
 Category:Maltese mathematicians
+Category:Mathematicians by former country
 Category:Mathematicians from Georgia (country)
-Category:Mathematicians of the Abbasid Caliphate
-Category:Mathematicians of the Ottoman Empire
 Category:Mongolian mathematicians
 Category:Panamanian mathematicians
 Category:Peruvian mathematicians
@@ -325,11 +360,14 @@ Category:Statisticians by nationality
 Category:Surinamese mathematicians
 Category:Tajikistani mathematicians
 Category:Thai mathematicians
+Category:Togolese mathematicians
+Category:Uzbekistani mathematicians
 Category:Venezuelan mathematicians
 Category:Women mathematicians by nationality
 Category:Yugoslav mathematicians
 Category:Statistics educators
 Category:Mathematicians of medieval Islam
+Category:Medieval Arab mathematicians
 Category:Medieval Moorish mathematicians
 Category:Medieval Moroccan mathematicians
 Category:Medieval Persian mathematicians
@@ -338,6 +376,7 @@ Category:Medieval Spanish mathematicians
 Category:Medieval Turkic mathematicians
 Category:20th-century Mexican mathematicians
 Category:20th-century Moldovan mathematicians
+Category:21st-century Moldovan mathematicians
 Category:20th-century New Zealand mathematicians
 Category:21st-century New Zealand mathematicians
 Category:New Zealand bioinformaticians
@@ -345,6 +384,7 @@ Category:New Zealand logicians
 Category:New Zealand statisticians
 Category:20th-century Nigerian mathematicians
 Category:Nigerian statisticians
+Category:19th-century Norwegian mathematicians
 Category:20th-century Norwegian mathematicians
 Category:Norwegian logicians
 Category:Norwegian statisticians
@@ -357,11 +397,12 @@ Category:Pakistani information theorists
 Category:Pakistani logicians
 Category:Pakistani statisticians
 Category:Palestinian statisticians
-Category:Jewish Polish mathematicians
+Category:Persian mathematicians by century
 Category:Polish cryptographers
 Category:Polish geodesists
 Category:Polish logicians
 Category:Polish mathematicians by century
+Category:Polish set theorists
 Category:Polish statisticians
 Category:Polish women mathematicians
 Category:Paul Malliavin
@@ -371,8 +412,7 @@ Category:Romanian bioinformaticians
 Category:Romanian logicians
 Category:Romanian statisticians
 Category:Romanian women mathematicians
-Category:Imperial Russian mathematicians
-Category:Jewish Russian mathematicians
+Category:Mathematicians of the Russian Empire
 Category:Russian bioinformaticians
 Category:Russian cryptographers
 Category:Russian geodesists
@@ -386,6 +426,7 @@ Category:Scottish statisticians
 Category:20th-century Serbian mathematicians
 Category:Serbian statisticians
 Category:20th-century Slovenian mathematicians
+Category:Slovenian statisticians
 Category:South African bioinformaticians
 Category:South African mathematicians by century
 Category:South African statisticians
@@ -393,30 +434,23 @@ Category:Soviet computer scientists
 Category:Soviet geodesists
 Category:Soviet logicians
 Category:Soviet women mathematicians
-Category:20th-century Spanish mathematicians
-Category:21st-century Spanish mathematicians
 Category:Spanish bioinformaticians
 Category:Spanish cryptographers
 Category:Spanish geodesists
+Category:Spanish mathematicians by century
 Category:Spanish statisticians
 Category:Spanish women mathematicians
-Category:Sinhalese mathematicians
-Category:Sri Lankan Tamil mathematicians
-Category:19th-century Swedish mathematicians
-Category:20th-century Swedish mathematicians
-Category:21st-century Swedish mathematicians
 Category:Swedish bioinformaticians
 Category:Swedish cryptographers
 Category:Swedish information theorists
 Category:Swedish logicians
+Category:Swedish mathematicians by century
 Category:Swedish statisticians
 Category:Swedish women mathematicians
-Category:18th-century Swiss mathematicians
-Category:19th-century Swiss mathematicians
-Category:20th-century Swiss mathematicians
 Category:Leonhard Euler
 Category:Swiss bioinformaticians
 Category:Swiss cryptographers
+Category:Swiss mathematicians by century
 Category:Swiss statisticians
 Category:Swiss women mathematicians
 Category:Medieval Syrian mathematicians
@@ -427,10 +461,11 @@ Category:Turkish bioinformaticians
 Category:Turkish logicians
 Category:Turkish statisticians
 Category:20th-century Ukrainian mathematicians
-Category:Jewish Ukrainian mathematicians
+Category:21st-century Ukrainian mathematicians
 Category:Ukrainian cryptographers
 Category:Uruguayan statisticians
 Category:Welsh statisticians
 Category:West Area Computers
-Category:Women Cryptographers
+Category:Women bioinformaticians
+Category:Women cryptographers
 Category:Women statisticians
