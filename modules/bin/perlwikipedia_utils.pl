@@ -3,73 +3,38 @@
 
 use strict;                   # 'strict' insists that all variables be declared
 use diagnostics;              # 'diagnostics' expands the cryptic warnings
-use Carp qw(croak carp confess);
-use MediaWiki::Bot;
-#use Perlwikipedia; #Note that the 'p' is capitalized, due to Perl style
-require  'bin/language_definitions.pl';
+use Encode;
+
+# Use Pywikibot as the Perl module for that is out of date.
+$ENV{'PYTHONPATH'} = '/data/project/shared/pywikibot/stable:/data/project/shared/pywikibot/stable/scripts';
+$ENV{'PYWIKIBOT_DIR'} = '/data/project/mathbot';
+
 binmode STDOUT, ':utf8'; # to not complain about printing wide characters
 
-sub wikipedia_login {
-  print "Login at " . qx(date) . "\n";
+# Create a temporary file name
+sub gen_file_name {
+  return time() . "_" . rand() . "_tmp";
+}
 
-  my $bot_name = shift || 'Mathbot'; # User Mathbot is no bot name is given
+# Linux does not like to be passed Unicode or binary strings on the command line
+# or as file names. Hence, create a unique filename made up of ascii characters
+# where we will write some text, potentially in Unicode, telling Pywikibot what 
+#to do.
+sub gen_pywikibot_job {
 
-  my $Lang = 'en';
-  if ($bot_name eq 'MathbotBeta'){
-    $Lang = 'beta';
-  }
+  my $job_name      = shift;
+  my $article_name  = shift;
+  my $file_name     = shift;
+  my $task          = shift;
+  my $edit_summary  = shift;
 
-  my %Dictionary = &language_definitions($Lang); # see the language_definitions.pl module
-
-  my $pass = get_login_info($bot_name, $Dictionary{'Credentials'});
-
-  my $wiki_http = $Dictionary{'Domain'};
-  
-  # Initiate agent
-  #my $editor=Perlwikipedia->new($bot_name);
-  my $editor=MediaWiki::Bot->new($bot_name); 
-
-  # turn debugging on, to see what is going on
-  $editor->{debug} = 1;
-
-  # Set the language
-  $editor->set_wiki($wiki_http,'w');
-  print "<br><br>\n";
-
-  # Create the cookies file if it does not exist. In either case, make sure it is read-only.
-  my $cookies = ".perlwikipedia-$bot_name-cookies";
-  if (! -e $cookies ){
-    open(FILE, ">$cookies"); print FILE "#LWP-Cookies-1.0\n"; close(FILE);
-  }
-  chmod (0600, $cookies);
-
-  # Do several attempts to log in
-  my $counter=0;
-  do {
-    $counter++;
-    
-    eval {
-      print "Logging in as $bot_name to $wiki_http ... <br><br>\n";
-      my $res = $editor->login($bot_name, $pass);
-      print "<br><br>\n";
-      croak "Can't log in in as $bot_name! Result was \'$res\'. <br>\n"
-	 unless ( defined ($res) && $res =~ /^0$/ );
-    };
-    print "Error is: $@\n" if ($@);
-    
-    if ($counter > 1) {
-      print "Sleep 2<br><br>\n";
-      sleep 2;
-    }
-
-    if ($counter > 100 && $@){
-      print "Tried logging in $counter times, exiting.<br>\n";
-      exit(0);
-    }
-    
-  } until (!$@);
-  
-  return $editor;
+  open(FILE, ">", $job_name);
+  binmode(FILE, ":utf8");
+  print FILE "article name: $article_name\n";
+  print FILE "file name: $file_name\n";
+  print FILE "task: $task\n";
+  print FILE "edit summary: $edit_summary\n";
+  close(FILE);
 }
 
 sub wikipedia_fetch {
@@ -80,12 +45,13 @@ sub wikipedia_fetch {
   my $sleep    = shift || 5;    # how much to rest after each attempt (to not strain the server)
   
   $article =~ s/\.wiki$//g;  # backward compatibility
+  $article =~ s/ /_/g; # do not use spaces
 
   # a temporary fix for a bug
   #$article =~ s/\&/%26/g;
 
   my $text;
-  my $counter=1;
+  my $counter = 1;
   
   # exception handling
   do {
@@ -96,17 +62,32 @@ sub wikipedia_fetch {
       }else{
 	print "Fetching $article. Attempt: $counter. <br>\n";
       }
+    
+      my $file = gen_file_name();
+      my $job  = $file . "_job";
+      my $task = "fetch";
+      my $edit_summary = "";
 
-      # Get text from the server, and check for errors.
-      $editor->{errstr} = "";
-      $text = $editor->get_text($article);
-      if ($text =~ /^2$/ ){
-	# Currently non-existent pages are marked with a "2"
-        $text = "";
+      gen_pywikibot_job($job, $article, $file, $task, $edit_summary);
+
+      # Tell Pywikibot to do this job. All Unicode is hidden in the job file.     
+      my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
+      my $return_code = $?;
+      
+      if ($return_code != 0) {
+        print "Pywikibot failed at task '$task' with text: $ans\n";
+        exit(1);
       }
-      croak $editor->{errstr} . "\n" unless ($editor->{errstr} =~ /^\s*$/);
-
-    };
+      
+      # Read the text fetchd and saved on disk by Pywikibot
+      open my $fh, '<', $file or die "error opening $file: $!";
+      $text = do { local $/; <$fh> };
+      $text = Encode::decode('utf8', $text);
+ 
+      # Wipe the temporary files
+      unlink($file); 
+      unlink($job);    
+   };
 
     print "Sleep $sleep<br><br>\n\n";
     sleep $sleep;
@@ -131,61 +112,71 @@ sub wikipedia_submit {
   my $text          = shift;
   my $attempts      = shift || 100;  # try that many times to get an article
   my $sleep         = shift || 5;    # how much to rest after each attempt (to not strain the server)
-  
+ 
   $article =~ s/\.wiki$//g;  # backward compatibility
 
   # a temporary fix for a bug
   #$article =~ s/\&/%26/g;
-  
+
+  # Wipe trailing whitespace  
   $text =~ s/\s*$//g;
-  my $server_text;
 
-  # Check if the text to submit is the same as on server, in that case don't do anything.
-  $server_text = $editor->get_text($article);
-  #$server_text = Encode::encode('utf8', $server_text);
-  $server_text =~ s/\s*$//g;
+  print "Article name is $article\n";
+ 
+  my $counter = 1;
   
-  if ( $text eq $server_text ){
-    print "Won't submit $article to the server, as nothing changed<br>\n";
-    print "sleep 1<br><br>\n";
-    sleep 1;
-    return;
-  }
-
-  # Exception handling
-  my $counter=1;
+  # exception handling
   do {
     eval {
-
+      
       if ($counter == 1){
-	print "Submitting $article. <br>\n"; 
+	print "Submitting $article. <br>\n";
       }else{
 	print "Submitting $article. Attempt: $counter. <br>\n";
       }
+    
+      my $file = gen_file_name();
+      my $job  = $file . "_job";
+      my $task = "submit";
 
-      # Submit. Overwrite whatever happened in between. May fail in case of edit conflict.
-      $editor->edit($article, $text, $edit_summary);
+      gen_pywikibot_job($job, $article, $file, $task, $edit_summary);
+  
+      # Save the text on disk  
+      open(FILE, ">", $file);
+      binmode(FILE, ":utf8");
+      print FILE $text;
+      close(FILE);
 
-      print "Sleep $sleep<br><br>\n\n";
-      sleep $sleep;
+      # Tell Pywikibot to do this job. All Unicode is hidden in the job file.     
+      my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
+      my $return_code = $?;
       
-      # fetch back what was just submitted, compare with what was supposed to be submitted. 
-      $server_text = $editor->get_text($article);
-      #$server_text = Encode::encode('utf8', $server_text);
-      $server_text =~ s/\s*$//g;
-      croak "What is on the server is not what was just submitted!\n" if ($text ne $server_text);
-    };
+      if ($return_code != 0) {
+        print "Pywikibot failed at task '$task' with text: $ans\n";
+        exit(1);
+      }
+      
+      # Wipe the temporary files
+      unlink($file); 
+      unlink($job);    
+   };
 
+    print "Sleep $sleep<br><br>\n\n";
+    sleep $sleep;
+    
     if ($counter > $attempts && $@){
-      print "Tried $counter times, bailing out.\n";
-      return 0; # failed
+      print "Tried $counter times and failed, bailing out\n";
+      return "";
     }
     $counter++;
-
+    
     print "Error message is: $@\n" if ($@);
   } until (!$@);
-
+       
+  return;
 }
+
+# TODO(oalexan1): Wipe all the text below
 
 # this function and the one below are for backwards compatibility with older scripts
 sub fetch_file_nosave {

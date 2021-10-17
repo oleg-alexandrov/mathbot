@@ -5,7 +5,6 @@ use lib $ENV{HOME} . '/public_html/cgi-bin/wp/modules'; # path to perl modules
 use strict;                   # 'strict' insists that all variables be declared
 use diagnostics;              # 'diagnostics' expands the cryptic warnings
 use Encode;
-#use Perlwikipedia;
 use HTML::Entities;
 
 use Data::Dumper;

@@ -8,36 +8,10 @@ use CGI::Carp qw(fatalsToBrowser);
 use strict;
 undef $/;
 
-eval {
-
-# These really help with debugging when nothing else does
-#open STDOUT, ">", "/data/project/mathbot/public_html/wp/afd/output.txt" or print "cannot open file.\n";
-#open STDERR, ">", "/data/project/mathbot/public_html/wp/afd/error.txt" or print "cannot open file.\n";
-
-#print qx(which perl) . "\n";
-#print qx(perl --version) . "\n";
-#print qx(env) . "\n";
-#print qx(lsb_release -a) . "\n";
-#print qx(uname -a) . "\n";
-#print qx(ls /usr/bin/perl*) . "\n";
-
-};
-if ($@){
-  print "$@\n:";
-}
-
-use lib '/data/project/mathbot/public_html/wp/modules/perl5';
-use lib '/data/project/mathbot/public_html/wp/modules';
-
 $| = 1; # flush the buffer each line
-
-use lib '/data/project/mathbot/public_html/wp/modules'; # relative path to perl modules
-use lib '/data/project/mathbot/perl5/lib/perl5/';
 
 eval {
   require '/data/project/mathbot/public_html/wp/modules/bin/perlwikipedia_utils.pl';
-  require 'bin/perlwikipedia_utils.pl';
-  require 'bin/get_html.pl';
 }; 
 if ($@){
   print "$@\n:";
@@ -58,16 +32,9 @@ my $gEditor;
 MAIN: {
  
   print "Please be patient, this script can take a minute or two "
-     .  "if Wikipedia is slow ...<br><br>\n";
+     .  "if Wikipedia is slow.<br><br>\n";
 
   print "Machine is " . qx(uname -a) . "<br><br>\n";
-  #chdir '/data/project/mathbot/public_html/wp/afd';
-
-  my $bot_name = 'Mathbot';
-  if (scalar(@ARGV) > 0){
-    # Can use a custom bot name
-    $bot_name = shift @ARGV;
-  }
 
   # This an unverified attempt at a bugfix. Suddenly the bot started
   # writing the months in German, but later I could not reproduce this.
@@ -76,7 +43,6 @@ MAIN: {
   if ( "$locale" ne "C"){
    print "Error: locale must be C\n";
   }
-  print "Locale is $locale<br>\n";
 
   # If the full path to the script is known (such as when running this
   # script from crontab), go to that directory first
@@ -86,12 +52,6 @@ MAIN: {
     chdir $cur_dir;
   }
 
-  # The log in process must happen after we switched to the right directory as done above
-  $gEditor=wikipedia_login($bot_name);
-
-  my $attempts = 10;
-  my $sleep    = 1;
-
   my $summary_file  = "Wikipedia:Articles_for_deletion/Old.wiki";
   my $detailed_file = "Wikipedia:Articles_for_deletion/Old/Open AfDs.wiki";
 
@@ -99,6 +59,8 @@ MAIN: {
   # in $summary_file and put links to those those discussions in $detailed_file.
   # Return the list of pages in $combined_stats, we'll need that to decide which
   # pages to archive.
+  my $attempts = 10;
+  my $sleep    = 1; # the bot will sleep additional time when calling Pywikibot
   my $combined_stats = &count_and_list_open_AfDs($summary_file, $detailed_file,
                                                  $attempts, $sleep);
 
@@ -116,6 +78,30 @@ MAIN: {
        . "Wikipedia:Articles for deletion/Old</a>. <br>\n";
 }
 
+# A little routine which can be handy when testing editing with the bot
+sub test_bot {
+
+  my $attempts = 10; 
+  my $sleep    = 1;
+  my $edit_summary = "test bot";
+  my $test_file = "User:Mathbot/sandbox.wiki";
+  my $test_text = wikipedia_fetch($gEditor, $test_file, $attempts, $sleep);
+  print "Got the text $test_text\n";
+
+  $test_text .= "Test4.";
+
+  if ($test_text =~ /^.*?(User:Mathbot\/Unicode_.*?)\n/s) {
+     $test_file = $1;
+     print "Match file: $test_file\n";
+  } else {
+    print "No match!";
+  }
+  print "Test file is $test_file\n";
+
+  $edit_summary = "Test4: $test_file";
+  print "Edit summary is: $edit_summary\n";
+  wikipedia_submit($gEditor, $test_file, $edit_summary, $test_text, $attempts, $sleep);
+}
 
 sub count_and_list_open_AfDs {
 
