@@ -32,19 +32,23 @@ with open(job_name, encoding='utf-8', mode = "r") as f:
     m = re.match("task: (.*?)\n", line)
     if m:
       task = m.group(1)
+    m = re.match("category name: (.*?)\n", line)
+    if m:
+      category_name = m.group(1)
     m = re.match("edit summary: (.*?)\n", line)
     if m:
       edit_sum = m.group(1)
 
-# First fetch the existing text
-page = pywikibot.Page(site, article_name)
-
 if task == "fetch":
+  # fetch existing text
+  page = pywikibot.Page(site, article_name) 
   # Save the result to disk
   with open(file_name, encoding='utf-8', mode = "w") as f:
     f.write(page.text)
 
 elif task == "submit":
+  # fetch existing text
+  page = pywikibot.Page(site, article_name) 
   # Overwite the text with what is stored locally on disk
   with open(file_name, encoding='utf-8', mode = "r") as f:
     page.text = f.read()
@@ -52,6 +56,9 @@ elif task == "submit":
     # submit
     page.save(edit_sum)
 
+elif task == "articles_in_cat":
+  vals = set(pywikibot.Category(site, category_name).articles(recurse=False))
+  
 else:
   print("Unknown task: ", task)
   sys.exit(1)

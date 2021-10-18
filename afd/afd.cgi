@@ -52,6 +52,9 @@ MAIN: {
     chdir $cur_dir;
   }
 
+  # A simple test for fetching and submitting pages (it will exit the script at the end)
+  # test_bot();
+
   my $summary_file  = "Wikipedia:Articles_for_deletion/Old.wiki";
   my $detailed_file = "Wikipedia:Articles_for_deletion/Old/Open AfDs.wiki";
 
@@ -101,6 +104,8 @@ sub test_bot {
   $edit_summary = "Test4: $test_file";
   print "Edit summary is: $edit_summary\n";
   wikipedia_submit($gEditor, $test_file, $edit_summary, $test_text, $attempts, $sleep);
+
+  exit(1);
 }
 
 sub count_and_list_open_AfDs {

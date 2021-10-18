@@ -3,12 +3,12 @@ use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
 use open 'utf8';
 
-use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
-use lib '/data/project/mathbot/perl5/lib/perl5/';
-use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
-require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
+require '/data/project/mathbot/public_html/wp/modules/bin/perlwikipedia_utils.pl';
+use lib '/data/project/mathbot/public_html/wp/modules';
+use lib '/data/project/mathbot/public_html/wp/mathlists';
 require 'bin/fetch_articles.pl';
 require 'bin/rm_extra_html.pl';
+
 require 'strip_accents_and_stuff.pl';
 require 'lists_utils.pl';
 undef $/; # undefines the separator. Can read one whole file in one scalar.
@@ -38,7 +38,7 @@ MAIN: {
   $prefix = "Wikipedia:WikiProject_Mathematics/List of mathematics articles";
   
   $sleep = 5; $attempts=5; # necessary to fetch data from Wikipedia and submit
-  $Editor=wikipedia_login();
+  #$Editor=wikipedia_login();
 
   # Get today's articles found in categories
   &read_categories_from_list(\@mathematics_categories,\@mathematician_categories,\@other_categories,
