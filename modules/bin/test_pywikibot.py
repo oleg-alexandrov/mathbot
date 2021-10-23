@@ -29,24 +29,13 @@ file_name = sys.argv[2]
 
 print("fetch cat ", category_name)
 
-supercat = pywikibot.Category(site, category_name)
-articles  = set(supercat.articles(recurse=False))
+cat = pywikibot.Category(site, category_name)
 
-# print("articles ", articles)
-# for article in articles:
-#   print ("name is " + article.title())
-
-
-# Categories having this cateogry
-#supercats  = set(supercat.categories())
-#print("supercats ", supercats)
+# Articles in this cateogry
+articles  = set(cat.articles(recurse=False))
 
 # Categories in this category
-subcats  = set(supercat.subcategories())
-# for subcat in subcats:
-#   print("cat name is " + subcat.title())
-
-# print("subcats ", subcats)
+subcats  = set(cat.subcategories())
 
 print("Save to: ", file_name)
 
@@ -59,6 +48,3 @@ with open(file_name, encoding='utf-8', mode = "w") as f:
   for subcat in subcats:
     f.write("  " + subcat.title() + "\n")
 
-
-
-# one more test!

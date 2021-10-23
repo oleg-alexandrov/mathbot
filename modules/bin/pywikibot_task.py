@@ -52,28 +52,49 @@ with open(job_name, encoding='utf-8', mode = "r") as f:
       edit_sum = m.group(1)
 
 if task == "fetch":
-  # fetch existing text
-  page = pywikibot.Page(site, article_name) 
+  
+  # Fetch existing text
+  page = pywikibot.Page(site, article_name)
+  
   # Save the result to disk
   with open(file_name, encoding='utf-8', mode = "w") as f:
     f.write(page.text)
 
 elif task == "submit":
-  # fetch existing text
-  page = pywikibot.Page(site, article_name) 
+  
+  # Fetch existing text
+  page = pywikibot.Page(site, article_name)
+  
   # Overwite the text with what is stored locally on disk
   with open(file_name, encoding='utf-8', mode = "r") as f:
     page.text = f.read()
 
-    # submit
+    # Submit to Wikipedia
     page.save(edit_sum)
 
 elif task == "list_cat":
-  print("task is ", task)
-  print("hi")
-  print("category_name is '" + category_name + "'\n")
+
+  # Fetch the articles and subcategories in given category. Save them
+  # to disk in a json-like format.
+
+  # Initialize the category object
+  cat = pywikibot.Category(site, category_name)
+
+  # Articles in this cateogry
+  articles  = set(cat.articles(recurse=False))
   
-  vals = set(pywikibot.Category(site, category_name).articles(recurse=False))
+  # Categories in this category
+  subcats  = set(cat.subcategories())
+  
+  with open(file_name, encoding='utf-8', mode = "w") as f:
+    
+    f.write("articles:\n")
+    for article in articles:
+      f.write("  " + article.title() + "\n")
+      
+    f.write("subcategories:\n")
+    for subcat in subcats:
+      f.write("  " + subcat.title() + "\n")
   
 else:
   print("Unknown task: ", task)

@@ -11,7 +11,78 @@ $ENV{'PYWIKIBOT_DIR'} = '/data/project/mathbot';
 
 binmode STDOUT, ':utf8'; # to not complain about printing wide characters
 
-# Create a temporary file name
+# Read file in Unicode format
+sub read_file {
+  my $file = shift;
+
+  open my $fh, "<:encoding(UTF-8)", $file or die "Error opening $file: $!";
+  my $text = do { local $/; <$fh> };
+
+  return $text;
+}
+
+# Prase a file in json-like format
+sub parse_json {
+
+  my $file = shift;
+  my $text = read_file($file);
+  my @lines = split("\n", $text);
+
+  my %entries;
+  my $key = "";
+  my $val = "";
+  foreach my $line (@lines){
+
+    if ($line =~ /^\s*$/){
+      next;
+    }
+    
+    if ($line =~ /^\s+(.*?)$/){
+      
+      $val = $1;
+      
+      if ($val =~ /^\s*$/){
+        next;
+      }
+
+      if ($key eq ""){
+        print "Error: Found a value before there was a key.\n";
+        exit(1);
+      }
+
+      if (!exists $entries{$key}){
+        print "Error: Key does not exist.\n";
+        exit(1);
+      }
+
+      my $ptr = $entries{$key}; # pointer to array
+      push(@$ptr, $val);
+
+    } else {
+      
+      if ($line =~ /^([^\s].*?):$/) {
+
+        $key = $1;
+        
+        if (exists $entries{$key}){
+          print "Key $key found before.\n";
+          exit(1);
+        }
+        
+        my @vals = ();
+        $entries{$key} = \@vals; # pointer to array
+        
+      } else {
+        print "Unexpected text: $line\n";
+        exit(1);
+      }
+    }
+  }
+
+  return %entries;
+}
+
+# Create a unique temporary file name
 sub gen_file_name {
   return time() . "_" . rand() . "_tmp";
 }
@@ -78,11 +149,8 @@ sub wikipedia_fetch {
         print "Pywikibot failed at task '$task' with text: $ans\n";
         exit(1);
       }
-      
-      # Read the text fetchd and saved on disk by Pywikibot
-      open my $fh, '<', $file or die "error opening $file: $!";
-      $text = do { local $/; <$fh> };
-      $text = Encode::decode('utf8', $text);
+
+      $text = read_file($file);
  
       # Wipe the temporary files
       unlink($file); 
@@ -174,6 +242,60 @@ sub wikipedia_submit {
   } until (!$@);
        
   return;
+}
+
+sub fetch_articles_cats {
+
+  # Input
+  my $cat = shift;
+  $cat =~ s/^Category://ig;
+
+  # Outputs
+  my $cats = shift;     @$cats = ();
+  my $articles = shift; @$articles=();
+
+  my $file = gen_file_name();
+  my $job  = $file . "_job";
+  my $task = "list_cat";
+
+  # Gen the job
+  open(FILE, ">", $job);
+  binmode(FILE, ":utf8");
+  print FILE "task: $task\n";
+  print FILE "category name: $cat\n";
+  print FILE "file name: $file\n";
+  close(FILE);
+  
+  # Tell Pywikibot to do this job. All Unicode is hidden in the job file.     
+  my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
+  my $return_code = $?;
+  
+  # print "Answer is $ans\n";
+  # print "return code is $return_code\n";
+
+  if ($return_code != 0) {
+    print "Pywikibot failed at task '$task' with text: $ans\n";
+    exit(1);
+  }
+
+  my %json = parse_json($file);
+    
+  my $cats_ptr = $json{"subcategories"};
+  my $articles_ptr = $json{"articles"};
+
+  # This is awkward, but not sure if there is a better way of copying
+  # an array to a location at the given input pointer.
+  @$cats = @$cats_ptr;
+  @$articles = @$articles_ptr;
+
+  # sort the articles and categories. Not really necessary, but it
+  # looks nicer later when things are done in order
+  @$articles = sort {$a cmp $b} @$articles;
+  @$cats = sort {$a cmp $b} @$cats;
+  
+  # Wipe the temporary files
+  unlink($file); 
+  unlink($job);    
 }
 
 # Mark the end of the module

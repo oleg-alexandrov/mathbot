@@ -52,9 +52,6 @@ MAIN: {
     chdir $cur_dir;
   }
 
-  # A simple test for fetching and submitting pages (it will exit the script at the end)
-  # test_bot();
-
   my $summary_file  = "Wikipedia:Articles_for_deletion/Old.wiki";
   my $detailed_file = "Wikipedia:Articles_for_deletion/Old/Open AfDs.wiki";
 
@@ -79,33 +76,6 @@ MAIN: {
        . "<a href=\"https://en.wikipedia.org/w/index.php?title="
        . "Wikipedia:Articles_for_deletion/Old&action=purge\">" 
        . "Wikipedia:Articles for deletion/Old</a>. <br>\n";
-}
-
-# A little routine which can be handy when testing editing with the bot
-sub test_bot {
-
-  my $attempts = 10; 
-  my $sleep    = 1;
-  my $edit_summary = "test bot";
-  my $test_file = "User:Mathbot/sandbox.wiki";
-  my $test_text = wikipedia_fetch($gEditor, $test_file, $attempts, $sleep);
-  print "Got the text $test_text\n";
-
-  $test_text .= "Test4.";
-
-  if ($test_text =~ /^.*?(User:Mathbot\/Unicode_.*?)\n/s) {
-     $test_file = $1;
-     print "Match file: $test_file\n";
-  } else {
-    print "No match!";
-  }
-  print "Test file is $test_file\n";
-
-  $edit_summary = "Test4: $test_file";
-  print "Edit summary is: $edit_summary\n";
-  wikipedia_submit($gEditor, $test_file, $edit_summary, $test_text, $attempts, $sleep);
-
-  exit(1);
 }
 
 sub count_and_list_open_AfDs {
