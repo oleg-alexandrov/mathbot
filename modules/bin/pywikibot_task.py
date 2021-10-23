@@ -1,14 +1,26 @@
 #!/usr/bin/python
 
-# Read text from a given file and submit it to Wikipedia overwriting a given article.
+"""
+A set of Python utilities which read some instructions from disk,
+talk to Wikipedia via pywikibot, then write their outputs back to
+disk. These are used by Perl bots.
 
-# Set these two vars before running the tool
-# export PYTHONPATH=/data/project/shared/pywikibot/stable:/data/project/shared/pywikibot/stable/scripts
-# export PYWIKIBOT_DIR=/data/project/mathbot
+Set these two vars before running the tool:
 
-# Before using this tool, login with
-# python3 /data/project/shared/pywikibot/stable/scripts/login.py
-# Do not use the BotPassword option, it does not work.
+export PYTHONPATH=/data/project/shared/pywikibot/stable:/data/project/shared/pywikibot/stable/scripts
+export PYWIKIBOT_DIR=/data/project/mathbot
+
+Do this to ensure can printto a terminal:
+
+export PYTHONIOENCODING=utf8
+
+Before using this tool, login with:
+
+python3 /data/project/shared/pywikibot/stable/scripts/login.py
+
+Do not use the BotPassword option, it does not work.
+
+"""
 
 import sys, os, re
 import pywikibot
