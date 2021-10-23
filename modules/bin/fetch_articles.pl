@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;		      # 'strict' insists that all variables be declared
 use diagnostics;	      # 'diagnostics' expands the cryptic warnings
-require 'bin/fetch_articles_cats.pl';
+require 'bin/perlwikipedia_utils.pl';
 undef $/;		      # undefines the separator. Can read one whole file in one scalar.
 
 sub fetch_articles {
