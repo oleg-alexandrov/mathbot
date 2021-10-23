@@ -176,45 +176,5 @@ sub wikipedia_submit {
   return;
 }
 
-# TODO(oalexan1): Wipe all the text below
-
-# this function and the one below are for backwards compatibility with older scripts
-sub fetch_file_nosave {
-  return &wikipedia_fetch (@_);
-}
-
-sub submit_file_nosave {
-  return &wikipedia_submit (@_);
-}
-
-sub get_login_info{
-
-  my $bot_name = shift;
-  my $file     = shift;
-
-  if (! -e $file ){ 
-    print "Error: $file is missing\n";
-    exit(1);
-  }
-
-  # Make sure nobody else can read the file
-  chmod (0600, $file);
-
-  open(FILE, "<$file");
-  my @lines = <FILE>;
-  close(FILE);
-
-  my $text = join("\n", @lines);
-  my $pass = "";  
-  if ($text =~ /user\s+$bot_name\s+pass\s+(\w+)/is){
-    $pass = $1;
-  }else{
-    print "Could not find the password for user $bot_name\n";
-    exit(1);
- }
-
-  return $pass;
-}
-
 # Mark the end of the module
 1;

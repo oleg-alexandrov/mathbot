@@ -68,7 +68,11 @@ elif task == "submit":
     # submit
     page.save(edit_sum)
 
-elif task == "articles_in_cat":
+elif task == "list_cat":
+  print("task is ", task)
+  print("hi")
+  print("category_name is '" + category_name + "'\n")
+  
   vals = set(pywikibot.Category(site, category_name).articles(recurse=False))
   
 else:
