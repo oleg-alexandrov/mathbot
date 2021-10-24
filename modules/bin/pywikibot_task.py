@@ -22,7 +22,7 @@ Do not use the BotPassword option, it does not work.
 
 """
 
-import sys, os, re
+import sys, os, re, time
 import pywikibot
 
 def fetch_articles_and_cats(site, category_name):
@@ -160,6 +160,7 @@ with open(job_name, encoding='utf-8', mode = "r") as f:
       edit_sum = m.group(1)
       continue
 
+    # A key followed by many values on subsequent lines
     m = re.match("^([^\s].*?):\n", line)
     if m:
       multi_key = m.group(1)
@@ -186,6 +187,33 @@ if task == "fetch":
   with open(file_name, encoding='utf-8', mode = "w") as f:
     f.write(page.text)
 
+elif task == "fetch_many":
+  # Fetch many articles at once
+
+  if 'article_names' not in multi_dict:
+    print("Not given articles to fetch.")
+    sys.exit(1) 
+
+  if 'article_files' not in multi_dict:
+    print("Not given files to which to write the fetched articles.")
+    sys.exit(1)
+
+  article_names = multi_dict['article_names']
+  article_files = multi_dict['article_files']
+
+  if len(article_names) != len(article_files):
+    print("Need to have as many article files as article names.")
+    sys.exit(1)
+
+  for count in range(len(article_names)):
+    # Fetch existing text
+    page = pywikibot.Page(site, article_names[count])
+    time.sleep(1) # to not hog the server
+    
+    # Save the result to disk
+    with open(article_files[count], encoding='utf-8', mode = "w") as f:
+      f.write(page.text)
+
 elif task == "submit":
   
   # Fetch existing text
@@ -194,10 +222,10 @@ elif task == "submit":
   # Overwite the text with what is stored locally on disk
   with open(file_name, encoding='utf-8', mode = "r") as f:
     page.text = f.read()
-
+    
     # Submit to Wikipedia
     page.save(edit_sum)
-
+    
 elif task == "list_cat":
 
   # Fetch the articles and subcategories in given category. Save them

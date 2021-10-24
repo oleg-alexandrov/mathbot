@@ -13,10 +13,34 @@ use POSIX qw(locale_h);
 use locale;
 
 MAIN: {
-  test_cats();
 
+  test_fetch_many();
+  
+  #test_cats();
   #test_bot();
   
+}
+
+# A routine to test fetching articles and categories in given category
+sub test_fetch_many {
+  my $cat = "Mathematics";
+  my (@cats, @articles);
+
+  fetch_articles_and_cats($cat, \@cats, \@articles);
+
+  print "parent cat is $cat\n";
+  foreach my $val (@cats){
+    print "1new cat $val\n";
+  }
+
+  foreach my $val (@articles){
+    print "1new article $val\n";
+  }
+
+  my @fetched_text;
+  wikipedia_fetch_many(\@articles, \@fetched_text);
+
+  print "First we got is $articles[0], $fetched_text[0]\n";
 }
 
 # A routine to test fetching articles and categories in given category

@@ -112,7 +112,6 @@ sub count_and_list_open_AfDs {
     }else { 
        $brief_afd_link = $link;
     }
-    print "Now doing $link ... ";
     $text = wikipedia_fetch($gEditor, $link, $attempts, $sleep); 
 
     #my $full_link = $link; $full_link =~ s/ /_/g;
@@ -399,21 +398,22 @@ sub see_open_afd_discussions (){
   my @pages = ( $text =~ /\{\{((?:WP|Wikipedia):Articles for deletion\/.*?)\}\}/ig);
   my ($openc, $closedc, $allc) = (0, 0, 0);
   my $stats = "";
-  foreach my $page (@pages){
-	  #print "$page\n";
-	  $text = wikipedia_fetch($gEditor, $page, $attempts, $sleep);
-	  #print "$text\n";
-	  if ($text =~ /(boilerplate[\s\w]*afd vfd xfd-closed|\{\{archivetop\}\})/){
-		  $closedc++;
-	  }else{
-		  $openc++;
-		  $stats = "$stats " . "\[\[$page\|$openc]]";
-          }
-	  $allc++;
-	  #exit(1);
 
-     #if ($openc > 0 || $allc > 20) { last; } # temporary!!!  
+  # Fetch many articles at the same time
+  my @fetched_text;
+  wikipedia_fetch_many(\@pages, \@fetched_text);
+
+  foreach my $text (@fetched_text){
+    my $page = $pages[$allc];
+    if ($text =~ /(boilerplate[\s\w]*afd vfd xfd-closed|\{\{archivetop\}\})/){
+      $closedc++;
+    }else{
+      $openc++;
+      $stats = "$stats " . "\[\[$page\|$openc]]";
+    }
+    $allc++;
   }
+  
   print "$stats\n";
   print "($openc open / ";
   print "$closedc closed / ";

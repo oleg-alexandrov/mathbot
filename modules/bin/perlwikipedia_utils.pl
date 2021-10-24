@@ -4,12 +4,15 @@
 use strict;                   # 'strict' insists that all variables be declared
 use diagnostics;              # 'diagnostics' expands the cryptic warnings
 use Encode;
+use Time::HiRes;
 
 # Use Pywikibot as the Perl module for that is out of date.
 $ENV{'PYTHONPATH'} = '/data/project/shared/pywikibot/stable:/data/project/shared/pywikibot/stable/scripts';
 $ENV{'PYWIKIBOT_DIR'} = '/data/project/mathbot';
 
-binmode STDOUT, ':utf8'; # to not complain about printing wide characters
+$ENV{'PYTHONIOENCODING'} = 'utf8'; # to make Python print unicode on screen
+   
+binmode STDOUT, ':utf8'; # For Perl to not complain about printing wide characters
 
 # Read file in Unicode format
 sub read_file {
@@ -84,7 +87,10 @@ sub parse_json {
 
 # Create a unique temporary file name
 sub gen_file_name {
-  return time() . "_" . rand() . "_tmp";
+
+  my ($seconds, $microseconds) = Time::HiRes::gettimeofday;
+  
+  return $seconds . "_" . $microseconds . "_" . rand() . "_tmp";
 }
 
 # Linux does not like to be passed Unicode or binary strings on the command line
@@ -160,8 +166,9 @@ sub wikipedia_fetch {
       unlink($job);    
    };
 
-    print "Sleep $sleep<br><br>\n\n";
-    sleep $sleep;
+    # Don't sleep here, pywikibot will take care of that 
+    #print "Sleep $sleep<br><br>\n\n";
+    #sleep $sleep;
     
     if ($counter > $attempts && $@){
       print "Tried $counter times and failed, bailing out\n";
@@ -173,6 +180,66 @@ sub wikipedia_fetch {
   } until (!$@);
        
   return $text; 
+}   
+
+# Fetch a lot of articles at teh same time. Return an array with their text.
+sub wikipedia_fetch_many {
+
+  my $article_names  = shift;
+  my $article_text   = shift;
+
+  # Initialize the output
+  @$article_text = ();
+  
+  foreach my $article (@$article_names){
+    $article =~ s/\.wiki$//g;  # backward compatibility
+  }
+
+  my $file = gen_file_name();
+  my $job  = $file . "_job";
+  my $task = "fetch_many";
+
+  # Manufacture a file name for each article we will write
+  my @article_files;
+  my $count = 10000;
+  foreach my $article (@$article_names){
+    
+    my $article_file = gen_file_name() . "_" . $count;
+    push(@article_files, $article_file);
+    
+    $count++;
+  }
+  
+  # Gen the job. Note that it has a multi-line component.
+  open(FILE, ">", $job);
+  binmode(FILE, ":utf8");
+  print FILE "task: $task\n";
+  print FILE "article_names:\n"; # multiline
+  foreach my $article (@$article_names){
+    print FILE "  $article\n";
+  }
+  print FILE "article_files:\n"; # multiline
+  foreach my $article_file (@article_files){
+    print FILE "  $article_file\n";
+  }
+  close(FILE);
+
+  #print "Job file is $job\n";
+  
+  my $ans = run_pywikibot($job);
+  #print "answer is $ans\n";
+  
+  foreach my $article_file (@article_files){
+    my $text = read_file($article_file);
+    push(@$article_text, $text);
+    
+    # Wipe the temporary files
+    unlink($file);
+  }
+  
+  # wipe the job
+  unlink($job);    
+  
 }   
 
 sub wikipedia_submit {
@@ -287,8 +354,10 @@ sub fetch_articles_in_cats {
   my $new_cats = shift;     @$new_cats = ();
 
   # Gen the job
-  my $file = gen_file_name();
-  my $job  = $file . "_job";
+  my $file     = gen_file_name();
+  my $job      = $file . "_job";
+  my $progress = $file . "_progress";
+  
   my $task = "list_cats";
 
   # Gen the job. Note that it has a multi-line component.
@@ -300,7 +369,11 @@ sub fetch_articles_in_cats {
     print FILE "  $cat\n";
   }
   print FILE "file name: $file\n";
+  print FILE "progress file: $progress\n";
   close(FILE);
+
+  print "Job file is $job\n";
+  print "Track progress in $progress. Not implemented yet.\n";
   
   my $ans = run_pywikibot($job);
   # print "Got the answer $ans\n";
