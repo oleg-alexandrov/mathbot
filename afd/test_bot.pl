@@ -13,15 +13,18 @@ use POSIX qw(locale_h);
 use locale;
 
 MAIN: {
-}
+  test_cats();
 
+  #test_bot();
+  
+}
 
 # A routine to test fetching articles and categories in given category
 sub test_cats {
   my $cat = "Mathematics";
   my (@cats, @articles);
 
-  fetch_articles_cats($cat, \@cats, \@articles);
+  fetch_articles_and_cats($cat, \@cats, \@articles);
 
   print "parent cat is $cat\n";
   foreach my $val (@cats){

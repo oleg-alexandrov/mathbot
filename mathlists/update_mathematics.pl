@@ -6,11 +6,10 @@ use open 'utf8';
 require '/data/project/mathbot/public_html/wp/modules/bin/perlwikipedia_utils.pl';
 use lib '/data/project/mathbot/public_html/wp/modules';
 use lib '/data/project/mathbot/public_html/wp/mathlists';
-require 'bin/fetch_articles.pl';
 require 'bin/rm_extra_html.pl';
-
 require 'strip_accents_and_stuff.pl';
 require 'lists_utils.pl';
+
 undef $/; # undefines the separator. Can read one whole file in one scalar.
 
 # Collect the mathematics articles from the mathematics categories. Merge them into the [[list of mathematics articles]] on Wikipedia.

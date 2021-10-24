@@ -80,7 +80,7 @@ GNU Scientific Library
   push (@articles, split("\n", $text));
   
   foreach $cat( @base_cats){
-    &fetch_articles_cats($cat, \@cats, \@tmp);
+    &fetch_articles_and_cats($cat, \@cats, \@tmp);
     push (@articles, @tmp);
   }
 

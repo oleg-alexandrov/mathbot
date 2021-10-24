@@ -7,14 +7,14 @@ undef $/;		      # undefines the separator. Can read one whole file in one scala
 sub fetch_articles {
 
   my ($article, @articles, $cat, $cats, $text, %new_article, $cont_cat);
-  my (%excluded_cats, %cat_hash, $text_cats, $newcats, @tmp, $newcat, $basecat, $new_articles, %newcat_hash);
+  my (%cat_hash, $text_cats, $newcats, @tmp, $newcat, $basecat, $new_articles, %newcat_hash);
 
   $cats=$_[0];  $new_articles=$_[1];  $newcats=$_[2];
   foreach $cat ( @$cats ){ $cat_hash{$cat}=1; }
 
   # Start harvesting the articles from these categories
   foreach $cat ( @$cats ) {
-    &fetch_articles_cats($cat, \@tmp, \@articles);
+    &fetch_articles_and_cats($cat, \@tmp, \@articles);
     print "<font color=red>Error! No articles in $cat !!!</font><br>\n" unless (@articles);
 
     foreach $newcat (@tmp) {

@@ -7,7 +7,6 @@ use Encode;
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/wikipedia_fetch_submit.pl'; # my own packages, this and the one below
 require 'bin/wikipedia_login.pl';
-require 'bin/fetch_articles_cats_old.pl';
 require 'bin/html_encode_decode.pl';
 require 'bin/get_html.pl';
 undef $/;		      # undefines the separator. Can read one whole file in one scalar.

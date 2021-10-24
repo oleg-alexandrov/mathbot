@@ -9,7 +9,7 @@ use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu
 
 require 'bin/perlwikipedia_utils.pl'; 
 require "strip_accents_and_stuff.pl";
-require "bin/fetch_articles.pl";
+require "bin/perlwikipedia_utils.pl";
 require "read_from_write_to_disk.pl";
 require "bin/get_last.pl";
 require 'lists_utils.pl';

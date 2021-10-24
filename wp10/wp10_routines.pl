@@ -12,7 +12,7 @@ use Data::Dumper;
 use lib '/home/oleg/public_html/cgi-bin/wp/wp10';
 use lib '/home/oleg/public_html/cgi-bin/modules';
 
-require 'bin/fetch_articles_cats2.pl';  # Most of the API interface is here
+require 'bin/fetch_articles_and_cats2.pl';  # Most of the API interface is here
 require 'bin/html_encode_decode_string.pl';
 require 'bin/get_html2.pl';              # Should be reworked
 require 'bin/language_definitions.pl';
@@ -285,7 +285,7 @@ sub fetch_quality_categories{
   $projects = shift;
 
   # fetch all the subcategories of $Root_category
-  &fetch_articles_cats($Root_category, \@tmp_cats, \@tmp_articles);
+  &fetch_articles_and_cats($Root_category, \@tmp_cats, \@tmp_articles);
 
   # put in @$projects only the categories by quality
   @$projects=(); 
@@ -421,7 +421,7 @@ sub read_version{
   # 3. Same for each article
   
   foreach $cat (keys %cats_hash){
-    &fetch_articles_cats($cat, \@subcats, \@articles);
+    &fetch_articles_and_cats($cat, \@subcats, \@articles);
     
     push (@all_subcats, @subcats);
     
@@ -439,7 +439,7 @@ sub read_version{
   # one more level, let the articles in the subcats also inherit the version
   foreach $cat (@all_subcats){
     
-    &fetch_articles_cats($cat, \@subcats, \@articles);
+    &fetch_articles_and_cats($cat, \@subcats, \@articles);
     
     foreach $article (@articles){
       next unless ($article =~ /^\Q$Talk\E:(.*?)$/);
@@ -546,7 +546,7 @@ sub collect_new_from_categories {
   
   # $project_category (e.g., "Chemistry articicles by quality") contains subcategories of each quality.
   # Read them and the articles categorized in them.  
-  &fetch_articles_cats($project_category, \@cats, \@articles); 
+  &fetch_articles_and_cats($project_category, \@cats, \@articles); 
 
   # go through each of the FA-Class, A-Class, etc. categories and read their articles
   foreach $cat (@cats) {
@@ -564,7 +564,7 @@ sub collect_new_from_categories {
 #    binmode DEBUG, ":utf8";
 
     # collect the articles
-    &fetch_articles_cats($cat, \@dummy, \@articles); 
+    &fetch_articles_and_cats($cat, \@dummy, \@articles); 
     foreach $article (@articles) {
 #      print DEBUG "$cat -- $article \n";
       next unless ($article =~ /^\Q$Talk\E:(.*?)$/i);
@@ -585,13 +585,13 @@ sub collect_new_from_categories {
   # look in $importance_category, e.g., "Chemistry articles by importance", read its subcategories,
   # for example, "Top chemistry articles", etc.
   $importance_category=$project_category; $importance_category =~ s/\Q$By_quality\E/$By_importance/g;
-  &fetch_articles_cats($importance_category, \@cats, \@articles); 
+  &fetch_articles_and_cats($importance_category, \@cats, \@articles); 
 
   # for political reasons, the "by importance" category is called "by priority" by some projects,
-  # so check for this alternative name if the above &fetch_articles_cats returned empty cats
+  # so check for this alternative name if the above &fetch_articles_and_cats returned empty cats
   if ( $Lang eq 'en' && (!@cats) ){
     $importance_category =~ s/ \Q$By_importance\E/ by priority/g;
-    &fetch_articles_cats($importance_category, \@tmp, \@articles); 
+    &fetch_articles_and_cats($importance_category, \@tmp, \@articles); 
     @cats = (@cats, @tmp);
   }
 
@@ -617,7 +617,7 @@ sub collect_new_from_categories {
     next if ($imp eq $No_Class);
 
     # collect the importance ratings
-    &fetch_articles_cats($cat, \@dummy, \@articles); 
+    &fetch_articles_and_cats($cat, \@dummy, \@articles); 
     foreach $article (@articles){
       next unless ($article =~ /^\Q$Talk\E:(.*?)$/i);
       $article = $1;
@@ -631,7 +631,7 @@ sub collect_new_from_categories {
   # to show that there is a comments subpage
   $comments_category=$project_category;
   $comments_category =~ s/\Q$By_quality\E/$With_comments/g;
-  &fetch_articles_cats($comments_category, \@cats, \@articles); 
+  &fetch_articles_and_cats($comments_category, \@cats, \@articles); 
   
   foreach $article (@articles) {
     next unless ($article =~ /^\Q$Talk\E:(.*?)$/);
@@ -1186,7 +1186,7 @@ sub check_for_errors_reading_cats {
   $category = $Category . ":Mathematics";
   print "Doing some <b>debugging</b> first ... "
       . "Die if can't detect subcategories or articles due to changed API... <br/>\n";
-  &fetch_articles_cats($category, \@cats, \@articles); 
+  &fetch_articles_and_cats($category, \@cats, \@articles); 
   if ( !@cats || !@articles){
     print "Error! Can't detect subcatgories or articles!<br/>\n"; 
     exit (0); 
@@ -1342,7 +1342,7 @@ sub extra_categorizations {
     $map{$1}=$2;
   }
   
-  &fetch_articles_cats($Root_category, \@projects, \@articles); 
+  &fetch_articles_and_cats($Root_category, \@projects, \@articles); 
 
   # Go through all projects, search the categories in there,
   # and merge with existing information
@@ -1362,7 +1362,7 @@ sub extra_categorizations {
     next unless ($project_category =~ /articles (\Q$By_quality\E|\Q$By_importance\E)/);
     $type=$1;
     
-    &fetch_articles_cats($project_category, \@cats, \@articles); 
+    &fetch_articles_and_cats($project_category, \@cats, \@articles); 
     foreach $cat (@cats){
       
       next if (exists $map{$cat}); # did this before

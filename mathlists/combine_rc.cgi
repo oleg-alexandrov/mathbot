@@ -10,7 +10,7 @@ use LWP::UserAgent;
 use Encode;
 
 require 'bin/perlwikipedia_utils.pl';
-require 'bin/fetch_articles.pl';
+require 'bin/perlwikipedia_utils.pl';
 
 use open 'utf8';
 binmode STDOUT, ':utf8';

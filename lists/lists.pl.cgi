@@ -15,7 +15,7 @@ use lib '/data/project/mathbot/public_html/wp/modules'; # relative path to perl 
 use lib '/data/project/mathbot/perl5/lib/perl5/';
 use open 'utf8';
 require 'bin/perlwikipedia_utils.pl';
-require "bin/fetch_articles.pl";
+require "bin/perlwikipedia_utils.pl";
 
 MAIN: { 
 

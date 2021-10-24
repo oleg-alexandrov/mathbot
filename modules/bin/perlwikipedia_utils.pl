@@ -108,6 +108,18 @@ sub gen_pywikibot_job {
   close(FILE);
 }
 
+sub run_pywikibot {
+  my $job = shift;
+  
+  my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
+  my $return_code = $?;
+      
+  if ($return_code != 0) {
+    print "Pywikibot failed with text: $ans\n";
+    exit(1);
+  }
+
+}
 sub wikipedia_fetch {
 
   my $editor   = shift; 
@@ -117,9 +129,6 @@ sub wikipedia_fetch {
   
   $article =~ s/\.wiki$//g;  # backward compatibility
   $article =~ s/ /_/g; # do not use spaces
-
-  # a temporary fix for a bug
-  #$article =~ s/\&/%26/g;
 
   my $text;
   my $counter = 1;
@@ -140,16 +149,8 @@ sub wikipedia_fetch {
       my $edit_summary = "";
 
       gen_pywikibot_job($job, $article, $file, $task, $edit_summary);
-
-      # Tell Pywikibot to do this job. All Unicode is hidden in the job file.     
-      my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
-      my $return_code = $?;
+      run_pywikibot($job);
       
-      if ($return_code != 0) {
-        print "Pywikibot failed at task '$task' with text: $ans\n";
-        exit(1);
-      }
-
       $text = read_file($file);
  
       # Wipe the temporary files
@@ -207,22 +208,14 @@ sub wikipedia_submit {
       my $job  = $file . "_job";
       my $task = "submit";
 
-      gen_pywikibot_job($job, $article, $file, $task, $edit_summary);
-  
       # Save the text on disk  
       open(FILE, ">", $file);
       binmode(FILE, ":utf8");
       print FILE $text;
       close(FILE);
 
-      # Tell Pywikibot to do this job. All Unicode is hidden in the job file.     
-      my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
-      my $return_code = $?;
-      
-      if ($return_code != 0) {
-        print "Pywikibot failed at task '$task' with text: $ans\n";
-        exit(1);
-      }
+      gen_pywikibot_job($job, $article, $file, $task, $edit_summary);
+      run_pywikibot($job);
       
       # Wipe the temporary files
       unlink($file); 
@@ -244,7 +237,7 @@ sub wikipedia_submit {
   return;
 }
 
-sub fetch_articles_cats {
+sub fetch_articles_and_cats {
 
   # Input
   my $cat = shift;
@@ -266,17 +259,7 @@ sub fetch_articles_cats {
   print FILE "file name: $file\n";
   close(FILE);
   
-  # Tell Pywikibot to do this job. All Unicode is hidden in the job file.     
-  my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
-  my $return_code = $?;
-  
-  # print "Answer is $ans\n";
-  # print "return code is $return_code\n";
-
-  if ($return_code != 0) {
-    print "Pywikibot failed at task '$task' with text: $ans\n";
-    exit(1);
-  }
+  run_pywikibot($job);
 
   my %json = parse_json($file);
     
@@ -288,11 +271,6 @@ sub fetch_articles_cats {
   @$cats = @$cats_ptr;
   @$articles = @$articles_ptr;
 
-  # sort the articles and categories. Not really necessary, but it
-  # looks nicer later when things are done in order
-  @$articles = sort {$a cmp $b} @$articles;
-  @$cats = sort {$a cmp $b} @$cats;
-  
   # Wipe the temporary files
   unlink($file); 
   unlink($job);    

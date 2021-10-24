@@ -6,7 +6,7 @@ binmode STDOUT, ':utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 require 'bin/perlwikipedia_utils.pl'; # my own packages, this and the one below
-require 'bin/fetch_articles.pl';
+require 'bin/perlwikipedia_utils.pl';
 require 'bin/html_encode_decode_string.pl';
 
 undef $/; # undefines the separator. Can read one whole file in one scalar.
