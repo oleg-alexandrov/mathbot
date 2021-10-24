@@ -64,7 +64,7 @@ MAIN: {
   @cats = ($p3 =~ /\[\[:(Category:.*?)\]\]/g);
 
   print "<br>Searching for articles mising in \"$liststrip\". <br><br>\n";
-  &fetch_articles(\@cats, \@new_articles, \@newcats);
+  &fetch_articles_in_cats(\@cats, \@new_articles, \@newcats);
 
   $p1="";
   foreach ( @new_articles ) {

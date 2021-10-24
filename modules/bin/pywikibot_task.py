@@ -30,6 +30,12 @@ def fetch_articles_and_cats(site, category_name):
   """
   Fetch the articles and subcategories in given category.
   """
+
+  # Wipe the initial "Category:"
+  m = re.match("^Category:(.*?)$", category_name, re.IGNORECASE)
+  if m:
+    category_name = m.group(1)
+  
   # Initialize the category object
   cat = pywikibot.Category(site, category_name)
 
@@ -53,6 +59,63 @@ def fetch_articles_and_cats(site, category_name):
 
   return (articles, cats)
 
+def fetch_articles_in_cats(site, input_cats):
+  """
+  Fetch articles and identify new categories in given list of input categories.
+  """
+  
+  input_cats_set = set()
+  for input_cat in input_cats:
+    input_cats_set.add(input_cat)
+
+  new_articles = []
+  new_cats = []
+  new_cats_set = set()
+  new_articles_set = set()
+  
+  # Look in all input categories
+  for input_cat in input_cats:
+
+    (local_articles, local_cats) = fetch_articles_and_cats(site, input_cat)
+
+    for local_cat in local_cats:
+      if local_cat in input_cats_set or local_cat in new_cats_set:
+        continue
+      
+      new_cats_set.add(local_cat)
+      new_cats.append(local_cat)
+    
+    for local_article in local_articles:
+
+      m = re.match("^.*?:", local_article)
+      if m:
+        # Ignore any aritcle having a column. It is likely a portal.
+        # TODO(oalexan1): This is not good logic.
+        continue 
+
+      if local_article in new_articles_set:
+        continue
+
+      new_articles_set.add(local_article)
+      new_articles.append(local_article)
+
+  new_articles.sort()
+  new_cats.sort()
+
+  return (new_articles, new_cats)
+
+def write_articles_and_cats(file_name, articles, cats):
+  
+  with open(file_name, encoding='utf-8', mode = "w") as f:
+    
+    f.write("articles:\n")
+    for article in articles:
+      f.write("  " + article + "\n")
+      
+    f.write("subcategories:\n")
+    for cat in cats:
+      f.write("  " + cat + "\n")
+
 # Main program
 
 if len(sys.argv) < 2:
@@ -62,24 +125,57 @@ if len(sys.argv) < 2:
 site      = pywikibot.Site()
 job_name  = sys.argv[1]
 
-# Parse the job
+# Parse the job. There are two kinds of text. One is "name: val". The second is
+# "name:" followed by many lines having value for that name, with each line
+# starting with spaces.
+multi_dict = {}
+multi_key = ""
+
 with open(job_name, encoding='utf-8', mode = "r") as f:
+
   for line in f:
-    m = re.match("article name: (.*?)\n", line)
+
+    m = re.match("^article name: (.*?)\n", line)
     if m:
       article_name = m.group(1)
-    m = re.match("file name: (.*?)\n", line)
+      continue
+    
+    m = re.match("^file name: (.*?)\n", line)
     if m:
       file_name = m.group(1)
-    m = re.match("task: (.*?)\n", line)
+      continue
+
+    m = re.match("^task: (.*?)\n", line)
     if m:
       task = m.group(1)
-    m = re.match("category name: (.*?)\n", line)
+      continue
+
+    m = re.match("^category name: (.*?)\n", line)
     if m:
       category_name = m.group(1)
-    m = re.match("edit summary: (.*?)\n", line)
+      continue
+
+    m = re.match("^edit summary: (.*?)\n", line)
     if m:
       edit_sum = m.group(1)
+      continue
+
+    m = re.match("^([^\s].*?):\n", line)
+    if m:
+      multi_key = m.group(1)
+      multi_dict[multi_key] = []
+      continue
+
+    m = re.match("^\s+([^\s].*?)\n", line)
+    if m:
+      val = m.group(1)
+      
+      if multi_key == "" or (multi_key not in multi_dict):
+        print("Error: found an invalid key.")
+        sys.exit(1)
+        
+      multi_dict[multi_key].append(val)
+      continue
 
 if task == "fetch":
   
@@ -108,17 +204,19 @@ elif task == "list_cat":
   # to disk in a json-like format.
 
   (articles, cats) = fetch_articles_and_cats(site, category_name)
-
-  with open(file_name, encoding='utf-8', mode = "w") as f:
-    
-    f.write("articles:\n")
-    for article in articles:
-      f.write("  " + article + "\n")
-      
-    f.write("subcategories:\n")
-    for cat in cats:
-      f.write("  " + cat + "\n")
+  write_articles_and_cats(file_name, articles, cats)
   
+elif task == "list_cats":
+  
+  if 'categories' not in multi_dict:
+    print("Not given categories to list.")
+    sys.exit(1) 
+
+  input_cats = multi_dict['categories']
+
+  (new_articles, new_cats) = fetch_articles_in_cats(site, input_cats)
+  write_articles_and_cats(file_name, new_articles, new_cats)
+
 else:
   print("Unknown task: ", task)
   sys.exit(1)

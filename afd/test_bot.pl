@@ -28,11 +28,22 @@ sub test_cats {
 
   print "parent cat is $cat\n";
   foreach my $val (@cats){
-    print "new cat $val\n";
+    print "1new cat $val\n";
   }
 
   foreach my $val (@articles){
-    print "new article $val\n";
+    print "1new article $val\n";
+  }
+
+  my (@new_articles, @new_categories);
+  fetch_articles_in_cats(\@cats, \@new_articles, \@new_categories);
+  
+  foreach my $val (@new_categories){
+    print "2new cat $val\n";
+  }
+
+  foreach my $val (@new_articles){
+    print "2new article $val\n";
   }
 }
 

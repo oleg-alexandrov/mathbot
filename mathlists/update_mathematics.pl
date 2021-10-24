@@ -40,9 +40,12 @@ MAIN: {
   #$Editor=wikipedia_login();
 
   # Get today's articles found in categories
+  print "Read categories from list\n";
   &read_categories_from_list(\@mathematics_categories,\@mathematician_categories,\@other_categories,
 			     $list_of_categories);
-  &fetch_articles(\@mathematics_categories, \@articles_from_cats, \@new_categories);
+  print "fetch aricles in cats\n";
+  &fetch_articles_in_cats(\@mathematics_categories, \@articles_from_cats, \@new_categories);
+  print "randomize\n";
   @articles_from_cats=&randomize_array(@articles_from_cats); # to later identify entries differning only by capitals
 
   # articles which we will not allow in the math list for various reasons

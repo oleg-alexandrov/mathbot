@@ -5,11 +5,9 @@ use open 'utf8';
 
 use lib $ENV{HOME} . '/public_html/wp/modules'; # path to perl modules
 use lib '/data/project/mathbot/perl5/lib/perl5/';
-use lib '/data/project/mathbot/public_html/wp/modules/lib/perl5/x86_64-linux-gnu-thread-multi';
 
 require 'bin/perlwikipedia_utils.pl'; 
 require "strip_accents_and_stuff.pl";
-require "bin/perlwikipedia_utils.pl";
 require "read_from_write_to_disk.pl";
 require "bin/get_last.pl";
 require 'lists_utils.pl';
@@ -37,7 +35,10 @@ MAIN:{
   $list_of_categories='List_of_mathematics_categories.wiki';
   # Get today's articles found in categories
   &read_categories_from_list(\@mathematics_categories,\@mathematician_categories,\@other_categories, $list_of_categories);
-  &fetch_articles(\@mathematician_categories, \@articles_from_cats, \@new_categories);
+
+  print "Fetch articles in cats\n";
+  &fetch_articles_in_cats(\@mathematician_categories, \@articles_from_cats, \@new_categories);
+  print "Writing: $mathematician_cat_list\n";
   open (FILE, ">", $mathematician_cat_list); print FILE join ("\n", @new_categories); close(FILE);
 
   &put_redirects_on_blacklist ($Editor, \%blacklist, $articles_from_cats_file, \@articles_from_cats);

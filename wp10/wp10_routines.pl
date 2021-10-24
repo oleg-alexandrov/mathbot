@@ -9,10 +9,6 @@ use HTML::Entities;
 
 use Data::Dumper;
 
-use lib '/home/oleg/public_html/cgi-bin/wp/wp10';
-use lib '/home/oleg/public_html/cgi-bin/modules';
-
-require 'bin/fetch_articles_and_cats2.pl';  # Most of the API interface is here
 require 'bin/html_encode_decode_string.pl';
 require 'bin/get_html2.pl';              # Should be reworked
 require 'bin/language_definitions.pl';

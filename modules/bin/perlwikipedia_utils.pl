@@ -119,7 +119,9 @@ sub run_pywikibot {
     exit(1);
   }
 
+  return $ans;
 }
+
 sub wikipedia_fetch {
 
   my $editor   = shift; 
@@ -241,7 +243,6 @@ sub fetch_articles_and_cats {
 
   # Input
   my $cat = shift;
-  $cat =~ s/^Category://ig;
 
   # Outputs
   my $cats = shift;     @$cats = ();
@@ -263,17 +264,61 @@ sub fetch_articles_and_cats {
 
   my %json = parse_json($file);
     
-  my $cats_ptr = $json{"subcategories"};
   my $articles_ptr = $json{"articles"};
+  my $cats_ptr = $json{"subcategories"};
 
   # This is awkward, but not sure if there is a better way of copying
   # an array to a location at the given input pointer.
-  @$cats = @$cats_ptr;
   @$articles = @$articles_ptr;
+  @$cats = @$cats_ptr;
 
   # Wipe the temporary files
   unlink($file); 
   unlink($job);    
+}
+
+sub fetch_articles_in_cats {
+
+  # Inputs
+  my $cats = shift;
+
+  # Outputs
+  my $new_articles = shift; @$new_articles = ();
+  my $new_cats = shift;     @$new_cats = ();
+
+  # Gen the job
+  my $file = gen_file_name();
+  my $job  = $file . "_job";
+  my $task = "list_cats";
+
+  # Gen the job. Note that it has a multi-line component.
+  open(FILE, ">", $job);
+  binmode(FILE, ":utf8");
+  print FILE "task: $task\n";
+  print FILE "categories:\n"; # multiline
+  foreach my $cat (@$cats){
+    print FILE "  $cat\n";
+  }
+  print FILE "file name: $file\n";
+  close(FILE);
+  
+  my $ans = run_pywikibot($job);
+  # print "Got the answer $ans\n";
+  
+  my %json = parse_json($file);
+    
+  my $articles_ptr = $json{"articles"};
+  my $cats_ptr = $json{"subcategories"};
+
+  # This is awkward, but not sure if there is a better way of copying
+  # an array to a location at the given input pointer.
+  @$new_articles = @$articles_ptr;
+  @$new_cats = @$cats_ptr;
+
+  # Wipe the temporary files
+  unlink($file); 
+  unlink($job);    
+  
 }
 
 # Mark the end of the module

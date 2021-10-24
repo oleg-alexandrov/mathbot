@@ -23,7 +23,7 @@ MAIN:{
   # go to the working directory
   $work_dir=$0; $work_dir =~ s/\/[^\/]*$/\//g; chdir $work_dir;
   
-  my $Editor=wikipedia_login();
+  my $Editor; # not needed, kept for the sake of the api
   $attempts = 10; $sleep = 1;
   $days=2;  $limit=5000;
 
