@@ -146,8 +146,6 @@ sub wikipedia_fetch {
   my $task = "fetch";
   my $edit_summary = "";
 
-  print "--5 file $file\n";
-  print "--5 job $job\n";
   # exception handling
   do {
     
@@ -180,8 +178,6 @@ sub wikipedia_fetch {
        
   # Wipe the temporary files. Do this after catching any exceptions,
   # as otherwise files fail to get wiped.
-  print "--5 wipe $file\n";
-  print "--5 wipe $job\n";
   
   unlink($file); 
   unlink($job);    
@@ -279,8 +275,6 @@ sub wikipedia_submit {
   my $job  = $file . "_job";
   my $task = "submit";
 
-  print "--file $file\n";
-  print "--file $job\n";
   # exception handling
   do {
     
@@ -336,9 +330,6 @@ sub fetch_articles_and_cats {
   my $job  = $file . "_job";
   my $task = "list_cat";
 
-  print "--file $file\n";
-  print "--job $job\n";
-  
   # Gen the job
   open(FILE, ">", $job);
   binmode(FILE, ":utf8");
@@ -362,8 +353,6 @@ sub fetch_articles_and_cats {
   @$cats = @$cats_ptr;
 
   # Wipe the temporary files
-  print "22 wipe file $file\n";
-  print "22 wipe job $job\n";
   unlink($file); 
   unlink($job);    
 }
