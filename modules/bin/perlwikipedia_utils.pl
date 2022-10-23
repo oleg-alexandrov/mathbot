@@ -7,7 +7,7 @@ use Encode;
 use Time::HiRes;
 
 # Use Pywikibot as the Perl module for that is out of date.
-$ENV{'PYTHONPATH'} = '/data/project/shared/pywikibot/stable:/data/project/shared/pywikibot/stable/scripts';
+$ENV{'PYTHONPATH'} = '/shared/pywikibot/core:/shared/pywikibot/core/externals/httplib2:/shared/pywikibot/core/scripts';
 $ENV{'PYWIKIBOT_DIR'} = '/data/project/mathbot';
 
 $ENV{'PYTHONIOENCODING'} = 'utf8'; # to make Python print unicode on screen
@@ -86,7 +86,7 @@ sub parse_json {
 }
 
 # Create a unique temporary file name
-sub gen_file_name {
+sub gen_temp_local_file_name {
 
   my ($seconds, $microseconds) = Time::HiRes::gettimeofday;
   
@@ -144,27 +144,28 @@ sub wikipedia_fetch {
   # exception handling
   do {
     eval {
+    
+      my $file = gen_temp_local_file_name();
+      my $job  = $file . "_job";
+      my $task = "fetch";
+      my $edit_summary = "";
       
       if ($counter == 1){
 	print "Fetching $article. <br>\n";
       }else{
 	print "Fetching $article. Attempt: $counter. <br>\n";
       }
-    
-      my $file = gen_file_name();
-      my $job  = $file . "_job";
-      my $task = "fetch";
-      my $edit_summary = "";
 
       gen_pywikibot_job($job, $article, $file, $task, $edit_summary);
       run_pywikibot($job);
       
       $text = read_file($file);
- 
-      # Wipe the temporary files
-      unlink($file); 
-      unlink($job);    
-   };
+    };
+       
+    # Wipe the temporary files. Do this after catching any exceptions,
+    # as otherwise files fail to get wiped.
+    unlink($file); 
+    unlink($job);    
 
     # Don't sleep here, pywikibot will take care of that 
     #print "Sleep $sleep<br><br>\n\n";
@@ -195,7 +196,7 @@ sub wikipedia_fetch_many {
     $article =~ s/\.wiki$//g;  # backward compatibility
   }
 
-  my $file = gen_file_name();
+  my $file = gen_temp_local_file_name();
   my $job  = $file . "_job";
   my $task = "fetch_many";
 
@@ -204,7 +205,7 @@ sub wikipedia_fetch_many {
   my $count = 10000;
   foreach my $article (@$article_names){
     
-    my $article_file = gen_file_name() . "_" . $count;
+    my $article_file = gen_temp_local_file_name() . "_" . $count;
     push(@article_files, $article_file);
     
     $count++;
@@ -225,13 +226,17 @@ sub wikipedia_fetch_many {
   close(FILE);
 
   #print "Job file is $job\n";
-  
-  my $ans = run_pywikibot($job);
+
+  eval { # catch any exception
+    my $ans = run_pywikibot($job);
+  }; 
   #print "answer is $ans\n";
   
   foreach my $article_file (@article_files){
-    my $text = read_file($article_file);
-    push(@$article_text, $text);
+    eval {
+      my $text = read_file($article_file);
+      push(@$article_text, $text);
+    };
     
     # Wipe the temporary files
     unlink($file);
@@ -265,6 +270,11 @@ sub wikipedia_submit {
   
   # exception handling
   do {
+    
+    my $file = gen_temp_local_file_name();
+    my $job  = $file . "_job";
+    my $task = "submit";
+    
     eval {
       
       if ($counter == 1){
@@ -272,11 +282,7 @@ sub wikipedia_submit {
       }else{
 	print "Submitting $article. Attempt: $counter. <br>\n";
       }
-    
-      my $file = gen_file_name();
-      my $job  = $file . "_job";
-      my $task = "submit";
-
+      
       # Save the text on disk  
       open(FILE, ">", $file);
       binmode(FILE, ":utf8");
@@ -285,11 +291,11 @@ sub wikipedia_submit {
 
       gen_pywikibot_job($job, $article, $file, $task, $edit_summary);
       run_pywikibot($job);
-      
-      # Wipe the temporary files
-      unlink($file); 
-      unlink($job);    
-   };
+    };
+       
+    # Wipe the temporary files, after catching any exceptions
+    unlink($file); 
+    unlink($job);    
 
     print "Sleep $sleep<br><br>\n\n";
     sleep $sleep;
@@ -315,7 +321,7 @@ sub fetch_articles_and_cats {
   my $cats = shift;     @$cats = ();
   my $articles = shift; @$articles=();
 
-  my $file = gen_file_name();
+  my $file = gen_temp_local_file_name();
   my $job  = $file . "_job";
   my $task = "list_cat";
 
@@ -326,9 +332,11 @@ sub fetch_articles_and_cats {
   print FILE "category name: $cat\n";
   print FILE "file name: $file\n";
   close(FILE);
-  
-  run_pywikibot($job);
 
+  eval {
+    run_pywikibot($job);
+  };
+  
   my %json = parse_json($file);
     
   my $articles_ptr = $json{"articles"};
@@ -354,7 +362,7 @@ sub fetch_articles_in_cats {
   my $new_cats = shift;     @$new_cats = ();
 
   # Gen the job
-  my $file     = gen_file_name();
+  my $file     = gen_temp_local_file_name();
   my $job      = $file . "_job";
   my $progress = $file . "_progress";
   
@@ -374,15 +382,17 @@ sub fetch_articles_in_cats {
 
   print "Job file is $job\n";
   print "Track progress in $progress. Not implemented yet.\n";
-  
-  my $ans = run_pywikibot($job);
-  # print "Got the answer $ans\n";
-  
+
+  eval {
+    my $ans = run_pywikibot($job);
+    # print "Got the answer $ans\n";
+  };
+     
   my %json = parse_json($file);
-    
+  
   my $articles_ptr = $json{"articles"};
   my $cats_ptr = $json{"subcategories"};
-
+  
   # This is awkward, but not sure if there is a better way of copying
   # an array to a location at the given input pointer.
   @$new_articles = @$articles_ptr;

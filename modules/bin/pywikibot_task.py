@@ -5,18 +5,38 @@ A set of Python utilities which read some instructions from disk,
 talk to Wikipedia via pywikibot, then write their outputs back to
 disk. These are used by Perl bots.
 
+See documentation at: 
+https://wikitech.wikimedia.org/wiki/User:Russell_Blau/Using_pywikibot_on_Labs
+
+Use python3 instead of python when following that page.
+
+python3 /shared/pywikibot/core/pywikibot/scripts/generate_user_files.py
+
+Default user directory is /data/project/mathbot
+
+See the file /data/project/mathbot/user-config.py. It points to the
+passwords, saved in
+
+/data/project/mathbot/passwords.txt
+
+Do:
+
+chmod 600 /data/project/mathbot/passwords.txt
+
 Set these two vars before running the tool:
 
-export PYTHONPATH=/data/project/shared/pywikibot/stable:/data/project/shared/pywikibot/stable/scripts
+export PYTHONPATH=/shared/pywikibot/core:/shared/pywikibot/core/externals/httplib2:/shared/pywikibot/core/scripts:$PYTHONPATH
 export PYWIKIBOT_DIR=/data/project/mathbot
 
 Do this to ensure python can print in a terminal:
 
 export PYTHONIOENCODING=utf8
 
+Thse are set in perlwikipedia_utils.pl, before running pywikibot from the perl bot.
+
 Before using this tool, login with:
 
-python3 /data/project/shared/pywikibot/stable/scripts/login.py
+python3 /shared/pywikibot/core/pywikibot/scripts/login.py 
 
 Do not use the BotPassword option, it does not work.
 
