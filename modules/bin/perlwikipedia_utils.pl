@@ -141,14 +141,15 @@ sub wikipedia_fetch {
   my $text;
   my $counter = 1;
   
+  my $file = gen_temp_local_file_name();
+  my $job  = $file . "_job";
+  my $task = "fetch";
+  my $edit_summary = "";
+  
   # exception handling
   do {
-    eval {
     
-      my $file = gen_temp_local_file_name();
-      my $job  = $file . "_job";
-      my $task = "fetch";
-      my $edit_summary = "";
+    eval {
       
       if ($counter == 1){
 	print "Fetching $article. <br>\n";
@@ -162,11 +163,6 @@ sub wikipedia_fetch {
       $text = read_file($file);
     };
        
-    # Wipe the temporary files. Do this after catching any exceptions,
-    # as otherwise files fail to get wiped.
-    unlink($file); 
-    unlink($job);    
-
     # Don't sleep here, pywikibot will take care of that 
     #print "Sleep $sleep<br><br>\n\n";
     #sleep $sleep;
@@ -180,6 +176,11 @@ sub wikipedia_fetch {
     print "Error message is: $@\n" if ($@);
   } until (!$@);
        
+  # Wipe the temporary files. Do this after catching any exceptions,
+  # as otherwise files fail to get wiped.
+  unlink($file); 
+  unlink($job);    
+
   return $text; 
 }   
 
@@ -268,12 +269,12 @@ sub wikipedia_submit {
  
   my $counter = 1;
   
+  my $file = gen_temp_local_file_name();
+  my $job  = $file . "_job";
+  my $task = "submit";
+    
   # exception handling
   do {
-    
-    my $file = gen_temp_local_file_name();
-    my $job  = $file . "_job";
-    my $task = "submit";
     
     eval {
       
@@ -293,10 +294,6 @@ sub wikipedia_submit {
       run_pywikibot($job);
     };
        
-    # Wipe the temporary files, after catching any exceptions
-    unlink($file); 
-    unlink($job);    
-
     print "Sleep $sleep<br><br>\n\n";
     sleep $sleep;
     
@@ -309,6 +306,10 @@ sub wikipedia_submit {
     print "Error message is: $@\n" if ($@);
   } until (!$@);
        
+  # Wipe the temporary files, after catching any exceptions
+  unlink($file); 
+  unlink($job);    
+
   return;
 }
 
