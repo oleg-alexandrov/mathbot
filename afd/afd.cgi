@@ -4,7 +4,6 @@
 print "Content-type: text/html\r\n\r\n";
 
 use POSIX;                     # the strftime function
-use CGI::Carp qw(fatalsToBrowser);
 use strict;
 undef $/;
 

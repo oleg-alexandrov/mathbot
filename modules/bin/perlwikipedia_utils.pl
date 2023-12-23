@@ -7,7 +7,7 @@ use Encode;
 use Time::HiRes;
 
 # Use Pywikibot as the Perl module for that is out of date.
-$ENV{'PYTHONPATH'} = '/shared/pywikibot/core:/shared/pywikibot/core/externals/httplib2:/shared/pywikibot/core/scripts';
+#$ENV{'PYTHONPATH'} = '/shared/pywikibot/core:/shared/pywikibot/core/externals/httplib2:/shared/pywikibot/core/scripts';
 $ENV{'PYWIKIBOT_DIR'} = '/data/project/mathbot';
 
 $ENV{'PYTHONIOENCODING'} = 'utf8'; # to make Python print unicode on screen
@@ -117,7 +117,7 @@ sub gen_pywikibot_job {
 sub run_pywikibot {
   my $job = shift;
   
-  my $ans = qx(/usr/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
+  my $ans = qx(/data/project/mathbot/pwbvenv/bin/python3 /data/project/mathbot/public_html/wp/modules/bin/pywikibot_task.py $job);
   my $return_code = $?;
       
   if ($return_code != 0) {

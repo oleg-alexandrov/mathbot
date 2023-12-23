@@ -1,14 +1,34 @@
-# How to install updated versions of modules
-#cpan App::cpanminus
-# /data/project/mathbot/public_html/wp/modules/bin/cpanm Crypt::SSLeay --force
+#!/bin/bash
 
-# Run the tool
-cd /data/project/mathbot/cgi-bin/wp/afd
+runDir=$0 # exec name
+runDir=$(dirname $runDir)
+
+# Must prepare a virtual env in /data/project/mathbot/pwbvenv
+
+cd $HOME
+echo activating the env
+source pwbvenv/bin/activate
+
+echo Will run in $runDir
+cd $runDir
+
+# Must set the bot login info in $PYWIKIBOT_DIR
+
+export PYWIKIBOT_DIR=/data/project/mathbot
+export PYTHONIOENCODING=utf8
+
+echo Running the afd script
+
 ./afd.cgi
 
-# Sometimes the perl version running when executing a CGI script is not the same
-# as the one from the command line. It is virtually impossible to debug this. 
-# To debug, run a test cgi script from which run a shell script which
-# will run the actual cgi script while redirecting all output and error 
-# to a file. One may need to change some permissions and set some env
-# variables for this to work.
+# TODO(oalexan1): Figure out why temporary files do not get wiped out
+# For now, wipe them by hand
+/bin/rm -fv *tmp*
+
+# Move the logs. This will ensure logs do not get
+# appended, but rather only latest log is kept 
+mkdir -p $HOME/logs
+/bin/mv -fv $HOME/afd.out $HOME/afd.err $HOME/logs
+
+
+

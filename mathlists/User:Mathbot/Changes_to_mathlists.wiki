@@ -2,6 +2,768 @@
 [[Category:WikiProject Mathematics]]
 :''See also [[Wikipedia:WikiProject Mathematics/Current activity]] for more info on recent changes.''
 
+== October 23, 2022 ==
+
+:Removed [[(2,1)-Pascal triangle]] 
+:Removed [[-0 (number)]] (is a redirect to [[Signed zero]])
+:Removed [[1 − 1 + 2 − 6 + 24 − 120 + ...]] (is a redirect to [[1 − 1 + 2 − 6 + 24 − 120 + …]])
+:Removed [[1% rule (Internet culture)]] (is a redirect to [[1% rule]])
+:Removed [[1.96]] (is a redirect to [[97.5th percentile point]])
+:Removed [[142,857]] (is a redirect to [[142857]])
+:Removed [[196883]] (is a redirect to [[monstrous moonshine]])
+:Removed [[198 (number)]] (is a redirect to [[190 (number)]])
+:Removed [[2-transitive group]] (is a redirect to [[Multiply transitive group action]])
+:Removed [[24 Game]] (is a redirect to [[24 (puzzle)]])
+:Removed [[24,601]] (is a redirect to [[Jean Valjean]])
+:Removed [[284 (number)]] (is a redirect to [[280 (number)]])
+:Removed [[509203]] (is a redirect to [[Riesel number]])
+:Removed [[Ageometresia]] 
+:Removed [[Analytization trick]] 
+:Removed [[Annales Academiae Scientiarum Fennicae Mathematica]] (is a redirect to [[Annales Fennici Mathematici]])
+:Removed [[Annales Henri Lebesgue]] (is a redirect to [[École normale supérieure de Rennes]])
+:Removed [[Application of tensor theory in engineering]] (is a redirect to [[Tensor]])
+:Removed [[Applications of the calculus of variations]] (is a redirect to [[Calculus of variations]])
+:Removed [[Arai ψ function]] (is a redirect to [[Ordinal collapsing function]])
+:Removed [[Arithmetico–geometric sequence]] (is a redirect to [[Arithmetico-geometric sequence]])
+:Removed [[Assouad-Nagata dimension]] (is a redirect to [[Assouad–Nagata dimension]])
+:Removed [[Australian Mathematical Society Medal]] (is a redirect to [[Australian_Mathematical_Society]])
+:Removed [[Auto magma object]] 
+:Removed [[Basic skills]] 
+:Removed [[Bayesian History Matching]] (is a redirect to [[Bayesian history matching]])
+:Removed [[Bell shaped function]] (is a redirect to [[Bell-shaped function]])
+:Removed [[Berger's inequality for Einstein manifolds]] (is a redirect to [[Hitchin–Thorpe inequality]])
+:Removed [[Billionth]] (is a redirect to [[Orders_of_magnitude_(numbers)]])
+:Removed [[Biquandle]] (is a redirect to [[Biracks and biquandles]])
+:Removed [[Buchholz's ID hierarchy]] (is a redirect to [[Theories of iterated inductive definitions]])
+:Removed [[Bunching parameter]] 
+:Removed [[Calculus One]] (is a redirect to [[Ximera]])
+:Removed [[Canadian Undergraduate Mathematics Conference]] 
+:Removed [[Cantor normal form theorem]] (is a redirect to [[Ordinal arithmetic]])
+:Removed [[Center pivot irrigation]] (is a redirect to [[Center-pivot irrigation]])
+:Removed [[Chaos theory in organizational development]] (is a redirect to [[Organization development]])
+:Removed [[Characteristic linear system of an algebraic family of curves]] (is a redirect to [[Linear system of divisors]])
+:Removed [[Characterizations of the category of topological spaces]] (is a redirect to [[Axiomatic foundations of topological spaces]])
+:Removed [[Closed graph]] (is a redirect to [[Closed graph property]])
+:Removed [[Cohomotopy group]] (is a redirect to [[Cohomotopy set]])
+:Removed [[Combining dimensions]] 
+:Removed [[Commutation theorem]] (is a redirect to [[Commutation theorem for traces]])
+:Removed [[Comparison of statistics journals]] (is a redirect to [[List of statistics journals]])
+:Removed [[Complete School]] 
+:Removed [[Complex conjugate vector space]] (is a redirect to [[Complex conjugate of a vector space]])
+:Removed [[Complex differential equation]] 
+:Removed [[Compound of six pentagonal antiprisms]] 
+:Removed [[Compound of six pentagrammic antiprisms]] 
+:Removed [[Compound of six pentagrammic crossed antiprisms]] 
+:Removed [[Compound of six square antiprisms]] 
+:Removed [[Compound of three square antiprisms]] 
+:Removed [[Compound of twelve pentagrammic antiprisms]] 
+:Removed [[Compound of twelve pentagrammic crossed antiprisms with rotational freedom]] 
+:Removed [[Congressional Science Technology, Engineering and Math (STEM) Academic Competition]] (is a redirect to [[Congressional App Challenge]])
+:Removed [[Continuous Progress Mathematics]] 
+:Removed [[Convolutional Sparse Coding]] (is a redirect to [[Convolutional sparse coding]])
+:Removed [[Correspondence theorem (group theory)]] (is a redirect to [[Correspondence theorem]])
+:Removed [[Cross-cap]] (is a redirect to [[Möbius strip]])
+:Removed [[Cut-point]] (is a redirect to [[Cut point]])
+:Removed [[Data Analytics Acceleration Library]] (is a redirect to [[Data Analytics Library]])
+:Removed [[Decomposition theorem]] (is a redirect to [[Decomposition theorem of Beilinson, Bernstein and Deligne]])
+:Removed [[Differentiable vector-valued functions from Euclidean space]] (is a redirect to [[Differentiable vector–valued functions from Euclidean space]])
+:Removed [[Differential (infinitesimal)]] (is a redirect to [[Differential (mathematics)]])
+:Removed [[Discrete Fourier transform (general)]] (is a redirect to [[Discrete Fourier transform over a ring]])
+:Removed [[Distinctiveness centrality]] 
+:Removed [[Dodecagonal antiprism]] 
+:Removed [[Dodecagrammic antiprism]] 
+:Removed [[Dodecagrammic crossed-antiprism]] 
+:Removed [[Dodecagrammic prism]] 
+:Removed [[Double bubble conjecture]] (is a redirect to [[Double bubble theorem]])
+:Removed [[Dual-complex number]] (is a redirect to [[Applications of dual quaternions to 2D geometry]])
+:Removed [[Dynamical system (definition)]] (is a redirect to [[Dynamical system]])
+:Removed [[Elbow of the curve]] (is a redirect to [[Knee of a curve]])
+:Removed [[Elie Cartan Prize]] (is a redirect to [[Élie Cartan Prize]])
+:Removed [[Embree–Trefethen constant]] (is a redirect to [[Random Fibonacci sequence]])
+:Removed [[Enneagrammic antiprism]] 
+:Removed [[Enneagrammic prism]] 
+:Removed [[Epsilon numbers (mathematics)]] (is a redirect to [[Epsilon number]])
+:Removed [[Examples of differential equations]] (is a redirect to [[Differential equation]])
+:Removed [[Examples of generating functions]] (is a redirect to [[Generating function]])
+:Removed [[Exhaustion by compact sets]] (is a redirect to [[Exhaustion by compact subsets]])
+:Removed [[Explicit mathematics]] 
+:Removed [[Exterior (topology)]] (is a redirect to [[Interior (topology)]])
+:Removed [[Exterior calculus]] (is a redirect to [[Differential form]])
+:Removed [[FO (complexity)]] (is a redirect to [[Descriptive complexity theory]])
+:Removed [[First order arithmetic]] (is a redirect to [[Peano_axioms]])
+:Removed [[First-order arithmetic]] (is a redirect to [[List_of_first-order_theories]])
+:Removed [[Fixed-point theorem]] (is a redirect to [[Fixed-point theorems]])
+:Removed [[Formal differential geometry]] 
+:Removed [[Fractal lake]] 
+:Removed [[Fraction Bars]] (is a redirect to [[Cuisenaire rods]])
+:Removed [[Free regular set]] (is a redirect to [[Group action]])
+:Removed [[Fritsch graph]] (is a redirect to [[Triaugmented triangular prism]])
+:Removed [[Full employment theorem]] (is a redirect to [[Full-employment theorem]])
+:Removed [[Gabriel's Horn]] (is a redirect to [[Gabriel's horn]])
+:Removed [[Ganita-yukti-bhasa]] (is a redirect to [[Yuktibhāṣā]])
+:Removed [[Gauss's constant]] (is a redirect to [[Lemniscate constant]])
+:Removed [[Gausssian distribution on a locally compact Abelian group]] (is a redirect to [[Gaussian distribution on a locally compact Abelian group]])
+:Removed [[General model theory]] (is a redirect to [[Conceptual model]])
+:Removed [[Geometric Shapes]] (is a redirect to [[Geometric Shapes (Unicode block)]])
+:Removed [[Goodman–Nguyen–Van Fraassen algebra]] (is a redirect to [[Conditional event algebra]])
+:Removed [[HO (complexity)]] (is a redirect to [[Descriptive complexity theory]])
+:Removed [[Hardy–Littlewood tauberian theorem]] (is a redirect to [[Hardy–Littlewood Tauberian theorem]])
+:Removed [[Hendecagonal antiprism]] 
+:Removed [[Heptagonal pyramidal number]] (is a redirect to [[Pyramidal number]])
+:Removed [[Heptagrammic antiprism (7/2)]] 
+:Removed [[Heptagrammic antiprism (7/3)]] 
+:Removed [[Heptagrammic crossed-antiprism]] 
+:Removed [[Heptagrammic prism (7/2)]] 
+:Removed [[Heptagrammic prism (7/3)]] 
+:Removed [[Heteroscedasticity]] (is a redirect to [[Homoscedasticity and heteroscedasticity]])
+:Removed [[Heteroscedasticity-consistent standard errors]] (is a redirect to [[Heteroskedasticity-consistent standard errors]])
+:Removed [[Hexaflake]] (is a redirect to [[n-flake]])
+:Removed [[Hexagonal pyramidal number]] (is a redirect to [[Pyramidal number]])
+:Removed [[Homoscedasticity]] (is a redirect to [[Homoscedasticity and heteroscedasticity]])
+:Removed [[Homotopy colimit]] (is a redirect to [[Homotopy colimit and limit]])
+:Removed [[How Round Is Your Circle]] (is a redirect to [[How Round Is Your Circle?]])
+:Removed [[Ideal ring bundle]] 
+:Removed [[Illegal prime]] (is a redirect to [[Illegal number]])
+:Removed [[Illumination angle]] (is a redirect to [[Angle of incidence (optics)]])
+:Removed [[Imaginary point]] (is a redirect to [[Real point]])
+:Removed [[Induced topology]] (is a redirect to [[Subspace topology]])
+:Removed [[Inseparable differential equation]] (is a redirect to [[Ordinary differential equation]])
+:Removed [[Integrally closed ordered group]] (is a redirect to [[Partially ordered group]])
+:Removed [[International Congress on Mathematical Education]] (is a redirect to [[International Commission on Mathematical Instruction]])
+:Removed [[Inverse functions and differentiation]] (is a redirect to [[Inverse function rule]])
+:Removed [[Inversion in a sphere]] (is a redirect to [[Inversive geometry]])
+:Removed [[Join (algebraic geometry)]] (is a redirect to [[Ruled join]])
+:Removed [[K-connectivity certificate]] 
+:Removed [[Karhunen–Loève theorem]] (is a redirect to [[Kosambi–Karhunen–Loève theorem]])
+:Removed [[L'Intermédiaire des Mathématiciens]] (is a redirect to [[L'Intermédiaire des mathématiciens]])
+:Removed [[Landau's constants]] (is a redirect to [[Bloch's theorem (complex variables)]])
+:Removed [[Latin letters used in mathematics]] (is a redirect to [[List of mathematical uses of Latin letters]])
+:Removed [[Limit point]] (is a redirect to [[Accumulation point]])
+:Removed [[Linear difference equation]] (is a redirect to [[Linear recurrence with constant coefficients]])
+:Removed [[Linear programming formulation]] (is a redirect to [[Linear programming]])
+:Removed [[Link (geometry)]] (is a redirect to [[Simplicial link]])
+:Removed [[List of Fields Medal winners by university affiliation]] 
+:Removed [[List of linear algebra topics]] (is a redirect to [[Outline of linear algebra]])
+:Removed [[List of numbers in various languages]] 
+:Removed [[List of perfect numbers]] (is a redirect to [[List of Mersenne primes and perfect numbers]])
+:Removed [[Locally regular space]] 
+:Removed [[Long and short scale]] (is a redirect to [[Long and short scales]])
+:Removed [[Loss of significance]] (is a redirect to [[Catastrophic cancellation]])
+:Removed [[MacMahon Master theorem]] (is a redirect to [[MacMahon's master theorem]])
+:Removed [[Mackey-Glass equations]] (is a redirect to [[Mackey–Glass equations]])
+:Removed [[Mathematical constants by continued fraction representation]] (is a redirect to [[List_of_mathematical_constants]])
+:Removed [[Mathematics in India]] (is a redirect to [[Indian mathematics]])
+:Removed [[Mathematics in medieval Islam]] (is a redirect to [[Mathematics in the medieval Islamic world]])
+:Removed [[Metric (mathematics)]] (is a redirect to [[metric space]])
+:Removed [[MgNet]] 
+:Removed [[Moser–De Bruijn sequence]] (is a redirect to [[Moser–de Bruijn sequence]])
+:Removed [[Multi-level technique]] (is a redirect to [[Graph partition]])
+:Removed [[Multiphysics]] (is a redirect to [[Multiphysics simulation]])
+:Removed [[N-connected space]] (is a redirect to [[Homotopical connectivity]])
+:Removed [[National Professional Science Master's Association]] (is a redirect to [[Professional Science Master's Degree]])
+:Removed [[NegaFibonacci coding]] (is a redirect to [[Negafibonacci coding]])
+:Removed [[Neighbourhood space]] (is a redirect to [[Topological space]])
+:Removed [[Nerve of a covering]] (is a redirect to [[Nerve complex]])
+:Removed [[Network operator matrix]] 
+:Removed [[NewPGen]] 
+:Removed [[Nine-dimensional space]] (is a redirect to [[Dimension]])
+:Removed [[Non-classical analysis]] (is a redirect to [[Mathematical analysis]])
+:Removed [[Nonlinear rescaling]] 
+:Removed [[One-form]] (is a redirect to [[One-form (differential geometry)]])
+:Removed [[Ordinal optimization]] (is a redirect to [[Mathematical optimization]])
+:Removed [[Oriented Point Relation Algebra]] 
+:Removed [[Orthogonal collocation]] (is a redirect to [[Collocation method]])
+:Removed [[Outer billiard]] (is a redirect to [[Outer billiards]])
+:Removed [[P-adic order]] (is a redirect to [[P-adic valuation]])
+:Removed [[PPGMAp]] (is a redirect to [[Federal University of Rio Grande do Sul]])
+:Removed [[Pencil (mathematics)]] (is a redirect to [[Pencil (geometry)]])
+:Removed [[Pentagonal pyramidal number]] (is a redirect to [[Pyramidal number]])
+:Removed [[Pentimal system]] (is a redirect to [[Quinary]])
+:Removed [[Plane wave expansion]] (is a redirect to [[Plane-wave expansion]])
+:Removed [[Platonic idealism]] (is a redirect to [[Platonic realism]])
+:Removed [[Polynomial arithmetic]] (is a redirect to [[Polynomial]])
+:Removed [[Polynomial basis]] (is a redirect to [[Monomial basis]])
+:Removed [[Positive and negative zero]] (is a redirect to [[Signed zero]])
+:Removed [[Prime integer topology]] (is a redirect to [[Arithmetic progression topologies]])
+:Removed [[Product ring]] (is a redirect to [[Product of rings]])
+:Removed [[Product σ-algebra]] (is a redirect to [[Σ-algebra]])
+:Removed [[Proofs involving covariant derivatives]] (is a redirect to [[Contracted Bianchi identities]])
+:Removed [[Proofs involving the Laplace–Beltrami operator]] 
+:Removed [[Proofs involving the Moore–Penrose inverse]] 
+:Removed [[Pseudo-random number sampling]] (is a redirect to [[Non-uniform random variate generation]])
+:Removed [[Puncturing]] (is a redirect to [[puncture]])
+:Removed [[Rayleigh's method of dimensional analysis]] (is a redirect to [[Dimensional analysis]])
+:Removed [[Real line]] (is a redirect to [[Number line]])
+:Removed [[Redmond–Sun conjecture]] 
+:Removed [[Regularization perspectives on support-vector machines]] (is a redirect to [[Regularization perspectives on support vector machines]])
+:Removed [[Reproducing kernel particle method]] (is a redirect to [[Meshfree methods]])
+:Removed [[Resolution inference]] (is a redirect to [[Resolution (logic)]])
+:Removed [[Ribbon theory]] (is a redirect to [[Ribbon (mathematics)]])
+:Removed [[Rithmomachy]] (is a redirect to [[Rithmomachia]])
+:Removed [[Robbins constant]] (is a redirect to [[Mean line segment length]])
+:Removed [[Route inspection problem]] (is a redirect to [[Chinese postman problem]])
+:Removed [[Rule of sum]] (is a redirect to [[Addition Principle]])
+:Removed [[S-plane]] (is a redirect to [[Laplace transform]])
+:Removed [[SO (complexity)]] (is a redirect to [[Descriptive complexity theory]])
+:Removed [[Sample (statistics)]] (is a redirect to [[Sampling (statistics)]])
+:Removed [[Schauder fixed point theorem]] 
+:Removed [[Schinzel circle]] (is a redirect to [[Schinzel's theorem]])
+:Removed [[School of One]] (is a redirect to [[Teach to One]])
+:Removed [[Segment addition postulate]] (is a redirect to [[triangle inequality]])
+:Removed [[Semantic Brand Score]] 
+:Removed [[Separable σ-algebra]] (is a redirect to [[Σ-algebra]])
+:Removed [[Si.427]] (is a redirect to [[Sippar]])
+:Removed [[Single-entry matrix]] (is a redirect to [[Matrix unit]])
+:Removed [[Six-petal rosette]] (is a redirect to [[Hexafoil]])
+:Removed [[Solution algorithms for pressure-velocity coupling in steady flows]] 
+:Removed [[Soundness (interactive proof)]] (is a redirect to [[Interactive proof system]])
+:Removed [[Sparse matrix-vector multiplication]] (is a redirect to [[Sparse matrix–vector multiplication]])
+:Removed [[Spatial complexity]] 
+:Removed [[Special affine group]] (is a redirect to [[affine group]])
+:Removed [[Spectral envelope]] (is a redirect to [[Spectral density]])
+:Removed [[Spinor field]] (is a redirect to [[Spinor bundle]])
+:Removed [[Stochastic neural network]] (is a redirect to [[Artificial_neural_network]])
+:Removed [[Subclass reachability]] (is a redirect to [[Concept class]])
+:Removed [[Summa (mathematics)]] 
+:Removed [[Super linear algebra]] (is a redirect to [[Super vector space]])
+:Removed [[TUM Department of Mathematics]] (is a redirect to [[TUM School of Computation, Information and Technology]])
+:Removed [[Tattvacintāmaṇi]] (is a redirect to [[Tattvachintamani]])
+:Removed [[Technology Innovations in Statistics Education]] (article deleted/does not exist)
+:Removed [[Term test]] (is a redirect to [[Nth-term test]])
+:Removed [[Topologically stratified space]] (is a redirect to [[Thom–Mather stratified space]])
+:Removed [[Torsion-free abelian groups of rank 1]] (is a redirect to [[Torsion-free abelian group]])
+:Removed [[Training, validation, and test sets]] (is a redirect to [[Training, validation, and test data sets]])
+:Removed [[Trichotomy (mathematics)]] (is a redirect to [[Law of trichotomy]])
+:Removed [[Trigonometric constants expressed in real radicals]] (is a redirect to [[Exact trigonometric values]])
+:Removed [[Trigonometric number]] (is a redirect to [[Exact trigonometric values]])
+:Removed [[Trillionth]] (is a redirect to [[Orders_of_magnitude_(numbers)]])
+:Removed [[Twists of curves]] (is a redirect to [[Twists of elliptic curves]])
+:Removed [[Two-dimensional space]] (is a redirect to [[Two-dimensional Euclidean space]])
+:Removed [[Type-1 Gumbel distribution]] (is a redirect to [[Gumbel distribution]])
+:Removed [[Unique prime number]] (is a redirect to [[Reciprocals of primes]])
+:Removed [[Veblen Research Instructorship]] (is a redirect to [[Oswald Veblen]])
+:Removed [[Veronese bellringing art]] (is a redirect to [[Veronese bell ringing]])
+:Removed [[Vogel-Fulcher-Tammann equation]] (is a redirect to [[Vogel–Fulcher–Tammann equation]])
+:Removed [[Weierstrass substitution]] (is a redirect to [[Tangent half-angle substitution]])
+:Removed [[Zentralblatt MATH]] (is a redirect to [[ZbMATH Open]])
+:Removed [[Zucker conjecture]] (is a redirect to [[L² cohomology]])
+:Removed [[Łukaszyk–Karmowski metric]] 
+:Added   [[+ h.c.]]
+:Added   [[1 − 1 + 2 − 6 + 24 − 120 + …]]
+:Added   [[1% rule]]
+:Added   [[1105 (number)]]
+:Added   [[142857]]
+:Added   [[2016 (number)]]
+:Added   [[24 (puzzle)]]
+:Added   [[262 (number)]]
+:Added   [[693 (number)]]
+:Added   [[97.5th percentile point]]
+:Added   [[Aaron Robertson (mathematician)]]
+:Added   [[Accumulation point]]
+:Added   [[Active Brownian particle]]
+:Added   [[Addition Principle]]
+:Added   [[Advances in Operator Theory]]
+:Added   [[Aevum]]
+:Added   [[Alekseev–Gröbner formula]]
+:Added   [[Algebraicity conjecture]]
+:Added   [[Alon–Saks–Seymour conjecture]]
+:Added   [[Alphabet (poetry collection)]]
+:Added   [[And-inverter graph]]
+:Added   [[Anderson function]]
+:Added   [[Annales Fennici Mathematici]]
+:Added   [[Apartness]]
+:Added   [[Applications of dual quaternions to 2D geometry]]
+:Added   [[Applications of sensitivity analysis to multi-criteria decision making]]
+:Added   [[Applied and Computational Harmonic Analysis]]
+:Added   [[Approximate fibration]]
+:Added   [[Arithmetic progression topologies]]
+:Added   [[Arithmetico-geometric sequence]]
+:Added   [[Assouad–Nagata dimension]]
+:Added   [[Automorphism of a Lie algebra]]
+:Added   [[Axiomatic foundations of topological spaces]]
+:Added   [[BRS-inequality]]
+:Added   [[Bayesian history matching]]
+:Added   [[Bayesian quadrature]]
+:Added   [[Behnke–Stein theorem on Stein manifolds]]
+:Added   [[Bekić's theorem]]
+:Added   [[Belgian Mathematical Society]]
+:Added   [[Bell-shaped function]]
+:Added   [[Bernoulli quadrisection problem]]
+:Added   [[Bernoulli umbra]]
+:Added   [[Berry–Tabor conjecture]]
+:Added   [[Beta-model]]
+:Added   [[Bicrossed product of Hopf algebra]]
+:Added   [[Biracks and biquandles]]
+:Added   [[Bird (mathematical artwork)]]
+:Added   [[Blow-up lemma]]
+:Added   [[Bochner–Riesz conjecture]]
+:Added   [[Bogolyubov Prize (NASU)]]
+:Added   [[Bohemian matrices]]
+:Added   [[Bretagnolle-Huber inequality]]
+:Added   [[Calculation of glass properties]]
+:Added   [[Calculus on Euclidean space]]
+:Added   [[Campbell's theorem (geometry)]]
+:Added   [[Capacitated Arc Routing Problem]]
+:Added   [[Carathéodory function]]
+:Added   [[Carry operator]]
+:Added   [[Catalan–Dickson conjecture]]
+:Added   [[Catalogue of Triangle Cubics]]
+:Added   [[Catch-22 (logic)]]
+:Added   [[Category of compactly generated weak Hausdorff spaces]]
+:Added   [[Cayley configuration space]]
+:Added   [[Cebuano numbers]]
+:Added   [[Center-pivot irrigation]]
+:Added   [[Centigrade (angle)]]
+:Added   [[Central triangle]]
+:Added   [[ChaCha20-Poly1305]]
+:Added   [[Chan–Karolyi–Longstaff–Sanders process]]
+:Added   [[Charpit method]]
+:Added   [[Chentsov's theorem]]
+:Added   [[Cherlin–Zilber conjecture]]
+:Added   [[Chialvo map]]
+:Added   [[Chinese postman problem]]
+:Added   [[Chord diagram (mathematics)]]
+:Added   [[Chronology of ancient Greek mathematicians]]
+:Added   [[Circumcevian triangle]]
+:Added   [[Clavis mathematicae]]
+:Added   [[Clemens conjecture]]
+:Added   [[Closed graph property]]
+:Added   [[Cluster prime]]
+:Added   [[Code property graph]]
+:Added   [[Cohomotopy set]]
+:Added   [[Colour refinement algorithm]]
+:Added   [[Common graph]]
+:Added   [[Commutation theorem for traces]]
+:Added   [[Complex conjugate of a vector space]]
+:Added   [[Complex hyperbolic space]]
+:Added   [[Complex inverse Wishart distribution]]
+:Added   [[Configuration linear program]]
+:Added   [[Congressional App Challenge]]
+:Added   [[Container method]]
+:Added   [[Continuity in probability]]
+:Added   [[Continuous poset]]
+:Added   [[Convergence proof techniques]]
+:Added   [[Convex cap]]
+:Added   [[Convolutional sparse coding]]
+:Added   [[Correlates of crime]]
+:Added   [[Correspondence theorem]]
+:Added   [[Counting lemma]]
+:Added   [[Crispin Wright]]
+:Added   [[Curious George (TV series)]]
+:Added   [[Curvature of Space and Time, with an Introduction to Geometric Analysis]]
+:Added   [[Cut point]]
+:Added   [[Cutwidth]]
+:Added   [[Danzer's configuration]]
+:Added   [[Data Analytics Library]]
+:Added   [[David Hume]]
+:Added   [[De Bruijn Factor]]
+:Added   [[Decomposition theorem of Beilinson, Bernstein and Deligne]]
+:Added   [[Dedekind-finite ring]]
+:Added   [[Dedekind–Kummer theorem]]
+:Added   [[Deterministic blockmodeling]]
+:Added   [[Diairesis]]
+:Added   [[Diamagnetic inequality]]
+:Added   [[Differentiable vector–valued functions from Euclidean space]]
+:Added   [[Diffusion model]]
+:Added   [[Discontinuities of monotone functions]]
+:Added   [[Discrete Fourier transform over a ring]]
+:Added   [[Division by infinity]]
+:Added   [[Domain-to-range ratio]]
+:Added   [[Donald Kreider]]
+:Added   [[Double bubble theorem]]
+:Added   [[Double group]]
+:Added   [[DragonflyTV]]
+:Added   [[Dynamic optimality conjecture]]
+:Added   [[Earth’s surface]]
+:Added   [[Eddington number]]
+:Added   [[Elementary effects method]]
+:Added   [[Epictetus]]
+:Added   [[Epsilon number]]
+:Added   [[Equisingularity]]
+:Added   [[Even number]]
+:Added   [[Exact trigonometric values]]
+:Added   [[Exhaustion by compact subsets]]
+:Added   [[Extrinsic Geometric Flows]]
+:Added   [[Eyeball theorem]]
+:Added   [[Faltings' annihilator theorem]]
+:Added   [[Feferman–Vaught theorem]]
+:Added   [[Fermi–Dirac prime]]
+:Added   [[Fetch! with Ruff Ruffman]]
+:Added   [[Feuerbach hyperbola]]
+:Added   [[Fibonacci scale (agile)]]
+:Added   [[Fibration of simplicial sets]]
+:Added   [[Filter (set theory)]]
+:Added   [[Final state conjecture]]
+:Added   [[Finite sphere packing]]
+:Added   [[Fixed-point logic]]
+:Added   [[Fixed-point theorems]]
+:Added   [[Flag algebra]]
+:Added   [[Forcing graph]]
+:Added   [[Fourier-transform infrared spectroscopy]]
+:Added   [[Fractal catalytic model]]
+:Added   [[Fractal physiology]]
+:Added   [[Francis Hutcheson (philosopher)]]
+:Added   [[Freethought]]
+:Added   [[Friedberg–Muchnik theorem]]
+:Added   [[Frobenius characteristic map]]
+:Added   [[Full-employment theorem]]
+:Added   [[Fully polynomial-time approximation scheme]]
+:Added   [[Fuzzy differential equation]]
+:Added   [[Fuzzy differential inclusion]]
+:Added   [[GCD matrix]]
+:Added   [[Gabriel's horn]]
+:Added   [[Galen]]
+:Added   [[Galois ring]]
+:Added   [[Gamas's Theorem]]
+:Added   [[Gauss separation algorithm]]
+:Added   [[Gaussian distribution on a locally compact Abelian group]]
+:Added   [[Geometric Shapes (Unicode block)]]
+:Added   [[Geometric algorithms]]
+:Added   [[Geometric logic]]
+:Added   [[Geometric rigidity]]
+:Added   [[Giambattista Vico]]
+:Added   [[Glossary of linear algebra]]
+:Added   [[Glossary of quantum computing]]
+:Added   [[Goodman's conjecture]]
+:Added   [[Goodman-Nguyen-Van Fraassen algebra]]
+:Added   [[Gore (fabrics)]]
+:Added   [[Gradient-enhanced kriging]]
+:Added   [[Graph flattenability]]
+:Added   [[Graph-structured stack]]
+:Added   [[Group analysis of differential equations]]
+:Added   [[Group-based cryptography]]
+:Added   [[Gurzadyan-Savvidy relaxation]]
+:Added   [[Gusset]]
+:Added   [[Gödel Lecture]]
+:Added   [[Halanay inequality]]
+:Added   [[Hans Reichenbach]]
+:Added   [[Hantzsche–Wendt manifold]]
+:Added   [[Hardy–Littlewood Tauberian theorem]]
+:Added   [[Hart circle]]
+:Added   [[Hawkes process]]
+:Added   [[Head injury criterion]]
+:Added   [[Heteroskedasticity-consistent standard errors]]
+:Added   [[HiGHS optimization solver]]
+:Added   [[Hockey stick graph]]
+:Added   [[Homoscedasticity and heteroscedasticity]]
+:Added   [[Homotopical connectivity]]
+:Added   [[Homotopy colimit and limit]]
+:Added   [[How Round Is Your Circle?]]
+:Added   [[Howell normal form]]
+:Added   [[Hybrid electric double layer]]
+:Added   [[Hyperface]]
+:Added   [[Hyperfactorial]]
+:Added   [[Hyperfinite equivalence relation]]
+:Added   [[Hypergraph regularity method]]
+:Added   [[I-adic topology]]
+:Added   [[IJP The Book of Surfaces]]
+:Added   [[Ibragimov–Iosifescu conjecture for φ-mixing sequences]]
+:Added   [[Ideal reduction]]
+:Added   [[Igon value]]
+:Added   [[Ilocano numbers]]
+:Added   [[Indicator function (complex analysis)]]
+:Added   [[Inference]]
+:Added   [[Info-metrics]]
+:Added   [[Integrated nested Laplace approximations]]
+:Added   [[Invariant decomposition]]
+:Added   [[Inverse function rule]]
+:Added   [[Inverse lithography]]
+:Added   [[Iñupiaq numerals]]
+:Added   [[J. L. Austin]]
+:Added   [[Jack (geometry)]]
+:Added   [[Jeans equations]]
+:Added   [[John L. Pollock]]
+:Added   [[Journal d'Analyse Mathématique]]
+:Added   [[JuMP]]
+:Added   [[K-stability of Fano varieties]]
+:Added   [[Kahn–Kalai conjecture]]
+:Added   [[Kaniadakis Erlang distribution]]
+:Added   [[Kaniadakis Gamma distribution]]
+:Added   [[Kaniadakis Gaussian distribution]]
+:Added   [[Kaniadakis Weibull distribution]]
+:Added   [[Kaniadakis distribution]]
+:Added   [[Kaniadakis exponential distribution]]
+:Added   [[Kaniadakis logistic distribution]]
+:Added   [[Kiepert conics]]
+:Added   [[Kinematics of the cuboctahedron]]
+:Added   [[Klein–Kramers equation]]
+:Added   [[Korkine–Zolotarev lattice basis reduction algorithm]]
+:Added   [[Kosambi–Karhunen–Loève theorem]]
+:Added   [[Kuratowski's intersection theorem]]
+:Added   [[L'Intermédiaire des mathématiciens]]
+:Added   [[Laakso space]]
+:Added   [[Laplace's approximation]]
+:Added   [[Large scale capacitated arc routing probem]]
+:Added   [[Largest small octagon]]
+:Added   [[Law of trichotomy]]
+:Added   [[Leimkuhler–Matthews method]]
+:Added   [[Lemniscate constant]]
+:Added   [[Lempel–Ziv complexity]]
+:Added   [[Lenstra–Pomerance–Wagstaff conjecture]]
+:Added   [[Lentz's algorithm]]
+:Added   [[Leray–Schauder degree]]
+:Added   [[Lewandowski-Kurowicka-Joe distribution]]
+:Added   [[Line of sight]]
+:Added   [[Linear arboricity conjecture]]
+:Added   [[Linear recurrence with constant coefficients]]
+:Added   [[List of Mersenne primes and perfect numbers]]
+:Added   [[List of Norwegian mathematicians]]
+:Added   [[List of largest known primes and probable primes]]
+:Added   [[List of mathematical uses of Latin letters]]
+:Added   [[List of things named after Georg Cantor]]
+:Added   [[List of things named after Henri Lebesgue]]
+:Added   [[List of things named after René Descartes]]
+:Added   [[List of window functions]]
+:Added   [[Local invariant cycle theorem]]
+:Added   [[Locally closed subset]]
+:Added   [[Log-t distribution]]
+:Added   [[Logarithmic spiral beach]]
+:Added   [[Logjam (computer security)]]
+:Added   [[Long and short scales]]
+:Added   [[Lunar arithmetic]]
+:Added   [[MINRES]]
+:Added   [[Mac Lane coherence theorem]]
+:Added   [[MacMahon's master theorem]]
+:Added   [[Macbeath region]]
+:Added   [[Mackey–Glass equations]]
+:Added   [[Magic angle]]
+:Added   [[Malta Mathematical Society]]
+:Added   [[Markov conjecture]]
+:Added   [[Marquois scales]]
+:Added   [[Mathemalchemy]]
+:Added   [[Mathematical Handbook for Scientists and Engineers]]
+:Added   [[Mathematics in India (book)]]
+:Added   [[Mathematics of the Incas]]
+:Added   [[Matrix factorization (algebra)]]
+:Added   [[Matroid-constrained number partitioning]]
+:Added   [[McCay cubic]]
+:Added   [[McDiarmid's inequality]]
+:Added   [[McShane integral]]
+:Added   [[McVittie metric]]
+:Added   [[Mean line segment length]]
+:Added   [[Metatheory]]
+:Added   [[Metric lattice]]
+:Added   [[Meyers–Serrin theorem]]
+:Added   [[Michael Dummett]]
+:Added   [[Midpoint theorem (conics)]]
+:Added   [[Miller's recurrence algorithm]]
+:Added   [[Mimetic interpolation]]
+:Added   [[Mirifici Logarithmorum Canonis Descriptio]]
+:Added   [[Mirror descent]]
+:Added   [[Mixed Chinese postman problem]]
+:Added   [[Mixed Poisson distribution]]
+:Added   [[Mixtilinear incircles of a triangle]]
+:Added   [[Modal collapse]]
+:Added   [[Model-theoretic grammar]]
+:Added   [[Modern triangle geometry]]
+:Added   [[Morphism of finite type]]
+:Added   [[Moser–de Bruijn sequence]]
+:Added   [[Mozi]]
+:Added   [[Multidimensional assignment problem]]
+:Added   [[Multiphysics simulation]]
+:Added   [[Multiplicative partitions of factorials]]
+:Added   [[Multiply transitive group action]]
+:Added   [[Multislice]]
+:Added   [[Münchhausen trilemma]]
+:Added   [[NLTS Conjecture]]
+:Added   [[Nash embedding theorems]]
+:Added   [[National Institute for Mathematical Sciences]]
+:Added   [[Negafibonacci coding]]
+:Added   [[Negative log predictive density]]
+:Added   [[Nerve complex]]
+:Added   [[Netto's theorem]]
+:Added   [[Neuberg cubic]]
+:Added   [[New Mersenne conjecture]]
+:Added   [[Nieuw Archief voor Wiskunde]]
+:Added   [[Non-linear mixed-effects modeling software]]
+:Added   [[Non-standard number]]
+:Added   [[Non-uniform random variate generation]]
+:Added   [[Noncommutative standard model]]
+:Added   [[Nori-semistable]]
+:Added   [[Nth-term test]]
+:Added   [[Oblique lattice]]
+:Added   [[Odd number]]
+:Added   [[One-form (differential geometry)]]
+:Added   [[Open set condition]]
+:Added   [[OpenPlaG]]
+:Added   [[Oper (mathematics)]]
+:Added   [[Opera Omnia Leonhard Euler]]
+:Added   [[Orders of magnitude (probability)]]
+:Added   [[Ordinal Priority Approach]]
+:Added   [[Ordinal date]]
+:Added   [[Oregonator]]
+:Added   [[Orthogonality (mathematics)]]
+:Added   [[Orthologic triangles]]
+:Added   [[Outer billiards]]
+:Added   [[Outline of linear algebra]]
+:Added   [[P-adic valuation]]
+:Added   [[Pairwise compatibility graph]]
+:Added   [[Part number]]
+:Added   [[Partition algebra]]
+:Added   [[Pasta by Design]]
+:Added   [[Path space (algebraic topology)]]
+:Added   [[Pencil (geometry)]]
+:Added   [[Pentadic numerals]]
+:Added   [[Permutoassociahedron]]
+:Added   [[Phase space crystals]]
+:Added   [[Phenotypic response surfaces]]
+:Added   [[Philosophical logic]]
+:Added   [[Plain hunt]]
+:Added   [[Plane-wave expansion]]
+:Added   [[Platonic realism]]
+:Added   [[Plotinus]]
+:Added   [[Polar factorization theorem]]
+:Added   [[Polygonalization]]
+:Added   [[Polynomials calculating sums of powers of arithmetic progressions]]
+:Added   [[Pontifex (project)]]
+:Added   [[Potentiality and actuality]]
+:Added   [[Prime graph]]
+:Added   [[Principles of Mathematical Analysis]]
+:Added   [[ProbLog]]
+:Added   [[Probabilistic numerics]]
+:Added   [[Probability of direction]]
+:Added   [[Problem Solving Through Recreational Mathematics]]
+:Added   [[Product of rings]]
+:Added   [[Proper integral]]
+:Added   [[Puncture (topology)]]
+:Added   [[Punctured code]]
+:Added   [[Q-ball]]
+:Added   [[Qallalin tiles]]
+:Added   [[Quasiconvexity (calculus of variations)]]
+:Added   [[Quasimorphism]]
+:Added   [[Quasirandom group]]
+:Added   [[Queen's graph]]
+:Added   [[Ramanujan's constant]]
+:Added   [[Ramsey-Turán theory]]
+:Added   [[Random polytope]]
+:Added   [[Rank-width]]
+:Added   [[Rational fideism]]
+:Added   [[Read's conjecture]]
+:Added   [[Reciprocals of primes]]
+:Added   [[Rectangular lattice]]
+:Added   [[Recurrent event analysis]]
+:Added   [[Recursive largest first algorithm]]
+:Added   [[Reducing subspace]]
+:Added   [[Reflection principle (Wiener process)]]
+:Added   [[Regge–Wheeler–Zerilli equations]]
+:Added   [[Regular open set]]
+:Added   [[Regularization perspectives on support vector machines]]
+:Added   [[Reilly formula]]
+:Added   [[Reverse-search algorithm]]
+:Added   [[Ricker model]]
+:Added   [[Rig category]]
+:Added   [[Rithmomachia]]
+:Added   [[Ruled join]]
+:Added   [[Ruler function]]
+:Added   [[Sarah-Marie Belcastro]]
+:Added   [[Schauder fixed-point theorem]]
+:Added   [[Schinzel's theorem]]
+:Added   [[Semantic theory of truth]]
+:Added   [[Semantics of logic]]
+:Added   [[Semistable reduction theorem]]
+:Added   [[Sensitivity analysis]]
+:Added   [[Separation oracle]]
+:Added   [[Sieve of Pritchard]]
+:Added   [[Silver's dichotomy]]
+:Added   [[Simple homotopy theory]]
+:Added   [[Simplicial link]]
+:Added   [[Slab (geometry)]]
+:Added   [[Sliver polygon]]
+:Added   [[Snow plow routing problem]]
+:Added   [[Sobolev mapping]]
+:Added   [[Socolar tiling]]
+:Added   [[Soddy line]]
+:Added   [[Sparse matrix–vector multiplication]]
+:Added   [[Sparsity matroid]]
+:Added   [[Spectral dimension]]
+:Added   [[Spectral submanifold]]
+:Added   [[Splittance]]
+:Added   [[Square root of 6]]
+:Added   [[Square root of 7]]
+:Added   [[Stability (algebraic geometry)]]
+:Added   [[Stability of matter]]
+:Added   [[Stationary increments]]
+:Added   [[Statistical associating fluid theory]]
+:Added   [[Statistical shape analysis]]
+:Added   [[Stephen Childress]]
+:Added   [[Stochastic variance reduction]]
+:Added   [[Stratified space]]
+:Added   [[Subgroup distortion]]
+:Added   [[Suita conjecture]]
+:Added   [[Sum of four cubes problem]]
+:Added   [[Superfactorial]]
+:Added   [[Suppressor variable]]
+:Added   [[Surgery in ancient Rome]]
+:Added   [[Susan Haack]]
+:Added   [[Symmetry (journal)]]
+:Added   [[System of bilinear equations]]
+:Added   [[System of parameters]]
+:Added   [[TUM School of Computation, Information and Technology]]
+:Added   [[Tame topology]]
+:Added   [[Tangent half-angle substitution]]
+:Added   [[Tattvachintamani]]
+:Added   [[Taylor–von Neumann–Sedov blast wave]]
+:Added   [[Tensor bundle]]
+:Added   [[The Cube Made Interesting]]
+:Added   [[The Geometry of the Octonions]]
+:Added   [[The Indispensability of Mathematics]]
+:Added   [[The Man Who Knew Infinity (book)]]
+:Added   [[The Prime Radicals]]
+:Added   [[Theories of iterated inductive definitions]]
+:Added   [[Theory of forms]]
+:Added   [[Thom's first isotopy lemma]]
+:Added   [[Thom's second isotopy lemma]]
+:Added   [[Thomas–Yau conjecture]]
+:Added   [[Thom–Mather stratified space]]
+:Added   [[Thom–Sebastiani Theorem]]
+:Added   [[Tire model]]
+:Added   [[Training, validation, and test data sets]]
+:Added   [[Transport theorem]]
+:Added   [[Transpositions matrix]]
+:Added   [[Trends in International Mathematics and Science Study]]
+:Added   [[Triangle conic]]
+:Added   [[Triangle of partition numbers]]
+:Added   [[Triangulation sensing]]
+:Added   [[Tribovoltaic effect]]
+:Added   [[Trifocal tensor]]
+:Added   [[Truth predicate]]
+:Added   [[Truth-value semantics]]
+:Added   [[Twin-width]]
+:Added   [[Twists of elliptic curves]]
+:Added   [[Two-dimensional Euclidean space]]
+:Added   [[Ultrapolynomial]]
+:Added   [[Unfriendly partition]]
+:Added   [[Unicity conjecture]]
+:Added   [[Uniformity conjecture]]
+:Added   [[Variance-based sensitivity analysis]]
+:Added   [[Veronese bell ringing]]
+:Added   [[Version (probability theory)]]
+:Added   [[Vincent's theorem]]
+:Added   [[Vogel–Fulcher–Tammann equation]]
+:Added   [[Von Neumann's elephant]]
+:Added   [[Wang algebra]]
+:Added   [[Waring's conjecture]]
+:Added   [[Water Protection Zone]]
+:Added   [[Weak component]]
+:Added   [[Weak gravity conjecture]]
+:Added   [[Weihrauch reducibility]]
+:Added   [[Weyl's inequality (number theory)]]
+:Added   [[Will (philosophy)]]
+:Added   [[Wilson matrix]]
+:Added   [[Workshop on Geometric Methods in Physics]]
+:Added   [[Ximera]]
+:Added   [[ZFK equation]]
+:Added   [[Zauner's conjecture]]
+:Added   [[ZbMATH Open]]
+:Added   [[Zeldovich–Taylor flow]]
+:Added   [[Zeno of Citium]]
+:Added   [[Zero stability]]
+:Added   [[Zilber-Pink conjecture]]
+:Added   [[Zone theorem]]
+:Added   [[Élie Cartan Prize]]
+----
+: Mathematicians:added   [[Anton Karl Grünwald]]
+
 == October 13, 2021 ==
 
 :Added   [[List of institutions awarding Bachelor of Mathematics degrees]]
@@ -308,11 +1070,4 @@
 : Mathematicians:added   [[Cheon, Jung Hee]]
 : Mathematicians:added   [[Ernest Nagel]]
 : Mathematicians:added   [[Rafe Mazzeo]]
-
-== September 6, 2021 ==
-
-:Added   [[Essence]]
-:Added   [[Hydra game]]
-----
-: Mathematicians:added   [[Nežka Mramor-Kosta]]
 
