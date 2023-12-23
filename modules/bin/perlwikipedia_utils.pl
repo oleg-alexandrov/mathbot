@@ -280,10 +280,10 @@ sub wikipedia_submit {
     
     eval {
       
-      if ($counter == 1){
-	print "Submitting $article. <br>\n";
-      }else{
-	print "Submitting $article. Attempt: $counter. <br>\n";
+      if ($counter == 1) {
+        print "Submitting $article. <br>\n";
+      } else {
+        print "Submitting $article. Attempt: $counter. <br>\n";
       }
       
       # Save the text on disk  
