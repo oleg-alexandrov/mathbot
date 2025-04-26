@@ -3,6 +3,7 @@ The only active bot action is nowadays updating Wikipedia:Articles_for_deletion/
 The logic for that is in the "afd" subdirectory.
 
 The tool is hosted at https://toolsadmin.wikimedia.org/tools/id/mathbot.
+More info on this bot is at: https://en.wikipedia.org/wiki/User:Mathbot.
 
 The directory 'modules' contains some general purpose routines used by
 mathbot in its work. 
